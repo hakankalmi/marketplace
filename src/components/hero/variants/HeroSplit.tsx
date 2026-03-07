@@ -1,25 +1,20 @@
 'use client';
 
-import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { motion } from 'framer-motion';
-import { Search, MapPin, Star, Shield, Clock, CheckCircle } from 'lucide-react';
+import { Search, Star, Shield, Clock, CheckCircle } from 'lucide-react';
 import { useBrand } from '@/lib/brand/context';
 import { Button } from '@/components/ui/button';
 import { slugify } from '@/lib/utils';
+import { CityAutocomplete } from '@/components/search/CityAutocomplete';
+import type { LocationItem } from '@/lib/turkey-locations';
 
 export function HeroSplit() {
   const theme = useBrand();
   const router = useRouter();
-  const [cityInput, setCityInput] = useState('');
 
-  const handleSearch = () => {
-    const trimmed = cityInput.trim();
-    if (trimmed) {
-      router.push(`/${slugify(trimmed)}/hali-yikama`);
-    } else {
-      router.push('/firmalar');
-    }
+  const handleCitySelect = (item: LocationItem) => {
+    router.push(`/${slugify(item.city)}/hali-yikama`);
   };
 
   return (
@@ -74,27 +69,18 @@ export function HeroSplit() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3, duration: 0.5 }}
             >
-              <div className="relative flex-1">
-                <MapPin
-                  size={18}
-                  className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400"
-                />
-                <input
-                  type="text"
-                  value={cityInput}
-                  onChange={(e) => setCityInput(e.target.value)}
-                  onKeyDown={(e) => e.key === 'Enter' && handleSearch()}
-                  placeholder="Şehir yazın... (ör: Malatya)"
-                  className="w-full pl-11 pr-4 py-4 bg-white border-0 rounded-xl text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-white/30 shadow-lg text-base"
-                />
-              </div>
+              <CityAutocomplete
+                onSelect={handleCitySelect}
+                placeholder="Şehir veya ilçe ara..."
+                className="flex-1"
+              />
               <Button
                 size="lg"
-                onClick={handleSearch}
+                onClick={() => router.push('/firmalar')}
                 className="w-full sm:w-auto !bg-white !text-gray-900 hover:!bg-gray-100 !shadow-lg !py-4 !text-base !font-semibold"
               >
                 <Search size={18} />
-                Firma Ara
+                Tüm Firmalar
               </Button>
             </motion.div>
 
