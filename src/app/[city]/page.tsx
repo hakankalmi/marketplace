@@ -258,8 +258,9 @@ export default async function CityPage({
               {cityData.city} Hizmet Firmaları
             </h1>
             <p className="mt-4 text-lg text-brand-text-muted max-w-2xl mx-auto">
-              {cityData.city} şehrinde {cityData.companyCount} firma ile hizmetinizdeyiz.
-              En iyi firmaları karşılaştırın, tek tıkla sipariş verin.
+              {companies.length > 0
+                ? `${cityData.city} şehrinde ${companies.length} firma ile hizmetinizdeyiz. En iyi firmaları karşılaştırın, tek tıkla sipariş verin.`
+                : `${cityData.city} şehrinde yakında firmalar eklenecek.`}
             </p>
           </div>
         </section>
