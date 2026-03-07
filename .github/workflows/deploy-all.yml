@@ -2,7 +2,7 @@ name: Deploy All Brands
 
 on:
   push:
-    branches: [main]
+    branches: [master]
 
 env:
   SERVER_IP: 37.27.203.254
@@ -35,15 +35,22 @@ jobs:
           NEXT_PUBLIC_BRAND_CODE: ${{ matrix.brand }}
           NEXT_PUBLIC_API_URL: https://api.protakip.com
 
+      - name: Prepare standalone package
+        run: |
+          mkdir -p deploy
+          cp -r .next/standalone/. deploy/
+          cp -r .next/static deploy/.next/static
+          cp -r public deploy/public
+
       - name: Deploy to server
         uses: appleboy/scp-action@v0.1.7
         with:
           host: ${{ env.SERVER_IP }}
           username: root
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-          source: '.next/standalone/,.next/static/,public/,node_modules/.bin/next'
+          source: 'deploy/'
           target: '${{ env.DEPLOY_PATH }}/builds/${{ matrix.brand }}'
-          strip_components: 0
+          strip_components: 1
 
       - name: Restart PM2
         uses: appleboy/ssh-action@v1
@@ -52,8 +59,6 @@ jobs:
           username: root
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            cd ${{ env.DEPLOY_PATH }}
-            cp -r builds/${{ matrix.brand }}/.next/static builds/${{ matrix.brand }}/.next/standalone/.next/
-            cp -r builds/${{ matrix.brand }}/public builds/${{ matrix.brand }}/.next/standalone/
-            pm2 restart mp-${{ matrix.brand }} || pm2 start ecosystem.config.js --only mp-${{ matrix.brand }}
+            pm2 restart mp-${{ matrix.brand }} || \
+              cd ${{ env.DEPLOY_PATH }} && pm2 start ecosystem.config.js --only mp-${{ matrix.brand }}
             pm2 save

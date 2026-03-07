@@ -32,15 +32,22 @@ jobs:
           NEXT_PUBLIC_BRAND_CODE: ${{ inputs.brand }}
           NEXT_PUBLIC_API_URL: https://api.protakip.com
 
+      - name: Prepare standalone package
+        run: |
+          mkdir -p deploy
+          cp -r .next/standalone/. deploy/
+          cp -r .next/static deploy/.next/static
+          cp -r public deploy/public
+
       - name: Deploy to server
         uses: appleboy/scp-action@v0.1.7
         with:
           host: ${{ env.SERVER_IP }}
           username: root
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-          source: '.next/standalone/,.next/static/,public/,node_modules/.bin/next'
+          source: 'deploy/'
           target: '${{ env.DEPLOY_PATH }}/builds/${{ inputs.brand }}'
-          strip_components: 0
+          strip_components: 1
 
       - name: Restart PM2 process
         uses: appleboy/ssh-action@v1
@@ -49,10 +56,6 @@ jobs:
           username: root
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            cd ${{ env.DEPLOY_PATH }}
-            # Copy static files into standalone
-            cp -r builds/${{ inputs.brand }}/.next/static builds/${{ inputs.brand }}/.next/standalone/.next/
-            cp -r builds/${{ inputs.brand }}/public builds/${{ inputs.brand }}/.next/standalone/
-            # Restart the PM2 process
-            pm2 restart mp-${{ inputs.brand }} || pm2 start ecosystem.config.js --only mp-${{ inputs.brand }}
+            pm2 restart mp-${{ inputs.brand }} || \
+              cd ${{ env.DEPLOY_PATH }} && pm2 start ecosystem.config.js --only mp-${{ inputs.brand }}
             pm2 save
