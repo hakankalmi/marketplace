@@ -11,14 +11,8 @@ export type MarketplacePaymentMethod = 'CashOnDelivery' | 'Online';
 
 export type ProductUnitType = 'SquareMeter' | 'Piece' | 'Kilogram' | 'Meter';
 
-export type MarketplaceProductCategory =
-  | 'CarpetCleaning'
-  | 'UpholsteryCleaning'
-  | 'HomeTextileCleaning'
-  | 'CurtainCleaning'
-  | 'MattressCleaning'
-  | 'AdditionalServices'
-  | 'GeneralCleaning';
+/** Integer enum matching Brain.Api.Domain.MarketplaceProductCategory */
+export type MarketplaceProductCategory = 1 | 2 | 3 | 4 | 5 | 6 | 7;
 
 /* ───── Paginated Response ───── */
 
@@ -104,11 +98,11 @@ export interface CompanyDetailDto {
 }
 
 export interface ProductDto {
-  id: number;
+  productId: number;
   productName: string;
-  unitType: ProductUnitType;
+  unitType: number;
   unitPrice: number;
-  currency: string;
+  currency?: string;
   isActive: boolean;
   marketplaceCategory: MarketplaceProductCategory | null;
 }

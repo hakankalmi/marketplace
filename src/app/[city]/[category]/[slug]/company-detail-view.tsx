@@ -25,33 +25,26 @@ import { StarRating } from '@/components/ui/star-rating';
 import { formatCurrency, formatDate, toTitleCase, getCategoryDisplayName } from '@/lib/utils';
 import type { CompanyDetailDto, ProductDto, MarketplaceProductCategory } from '@/lib/api/types';
 
-/* ── Category display config ── */
+/* ── Category display config (integer keys matching backend enum) ── */
 const categoryConfig: Record<MarketplaceProductCategory, { label: string; icon: string }> = {
-  CarpetCleaning: { label: 'Halı Yıkama', icon: '🧶' },
-  UpholsteryCleaning: { label: 'Koltuk Yıkama', icon: '🛋️' },
-  HomeTextileCleaning: { label: 'Ev Tekstil Yıkama', icon: '🧺' },
-  CurtainCleaning: { label: 'Perde Yıkama', icon: '🪟' },
-  MattressCleaning: { label: 'Yatak Yıkama', icon: '🛏️' },
-  AdditionalServices: { label: 'Ek Hizmetler', icon: '✨' },
-  GeneralCleaning: { label: 'Genel Temizlik', icon: '🧹' },
+  1: { label: 'Halı Yıkama', icon: '🧶' },
+  2: { label: 'Koltuk Yıkama', icon: '🛋️' },
+  3: { label: 'Ev Tekstil Yıkama', icon: '🧺' },
+  4: { label: 'Perde Yıkama', icon: '🪟' },
+  5: { label: 'Yatak Yıkama', icon: '🛏️' },
+  6: { label: 'Ek Hizmetler', icon: '✨' },
+  7: { label: 'Genel Temizlik', icon: '🧹' },
 };
 
-const categoryOrder: MarketplaceProductCategory[] = [
-  'CarpetCleaning',
-  'UpholsteryCleaning',
-  'HomeTextileCleaning',
-  'CurtainCleaning',
-  'MattressCleaning',
-  'GeneralCleaning',
-  'AdditionalServices',
-];
+const categoryOrder: MarketplaceProductCategory[] = [1, 2, 3, 4, 5, 7, 6];
 
-function getUnitLabel(unitType: string): string {
+function getUnitLabel(unitType: number | string): string {
   switch (unitType) {
-    case 'SquareMeter': return 'm²';
-    case 'Piece': return 'adet';
-    case 'Kilogram': return 'kg';
-    case 'Meter': return 'm';
+    case 0: case 'SquareMeter': return 'm²';
+    case 1: case 'Piece': return 'adet';
+    case 2: case 'Kilogram': return 'kg';
+    case 3: case 'Meter': return 'm';
+    case 4: return 'parça';
     default: return 'adet';
   }
 }
@@ -73,7 +66,7 @@ function groupProductsByCategory(products: ProductDto[]) {
     const items = grouped.get(cat);
     if (items && items.length > 0) {
       const cfg = categoryConfig[cat];
-      sorted.push({ key: cat, label: cfg.label, icon: cfg.icon, products: items });
+      sorted.push({ key: String(cat), label: cfg.label, icon: cfg.icon, products: items });
     }
   }
 
@@ -282,7 +275,7 @@ export function CompanyDetailView({ company, city, category }: Props) {
                     <div className="divide-y divide-brand-border">
                       {group.products.map((product) => (
                         <div
-                          key={product.id}
+                          key={product.productId}
                           className="flex items-center justify-between px-4 py-3 hover:bg-brand-surface-hover transition-colors"
                         >
                           <span className="text-sm text-brand-text">

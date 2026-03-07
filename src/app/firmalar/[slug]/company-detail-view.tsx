@@ -180,7 +180,7 @@ export function CompanyDetailView({ company }: Props) {
                       .filter((p) => p.isActive)
                       .map((product) => (
                         <tr
-                          key={product.id}
+                          key={product.productId}
                           className="border-t border-brand-border hover:bg-brand-surface-hover transition-colors"
                         >
                           <td className="px-4 py-3 text-brand-text">
@@ -189,7 +189,7 @@ export function CompanyDetailView({ company }: Props) {
                           <td className="px-4 py-3 text-right font-medium text-brand-text">
                             {formatCurrency(product.unitPrice)}
                             <span className="text-brand-text-muted font-normal text-xs ml-1">
-                              / {product.unitType === 'SquareMeter' ? 'm²' : product.unitType === 'Piece' ? 'adet' : product.unitType === 'Kilogram' ? 'kg' : 'm'}
+                              / {product.unitType === 0 ? 'm²' : product.unitType === 1 ? 'adet' : product.unitType === 2 ? 'kg' : 'm'}
                             </span>
                           </td>
                         </tr>
