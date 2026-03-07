@@ -1,13 +1,26 @@
 'use client';
 
+import { useState } from 'react';
+import { useRouter } from 'next/navigation';
 import { motion } from 'framer-motion';
 import { Search, MapPin, Star, Shield, Clock, CheckCircle } from 'lucide-react';
-import Link from 'next/link';
 import { useBrand } from '@/lib/brand/context';
 import { Button } from '@/components/ui/button';
+import { slugify } from '@/lib/utils';
 
 export function HeroSplit() {
   const theme = useBrand();
+  const router = useRouter();
+  const [cityInput, setCityInput] = useState('');
+
+  const handleSearch = () => {
+    const trimmed = cityInput.trim();
+    if (trimmed) {
+      router.push(`/${slugify(trimmed)}/hali-yikama`);
+    } else {
+      router.push('/firmalar');
+    }
+  };
 
   return (
     <section
@@ -68,19 +81,21 @@ export function HeroSplit() {
                 />
                 <input
                   type="text"
-                  placeholder="Şehir seçin..."
+                  value={cityInput}
+                  onChange={(e) => setCityInput(e.target.value)}
+                  onKeyDown={(e) => e.key === 'Enter' && handleSearch()}
+                  placeholder="Şehir yazın... (ör: Malatya)"
                   className="w-full pl-11 pr-4 py-4 bg-white border-0 rounded-xl text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-white/30 shadow-lg text-base"
                 />
               </div>
-              <Link href="/firmalar">
-                <Button
-                  size="lg"
-                  className="w-full sm:w-auto !bg-white !text-gray-900 hover:!bg-gray-100 !shadow-lg !py-4 !text-base !font-semibold"
-                >
-                  <Search size={18} />
-                  Firma Ara
-                </Button>
-              </Link>
+              <Button
+                size="lg"
+                onClick={handleSearch}
+                className="w-full sm:w-auto !bg-white !text-gray-900 hover:!bg-gray-100 !shadow-lg !py-4 !text-base !font-semibold"
+              >
+                <Search size={18} />
+                Firma Ara
+              </Button>
             </motion.div>
 
             {/* Güven Sayaçları */}

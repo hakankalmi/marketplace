@@ -128,7 +128,7 @@ export default async function CityLandingPage({
                 </div>
 
                 <div className="text-center mt-10">
-                  <Link href={`/firmalar?city=${encodeURIComponent(cityData.city)}`}>
+                  <Link href={`/${slug}/hali-yikama`}>
                     <Button variant="outline">
                       Tüm {cityData.city} Firmalarını Gör
                       <ArrowRight size={16} />
