@@ -67,7 +67,12 @@ async function getCities(): Promise<CityDto[]> {
       next: { revalidate: 3600 },
     });
     if (!res.ok) return [];
-    return res.json();
+    const data = await res.json();
+    // API string[] veya CityDto[] dönebilir — normalize et
+    if (Array.isArray(data) && data.length > 0 && typeof data[0] === 'string') {
+      return (data as string[]).map((city) => ({ city, companyCount: 0 }));
+    }
+    return data;
   } catch {
     return [];
   }

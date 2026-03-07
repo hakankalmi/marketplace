@@ -59,5 +59,10 @@ export async function getCategories(): Promise<CategoryResponseDto[]> {
 }
 
 export async function getCities(): Promise<CityDto[]> {
-  return api.get('/api/mp/cities');
+  const data = await api.get<CityDto[] | string[]>('/api/mp/cities');
+  // API string[] veya CityDto[] dönebilir — normalize et
+  if (Array.isArray(data) && data.length > 0 && typeof data[0] === 'string') {
+    return (data as string[]).map((city) => ({ city, companyCount: 0 }));
+  }
+  return data as CityDto[];
 }
