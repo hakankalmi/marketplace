@@ -8,7 +8,7 @@ export function Footer() {
   const theme = useBrand();
 
   const links = [
-    { label: 'Firmalar', href: '/firmalar' },
+    { label: 'Halı Yıkama Firmaları', href: '/turkiye/hali-yikama' },
     { label: 'Hakkımızda', href: '/hakkimizda' },
     { label: 'Gizlilik', href: '/gizlilik' },
     { label: 'Kullanım Koşulları', href: '/kullanim-kosullari' },
