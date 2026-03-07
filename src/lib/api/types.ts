@@ -11,6 +11,14 @@ export type MarketplacePaymentMethod = 'CashOnDelivery' | 'Online';
 
 export type ProductUnitType = 'SquareMeter' | 'Piece' | 'Kilogram' | 'Meter';
 
+export type MarketplaceProductCategory =
+  | 'CarpetCleaning'
+  | 'UpholsteryCleaning'
+  | 'HomeTextileCleaning'
+  | 'CurtainCleaning'
+  | 'MattressCleaning'
+  | 'AdditionalServices';
+
 /* ───── Paginated Response ───── */
 
 export interface PaginatedResponse<T> {
@@ -101,6 +109,7 @@ export interface ProductDto {
   unitPrice: number;
   currency: string;
   isActive: boolean;
+  marketplaceCategory: MarketplaceProductCategory | null;
 }
 
 export interface ReviewDto {

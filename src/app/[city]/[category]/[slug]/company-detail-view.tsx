@@ -8,19 +8,83 @@ import {
   Star,
   MapPin,
   Clock,
-  Phone,
   CheckCircle,
   ChevronLeft,
   ChevronRight,
   X,
   BadgeCheck,
   MessageSquareReply,
+  ShieldCheck,
+  Truck,
+  CreditCard,
+  Sparkles,
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { StarRating } from '@/components/ui/star-rating';
 import { formatCurrency, formatDate, toTitleCase, getCategoryDisplayName } from '@/lib/utils';
-import type { CompanyDetailDto } from '@/lib/api/types';
+import type { CompanyDetailDto, ProductDto, MarketplaceProductCategory } from '@/lib/api/types';
+
+/* ── Category display config ── */
+const categoryConfig: Record<MarketplaceProductCategory, { label: string; icon: string }> = {
+  CarpetCleaning: { label: 'Halı Yıkama', icon: '🧶' },
+  UpholsteryCleaning: { label: 'Koltuk Yıkama', icon: '🛋️' },
+  HomeTextileCleaning: { label: 'Ev Tekstil Yıkama', icon: '🧺' },
+  CurtainCleaning: { label: 'Perde Yıkama', icon: '🪟' },
+  MattressCleaning: { label: 'Yatak Yıkama', icon: '🛏️' },
+  AdditionalServices: { label: 'Ek Hizmetler', icon: '✨' },
+};
+
+const categoryOrder: MarketplaceProductCategory[] = [
+  'CarpetCleaning',
+  'UpholsteryCleaning',
+  'HomeTextileCleaning',
+  'CurtainCleaning',
+  'MattressCleaning',
+  'AdditionalServices',
+];
+
+function getUnitLabel(unitType: string): string {
+  switch (unitType) {
+    case 'SquareMeter': return 'm²';
+    case 'Piece': return 'adet';
+    case 'Kilogram': return 'kg';
+    case 'Meter': return 'm';
+    default: return 'adet';
+  }
+}
+
+function groupProductsByCategory(products: ProductDto[]) {
+  const active = products.filter(p => p.isActive);
+  const grouped = new Map<MarketplaceProductCategory | 'uncategorized', ProductDto[]>();
+
+  for (const product of active) {
+    const key = product.marketplaceCategory || 'uncategorized';
+    if (!grouped.has(key)) grouped.set(key, []);
+    grouped.get(key)!.push(product);
+  }
+
+  // Sort by predefined order
+  const sorted: { key: string; label: string; icon: string; products: ProductDto[] }[] = [];
+
+  for (const cat of categoryOrder) {
+    const items = grouped.get(cat);
+    if (items && items.length > 0) {
+      const cfg = categoryConfig[cat];
+      sorted.push({ key: cat, label: cfg.label, icon: cfg.icon, products: items });
+    }
+  }
+
+  // Uncategorized at end
+  const uncategorized = grouped.get('uncategorized');
+  if (uncategorized && uncategorized.length > 0) {
+    sorted.push({ key: 'uncategorized', label: 'Diğer Hizmetler', icon: '📋', products: uncategorized });
+  }
+
+  return sorted;
+}
+
+/* ── Component ── */
 
 interface Props {
   company: CompanyDetailDto;
@@ -31,6 +95,8 @@ interface Props {
 export function CompanyDetailView({ company, city, category }: Props) {
   const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
   const photos = company.photoUrls || [];
+  const productGroups = groupProductsByCategory(company.products);
+  const hasProducts = productGroups.length > 0;
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
@@ -179,53 +245,64 @@ export function CompanyDetailView({ company, city, category }: Props) {
             </motion.div>
           )}
 
-          {/* Fiyat Listesi */}
-          {company.products.length > 0 && (
+          {/* Fiyat Listesi — Kategorize */}
+          {hasProducts && (
             <motion.div
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 }}
             >
-              <h2 className="text-lg font-heading font-semibold text-brand-text mb-3">
+              <h2 className="text-lg font-heading font-semibold text-brand-text mb-4">
                 Fiyat Listesi
               </h2>
-              <div className="bg-brand-surface rounded-brand border border-brand-border overflow-hidden">
-                <table className="w-full text-sm">
-                  <thead>
-                    <tr className="bg-brand-surface-hover">
-                      <th className="text-left px-4 py-3 text-brand-text-muted font-medium">
-                        Hizmet
-                      </th>
-                      <th className="text-right px-4 py-3 text-brand-text-muted font-medium">
-                        Fiyat
-                      </th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {company.products
-                      .filter((p) => p.isActive)
-                      .map((product) => (
-                        <tr
+
+              <div className="space-y-4">
+                {productGroups.map((group, gi) => (
+                  <motion.div
+                    key={group.key}
+                    initial={{ opacity: 0, y: 10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.25 + gi * 0.05 }}
+                    className="bg-brand-surface rounded-brand border border-brand-border overflow-hidden"
+                  >
+                    {/* Category Header */}
+                    <div className="flex items-center gap-3 px-4 py-3 bg-brand-primary/5 border-b border-brand-border">
+                      <span className="text-lg">{group.icon}</span>
+                      <h3 className="font-heading font-semibold text-brand-text text-sm">
+                        {group.label}
+                      </h3>
+                      <span className="ml-auto text-xs text-brand-text-muted bg-brand-border/50 px-2 py-0.5 rounded-full">
+                        {group.products.length} hizmet
+                      </span>
+                    </div>
+
+                    {/* Products */}
+                    <div className="divide-y divide-brand-border">
+                      {group.products.map((product) => (
+                        <div
                           key={product.id}
-                          className="border-t border-brand-border hover:bg-brand-surface-hover transition-colors"
+                          className="flex items-center justify-between px-4 py-3 hover:bg-brand-surface-hover transition-colors"
                         >
-                          <td className="px-4 py-3 text-brand-text">
+                          <span className="text-sm text-brand-text">
                             {product.productName}
-                          </td>
-                          <td className="px-4 py-3 text-right font-medium text-brand-text">
+                          </span>
+                          <span className="text-sm font-semibold text-brand-primary whitespace-nowrap ml-4">
                             {formatCurrency(product.unitPrice)}
                             <span className="text-brand-text-muted font-normal text-xs ml-1">
-                              / {product.unitType === 'SquareMeter' ? 'm²' : product.unitType === 'Piece' ? 'adet' : product.unitType === 'Kilogram' ? 'kg' : 'm'}
+                              / {getUnitLabel(product.unitType)}
                             </span>
-                          </td>
-                        </tr>
+                          </span>
+                        </div>
                       ))}
-                  </tbody>
-                </table>
+                    </div>
+                  </motion.div>
+                ))}
               </div>
+
               {company.minimumOrderAmount > 0 && (
-                <p className="mt-2 text-sm text-brand-text-muted">
-                  Minimum sipariş tutarı: {formatCurrency(company.minimumOrderAmount)}
+                <p className="mt-3 text-sm text-brand-text-muted flex items-center gap-1.5">
+                  <Sparkles size={14} className="text-brand-primary" />
+                  Minimum sipariş tutarı: <strong>{formatCurrency(company.minimumOrderAmount)}</strong>
                 </p>
               )}
             </motion.div>
@@ -384,7 +461,7 @@ export function CompanyDetailView({ company, city, category }: Props) {
 
         {/* Sağ: Sidebar — Sipariş CTA */}
         <div className="lg:col-span-1">
-          <div className="sticky top-20">
+          <div className="sticky top-20 space-y-4">
             <motion.div
               className="p-6 bg-brand-surface rounded-brand border border-brand-border"
               initial={{ opacity: 0, x: 20 }}
@@ -396,51 +473,78 @@ export function CompanyDetailView({ company, city, category }: Props) {
               </h3>
 
               <div className="space-y-3 mb-6">
-                <div className="flex items-center gap-2 text-sm text-brand-text-muted">
-                  <CheckCircle size={16} className="text-brand-success shrink-0" />
-                  <span>Hızlı ve güvenilir hizmet</span>
+                <div className="flex items-center gap-2.5 text-sm text-brand-text-muted">
+                  <div className="w-8 h-8 rounded-full bg-green-500/10 flex items-center justify-center shrink-0">
+                    <ShieldCheck size={16} className="text-green-600" />
+                  </div>
+                  <span>Güvenli ve sigortalı hizmet</span>
                 </div>
-                <div className="flex items-center gap-2 text-sm text-brand-text-muted">
-                  <CheckCircle size={16} className="text-brand-success shrink-0" />
-                  <span>Kapıda ödeme imkanı</span>
+                <div className="flex items-center gap-2.5 text-sm text-brand-text-muted">
+                  <div className="w-8 h-8 rounded-full bg-blue-500/10 flex items-center justify-center shrink-0">
+                    <Truck size={16} className="text-blue-600" />
+                  </div>
+                  <span>Ücretsiz teslim alma ve bırakma</span>
                 </div>
-                <div className="flex items-center gap-2 text-sm text-brand-text-muted">
-                  <CheckCircle size={16} className="text-brand-success shrink-0" />
-                  <span>Ücretsiz teslim alma</span>
+                <div className="flex items-center gap-2.5 text-sm text-brand-text-muted">
+                  <div className="w-8 h-8 rounded-full bg-amber-500/10 flex items-center justify-center shrink-0">
+                    <CreditCard size={16} className="text-amber-600" />
+                  </div>
+                  <span>Kapıda nakit veya kart ile ödeme</span>
                 </div>
               </div>
 
               <Link
                 href={`/${city || 'turkiye'}/${category || 'hali-yikama'}/${company.slug || company.companyId}/siparis`}
               >
-                <Button size="lg" className="w-full">
+                <Button size="lg" className="w-full text-base">
                   Sipariş Oluştur
                 </Button>
               </Link>
 
-              {company.phone && (
-                <a
-                  href={`tel:${company.phone}`}
-                  className="mt-3 w-full"
-                >
-                  <Button variant="outline" size="lg" className="w-full mt-3">
-                    <Phone size={16} />
-                    Ara: {company.phone}
-                  </Button>
-                </a>
-              )}
+              <p className="text-xs text-brand-text-muted text-center mt-3">
+                Ürün türleri ve ölçüler firma tarafından belirlenir
+              </p>
             </motion.div>
 
             {/* Hizmet Alanı */}
             {company.serviceAreaDescription && (
-              <div className="mt-4 p-4 bg-brand-surface rounded-brand border border-brand-border">
-                <h4 className="text-sm font-medium text-brand-text mb-2">
+              <motion.div
+                className="p-4 bg-brand-surface rounded-brand border border-brand-border"
+                initial={{ opacity: 0, x: 20 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: 0.2 }}
+              >
+                <h4 className="text-sm font-medium text-brand-text mb-2 flex items-center gap-1.5">
+                  <MapPin size={14} className="text-brand-primary" />
                   Hizmet Alanı
                 </h4>
                 <p className="text-sm text-brand-text-muted">
                   {company.serviceAreaDescription}
                 </p>
-              </div>
+              </motion.div>
+            )}
+
+            {/* Çalışma Saatleri */}
+            {company.workingHours && Object.keys(company.workingHours).length > 0 && (
+              <motion.div
+                className="p-4 bg-brand-surface rounded-brand border border-brand-border"
+                initial={{ opacity: 0, x: 20 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: 0.25 }}
+              >
+                <h4 className="text-sm font-medium text-brand-text mb-2 flex items-center gap-1.5">
+                  <Clock size={14} className="text-brand-primary" />
+                  Çalışma Saatleri
+                </h4>
+                <div className="space-y-1">
+                  {Object.entries(company.workingHours).map(([day, hours]) => (
+                    <div key={day} className="flex justify-between text-xs text-brand-text-muted">
+                      <span>{day}</span>
+                      <span>{hours as string}</span>
+                    </div>
+                  ))}
+                </div>
+              </motion.div>
             )}
           </div>
         </div>
