@@ -14,6 +14,17 @@ const brand = getBrandConfig();
 const IS_ALL_TURKEY = 'turkiye';
 
 // SEO içerik — kategori bazlı
+// Kategori bazlı hero subtitle — "halılarınız" yerine dinamik ürün adı
+const categoryHeroSubtitle: Record<string, string> = {
+  'hali-yikama': '81 ilde güvenilir halı yıkama firmalarını karşılaştırın, gerçek yorumları okuyun, kolayca sipariş verin ve siparişinizin her aşamasını şeffaf ve detaylı bir şekilde takip ederek halılarınız teslim edilene kadar olan süreçte mükemmel bir deneyim yaşayın.',
+  'koltuk-yikama': '81 ilde güvenilir koltuk yıkama firmalarını karşılaştırın, gerçek yorumları okuyun, kolayca sipariş verin ve siparişinizin her aşamasını şeffaf bir şekilde takip ederek koltuklarınız tertemiz olana kadar olan süreçte mükemmel bir deneyim yaşayın.',
+  'yorgan-yikama': '81 ilde güvenilir yorgan yıkama firmalarını karşılaştırın, gerçek yorumları okuyun, kolayca sipariş verin ve siparişinizin her aşamasını şeffaf bir şekilde takip ederek yorganlarınız teslim edilene kadar olan süreçte mükemmel bir deneyim yaşayın.',
+  'perde-yikama': '81 ilde güvenilir perde yıkama firmalarını karşılaştırın, gerçek yorumları okuyun, kolayca sipariş verin ve siparişinizin her aşamasını şeffaf bir şekilde takip ederek perdeleriniz teslim edilene kadar olan süreçte mükemmel bir deneyim yaşayın.',
+  'yatak-yikama': '81 ilde güvenilir yatak yıkama firmalarını karşılaştırın, gerçek yorumları okuyun, kolayca sipariş verin ve siparişinizin her aşamasını şeffaf bir şekilde takip ederek yatağınız tertemiz olana kadar olan süreçte mükemmel bir deneyim yaşayın.',
+};
+
+const defaultHeroSubtitle = '81 ilde güvenilir firmaları karşılaştırın, gerçek yorumları okuyun, kolayca sipariş verin ve siparişinizin her aşamasını şeffaf bir şekilde takip ederek mükemmel bir deneyim yaşayın.';
+
 const categoryContent: Record<string, { intro: string; benefits: string[]; faq: { q: string; a: string }[] }> = {
   'hali-yikama': {
     intro: 'Halı yıkama, evinizin hijyeni ve sağlığınız için düzenli olarak yapılması gereken en önemli temizlik hizmetlerinden biridir. Profesyonel halı yıkama firmaları, özel ekipman ve çevre dostu deterjanlarla halılarınızı derinlemesine temizler, akarları ve bakterileri yok eder. Halı Yıkamacılar platformu sayesinde şehrinizdeki en güvenilir halı yıkama firmalarını kolayca bulabilir, fiyatları karşılaştırabilir ve tek tıkla sipariş verebilirsiniz.',
@@ -67,20 +78,21 @@ const categoryContent: Record<string, { intro: string; benefits: string[]; faq: 
     ],
   },
   'perde-yikama': {
-    intro: 'Perde yıkama, evinizin hem görsel estetiğini hem de iç hava kalitesini doğrudan etkileyen önemli bir temizlik hizmetidir. Pencerelerinizde sürekli asılı duran perdeler, zamanla toz, polen, sigara dumanı ve mutfak yağını emerek kirlenirler — ancak kirlilikleri çoğu zaman gözle fark edilmez. Ev tipi yıkama, ince tül perdelerin yırtılmasına, ağır kadife perdelerin deforme olmasına ve renklerin solmasına neden olabilir. Profesyonel perde yıkama firmaları, kumaş tipine göre özel yıkama programları uygular, perdeleri ütüleyerek ve ölçülerine uygun katlayarak teslim eder. İsteğe bağlı söküm ve takma hizmeti sunan firmalar da mevcuttur.',
+    intro: 'Perde yıkama, evinizin hem görsel estetiğini hem de iç hava kalitesini doğrudan etkileyen önemli bir temizlik hizmetidir. Tül, fon, kadife, brode gibi klasik perdeler yanı sıra stor perde, zebra perde ve güneşlik gibi modern perde türleri de profesyonel bakım gerektirir. Pencerelerinizde sürekli asılı duran perdeler, zamanla toz, polen, sigara dumanı ve mutfak yağını emerek kirlenirler — ancak kirlilikleri çoğu zaman gözle fark edilmez. Ev tipi yıkama, ince tül perdelerin yırtılmasına, stor perdelerin mekanizmasının bozulmasına ve renklerin solmasına neden olabilir. Profesyonel perde yıkama firmaları, kumaş ve mekanizma tipine göre özel yıkama programları uygular, perdeleri ütüleyerek ve ölçülerine uygun katlayarak teslim eder. İsteğe bağlı söküm ve takma hizmeti sunan firmalar da mevcuttur.',
     benefits: [
       'Kumaş tipine özel hassas yıkama programları',
-      'Tül, kadife, brode, fon perde — her türe uygun işlem',
+      'Tül, fon, kadife, brode, stor ve zebra perde — her türe uygun işlem',
+      'Stor ve zebra perdelerde mekanizma sökme-takma hizmeti',
       'Profesyonel ütüleme ve ölçüsüne uygun katlama',
       'İsteğe bağlı söküm ve asma hizmeti',
-      'Renk koruma ve kumaş yumuşatma uygulaması',
       'Ücretsiz adresinizden alma ve teslim',
     ],
     faq: [
       { q: 'Perde yıkama ne kadar sürer?', a: 'Profesyonel perde yıkama genellikle 2-3 gün sürer. Söküm ve asma hizmeti eklenirse 1 gün daha uzayabilir. Firmalar genellikle aynı gün alma ve ertesi gün teslim seçeneği de sunar.' },
+      { q: 'Stor perde ve zebra perde yıkanabilir mi?', a: 'Evet, profesyonel firmalar stor ve zebra perdelerin mekanizmasını sökerek kumaş kısmını özel programlarla yıkar. Mekanizma temizlenir, yağlanır ve tekrar monte edilir. Evde yıkamak mekanizmaya zarar verebileceği için profesyonel hizmet önerilir.' },
       { q: 'Tül perdeler profesyonel yıkamada zarar görür mü?', a: 'Hayır, profesyonel firmalar ince tül perdelere özel düşük sıcaklıkta ve hassas programlarla yıkama yapar. Kumaşın yapısını koruyarak bembeyaz ve tertemiz teslim eder.' },
-      { q: 'Perde söküm ve asma hizmeti var mı?', a: 'Birçok profesyonel firma perde söküm ve asma hizmeti sunar. Özellikle yüksek tavan ve büyük pencerelerde bu hizmet büyük kolaylık sağlar. Platformumuzda bu hizmeti sunan firmaları kolayca filtreleyebilirsiniz.' },
-      { q: 'Perdelerimi ne sıklıkla yıkatmalıyım?', a: 'Tül perdeler 2-3 ayda bir, fon perdeler 6 ayda bir yıkatılmalıdır. Sigara içilen veya yoğun trafikli caddeye bakan evlerde daha sık yıkama önerilir.' },
+      { q: 'Perde söküm ve asma hizmeti var mı?', a: 'Birçok profesyonel firma perde söküm ve asma hizmeti sunar. Özellikle yüksek tavan ve büyük pencerelerde bu hizmet büyük kolaylık sağlar. Stor ve zebra perdelerde mekanizma sökümü de bu hizmete dahildir.' },
+      { q: 'Perdelerimi ne sıklıkla yıkatmalıyım?', a: 'Tül perdeler 2-3 ayda bir, fon perdeler 6 ayda bir, stor ve zebra perdeler ise yılda 1-2 kez yıkatılmalıdır. Sigara içilen veya yoğun trafikli caddeye bakan evlerde daha sık yıkama önerilir.' },
     ],
   },
   'yatak-yikama': {
@@ -221,10 +233,7 @@ export default async function CityCategoryPage({
                 Türkiye&apos;nin En İyi<br />{categoryDisplay} Firmaları
               </h1>
               <p className="mt-5 text-lg text-white/80 max-w-3xl mx-auto leading-relaxed">
-                81 ilde güvenilir {categoryDisplay.toLowerCase()} firmalarını karşılaştırın,
-                gerçek yorumları okuyun, kolayca sipariş verin ve siparişinizin her aşamasını
-                şeffaf ve detaylı bir şekilde takip ederek halılarınız teslim edilene kadar
-                olan süreçte mükemmel bir deneyim yaşayın.
+                {categoryHeroSubtitle[category] || defaultHeroSubtitle}
               </p>
 
               {/* Güven sayaçları */}

@@ -19,6 +19,7 @@ const KNOWN_CATEGORIES = [
   'koltuk-yikama',
   'yorgan-yikama',
   'perde-yikama',
+  'yatak-yikama',
   'ev-temizligi',
   'ofis-temizligi',
 ];

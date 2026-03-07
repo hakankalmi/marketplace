@@ -56,7 +56,7 @@ export function CategoryGrid({ categories }: CategoryGridProps) {
                 transition={{ delay: i * 0.06, duration: 0.4 }}
               >
                 <Link
-                  href={`/firmalar?categoryId=${cat.id}`}
+                  href={`/turkiye/${keyToSlug(cat.key)}`}
                   className={`group flex flex-col items-center gap-3 p-6 bg-gradient-to-br ${meta.gradient} rounded-2xl border border-brand-border/50 hover:border-brand-primary/40 hover:shadow-lg hover:-translate-y-1 transition-all duration-300`}
                 >
                   <div className="text-4xl group-hover:scale-110 transition-transform duration-300">
