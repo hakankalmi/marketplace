@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { Star, MapPin, Clock, CheckCircle } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
-import { cn } from '@/lib/utils';
+import { cn, slugify } from '@/lib/utils';
 import type { CompanyListDto } from '@/lib/api/types';
 
 interface CompanyCardProps {
@@ -14,7 +14,9 @@ interface CompanyCardProps {
 }
 
 export function CompanyCard({ company, index = 0 }: CompanyCardProps) {
-  const slug = company.slug || company.companyId;
+  const companySlug = company.slug || slugify(company.companyName);
+  const citySlug = slugify(company.city || 'turkiye');
+  const slug = `/${citySlug}/hali-yikama/${companySlug}`;
 
   return (
     <motion.div
@@ -22,7 +24,7 @@ export function CompanyCard({ company, index = 0 }: CompanyCardProps) {
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: index * 0.05, duration: 0.4 }}
     >
-      <Link href={`/firmalar/${slug}`}>
+      <Link href={slug}>
         <div className="group bg-brand-surface rounded-brand border border-brand-border overflow-hidden transition-all duration-300 hover:shadow-brand hover:-translate-y-1">
           {/* Firma Fotoğrafı */}
           <div className="relative h-44 bg-brand-surface-hover overflow-hidden">

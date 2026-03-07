@@ -111,6 +111,9 @@ export interface ReviewDto {
   punctualityRating: number | null;
   communicationRating: number | null;
   priceRating: number | null;
+  companyResponse: string | null;
+  companyRespondedAt: string | null;
+  isVerifiedPurchase: boolean;
   createdAt: string;
 }
 
