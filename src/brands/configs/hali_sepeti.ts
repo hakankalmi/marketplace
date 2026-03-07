@@ -5,8 +5,8 @@ export const haliSepetiConfig: BrandTheme = {
   ...boldPreset,
 
   code: 'hali_sepeti',
-  name: 'Halı Yıkama Sepeti',
-  domain: 'haliyikamasepeti.com',
+  name: 'Halı Yıkamacılar',
+  domain: 'haliyikamacilar.com',
   logoUrl: '/brands/hali_sepeti/logo.svg',
   faviconUrl: '/brands/hali_sepeti/favicon.ico',
 
@@ -21,15 +21,15 @@ export const haliSepetiConfig: BrandTheme = {
   },
 
   seo: {
-    metaTitle: 'Halı Yıkama Sepeti — En İyi Halı Yıkama Firmaları',
+    metaTitle: 'Halı Yıkamacılar — En İyi Halı Yıkama Firmaları',
     metaDescription:
       'Şehrinizde en güvenilir halı yıkama firmalarını karşılaştırın. Fiyatları görün, yorumları okuyun, hemen sipariş verin.',
     heroTitle: 'Halınız Tertemiz, Eviniz Pırıl Pırıl',
     heroSubtitle:
       'Şehrinizin en iyi halı yıkama firmalarını karşılaştırın, tek tıkla sipariş verin.',
-    footerText: '© 2026 Halı Yıkama Sepeti. Tüm hakları saklıdır.',
+    footerText: '© 2026 Halı Yıkamacılar. Tüm hakları saklıdır.',
     socialLinks: {
-      instagram: 'https://instagram.com/haliyikamasepeti',
+      instagram: 'https://instagram.com/haliyikamacilar',
     },
   },
 
