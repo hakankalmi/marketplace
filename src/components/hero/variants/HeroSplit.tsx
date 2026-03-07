@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Search, MapPin, ArrowRight } from 'lucide-react';
+import { Search, MapPin, Star, Shield, Clock, CheckCircle } from 'lucide-react';
 import Link from 'next/link';
 import { useBrand } from '@/lib/brand/context';
 import { Button } from '@/components/ui/button';
@@ -10,8 +10,25 @@ export function HeroSplit() {
   const theme = useBrand();
 
   return (
-    <section className="relative overflow-hidden bg-brand-bg">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
+    <section
+      className="relative overflow-hidden"
+      style={{
+        background: `linear-gradient(135deg, ${theme.colors.primary} 0%, ${theme.colors.primaryDark} 100%)`,
+      }}
+    >
+      {/* Dekoratif daireler */}
+      <div className="absolute inset-0 overflow-hidden">
+        <div
+          className="absolute -top-24 -right-24 w-96 h-96 rounded-full opacity-10"
+          style={{ background: theme.colors.accent }}
+        />
+        <div
+          className="absolute -bottom-32 -left-32 w-[500px] h-[500px] rounded-full opacity-5"
+          style={{ background: '#fff' }}
+        />
+      </div>
+
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-28">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Sol: İçerik */}
           <motion.div
@@ -20,7 +37,7 @@ export function HeroSplit() {
             transition={{ duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] }}
           >
             <motion.h1
-              className="text-4xl sm:text-5xl lg:text-6xl font-heading font-bold text-brand-text leading-tight"
+              className="text-4xl sm:text-5xl lg:text-6xl font-heading font-bold text-white leading-tight"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.1, duration: 0.5 }}
@@ -29,7 +46,7 @@ export function HeroSplit() {
             </motion.h1>
 
             <motion.p
-              className="mt-5 text-lg sm:text-xl text-brand-text-muted max-w-lg"
+              className="mt-5 text-lg sm:text-xl text-white/80 max-w-lg"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2, duration: 0.5 }}
@@ -47,16 +64,19 @@ export function HeroSplit() {
               <div className="relative flex-1">
                 <MapPin
                   size={18}
-                  className="absolute left-3 top-1/2 -translate-y-1/2 text-brand-text-muted"
+                  className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400"
                 />
                 <input
                   type="text"
                   placeholder="Şehir seçin..."
-                  className="w-full pl-10 pr-4 py-3 bg-brand-surface border border-brand-border rounded-brand text-brand-text placeholder:text-brand-text-muted focus:outline-none focus:ring-2 focus:ring-brand-primary/30 focus:border-brand-primary"
+                  className="w-full pl-11 pr-4 py-4 bg-white border-0 rounded-xl text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-white/30 shadow-lg text-base"
                 />
               </div>
               <Link href="/firmalar">
-                <Button size="lg" className="w-full sm:w-auto">
+                <Button
+                  size="lg"
+                  className="w-full sm:w-auto !bg-white !text-gray-900 hover:!bg-gray-100 !shadow-lg !py-4 !text-base !font-semibold"
+                >
                   <Search size={18} />
                   Firma Ara
                 </Button>
@@ -76,77 +96,61 @@ export function HeroSplit() {
                 { value: '4.8', label: 'Ortalama Puan' },
               ].map((stat) => (
                 <div key={stat.label}>
-                  <div className="text-2xl font-heading font-bold text-brand-primary">
+                  <div className="text-2xl font-heading font-bold text-white">
                     {stat.value}
                   </div>
-                  <div className="text-sm text-brand-text-muted">
-                    {stat.label}
-                  </div>
+                  <div className="text-sm text-white/60">{stat.label}</div>
                 </div>
               ))}
             </motion.div>
           </motion.div>
 
-          {/* Sağ: Dekoratif Kartlar */}
+          {/* Sağ: Güven Kartları */}
           <motion.div
-            className="relative hidden lg:block"
+            className="hidden lg:flex flex-col gap-4"
             initial={{ opacity: 0, x: 30 }}
             animate={{ opacity: 1, x: 0 }}
-            transition={{ delay: 0.2, duration: 0.6 }}
+            transition={{ delay: 0.3, duration: 0.6 }}
           >
-            <div className="relative w-full h-[420px]">
-              {/* Arka plan dekorasyon */}
-              <div
-                className="absolute inset-0 rounded-brand-lg opacity-10"
-                style={{ background: theme.colors.gradient || theme.colors.primary }}
-              />
-
-              {/* Örnek Firma Kartları */}
-              {[
-                { name: 'Temiz Halı', rating: 4.9, city: 'İstanbul', top: '10%', left: '5%', rotate: -3 },
-                { name: 'Yıldız Yıkama', rating: 4.7, city: 'Ankara', top: '35%', left: '25%', rotate: 2 },
-                { name: 'Leke Yok', rating: 4.8, city: 'İzmir', top: '60%', left: '10%', rotate: -1 },
-              ].map((card, i) => (
-                <motion.div
-                  key={card.name}
-                  className="absolute bg-brand-surface border border-brand-border rounded-brand p-4 shadow-brand w-64"
-                  style={{ top: card.top, left: card.left }}
-                  initial={{ opacity: 0, y: 20, rotate: card.rotate }}
-                  animate={{ opacity: 1, y: 0, rotate: card.rotate }}
-                  transition={{ delay: 0.4 + i * 0.15, type: 'spring', stiffness: 200 }}
-                  whileHover={{ scale: 1.05, zIndex: 10 }}
-                >
-                  <div className="flex items-center gap-3">
-                    <div className="w-10 h-10 rounded-full bg-brand-primary/10 flex items-center justify-center">
-                      <span className="text-brand-primary font-bold text-sm">
-                        {card.name[0]}
-                      </span>
-                    </div>
-                    <div>
-                      <p className="font-medium text-brand-text text-sm">
-                        {card.name}
-                      </p>
-                      <p className="text-xs text-brand-text-muted">{card.city}</p>
-                    </div>
-                  </div>
-                  <div className="mt-2 flex items-center gap-1">
-                    <span className="text-brand-rating text-sm">★</span>
-                    <span className="text-sm font-medium text-brand-text">
-                      {card.rating}
-                    </span>
-                  </div>
-                </motion.div>
-              ))}
-
-              {/* CTA Arrow */}
+            {[
+              {
+                icon: Shield,
+                title: 'Güvenilir Firmalar',
+                desc: 'Tüm firmalar doğrulanmış ve puanlanmış',
+              },
+              {
+                icon: Star,
+                title: 'Gerçek Yorumlar',
+                desc: 'Müşteri deneyimlerini okuyun, doğru seçim yapın',
+              },
+              {
+                icon: Clock,
+                title: 'Hızlı Servis',
+                desc: 'Ortalama 2 saat içinde firma dönüşü',
+              },
+              {
+                icon: CheckCircle,
+                title: 'Kolay Sipariş',
+                desc: 'Tek tıkla sipariş, kapıda ödeme',
+              },
+            ].map((item, i) => (
               <motion.div
-                className="absolute bottom-4 right-4"
-                animate={{ x: [0, 8, 0] }}
-                transition={{ repeat: Infinity, duration: 2, ease: 'easeInOut' }}
+                key={item.title}
+                className="flex items-start gap-4 p-5 bg-white/10 backdrop-blur-sm rounded-2xl border border-white/10"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.4 + i * 0.1, duration: 0.4 }}
+                whileHover={{ scale: 1.02, backgroundColor: 'rgba(255,255,255,0.15)' }}
               >
-                <ArrowRight size={24} className="text-brand-primary" />
+                <div className="flex-shrink-0 w-10 h-10 rounded-xl bg-white/20 flex items-center justify-center">
+                  <item.icon size={20} className="text-white" />
+                </div>
+                <div>
+                  <h3 className="font-semibold text-white">{item.title}</h3>
+                  <p className="text-sm text-white/70 mt-0.5">{item.desc}</p>
+                </div>
               </motion.div>
-            </div>
+            ))}
           </motion.div>
         </div>
       </div>

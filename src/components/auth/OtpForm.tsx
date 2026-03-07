@@ -113,7 +113,7 @@ export function OtpForm() {
 
   return (
     <motion.div
-      className="w-full max-w-md p-8 bg-brand-surface rounded-brand-lg border border-brand-border shadow-brand"
+      className="w-full max-w-md p-8 bg-white rounded-2xl border border-gray-200 shadow-xl"
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
     >

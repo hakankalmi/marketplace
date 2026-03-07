@@ -31,8 +31,8 @@ export function Providers({
     <QueryClientProvider client={queryClient}>
       <ThemeProvider
         attribute="class"
-        defaultTheme={theme.features.darkMode ? 'system' : 'light'}
-        enableSystem={theme.features.darkMode}
+        defaultTheme="light"
+        enableSystem={false}
         disableTransitionOnChange
       >
         <BrandProvider theme={theme}>
