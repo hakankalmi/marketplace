@@ -35,7 +35,7 @@ export function OrderFlow({ company }: Props) {
   const [orderCode, setOrderCode] = useState('');
   const [formData, setFormData] = useState<OrderFormData>({
     addressSnapshot: '',
-    city: '',
+    city: company.city ?? '',
     district: '',
     preferredPickupDate: '',
     preferredPickupTimeStart: '',

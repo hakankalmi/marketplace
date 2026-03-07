@@ -124,13 +124,13 @@ export function AddressStep({ formData, onUpdate, onNext }: Props) {
         <div className="space-y-4">
           <Input
             label="Şehir"
-            placeholder="İstanbul"
+            placeholder="Şehir giriniz"
             value={city}
             onChange={(e) => setCity(e.target.value)}
           />
           <Input
             label="İlçe"
-            placeholder="Kadıköy"
+            placeholder="İlçe giriniz"
             value={district}
             onChange={(e) => setDistrict(e.target.value)}
           />
