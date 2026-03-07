@@ -55,6 +55,13 @@ export function getCategoryDisplayName(slug: string): string {
 export function slugify(text: string): string {
   if (!text) return '';
   return text
+    .replace(/İ/g, 'i')
+    .replace(/I/g, 'i')
+    .replace(/Ğ/g, 'g')
+    .replace(/Ü/g, 'u')
+    .replace(/Ş/g, 's')
+    .replace(/Ö/g, 'o')
+    .replace(/Ç/g, 'c')
     .toLowerCase()
     .replace(/ğ/g, 'g')
     .replace(/ü/g, 'u')
