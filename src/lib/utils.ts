@@ -34,6 +34,24 @@ export function formatPhone(phone: string): string {
   return phone;
 }
 
+export function toTitleCase(text: string): string {
+  return text
+    .toLocaleLowerCase('tr-TR')
+    .replace(/(?:^|\s)\S/g, (c) => c.toLocaleUpperCase('tr-TR'));
+}
+
+const categoryNames: Record<string, string> = {
+  'hali-yikama': 'Halı Yıkama',
+  'koltuk-yikama': 'Koltuk Yıkama',
+  'yorgan-yikama': 'Yorgan & Battaniye Yıkama',
+  'perde-yikama': 'Perde Yıkama',
+  'ev-temizligi': 'Ev Temizliği',
+};
+
+export function getCategoryDisplayName(slug: string): string {
+  return categoryNames[slug] || decodeURIComponent(slug).replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+}
+
 export function slugify(text: string): string {
   return text
     .toLowerCase()

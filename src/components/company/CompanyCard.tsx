@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { Star, MapPin, Clock, CheckCircle } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
-import { cn, slugify } from '@/lib/utils';
+import { cn, slugify, toTitleCase } from '@/lib/utils';
 import type { CompanyListDto } from '@/lib/api/types';
 
 interface CompanyCardProps {
@@ -69,7 +69,7 @@ export function CompanyCard({ company, index = 0 }: CompanyCardProps) {
           {/* İçerik */}
           <div className="p-4">
             <h3 className="font-heading font-semibold text-brand-text group-hover:text-brand-primary transition-colors">
-              {company.companyName}
+              {toTitleCase(company.companyName)}
             </h3>
 
             {company.city && (

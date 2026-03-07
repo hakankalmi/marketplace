@@ -6,7 +6,7 @@ import { Nav } from '@/components/nav/Nav';
 import { Footer } from '@/components/footer/Footer';
 import { CompanyCard } from '@/components/company/CompanyCard';
 import { MapPin, Building2 } from 'lucide-react';
-import { slugify } from '@/lib/utils';
+import { slugify, getCategoryDisplayName } from '@/lib/utils';
 import type { CompanyListDto, PaginatedResponse, CityDto } from '@/lib/api/types';
 
 const brand = getBrandConfig();
@@ -44,23 +44,7 @@ async function getCompaniesByCity(city: string): Promise<PaginatedResponse<Compa
   }
 }
 
-// Kategori slug → display adı
-const categoryDisplayNames: Record<string, string> = {
-  'hali-yikama': 'Halı Yıkama',
-  'koltuk-yikama': 'Koltuk Yıkama',
-  'yorgan-yikama': 'Yorgan Yıkama',
-  'perde-yikama': 'Perde Yıkama',
-  'ev-temizligi': 'Ev Temizliği',
-};
-
-function getCategoryDisplay(slug: string): string {
-  return (
-    categoryDisplayNames[slug] ||
-    decodeURIComponent(slug)
-      .replace(/-/g, ' ')
-      .replace(/\b\w/g, (c) => c.toUpperCase())
-  );
-}
+// getCategoryDisplayName imported from utils
 
 export async function generateMetadata({
   params,
@@ -72,7 +56,7 @@ export async function generateMetadata({
   const cityData = findCityBySlug(cities, citySlug);
   if (!cityData) return { title: 'Sayfa Bulunamadı' };
 
-  const categoryDisplay = getCategoryDisplay(category);
+  const categoryDisplay = getCategoryDisplayName(category);
   const title = `${cityData.city} ${categoryDisplay} Firmaları | ${brand.name}`;
   const description = `${cityData.city} şehrinde en iyi ${categoryDisplay.toLowerCase()} firmaları. ${cityData.companyCount} firma, fiyat karşılaştırma, gerçek müşteri yorumları. Hemen sipariş verin.`;
 
@@ -101,7 +85,7 @@ export default async function CityCategoryPage({
 
   if (!cityData) notFound();
 
-  const categoryDisplay = getCategoryDisplay(category);
+  const categoryDisplay = getCategoryDisplayName(category);
   const data = await getCompaniesByCity(cityData.city);
 
   return (

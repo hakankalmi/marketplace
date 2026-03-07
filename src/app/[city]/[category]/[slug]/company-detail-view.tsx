@@ -19,7 +19,7 @@ import {
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { StarRating } from '@/components/ui/star-rating';
-import { formatCurrency, formatDate } from '@/lib/utils';
+import { formatCurrency, formatDate, toTitleCase, getCategoryDisplayName } from '@/lib/utils';
 import type { CompanyDetailDto } from '@/lib/api/types';
 
 interface Props {
@@ -44,9 +44,9 @@ export function CompanyDetailView({ company, city, category }: Props) {
           <>
             <Link
               href={`/${city}`}
-              className="hover:text-brand-primary transition-colors capitalize"
+              className="hover:text-brand-primary transition-colors"
             >
-              {decodeURIComponent(city).replace(/-/g, ' ')}
+              {company.city || decodeURIComponent(city).replace(/-/g, ' ')}
             </Link>
             <span>/</span>
           </>
@@ -55,14 +55,14 @@ export function CompanyDetailView({ company, city, category }: Props) {
           <>
             <Link
               href={`/${city}/${category}`}
-              className="hover:text-brand-primary transition-colors capitalize"
+              className="hover:text-brand-primary transition-colors"
             >
-              {decodeURIComponent(category).replace(/-/g, ' ')}
+              {getCategoryDisplayName(category)}
             </Link>
             <span>/</span>
           </>
         )}
-        <span className="text-brand-text font-medium">{company.companyName}</span>
+        <span className="text-brand-text font-medium">{toTitleCase(company.companyName)}</span>
       </nav>
 
       <div className="grid lg:grid-cols-3 gap-8">
@@ -95,7 +95,7 @@ export function CompanyDetailView({ company, city, category }: Props) {
 
             <div className="flex-1">
               <h1 className="text-2xl sm:text-3xl font-heading font-bold text-brand-text">
-                {company.companyName}
+                {toTitleCase(company.companyName)}
               </h1>
 
               <div className="flex flex-wrap items-center gap-3 mt-2">

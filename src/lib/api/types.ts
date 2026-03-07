@@ -46,10 +46,11 @@ export interface BrandResponseDto {
 
 export interface CategoryResponseDto {
   id: number;
+  key: string;
   name: string;
-  slug: string;
-  iconUrl: string | null;
-  companyCount: number;
+  iconName: string | null;
+  imageUrl: string | null;
+  companyCount?: number;
 }
 
 /* ───── Company ───── */
