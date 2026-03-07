@@ -45,7 +45,9 @@ const categoryNames: Record<string, string> = {
   'koltuk-yikama': 'Koltuk Yıkama',
   'yorgan-yikama': 'Yorgan & Battaniye Yıkama',
   'perde-yikama': 'Perde Yıkama',
+  'yatak-yikama': 'Yatak Yıkama',
   'ev-temizligi': 'Ev Temizliği',
+  'ofis-temizligi': 'Ofis Temizliği',
 };
 
 export function getCategoryDisplayName(slug: string): string {

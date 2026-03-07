@@ -13,9 +13,11 @@ export function Nav() {
 
   const navLinks = [
     { label: 'Anasayfa', href: '/' },
-    { label: 'Firmalar', href: '/firmalar' },
     { label: 'Halı Yıkama', href: '/turkiye/hali-yikama' },
     { label: 'Koltuk Yıkama', href: '/turkiye/koltuk-yikama' },
+    { label: 'Yorgan Yıkama', href: '/turkiye/yorgan-yikama' },
+    { label: 'Perde Yıkama', href: '/turkiye/perde-yikama' },
+    { label: 'Yatak Yıkama', href: '/turkiye/yatak-yikama' },
   ];
 
   const isSolid = theme.navVariant === 'solid';
