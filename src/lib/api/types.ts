@@ -17,7 +17,8 @@ export type MarketplaceProductCategory =
   | 'HomeTextileCleaning'
   | 'CurtainCleaning'
   | 'MattressCleaning'
-  | 'AdditionalServices';
+  | 'AdditionalServices'
+  | 'GeneralCleaning';
 
 /* ───── Paginated Response ───── */
 

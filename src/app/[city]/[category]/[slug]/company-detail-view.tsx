@@ -33,6 +33,7 @@ const categoryConfig: Record<MarketplaceProductCategory, { label: string; icon: 
   CurtainCleaning: { label: 'Perde Yıkama', icon: '🪟' },
   MattressCleaning: { label: 'Yatak Yıkama', icon: '🛏️' },
   AdditionalServices: { label: 'Ek Hizmetler', icon: '✨' },
+  GeneralCleaning: { label: 'Genel Temizlik', icon: '🧹' },
 };
 
 const categoryOrder: MarketplaceProductCategory[] = [
@@ -41,6 +42,7 @@ const categoryOrder: MarketplaceProductCategory[] = [
   'HomeTextileCleaning',
   'CurtainCleaning',
   'MattressCleaning',
+  'GeneralCleaning',
   'AdditionalServices',
 ];
 
