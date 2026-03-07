@@ -53,6 +53,7 @@ export function getCategoryDisplayName(slug: string): string {
 }
 
 export function slugify(text: string): string {
+  if (!text) return '';
   return text
     .toLowerCase()
     .replace(/ğ/g, 'g')
