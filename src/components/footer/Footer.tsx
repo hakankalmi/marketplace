@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import Image from 'next/image';
+import { Sparkles } from 'lucide-react';
 import { useBrand } from '@/lib/brand/context';
 
 export function Footer() {
@@ -20,13 +20,14 @@ export function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-start gap-8">
           {/* Logo & Description */}
           <div className="max-w-sm">
-            <Image
-              src={theme.logoUrl}
-              alt={theme.name}
-              width={140}
-              height={40}
-              className="h-8 w-auto mb-4"
-            />
+            <Link href="/" className="flex items-center gap-2.5 mb-4">
+              <div className="w-8 h-8 rounded-xl bg-brand-primary flex items-center justify-center">
+                <Sparkles size={18} className="text-white" />
+              </div>
+              <span className="text-lg font-heading font-bold text-brand-text">
+                {theme.name}
+              </span>
+            </Link>
             <p className="text-sm text-brand-text-muted">
               {theme.seo.heroSubtitle}
             </p>
