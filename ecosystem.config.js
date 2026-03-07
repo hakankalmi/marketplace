@@ -13,8 +13,7 @@ module.exports = {
   apps: brands.map((b) => ({
     name: `mp-${b.code}`,
     cwd: `/opt/marketplace/builds/${b.code}`,
-    script: 'node_modules/.bin/next',
-    args: `start -p ${b.port}`,
+    script: 'server.js',
     max_memory_restart: '400M',
     instances: 1,
     exec_mode: 'fork',

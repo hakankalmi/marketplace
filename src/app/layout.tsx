@@ -3,6 +3,7 @@ import { getBrandConfig } from '@/brands';
 import { generateCSSVariables, generateDarkCSSVariables } from '@/lib/brand/css-injector';
 import { getGoogleFontsUrl } from '@/lib/brand/font-loader';
 import { Providers } from './providers';
+import { ServiceWorkerRegister } from '@/components/shared/sw-register';
 import './globals.css';
 
 const brand = getBrandConfig();
@@ -41,7 +42,10 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-screen bg-brand-bg text-brand-text font-body antialiased">
-        <Providers theme={brand}>{children}</Providers>
+        <Providers theme={brand}>
+          {children}
+          <ServiceWorkerRegister />
+        </Providers>
       </body>
     </html>
   );
