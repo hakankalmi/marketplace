@@ -1,0 +1,59 @@
+name: Deploy All Brands
+
+on:
+  push:
+    branches: [main]
+
+env:
+  SERVER_IP: 37.27.203.254
+  DEPLOY_PATH: /opt/marketplace
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        brand: [hali_sepeti]
+        # Yeni markalar eklendikçe buraya ekle:
+        # brand: [hali_sepeti, koltuk_yikat, ucuz_yikama]
+      fail-fast: false
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build for ${{ matrix.brand }}
+        run: npm run build
+        env:
+          NEXT_PUBLIC_BRAND_CODE: ${{ matrix.brand }}
+          NEXT_PUBLIC_API_URL: https://api.protakip.com
+
+      - name: Deploy to server
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ env.SERVER_IP }}
+          username: root
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          source: '.next/standalone/,.next/static/,public/,node_modules/.bin/next'
+          target: '${{ env.DEPLOY_PATH }}/builds/${{ matrix.brand }}'
+          strip_components: 0
+
+      - name: Restart PM2
+        uses: appleboy/ssh-action@v1
+        with:
+          host: ${{ env.SERVER_IP }}
+          username: root
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            cd ${{ env.DEPLOY_PATH }}
+            cp -r builds/${{ matrix.brand }}/.next/static builds/${{ matrix.brand }}/.next/standalone/.next/
+            cp -r builds/${{ matrix.brand }}/public builds/${{ matrix.brand }}/.next/standalone/
+            pm2 restart mp-${{ matrix.brand }} || pm2 start ecosystem.config.js --only mp-${{ matrix.brand }}
+            pm2 save

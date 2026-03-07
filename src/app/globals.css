@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* Brand Colors — injected at runtime via CSS variables */
+  --color-brand-primary: var(--brand-primary);
+  --color-brand-primary-light: var(--brand-primary-light);
+  --color-brand-primary-dark: var(--brand-primary-dark);
+  --color-brand-secondary: var(--brand-secondary);
+  --color-brand-accent: var(--brand-accent);
+  --color-brand-bg: var(--brand-bg);
+  --color-brand-surface: var(--brand-surface);
+  --color-brand-surface-hover: var(--brand-surface-hover);
+  --color-brand-text: var(--brand-text);
+  --color-brand-text-muted: var(--brand-text-muted);
+  --color-brand-border: var(--brand-border);
+  --color-brand-success: var(--brand-success);
+  --color-brand-warning: var(--brand-warning);
+  --color-brand-error: var(--brand-error);
+  --color-brand-rating: var(--brand-rating);
+  --color-brand-gradient: var(--brand-gradient);
+
+  /* Spatial tokens */
+  --radius-brand: var(--brand-radius);
+  --radius-brand-sm: var(--brand-radius-sm);
+  --radius-brand-lg: var(--brand-radius-lg);
+
+  /* Shadow */
+  --shadow-brand: var(--brand-shadow);
+
+  /* Fonts */
+  --font-heading: var(--brand-font-heading);
+  --font-body: var(--brand-font-body);
+}
+
+/* Base styles */
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--brand-font-body);
+  color: var(--brand-text);
+  background-color: var(--brand-bg);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--brand-font-heading);
+}
+
+/* Focus ring */
+*:focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--brand-border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--brand-text-muted);
+}
+
+/* Selection */
+::selection {
+  background-color: var(--brand-primary);
+  color: white;
+}
