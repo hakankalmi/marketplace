@@ -14,8 +14,8 @@ export function Nav() {
   const navLinks = [
     { label: 'Anasayfa', href: '/' },
     { label: 'Firmalar', href: '/firmalar' },
-    { label: 'Halı Yıkama', href: '/firmalar?categoryId=1' },
-    { label: 'Koltuk Yıkama', href: '/firmalar?categoryId=2' },
+    { label: 'Halı Yıkama', href: '/turkiye/hali-yikama' },
+    { label: 'Koltuk Yıkama', href: '/turkiye/koltuk-yikama' },
   ];
 
   const isSolid = theme.navVariant === 'solid';

@@ -28,10 +28,13 @@ function findCityBySlug(cities: CityDto[], slug: string): CityDto | undefined {
   return cities.find((c) => slugify(c.city) === slug);
 }
 
-async function getCompaniesByCity(city: string): Promise<PaginatedResponse<CompanyListDto>> {
+const IS_ALL_TURKEY = 'turkiye';
+
+async function getCompaniesByCity(city: string | null): Promise<PaginatedResponse<CompanyListDto>> {
   try {
+    const cityParam = city ? `&city=${encodeURIComponent(city)}` : '';
     const res = await fetch(
-      `${API_URL}/api/mp/companies?city=${encodeURIComponent(city)}&sortBy=rating&pageSize=50`,
+      `${API_URL}/api/mp/companies?sortBy=rating&pageSize=50${cityParam}`,
       {
         headers: { 'X-Marketplace-Brand': BRAND_CODE },
         next: { revalidate: 300 },
@@ -52,25 +55,32 @@ export async function generateMetadata({
   params: Promise<{ city: string; category: string }>;
 }): Promise<Metadata> {
   const { city: citySlug, category } = await params;
+  const isAllTurkey = citySlug === IS_ALL_TURKEY;
+  const categoryDisplay = getCategoryDisplayName(category);
+
+  if (isAllTurkey) {
+    const title = `${categoryDisplay} Firmaları | ${brand.name}`;
+    const description = `Türkiye genelinde en iyi ${categoryDisplay.toLowerCase()} firmaları. Fiyat karşılaştırma, gerçek müşteri yorumları. Hemen sipariş verin.`;
+    return {
+      title,
+      description,
+      alternates: { canonical: `/${citySlug}/${category}` },
+      openGraph: { title, description, url: `https://${brand.domain}/${citySlug}/${category}` },
+    };
+  }
+
   const cities = await getCities();
   const cityData = findCityBySlug(cities, citySlug);
   if (!cityData) return { title: 'Sayfa Bulunamadı' };
 
-  const categoryDisplay = getCategoryDisplayName(category);
   const title = `${cityData.city} ${categoryDisplay} Firmaları | ${brand.name}`;
   const description = `${cityData.city} şehrinde en iyi ${categoryDisplay.toLowerCase()} firmaları. ${cityData.companyCount} firma, fiyat karşılaştırma, gerçek müşteri yorumları. Hemen sipariş verin.`;
 
   return {
     title,
     description,
-    alternates: {
-      canonical: `/${citySlug}/${category}`,
-    },
-    openGraph: {
-      title,
-      description,
-      url: `https://${brand.domain}/${citySlug}/${category}`,
-    },
+    alternates: { canonical: `/${citySlug}/${category}` },
+    openGraph: { title, description, url: `https://${brand.domain}/${citySlug}/${category}` },
   };
 }
 
@@ -80,13 +90,26 @@ export default async function CityCategoryPage({
   params: Promise<{ city: string; category: string }>;
 }) {
   const { city: citySlug, category } = await params;
-  const cities = await getCities();
-  const cityData = findCityBySlug(cities, citySlug);
-
-  if (!cityData) notFound();
-
+  const isAllTurkey = citySlug === IS_ALL_TURKEY;
   const categoryDisplay = getCategoryDisplayName(category);
-  const data = await getCompaniesByCity(cityData.city);
+
+  let cityName: string;
+  let data: PaginatedResponse<CompanyListDto>;
+
+  if (isAllTurkey) {
+    cityName = 'Türkiye';
+    data = await getCompaniesByCity(null);
+  } else {
+    const cities = await getCities();
+    const cityData = findCityBySlug(cities, citySlug);
+    if (!cityData) notFound();
+    cityName = cityData.city;
+    data = await getCompaniesByCity(cityName);
+  }
+
+  const heading = isAllTurkey
+    ? categoryDisplay
+    : `${cityName} ${categoryDisplay}`;
 
   return (
     <>
@@ -106,13 +129,17 @@ export default async function CityCategoryPage({
                 Anasayfa
               </a>
               <span>/</span>
-              <a
-                href={`/${citySlug}`}
-                className="hover:text-brand-primary transition-colors capitalize"
-              >
-                {cityData.city}
-              </a>
-              <span>/</span>
+              {!isAllTurkey && (
+                <>
+                  <a
+                    href={`/${citySlug}`}
+                    className="hover:text-brand-primary transition-colors"
+                  >
+                    {cityName}
+                  </a>
+                  <span>/</span>
+                </>
+              )}
               <span className="text-brand-text font-medium">{categoryDisplay}</span>
             </nav>
 
@@ -123,7 +150,7 @@ export default async function CityCategoryPage({
                 </div>
                 <div>
                   <h1 className="text-2xl sm:text-3xl lg:text-4xl font-heading font-bold text-brand-text">
-                    {cityData.city} {categoryDisplay}
+                    {heading}
                   </h1>
                   <p className="text-brand-text-muted mt-1">
                     {data.totalCount} firma bulundu
@@ -151,10 +178,12 @@ export default async function CityCategoryPage({
               <div className="text-center py-20">
                 <Building2 size={48} className="mx-auto text-brand-text-muted/30 mb-4" />
                 <h3 className="text-lg font-medium text-brand-text">
-                  {cityData.city} şehrinde henüz {categoryDisplay.toLowerCase()} firması yok
+                  {isAllTurkey
+                    ? `Henüz ${categoryDisplay.toLowerCase()} firması yok`
+                    : `${cityName} şehrinde henüz ${categoryDisplay.toLowerCase()} firması yok`}
                 </h3>
                 <p className="text-brand-text-muted mt-2 max-w-md mx-auto">
-                  Bu bölgede yakında firmalar eklenecek. Diğer şehirlerdeki firmalarımızı inceleyebilirsiniz.
+                  Yakında firmalar eklenecek. Diğer kategorilerdeki firmalarımızı inceleyebilirsiniz.
                 </p>
                 <a
                   href="/firmalar"
@@ -174,7 +203,7 @@ export default async function CityCategoryPage({
             __html: JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'ItemList',
-              name: `${cityData.city} ${categoryDisplay} Firmaları`,
+              name: `${heading} Firmaları`,
               numberOfItems: data.items.length,
               itemListElement: data.items.map((c, i) => ({
                 '@type': 'ListItem',
@@ -184,7 +213,7 @@ export default async function CityCategoryPage({
                   name: c.companyName,
                   address: {
                     '@type': 'PostalAddress',
-                    addressLocality: cityData.city,
+                    addressLocality: c.city || cityName,
                     addressCountry: 'TR',
                   },
                   ...(c.averageRating > 0 && {
