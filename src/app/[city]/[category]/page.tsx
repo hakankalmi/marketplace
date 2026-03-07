@@ -159,17 +159,14 @@ export default async function CityCategoryPage({
               <div className="absolute -bottom-32 -left-32 w-[500px] h-[500px] rounded-full opacity-5" style={{ background: '#fff' }} />
             </div>
             <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-              <nav className="flex items-center justify-center gap-2 text-sm text-white/60 mb-8">
-                <a href="/" className="hover:text-white transition-colors">Anasayfa</a>
-                <span>/</span>
-                <span className="text-white font-medium">{categoryDisplay}</span>
-              </nav>
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold text-white leading-tight">
                 Türkiye&apos;nin En İyi<br />{categoryDisplay} Firmaları
               </h1>
-              <p className="mt-5 text-lg text-white/80 max-w-2xl mx-auto">
+              <p className="mt-5 text-lg text-white/80 max-w-3xl mx-auto leading-relaxed">
                 81 ilde güvenilir {categoryDisplay.toLowerCase()} firmalarını karşılaştırın,
-                gerçek yorumları okuyun, hemen sipariş verin.
+                gerçek yorumları okuyun, kolayca sipariş verin ve siparişinizin her aşamasını
+                şeffaf ve detaylı bir şekilde takip ederek halılarınız teslim edilene kadar
+                olan süreçte mükemmel bir deneyim yaşayın.
               </p>
 
               {/* Güven sayaçları */}
