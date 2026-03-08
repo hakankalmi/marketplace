@@ -1,0 +1,82 @@
+import { api } from './api/client';
+import { isAuthenticated } from './api/auth';
+
+const VAPID_PUBLIC_KEY =
+  'BFe72HR5g7JA3ZRoMQgNEBi6ERHp8g3t8v2Tl674-jDXaCJEUPU4uDe7Zzo3d2REw_CH6Pqy5ZKhENv4XK6Gl2M';
+
+/**
+ * Convert VAPID base64 key to Uint8Array for PushManager.subscribe()
+ */
+function urlBase64ToUint8Array(base64String: string): Uint8Array {
+  const padding = '='.repeat((4 - (base64String.length % 4)) % 4);
+  const base64 = (base64String + padding).replace(/-/g, '+').replace(/_/g, '/');
+  const rawData = atob(base64);
+  const outputArray = new Uint8Array(rawData.length);
+  for (let i = 0; i < rawData.length; i++) {
+    outputArray[i] = rawData.charCodeAt(i);
+  }
+  return outputArray;
+}
+
+/**
+ * Subscribe the browser to web push notifications.
+ * Call this after the user logs in.
+ */
+export async function subscribeToPush(): Promise<boolean> {
+  try {
+    if (!isAuthenticated()) return false;
+    if (!('serviceWorker' in navigator) || !('PushManager' in window)) return false;
+
+    const registration = await navigator.serviceWorker.ready;
+
+    // Check existing subscription
+    let subscription = await registration.pushManager.getSubscription();
+
+    if (!subscription) {
+      // Request permission
+      const permission = await Notification.requestPermission();
+      if (permission !== 'granted') return false;
+
+      // Subscribe
+      subscription = await registration.pushManager.subscribe({
+        userVisibleOnly: true,
+        applicationServerKey: urlBase64ToUint8Array(VAPID_PUBLIC_KEY),
+      });
+    }
+
+    // Extract keys and send to backend
+    const rawKey = subscription.getKey('p256dh');
+    const rawAuth = subscription.getKey('auth');
+    if (!rawKey || !rawAuth) return false;
+
+    const p256dh = btoa(String.fromCharCode(...new Uint8Array(rawKey)));
+    const auth = btoa(String.fromCharCode(...new Uint8Array(rawAuth)));
+
+    await api.post('/api/mp/me/push-token', {
+      endpoint: subscription.endpoint,
+      p256dhKey: p256dh,
+      authKey: auth,
+      deviceInfo: navigator.userAgent.slice(0, 200),
+    });
+
+    return true;
+  } catch {
+    // Non-critical — fail silently
+    return false;
+  }
+}
+
+/**
+ * Check if push is available and permission is granted.
+ */
+export function isPushSupported(): boolean {
+  return 'serviceWorker' in navigator && 'PushManager' in window && 'Notification' in window;
+}
+
+/**
+ * Check current notification permission state.
+ */
+export function getPushPermission(): NotificationPermission | 'unsupported' {
+  if (!('Notification' in window)) return 'unsupported';
+  return Notification.permission;
+}

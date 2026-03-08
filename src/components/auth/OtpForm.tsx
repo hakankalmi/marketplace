@@ -8,6 +8,7 @@ import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { requestOtp, verifyOtp, saveAuth } from '@/lib/api/auth';
 import { updateProfile } from '@/lib/api/customer';
+import { subscribeToPush } from '@/lib/push-notifications';
 import { BRAND_CODE } from '@/lib/constants';
 
 type Step = 'phone' | 'otp' | 'name';
@@ -68,6 +69,9 @@ export function OtpForm() {
         brandCode: BRAND_CODE,
       });
       saveAuth(auth);
+
+      // Subscribe to push notifications (non-blocking)
+      subscribeToPush().catch(() => {});
 
       // If user has no name, ask for it
       if (!auth.name) {

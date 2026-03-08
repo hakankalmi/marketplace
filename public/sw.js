@@ -35,6 +35,62 @@ self.addEventListener('activate', (event) => {
   self.clients.claim();
 });
 
+// Push notification handler
+self.addEventListener('push', (event) => {
+  if (!event.data) return;
+
+  try {
+    const data = event.data.json();
+    const title = data.title || 'ProTakip';
+    const options = {
+      body: data.body || '',
+      icon: '/brands/hali_sepeti/icon-192.png',
+      badge: '/brands/hali_sepeti/icon-192.png',
+      tag: data.tag || 'default',
+      data: {
+        trackingCode: data.trackingCode || '',
+        eventKey: data.eventKey || '',
+        orderCode: data.orderCode || '',
+        url: data.url || '',
+      },
+      vibrate: [100, 50, 100],
+      actions: data.trackingCode
+        ? [{ action: 'track', title: 'Takip Et' }]
+        : [],
+    };
+    event.waitUntil(self.registration.showNotification(title, options));
+  } catch {
+    // Invalid payload — ignore
+  }
+});
+
+// Notification click handler
+self.addEventListener('notificationclick', (event) => {
+  event.notification.close();
+  const data = event.notification.data || {};
+
+  let url = '/hesabim/siparislerim';
+  if (data.url) {
+    url = data.url;
+  } else if (data.trackingCode) {
+    url = `/takip/${data.trackingCode}`;
+  }
+
+  event.waitUntil(
+    clients.matchAll({ type: 'window', includeUncontrolled: true }).then((windowClients) => {
+      // Focus existing tab if available
+      for (const client of windowClients) {
+        if (client.url.includes(self.location.origin) && 'focus' in client) {
+          client.navigate(url);
+          return client.focus();
+        }
+      }
+      // Open new tab
+      return clients.openWindow(url);
+    })
+  );
+});
+
 // Fetch stratejisi
 self.addEventListener('fetch', (event) => {
   const { request } = event;
