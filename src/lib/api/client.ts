@@ -1,4 +1,5 @@
 import { API_URL, BRAND_CODE } from '@/lib/constants';
+import { getAttributionHeader } from '@/lib/attribution';
 
 class ApiError extends Error {
   constructor(
@@ -31,6 +32,12 @@ async function request<T>(
 
   if (token) {
     headers['Authorization'] = `Bearer ${token}`;
+  }
+
+  // Send ad attribution data (gclid, fbclid, utm_*) for server-side analytics
+  const attribution = getAttributionHeader();
+  if (attribution) {
+    headers['X-Attribution'] = attribution;
   }
 
   const res = await fetch(url, {

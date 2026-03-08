@@ -65,10 +65,14 @@ export function ConfirmStep({ company, formData, onBack, onSuccess }: Props) {
         source: 'web',
         beforePhotoUrls: beforePhotos.length > 0 ? beforePhotos : undefined,
       });
-      gtmEvent('marketplace_order_created', {
+      // GTM — Lead event (dedup with server-side Meta CAPI + GA4 MP)
+      gtmEvent('generate_lead', {
+        event_id: `${result.marketplaceOrderCode}_lead`,
         orderCode: result.marketplaceOrderCode,
         companyId: company.companyId,
         city: formData.city,
+        content_type: 'service',
+        currency: 'TRY',
         hasPhotos: beforePhotos.length > 0,
       });
       onSuccess(result.marketplaceOrderCode);

@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import Script from 'next/script';
+import { captureAttribution } from '@/lib/attribution';
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://api.protakip.com';
 
@@ -9,6 +10,9 @@ export function GtmLoader() {
   const [gtmId, setGtmId] = useState<string | null>(null);
 
   useEffect(() => {
+    // Capture ad attribution (gclid, fbclid, utm_*) on first visit
+    captureAttribution();
+
     async function fetchGtmId() {
       try {
         const res = await fetch(`${API_URL}/api/mp/config`);
