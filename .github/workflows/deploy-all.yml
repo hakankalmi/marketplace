@@ -39,8 +39,19 @@ jobs:
         run: |
           mkdir -p deploy
           cp -r .next/standalone/. deploy/
+          rm -rf deploy/.next/static
           cp -r .next/static deploy/.next/static
           cp -r public deploy/public
+
+      - name: Clean old build on server
+        uses: appleboy/ssh-action@v1
+        with:
+          host: ${{ env.SERVER_IP }}
+          username: root
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            rm -rf ${{ env.DEPLOY_PATH }}/builds/${{ matrix.brand }}/.next
+            rm -rf ${{ env.DEPLOY_PATH }}/builds/${{ matrix.brand }}/node_modules
 
       - name: Deploy to server
         uses: appleboy/scp-action@v0.1.7
