@@ -1,47 +1,73 @@
 import type { MetadataRoute } from 'next';
-import { API_URL, BRAND_CODE } from '@/lib/constants';
+import { API_URL, BRAND_CODE, CITIES } from '@/lib/constants';
 import { getBrandConfig } from '@/brands';
+import { slugify } from '@/lib/utils';
 
 const brand = getBrandConfig();
 const baseUrl = `https://${brand.domain}`;
 
+const CATEGORIES = [
+  'hali-yikama',
+  'koltuk-yikama',
+  'yorgan-yikama',
+  'perde-yikama',
+  'yatak-yikama',
+  'ev-temizligi',
+  'ofis-temizligi',
+];
+
+interface CompanyItem {
+  companyId: string;
+  slug: string | null;
+  city: string | null;
+  categoryKeys: string[];
+}
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const now = new Date();
+
   const entries: MetadataRoute.Sitemap = [
-    {
-      url: baseUrl,
-      lastModified: new Date(),
-      changeFrequency: 'daily',
-      priority: 1,
-    },
-    {
-      url: `${baseUrl}/firmalar`,
-      lastModified: new Date(),
-      changeFrequency: 'daily',
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/giris`,
-      changeFrequency: 'monthly',
-      priority: 0.3,
-    },
-    {
-      url: `${baseUrl}/hakkimizda`,
-      changeFrequency: 'monthly',
-      priority: 0.4,
-    },
-    {
-      url: `${baseUrl}/gizlilik`,
-      changeFrequency: 'yearly',
-      priority: 0.2,
-    },
-    {
-      url: `${baseUrl}/kullanim-kosullari`,
-      changeFrequency: 'yearly',
-      priority: 0.2,
-    },
+    // ── Statik sayfalar ──
+    { url: baseUrl, lastModified: now, changeFrequency: 'daily', priority: 1 },
+    { url: `${baseUrl}/firmalar`, lastModified: now, changeFrequency: 'daily', priority: 0.9 },
+    { url: `${baseUrl}/giris`, changeFrequency: 'monthly', priority: 0.3 },
+    { url: `${baseUrl}/hakkimizda`, changeFrequency: 'monthly', priority: 0.4 },
+    { url: `${baseUrl}/gizlilik`, changeFrequency: 'yearly', priority: 0.2 },
+    { url: `${baseUrl}/kullanim-kosullari`, changeFrequency: 'yearly', priority: 0.2 },
   ];
 
-  // Firma slugları
+  // ── Kategori ana sayfaları: /turkiye/hali-yikama ──
+  for (const cat of CATEGORIES) {
+    entries.push({
+      url: `${baseUrl}/turkiye/${cat}`,
+      lastModified: now,
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    });
+  }
+
+  // ── 81 il landing sayfaları: /sivas, /istanbul ──
+  for (const city of CITIES) {
+    const citySlug = slugify(city);
+    entries.push({
+      url: `${baseUrl}/${citySlug}`,
+      lastModified: now,
+      changeFrequency: 'weekly',
+      priority: 0.7,
+    });
+
+    // ── Şehir+Kategori sayfaları: /sivas-hali-yikama-firmalari ──
+    for (const cat of CATEGORIES) {
+      entries.push({
+        url: `${baseUrl}/${citySlug}-${cat}-firmalari`,
+        lastModified: now,
+        changeFrequency: 'weekly',
+        priority: 0.6,
+      });
+    }
+  }
+
+  // ── Firma detay sayfaları: /{city}/{category}/{slug} ──
   try {
     const res = await fetch(
       `${API_URL}/api/mp/companies?pageSize=1000`,
@@ -52,48 +78,23 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     );
     if (res.ok) {
       const data = await res.json();
-      for (const company of data.items || []) {
-        const slug = company.slug || company.companyId;
-        entries.push({
-          url: `${baseUrl}/firmalar/${slug}`,
-          lastModified: new Date(),
-          changeFrequency: 'weekly',
-          priority: 0.8,
-        });
+      for (const company of (data.items || []) as CompanyItem[]) {
+        const companySlug = company.slug || company.companyId;
+        const citySlug = company.city ? slugify(company.city) : null;
+        const category = company.categoryKeys?.[0] || 'hali-yikama';
+
+        if (citySlug) {
+          entries.push({
+            url: `${baseUrl}/${citySlug}/${category}/${companySlug}`,
+            lastModified: now,
+            changeFrequency: 'weekly',
+            priority: 0.8,
+          });
+        }
       }
     }
   } catch {
     // Continue without company URLs
-  }
-
-  // Şehir landing sayfaları
-  try {
-    const res = await fetch(`${API_URL}/api/mp/cities`, {
-      headers: { 'X-Marketplace-Brand': BRAND_CODE },
-      next: { revalidate: 60 },
-    });
-    if (res.ok) {
-      const cities = await res.json();
-      for (const city of cities) {
-        const slug = city.city
-          .toLowerCase()
-          .replace(/ğ/g, 'g')
-          .replace(/ü/g, 'u')
-          .replace(/ş/g, 's')
-          .replace(/ı/g, 'i')
-          .replace(/ö/g, 'o')
-          .replace(/ç/g, 'c')
-          .replace(/[^a-z0-9]+/g, '-');
-        entries.push({
-          url: `${baseUrl}/${slug}`,
-          lastModified: new Date(),
-          changeFrequency: 'weekly',
-          priority: 0.7,
-        });
-      }
-    }
-  } catch {
-    // Continue without city URLs
   }
 
   return entries;
