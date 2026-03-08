@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { getBrandConfig } from '@/brands';
 import { Nav } from '@/components/nav/Nav';
 import { Footer } from '@/components/footer/Footer';
-import { BreadcrumbJsonLd, ArticleJsonLd, FaqJsonLd } from '@/components/seo/JsonLd';
+import { BreadcrumbJsonLd, ArticleJsonLd, FaqJsonLd, HowToJsonLd } from '@/components/seo/JsonLd';
 import { Clock, ArrowLeft, ArrowRight, BookOpen } from 'lucide-react';
 import { getGuideBySlug, guides } from '../guides';
 
@@ -38,6 +38,14 @@ export async function generateMetadata({
       locale: 'tr_TR',
       publishedTime: guide.datePublished,
       modifiedTime: guide.dateModified,
+      images: [
+        {
+          url: `/api/og?title=${encodeURIComponent(guide.title.split(' — ')[0])}&subtitle=${encodeURIComponent(guide.metaDescription.slice(0, 80))}&type=guide`,
+          width: 1200,
+          height: 630,
+          alt: guide.metaTitle,
+        },
+      ],
     },
     twitter: {
       card: 'summary',
@@ -77,6 +85,24 @@ export default async function GuidePage({
         dateModified={guide.dateModified}
       />
       {guide.faq.length > 0 && <FaqJsonLd faq={guide.faq} />}
+      {(() => {
+        // Detect guides with numbered step sections (e.g. "1. Ön Muayene", "2. Toz Alma")
+        const numberedSteps = guide.sections.filter((s) => /^\d+\.\s/.test(s.heading));
+        if (numberedSteps.length >= 3) {
+          return (
+            <HowToJsonLd
+              name={guide.title}
+              description={guide.metaDescription}
+              steps={numberedSteps.map((s) => ({
+                name: s.heading.replace(/^\d+\.\s*/, ''),
+                text: s.content.replace(/\*\*/g, '').slice(0, 500),
+              }))}
+              totalTime={guide.readingTime >= 60 ? `PT${Math.round(guide.readingTime / 60)}H` : `PT${guide.readingTime}M`}
+            />
+          );
+        }
+        return null;
+      })()}
       <Nav />
       <main className="min-h-screen bg-brand-bg">
         {/* Hero */}

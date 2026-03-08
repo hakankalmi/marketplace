@@ -359,6 +359,707 @@ Profesyonel firmalar endüstriyel ekipman ve özel kimyasallarla bu lekeleri gü
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'hali-yikama-nasil-yapilir', 'hali-leke-cikarma'],
   },
+  {
+    slug: 'koltuk-bakim-onerileri',
+    title: 'Koltuk Bakımı — Koltuğunuzun Ömrünü Uzatacak 8 Öneri',
+    metaTitle: 'Koltuk Bakım Rehberi | Koltuk Ömrünü Uzatan 8 İpucu',
+    metaDescription: 'Koltuk bakımı nasıl yapılır? Kumaş ve deri koltuk temizleme, leke önleme, profesyonel bakım önerileri. Koltuğunuzun ömrünü 2 kat uzatın.',
+    datePublished: '2026-02-20',
+    dateModified: '2026-03-08',
+    category: 'koltuk-yikama',
+    readingTime: 5,
+    heroEmoji: '🛋️',
+    intro: 'Koltuklar evin en çok kullanılan mobilyalarıdır ve doğru bakımla ömürleri 2 katına çıkabilir. İşte kumaş ve deri koltuklar için profesyonellerin önerdiği 8 bakım ipucu.',
+    sections: [
+      {
+        heading: 'Günlük ve Haftalık Bakım',
+        content: `**1. Haftada 1 Kez Süpürün:** Koltuk aralarına biriken kırıntı, tüy ve toz, kumaşı aşındırır. Döşeme başlıklı elektrik süpürgesi kullanın.
+
+**2. Yastıkları Döndürün:** Oturma yastıklarını haftada 1 kez ters çevirin ve yer değiştirin. Bu, eşit aşınma sağlar ve çökmeyi önler.
+
+**3. Direkt Güneş Işığından Koruyun:** UV ışınları kumaş rengini soldurur ve deriyi çatlatır. Perde veya jaluzi ile koruyun.
+
+**4. Evcil Hayvan Örtüsü Kullanın:** Kedi/köpek tırnakları kumaşı yırtar. Yıkanabilir koltuk örtüsü en pratik çözümdür.`,
+      },
+      {
+        heading: 'Leke Müdahalesi',
+        content: `**5. Anında Müdahale:** Leke oluştuğunda 30 saniye içinde temiz beyaz bezle EMİN (blot). Ovmayın — lekeyi derine iter.
+
+**6. Kumaş Tipine Göre Temizleyin:** Koltuk etiketindeki kodu kontrol edin:
+- **W** = Su bazlı temizleyici kullanabilirsiniz
+- **S** = Sadece solvent bazlı (kuru temizleme)
+- **WS** = Her ikisi de kullanılabilir
+- **X** = Sadece süpürme/fırçalama (profesyonele götürün)
+
+**7. Deri Koltuklarda Nemlendirici:** 3-6 ayda bir deri bakım kremi uygulayın. Kuru kalan deri çatlar ve yırtılır. Bebek yağı veya vazelin KULLANMAYIN — gözenekleri tıkar.`,
+      },
+      {
+        heading: 'Profesyonel Bakım',
+        content: `**8. Yılda 1-2 Kez Profesyonel Yıkatın:** Ev temizliği yüzeyi temizler, profesyonel ekstraksiyon yöntemi kumaşın derinlerine iner. Alerjen, toz akarı ve bakterileri %99 oranında yok eder.
+
+**Ne Zaman Profesyonele Başvurmalı?**
+- Koltukta kötü koku varsa (sigara, evcil hayvan, yemek)
+- Geniş alan lekeleri oluştuysa
+- 6 aydan uzun süredir yıkanmadıysa
+- Alerjik reaksiyonlar artıyorsa
+
+Profesyonel koltuk yıkama yerinde (evinizde) yapılır, koltuğu taşımaya gerek yoktur. İşlem 2-3 saat sürer ve koltuklar aynı gün akşam kullanıma hazır olur.`,
+      },
+    ],
+    faq: [
+      { q: 'Koltuk ne sıklıkla yıkatılmalı?', a: 'Normal kullanımda yılda 1-2 kez yeterlidir. Evcil hayvan, küçük çocuk veya alerjik bünye varsa 3-4 ayda bir önerilir.' },
+      { q: 'Koltuk yıkama sonrası ne kadar sürede kurur?', a: 'Profesyonel ekstraksiyon yöntemiyle 4-6 saatte kurur. Buhar temizleme ile 1-2 saat. Oda sıcaklığı ve havalandırma kuruma süresini etkiler.' },
+      { q: 'Deri koltuk yıkamak güvenli mi?', a: 'Evet, profesyonel firmalar deri koltuklara özel pH dengeli solüsyonlar ve deri bakım kremleri kullanır.' },
+    ],
+    relatedSlugs: ['koltuk-yikama-fiyatlari', 'hali-bakim-ipuclari', 'hali-leke-cikarma'],
+  },
+  {
+    slug: 'yorgan-yastik-yikama',
+    title: 'Yorgan ve Yastık Yıkama Rehberi — Profesyonel Temizlik',
+    metaTitle: 'Yorgan Yastık Yıkama | Fiyatlar ve Profesyonel Temizlik Rehberi',
+    metaDescription: 'Yorgan ve yastık ne sıklıkla yıkanmalı? Profesyonel yorgan yıkama fiyatları, evde yıkama yöntemleri ve hijyen ipuçları.',
+    datePublished: '2026-02-25',
+    dateModified: '2026-03-08',
+    category: 'yorgan-yikama',
+    readingTime: 6,
+    heroEmoji: '🛏️',
+    intro: 'Yorganlar ve yastıklar toz akarları, ter ve bakteri birikimi için ideal ortamlardır. Düzenli profesyonel yıkama, hem hijyen hem de yaşam kalitesi için şarttır.',
+    sections: [
+      {
+        heading: 'Neden Profesyonel Yıkama Gerekli?',
+        content: `**Toz Akarları:** 1 yorganda milyonlarca toz akarı yaşayabilir. Bunlar alerjik rinit, astım ve egzama tetikleyicisidir. Ev çamaşır makinesi bu akarları tam yok edemez.
+
+**Ter ve Yağ Birikimi:** Her gece vücudumuz 200-500 ml ter üretir. Bu nem yorgana ve yastığa emilir, zamanla bakteri üremesine neden olur.
+
+**Leke ve Koku:** Evde yıkama lekeyi yaymak, kurutma eksikliği küf kokusu oluşturmak anlamına gelebilir.
+
+**Dolgu Kabarıklığı:** Profesyonel kurutma, yorganın dolgusunu kabarık tutar. Evde kurutulan yorganlar çöker ve ısı yalıtım kapasitesini kaybeder.`,
+      },
+      {
+        heading: 'Profesyonel Yorgan Yıkama Süreci',
+        content: `**1. Ön Kontrol:** Yırtık, leke ve dolgu durumu kontrol edilir.
+**2. Leke Ön İşlemi:** Ter halkaları ve lekeler özel solüsyonla işlenir.
+**3. Yıkama:** Endüstriyel çamaşır makinesinde 60°C'de hijyenik yıkama. Bu sıcaklık toz akarlarını %100 yok eder.
+**4. Durulama:** 2 kez durulama ile deterjan kalıntısı sıfırlanır.
+**5. Kurutma:** Endüstriyel kurutma makinesi ile dolgu kabarıklığı korunarak tam kurutma. Küf riski sıfır.
+**6. Ozon Dezenfeksiyonu (Opsiyonel):** Ozon gazı ile bakteri ve koku %99.9 yok edilir.`,
+      },
+      {
+        heading: 'Fiyatlar ve Sıklık',
+        content: `**Yorgan Yıkama Fiyatları (2026):**
+- Tek kişilik yorgan: 150-250 TL
+- Çift kişilik yorgan: 200-350 TL
+- Kuş tüyü yorgan: 300-500 TL (özel işlem)
+- Battaniye: 100-200 TL
+
+**Yastık Yıkama:**
+- Normal yastık: 50-100 TL/adet
+- Visko/Ortopedik yastık: 80-150 TL/adet
+
+**Yıkama Sıklığı:**
+- Yorganlar: Yılda 2 kez (sezon geçişlerinde)
+- Yastıklar: 3-4 ayda bir
+- Alerji hastaları: 2 ayda bir`,
+      },
+    ],
+    faq: [
+      { q: 'Yorgan evde çamaşır makinesinde yıkanır mı?', a: 'Küçük yorganlar 9+ kg kapasiteli makinede yıkanabilir. Ancak endüstriyel kurutma olmadan dolgu çöker ve küf riski oluşur. Profesyonel yıkama önerilir.' },
+      { q: 'Kuş tüyü yorgana özel işlem gerekir mi?', a: 'Evet, kuş tüyü yorganlar düşük sıcaklıkta (40°C) ve özel deterjanla yıkanır. Yüksek sıcaklık tüyleri bozar.' },
+      { q: 'Yıkama sonrası yorgan ne zaman teslim edilir?', a: 'Genellikle 2-3 gün içinde teslim edilir. Kurutma süreci en uzun aşamadır.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'hali-bakim-ipuclari', 'koltuk-yikama-fiyatlari'],
+  },
+  {
+    slug: 'perde-yikama-rehberi',
+    title: 'Perde Yıkama Rehberi — Tül ve Fon Perde Temizliği',
+    metaTitle: 'Perde Yıkama Rehberi | Tül ve Fon Perde Temizlik Fiyatları 2026',
+    metaDescription: 'Perde yıkama nasıl yapılır? Tül perde, fon perde ve stor perde yıkama fiyatları. Profesyonel perde temizleme yöntemleri ve ipuçları.',
+    datePublished: '2026-03-01',
+    dateModified: '2026-03-08',
+    category: 'perde-yikama',
+    readingTime: 5,
+    heroEmoji: '🪟',
+    intro: 'Perdeler evin havasını belirler ama aynı zamanda toz, sigara dumanı ve yağ buharının en çok biriktiği tekstillerdir. Doğru yıkama tekniği hem hijyen sağlar hem de perdenin ömrünü korur.',
+    sections: [
+      {
+        heading: 'Perde Türlerine Göre Yıkama',
+        content: `**Tül Perde:** En hassas perde türüdür. 30°C'de nazik programda yıkanır. Sıkmadan, damlayarak kurutulur. Direkt güneşte asılırsa solar.
+
+**Fon Perde (Blackout):** Genellikle polyester veya pamuk karışımıdır. 40°C'de yıkanabilir. Ağır olduğu için evde yıkamak zordur — profesyonel firma önerilir.
+
+**Kadife Perde:** Su ile yıkanMAMALIDIR. Kuru temizleme gerektirir. Yanlış yıkama kadifenin tüylerini döker.
+
+**Stor / Zebra Perde:** Mekanizması nedeniyle sökmek ve takmak uzmanlık gerektirir. Ultrasonik yıkama en etkili yöntemdir.
+
+**Brode / Dantel Perde:** Elde, soğuk suda, nazikçe yıkanır. Makine yıkama yırtar.`,
+      },
+      {
+        heading: 'Profesyonel Perde Yıkama Fiyatları',
+        content: `**2026 Güncel Fiyatlar:**
+- Tül perde: 15-30 TL/m²
+- Fon perde: 25-45 TL/m²
+- Kadife perde (kuru temizleme): 40-70 TL/m²
+- Stor/Zebra perde: 30-50 TL/m²
+- Jaluzi perde (ultrasonik): 35-60 TL/m²
+
+**Paket Avantajı:** Tüm ev perdeleri toplu yıkamada %15-25 indirim yaygındır.
+
+**Sökme-Takma Hizmeti:** Çoğu firma ücretsiz perde sökme ve takma hizmeti sunar. Yüksek tavanlı veya karmaşık mekanizmalı perdelerde ek ücret alınabilir.`,
+      },
+      {
+        heading: 'Ne Sıklıkla Yıkanmalı?',
+        content: `**Tül perde:** 3-4 ayda bir (toz çok birikir)
+**Fon perde:** 6 ayda bir
+**Mutfak perdesi:** 2-3 ayda bir (yağ buharı birikimi)
+**Yatak odası perdesi:** 4-6 ayda bir
+**Sigara içilen ortam:** 2 ayda bir
+
+**İpucu:** Perde yıkama ile halı yıkamayı aynı dönemde yaptırmak hem organizasyonu kolaylaştırır hem de firmalardan kombine indirim alma şansı verir.`,
+      },
+    ],
+    faq: [
+      { q: 'Tül perde çamaşır makinesinde yıkanır mı?', a: 'Evet, 30°C nazik programda, tül file içinde yıkanabilir. Sıkma yapılmamalıdır. Ancak profesyonel yıkama daha hijyenik ve perde ömrünü uzatıcıdır.' },
+      { q: 'Perde yıkama sonrası ütüleme gerekir mi?', a: 'Profesyonel firmalar perdeleri ütülenmiş ve asılmaya hazır teslim eder. Bazı firmalar yerinde ütüleme hizmeti de sunar.' },
+      { q: 'Perde söküp takma ücreti var mı?', a: 'Çoğu firma standart perdelerde ücretsiz sökme-takma hizmeti verir. Özel mekanizmalı veya çok yüksek perdelerde ek ücret alınabilir.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'koltuk-yikama-fiyatlari', 'hali-bakim-ipuclari'],
+  },
+  {
+    slug: 'hali-yikama-firmasi-nasil-secilir',
+    title: 'Halı Yıkama Firması Nasıl Seçilir? — 7 Kritik Kriter',
+    metaTitle: 'Halı Yıkama Firması Seçimi | 7 Kritik Kriter ve İpuçları',
+    metaDescription: 'Güvenilir halı yıkama firması nasıl seçilir? Fiyat, kalite, garanti, müşteri yorumları ve 7 kritik değerlendirme kriteri.',
+    datePublished: '2026-03-02',
+    dateModified: '2026-03-08',
+    category: 'hali-yikama',
+    readingTime: 7,
+    heroEmoji: '🔍',
+    intro: 'Halınızı emanet edeceğiniz firmayı seçmek önemli bir karardır. Yanlış firma seçimi halınıza zarar verebilir, renk solmasına veya çekmeye neden olabilir. İşte profesyonellerin önerdiği 7 kritik seçim kriteri.',
+    sections: [
+      {
+        heading: '1. Müşteri Yorumlarını İnceleyin',
+        content: `En güvenilir referans, gerçek müşteri deneyimleridir. Halı Yıkamacılar platformunda her firmanın doğrulanmış müşteri yorumlarını görebilirsiniz.
+
+**Nelere Dikkat Etmeli?**
+- ★4.0 üzeri ortalama puan güvenilir kabul edilir
+- Minimum 10+ yorum olan firmalar daha güvenilirdir (küçük örneklem yanıltıcı olabilir)
+- Olumsuz yorumlara firmanın verdiği yanıtları okuyun — sorun çözme yaklaşımını gösterir
+- Son 3 ayın yorumlarına özel dikkat edin — güncel hizmet kalitesini yansıtır`,
+      },
+      {
+        heading: '2. Fiyat Listesini Karşılaştırın',
+        content: `**En ucuz firma her zaman en iyi değildir.** Halı Yıkamacılar platformunda firmalar fiyat listelerini şeffaf bir şekilde paylaşır.
+
+**Sağlıklı Karşılaştırma İçin:**
+- Aynı halı türü için (örn: makine halısı m²) fiyatları kıyaslayın
+- Fiyata dahil olan hizmetleri kontrol edin (alma-teslim, leke çıkarma, koruma spreyi)
+- Çok düşük fiyat sunan firmalar kaliteden ödün veriyor olabilir (deterjan kalitesi, kurutma süresi)
+- Ortalama şehir fiyatına yakın firmalar genellikle en iyi fiyat/kalite oranını sunar`,
+      },
+      {
+        heading: '3. Ücretsiz Alma-Teslim Hizmeti',
+        content: `Profesyonel firmalar adresinizden halıyı alır, yıkayıp paketleyerek teslim eder. Bu hizmetin ücretsiz olup olmadığını mutlaka sorun.
+
+**Bazı firmalar:**
+- Belirli bölgelerde ücretsiz, uzak mesafelerde ek ücret alabilir
+- Minimum sipariş tutarı altında teslimat ücreti isteyebilir
+
+Halı Yıkamacılar platformunda firmaların hizmet bölgeleri ve teslimat koşulları belirtilir.`,
+      },
+      {
+        heading: '4. Garanti Politikası',
+        content: `Güvenilir firmalar yıkama sonrası garanti sunar:
+
+**Sorulması Gereken Sorular:**
+- Yıkama sonrası leke çıkmazsa ne olur? (İkinci işlem ücretsiz mi?)
+- Halıya zarar gelirse tazminat var mı?
+- Renk solması veya çekme durumunda ne yapılır?
+
+**İyi Firmalar:**
+- Yazılı garanti belgesi verir
+- İlk yıkamada çıkmayan lekeler için ücretsiz ikinci işlem sunar
+- Sigortalıdır (halıya zarar gelirse tazminat ödenir)`,
+      },
+      {
+        heading: '5. Ekipman ve Tesis Kalitesi',
+        content: `**Endüstriyel Ekipman:** Profesyonel halı yıkama fabrikasında bulunması gereken ekipmanlar:
+- Halı silkeleme makinesi (toz alma)
+- Tam otomatik halı yıkama makinesi
+- Santrifüj sıkma makinesi
+- Endüstriyel kurutma alanı/makinesi
+
+**Uyarı İşaretleri:**
+- Halıyı açık alanda yerde yıkayan firmalar profesyonel değildir
+- Fırça ile elle yıkama (makine halısı için) yetersizdir
+- Güneşte kurutma renk solmasına neden olabilir`,
+      },
+      {
+        heading: '6. Teslimat Süresi',
+        content: `Normal süreç 2-4 gündür. Yoğun dönemlerde (yaz başı, bayram öncesi) 5-7 güne çıkabilir.
+
+**Dikkat:**
+- 1 günde teslim vaat eden firmalar kurutma süresini kısa tutuyor olabilir — küf riski
+- 7+ gün süren firmalar iş yoğunluğunu yönetemiyor olabilir
+- Ekspres hizmet (ek ücretli) sunan firmalar acil durumlarda işe yarar
+
+Platform üzerinden sipariş verirken tahmini teslimat süresini görebilirsiniz.`,
+      },
+      {
+        heading: '7. İletişim ve Profesyonellik',
+        content: `Firmayla ilk iletişiminiz hizmet kalitesinin göstergesidir:
+
+- Telefona hızlı cevap veriyor mu?
+- Sorularınıza net ve bilgili yanıtlar mı veriyor?
+- Fiyat konusunda şeffaf mı?
+- Halınızın durumunu inceleyip bilgi veriyor mu?
+
+**Platform Avantajı:** Halı Yıkamacılar üzerinden sipariş verdiğinizde, sipariş durumunuzu anlık takip edebilir, firma ile platform üzerinden iletişim kurabilir ve sorun olursa destek alabilirsiniz.`,
+      },
+    ],
+    faq: [
+      { q: 'En ucuz firma en iyisi midir?', a: 'Hayır. En ucuz firma genellikle deterjan, kurutma süresi veya ekipman kalitesinden ödün verir. Ortalama fiyata yakın, yüksek puanlı firmalar en iyi fiyat/kalite oranını sunar.' },
+      { q: 'Halı yıkama firması sigortalı olmalı mı?', a: 'Evet, özellikle değerli el halıları ve ipek halılar için sigortalı firma tercih edilmelidir. Olası hasarda tazminat güvencesi sağlar.' },
+      { q: 'Online sipariş mi yoksa telefonla mı sipariş vermeliyim?', a: 'Online sipariş (Halı Yıkamacılar platformu) tercih edilmelidir. Fiyat şeffaflığı, sipariş takibi, müşteri yorumları ve destek hizmeti gibi avantajlar sunar.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'hali-yikama-nasil-yapilir', 'hali-bakim-ipuclari'],
+  },
+  {
+    slug: 'hali-alerjisi-ve-hijyen',
+    title: 'Halı Alerjisi — Toz Akarları ve Hijyenik Halı Bakımı',
+    metaTitle: 'Halı Alerjisi ve Toz Akarları | Hijyenik Halı Bakım Rehberi',
+    metaDescription: 'Halı alerjisi nedenleri, toz akarları ile mücadele yöntemleri ve hijyenik halı bakımı. Alerjik bünyeler için profesyonel temizlik önerileri.',
+    datePublished: '2026-03-03',
+    dateModified: '2026-03-08',
+    category: 'hali-yikama',
+    readingTime: 7,
+    heroEmoji: '🤧',
+    intro: 'Halılar, toz akarları ve alerjenlerin en yoğun biriktiği yüzeylerdir. Alerjik rinit, astım ve egzama hastalarının %80\'inde toz akarları tetikleyicidir. Bu rehberde alerjenleri minimuma indirmek için yapılması gerekenleri anlatıyoruz.',
+    sections: [
+      {
+        heading: 'Halılarda Alerjen Kaynakları',
+        content: `**Toz Akarları:** Mikroskobik canlılardır, gözle görülemez. Halı liflerinin derinlerinde yaşar, insan deri döküntüleriyle beslenir. 1 m² halıda 100.000+ toz akarı yaşayabilir.
+
+**Evcil Hayvan Alerjenleri:** Kedi/köpek tüyü, tükürüğü ve deri döküntüleri halıya yapışır. Normal süpürge bu alerjenleri tam çıkaramaz.
+
+**Küf Sporları:** Nemli ortamlarda (banyo yakını, pencere kenarı) halılarda küf oluşabilir. Küf sporları ciddi solunum problemlerine yol açar.
+
+**Polen:** Açık pencereden gelen polen halıya yerleşir ve günlerce alerjen kalır.
+
+**Deterjan Kalıntısı:** Evde kötü durulanan halılarda kalan deterjan kalıntısı da alerjen etkisi yapar.`,
+      },
+      {
+        heading: 'Alerjik Bünyeler İçin Halı Temizlik Programı',
+        content: `**Haftalık:**
+- HEPA filtreli elektrik süpürgesi ile haftada 3 kez süpürme
+- Süpürge çıkışı HEPA olmayan makinelerde toz akarlarını havaya geri saçar
+
+**Aylık:**
+- Halı yüzeyini buharlı temizleyici ile dezenfekte edin (60°C+ buhar toz akarlarını öldürür)
+
+**3-4 Ayda Bir:**
+- Profesyonel halı yıkama — endüstriyel sıcak su yıkama toz akarlarını %99.9 yok eder
+- Anti-alerjik uygulama talep edin (ek hizmet olarak sunulur)
+
+**Yılda Bir:**
+- Halı altı dezenfeksiyonu
+- Gerekirse ozon tedavisi (tüm alerjenleri nötralize eder)`,
+      },
+      {
+        heading: 'Alerjiyi Azaltma Stratejileri',
+        content: `**Doğru Halı Seçimi:** Kısa tüylü, sentetik halılar alerjen birikimini azaltır. Uzun tüylü (shaggy) halılar alerji hastaları için risklidir.
+
+**Nem Kontrolü:** Ortam nemini %40-50 arasında tutun. Nem alma cihazı kullanın. Toz akarları %50+ nemde ürer.
+
+**Havalandırma:** Günde 15-20 dakika pencere açarak havalandırma yapın. Ancak polen mevsiminde (Nisan-Mayıs) sabah erken saatlerde yapın.
+
+**Yatak Koruyucu:** Anti-alerjen yatak ve yastık kılıfı kullanın. Toz akarlarının yatak-halı döngüsünü kırarsınız.
+
+**Profesyonel Tercih:** Halı Yıkamacılar platformunda "anti-alerjik uygulama" hizmeti sunan firmaları filtreleyerek bulabilirsiniz.`,
+      },
+    ],
+    faq: [
+      { q: 'Halıda toz akarı nasıl anlaşılır?', a: 'Toz akarları gözle görülemez. Ancak sabah burun tıkanıklığı, hapşırma, kaşıntılı gözler ve kötüleşen astım belirtileri halıdaki alerjen yoğunluğuna işaret eder.' },
+      { q: 'Halı kaldırılırsa alerji geçer mi?', a: 'Halı kaldırmak alerjen yüzeyini azaltır ama tek başına çözüm değildir. Toz akarları yatak, koltuk ve perdelerde de yaşar. Tüm tekstil yüzeylerin düzenli temizliği gereklidir.' },
+      { q: 'Anti-alerjik halı yıkama nedir?', a: 'Yıkama sonrası halıya özel anti-alerjik solüsyon uygulanır. Bu solüsyon toz akarlarının üremesini 3-6 ay boyunca engeller. Alerjik bünyeler için şiddetle önerilir.' },
+    ],
+    relatedSlugs: ['hali-yikama-nasil-yapilir', 'hali-bakim-ipuclari', 'hali-leke-cikarma'],
+  },
+  {
+    slug: 'ofis-hali-temizligi',
+    title: 'Ofis ve İşyeri Halı Temizliği — Kurumsal Halı Yıkama Rehberi',
+    metaTitle: 'Ofis Halı Temizliği | Kurumsal Halı Yıkama Fiyatları 2026',
+    metaDescription: 'Ofis ve işyeri halı temizliği nasıl yapılır? Kurumsal halı yıkama fiyatları, karo halı temizliği, ofis hijyen standartları.',
+    datePublished: '2026-03-04',
+    dateModified: '2026-03-08',
+    category: 'hali-yikama',
+    readingTime: 6,
+    heroEmoji: '🏢',
+    intro: 'Ofis halıları her gün yüzlerce ayağın trafiğine maruz kalır. Düzenli profesyonel temizlik hem çalışan sağlığı hem de kurumsal imaj için zorunludur.',
+    sections: [
+      {
+        heading: 'Ofis Halı Türleri ve Temizlik Yöntemleri',
+        content: `**Karo Halı (Halı Kaplama):** Ofislerde en yaygın tür. 50x50 cm kareler halinde döşenir. Lekelenen karo tek başına değiştirilebilir. Yıkama yöntemi: Sıcak su ekstraksiyonu veya kuru köpük.
+
+**Duvardan Duvara Halı:** Toplantı odaları ve yönetici katlarında kullanılır. Yerinde yıkama gerektirir, sökülemez. Yıkama yöntemi: Bonnet (pad) temizleme veya encapsulation.
+
+**Kilim / El Halısı:** Temsil amaçlı kullanılan değerli halılar. Profesyonel fabrikada yıkama gerektirir.
+
+**Merdiven Halısı:** Yoğun trafik bölgesi. 3-4 ayda bir şampuanlama önerilir.`,
+      },
+      {
+        heading: 'Kurumsal Halı Yıkama Fiyatları',
+        content: `**2026 Güncel Fiyatlar (Ofis / İşyeri):**
+- Karo halı (yerinde): 10-20 TL/m²
+- Duvardan duvara halı (yerinde): 15-25 TL/m²
+- Fabrikada yıkama (sökülebilir): 25-45 TL/m²
+
+**Paket Anlaşmalar:**
+- Aylık düzenli temizlik sözleşmesi: %20-30 indirim
+- Hafta sonu çalışma (ofis kapalıyken): genellikle ek ücret yok
+
+**Minimum Alan:** Çoğu firma kurumsal işlerde minimum 50 m² şartı koyar.`,
+      },
+      {
+        heading: 'Ofis Halı Temizlik Takvimi',
+        content: `**Günlük:** Süpürme (robotik süpürge idealdir)
+**Haftalık:** Leke kontrolü ve spot temizlik
+**Aylık:** Giriş bölgesi ve yoğun trafik alanlarında şampuanlama
+**3 Ayda Bir:** Tüm ofis halısının profesyonel yerinde temizliği
+**Yılda Bir:** Derin temizlik + dezenfeksiyon (karo halılarda parça değişimi kontrolü)
+
+**İSG (İş Sağlığı ve Güvenliği):** İşyeri hijyen yönetmelikleri düzenli halı temizliği gerektirir. Denetim raporlarında eksiklik cezai yaptırıma neden olabilir.`,
+      },
+    ],
+    faq: [
+      { q: 'Ofis halısı hafta sonları mı yıkanmalı?', a: 'Evet, çalışanları rahatsız etmemek için hafta sonu veya mesai sonrası temizlik idealdir. Çoğu firma bu konuda esnektir.' },
+      { q: 'Karo halıda tek bir karo değiştirilebilir mi?', a: 'Evet, karo halının en büyük avantajı budur. Lekeli veya hasarlı karolar tek tek değiştirilebilir. Yedek karo stoku tutmanız önerilir.' },
+      { q: 'Ofis halısı ne sıklıkla profesyonel temizlenmeli?', a: '50+ kişilik ofislerde 3 ayda bir, küçük ofislerde 6 ayda bir profesyonel temizlik yeterlidir.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'hali-yikama-firmasi-nasil-secilir', 'hali-bakim-ipuclari'],
+  },
+  {
+    slug: 'hali-yikama-makinesi-turleri',
+    title: 'Halı Yıkama Makinesi Türleri — Profesyonel Ekipman Rehberi',
+    metaTitle: 'Halı Yıkama Makinesi Türleri | Profesyonel Ekipman Rehberi',
+    metaDescription: 'Profesyonel halı yıkama makineleri: Tam otomatik, yarı otomatik, ekstraksiyon, buhar ve ultrasonik. Firmanız için doğru ekipman seçimi.',
+    datePublished: '2026-03-05',
+    dateModified: '2026-03-08',
+    category: 'hali-yikama',
+    readingTime: 8,
+    heroEmoji: '⚙️',
+    intro: 'Halı yıkama firmasının hizmet kalitesini belirleyen en önemli faktör ekipmanıdır. Bu rehberde profesyonel halı yıkama makinesi türlerini, avantaj-dezavantajlarını ve bir firmayı değerlendirirken ekipman kalitesini nasıl anlayacağınızı anlatıyoruz.',
+    sections: [
+      {
+        heading: 'Tam Otomatik Halı Yıkama Makinesi',
+        content: `En gelişmiş ve en verimli halı yıkama ekipmanıdır. Halı makinenin bir ucundan girer, yıkanmış ve sıkılmış olarak diğer ucundan çıkar.
+
+**Özellikleri:**
+- Dakikada 5-10 m² yıkama kapasitesi
+- Otomatik deterjan dozajlama
+- Çift fırçalı (alt ve üst) derin temizlik
+- Entegre durulama sistemi
+- Yüksek basınçlı su (50-100 bar)
+
+**Avantajları:** Hız, tutarlı kalite, düşük işçilik maliyeti
+**Dezavantajları:** Yüksek yatırım maliyeti (500.000-2.000.000 TL), sadece makine halısı yıkayabilir
+
+**Müşteriye İpucu:** Tam otomatik makineye sahip firmalar genellikle daha profesyonel ve güvenilirdir.`,
+      },
+      {
+        heading: 'Diğer Ekipman Türleri',
+        content: `**Halı Silkeleme Makinesi:** Yıkama öncesi kuru tozu çıkarır. Halının ağırlığının %15-20'si kadar toz çıkarabilir. Bu adım olmadan yıkama yetersiz kalır.
+
+**Santrifüj Sıkma Makinesi:** Yıkama sonrası halıdaki suyun %85-90'ını alır. Kurutma süresini 3 günden 1 güne indirir. Küf riskini ortadan kaldırır.
+
+**Ekstraksiyon Makinesi (Koltuk/Halı):** Sıcak su + deterjanı yüzeye püskürtür, ardından güçlü vakumla geri çeker. Yerinde temizlik (koltuk, sabit halı) için kullanılır.
+
+**Buhar Temizleme Makinesi:** 150°C+ buhar ile dezenfeksiyon sağlar. Toz akarlarını %99.9 yok eder. Kimyasal kullanmadan temizlik isteyenler için idealdir.
+
+**Ultrasonik Yıkama Havuzu:** Stor perde, jaluzi ve hassas tekstiller için kullanılır. Ses dalgaları ile liflerin derinlerine iner.`,
+      },
+      {
+        heading: 'Firma Ekipmanını Nasıl Değerlendirirsiniz?',
+        content: `**Sorulacak Sorular:**
+- Tam otomatik makine mi, yarı otomatik mı?
+- Halı silkeleme makinesi var mı? (Yoksa ciddi eksiklik)
+- Santrifüj sıkma yapılıyor mu? (Yapılmıyorsa küf riski)
+- Kapalı kurutma alanı mı var, açık havada mı kurutuyor?
+
+**Profesyonel Firmanın Minimum Ekipmanı:**
+1. Halı silkeleme makinesi ✓
+2. Otomatik veya yarı otomatik yıkama makinesi ✓
+3. Santrifüj sıkma makinesi ✓
+4. Kapalı/kontrollü kurutma alanı ✓
+
+Bu 4 ekipman yoksa firma profesyonel standartların altındadır.
+
+**Halı Yıkamacılar Avantajı:** Platform üzerindeki firmalar doğrulanmış profesyonel firmalardır. Ekipman durumları ve hizmet kapasiteleri kontrol edilir.`,
+      },
+    ],
+    faq: [
+      { q: 'Tam otomatik makine ile yarı otomatik arasındaki fark nedir?', a: 'Tam otomatik makinede tüm süreç (fırçalama, yıkama, durulama) tek geçişte olur. Yarı otomatikte bazı adımlar elle yapılır. Kalite farkı önemlidir.' },
+      { q: 'Evde halı yıkama makinesi kullanmak yeterli mi?', a: 'Ev tipi halı yıkama makineleri yüzeysel temizlik sağlar. Profesyonel endüstriyel makinelerin su basıncı, fırça gücü ve sıkma kapasitesi ev makinelerinin 10-20 katıdır.' },
+      { q: 'Firma ekipmanını nasıl görebilirim?', a: 'Güvenilir firmalar sosyal medya ve web sitelerinde ekipman fotoğrafları paylaşır. İsterseniz fabrikayı ziyaret edebilirsiniz.' },
+    ],
+    relatedSlugs: ['hali-yikama-nasil-yapilir', 'hali-yikama-firmasi-nasil-secilir', 'hali-yikama-fiyatlari'],
+  },
+  {
+    slug: 'yaz-temizligi-kontrol-listesi',
+    title: 'Yaz Temizliği Kontrol Listesi — Ev Tekstili Temizlik Rehberi',
+    metaTitle: 'Yaz Temizliği Kontrol Listesi | Ev Tekstili Temizlik Rehberi 2026',
+    metaDescription: 'Yaz temizliği kontrol listesi: Halı, koltuk, perde, yorgan ve yastık temizliği. Sezon geçişinde yapılması gerekenlerin tam listesi.',
+    datePublished: '2026-03-06',
+    dateModified: '2026-03-08',
+    category: 'hali-yikama',
+    readingTime: 5,
+    heroEmoji: '☀️',
+    intro: 'Kıştan yaza geçiş, ev tekstillerinin derinlemesine temizliği için en ideal dönemdir. Kış boyunca biriken toz, alerjen ve kirleri temizleyerek yaza sağlıklı bir başlangıç yapın.',
+    sections: [
+      {
+        heading: 'Yaz Temizliği Neden Önemli?',
+        content: `Kış aylarında evler kapalı kalır, havalandırma azalır ve tekstillerde toz-alerjen birikimi zirve yapar. Yaz başında yapılan kapsamlı temizlik:
+
+**Sağlık:** Toz akarları, küf sporları ve bakterileri yok eder. Alerjik reaksiyonlar belirgin şekilde azalır.
+
+**Koku:** Kışın biriken nem ve ter kokuları giderilir.
+
+**Ömür:** Tekstillerdeki kir lifleri aşındırır. Düzenli temizlik halı/koltuk ömrünü 2 kat uzatır.
+
+**Huzur:** Temiz ev, mental sağlığı olumlu etkiler. Yaz enerjisiyle tertemiz bir eve girmek paha biçilemez.`,
+      },
+      {
+        heading: 'Kontrol Listesi',
+        content: `**Halılar:**
+☐ Tüm halıları profesyonel yıkamaya gönder
+☐ El halılarını ayrı yıkamaya ver (özel işlem gerekir)
+☐ Halı altlarını süpür ve dezenfekte et
+☐ Halı koruma spreyi uygulat
+
+**Koltuklar:**
+☐ Koltuk takımını profesyonel yerinde yıkamaya çağır
+☐ Yastık kılıflarını çamaşır makinesinde yıka
+☐ Deri koltuklara bakım kremi uygulat
+
+**Perdeler:**
+☐ Tüm tül perdeleri yıka (çamaşır makinesi veya profesyonel)
+☐ Fon perdeleri profesyonel yıkamaya ver
+☐ Perde askı ve raylarını sil
+
+**Yatak:**
+☐ Yorganları profesyonel yıkamaya gönder
+☐ Yastıkları yıka veya değiştir (2 yıldan eski yastıkları değiştirin)
+☐ Yatak koruyucu kullan (anti-alerjik)
+
+**Genel:**
+☐ Battaniyeleri yıka ve vakumlu poşetle sakla
+☐ Mevsimlik giysileri temizleyip dolaba kaldır
+☐ Havalandırma ve klima filtrelerini temizle`,
+      },
+      {
+        heading: 'Tasarruf İpuçları',
+        content: `**Kombine Sipariş:** Halı + koltuk + perde aynı firmadan yıkatırsanız %15-25 indirim alırsınız.
+
+**Erken Sipariş:** Mayıs-Haziran yoğun dönemdir. Nisan ayında sipariş vererek hem fiyat avantajı hem hızlı teslimat alabilirsiniz.
+
+**Komşu/Apartman Organizasyonu:** Aynı apartmandan 3+ sipariş toplu gönderildiğinde firmalar ekstra indirim uygulayabilir.
+
+**Platform Kampanyaları:** Halı Yıkamacılar platformunda sezon başı kampanyaları takip edin. Bazı firmalar ilk sipariş indirimi de sunar.`,
+      },
+    ],
+    faq: [
+      { q: 'Yaz temizliğine ne zaman başlamalıyım?', a: 'İdeal zaman Nisan sonu - Mayıs başıdır. Bu dönem firmalar henüz çok yoğun değildir ve fiyatlar daha uygundur.' },
+      { q: 'Tüm ev tekstillerini aynı anda mı yıkatmalıyım?', a: 'İdealdir ama zorunlu değildir. En azından halı + koltuk aynı dönemde yapılmalıdır. Perdeleri ayrı haftada yıkatabilirsiniz.' },
+      { q: 'Yaz temizliği toplam ne kadar tutar?', a: 'Ortalama bir ev için (3 halı + 1 koltuk takımı + perdeler): 2.000-4.000 TL arası. Toplu sipariş indirimiyle %20 düşürülebilir.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'koltuk-yikama-fiyatlari', 'perde-yikama-rehberi'],
+  },
+  {
+    slug: 'ev-temizligi-fiyatlari',
+    title: 'Ev Temizliği Fiyatları 2026 — Güncel Ücret Tarifesi',
+    metaTitle: 'Ev Temizliği Fiyatları 2026 | Güncel Fiyat Listesi',
+    metaDescription: '2026 ev temizliği fiyatları. Günlük, haftalık, aylık ev temizliği ücretleri. Büyük temizlik, taşınma temizliği ve düzenli temizlik fiyat karşılaştırması.',
+    datePublished: '2026-03-07',
+    dateModified: '2026-03-08',
+    category: 'ev-temizligi',
+    readingTime: 6,
+    heroEmoji: '🏠',
+    intro: 'Ev temizliği fiyatları evin büyüklüğüne, temizlik türüne ve bulunduğunuz şehre göre önemli farklılıklar gösterir. Bu rehberde 2026 yılı güncel ev temizliği fiyatlarını ve en uygun seçeneği nasıl bulacağınızı anlatıyoruz.',
+    sections: [
+      {
+        heading: '2026 Ev Temizliği Fiyatları — Tür Bazlı',
+        content: `**Günlük Ev Temizliği (Genel):**
+- 1+1 daire: 800-1.200 TL
+- 2+1 daire: 1.000-1.500 TL
+- 3+1 daire: 1.200-1.800 TL
+- 4+1 ve üzeri: 1.500-2.500 TL
+
+**Büyük Temizlik (Detaylı):**
+Genel temizlik fiyatının %50-100 fazlası. Dolap içleri, fayans detayları, panjur temizliği dahildir.
+
+**Taşınma Temizliği (Boş Ev):**
+- Boşaltılan ev: 1.500-2.500 TL
+- Taşınılacak ev: 1.200-2.000 TL
+
+**İnşaat Sonrası Temizlik:**
+En pahalı temizlik türü: 2.000-5.000 TL. Boya, alçı, toz ve inşaat kalıntıları özel ekipman gerektirir.
+
+**Düzenli Temizlik (Haftalık/Aylık):**
+Düzenli müşterilere %15-25 indirim uygulanır. Haftalık 4 seans paketi standart fiyattan %20 ucuzdur.`,
+      },
+      {
+        heading: 'Fiyatı Etkileyen Faktörler',
+        content: `**1. Evin Büyüklüğü:** Oda sayısı arttıkça fiyat artar. m² hesabı yapan firmalar daha şeffaftır.
+
+**2. Temizlik Türü:** Genel temizlik en uygun, büyük temizlik orta, inşaat sonrası en pahalıdır.
+
+**3. Şehir:** İstanbul'da fiyatlar Anadolu şehirlerinin 1.5-2 katı olabilir. Anadolu yakası, Avrupa yakasından genellikle %10-15 ucuzdur.
+
+**4. Sıklık:** Düzenli temizlik (haftalık/aylık) tek seferlik temizlikten %15-25 ucuzdur.
+
+**5. Ekstra Hizmetler:** Ütü, bulaşık, çamaşır, buzdolabı temizliği gibi ek talepler fiyatı artırır.
+
+**6. Ekipman:** Firmalar genellikle kendi ekipmanını getirir. Müşterinin ekipmanı kullanılıyorsa fiyat düşebilir.`,
+      },
+      {
+        heading: 'En Uygun Fiyatı Nasıl Bulursunuz?',
+        content: `**Karşılaştırma Yapın:** Birden fazla firmadan teklif alın. En ucuz değil, en iyi değer sunanı seçin.
+
+**Düzenli Anlaşma:** Haftalık veya aylık düzenli temizlik sözleşmesi hem fiyat avantajı hem tutarlı kalite sağlar.
+
+**Referans Kontrol:** Müşteri yorumlarını okuyun. Düşük fiyat sunan ama kötü değerlendirilen firmaları tercih etmeyin.
+
+**Paket Hizmet:** Ev temizliği + halı yıkama + koltuk yıkama paketi alarak toplu indirim alabilirsiniz.
+
+**Platform Üzerinden:** Halı Yıkamacılar platformunda ev temizliği firmalarını karşılaştırabilir, fiyatları görebilir ve güvenle sipariş verebilirsiniz.`,
+      },
+    ],
+    faq: [
+      { q: 'Ev temizliği kaç saat sürer?', a: '2+1 standart temizlik 4-5 saat, büyük temizlik 6-8 saat sürer. Ekip sayısına göre süre değişir.' },
+      { q: 'Temizlik ekibi güvenilir mi?', a: 'Profesyonel firmalar çalışanlarını referans kontrolü ve sabıka kaydı ile istihdam eder. Platform üzerinden sipariş verdiğinizde sigortalı firmalarla çalışırsınız.' },
+      { q: 'Temizlik malzemeleri firma mı getirir?', a: 'Çoğu profesyonel firma kendi profesyonel temizlik malzemelerini getirir. Özel tercihleriniz (doğal ürünler, alerjik bünyeye uygun) varsa önceden belirtin.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'koltuk-yikama-fiyatlari', 'yaz-temizligi-kontrol-listesi'],
+  },
+  {
+    slug: 'istanbul-hali-yikama',
+    title: 'İstanbul Halı Yıkama Rehberi — İlçe Bazlı Fiyatlar ve Firmalar',
+    metaTitle: 'İstanbul Halı Yıkama | İlçe Bazlı Fiyatlar ve En İyi Firmalar 2026',
+    metaDescription: 'İstanbul halı yıkama fiyatları ilçe bazlı karşılaştırma. Kadıköy, Beşiktaş, Ataşehir, Pendik, Beylikdüzü ve tüm ilçelerde en iyi firmalar.',
+    datePublished: '2026-03-08',
+    dateModified: '2026-03-08',
+    category: 'hali-yikama',
+    readingTime: 7,
+    heroEmoji: '🌉',
+    intro: 'İstanbul, Türkiye\'nin en büyük halı yıkama pazarıdır. 16 milyonluk nüfus ve binlerce firma arasından doğru seçimi yapmak zor olabilir. Bu rehberde İstanbul halı yıkama fiyatlarını ilçe bazlı karşılaştırıyor ve en iyi firmayı bulmanın yollarını anlatıyoruz.',
+    sections: [
+      {
+        heading: 'İstanbul Halı Yıkama Fiyatları — Genel',
+        content: `İstanbul, Türkiye ortalamasının üzerinde fiyatlara sahiptir. Nedeni: Yüksek kira, işçilik ve ulaşım maliyetleri.
+
+**Makine Halısı:** 45-70 TL/m² (Türkiye ortalaması: 35-60 TL)
+**El Halısı (Yün):** 100-180 TL/m²
+**İpek Halı:** 150-300 TL/m²
+**Shaggy / Uzun Tüylü:** 60-100 TL/m²
+
+**Avrupa Yakası vs Anadolu Yakası:**
+Avrupa yakasında fiyatlar genellikle %5-10 daha yüksektir. Bunun nedeni kira maliyetlerindeki farktır.`,
+      },
+      {
+        heading: 'İlçe Bazlı Fiyat Karşılaştırması',
+        content: `**Yüksek Fiyat Bölgeleri (55-70 TL/m²):**
+Beşiktaş, Şişli, Kadıköy, Bakırköy, Sarıyer, Üsküdar
+Bu ilçelerde firma sayısı az ama kalite yüksektir.
+
+**Orta Fiyat Bölgeleri (45-55 TL/m²):**
+Ataşehir, Maltepe, Kartal, Beylikdüzü, Avcılar, Bağcılar, Ümraniye
+Rekabet yoğun, fiyat/kalite oranı en iyi olan bölgeler.
+
+**Uygun Fiyat Bölgeleri (35-50 TL/m²):**
+Pendik, Tuzla, Sultanbeyli, Arnavutköy, Esenyurt, Silivri
+Şehir merkezinden uzak, rekabet az ama fiyatlar uygun.
+
+**İpucu:** Kendi ilçenize yakın firma seçmek ulaşım ücreti riskini ortadan kaldırır. Platform üzerinden ilçenize göre filtreleme yapabilirsiniz.`,
+      },
+      {
+        heading: 'İstanbul\'da Dikkat Edilmesi Gerekenler',
+        content: `**Sahte Firmalar:** İstanbul'da kayıt dışı çalışan "çadır" halı yıkamacılar mevcuttur. Güvenilir firma göstergeleri:
+- Vergi levhası / ticaret sicil kaydı
+- Sabit işyeri (fabrika adresi)
+- Platform üzerinde doğrulanmış profil ve müşteri yorumları
+
+**Ulaşım Ücreti:** Bazı firmalar uzak ilçelere ek ulaşım ücreti alabilir. Sipariş öncesi bunu teyit edin.
+
+**Teslimat Süresi:** İstanbul trafiği nedeniyle teslimat 1 gün uzayabilir. Yoğun dönemlerde (Haziran-Temmuz) 7+ gün sürebilir — erken sipariş verin.
+
+**Halı Yıkamacılar Avantajı:** Platformumuzda İstanbul'daki tüm doğrulanmış firmalar, ilçe bazlı filtreleme, şeffaf fiyat listesi ve müşteri yorumlarıyla güvenle seçim yapabilirsiniz.`,
+      },
+    ],
+    faq: [
+      { q: 'İstanbul\'da en ucuz halı yıkama nerede?', a: 'Pendik, Tuzla, Sultanbeyli ve Esenyurt gibi dış ilçelerde fiyatlar 35-50 TL/m² ile en uygun seviyededir.' },
+      { q: 'İstanbul\'da halı yıkama kaç gün sürer?', a: 'Standart 2-4 gün, yoğun dönemlerde 5-7 gün. Trafik nedeniyle teslimat 1 gün eklenebilir.' },
+      { q: 'İstanbul Avrupa yakasından Anadolu yakasındaki firmaya halı gönderilir mi?', a: 'Mümkündür ama ulaşım ücreti yüksek olabilir. Kendi yakasındaki firmayı tercih etmek hem ekonomik hem hızlıdır.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'hali-yikama-firmasi-nasil-secilir', 'hali-yikama-nasil-yapilir'],
+  },
+  {
+    slug: 'ankara-hali-yikama',
+    title: 'Ankara Halı Yıkama Rehberi — İlçe Bazlı Fiyatlar ve Firmalar',
+    metaTitle: 'Ankara Halı Yıkama | İlçe Bazlı Fiyatlar ve En İyi Firmalar 2026',
+    metaDescription: 'Ankara halı yıkama fiyatları ilçe bazlı karşılaştırma. Çankaya, Keçiören, Mamak, Etimesgut ve tüm ilçelerde en iyi firmalar.',
+    datePublished: '2026-03-08',
+    dateModified: '2026-03-08',
+    category: 'hali-yikama',
+    readingTime: 6,
+    heroEmoji: '🏛️',
+    intro: 'Ankara, Türkiye\'nin ikinci büyük halı yıkama pazarıdır. Başkentin farklı ilçelerinde fiyatlar ve hizmet kalitesi değişkenlik gösterir. Bu rehberde Ankara halı yıkama fiyatlarını ilçe bazlı karşılaştırıyoruz.',
+    sections: [
+      {
+        heading: 'Ankara Halı Yıkama Fiyatları — Genel',
+        content: `Ankara fiyatları İstanbul'un %15-20 altındadır. Ama Türkiye ortalamasının biraz üzerindedir.
+
+**Makine Halısı:** 40-60 TL/m² (İstanbul: 45-70 TL)
+**El Halısı (Yün):** 90-160 TL/m²
+**İpek Halı:** 130-250 TL/m²
+**Shaggy / Uzun Tüylü:** 55-85 TL/m²
+
+**Ankara'nın Avantajı:** İstanbul'a göre ulaşım daha kısa, teslimat süreleri 1-2 gün daha hızlı.`,
+      },
+      {
+        heading: 'İlçe Bazlı Fiyat Karşılaştırması',
+        content: `**Yüksek Fiyat Bölgeleri (50-60 TL/m²):**
+Çankaya (Kızılay, GOP, Oran), Yenimahalle (Batıkent üst)
+Gelir düzeyi yüksek, az firma, yüksek kalite beklentisi.
+
+**Orta Fiyat Bölgeleri (40-50 TL/m²):**
+Keçiören, Etimesgut, Yenimahalle (merkez), Pursaklar
+Rekabet yoğun, fiyat/kalite oranı iyi.
+
+**Uygun Fiyat Bölgeleri (35-45 TL/m²):**
+Mamak, Altındağ, Sincan, Kahramankazan, Polatlı
+Fiyatlar en uygun, ama firma seçiminde dikkatli olun.
+
+**Not:** Ankara'da firma sayısı İstanbul'a göre daha az olduğundan, fiyat farklılıkları daha dardır.`,
+      },
+      {
+        heading: 'Ankara\'da Halı Yıkama Dönemleri',
+        content: `Ankara'nın kara iklimi nedeniyle:
+
+**En Yoğun Dönem:** Mayıs-Haziran (kıştan çıkış, büyük temizlik)
+**İkinci Yoğun Dönem:** Eylül-Ekim (yazdan dönüş, halıları tekrar serme)
+**Uygun Dönem:** Mart-Nisan, Kasım (düşük talep, hızlı teslimat)
+
+**Ankara'ya Özel Not:** Kış aylarında (Aralık-Şubat) dış kurutma yapılamaz. Kapalı kurutma tesisi olan firmaları tercih edin — aksi halde halınız haftalarca gelmeyebilir.
+
+Halı Yıkamacılar platformunda Ankara'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, fiyatları karşılaştırabilir ve güvenle sipariş verebilirsiniz.`,
+      },
+    ],
+    faq: [
+      { q: 'Ankara\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı için 40-60 TL/m² aralığındadır. El halısı 90-160 TL/m², ipek halı 130-250 TL/m².' },
+      { q: 'Ankara\'da kışın halı yıkatmak riskli mi?', a: 'Kapalı kurutma tesisi olan firmalarda risk yoktur. Açık havada kurutma yapan firmalardan kışın halı yıkatmayın — küf riski yüksektir.' },
+      { q: 'Ankara\'da en hızlı teslimat hangi ilçelerde?', a: 'Firma yoğunluğu Keçiören, Yenimahalle ve Etimesgut\'ta fazla olduğundan bu ilçelerde 2 gün teslimat yaygındır.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'istanbul-hali-yikama', 'hali-yikama-firmasi-nasil-secilir'],
+  },
 ];
 
 export function getGuideBySlug(slug: string): GuideArticle | undefined {

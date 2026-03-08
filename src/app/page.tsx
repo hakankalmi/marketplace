@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import { getBrandConfig } from '@/brands';
 import { API_URL, BRAND_CODE } from '@/lib/constants';
 import { Nav } from '@/components/nav/Nav';
@@ -10,6 +11,19 @@ import { WebsiteJsonLd } from '@/components/seo/JsonLd';
 import type { CategoryResponseDto, CompanyListDto, PaginatedResponse } from '@/lib/api/types';
 
 const brand = getBrandConfig();
+
+export const metadata: Metadata = {
+  openGraph: {
+    images: [
+      {
+        url: `/api/og?title=${encodeURIComponent(brand.seo.heroTitle)}&subtitle=${encodeURIComponent(brand.seo.heroSubtitle)}&type=home`,
+        width: 1200,
+        height: 630,
+        alt: brand.seo.metaTitle,
+      },
+    ],
+  },
+};
 
 async function fetchCategories(): Promise<CategoryResponseDto[]> {
   try {

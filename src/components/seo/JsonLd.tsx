@@ -79,6 +79,72 @@ export function FaqJsonLd({ faq }: { faq: { q: string; a: string }[] }) {
   );
 }
 
+/* ───── HowTo JSON-LD (Step-by-step guides) ───── */
+
+export function HowToJsonLd({
+  name,
+  description,
+  steps,
+  totalTime,
+}: {
+  name: string;
+  description: string;
+  steps: { name: string; text: string }[];
+  totalTime?: string; // ISO 8601 duration, e.g. "PT2H" for 2 hours
+}) {
+  if (steps.length === 0) return null;
+
+  const data: Record<string, unknown> = {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name,
+    description,
+    step: steps.map((step, i) => ({
+      '@type': 'HowToStep',
+      position: i + 1,
+      name: step.name,
+      text: step.text,
+    })),
+  };
+
+  if (totalTime) {
+    data.totalTime = totalTime;
+  }
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+    />
+  );
+}
+
+/* ───── Organization JSON-LD (Global) ───── */
+
+export function OrganizationJsonLd() {
+  const data: Record<string, unknown> = {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: brand.name,
+    url: baseUrl,
+    logo: `${baseUrl}${brand.logoUrl}`,
+  };
+
+  if (brand.seo.socialLinks) {
+    const links = Object.values(brand.seo.socialLinks);
+    if (links.length > 0) {
+      data.sameAs = links;
+    }
+  }
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+    />
+  );
+}
+
 /* ───── Article JSON-LD (Blog) ───── */
 
 export function ArticleJsonLd({
