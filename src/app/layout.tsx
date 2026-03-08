@@ -43,11 +43,9 @@ export default function RootLayout({
     <html lang="tr" suppressHydrationWarning>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="anonymous"
-        />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://api.protakip.com" />
+        <link rel="dns-prefetch" href="https://firebasestorage.googleapis.com" />
         <link href={fontsUrl} rel="stylesheet" />
         <style
           dangerouslySetInnerHTML={{
