@@ -94,6 +94,10 @@ self.addEventListener('notificationclick', (event) => {
 // Fetch stratejisi
 self.addEventListener('fetch', (event) => {
   const { request } = event;
+
+  // POST/PUT/DELETE — cache desteklemez, SW karışmasın
+  if (request.method !== 'GET') return;
+
   const url = new URL(request.url);
 
   // API istekleri — network-first, cache fallback
