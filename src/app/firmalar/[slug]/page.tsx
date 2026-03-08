@@ -7,7 +7,7 @@ async function getCompany(slug: string): Promise<CompanyDetailDto | null> {
   try {
     const res = await fetch(`${API_URL}/api/mp/companies/${slug}`, {
       headers: { 'X-Marketplace-Brand': BRAND_CODE },
-      next: { revalidate: 60 },
+      next: { revalidate: 10 },
     });
     if (!res.ok) return null;
     return res.json();
