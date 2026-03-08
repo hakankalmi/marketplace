@@ -42,9 +42,9 @@ async function reverseGeocode(lat: number, lng: number): Promise<{
   const data = await res.json();
   const addr = data.address || {};
 
-  // Nominatim returns different keys depending on location
+  // In Turkey: county = ilçe (district), suburb = mahalle (neighbourhood)
   const district =
-    addr.suburb || addr.town || addr.county || addr.city_district || '';
+    addr.county || addr.town || addr.city_district || '';
   const city =
     addr.province || addr.state || addr.city || '';
 
