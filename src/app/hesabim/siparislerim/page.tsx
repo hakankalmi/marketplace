@@ -11,21 +11,38 @@ import { Skeleton } from '@/components/ui/skeleton';
 import { formatDate } from '@/lib/utils';
 import type { MarketplaceOrderStatus } from '@/lib/api/types';
 
-const statusConfig: Record<MarketplaceOrderStatus, { label: string; variant: 'default' | 'success' | 'warning' | 'error' | 'accent'; icon: typeof Clock }> = {
-  Pending: { label: 'Beklemede', variant: 'warning', icon: Clock },
-  Accepted: { label: 'Kabul Edildi', variant: 'accent', icon: CheckCircle },
-  Completed: { label: 'Tamamlandı', variant: 'success', icon: CheckCircle },
-  Rejected: { label: 'Reddedildi', variant: 'error', icon: XCircle },
-  Cancelled: { label: 'İptal Edildi', variant: 'default', icon: AlertCircle },
+const statusConfig: Record<number, { label: string; variant: 'default' | 'success' | 'warning' | 'error' | 'accent'; icon: typeof Clock }> = {
+  0: { label: 'Beklemede', variant: 'warning', icon: Clock },
+  1: { label: 'Kabul Edildi', variant: 'accent', icon: CheckCircle },
+  2: { label: 'Reddedildi', variant: 'error', icon: XCircle },
+  3: { label: 'Süre Doldu', variant: 'error', icon: XCircle },
+  4: { label: 'İptal Edildi', variant: 'default', icon: AlertCircle },
+  5: { label: 'İşleniyor', variant: 'accent', icon: Clock },
+  6: { label: 'Tamamlandı', variant: 'success', icon: CheckCircle },
+  7: { label: 'İtiraz', variant: 'error', icon: AlertCircle },
 };
 
 export default function SiparislerimPage() {
   const [page, setPage] = useState(1);
   const pageSize = 10;
-  const { data: orders, isLoading } = useQuery({
+  const { data: orders, isLoading, error } = useQuery({
     queryKey: ['orders', page],
     queryFn: () => getOrders(page, pageSize),
+    retry: false,
   });
+
+  if (error) {
+    return (
+      <div className="text-center py-16">
+        <div className="w-16 h-16 rounded-2xl bg-red-50 flex items-center justify-center mx-auto mb-4">
+          <AlertCircle size={28} className="text-red-500" />
+        </div>
+        <h3 className="text-lg font-medium text-brand-text">Siparişler yüklenemedi</h3>
+        <p className="text-brand-text-muted mt-1 mb-4">Lütfen tekrar deneyin.</p>
+        <Button onClick={() => window.location.reload()}>Yenile</Button>
+      </div>
+    );
+  }
 
   if (isLoading) {
     return (

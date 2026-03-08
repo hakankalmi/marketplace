@@ -31,9 +31,9 @@ import { toast } from 'sonner';
 import type { MarketplaceOrderStatus } from '@/lib/api/types';
 
 const statusSteps: { status: MarketplaceOrderStatus; label: string }[] = [
-  { status: 'Pending', label: 'Siparis Alindi' },
-  { status: 'Accepted', label: 'Kabul Edildi' },
-  { status: 'Completed', label: 'Tamamlandi' },
+  { status: 0, label: 'Sipariş Alındı' },
+  { status: 1, label: 'Kabul Edildi' },
+  { status: 6, label: 'Tamamlandı' },
 ];
 
 /** Live countdown timer for pending orders */
@@ -45,7 +45,7 @@ function AutoRejectCountdown({ autoRejectAt }: { autoRejectAt: string }) {
     const update = () => {
       const diff = new Date(autoRejectAt).getTime() - Date.now();
       if (diff <= 0) {
-        setRemaining('Sure doldu');
+        setRemaining('Süre doldu');
         setIsUrgent(true);
         return;
       }
@@ -72,7 +72,7 @@ function AutoRejectCountdown({ autoRejectAt }: { autoRejectAt: string }) {
     }`}>
       <Timer size={14} className={isUrgent ? 'animate-pulse' : ''} />
       <span className="font-medium">{remaining}</span>
-      <span className="text-xs opacity-75">firma onay suresi</span>
+      <span className="text-xs opacity-75">firma onay süresi</span>
     </div>
   );
 }
@@ -134,7 +134,7 @@ export default function SiparisDetayPage({
     (s) => s.status === order.status
   );
   const isTerminal =
-    order.status === 'Cancelled' || order.status === 'Rejected';
+    order.status === 4 || order.status === 2 || order.status === 3;
 
   return (
     <motion.div
@@ -165,7 +165,7 @@ export default function SiparisDetayPage({
           </div>
         </div>
 
-        {order.status === 'Pending' && (
+        {order.status === 0 && (
           <Button
             variant="outline"
             size="sm"
@@ -220,27 +220,27 @@ export default function SiparisDetayPage({
       )}
 
       {/* Pending — countdown + info */}
-      {order.status === 'Pending' && order.autoRejectAt && (
+      {order.status === 0 && order.autoRejectAt && (
         <div className="space-y-2">
           <AutoRejectCountdown autoRejectAt={order.autoRejectAt} />
           <p className="text-xs text-brand-text-muted px-1">
-            Firma belirtilen sure icinde siparisinizi degerlendirip size donecek. Sureyi asarsa siparis otomatik iptal edilir.
+            Firma belirtilen süre içinde siparişinizi değerlendirip size dönecek. Süreyi aşarsa sipariş otomatik iptal edilir.
           </p>
         </div>
       )}
 
       {/* Accepted — estimated pickup info */}
-      {order.status === 'Accepted' && (
+      {order.status === 1 && (
         <div className="p-4 bg-emerald-50 border border-emerald-200 rounded-xl flex items-start gap-3">
           <Truck size={20} className="text-emerald-600 shrink-0 mt-0.5" />
           <div>
             <p className="text-sm font-medium text-emerald-800">
-              Siparisiniz onaylandi!
+              Siparişiniz onaylandı!
             </p>
             <p className="text-xs text-emerald-600 mt-0.5">
               {order.estimatedPickupByCompany
                 ? `Tahmini teslim alma: ${formatDate(order.estimatedPickupByCompany)}`
-                : 'Firma en kisa surede sizinle iletisime gececek.'}
+                : 'Firma en kısa sürede sizinle iletişime geçecek.'}
             </p>
             {order.acceptedAt && (
               <p className="text-xs text-emerald-500 mt-1">
@@ -255,19 +255,19 @@ export default function SiparisDetayPage({
       {isTerminal && (
         <div
           className={`p-4 rounded-xl border flex items-start gap-3 ${
-            order.status === 'Rejected'
+            order.status === 2
               ? 'bg-brand-error/10 border-brand-error/30'
               : 'bg-brand-surface border-brand-border'
           }`}
         >
-          {order.status === 'Rejected' ? (
+          {order.status === 2 ? (
             <XCircle size={20} className="text-brand-error shrink-0 mt-0.5" />
           ) : (
             <AlertCircle size={20} className="text-brand-text-muted shrink-0 mt-0.5" />
           )}
           <div>
             <p className="font-medium text-brand-text">
-              {order.status === 'Rejected' ? 'Sipariş Reddedildi' : 'Sipariş İptal Edildi'}
+              {order.status === 2 ? 'Sipariş Reddedildi' : 'Sipariş İptal Edildi'}
             </p>
             {order.rejectionReason && (
               <p className="text-sm text-brand-text-muted mt-1">
@@ -379,7 +379,7 @@ function OrderPhotosSection({
 
   const hasBeforePhotos = order.beforePhotoUrls && order.beforePhotoUrls.length > 0;
   const hasAfterPhotos = afterPhotos.length > 0;
-  const isCompleted = order.status === 'Completed';
+  const isCompleted = order.status === 6;
   const hasComparison = hasBeforePhotos && hasAfterPhotos;
 
   // Nothing to show if no photos and not completed

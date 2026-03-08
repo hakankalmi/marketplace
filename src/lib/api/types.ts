@@ -1,11 +1,9 @@
 /* ───── Enums ───── */
 
-export type MarketplaceOrderStatus =
-  | 'Pending'
-  | 'Accepted'
-  | 'Completed'
-  | 'Rejected'
-  | 'Cancelled';
+/** Integer enum matching Brain.Api MarketplaceOrderStatus (JsonStringEnumConverter OFF) */
+export type MarketplaceOrderStatus = 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7;
+// 0=PendingApproval, 1=Accepted, 2=Rejected, 3=AutoRejected,
+// 4=Cancelled, 5=InProgress, 6=Completed, 7=Disputed
 
 /** Integer enum matching Brain.Api MarketplacePaymentMethod (JsonStringEnumConverter OFF) */
 export type MarketplacePaymentMethod = 0 | 1 | 2; // 0=CashOnDelivery, 1=OnlinePayment, 2=CashOnReturn

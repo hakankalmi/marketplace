@@ -102,8 +102,8 @@ export function OrderSuccess({ companyName, orderCode }: Props) {
     if (navigator.share) {
       try {
         await navigator.share({
-          title: 'Siparisim',
-          text: `${companyName} firmasina siparis verdim! Siparis kodu: ${orderCode}`,
+          title: 'Siparişim',
+          text: `${companyName} firmasına sipariş verdim! Sipariş kodu: ${orderCode}`,
         });
       } catch { /* user cancelled */ }
     }
@@ -148,7 +148,7 @@ export function OrderSuccess({ companyName, orderCode }: Props) {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.3 }}
       >
-        Siparissiniz Alindi!
+        Siparişiniz Alındı!
       </motion.h2>
 
       <motion.p
@@ -157,7 +157,7 @@ export function OrderSuccess({ companyName, orderCode }: Props) {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.4 }}
       >
-        <strong>{companyName}</strong> en kisa surede sizinle iletisime gececek.
+        <strong>{companyName}</strong> en kısa sürede sizinle iletişime geçecek.
       </motion.p>
 
       {orderCode && (
@@ -167,7 +167,7 @@ export function OrderSuccess({ companyName, orderCode }: Props) {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5 }}
         >
-          <span className="text-sm text-brand-text-muted">Siparis Kodu:</span>
+          <span className="text-sm text-brand-text-muted">Sipariş Kodu:</span>
           <span className="font-mono font-bold text-brand-primary text-lg tracking-wider">
             {orderCode}
           </span>
@@ -193,10 +193,10 @@ export function OrderSuccess({ companyName, orderCode }: Props) {
         transition={{ delay: 0.55 }}
       >
         <div className="p-3 bg-blue-50 border border-blue-100 rounded-brand text-left">
-          <p className="text-sm text-blue-800 font-medium">Sirada ne var?</p>
+          <p className="text-sm text-blue-800 font-medium">Sırada ne var?</p>
           <p className="text-xs text-blue-600 mt-0.5">
-            Firma siparisinizi inceleyecek ve size geri donecek.
-            Bildirimlerle sizi haberdar edecegiz.
+            Firma siparişinizi inceleyecek ve size geri dönecek.
+            Bildirimlerle sizi haberdar edeceğiz.
           </p>
         </div>
       </motion.div>
@@ -209,18 +209,18 @@ export function OrderSuccess({ companyName, orderCode }: Props) {
       >
         <Link href="/hesabim/siparislerim">
           <Button variant="primary">
-            Siparislerimi Gor
+            Siparişlerimi Gör
             <ArrowRight size={16} />
           </Button>
         </Link>
         {'share' in navigator && (
           <Button variant="secondary" onClick={handleShare}>
             <Share2 size={16} />
-            Paylas
+            Paylaş
           </Button>
         )}
         <Link href="/">
-          <Button variant="secondary">Anasayfaya Don</Button>
+          <Button variant="secondary">Anasayfaya Dön</Button>
         </Link>
       </motion.div>
     </motion.div>
