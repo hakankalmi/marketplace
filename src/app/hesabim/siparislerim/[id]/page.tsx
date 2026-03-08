@@ -1,6 +1,6 @@
 'use client';
 
-import { use } from 'react';
+import { use, useState } from 'react';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { motion } from 'framer-motion';
 import {
@@ -9,24 +9,28 @@ import {
   Calendar,
   Clock,
   FileText,
-  Phone,
   CheckCircle,
   XCircle,
   AlertCircle,
   Copy,
+  ExternalLink,
+  Camera,
+  Sparkles,
 } from 'lucide-react';
 import Link from 'next/link';
-import { getOrderDetail, cancelOrder } from '@/lib/api/orders';
+import Image from 'next/image';
+import { getOrderDetail, cancelOrder, uploadOrderPhotos } from '@/lib/api/orders';
 import { Button } from '@/components/ui/button';
-import { Badge } from '@/components/ui/badge';
 import { Skeleton } from '@/components/ui/skeleton';
+import { PhotoUploader } from '@/components/ui/photo-uploader';
+import { BeforeAfterSlider } from '@/components/ui/before-after';
 import { formatDate } from '@/lib/utils';
 import { toast } from 'sonner';
 import type { MarketplaceOrderStatus } from '@/lib/api/types';
 
 const statusSteps: { status: MarketplaceOrderStatus; label: string }[] = [
   { status: 'Pending', label: 'Sipariş Alındı' },
-  { status: 'Accepted', label: 'Firma Kabul Etti' },
+  { status: 'Accepted', label: 'Kabul Edildi' },
   { status: 'Completed', label: 'Tamamlandı' },
 ];
 
@@ -41,7 +45,7 @@ export default function SiparisDetayPage({
   const { data: order, isLoading } = useQuery({
     queryKey: ['order', id],
     queryFn: () => getOrderDetail(Number(id)),
-    refetchInterval: 30000, // 30s polling for status updates
+    refetchInterval: 30000,
   });
 
   const cancelMutation = useMutation({
@@ -62,10 +66,10 @@ export default function SiparisDetayPage({
 
   if (isLoading) {
     return (
-      <div className="space-y-4">
-        <Skeleton className="h-8 w-64" />
-        <Skeleton className="h-40 w-full" />
-        <Skeleton className="h-60 w-full" />
+      <div className="space-y-3">
+        <Skeleton className="h-7 w-48" />
+        <Skeleton className="h-24 w-full rounded-xl" />
+        <Skeleton className="h-48 w-full rounded-xl" />
       </div>
     );
   }
@@ -93,27 +97,27 @@ export default function SiparisDetayPage({
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      className="space-y-6"
+      className="space-y-4 sm:space-y-6"
     >
       {/* Header */}
-      <div className="flex items-center justify-between">
-        <div className="flex items-center gap-3">
+      <div className="flex items-center justify-between gap-3">
+        <div className="flex items-center gap-2.5 min-w-0">
           <Link
             href="/hesabim/siparislerim"
-            className="text-brand-text-muted hover:text-brand-text transition-colors"
+            className="p-1.5 -ml-1.5 text-brand-text-muted hover:text-brand-text transition-colors shrink-0"
           >
             <ArrowLeft size={20} />
           </Link>
-          <div>
-            <h1 className="text-xl font-heading font-bold text-brand-text">
+          <div className="min-w-0">
+            <h1 className="text-lg sm:text-xl font-heading font-bold text-brand-text">
               Sipariş Detayı
             </h1>
             <button
               onClick={copyCode}
-              className="flex items-center gap-1 text-sm text-brand-text-muted hover:text-brand-primary transition-colors"
+              className="flex items-center gap-1 text-xs sm:text-sm text-brand-text-muted active:text-brand-primary transition-colors"
             >
               <Copy size={12} />
-              {order.marketplaceOrderCode}
+              <span className="truncate">{order.marketplaceOrderCode}</span>
             </button>
           </div>
         </div>
@@ -128,7 +132,7 @@ export default function SiparisDetayPage({
               }
             }}
             loading={cancelMutation.isPending}
-            className="text-brand-error border-brand-error hover:bg-brand-error hover:text-white"
+            className="text-brand-error border-brand-error hover:bg-brand-error hover:text-white shrink-0"
           >
             İptal Et
           </Button>
@@ -137,7 +141,7 @@ export default function SiparisDetayPage({
 
       {/* İlerleme Çubuğu */}
       {!isTerminal && (
-        <div className="bg-brand-surface rounded-brand border border-brand-border p-4">
+        <div className="bg-brand-surface rounded-xl border border-brand-border p-4">
           <div className="flex items-center justify-between">
             {statusSteps.map((step, i) => (
               <div key={step.status} className="flex items-center flex-1">
@@ -155,13 +159,13 @@ export default function SiparisDetayPage({
                       i + 1
                     )}
                   </div>
-                  <span className="text-xs mt-1 text-brand-text-muted text-center">
+                  <span className="text-[10px] sm:text-xs mt-1 text-brand-text-muted text-center leading-tight">
                     {step.label}
                   </span>
                 </div>
                 {i < statusSteps.length - 1 && (
                   <div
-                    className={`flex-1 h-0.5 mx-2 mt-[-16px] ${
+                    className={`flex-1 h-0.5 mx-1 sm:mx-2 mt-[-16px] ${
                       i < currentStepIndex ? 'bg-brand-primary' : 'bg-brand-border'
                     }`}
                   />
@@ -172,10 +176,10 @@ export default function SiparisDetayPage({
         </div>
       )}
 
-      {/* Rejected/Cancelled Status */}
+      {/* Rejected/Cancelled */}
       {isTerminal && (
         <div
-          className={`p-4 rounded-brand border flex items-start gap-3 ${
+          className={`p-4 rounded-xl border flex items-start gap-3 ${
             order.status === 'Rejected'
               ? 'bg-brand-error/10 border-brand-error/30'
               : 'bg-brand-surface border-brand-border'
@@ -200,15 +204,15 @@ export default function SiparisDetayPage({
       )}
 
       {/* Sipariş Bilgileri */}
-      <div className="bg-brand-surface rounded-brand border border-brand-border divide-y divide-brand-border">
+      <div className="bg-brand-surface rounded-xl border border-brand-border divide-y divide-brand-border">
         <div className="p-4 flex items-center gap-3">
-          <div className="w-10 h-10 rounded-brand bg-brand-primary/10 flex items-center justify-center">
+          <div className="w-10 h-10 rounded-xl bg-brand-primary/10 flex items-center justify-center shrink-0">
             <span className="text-sm font-bold text-brand-primary">
               {order.companyName[0]}
             </span>
           </div>
-          <div>
-            <p className="font-medium text-brand-text">{order.companyName}</p>
+          <div className="min-w-0">
+            <p className="font-medium text-brand-text truncate">{order.companyName}</p>
             {order.city && (
               <p className="text-xs text-brand-text-muted">{order.city}</p>
             )}
@@ -217,9 +221,9 @@ export default function SiparisDetayPage({
 
         <div className="p-4 flex items-start gap-3">
           <MapPin size={18} className="text-brand-text-muted mt-0.5 shrink-0" />
-          <div>
+          <div className="min-w-0">
             <p className="text-sm font-medium text-brand-text">Adres</p>
-            <p className="text-sm text-brand-text-muted">{order.addressSnapshot}</p>
+            <p className="text-sm text-brand-text-muted break-words">{order.addressSnapshot}</p>
           </div>
         </div>
 
@@ -238,9 +242,9 @@ export default function SiparisDetayPage({
         {order.customerNotes && (
           <div className="p-4 flex items-start gap-3">
             <FileText size={18} className="text-brand-text-muted mt-0.5 shrink-0" />
-            <div>
+            <div className="min-w-0">
               <p className="text-sm font-medium text-brand-text">Not</p>
-              <p className="text-sm text-brand-text-muted">{order.customerNotes}</p>
+              <p className="text-sm text-brand-text-muted break-words">{order.customerNotes}</p>
             </div>
           </div>
         )}
@@ -273,10 +277,120 @@ export default function SiparisDetayPage({
           rel="noopener noreferrer"
         >
           <Button variant="outline" className="w-full">
+            <ExternalLink size={16} />
             Siparişi Takip Et
           </Button>
         </a>
       )}
+
+      {/* Before/After Photo Section */}
+      <OrderPhotosSection orderId={order.id} order={order} queryClient={queryClient} />
     </motion.div>
+  );
+}
+
+/** Photo section: shows before photos, allows after upload when completed */
+function OrderPhotosSection({
+  orderId,
+  order,
+  queryClient,
+}: {
+  orderId: number;
+  order: { status: MarketplaceOrderStatus; beforePhotoUrls: string[] | null; afterPhotoUrls: string[] | null };
+  queryClient: ReturnType<typeof useQueryClient>;
+}) {
+  const [afterPhotos, setAfterPhotos] = useState<string[]>(order.afterPhotoUrls || []);
+  const [saving, setSaving] = useState(false);
+
+  const hasBeforePhotos = order.beforePhotoUrls && order.beforePhotoUrls.length > 0;
+  const hasAfterPhotos = afterPhotos.length > 0;
+  const isCompleted = order.status === 'Completed';
+  const hasComparison = hasBeforePhotos && hasAfterPhotos;
+
+  // Nothing to show if no photos and not completed
+  if (!hasBeforePhotos && !isCompleted) return null;
+
+  const handleSaveAfterPhotos = async () => {
+    setSaving(true);
+    try {
+      await uploadOrderPhotos(orderId, { afterPhotoUrls: afterPhotos });
+      toast.success('Fotoğraflar kaydedildi!');
+      queryClient.invalidateQueries({ queryKey: ['order', String(orderId)] });
+    } catch {
+      toast.error('Fotoğraflar kaydedilemedi.');
+    } finally {
+      setSaving(false);
+    }
+  };
+
+  return (
+    <div className="space-y-4">
+      {/* Before/After Comparison */}
+      {hasComparison && (
+        <div className="bg-brand-surface rounded-xl border border-brand-border p-4">
+          <div className="flex items-center gap-2 mb-3">
+            <Sparkles size={16} className="text-amber-500" />
+            <h3 className="text-sm font-heading font-semibold text-brand-text">
+              Öncesi & Sonrası
+            </h3>
+          </div>
+          <BeforeAfterSlider
+            beforeUrl={order.beforePhotoUrls![0]}
+            afterUrl={afterPhotos[0]}
+          />
+        </div>
+      )}
+
+      {/* Before photos only (no after yet) */}
+      {hasBeforePhotos && !hasAfterPhotos && (
+        <div className="bg-brand-surface rounded-xl border border-brand-border p-4">
+          <p className="text-sm font-medium text-brand-text mb-2">Temizlik Öncesi</p>
+          <div className="flex flex-wrap gap-2">
+            {order.beforePhotoUrls!.map((url, i) => (
+              <div key={i} className="relative w-20 h-20 rounded-lg overflow-hidden border border-brand-border">
+                <Image src={url} alt={`Önce ${i + 1}`} fill className="object-cover" sizes="80px" />
+                <div className="absolute bottom-0 inset-x-0 bg-red-500/70 text-center">
+                  <span className="text-[8px] font-semibold text-white uppercase">Önce</span>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* After photo upload — only when completed */}
+      {isCompleted && !order.afterPhotoUrls?.length && (
+        <div className="bg-gradient-to-br from-emerald-50 to-amber-50 rounded-xl border border-emerald-200/50 p-4">
+          <div className="flex items-center gap-2 mb-1">
+            <Camera size={16} className="text-emerald-600" />
+            <h3 className="text-sm font-heading font-semibold text-brand-text">
+              Sonuç Fotoğrafı Ekle
+            </h3>
+            <Sparkles size={14} className="text-amber-500" />
+          </div>
+          <p className="text-xs text-brand-text-muted mb-3">
+            {hasBeforePhotos
+              ? 'Temizlik sonrası fotoğrafını ekleyerek muhteşem dönüşümü kaydedin!'
+              : 'Temizlik sonrasının fotoğrafını ekleyin, yorumunuzda gösterelim!'}
+          </p>
+          <PhotoUploader
+            photos={afterPhotos}
+            onChange={setAfterPhotos}
+            type="after"
+            orderId={String(orderId)}
+          />
+          {afterPhotos.length > 0 && (
+            <Button
+              size="sm"
+              className="mt-3 w-full"
+              loading={saving}
+              onClick={handleSaveAfterPhotos}
+            >
+              Fotoğrafları Kaydet
+            </Button>
+          )}
+        </div>
+      )}
+    </div>
   );
 }

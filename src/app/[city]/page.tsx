@@ -1,13 +1,13 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
-import { API_URL, BRAND_CODE } from '@/lib/constants';
+import { API_URL, BRAND_CODE, CITIES } from '@/lib/constants';
 import { getBrandConfig } from '@/brands';
 import { Nav } from '@/components/nav/Nav';
 import { Footer } from '@/components/footer/Footer';
 import { CompanyCard } from '@/components/company/CompanyCard';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
-import { ArrowRight, MapPin } from 'lucide-react';
+import { ArrowRight, MapPin, Building2, Send } from 'lucide-react';
 import { slugify, getCategoryDisplayName } from '@/lib/utils';
 import type { CompanyListDto, PaginatedResponse, CityDto } from '@/lib/api/types';
 
@@ -24,17 +24,35 @@ const KNOWN_CATEGORIES = [
   'ofis-temizligi',
 ];
 
+// Build city slug lookup once
+const CITY_SLUGS = CITIES.map((c) => ({ name: c, slug: slugify(c) }));
+
 /**
  * "izmir-hali-yikama-firmalari" → { citySlug: "izmir", categorySlug: "hali-yikama" }
- * "istanbul-koltuk-yikama-firmalari" → { citySlug: "istanbul", categorySlug: "koltuk-yikama" }
+ * "sivas-gurun-hali-yikama-firmalari" → { citySlug: "sivas", categorySlug: "hali-yikama", districtSlug: "gurun" }
  */
-function parseFirmalariSlug(slug: string): { citySlug: string; categorySlug: string } | null {
+function parseFirmalariSlug(rawSlug: string): { citySlug: string; categorySlug: string; districtSlug?: string; cityName?: string } | null {
+  // Normalize: underscores → dashes (category keys like hali_yikama → hali-yikama)
+  const slug = rawSlug.replace(/_/g, '-');
   if (!slug.endsWith('-firmalari')) return null;
   const base = slug.replace(/-firmalari$/, '');
   for (const cat of KNOWN_CATEGORIES) {
     if (base.endsWith(`-${cat}`)) {
-      const citySlug = base.slice(0, -(cat.length + 1));
-      if (citySlug.length > 0) return { citySlug, categorySlug: cat };
+      const prefix = base.slice(0, -(cat.length + 1));
+      if (prefix.length === 0) continue;
+
+      // Try to match a known city from the beginning
+      for (const { name, slug: cs } of CITY_SLUGS) {
+        if (prefix === cs) {
+          return { citySlug: cs, categorySlug: cat, cityName: name };
+        }
+        if (prefix.startsWith(`${cs}-`)) {
+          const districtSlug = prefix.slice(cs.length + 1);
+          if (districtSlug.length > 0) {
+            return { citySlug: cs, categorySlug: cat, districtSlug, cityName: name };
+          }
+        }
+      }
     }
   }
   return null;
@@ -64,10 +82,12 @@ function findCityBySlug(cities: CityDto[], slug: string): CityDto | undefined {
 
 async function getCompaniesByCity(
   city: string,
+  district?: string,
 ): Promise<CompanyListDto[]> {
   try {
+    const districtParam = district ? `&district=${encodeURIComponent(district)}` : '';
     const res = await fetch(
-      `${API_URL}/api/mp/companies?city=${encodeURIComponent(city)}&sortBy=rating&pageSize=50`,
+      `${API_URL}/api/mp/companies?city=${encodeURIComponent(city)}&sortBy=rating&pageSize=50${districtParam}`,
       {
         headers: { 'X-Marketplace-Brand': BRAND_CODE },
         next: { revalidate: 300 },
@@ -81,6 +101,14 @@ async function getCompaniesByCity(
   }
 }
 
+/** Slug → Turkish district name (reverse slugify via ServiceRegions is done later) */
+function deslugify(slug: string): string {
+  return slug
+    .split('-')
+    .map((w) => w.charAt(0).toLocaleUpperCase('tr-TR') + w.slice(1))
+    .join(' ');
+}
+
 export async function generateMetadata({
   params,
 }: {
@@ -91,12 +119,23 @@ export async function generateMetadata({
   // "izmir-hali-yikama-firmalari" formatını kontrol et
   const firmalari = parseFirmalariSlug(slug);
   if (firmalari) {
-    const cities = await getCities();
-    const cityData = findCityBySlug(cities, firmalari.citySlug);
-    if (!cityData) return { title: 'Sayfa Bulunamadı' };
+    const cityName = firmalari.cityName || deslugify(firmalari.citySlug);
     const categoryDisplay = getCategoryDisplayName(firmalari.categorySlug);
-    const title = `${cityData.city} ${categoryDisplay} Firmaları | ${brand.name}`;
-    const description = `${cityData.city} şehrinde en iyi ${categoryDisplay.toLowerCase()} firmaları. Fiyat karşılaştırma, gerçek müşteri yorumları. Hemen sipariş verin.`;
+
+    if (firmalari.districtSlug) {
+      const districtName = deslugify(firmalari.districtSlug);
+      const title = `${districtName}, ${cityName} ${categoryDisplay} Firmaları | ${brand.name}`;
+      const description = `${cityName} ${districtName} bölgesinde en iyi ${categoryDisplay.toLowerCase()} firmaları. Fiyat karşılaştırma, gerçek müşteri yorumları. Hemen sipariş verin.`;
+      return {
+        title,
+        description,
+        alternates: { canonical: `/${slug}` },
+        openGraph: { title, description, url: `https://${brand.domain}/${slug}` },
+      };
+    }
+
+    const title = `${cityName} ${categoryDisplay} Firmaları | ${brand.name}`;
+    const description = `${cityName} şehrinde en iyi ${categoryDisplay.toLowerCase()} firmaları. Fiyat karşılaştırma, gerçek müşteri yorumları. Hemen sipariş verin.`;
     return {
       title,
       description,
@@ -127,16 +166,15 @@ export default async function CityPage({
 }) {
   const { city: slug } = await params;
 
-  // ── "izmir-hali-yikama-firmalari" formatı ──
+  // ── "izmir-hali-yikama-firmalari" veya "sivas-gurun-hali-yikama-firmalari" formatı ──
   const firmalari = parseFirmalariSlug(slug);
   if (firmalari) {
-    const cities = await getCities();
-    const cityData = findCityBySlug(cities, firmalari.citySlug);
-    if (!cityData) notFound();
-
+    const cityName = firmalari.cityName || deslugify(firmalari.citySlug);
+    const districtName = firmalari.districtSlug ? deslugify(firmalari.districtSlug) : undefined;
     const categoryDisplay = getCategoryDisplayName(firmalari.categorySlug);
-    const companies = await getCompaniesByCity(cityData.city);
-    const heading = `${cityData.city} ${categoryDisplay} Firmaları`;
+    const companies = await getCompaniesByCity(cityName, districtName);
+    const locationLabel = districtName ? `${districtName}, ${cityName}` : cityName;
+    const heading = `${locationLabel} ${categoryDisplay} Firmaları`;
 
     return (
       <>
@@ -149,14 +187,24 @@ export default async function CityPage({
             }}
           >
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-              <nav className="flex items-center gap-2 text-sm text-brand-text-muted mb-6">
+              <nav className="flex items-center gap-2 text-sm text-brand-text-muted mb-6 flex-wrap">
                 <a href="/" className="hover:text-brand-primary transition-colors">Anasayfa</a>
                 <span>/</span>
                 <a href={`/turkiye/${firmalari.categorySlug}`} className="hover:text-brand-primary transition-colors">
                   {categoryDisplay}
                 </a>
                 <span>/</span>
-                <span className="text-brand-text font-medium">{cityData.city}</span>
+                {districtName ? (
+                  <>
+                    <a href={`/${firmalari.citySlug}-${firmalari.categorySlug}-firmalari`} className="hover:text-brand-primary transition-colors">
+                      {cityName}
+                    </a>
+                    <span>/</span>
+                    <span className="text-brand-text font-medium">{districtName}</span>
+                  </>
+                ) : (
+                  <span className="text-brand-text font-medium">{cityName}</span>
+                )}
               </nav>
 
               <div className="flex items-center gap-3">
@@ -184,20 +232,29 @@ export default async function CityPage({
                   ))}
                 </div>
               ) : (
-                <div className="text-center py-20">
-                  <MapPin size={48} className="mx-auto text-brand-text-muted/30 mb-4" />
-                  <h3 className="text-lg font-medium text-brand-text">
-                    {cityData.city} şehrinde henüz {categoryDisplay.toLowerCase()} firması yok
+                <div className="text-center py-20 max-w-lg mx-auto">
+                  <Building2 size={48} className="mx-auto text-brand-primary/30 mb-4" />
+                  <h3 className="text-lg font-heading font-bold text-brand-text">
+                    {locationLabel} bölgesinde henüz {categoryDisplay.toLowerCase()} firması yok
                   </h3>
-                  <p className="text-brand-text-muted mt-2 max-w-md mx-auto">
-                    Yakında firmalar eklenecek. Diğer şehirlerdeki firmalarımızı inceleyebilirsiniz.
+                  <p className="text-brand-text-muted mt-3 leading-relaxed">
+                    {locationLabel} bölgesindeki müşterilerimize {brand.name} kalitesi ile hizmet verebilecek bir firma iseniz, lütfen başvurunuzu yapın.
                   </p>
-                  <a
-                    href={`/turkiye/${firmalari.categorySlug}`}
-                    className="inline-block mt-6 px-6 py-2.5 bg-brand-primary text-white rounded-brand font-medium hover:opacity-90 transition"
-                  >
-                    Tüm Şehirleri Gör
-                  </a>
+                  <div className="flex flex-col sm:flex-row gap-3 justify-center mt-6">
+                    <a
+                      href="/basvuru"
+                      className="inline-flex items-center justify-center gap-2 px-6 py-2.5 bg-brand-primary text-white rounded-brand font-medium hover:opacity-90 transition"
+                    >
+                      <Send size={16} />
+                      Firma Başvurusu Yap
+                    </a>
+                    <a
+                      href={`/${firmalari.citySlug}-${firmalari.categorySlug}-firmalari`}
+                      className="inline-flex items-center justify-center px-6 py-2.5 border border-brand-border text-brand-text rounded-brand font-medium hover:border-brand-primary hover:text-brand-primary transition"
+                    >
+                      {cityName} Firmalarını Gör
+                    </a>
+                  </div>
                 </div>
               )}
             </div>
@@ -217,7 +274,7 @@ export default async function CityPage({
                   item: {
                     '@type': 'LocalBusiness',
                     name: c.companyName,
-                    address: { '@type': 'PostalAddress', addressLocality: cityData.city, addressCountry: 'TR' },
+                    address: { '@type': 'PostalAddress', addressLocality: cityName, addressCountry: 'TR' },
                     ...(c.averageRating > 0 && {
                       aggregateRating: { '@type': 'AggregateRating', ratingValue: c.averageRating.toFixed(1), reviewCount: c.totalReviewCount },
                     }),
@@ -284,13 +341,21 @@ export default async function CityPage({
                 </div>
               </>
             ) : (
-              <div className="text-center py-16">
-                <h3 className="text-lg font-medium text-brand-text">
+              <div className="text-center py-16 max-w-lg mx-auto">
+                <Building2 size={48} className="mx-auto text-brand-primary/30 mb-4" />
+                <h3 className="text-lg font-heading font-bold text-brand-text">
                   {cityData.city} şehrinde henüz firma yok
                 </h3>
-                <p className="text-brand-text-muted mt-1">
-                  Yakında bu bölgede de firmalar eklenecek.
+                <p className="text-brand-text-muted mt-3 leading-relaxed">
+                  {cityData.city} bölgesindeki müşterilerimize {brand.name} kalitesi ile hizmet verebilecek bir firma iseniz, lütfen başvurunuzu yapın.
                 </p>
+                <a
+                  href="/basvuru"
+                  className="inline-flex items-center justify-center gap-2 mt-6 px-6 py-2.5 bg-brand-primary text-white rounded-brand font-medium hover:opacity-90 transition"
+                >
+                  <Send size={16} />
+                  Firma Başvurusu Yap
+                </a>
               </div>
             )}
           </div>

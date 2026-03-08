@@ -79,3 +79,27 @@ h1, h2, h3, h4, h5, h6 {
   background-color: var(--brand-primary);
   color: white;
 }
+
+/* Mobile bottom nav safe area */
+.safe-area-bottom {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+/* Add bottom padding to main content on mobile for bottom nav */
+@media (max-width: 1023px) {
+  main {
+    padding-bottom: 64px;
+  }
+}
+
+/* Prevent body scroll bounce on iOS */
+html {
+  overscroll-behavior: none;
+}
+
+/* Touch optimization */
+@media (hover: none) {
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+}

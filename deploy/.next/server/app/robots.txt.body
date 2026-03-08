@@ -1,0 +1,6 @@
+User-Agent: *
+Allow: /
+Disallow: /hesabim/
+Disallow: /giris
+
+Sitemap: https://haliyikamacilar.com/sitemap.xml

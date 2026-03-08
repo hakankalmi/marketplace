@@ -1,0 +1,196 @@
+{
+  "version": 3,
+  "pages404": true,
+  "appType": "app",
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [
+    {
+      "page": "/firmalar/[slug]",
+      "regex": "^/firmalar/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/firmalar/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/firmalar/[slug]/siparis",
+      "regex": "^/firmalar/([^/]+?)/siparis(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/firmalar/(?<nxtPslug>[^/]+?)/siparis(?:/)?$"
+    },
+    {
+      "page": "/hesabim/siparislerim/[id]",
+      "regex": "^/hesabim/siparislerim/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/hesabim/siparislerim/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/[city]",
+      "regex": "^/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPcity": "nxtPcity"
+      },
+      "namedRegex": "^/(?<nxtPcity>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/[city]/[category]",
+      "regex": "^/([^/]+?)/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPcity": "nxtPcity",
+        "nxtPcategory": "nxtPcategory"
+      },
+      "namedRegex": "^/(?<nxtPcity>[^/]+?)/(?<nxtPcategory>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/[city]/[category]/[slug]",
+      "regex": "^/([^/]+?)/([^/]+?)/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPcity": "nxtPcity",
+        "nxtPcategory": "nxtPcategory",
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/(?<nxtPcity>[^/]+?)/(?<nxtPcategory>[^/]+?)/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/[city]/[category]/[slug]/siparis",
+      "regex": "^/([^/]+?)/([^/]+?)/([^/]+?)/siparis(?:/)?$",
+      "routeKeys": {
+        "nxtPcity": "nxtPcity",
+        "nxtPcategory": "nxtPcategory",
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/(?<nxtPcity>[^/]+?)/(?<nxtPcategory>[^/]+?)/(?<nxtPslug>[^/]+?)/siparis(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/firmalar",
+      "regex": "^/firmalar(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/firmalar(?:/)?$"
+    },
+    {
+      "page": "/giris",
+      "regex": "^/giris(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/giris(?:/)?$"
+    },
+    {
+      "page": "/gizlilik",
+      "regex": "^/gizlilik(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/gizlilik(?:/)?$"
+    },
+    {
+      "page": "/hakkimizda",
+      "regex": "^/hakkimizda(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/hakkimizda(?:/)?$"
+    },
+    {
+      "page": "/hesabim",
+      "regex": "^/hesabim(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/hesabim(?:/)?$"
+    },
+    {
+      "page": "/hesabim/adreslerim",
+      "regex": "^/hesabim/adreslerim(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/hesabim/adreslerim(?:/)?$"
+    },
+    {
+      "page": "/hesabim/siparislerim",
+      "regex": "^/hesabim/siparislerim(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/hesabim/siparislerim(?:/)?$"
+    },
+    {
+      "page": "/hesabim/yorumlarim",
+      "regex": "^/hesabim/yorumlarim(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/hesabim/yorumlarim(?:/)?$"
+    },
+    {
+      "page": "/kullanim-kosullari",
+      "regex": "^/kullanim\\-kosullari(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kullanim\\-kosullari(?:/)?$"
+    },
+    {
+      "page": "/manifest.webmanifest",
+      "regex": "^/manifest\\.webmanifest(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/manifest\\.webmanifest(?:/)?$"
+    },
+    {
+      "page": "/robots.txt",
+      "regex": "^/robots\\.txt(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/robots\\.txt(?:/)?$"
+    },
+    {
+      "page": "/sitemap.xml",
+      "regex": "^/sitemap\\.xml(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/sitemap\\.xml(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

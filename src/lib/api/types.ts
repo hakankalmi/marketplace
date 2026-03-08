@@ -7,7 +7,8 @@ export type MarketplaceOrderStatus =
   | 'Rejected'
   | 'Cancelled';
 
-export type MarketplacePaymentMethod = 'CashOnDelivery' | 'Online';
+/** Integer enum matching Brain.Api MarketplacePaymentMethod (JsonStringEnumConverter OFF) */
+export type MarketplacePaymentMethod = 0 | 1 | 2; // 0=CashOnDelivery, 1=OnlinePayment, 2=CashOnReturn
 
 export type ProductUnitType = 'SquareMeter' | 'Piece' | 'Kilogram' | 'Meter';
 
@@ -91,6 +92,7 @@ export interface CompanyDetailDto {
   photoUrls: string[] | null;
   workingHours: Record<string, string> | null;
   serviceAreaDescription: string | null;
+  serviceAreas: string[];
   minimumOrderAmount: number;
   categories: CategoryResponseDto[];
   products: ProductDto[];
@@ -120,6 +122,8 @@ export interface ReviewDto {
   companyRespondedAt: string | null;
   isVerifiedPurchase: boolean;
   createdAt: string;
+  beforePhotoUrls: string[] | null;
+  afterPhotoUrls: string[] | null;
 }
 
 /* ───── Search Query ───── */
@@ -185,7 +189,7 @@ export interface UpdateCustomerDto {
 
 export interface AddressDto {
   id: number;
-  title: string;
+  label: string;
   fullAddress: string;
   city: string;
   district: string;
@@ -195,16 +199,16 @@ export interface AddressDto {
 }
 
 export interface CreateAddressRequest {
-  title: string;
+  label: string;
   fullAddress: string;
   city: string;
-  district: string;
+  district?: string;
   latitude?: number;
   longitude?: number;
 }
 
 export interface UpdateAddressRequest {
-  title?: string;
+  label?: string;
   fullAddress?: string;
   city?: string;
   district?: string;
@@ -230,6 +234,7 @@ export interface CreateOrderRequest {
   customerNotes?: string;
   paymentMethod?: MarketplacePaymentMethod;
   source?: string;
+  beforePhotoUrls?: string[];
 }
 
 export interface OrderItemRequest {
@@ -269,6 +274,8 @@ export interface OrderResponseDto {
   source: string;
   createdAt: string;
   completedAt: string | null;
+  beforePhotoUrls: string[] | null;
+  afterPhotoUrls: string[] | null;
 }
 
 /* ───── Review ───── */

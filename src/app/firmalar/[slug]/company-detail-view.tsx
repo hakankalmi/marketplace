@@ -17,7 +17,8 @@ import {
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { StarRating } from '@/components/ui/star-rating';
-import { formatCurrency, formatDate } from '@/lib/utils';
+import { BeforeAfterGrid } from '@/components/ui/before-after';
+import { formatCurrency, formatDate, slugify } from '@/lib/utils';
 import type { CompanyDetailDto } from '@/lib/api/types';
 
 interface Props {
@@ -246,6 +247,14 @@ export function CompanyDetailView({ company }: Props) {
                         {review.comment}
                       </p>
                     )}
+                    {(review.beforePhotoUrls?.length || review.afterPhotoUrls?.length) ? (
+                      <div className="mt-3">
+                        <BeforeAfterGrid
+                          beforeUrls={review.beforePhotoUrls || []}
+                          afterUrls={review.afterPhotoUrls || []}
+                        />
+                      </div>
+                    ) : null}
                   </div>
                 ))}
               </div>
@@ -302,16 +311,59 @@ export function CompanyDetailView({ company }: Props) {
               )}
             </motion.div>
 
-            {/* Hizmet Alanı */}
-            {company.serviceAreaDescription && (
-              <div className="mt-4 p-4 bg-brand-surface rounded-brand border border-brand-border">
-                <h4 className="text-sm font-medium text-brand-text mb-2">
+            {/* Servis Bölgeleri */}
+            {company.serviceAreas && company.serviceAreas.length > 0 && (
+              <motion.div
+                className="mt-4 p-4 bg-brand-surface rounded-brand border border-brand-border"
+                initial={{ opacity: 0, x: 20 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: 0.2 }}
+              >
+                <h4 className="text-sm font-medium text-brand-text mb-3 flex items-center gap-1.5">
+                  <MapPin size={14} className="text-brand-primary" />
+                  Servis Bölgeleri
+                </h4>
+                <div className="flex flex-wrap gap-1.5">
+                  {[...new Set(company.serviceAreas)].map((area) => {
+                    const citySlug = company.city ? slugify(company.city) : '';
+                    const districtSlug = slugify(area);
+                    const catSlug = (company.categories?.[0]?.key || 'hali-yikama').replace(/_/g, '-');
+                    const href = citySlug ? `/${citySlug}-${districtSlug}-${catSlug}-firmalari` : '#';
+                    return (
+                      <a
+                        key={area}
+                        href={href}
+                        className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-brand-primary/8 text-brand-primary border border-brand-primary/15 hover:bg-brand-primary/15 transition-colors"
+                      >
+                        {area}
+                      </a>
+                    );
+                  })}
+                </div>
+                {company.serviceAreaDescription && (
+                  <p className="text-xs text-brand-text-muted mt-3">
+                    {company.serviceAreaDescription}
+                  </p>
+                )}
+              </motion.div>
+            )}
+
+            {/* Hizmet Alanı Açıklama (servis bölgesi yoksa sadece açıklama) */}
+            {(!company.serviceAreas || company.serviceAreas.length === 0) && company.serviceAreaDescription && (
+              <motion.div
+                className="mt-4 p-4 bg-brand-surface rounded-brand border border-brand-border"
+                initial={{ opacity: 0, x: 20 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: 0.2 }}
+              >
+                <h4 className="text-sm font-medium text-brand-text mb-2 flex items-center gap-1.5">
+                  <MapPin size={14} className="text-brand-primary" />
                   Hizmet Alanı
                 </h4>
                 <p className="text-sm text-brand-text-muted">
                   {company.serviceAreaDescription}
                 </p>
-              </div>
+              </motion.div>
             )}
           </div>
         </div>

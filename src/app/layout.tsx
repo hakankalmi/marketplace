@@ -4,6 +4,7 @@ import { generateCSSVariables, generateDarkCSSVariables } from '@/lib/brand/css-
 import { getGoogleFontsUrl } from '@/lib/brand/font-loader';
 import { Providers } from './providers';
 import { ServiceWorkerRegister } from '@/components/shared/sw-register';
+import { BottomNav } from '@/components/nav/BottomNav';
 import './globals.css';
 
 const brand = getBrandConfig();
@@ -44,6 +45,7 @@ export default function RootLayout({
       <body className="min-h-screen bg-brand-bg text-brand-text font-body antialiased">
         <Providers theme={brand}>
           {children}
+          <BottomNav />
           <ServiceWorkerRegister />
         </Providers>
       </body>

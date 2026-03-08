@@ -74,7 +74,7 @@ const stats = [
 
 export function TrustSection() {
   return (
-    <section className="py-16 lg:py-24 bg-brand-bg">
+    <section className="py-10 lg:py-24 bg-brand-bg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           className="text-center mb-12"
@@ -83,7 +83,7 @@ export function TrustSection() {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="text-3xl sm:text-4xl font-heading font-bold text-brand-text">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-heading font-bold text-brand-text">
             Neden Bizi Tercih Etmelisiniz?
           </h2>
           <p className="mt-3 text-brand-text-muted text-lg max-w-2xl mx-auto">
@@ -104,7 +104,7 @@ export function TrustSection() {
               <div className="w-12 h-12 mx-auto mb-4 rounded-brand bg-brand-primary/10 flex items-center justify-center">
                 <stat.icon size={24} className="text-brand-primary" />
               </div>
-              <div className="text-3xl font-heading font-bold text-brand-text">
+              <div className="text-2xl sm:text-3xl font-heading font-bold text-brand-text">
                 {typeof stat.value === 'number' && stat.value >= 1 ? (
                   <AnimatedCounter
                     target={stat.value}

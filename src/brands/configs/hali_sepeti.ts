@@ -8,7 +8,7 @@ export const haliSepetiConfig: BrandTheme = {
   name: 'Halı Yıkamacılar',
   domain: 'haliyikamacilar.com',
   logoUrl: '/brands/hali_sepeti/logo.svg',
-  faviconUrl: '/brands/hali_sepeti/favicon.ico',
+  faviconUrl: '/brands/hali_sepeti/favicon.svg',
 
   // Marka renkleri — sıcak kırmızı + altın
   colors: {

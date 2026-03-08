@@ -17,9 +17,12 @@ export default function HesabimLayout({
       <Nav />
       <AuthGuard>
         <main className="min-h-screen bg-brand-bg">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-            <div className="grid lg:grid-cols-[240px_1fr] gap-8">
-              <AccountSidebar />
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 lg:py-8">
+            <div className="lg:grid lg:grid-cols-[240px_1fr] lg:gap-8">
+              {/* Sidebar: hidden on mobile, bottom nav handles navigation */}
+              <div className="hidden lg:block">
+                <AccountSidebar />
+              </div>
               <div>{children}</div>
             </div>
           </div>

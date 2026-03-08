@@ -1,8 +1,9 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { MapPin, Calendar, Clock, FileText, AlertCircle } from 'lucide-react';
+import { MapPin, Calendar, Clock, FileText, AlertCircle, Camera, Sparkles } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { PhotoUploader } from '@/components/ui/photo-uploader';
 import { createOrder } from '@/lib/api/orders';
 import { isAuthenticated } from '@/lib/api/auth';
 import { BRAND_CODE } from '@/lib/constants';
@@ -20,6 +21,8 @@ export function ConfirmStep({ company, formData, onBack, onSuccess }: Props) {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   const [loggedIn, setLoggedIn] = useState(false);
+  const [beforePhotos, setBeforePhotos] = useState<string[]>([]);
+  const [showPhotoSection, setShowPhotoSection] = useState(false);
 
   useEffect(() => {
     setLoggedIn(isAuthenticated());
@@ -27,7 +30,10 @@ export function ConfirmStep({ company, formData, onBack, onSuccess }: Props) {
 
   const handleSubmit = async () => {
     if (!loggedIn) {
-      // Redirect to login with return URL
+      // Save form data before redirect so it survives the login flow
+      try {
+        sessionStorage.setItem('mp_order_form', JSON.stringify({ step: 2, data: formData }));
+      } catch { /* quota exceeded */ }
       window.location.href = `/giris?redirect=${encodeURIComponent(window.location.pathname)}`;
       return;
     }
@@ -35,6 +41,11 @@ export function ConfirmStep({ company, formData, onBack, onSuccess }: Props) {
     setLoading(true);
     setError('');
     try {
+      // Combine date + time into ISO datetime with Turkey timezone offset
+      const dateStr = formData.preferredPickupDate;
+      const combineDateTime = (time?: string) =>
+        dateStr && time ? `${dateStr}T${time}:00+03:00` : undefined;
+
       const result = await createOrder({
         companyId: company.companyId,
         brandCode: BRAND_CODE,
@@ -42,13 +53,16 @@ export function ConfirmStep({ company, formData, onBack, onSuccess }: Props) {
         addressSnapshot: formData.addressSnapshot,
         city: formData.city,
         district: formData.district,
-        preferredPickupDate: formData.preferredPickupDate || undefined,
-        preferredPickupTimeStart: formData.preferredPickupTimeStart || undefined,
-        preferredPickupTimeEnd: formData.preferredPickupTimeEnd || undefined,
+        latitude: formData.latitude,
+        longitude: formData.longitude,
+        preferredPickupDate: dateStr ? `${dateStr}T00:00:00+03:00` : undefined,
+        preferredPickupTimeStart: combineDateTime(formData.preferredPickupTimeStart),
+        preferredPickupTimeEnd: combineDateTime(formData.preferredPickupTimeEnd),
         items: [],
         customerNotes: formData.customerNotes || undefined,
-        paymentMethod: 'CashOnDelivery',
+        paymentMethod: 0, // CashOnDelivery
         source: 'web',
+        beforePhotoUrls: beforePhotos.length > 0 ? beforePhotos : undefined,
       });
       onSuccess(result.marketplaceOrderCode);
     } catch (err) {
@@ -156,6 +170,40 @@ export function ConfirmStep({ company, formData, onBack, onSuccess }: Props) {
           </p>
         </div>
       </div>
+
+      {/* Fotoğraf Ekleme — Oyunlaştırma */}
+      {!showPhotoSection ? (
+        <button
+          onClick={() => setShowPhotoSection(true)}
+          className="w-full p-3.5 rounded-brand border border-dashed border-brand-primary/30 bg-brand-primary/5 hover:bg-brand-primary/8 transition-colors flex items-center gap-3"
+        >
+          <div className="w-10 h-10 rounded-full bg-brand-primary/10 flex items-center justify-center shrink-0">
+            <Camera size={18} className="text-brand-primary" />
+          </div>
+          <div className="text-left">
+            <p className="text-sm font-medium text-brand-text flex items-center gap-1">
+              Fotoğraf Ekle
+              <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-amber-100 text-amber-700 font-semibold">
+                Opsiyonel
+              </span>
+            </p>
+            <p className="text-xs text-brand-text-muted">
+              Temizlik öncesi fotoğraf ekleyin, tamamlandığında sonrası ile kıyaslayın!
+            </p>
+          </div>
+          <Sparkles size={16} className="text-amber-500 shrink-0" />
+        </button>
+      ) : (
+        <div className="p-4 rounded-brand border border-brand-border bg-brand-surface">
+          <PhotoUploader
+            photos={beforePhotos}
+            onChange={setBeforePhotos}
+            type="before"
+            label="Temizlik Öncesi Fotoğraflar"
+            hint="Siparişiniz tamamlandığında sonrası ile kıyaslama yapabileceksiniz. En fazla 5 fotoğraf."
+          />
+        </div>
+      )}
 
       {error && (
         <div className="p-3 bg-brand-error/10 rounded-brand text-sm text-brand-error flex items-start gap-2">

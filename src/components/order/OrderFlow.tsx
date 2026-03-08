@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { CheckCircle } from 'lucide-react';
 import { AddressStep } from './AddressStep';
@@ -15,6 +15,8 @@ export interface OrderFormData {
   addressSnapshot: string;
   city: string;
   district: string;
+  latitude?: number;
+  longitude?: number;
   // Tarih
   preferredPickupDate: string;
   preferredPickupTimeStart: string;
@@ -28,24 +30,69 @@ interface Props {
 }
 
 const steps = ['Adres', 'Tarih & Not', 'Onay'];
+const FORM_STORAGE_KEY = 'mp_order_form';
+
+function saveFormToSession(step: number, data: OrderFormData) {
+  try {
+    sessionStorage.setItem(FORM_STORAGE_KEY, JSON.stringify({ step, data }));
+  } catch { /* quota exceeded etc */ }
+}
+
+function loadFormFromSession(): { step: number; data: OrderFormData } | null {
+  if (typeof window === 'undefined') return null;
+  try {
+    const raw = sessionStorage.getItem(FORM_STORAGE_KEY);
+    if (!raw) return null;
+    return JSON.parse(raw);
+  } catch {
+    return null;
+  }
+}
+
+function clearFormSession() {
+  try {
+    sessionStorage.removeItem(FORM_STORAGE_KEY);
+  } catch { /* ignore */ }
+}
+
+const defaultFormData = (city: string): OrderFormData => ({
+  addressSnapshot: '',
+  city,
+  district: '',
+  preferredPickupDate: '',
+  preferredPickupTimeStart: '',
+  preferredPickupTimeEnd: '',
+  customerNotes: '',
+});
 
 export function OrderFlow({ company }: Props) {
   const [currentStep, setCurrentStep] = useState(0);
   const [orderCompleted, setOrderCompleted] = useState(false);
   const [orderCode, setOrderCode] = useState('');
-  const [formData, setFormData] = useState<OrderFormData>({
-    addressSnapshot: '',
-    city: company.city ?? '',
-    district: '',
-    preferredPickupDate: '',
-    preferredPickupTimeStart: '',
-    preferredPickupTimeEnd: '',
-    customerNotes: '',
-  });
+  const [formData, setFormData] = useState<OrderFormData>(() => defaultFormData(company.city ?? ''));
+  const [restored, setRestored] = useState(false);
 
-  const updateFormData = (data: Partial<OrderFormData>) => {
+  // Restore from sessionStorage after hydration (client-side only)
+  useEffect(() => {
+    const saved = loadFormFromSession();
+    if (saved?.data && saved.data.addressSnapshot) {
+      setFormData(saved.data);
+      setCurrentStep(saved.step);
+      clearFormSession();
+    }
+    setRestored(true);
+  }, []);
+
+  const updateFormData = useCallback((data: Partial<OrderFormData>) => {
     setFormData((prev) => ({ ...prev, ...data }));
-  };
+  }, []);
+
+  // Persist form data on every change so it survives login redirect
+  useEffect(() => {
+    if (restored && formData.addressSnapshot) {
+      saveFormToSession(currentStep, formData);
+    }
+  }, [formData, currentStep, restored]);
 
   if (orderCompleted) {
     return <OrderSuccess companyName={company.companyName} orderCode={orderCode} />;
@@ -74,11 +121,9 @@ export function OrderFlow({ company }: Props) {
           <div key={step} className="flex items-center gap-2 flex-1">
             <div
               className={`flex items-center justify-center w-8 h-8 rounded-full text-sm font-medium transition-colors ${
-                i < currentStep
+                i <= currentStep
                   ? 'bg-brand-primary text-white'
-                  : i === currentStep
-                    ? 'bg-brand-primary text-white'
-                    : 'bg-brand-surface border border-brand-border text-brand-text-muted'
+                  : 'bg-brand-surface border border-brand-border text-brand-text-muted'
               }`}
             >
               {i < currentStep ? (
@@ -121,6 +166,8 @@ export function OrderFlow({ company }: Props) {
               formData={formData}
               onUpdate={updateFormData}
               onNext={() => setCurrentStep(1)}
+              serviceAreas={company.serviceAreas ?? []}
+              companyCity={company.city ?? ''}
             />
           )}
           {currentStep === 1 && (
@@ -137,6 +184,7 @@ export function OrderFlow({ company }: Props) {
               formData={formData}
               onBack={() => setCurrentStep(1)}
               onSuccess={(code) => {
+                clearFormSession();
                 setOrderCode(code);
                 setOrderCompleted(true);
               }}

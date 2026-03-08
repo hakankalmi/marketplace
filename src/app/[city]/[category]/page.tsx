@@ -5,7 +5,8 @@ import { getBrandConfig } from '@/brands';
 import { Nav } from '@/components/nav/Nav';
 import { Footer } from '@/components/footer/Footer';
 import { CompanyCard } from '@/components/company/CompanyCard';
-import { MapPin, Building2, CheckCircle, Sparkles, Shield, Clock, Star } from 'lucide-react';
+import { MapPin, Building2, CheckCircle, Sparkles, Shield, Clock, Star, Send } from 'lucide-react';
+import { CitySearch } from '@/components/city/CitySearch';
 import { slugify, getCategoryDisplayName } from '@/lib/utils';
 import type { CompanyListDto, PaginatedResponse, CityDto } from '@/lib/api/types';
 
@@ -236,6 +237,11 @@ export default async function CityCategoryPage({
                 {categoryHeroSubtitle[category] || defaultHeroSubtitle}
               </p>
 
+              {/* Şehir Arama */}
+              <div className="mt-8">
+                <CitySearch categorySlug={categorySlug} categoryDisplay={categoryDisplay} variant="hero" />
+              </div>
+
               {/* Güven sayaçları */}
               <div className="mt-10 flex flex-wrap justify-center gap-8 lg:gap-12">
                 {[
@@ -406,20 +412,29 @@ export default async function CityCategoryPage({
                 ))}
               </div>
             ) : (
-              <div className="text-center py-20">
-                <Building2 size={48} className="mx-auto text-brand-text-muted/30 mb-4" />
-                <h3 className="text-lg font-medium text-brand-text">
+              <div className="text-center py-20 max-w-lg mx-auto">
+                <Building2 size={48} className="mx-auto text-brand-primary/30 mb-4" />
+                <h3 className="text-lg font-heading font-bold text-brand-text">
                   {cityName} şehrinde henüz {categoryDisplay.toLowerCase()} firması yok
                 </h3>
-                <p className="text-brand-text-muted mt-2 max-w-md mx-auto">
-                  Yakında firmalar eklenecek. Diğer şehirlerdeki firmalarımızı inceleyebilirsiniz.
+                <p className="text-brand-text-muted mt-3 leading-relaxed">
+                  {cityName} bölgesindeki müşterilerimize {brand.name} kalitesi ile hizmet verebilecek bir firma iseniz, lütfen başvurunuzu yapın.
                 </p>
-                <a
-                  href={`/turkiye/${category}`}
-                  className="inline-block mt-6 px-6 py-2.5 bg-brand-primary text-white rounded-brand font-medium hover:opacity-90 transition"
-                >
-                  Tüm Şehirleri Gör
-                </a>
+                <div className="flex flex-col sm:flex-row gap-3 justify-center mt-6">
+                  <a
+                    href="/basvuru"
+                    className="inline-flex items-center justify-center gap-2 px-6 py-2.5 bg-brand-primary text-white rounded-brand font-medium hover:opacity-90 transition"
+                  >
+                    <Send size={16} />
+                    Firma Başvurusu Yap
+                  </a>
+                  <a
+                    href={`/turkiye/${category}`}
+                    className="inline-flex items-center justify-center px-6 py-2.5 border border-brand-border text-brand-text rounded-brand font-medium hover:border-brand-primary hover:text-brand-primary transition"
+                  >
+                    Tüm Şehirleri Gör
+                  </a>
+                </div>
               </div>
             )}
           </div>

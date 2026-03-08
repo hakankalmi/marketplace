@@ -3,13 +3,14 @@
 import { useState, useRef, useEffect, useCallback } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Phone, ArrowLeft, Shield } from 'lucide-react';
+import { Phone, ArrowLeft, Shield, User } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { requestOtp, verifyOtp, saveAuth } from '@/lib/api/auth';
+import { updateProfile } from '@/lib/api/customer';
 import { BRAND_CODE } from '@/lib/constants';
 
-type Step = 'phone' | 'otp';
+type Step = 'phone' | 'otp' | 'name';
 
 export function OtpForm() {
   const router = useRouter();
@@ -22,6 +23,7 @@ export function OtpForm() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   const [countdown, setCountdown] = useState(0);
+  const [fullName, setFullName] = useState('');
 
   const otpRefs = useRef<(HTMLInputElement | null)[]>([]);
 
@@ -66,7 +68,13 @@ export function OtpForm() {
         brandCode: BRAND_CODE,
       });
       saveAuth(auth);
-      router.push(redirect);
+
+      // If user has no name, ask for it
+      if (!auth.name) {
+        setStep('name');
+      } else {
+        router.push(redirect);
+      }
     } catch (err) {
       setError(
         err instanceof Error ? err.message : 'Kod doğrulanamadı. Lütfen tekrar deneyin.'
@@ -77,6 +85,28 @@ export function OtpForm() {
       setLoading(false);
     }
   }, [phone, redirect, router]);
+
+  const handleSaveName = async () => {
+    const trimmed = fullName.trim();
+    if (trimmed.length < 2) {
+      setError('Lütfen adınızı ve soyadınızı girin.');
+      return;
+    }
+
+    setLoading(true);
+    setError('');
+    try {
+      await updateProfile({ name: trimmed });
+      localStorage.setItem('mp_customer_name', trimmed);
+      router.push(redirect);
+    } catch (err) {
+      setError(
+        err instanceof Error ? err.message : 'Bilgiler kaydedilemedi. Lütfen tekrar deneyin.'
+      );
+    } finally {
+      setLoading(false);
+    }
+  };
 
   const handleOtpChange = (index: number, value: string) => {
     if (!/^\d*$/.test(value)) return;
@@ -113,7 +143,7 @@ export function OtpForm() {
 
   return (
     <motion.div
-      className="w-full max-w-md p-8 bg-white rounded-2xl border border-gray-200 shadow-xl"
+      className="w-full max-w-md p-6 sm:p-8 bg-white rounded-2xl sm:border sm:border-gray-200 sm:shadow-xl"
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
     >
@@ -167,7 +197,7 @@ export function OtpForm() {
               &apos;nı kabul etmiş olursunuz.
             </p>
           </motion.div>
-        ) : (
+        ) : step === 'otp' ? (
           <motion.div
             key="otp"
             initial={{ opacity: 0, x: 20 }}
@@ -241,6 +271,46 @@ export function OtpForm() {
                   Tekrar Kod Gönder
                 </button>
               )}
+            </div>
+          </motion.div>
+        ) : (
+          <motion.div
+            key="name"
+            initial={{ opacity: 0, x: 20 }}
+            animate={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: 20 }}
+          >
+            <div className="text-center mb-6">
+              <div className="w-14 h-14 mx-auto mb-4 rounded-full bg-brand-primary/10 flex items-center justify-center">
+                <User size={24} className="text-brand-primary" />
+              </div>
+              <h2 className="text-xl font-heading font-bold text-brand-text">
+                Hoş Geldiniz!
+              </h2>
+              <p className="text-sm text-brand-text-muted mt-1">
+                Siparişlerinizde kullanılacak adınızı ve soyadınızı girin.
+              </p>
+            </div>
+
+            <div className="space-y-4">
+              <Input
+                label="Ad Soyad"
+                icon={<User size={18} />}
+                placeholder="Adınız ve soyadınız"
+                value={fullName}
+                onChange={(e) => setFullName(e.target.value)}
+                onKeyDown={(e) => e.key === 'Enter' && handleSaveName()}
+                error={error || undefined}
+              />
+
+              <Button
+                size="lg"
+                className="w-full"
+                loading={loading}
+                onClick={handleSaveName}
+              >
+                Devam Et
+              </Button>
             </div>
           </motion.div>
         )}

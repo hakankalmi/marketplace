@@ -12,7 +12,7 @@ export default function GirisPage() {
   return (
     <>
       <Nav />
-      <main className="min-h-screen bg-brand-bg flex items-center justify-center px-4 py-16">
+      <main className="min-h-[calc(100vh-56px)] lg:min-h-screen bg-brand-bg flex items-center justify-center px-4 py-8 lg:py-16">
         <Suspense>
           <OtpForm />
         </Suspense>

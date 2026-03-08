@@ -1,0 +1,3 @@
+:HL["/_next/static/chunks/c24c5816f86d4cbf.css","style"]
+:HL["https://fonts.googleapis.com/css2?family=Poppins:wght@700;900&family=Inter:wght@400;500;600&display=swap","style"]
+0:{"buildId":"JxCtJ_XduQ47rjVa_wOkp","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"giris","paramType":null,"paramKey":"giris","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}

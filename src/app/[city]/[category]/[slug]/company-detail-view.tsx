@@ -22,7 +22,8 @@ import {
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { StarRating } from '@/components/ui/star-rating';
-import { formatCurrency, formatDate, toTitleCase, getCategoryDisplayName } from '@/lib/utils';
+import { BeforeAfterGrid } from '@/components/ui/before-after';
+import { formatCurrency, formatDate, toTitleCase, getCategoryDisplayName, slugify } from '@/lib/utils';
 import type { CompanyDetailDto, ProductDto, MarketplaceProductCategory } from '@/lib/api/types';
 
 /* ── Category display config (integer keys matching backend enum) ── */
@@ -194,6 +195,17 @@ export function CompanyDetailView({ company, city, category }: Props) {
               </div>
             </div>
           </motion.div>
+
+          {/* Mobile CTA — firma bilgisinin hemen altında (desktop sidebar var) */}
+          <div className="lg:hidden">
+            <Link
+              href={`/${city || 'turkiye'}/${category || 'hali-yikama'}/${company.slug || company.companyId}/siparis`}
+            >
+              <Button size="lg" className="w-full text-base">
+                Sipariş Oluştur
+              </Button>
+            </Link>
+          </div>
 
           {/* Fotoğraf Galerisi */}
           {photos.length > 0 && (
@@ -420,6 +432,16 @@ export function CompanyDetailView({ company, city, category }: Props) {
                       </p>
                     )}
 
+                    {/* Before/After Photos */}
+                    {(review.beforePhotoUrls?.length || review.afterPhotoUrls?.length) ? (
+                      <div className="mt-3">
+                        <BeforeAfterGrid
+                          beforeUrls={review.beforePhotoUrls || []}
+                          afterUrls={review.afterPhotoUrls || []}
+                        />
+                      </div>
+                    ) : null}
+
                     {/* Firma Cevabı */}
                     {review.companyResponse && (
                       <div className="mt-4 ml-6 pl-4 border-l-2 border-brand-primary/30 bg-brand-primary/[0.03] rounded-r-lg py-3 pr-4">
@@ -454,8 +476,8 @@ export function CompanyDetailView({ company, city, category }: Props) {
           </motion.div>
         </div>
 
-        {/* Sağ: Sidebar — Sipariş CTA */}
-        <div className="lg:col-span-1">
+        {/* Sağ: Sidebar — Sipariş CTA (desktop only, mobilde bottom bar var) */}
+        <div className="hidden lg:block lg:col-span-1">
           <div className="sticky top-20 space-y-4">
             <motion.div
               className="p-6 bg-brand-surface rounded-brand border border-brand-border"
@@ -501,8 +523,45 @@ export function CompanyDetailView({ company, city, category }: Props) {
               </p>
             </motion.div>
 
-            {/* Hizmet Alanı */}
-            {company.serviceAreaDescription && (
+            {/* Servis Bölgeleri */}
+            {company.serviceAreas && company.serviceAreas.length > 0 && (
+              <motion.div
+                className="p-4 bg-brand-surface rounded-brand border border-brand-border"
+                initial={{ opacity: 0, x: 20 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: 0.2 }}
+              >
+                <h4 className="text-sm font-medium text-brand-text mb-3 flex items-center gap-1.5">
+                  <MapPin size={14} className="text-brand-primary" />
+                  Servis Bölgeleri
+                </h4>
+                <div className="flex flex-wrap gap-1.5">
+                  {[...new Set(company.serviceAreas)].map((area) => {
+                    const citySlug = company.city ? slugify(company.city) : '';
+                    const districtSlug = slugify(area);
+                    const catSlug = (company.categories?.[0]?.key || 'hali-yikama').replace(/_/g, '-');
+                    const href = citySlug ? `/${citySlug}-${districtSlug}-${catSlug}-firmalari` : '#';
+                    return (
+                      <a
+                        key={area}
+                        href={href}
+                        className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-brand-primary/8 text-brand-primary border border-brand-primary/15 hover:bg-brand-primary/15 transition-colors"
+                      >
+                        {area}
+                      </a>
+                    );
+                  })}
+                </div>
+                {company.serviceAreaDescription && (
+                  <p className="text-xs text-brand-text-muted mt-3">
+                    {company.serviceAreaDescription}
+                  </p>
+                )}
+              </motion.div>
+            )}
+
+            {/* Hizmet Alanı Açıklama (servis bölgesi yoksa sadece açıklama) */}
+            {(!company.serviceAreas || company.serviceAreas.length === 0) && company.serviceAreaDescription && (
               <motion.div
                 className="p-4 bg-brand-surface rounded-brand border border-brand-border"
                 initial={{ opacity: 0, x: 20 }}
@@ -544,6 +603,28 @@ export function CompanyDetailView({ company, city, category }: Props) {
           </div>
         </div>
       </div>
+
+      {/* Mobile Sticky Bottom Bar — sits above BottomNav (56px) */}
+      <div className="fixed bottom-14 inset-x-0 z-40 lg:hidden bg-brand-surface/95 backdrop-blur-sm border-t border-brand-border px-4 py-3">
+        <div className="flex items-center gap-3 max-w-lg mx-auto">
+          <div className="flex-1 min-w-0">
+            <p className="text-sm font-heading font-semibold text-brand-text truncate">{company.companyName}</p>
+            {company.averageRating > 0 && (
+              <div className="flex items-center gap-1 mt-0.5">
+                <Star size={12} className="text-amber-500 fill-amber-500" />
+                <span className="text-xs text-brand-text-muted">{company.averageRating.toFixed(1)}</span>
+              </div>
+            )}
+          </div>
+          <Link href={`/${city || 'turkiye'}/${category || 'hali-yikama'}/${company.slug || company.companyId}/siparis`}>
+            <Button size="lg" className="whitespace-nowrap px-6">
+              Sipariş Oluştur
+            </Button>
+          </Link>
+        </div>
+      </div>
+      {/* Bottom spacer for mobile (BottomNav 56px + CTA bar ~68px) */}
+      <div className="h-32 lg:hidden" />
 
       {/* Lightbox */}
       {lightboxIndex !== null && photos.length > 0 && (

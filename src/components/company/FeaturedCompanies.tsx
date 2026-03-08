@@ -15,16 +15,16 @@ export function FeaturedCompanies({ companies }: FeaturedCompaniesProps) {
   if (companies.length === 0) return null;
 
   return (
-    <section className="py-16 lg:py-24 bg-brand-bg">
+    <section className="py-10 lg:py-24 bg-brand-bg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
-          className="flex items-end justify-between mb-10"
+          className="flex items-end justify-between mb-6 lg:mb-10"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
           <div>
-            <h2 className="text-3xl font-heading font-bold text-brand-text">
+            <h2 className="text-2xl sm:text-3xl font-heading font-bold text-brand-text">
               Öne Çıkan Firmalar
             </h2>
             <p className="mt-2 text-brand-text-muted">

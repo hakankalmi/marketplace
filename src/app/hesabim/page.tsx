@@ -40,21 +40,21 @@ export default function ProfilPage() {
   if (isLoading) {
     return (
       <div className="space-y-4">
-        <Skeleton className="h-8 w-48" />
-        <Skeleton className="h-12 w-full" />
-        <Skeleton className="h-12 w-full" />
-        <Skeleton className="h-12 w-full" />
+        <Skeleton className="h-7 w-36" />
+        <Skeleton className="h-14 w-full rounded-xl" />
+        <Skeleton className="h-14 w-full rounded-xl" />
+        <Skeleton className="h-14 w-full rounded-xl" />
       </div>
     );
   }
 
   return (
     <div>
-      <h1 className="text-2xl font-heading font-bold text-brand-text mb-6">
+      <h1 className="text-xl sm:text-2xl font-heading font-bold text-brand-text mb-4 sm:mb-6">
         Profil Bilgileri
       </h1>
 
-      <div className="max-w-lg space-y-4">
+      <div className="space-y-4">
         <Input
           label="Ad Soyad"
           icon={<User size={18} />}
@@ -87,7 +87,7 @@ export default function ProfilPage() {
         <Button
           onClick={() => mutation.mutate()}
           loading={mutation.isPending}
-          className="mt-2"
+          className="w-full sm:w-auto mt-2"
         >
           Kaydet
         </Button>

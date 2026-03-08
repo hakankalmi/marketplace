@@ -28,7 +28,7 @@ export function CategoryGrid({ categories }: CategoryGridProps) {
   if (categories.length === 0) return null;
 
   return (
-    <section className="py-16 bg-brand-surface">
+    <section className="py-10 lg:py-16 bg-brand-surface">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           className="text-center mb-10"
@@ -36,7 +36,7 @@ export function CategoryGrid({ categories }: CategoryGridProps) {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-3xl font-heading font-bold text-brand-text">
+          <h2 className="text-2xl sm:text-3xl font-heading font-bold text-brand-text">
             Hizmet Kategorileri
           </h2>
           <p className="mt-2 text-brand-text-muted">
@@ -83,10 +83,10 @@ export function CategoryGrid({ categories }: CategoryGridProps) {
 /* Placeholder skeleton */
 export function CategoryGridPlaceholder() {
   return (
-    <section className="py-16 bg-brand-surface">
+    <section className="py-10 lg:py-16 bg-brand-surface">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-10">
-          <h2 className="text-3xl font-heading font-bold text-brand-text">
+          <h2 className="text-2xl sm:text-3xl font-heading font-bold text-brand-text">
             Hizmet Kategorileri
           </h2>
         </div>

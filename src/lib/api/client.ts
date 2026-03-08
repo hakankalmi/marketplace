@@ -43,8 +43,17 @@ async function request<T>(
     let message = res.statusText;
     try {
       const body = await res.json();
+      console.error('[API Error]', res.status, path, JSON.stringify(body));
       errorCode = body.errorCode || errorCode;
-      message = body.message || message;
+      // Handle ASP.NET validation errors format
+      if (body.errors) {
+        const validationMessages = Object.entries(body.errors)
+          .map(([field, msgs]) => `${field}: ${(msgs as string[]).join(', ')}`)
+          .join('; ');
+        message = validationMessages || body.title || message;
+      } else {
+        message = body.message || body.title || message;
+      }
     } catch {
       // ignore parse error
     }
