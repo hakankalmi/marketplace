@@ -7,6 +7,7 @@ import { PhotoUploader } from '@/components/ui/photo-uploader';
 import { createOrder } from '@/lib/api/orders';
 import { isAuthenticated } from '@/lib/api/auth';
 import { BRAND_CODE } from '@/lib/constants';
+import { gtmEvent } from '@/components/shared/GtmLoader';
 import type { CompanyDetailDto } from '@/lib/api/types';
 import type { OrderFormData } from './OrderFlow';
 
@@ -63,6 +64,12 @@ export function ConfirmStep({ company, formData, onBack, onSuccess }: Props) {
         paymentMethod: 0, // CashOnDelivery
         source: 'web',
         beforePhotoUrls: beforePhotos.length > 0 ? beforePhotos : undefined,
+      });
+      gtmEvent('marketplace_order_created', {
+        orderCode: result.marketplaceOrderCode,
+        companyId: company.companyId,
+        city: formData.city,
+        hasPhotos: beforePhotos.length > 0,
       });
       onSuccess(result.marketplaceOrderCode);
     } catch (err) {
