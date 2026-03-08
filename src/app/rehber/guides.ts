@@ -298,7 +298,7 @@ Bu üç kural tek başına lekelerin %60'ını kurtarır.`,
 
 **Hayvan İdrarı:** En zor lekelerden biridir. Enzim bazlı temizleyici ZORUNLU. Sirke + karbonat karışımı kokuyu azaltır ama tam çözmez. Profesyonel temizlik şiddetle önerilir.
 
-**Boya (Akrilik/Yağlı):** Yaş boya: hemen soğuk sulu bezle bastırarak alın. Kurumuş boya: tiner veya boya çözücü ile dikkatli müdahale. Halı zarar görebilir — profesyonele götürün.
+**Boya (Akrilik/Yağlı):** Yaş boya: hemen soğuk sulu bezle bastırarak alın. Kurumuş boya: tiner veya boya çözücü ile dikkatli müdahale. Halı zarar görebilir — sitemiz üzerinden size uygun bir halı yıkama firmasını çağırın.
 
 **Yemek Yağı:** Nişasta veya talk pudrası serpin (yağı emer). 30 dakika bekleyin, süpürün. Bulaşık deterjanıyla nemli bezle bastırarak temizleyin.
 
@@ -399,7 +399,7 @@ Profesyonel firmalar endüstriyel ekipman ve özel kimyasallarla bu lekeleri gü
 - **W** = Su bazlı temizleyici kullanabilirsiniz
 - **S** = Sadece solvent bazlı (kuru temizleme)
 - **WS** = Her ikisi de kullanılabilir
-- **X** = Sadece süpürme/fırçalama (profesyonele götürün)
+- **X** = Sadece süpürme/fırçalama (sitemiz üzerinden profesyonel firma çağırın)
 
 **7. Deri Koltuklarda Nemlendirici:** 3-6 ayda bir deri bakım kremi uygulayın. Kuru kalan deri çatlar ve yırtılır. Bebek yağı veya vazelin KULLANMAYIN — gözenekleri tıkar.`,
       },
