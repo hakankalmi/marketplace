@@ -39,6 +39,7 @@ export function Nav() {
     { label: 'Yorgan Yıkama', href: '/turkiye/yorgan-yikama' },
     { label: 'Perde Yıkama', href: '/turkiye/perde-yikama' },
     { label: 'Yatak Yıkama', href: '/turkiye/yatak-yikama' },
+    { label: 'Rehber', href: '/rehber' },
   ];
 
   const isSolid = theme.navVariant === 'solid';

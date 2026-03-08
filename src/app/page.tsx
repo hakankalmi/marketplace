@@ -8,6 +8,7 @@ import { FeaturedCompanies } from '@/components/company/FeaturedCompanies';
 import { TrustSection } from '@/components/trust/TrustSection';
 import { Footer } from '@/components/footer/Footer';
 import { WebsiteJsonLd } from '@/components/seo/JsonLd';
+import { GuideHighlights } from '@/components/home/GuideHighlights';
 import type { CategoryResponseDto, CompanyListDto, PaginatedResponse } from '@/lib/api/types';
 
 const brand = getBrandConfig();
@@ -73,6 +74,7 @@ export default async function HomePage() {
           <CategoryGridPlaceholder />
         )}
         <FeaturedCompanies companies={companies} />
+        <GuideHighlights />
         <TrustSection />
       </main>
       <Footer />
