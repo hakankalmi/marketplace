@@ -1,7 +1,9 @@
 import { getBrandConfig } from '@/brands';
+import { getCategoryDisplayName } from '@/lib/utils';
 import type { CompanyDetailDto, ProductDto, ReviewDto } from '@/lib/api/types';
 
 const brand = getBrandConfig();
+const baseUrl = `https://${brand.domain}`;
 
 export function WebsiteJsonLd() {
   const data = {
@@ -17,6 +19,105 @@ export function WebsiteJsonLd() {
         urlTemplate: `https://${brand.domain}/firmalar?q={search_term_string}`,
       },
       'query-input': 'required name=search_term_string',
+    },
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+    />
+  );
+}
+
+/* ───── BreadcrumbList JSON-LD ───── */
+
+export function BreadcrumbJsonLd({
+  items,
+}: {
+  items: { name: string; href?: string }[];
+}) {
+  const data = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: items.map((item, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: item.name,
+      ...(item.href && { item: `${baseUrl}${item.href}` }),
+    })),
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+    />
+  );
+}
+
+/* ───── FAQPage JSON-LD ───── */
+
+export function FaqJsonLd({ faq }: { faq: { q: string; a: string }[] }) {
+  if (faq.length === 0) return null;
+
+  const data = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faq.map((f) => ({
+      '@type': 'Question',
+      name: f.q,
+      acceptedAnswer: { '@type': 'Answer', text: f.a },
+    })),
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+    />
+  );
+}
+
+/* ───── Article JSON-LD (Blog) ───── */
+
+export function ArticleJsonLd({
+  title,
+  description,
+  path,
+  datePublished,
+  dateModified,
+}: {
+  title: string;
+  description: string;
+  path: string;
+  datePublished: string;
+  dateModified?: string;
+}) {
+  const data = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: title,
+    description,
+    url: `${baseUrl}${path}`,
+    datePublished,
+    dateModified: dateModified || datePublished,
+    author: {
+      '@type': 'Organization',
+      name: brand.name,
+      url: baseUrl,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: brand.name,
+      logo: {
+        '@type': 'ImageObject',
+        url: `${baseUrl}${brand.logoUrl}`,
+      },
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `${baseUrl}${path}`,
     },
   };
 

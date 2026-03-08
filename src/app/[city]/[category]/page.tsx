@@ -7,6 +7,7 @@ import { Footer } from '@/components/footer/Footer';
 import { CompanyCard } from '@/components/company/CompanyCard';
 import { MapPin, Building2, CheckCircle, Sparkles, Shield, Clock, Star, Send } from 'lucide-react';
 import { CitySearch } from '@/components/city/CitySearch';
+import { BreadcrumbJsonLd } from '@/components/seo/JsonLd';
 import { slugify, getCategoryDisplayName } from '@/lib/utils';
 import type { CompanyListDto, PaginatedResponse, CityDto } from '@/lib/api/types';
 
@@ -174,14 +175,22 @@ export async function generateMetadata({
   const isAllTurkey = citySlug === IS_ALL_TURKEY;
   const categoryDisplay = getCategoryDisplayName(category);
 
+  const ogMeta = {
+    type: 'website' as const,
+    siteName: brand.name,
+    locale: 'tr_TR',
+  };
+
   if (isAllTurkey) {
     const title = `${categoryDisplay} Firmaları — Türkiye Geneli | ${brand.name}`;
-    const description = `Türkiye genelinde en iyi ${categoryDisplay.toLowerCase()} firmaları. 81 ilde fiyat karşılaştırma, gerçek müşteri yorumları. Hemen sipariş verin.`;
+    const description = `Türkiye genelinde en iyi ${categoryDisplay.toLowerCase()} firmaları. 81 ilde fiyat karşılaştırma, gerçek müşteri yorumları. Kolayca sipariş verin.`;
+    const url = `https://${brand.domain}/${citySlug}/${category}`;
     return {
       title,
       description,
       alternates: { canonical: `/${citySlug}/${category}` },
-      openGraph: { title, description, url: `https://${brand.domain}/${citySlug}/${category}` },
+      openGraph: { title, description, url, ...ogMeta },
+      twitter: { card: 'summary' as const, title, description },
     };
   }
 
@@ -190,13 +199,15 @@ export async function generateMetadata({
   if (!cityData) return { title: 'Sayfa Bulunamadı' };
 
   const title = `${cityData.city} ${categoryDisplay} Firmaları | ${brand.name}`;
-  const description = `${cityData.city} şehrinde en iyi ${categoryDisplay.toLowerCase()} firmaları. ${cityData.companyCount} firma, fiyat karşılaştırma, gerçek müşteri yorumları. Hemen sipariş verin.`;
+  const description = `${cityData.city} şehrinde en iyi ${categoryDisplay.toLowerCase()} firmaları. ${cityData.companyCount} firma, fiyat karşılaştırma, gerçek müşteri yorumları. Kolayca sipariş verin.`;
+  const url = `https://${brand.domain}/${citySlug}/${category}`;
 
   return {
     title,
     description,
     alternates: { canonical: `/${citySlug}/${category}` },
-    openGraph: { title, description, url: `https://${brand.domain}/${citySlug}/${category}` },
+    openGraph: { title, description, url, ...ogMeta },
+    twitter: { card: 'summary' as const, title, description },
   };
 }
 
@@ -216,6 +227,12 @@ export default async function CityCategoryPage({
 
     return (
       <>
+        <BreadcrumbJsonLd
+          items={[
+            { name: 'Anasayfa', href: '/' },
+            { name: categoryDisplay },
+          ]}
+        />
         <Nav />
         <main className="min-h-screen bg-brand-bg">
           {/* Hero */}
@@ -368,6 +385,13 @@ export default async function CityCategoryPage({
 
   return (
     <>
+      <BreadcrumbJsonLd
+        items={[
+          { name: 'Anasayfa', href: '/' },
+          { name: categoryDisplay, href: `/turkiye/${category}` },
+          { name: cityName },
+        ]}
+      />
       <Nav />
       <main className="min-h-screen bg-brand-bg">
         <section

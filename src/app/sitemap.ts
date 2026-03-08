@@ -2,6 +2,7 @@ import type { MetadataRoute } from 'next';
 import { API_URL, BRAND_CODE, CITIES } from '@/lib/constants';
 import { getBrandConfig } from '@/brands';
 import { slugify } from '@/lib/utils';
+import { guides } from './rehber/guides';
 
 const brand = getBrandConfig();
 const baseUrl = `https://${brand.domain}`;
@@ -65,6 +66,22 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         priority: 0.6,
       });
     }
+  }
+
+  // ── Rehber (Blog) sayfaları: /rehber/{slug} ──
+  entries.push({
+    url: `${baseUrl}/rehber`,
+    lastModified: now,
+    changeFrequency: 'weekly',
+    priority: 0.8,
+  });
+  for (const guide of guides) {
+    entries.push({
+      url: `${baseUrl}/rehber/${guide.slug}`,
+      lastModified: new Date(guide.dateModified),
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    });
   }
 
   // ── Firma detay sayfaları: /{city}/{category}/{slug} ──

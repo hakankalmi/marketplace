@@ -125,7 +125,7 @@ export async function generateMetadata({
     if (firmalari.districtSlug) {
       const districtName = deslugify(firmalari.districtSlug);
       const title = `${districtName}, ${cityName} ${categoryDisplay} Firmaları | ${brand.name}`;
-      const description = `${cityName} ${districtName} bölgesinde en iyi ${categoryDisplay.toLowerCase()} firmaları. Fiyat karşılaştırma, gerçek müşteri yorumları. Hemen sipariş verin.`;
+      const description = `${cityName} ${districtName} bölgesinde en iyi ${categoryDisplay.toLowerCase()} firmaları. Fiyat karşılaştırma, gerçek müşteri yorumları. Kolayca sipariş verin.`;
       return {
         title,
         description,
@@ -135,7 +135,7 @@ export async function generateMetadata({
     }
 
     const title = `${cityName} ${categoryDisplay} Firmaları | ${brand.name}`;
-    const description = `${cityName} şehrinde en iyi ${categoryDisplay.toLowerCase()} firmaları. Fiyat karşılaştırma, gerçek müşteri yorumları. Hemen sipariş verin.`;
+    const description = `${cityName} şehrinde en iyi ${categoryDisplay.toLowerCase()} firmaları. Fiyat karşılaştırma, gerçek müşteri yorumları. Kolayca sipariş verin.`;
     return {
       title,
       description,

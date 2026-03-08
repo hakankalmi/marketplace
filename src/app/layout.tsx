@@ -11,10 +11,22 @@ import './globals.css';
 const brand = getBrandConfig();
 
 export const metadata: Metadata = {
-  title: brand.seo.metaTitle,
+  metadataBase: new URL(`https://${brand.domain}`),
+  title: {
+    default: brand.seo.metaTitle,
+    template: `%s | ${brand.name}`,
+  },
   description: brand.seo.metaDescription,
   icons: {
     icon: brand.faviconUrl,
+  },
+  openGraph: {
+    type: 'website',
+    siteName: brand.name,
+    locale: 'tr_TR',
+  },
+  twitter: {
+    card: 'summary',
   },
 };
 

@@ -144,6 +144,7 @@ export function CompanyDetailView({ company, city, category }: Props) {
                   alt={company.companyName}
                   width={96}
                   height={96}
+                  priority
                   className="w-24 h-24 rounded-brand object-cover border border-brand-border"
                 />
               ) : (
@@ -228,6 +229,8 @@ export function CompanyDetailView({ company, city, category }: Props) {
                       src={url}
                       alt={`${company.companyName} foto ${i + 1}`}
                       fill
+                      sizes="(max-width: 640px) 50vw, 33vw"
+                      {...(i === 0 ? { priority: true } : { loading: 'lazy' })}
                       className="object-cover group-hover:scale-105 transition-transform duration-300"
                     />
                   </button>
