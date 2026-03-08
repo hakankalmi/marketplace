@@ -43,10 +43,14 @@ async function reverseGeocode(lat: number, lng: number): Promise<{
   const addr = data.address || {};
 
   // In Turkey: county = ilçe (district), suburb = mahalle (neighbourhood)
-  const district =
-    addr.county || addr.town || addr.city_district || '';
   const city =
     addr.province || addr.state || addr.city || '';
+  let district =
+    addr.county || addr.town || addr.city_district || '';
+  // Remove city name prefix from district (e.g. "Sivas Merkez" → "Merkez")
+  if (city && district.startsWith(city)) {
+    district = district.slice(city.length).trim();
+  }
 
   // Build address: Mahalle, Cadde/Sokak, Bina No
   const parts = [
