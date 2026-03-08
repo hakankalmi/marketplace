@@ -31,22 +31,28 @@ export const guides: GuideArticle[] = [
     sections: [
       {
         heading: '2026 Halı Yıkama Fiyatları — Tür Bazlı Ortalamalar',
-        content: `Halı yıkama fiyatları genellikle metrekare (m²) üzerinden hesaplanır. İşte 2026 yılı itibariyle ortalama fiyatlar:
+        content: `Halı yıkama fiyatları genellikle metrekare (m²) üzerinden hesaplanır. Aşağıdaki fiyatlar Türkiye genelinde 500+ halı yıkama firmasının gerçek fiyat listelerinden derlenmiştir (2026 güncel):
 
-**Makine Halısı Yıkama:** 35-60 TL/m²
-En yaygın halı türü olan makine halıları, standart yıkama işlemiyle temizlenir. Fiyatlar şehre ve firmaya göre değişir.
+**Makine Halısı Yıkama:** Ortalama 80 TL/m² (aralık: 40-140 TL)
+En yaygın halı türü. 269+ firma verisine göre Türkiye ortalaması 79-85 TL/m² civarıdır. Fiyatlar şehre ve firmaya göre önemli fark gösterir.
 
-**El Halısı (Yün) Yıkama:** 80-150 TL/m²
-El dokuması yün halılar özel işlem gerektirir. Düşük pH'lı deterjanlar ve nazik yıkama programları kullanılır. Kurutma süresi de daha uzundur.
+**Yün Halı Yıkama:** Ortalama 137 TL/m² (aralık: 60-400 TL)
+197 firma verisine göre yün halılar makine halısının yaklaşık 1.7 katı fiyatla yıkanır. Özel deterjan ve nazik program gerektirir.
 
-**İpek Halı Yıkama:** 120-250 TL/m²
-İpek halılar en hassas halı türüdür ve sadece uzman firmalar tarafından yıkanmalıdır. Özel solüsyonlar ve el yıkama tekniği uygulanır.
+**İpek Halı Yıkama:** Ortalama 294 TL/m² (aralık: 100-1.500 TL)
+107 firma verisine göre en geniş fiyat aralığına sahip halı türü. Fiyat farkı firmanın uzmanlık düzeyini yansıtır. Sadece uzman firmalara emanet edin.
 
-**Shaggy / Uzun Tüylü Halı:** 50-90 TL/m²
-Uzun tüylü halılar daha fazla su ve deterjan gerektirdiğinden standart makine halısından daha pahalıdır. Kurutma süresi 3-5 gün olabilir.
+**Shaggy / Uzun Tüylü Halı:** Ortalama 98 TL/m² (aralık: 35-200 TL)
+149 firma verisine göre makine halısından %20-25 daha pahalı. Daha fazla su, deterjan ve kurutma süresi gerektirir.
 
-**Antik / Koleksiyon Halı:** 200-500 TL/m²
-Müze ve koleksiyon değeri taşıyan halılar, restauratör düzeyinde uzman tarafından elle temizlenir.`,
+**Bambu Halı:** Ortalama 185 TL/m² (aralık: 60-400 TL)
+134 firma verisine göre yükselen bir segment. Özel işlem gerektiren hassas bir halı türüdür.
+
+**El Dokuma Halı:** Ortalama 292 TL/m² (aralık: 90-2.500 TL)
+93 firma verisine göre değer aralığı çok geniş. Halının değerine ve antiklik durumuna göre fiyat belirlenir.
+
+**Nepal Halısı:** Ortalama 184 TL/m² (aralık: 60-600 TL)
+85 firma verisine göre orta-üst segment. El yapımı Nepal halıları özel bakım gerektirir.`,
       },
       {
         heading: 'Fiyatı Etkileyen Faktörler',
@@ -78,21 +84,24 @@ Müze ve koleksiyon değeri taşıyan halılar, restauratör düzeyinde uzman ta
       },
       {
         heading: 'Şehir Bazlı Fiyat Karşılaştırması',
-        content: `Türkiye genelinde halı yıkama fiyatları bölgesel farklılıklar gösterir:
+        content: `Türkiye genelinde halı yıkama fiyatları bölgesel farklılıklar gösterir. Aşağıdaki veriler firmaların gerçek fiyat listelerinden derlenmiştir:
 
-**İstanbul:** 45-70 TL/m² (makine halısı) — En yüksek fiyat aralığı, ancak rekabet de fazla
-**Ankara:** 40-60 TL/m² — Orta-üst segment
-**İzmir:** 40-55 TL/m² — Ege bölgesinde rekabetçi fiyatlar
-**Bursa:** 35-50 TL/m² — İstanbul'a göre %20-30 daha uygun
-**Antalya:** 40-55 TL/m² — Turizm sezonu fiyat artışı olabilir
-**Konya:** 30-45 TL/m² — İç Anadolu'da en uygun fiyatlar
-**Sivas:** 25-40 TL/m² — Küçük şehirlerde rekabetçi fiyatlar
+**İstanbul:** Ortalama 140 TL/m² (aralık: 25-450 TL) — 113+ firma verisi. Türkiye'nin en pahalı pazarı, kira ve işçilik maliyetleri nedeniyle.
+**Kocaeli:** Ortalama 135 TL/m² (aralık: 75-200 TL) — 34 firma verisi.
+**İzmir:** Ortalama 117 TL/m² (aralık: 70-300 TL) — Ege bölgesinde rekabetçi fiyatlar.
+**Bursa:** Ortalama 108 TL/m² (aralık: 65-300 TL) — 60 firma verisi. İstanbul'a göre %23 daha uygun.
+**Antalya:** Ortalama 92 TL/m² (aralık: 50-150 TL) — Turizm sezonu fiyat artışı olabilir.
+**Ankara:** Ortalama 85 TL/m² (aralık: 45-130 TL) — 33 firma verisi. Türkiye ortalamasına yakın.
+**Eskişehir:** Ortalama 86 TL/m² (aralık: 70-120 TL).
+**Mersin:** Ortalama 80 TL/m² (aralık: 65-125 TL).
+**Konya:** Ortalama 63 TL/m² (aralık: 55-80 TL) — İç Anadolu'da en uygun fiyatlar.
+**Şanlıurfa:** Ortalama 58 TL/m² (aralık: 40-70 TL) — Güneydoğu'da rekabetçi fiyatlar.
 
 Kendi şehrinizdeki güncel fiyatları görmek için firmalarımızın fiyat listelerini inceleyebilirsiniz.`,
       },
     ],
     faq: [
-      { q: 'Halı yıkama metrekare fiyatı 2026 ne kadar?', a: 'Makine halısı yıkama ortalama 35-60 TL/m², el halısı 80-150 TL/m², ipek halı 120-250 TL/m² aralığındadır. Fiyatlar şehre ve firmaya göre değişir.' },
+      { q: 'Halı yıkama metrekare fiyatı 2026 ne kadar?', a: '500+ firma verisine göre makine halısı yıkama ortalama 80 TL/m² (aralık: 40-140 TL), yün halı ortalama 137 TL/m², ipek halı ortalama 294 TL/m² civarındadır. Fiyatlar şehre ve firmaya göre değişir.' },
       { q: 'Halı yıkamada alma ve teslim ücreti var mı?', a: 'Çoğu profesyonel firma ücretsiz adresinizden alma ve teslim hizmeti sunar. Bazı firmalar uzak mesafelerde ek ulaşım ücreti alabilir.' },
       { q: 'Halı yıkama ne kadar sürer?', a: 'Standart halı yıkama 2-4 gün sürer. Yoğun dönemlerde bu süre 5-7 güne çıkabilir. Ekspres (aynı gün) hizmet sunan firmalar da mevcuttur.' },
       { q: 'Halı yıkamada indirim yapılır mı?', a: 'Birden fazla halı veya kombine hizmet (halı + koltuk) alanlara %15-25 arası indirim yapılması yaygındır. Platform üzerinden sipariş verdiğinizde kampanyalı fiyatları görebilirsiniz.' },
@@ -151,7 +160,7 @@ Evde elektrik süpürgesiyle bu derinlikte temizlik yapmak fiziksel olarak mümk
 
 **Makine Yıkama (Makine halıları):** Endüstriyel tam otomatik halı yıkama makinesi kullanılır. Yüksek basınçlı su + deterjan ile halının her lifi derinlemesine temizlenir. Su sıcaklığı 30-40°C arasında ayarlanır.
 
-**El Yıkama (El halıları, ipek, antik):** Yere serilen halı, yumuşak fırçalarla ve düşük pH'lı özel deterjanla elle yıkanır. El yıkama, halının boyalarını ve liflerini korur. Bu yöntem daha uzun sürer ama hassas halılar için zorunludur.
+**Yerde Yıkama (El halıları, ipek, antik):** Yere serilen halı, yumuşak fırçalarla ve düşük pH'lı özel deterjanlarla yerde yıkanır. Yerde yıkama, halının boyalarını ve liflerini korur. Bu yöntem daha uzun sürer ama hassas halılar için zorunludur.
 
 Ana yıkama sırasında kullanılan su miktarı halının m²'sine göre ayarlanır. Aşırı su kullanımı halının tabanını bozabilir.`,
       },
@@ -185,7 +194,9 @@ Tam kurutma hayati önem taşır. %100 kuru olmayan halıda küf mantarı 24-48 
 
 **Paketleme:** Halı temiz naylonla sarılır ve rulo yapılarak teslim aracına yüklenir. Bazı firmalar vakumlu paketleme de sunar.
 
-**Teslim:** Halı adresinize teslim edilir. Teslim sırasında halınızı kontrol etmeniz ve varsa sorunları hemen bildirmeniz önerilir.`,
+**Teslim:** Halı adresinize teslim edilir. Teslim sırasında halınızı kontrol etmeniz ve varsa sorunları hemen bildirmeniz önerilir.
+
+**⚠️ Önemli Uyarı — Poşeti Hemen Çıkarın:** Teslim edilen halıyı poşet/naylon içinde beklETMEyin. Poşetler yalnızca taşıma sırasında halıyı kirden korumak içindir. Halı eve geldiğinde poşeti hemen çıkarıp halıyı açık havada serin. Poşet içinde bekleyen halıda nem hapsolur, 24-48 saat içinde küf mantarı oluşmaya başlar ve kötü koku yapar. Özellikle sıcak havalarda bu süre daha da kısalır. Halınızı yere sermeden önce birkaç saat havalandırmanız yeterlidir.`,
       },
     ],
     faq: [
@@ -209,18 +220,17 @@ Tam kurutma hayati önem taşır. %100 kuru olmayan halıda küf mantarı 24-48 
     sections: [
       {
         heading: '2026 Koltuk Yıkama Fiyatları — Parça Bazlı',
-        content: `Koltuk yıkama fiyatları parça (kişilik) bazında hesaplanır:
+        content: `Koltuk yıkama fiyatları genellikle takım veya parça bazında hesaplanır. Aşağıdaki fiyatlar Türkiye genelinde firmaların gerçek fiyat listelerinden derlenmiştir:
 
-**Tekli Koltuk:** 200-400 TL/parça
-**İkili Koltuk:** 350-600 TL/parça
-**Üçlü Koltuk:** 500-800 TL/parça
-**L Koltuk (Köşe Takımı):** 800-1.500 TL
-**Berjer / Tekli Berjer:** 250-450 TL/parça
-**Yemek Sandalyesi:** 80-150 TL/parça
+**Koltuk Takımı (3+2+1 Komple):** Ortalama 1.700 TL (aralık: 500-4.500 TL) — 149+ firma verisi
+**Tekli Koltuk Yıkama:** Ortalama 500-700 TL/parça
+**L Koltuk (Köşe Takımı):** 1.200-2.500 TL
+**Berjer:** Ortalama 537 TL/parça (aralık: 400-800 TL)
+**Yemek Sandalyesi:** Ortalama 166 TL/parça (aralık: 20-400 TL) — 78 firma verisi
 
-**3+2+1 Koltuk Takımı Komple:** 900-1.800 TL
+**Deri Koltuk Fiyat Farkı:** Kumaş koltuk fiyatlarına göre %30-50 daha pahalıdır çünkü özel deri bakım solüsyonları kullanılır.
 
-**Deri Koltuk Fiyat Farkı:** Kumaş koltuk fiyatlarına göre %30-50 daha pahalıdır çünkü özel deri bakım solüsyonları kullanılır.`,
+**Not:** Fiyatlar firmanın kullandığı yönteme (ekstraksiyon, buhar, kuru temizleme) ve koltuğun kirlilik derecesine göre önemli fark gösterir.`,
       },
       {
         heading: 'Koltuk Yıkama Yöntemi',
@@ -446,15 +456,18 @@ Profesyonel koltuk yıkama yerinde (evinizde) yapılır, koltuğu taşımaya ger
       },
       {
         heading: 'Fiyatlar ve Sıklık',
-        content: `**Yorgan Yıkama Fiyatları (2026):**
-- Tek kişilik yorgan: 150-250 TL
-- Çift kişilik yorgan: 200-350 TL
-- Kuş tüyü yorgan: 300-500 TL (özel işlem)
-- Battaniye: 100-200 TL
+        content: `**Yorgan Yıkama Fiyatları (2026) — Firma Verileri:**
+- Elyaf yorgan: Ortalama 388 TL/adet (aralık: 100-800 TL) — 82+ firma verisi
+- Yün yorgan: Ortalama 460 TL/adet (aralık: 120-1.200 TL) — 84+ firma verisi
+- Kuş tüyü yorgan: 500-900 TL (özel işlem, elle yıkama gerektirir)
+- Battaniye: Ortalama 371 TL/adet (aralık: 80-800 TL) — 140+ firma verisi
 
 **Yastık Yıkama:**
-- Normal yastık: 50-100 TL/adet
-- Visko/Ortopedik yastık: 80-150 TL/adet
+- Yastık: Ortalama 167 TL/adet (aralık: 50-400 TL) — 52+ firma verisi
+
+**Yatak Yıkama:**
+- Tek kişilik yatak: Ortalama 942 TL (aralık: 150-2.000 TL) — 42+ firma verisi
+- Çift kişilik yatak: Ortalama 1.395 TL (aralık: 250-3.000 TL) — 40+ firma verisi
 
 **Yıkama Sıklığı:**
 - Yorganlar: Yılda 2 kez (sezon geçişlerinde)
@@ -495,12 +508,14 @@ Profesyonel koltuk yıkama yerinde (evinizde) yapılır, koltuğu taşımaya ger
       },
       {
         heading: 'Profesyonel Perde Yıkama Fiyatları',
-        content: `**2026 Güncel Fiyatlar:**
-- Tül perde: 15-30 TL/m²
-- Fon perde: 25-45 TL/m²
-- Kadife perde (kuru temizleme): 40-70 TL/m²
-- Stor/Zebra perde: 30-50 TL/m²
-- Jaluzi perde (ultrasonik): 35-60 TL/m²
+        content: `**2026 Güncel Fiyatlar — Firma Verileri:**
+- Stor perde: Ortalama 139 TL/m² (aralık: 25-600 TL) — 294+ firma verisi
+- Zebra perde: Ortalama 145 TL/m² (aralık: 15-700 TL) — 146+ firma verisi
+- Tül perde: Ortalama 219 TL/m² (aralık: 30-1.000 TL) — 39 firma verisi
+- Fon perde: Ortalama 256 TL/m² (aralık: 70-1.000 TL)
+- Kadife perde (kuru temizleme): 200-400 TL/m² (özel işlem)
+
+**Not:** Perde fiyatları m² bazında hesaplanır. Büyük pencereli evlerde toplu yıkama indirimi talep edin.
 
 **Paket Avantajı:** Tüm ev perdeleri toplu yıkamada %15-25 indirim yaygındır.
 
@@ -869,7 +884,7 @@ Bu 4 ekipman yoksa firma profesyonel standartların altındadır.
     faq: [
       { q: 'Yaz temizliğine ne zaman başlamalıyım?', a: 'İdeal zaman Nisan sonu - Mayıs başıdır. Bu dönem firmalar henüz çok yoğun değildir ve fiyatlar daha uygundur.' },
       { q: 'Tüm ev tekstillerini aynı anda mı yıkatmalıyım?', a: 'İdealdir ama zorunlu değildir. En azından halı + koltuk aynı dönemde yapılmalıdır. Perdeleri ayrı haftada yıkatabilirsiniz.' },
-      { q: 'Yaz temizliği toplam ne kadar tutar?', a: 'Ortalama bir ev için (3 halı + 1 koltuk takımı + perdeler): 2.000-4.000 TL arası. Toplu sipariş indirimiyle %20 düşürülebilir.' },
+      { q: 'Yaz temizliği toplam ne kadar tutar?', a: 'Ortalama bir ev için (3 halı + 1 koltuk takımı + perdeler): 4.000-8.000 TL arası. Toplu sipariş indirimiyle %15-25 düşürülebilir. Fiyatlar şehre göre önemli fark gösterir.' },
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'koltuk-yikama-fiyatlari', 'perde-yikama-rehberi'],
   },
@@ -954,29 +969,31 @@ Düzenli müşterilere %15-25 indirim uygulanır. Haftalık 4 seans paketi stand
     sections: [
       {
         heading: 'İstanbul Halı Yıkama Fiyatları — Genel',
-        content: `İstanbul, Türkiye ortalamasının üzerinde fiyatlara sahiptir. Nedeni: Yüksek kira, işçilik ve ulaşım maliyetleri.
+        content: `İstanbul, Türkiye ortalamasının belirgin şekilde üzerinde fiyatlara sahiptir. Nedeni: Yüksek kira, işçilik ve ulaşım maliyetleri. 113+ İstanbul firmasının gerçek fiyat verileri:
 
-**Makine Halısı:** 45-70 TL/m² (Türkiye ortalaması: 35-60 TL)
-**El Halısı (Yün):** 100-180 TL/m²
-**İpek Halı:** 150-300 TL/m²
-**Shaggy / Uzun Tüylü:** 60-100 TL/m²
+**Makine Halısı:** Ortalama 140 TL/m² (aralık: 25-450 TL) — Türkiye ortalaması 80 TL iken İstanbul %75 daha pahalı
+**El Halısı (Yün):** Ortalama 162 TL/m² (aralık: 60-400 TL) — 83+ firma verisi
+**İpek Halı:** Ortalama 417 TL/m² (aralık: 25-1.500 TL) — 43+ firma verisi. Saf ipek halılar 800+ TL/m²
+**Shaggy / Uzun Tüylü:** Ortalama 96-115 TL/m² (aralık: 10-250 TL) — 43+ firma verisi
 
 **Avrupa Yakası vs Anadolu Yakası:**
 Avrupa yakasında fiyatlar genellikle %5-10 daha yüksektir. Bunun nedeni kira maliyetlerindeki farktır.`,
       },
       {
         heading: 'İlçe Bazlı Fiyat Karşılaştırması',
-        content: `**Yüksek Fiyat Bölgeleri (55-70 TL/m²):**
-Beşiktaş, Şişli, Kadıköy, Bakırköy, Sarıyer, Üsküdar
-Bu ilçelerde firma sayısı az ama kalite yüksektir.
+        content: `İstanbul ortalaması makine halısı için 140 TL/m²'dir, ancak ilçeler arası önemli farklar vardır:
 
-**Orta Fiyat Bölgeleri (45-55 TL/m²):**
+**Yüksek Fiyat Bölgeleri (150-250 TL/m²):**
+Beşiktaş, Şişli, Kadıköy, Bakırköy, Sarıyer, Üsküdar
+Bu ilçelerde kira ve işçilik maliyetleri yüksek, firma sayısı az ama kalite yüksektir.
+
+**Orta Fiyat Bölgeleri (100-150 TL/m²):**
 Ataşehir, Maltepe, Kartal, Beylikdüzü, Avcılar, Bağcılar, Ümraniye
 Rekabet yoğun, fiyat/kalite oranı en iyi olan bölgeler.
 
-**Uygun Fiyat Bölgeleri (35-50 TL/m²):**
+**Uygun Fiyat Bölgeleri (70-120 TL/m²):**
 Pendik, Tuzla, Sultanbeyli, Arnavutköy, Esenyurt, Silivri
-Şehir merkezinden uzak, rekabet az ama fiyatlar uygun.
+Şehir merkezinden uzak, işletme maliyetleri düşük.
 
 **İpucu:** Kendi ilçenize yakın firma seçmek ulaşım ücreti riskini ortadan kaldırır. Platform üzerinden ilçenize göre filtreleme yapabilirsiniz.`,
       },
@@ -995,7 +1012,7 @@ Pendik, Tuzla, Sultanbeyli, Arnavutköy, Esenyurt, Silivri
       },
     ],
     faq: [
-      { q: 'İstanbul\'da en ucuz halı yıkama nerede?', a: 'Pendik, Tuzla, Sultanbeyli ve Esenyurt gibi dış ilçelerde fiyatlar 35-50 TL/m² ile en uygun seviyededir.' },
+      { q: 'İstanbul\'da en ucuz halı yıkama nerede?', a: 'Pendik, Tuzla, Sultanbeyli ve Esenyurt gibi dış ilçelerde fiyatlar 70-120 TL/m² ile İstanbul ortalamasının (140 TL/m²) altındadır.' },
       { q: 'İstanbul\'da halı yıkama kaç gün sürer?', a: 'Standart 2-4 gün, yoğun dönemlerde 5-7 gün. Trafik nedeniyle teslimat 1 gün eklenebilir.' },
       { q: 'İstanbul Avrupa yakasından Anadolu yakasındaki firmaya halı gönderilir mi?', a: 'Mümkündür ama ulaşım ücreti yüksek olabilir. Kendi yakasındaki firmayı tercih etmek hem ekonomik hem hızlıdır.' },
     ],
@@ -1015,26 +1032,28 @@ Pendik, Tuzla, Sultanbeyli, Arnavutköy, Esenyurt, Silivri
     sections: [
       {
         heading: 'Ankara Halı Yıkama Fiyatları — Genel',
-        content: `Ankara fiyatları İstanbul'un %15-20 altındadır. Ama Türkiye ortalamasının biraz üzerindedir.
+        content: `Ankara fiyatları İstanbul'un yaklaşık %40 altındadır. 33+ Ankara firmasının gerçek fiyat verileri:
 
-**Makine Halısı:** 40-60 TL/m² (İstanbul: 45-70 TL)
-**El Halısı (Yün):** 90-160 TL/m²
-**İpek Halı:** 130-250 TL/m²
-**Shaggy / Uzun Tüylü:** 55-85 TL/m²
+**Makine Halısı:** Ortalama 85 TL/m² (aralık: 45-130 TL) — İstanbul ortalaması 140 TL iken Ankara %40 daha uygun
+**El Halısı (Yün):** 100-180 TL/m²
+**İpek Halı:** 150-350 TL/m²
+**Shaggy / Uzun Tüylü:** 65-120 TL/m²
 
-**Ankara'nın Avantajı:** İstanbul'a göre ulaşım daha kısa, teslimat süreleri 1-2 gün daha hızlı.`,
+**Ankara'nın Avantajı:** İstanbul'a göre hem fiyatlar çok daha uygun, hem ulaşım daha kısa, teslimat süreleri 1-2 gün daha hızlı.`,
       },
       {
         heading: 'İlçe Bazlı Fiyat Karşılaştırması',
-        content: `**Yüksek Fiyat Bölgeleri (50-60 TL/m²):**
+        content: `Ankara ortalaması makine halısı için 85 TL/m²'dir:
+
+**Yüksek Fiyat Bölgeleri (90-130 TL/m²):**
 Çankaya (Kızılay, GOP, Oran), Yenimahalle (Batıkent üst)
 Gelir düzeyi yüksek, az firma, yüksek kalite beklentisi.
 
-**Orta Fiyat Bölgeleri (40-50 TL/m²):**
+**Orta Fiyat Bölgeleri (70-90 TL/m²):**
 Keçiören, Etimesgut, Yenimahalle (merkez), Pursaklar
 Rekabet yoğun, fiyat/kalite oranı iyi.
 
-**Uygun Fiyat Bölgeleri (35-45 TL/m²):**
+**Uygun Fiyat Bölgeleri (45-70 TL/m²):**
 Mamak, Altındağ, Sincan, Kahramankazan, Polatlı
 Fiyatlar en uygun, ama firma seçiminde dikkatli olun.
 
