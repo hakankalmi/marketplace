@@ -48,11 +48,11 @@ async function reverseGeocode(lat: number, lng: number): Promise<{
   const city =
     addr.province || addr.state || addr.city || '';
 
-  // Build a readable address string
+  // Build address: Mahalle, Cadde/Sokak, Bina No
   const parts = [
+    addr.suburb || addr.neighbourhood || addr.quarter,
     addr.road,
-    addr.neighbourhood || addr.quarter,
-    addr.suburb,
+    addr.house_number ? `No: ${addr.house_number}` : null,
   ].filter(Boolean);
   const address = parts.length > 0 ? parts.join(', ') : data.display_name?.split(',').slice(0, 3).join(',') || '';
 
