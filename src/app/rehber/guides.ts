@@ -276,7 +276,7 @@ Tam kurutma hayati önem taşır. %100 kuru olmayan halıda küf mantarı 24-48 
         heading: 'Altın Kural: İlk 5 Dakika',
         content: `Leke oluştuğu anda yapmanız gereken 3 şey:
 
-**1. OVALAMAmayın:** Lekeyi ovmak, kirliliği daha derine iter ve halı liflerini bozar. Sadece dıştan içe doğru EMİN (blot).
+**1. Ovalamayın, dokunmayın:** Lekeyi ovmak kirliliği daha derine iter ve halı liflerini bozar. Elinizde halı süpürgesi veya elektrikli süpürge varsa sıvıyı emmeye çalışın. Yoksa temiz bir bez veya kağıt havluyu lekenin üzerine bastırarak sıvıyı emirin — sakın ovmayın, sadece bastırın.
 
 **2. Soğuk su kullanın:** Sıcak su protein bazlı lekeleri (kan, süt, yumurta) pıhtılaştırarak kalıcı hale getirir.
 
@@ -286,23 +286,23 @@ Bu üç kural tek başına lekelerin %60'ını kurtarır.`,
       },
       {
         heading: 'Leke Türlerine Göre Çözümler',
-        content: `**Kahve / Çay Lekesi:** Soğuk su + birkaç damla bulaşık deterjanı ile emin. Kalan leke için %50 sirke + %50 su karışımı uygulayın. 15 dakika bekleyin, temiz bezle emin.
+        content: `**Kahve / Çay Lekesi:** Soğuk su + birkaç damla bulaşık deterjanı karışımını temiz bir bezle lekenin üzerine bastırarak uygulayın (ovmayın). Kalan leke için %50 sirke + %50 su karışımı uygulayın. 15 dakika bekleyin, temiz bezle bastırarak kurulayın.
 
 **Kan Lekesi:** SADECE soğuk su kullanın (sıcak su kanı pıhtılaştırır). Hidrojen peroksit (%3) birkaç damla uygulayın. Köpürmeye bırakın, soğuk suyla durulayın. Açık renkli halılarda etkilidir.
 
-**Şarap Lekesi:** Hemen tuz serpin — tuz sıvıyı emer. 15 dakika sonra süpürün. Kalan leke için soda suyu (maden suyu) dökün ve emin.
+**Şarap Lekesi:** Hemen tuz serpin — tuz sıvıyı emer. 15 dakika sonra süpürün. Kalan leke için soda suyu (maden suyu) dökün, temiz bezle bastırarak alın.
 
-**Mürekkep / Kalem:** Alkol bazlı el dezenfektanı uygulayın. 5 dakika bekleyin, soğuk suyla emin. Tekrarlayın.
+**Mürekkep / Kalem:** Alkol bazlı el dezenfektanı uygulayın. 5 dakika bekleyin, soğuk sulu bezle bastırarak temizleyin. Tekrarlayın.
 
 **Sakız:** Buz torbası ile sakızı sertleştirin (10-15 dk). Sert bir cisimle kazıyın. Kalan kalıntı için az miktarda bitkisel yağ uygulayıp temizleyin.
 
 **Hayvan İdrarı:** En zor lekelerden biridir. Enzim bazlı temizleyici ZORUNLU. Sirke + karbonat karışımı kokuyu azaltır ama tam çözmez. Profesyonel temizlik şiddetle önerilir.
 
-**Boya (Akrilik/Yağlı):** Yaş boya: hemen soğuk suyla emin. Kurumuş boya: tiner veya boya çözücü ile dikkatli müdahale. Halı zarar görebilir — profesyonele götürün.
+**Boya (Akrilik/Yağlı):** Yaş boya: hemen soğuk sulu bezle bastırarak alın. Kurumuş boya: tiner veya boya çözücü ile dikkatli müdahale. Halı zarar görebilir — profesyonele götürün.
 
-**Yemek Yağı:** Nişasta veya talk pudrası serpin (yağı emer). 30 dakika bekleyin, süpürün. Bulaşık deterjanı ile emin.
+**Yemek Yağı:** Nişasta veya talk pudrası serpin (yağı emer). 30 dakika bekleyin, süpürün. Bulaşık deterjanıyla nemli bezle bastırarak temizleyin.
 
-**Çikolata:** Buz ile sertleştirin, kazıyın. Ilık su + bulaşık deterjanı ile emin.
+**Çikolata:** Buz ile sertleştirin, kazıyın. Ilık su + bulaşık deterjanıyla nemli bezle bastırarak temizleyin.
 
 **Mum:** Buz ile sertleştirin, büyük parçaları çıkarın. Üzerine temiz bezle kaplı ütü uygulayın (düşük ısı) — mum eriyerek beze yapışır.`,
       },
@@ -393,7 +393,7 @@ Profesyonel firmalar endüstriyel ekipman ve özel kimyasallarla bu lekeleri gü
       },
       {
         heading: 'Leke Müdahalesi',
-        content: `**5. Anında Müdahale:** Leke oluştuğunda 30 saniye içinde temiz beyaz bezle EMİN (blot). Ovmayın — lekeyi derine iter.
+        content: `**5. Anında Müdahale:** Leke oluştuğunda 30 saniye içinde temiz beyaz bezi lekenin üzerine bastırarak sıvıyı emirin. Ovmayın — lekeyi derine iter.
 
 **6. Kumaş Tipine Göre Temizleyin:** Koltuk etiketindeki kodu kontrol edin:
 - **W** = Su bazlı temizleyici kullanabilirsiniz
