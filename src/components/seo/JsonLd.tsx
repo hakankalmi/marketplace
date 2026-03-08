@@ -174,11 +174,6 @@ export function LocalBusinessJsonLd({
     }));
   }
 
-  // Gallery photos — Google prefers image as URL string array
-  if (company.photoUrls && company.photoUrls.length > 0) {
-    data.image = company.photoUrls;
-  }
-
   // Aggregate rating
   if (company.averageRating > 0 && company.totalReviewCount > 0) {
     data.aggregateRating = {
