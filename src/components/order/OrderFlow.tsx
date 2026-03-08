@@ -187,6 +187,7 @@ export function OrderFlow({ company }: Props) {
                 clearFormSession();
                 setOrderCode(code);
                 setOrderCompleted(true);
+                window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
             />
           )}
