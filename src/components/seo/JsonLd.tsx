@@ -71,40 +71,33 @@ function buildOpeningHours(workingHours: Record<string, string>): object[] {
 
 /* ───── Individual reviews → Schema.org Review ───── */
 
-function buildReviews(reviews: ReviewDto[], companyName: string): object[] {
+function buildReviews(reviews: ReviewDto[]): object[] {
   return reviews
-    .filter((r) => r.rating > 0)
+    .filter((r) => r.rating > 0 && r.createdAt) // datePublished is required
     .slice(0, 10) // Google recommends max ~10
-    .map((r) => ({
-      '@type': 'Review',
-      author: {
-        '@type': 'Person',
-        name: r.customerName || 'Anonim',
-      },
-      datePublished: r.createdAt?.split('T')[0],
-      reviewRating: {
-        '@type': 'Rating',
-        ratingValue: r.rating,
-        bestRating: 5,
-      },
-      ...(r.comment && { reviewBody: r.comment }),
-      ...(r.isVerifiedPurchase && {
-        description: 'Doğrulanmış satın alma',
-      }),
-      ...(r.companyResponse && {
-        comment: {
-          '@type': 'Comment',
-          author: {
-            '@type': 'Organization',
-            name: companyName,
-          },
-          text: r.companyResponse,
-          ...(r.companyRespondedAt && {
-            dateCreated: r.companyRespondedAt.split('T')[0],
-          }),
+    .map((r) => {
+      const review: Record<string, unknown> = {
+        '@type': 'Review',
+        author: {
+          '@type': 'Person',
+          name: r.customerName || 'Anonim',
         },
-      }),
-    }));
+        datePublished: r.createdAt.split('T')[0],
+        reviewRating: {
+          '@type': 'Rating',
+          ratingValue: r.rating,
+          bestRating: 5,
+          worstRating: 1,
+        },
+      };
+
+      // reviewBody — Google requires text content for valid review snippet
+      if (r.comment) {
+        review.reviewBody = r.comment;
+      }
+
+      return review;
+    });
 }
 
 /* ───── Products → Schema.org Offer items ───── */
@@ -120,28 +113,6 @@ function buildOffers(products: ProductDto[]): object[] {
     priceCurrency: p.currency || 'TRY',
     unitText: UNIT_LABELS[p.unitType] || 'adet',
     availability: 'https://schema.org/InStock',
-  }));
-}
-
-/* ───── Service list → Schema.org Service ───── */
-
-function buildServices(products: ProductDto[], companyName: string): object[] {
-  const active = products.filter((p) => p.isActive && p.unitPrice > 0);
-  if (active.length === 0) return [];
-
-  return active.map((p) => ({
-    '@type': 'Service',
-    name: p.productName,
-    provider: {
-      '@type': 'LocalBusiness',
-      name: companyName,
-    },
-    offers: {
-      '@type': 'Offer',
-      price: p.unitPrice.toFixed(2),
-      priceCurrency: p.currency || 'TRY',
-      unitText: UNIT_LABELS[p.unitType] || 'adet',
-    },
   }));
 }
 
@@ -177,17 +148,14 @@ export function LocalBusinessJsonLd({
     name: company.companyName,
     url,
     ...(company.description && { description: company.description }),
-    ...(company.logoUrl && { image: company.logoUrl }),
-    ...(company.phone && {
-      telephone: company.phone,
-      contactPoint: {
-        '@type': 'ContactPoint',
-        telephone: company.phone,
-        contactType: 'customer service',
-        availableLanguage: 'Turkish',
-      },
-    }),
   };
+
+  // Image — prefer gallery photos, fallback to logo
+  if (company.photoUrls && company.photoUrls.length > 0) {
+    data.image = company.photoUrls;
+  } else if (company.logoUrl) {
+    data.image = company.logoUrl;
+  }
 
   // Address
   if (company.city) {
@@ -206,12 +174,9 @@ export function LocalBusinessJsonLd({
     }));
   }
 
-  // Gallery photos
+  // Gallery photos — Google prefers image as URL string array
   if (company.photoUrls && company.photoUrls.length > 0) {
-    data.photo = company.photoUrls.map((photoUrl) => ({
-      '@type': 'ImageObject',
-      url: photoUrl,
-    }));
+    data.image = company.photoUrls;
   }
 
   // Aggregate rating
@@ -227,7 +192,7 @@ export function LocalBusinessJsonLd({
 
   // Individual reviews
   if (company.recentReviews?.length > 0) {
-    data.review = buildReviews(company.recentReviews, company.companyName);
+    data.review = buildReviews(company.recentReviews);
   }
 
   // Working hours
@@ -281,56 +246,3 @@ export function LocalBusinessJsonLd({
   );
 }
 
-/* ───── Standalone Service+AggregateRating for rich snippets ───── */
-
-export function ServiceJsonLd({
-  company,
-  canonicalPath,
-}: {
-  company: CompanyDetailDto;
-  canonicalPath: string;
-}) {
-  const active = company.products.filter((p) => p.isActive && p.unitPrice > 0);
-  if (active.length === 0) return null;
-
-  const services = buildServices(active, company.companyName);
-
-  const data = {
-    '@context': 'https://schema.org',
-    '@type': 'Service',
-    name: `${company.companyName} Hizmetleri`,
-    provider: {
-      '@type': 'LocalBusiness',
-      name: company.companyName,
-      url: `https://${brand.domain}${canonicalPath}`,
-    },
-    ...(company.city && {
-      areaServed: {
-        '@type': 'City',
-        name: company.city,
-      },
-    }),
-    ...(company.averageRating > 0 &&
-      company.totalReviewCount > 0 && {
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: company.averageRating.toFixed(1),
-          reviewCount: company.totalReviewCount,
-          bestRating: '5',
-          worstRating: '1',
-        },
-      }),
-    hasOfferCatalog: {
-      '@type': 'OfferCatalog',
-      name: 'Fiyat Listesi',
-      itemListElement: services,
-    },
-  };
-
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
-    />
-  );
-}

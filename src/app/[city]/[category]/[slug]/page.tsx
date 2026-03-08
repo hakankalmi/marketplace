@@ -4,7 +4,7 @@ import { API_URL, BRAND_CODE } from '@/lib/constants';
 import { Nav } from '@/components/nav/Nav';
 import { Footer } from '@/components/footer/Footer';
 import { CompanyDetailView } from './company-detail-view';
-import { LocalBusinessJsonLd, ServiceJsonLd } from '@/components/seo/JsonLd';
+import { LocalBusinessJsonLd } from '@/components/seo/JsonLd';
 import type { CompanyDetailDto } from '@/lib/api/types';
 
 async function getCompany(slug: string): Promise<CompanyDetailDto | null> {
@@ -55,10 +55,6 @@ export default async function FirmaDetayPage({
   return (
     <>
       <LocalBusinessJsonLd
-        company={company}
-        canonicalPath={`/${city}/${category}/${slug}`}
-      />
-      <ServiceJsonLd
         company={company}
         canonicalPath={`/${city}/${category}/${slug}`}
       />
