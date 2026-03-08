@@ -9,7 +9,15 @@ import { Button } from '@/components/ui/button';
 import { requestOtp, verifyOtp, saveAuth } from '@/lib/api/auth';
 import { updateProfile } from '@/lib/api/customer';
 import { subscribeToPush } from '@/lib/push-notifications';
+import { ApiError } from '@/lib/api/client';
 import { BRAND_CODE } from '@/lib/constants';
+
+const ERROR_MESSAGES: Record<string, string> = {
+  OTP_INVALID: 'Doğrulama kodu hatalı. Lütfen tekrar deneyin.',
+  OTP_EXPIRED: 'Doğrulama kodunun süresi doldu. Yeni kod gönderin.',
+  OTP_MAX_ATTEMPTS: 'Çok fazla deneme yaptınız. Lütfen birkaç dakika bekleyin.',
+  TOO_MANY_REQUESTS: 'Çok fazla istek gönderildi. Lütfen bekleyin.',
+};
 
 type Step = 'phone' | 'otp' | 'name';
 
@@ -50,9 +58,10 @@ export function OtpForm() {
       setCountdown(120);
       setTimeout(() => otpRefs.current[0]?.focus(), 100);
     } catch (err) {
-      setError(
-        err instanceof Error ? err.message : 'SMS gönderilemedi. Lütfen tekrar deneyin.'
-      );
+      const msg = err instanceof ApiError
+        ? (ERROR_MESSAGES[err.errorCode] || 'SMS gönderilemedi. Lütfen tekrar deneyin.')
+        : 'SMS gönderilemedi. Lütfen tekrar deneyin.';
+      setError(msg);
     } finally {
       setLoading(false);
     }
@@ -80,9 +89,10 @@ export function OtpForm() {
         router.push(redirect);
       }
     } catch (err) {
-      setError(
-        err instanceof Error ? err.message : 'Kod doğrulanamadı. Lütfen tekrar deneyin.'
-      );
+      const msg = err instanceof ApiError
+        ? (ERROR_MESSAGES[err.errorCode] || 'Kod doğrulanamadı. Lütfen tekrar deneyin.')
+        : 'Kod doğrulanamadı. Lütfen tekrar deneyin.';
+      setError(msg);
       setOtp(['', '', '', '', '', '']);
       otpRefs.current[0]?.focus();
     } finally {
