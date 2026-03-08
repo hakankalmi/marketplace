@@ -1,6 +1,6 @@
 'use client';
 
-import { use, useState } from 'react';
+import { use, useState, useEffect } from 'react';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { motion } from 'framer-motion';
 import {
@@ -16,6 +16,8 @@ import {
   ExternalLink,
   Camera,
   Sparkles,
+  Timer,
+  Truck,
 } from 'lucide-react';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -29,10 +31,51 @@ import { toast } from 'sonner';
 import type { MarketplaceOrderStatus } from '@/lib/api/types';
 
 const statusSteps: { status: MarketplaceOrderStatus; label: string }[] = [
-  { status: 'Pending', label: 'Sipariş Alındı' },
+  { status: 'Pending', label: 'Siparis Alindi' },
   { status: 'Accepted', label: 'Kabul Edildi' },
-  { status: 'Completed', label: 'Tamamlandı' },
+  { status: 'Completed', label: 'Tamamlandi' },
 ];
+
+/** Live countdown timer for pending orders */
+function AutoRejectCountdown({ autoRejectAt }: { autoRejectAt: string }) {
+  const [remaining, setRemaining] = useState('');
+  const [isUrgent, setIsUrgent] = useState(false);
+
+  useEffect(() => {
+    const update = () => {
+      const diff = new Date(autoRejectAt).getTime() - Date.now();
+      if (diff <= 0) {
+        setRemaining('Sure doldu');
+        setIsUrgent(true);
+        return;
+      }
+      const hours = Math.floor(diff / 3600000);
+      const mins = Math.floor((diff % 3600000) / 60000);
+      const secs = Math.floor((diff % 60000) / 1000);
+      if (hours > 0) {
+        setRemaining(`${hours}s ${mins}dk`);
+      } else {
+        setRemaining(`${mins}dk ${secs}sn`);
+      }
+      setIsUrgent(diff < 600000); // < 10 min
+    };
+    update();
+    const interval = setInterval(update, 1000);
+    return () => clearInterval(interval);
+  }, [autoRejectAt]);
+
+  return (
+    <div className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm ${
+      isUrgent
+        ? 'bg-red-50 border border-red-200 text-red-700'
+        : 'bg-amber-50 border border-amber-200 text-amber-700'
+    }`}>
+      <Timer size={14} className={isUrgent ? 'animate-pulse' : ''} />
+      <span className="font-medium">{remaining}</span>
+      <span className="text-xs opacity-75">firma onay suresi</span>
+    </div>
+  );
+}
 
 export default function SiparisDetayPage({
   params,
@@ -172,6 +215,38 @@ export default function SiparisDetayPage({
                 )}
               </div>
             ))}
+          </div>
+        </div>
+      )}
+
+      {/* Pending — countdown + info */}
+      {order.status === 'Pending' && order.autoRejectAt && (
+        <div className="space-y-2">
+          <AutoRejectCountdown autoRejectAt={order.autoRejectAt} />
+          <p className="text-xs text-brand-text-muted px-1">
+            Firma belirtilen sure icinde siparisinizi degerlendirip size donecek. Sureyi asarsa siparis otomatik iptal edilir.
+          </p>
+        </div>
+      )}
+
+      {/* Accepted — estimated pickup info */}
+      {order.status === 'Accepted' && (
+        <div className="p-4 bg-emerald-50 border border-emerald-200 rounded-xl flex items-start gap-3">
+          <Truck size={20} className="text-emerald-600 shrink-0 mt-0.5" />
+          <div>
+            <p className="text-sm font-medium text-emerald-800">
+              Siparisiniz onaylandi!
+            </p>
+            <p className="text-xs text-emerald-600 mt-0.5">
+              {order.estimatedPickupByCompany
+                ? `Tahmini teslim alma: ${formatDate(order.estimatedPickupByCompany)}`
+                : 'Firma en kisa surede sizinle iletisime gececek.'}
+            </p>
+            {order.acceptedAt && (
+              <p className="text-xs text-emerald-500 mt-1">
+                Onay tarihi: {formatDate(order.acceptedAt)}
+              </p>
+            )}
           </div>
         </div>
       )}
