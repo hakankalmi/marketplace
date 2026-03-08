@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { getBrandConfig } from '@/brands';
 import { generateCSSVariables, generateDarkCSSVariables } from '@/lib/brand/css-injector';
-import { getGoogleFontsUrl } from '@/lib/brand/font-loader';
+import { getBrandFontClassNames } from '@/lib/brand/next-fonts';
 import { Providers } from './providers';
 import { ServiceWorkerRegister } from '@/components/shared/sw-register';
 import { BottomNav } from '@/components/nav/BottomNav';
@@ -37,16 +37,13 @@ export default function RootLayout({
 }) {
   const cssVars = generateCSSVariables(brand);
   const darkCssVars = generateDarkCSSVariables(brand);
-  const fontsUrl = getGoogleFontsUrl(brand.fonts);
+  const fontClassNames = getBrandFontClassNames(brand.fonts);
 
   return (
-    <html lang="tr" suppressHydrationWarning>
+    <html lang="tr" className={fontClassNames} suppressHydrationWarning>
       <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://api.protakip.com" />
         <link rel="dns-prefetch" href="https://firebasestorage.googleapis.com" />
-        <link href={fontsUrl} rel="stylesheet" />
         <style
           dangerouslySetInnerHTML={{
             __html: `${cssVars}\n${darkCssVars}`,

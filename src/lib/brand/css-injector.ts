@@ -1,4 +1,5 @@
 import type { BrandTheme, BorderRadius, ShadowIntensity } from '@/types/brand';
+import { fontVarMap } from './next-fonts';
 
 const radiusMap: Record<BorderRadius, string> = {
   none: '0px',
@@ -39,8 +40,8 @@ export function generateCSSVariables(theme: BrandTheme): string {
     --brand-radius-sm: ${radiusMap[theme.borderRadius === 'none' ? 'none' : 'sm']};
     --brand-radius-lg: ${theme.borderRadius === 'none' ? '0px' : theme.borderRadius === 'sm' ? '8px' : theme.borderRadius === 'md' ? '16px' : '24px'};
     --brand-shadow: ${shadowMap[theme.shadowIntensity]};
-    --brand-font-heading: '${theme.fonts.heading}', system-ui, sans-serif;
-    --brand-font-body: '${theme.fonts.body}', system-ui, sans-serif;
+    --brand-font-heading: var(${fontVarMap[theme.fonts.heading] || `'${theme.fonts.heading}'`}), system-ui, sans-serif;
+    --brand-font-body: var(${fontVarMap[theme.fonts.body] || `'${theme.fonts.body}'`}), system-ui, sans-serif;
   }`;
 }
 
