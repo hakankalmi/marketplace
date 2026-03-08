@@ -130,7 +130,7 @@ async function getCities(): Promise<CityDto[]> {
   try {
     const res = await fetch(`${API_URL}/api/mp/cities`, {
       headers: { 'X-Marketplace-Brand': BRAND_CODE },
-      next: { revalidate: 3600 },
+      next: { revalidate: 60 },
     });
     if (!res.ok) return [];
     const data = await res.json();

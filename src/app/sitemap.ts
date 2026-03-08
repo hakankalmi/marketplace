@@ -47,7 +47,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       `${API_URL}/api/mp/companies?pageSize=1000`,
       {
         headers: { 'X-Marketplace-Brand': BRAND_CODE },
-        next: { revalidate: 3600 },
+        next: { revalidate: 60 },
       }
     );
     if (res.ok) {
@@ -70,7 +70,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   try {
     const res = await fetch(`${API_URL}/api/mp/cities`, {
       headers: { 'X-Marketplace-Brand': BRAND_CODE },
-      next: { revalidate: 3600 },
+      next: { revalidate: 60 },
     });
     if (res.ok) {
       const cities = await res.json();

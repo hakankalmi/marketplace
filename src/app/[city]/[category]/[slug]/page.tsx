@@ -4,7 +4,7 @@ import { API_URL, BRAND_CODE } from '@/lib/constants';
 import { Nav } from '@/components/nav/Nav';
 import { Footer } from '@/components/footer/Footer';
 import { CompanyDetailView } from './company-detail-view';
-import { LocalBusinessJsonLd } from '@/components/seo/JsonLd';
+import { LocalBusinessJsonLd, ServiceJsonLd } from '@/components/seo/JsonLd';
 import type { CompanyDetailDto } from '@/lib/api/types';
 
 async function getCompany(slug: string): Promise<CompanyDetailDto | null> {
@@ -55,12 +55,12 @@ export default async function FirmaDetayPage({
   return (
     <>
       <LocalBusinessJsonLd
-        name={company.companyName}
-        description={company.description ?? undefined}
-        city={company.city ?? undefined}
-        rating={company.averageRating}
-        reviewCount={company.totalReviewCount}
-        slug={`/${city}/${category}/${slug}`}
+        company={company}
+        canonicalPath={`/${city}/${category}/${slug}`}
+      />
+      <ServiceJsonLd
+        company={company}
+        canonicalPath={`/${city}/${category}/${slug}`}
       />
       <Nav />
       <main className="min-h-screen bg-brand-bg">
