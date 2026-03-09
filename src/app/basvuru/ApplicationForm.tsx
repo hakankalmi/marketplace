@@ -1,9 +1,9 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState } from 'react';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
-import { api } from '@/lib/api/client';
+import { api, ApiError } from '@/lib/api/client';
 import {
   Building2,
   User,
@@ -108,8 +108,7 @@ export function ApplicationForm() {
       });
       setSubmitted(true);
     } catch (err: unknown) {
-      const error = err as { errorCode?: string; message?: string };
-      if (error.errorCode === 'MARKETPLACE_APPLICATION_RATE_LIMITED') {
+      if (err instanceof ApiError && err.errorCode === 'MARKETPLACE_APPLICATION_RATE_LIMITED') {
         setApiError('Çok fazla başvuru gönderdiniz. Lütfen daha sonra tekrar deneyin.');
       } else {
         setApiError('Başvuru gönderilirken bir hata oluştu. Lütfen tekrar deneyin.');

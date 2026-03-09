@@ -50,7 +50,9 @@ async function request<T>(
     let message = res.statusText;
     try {
       const body = await res.json();
-      console.error('[API Error]', res.status, path, JSON.stringify(body));
+      if (process.env.NODE_ENV !== 'production') {
+        console.error('[API Error]', res.status, path, body?.errorCode);
+      }
       errorCode = body.errorCode || errorCode;
       // Handle ASP.NET validation errors format
       if (body.errors) {
