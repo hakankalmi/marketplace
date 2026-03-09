@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { User, ShoppingBag, MapPin, Star, LogOut } from 'lucide-react';
+import { User, ShoppingBag, MapPin, Star, Bell, LogOut } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { clearAuth } from '@/lib/api/auth';
 import { useRouter } from 'next/navigation';
@@ -12,6 +12,7 @@ const menuItems = [
   { label: 'Siparişlerim', href: '/hesabim/siparislerim', icon: ShoppingBag },
   { label: 'Adreslerim', href: '/hesabim/adreslerim', icon: MapPin },
   { label: 'Yorumlarım', href: '/hesabim/yorumlarim', icon: Star },
+  { label: 'Bildirimler', href: '/hesabim/bildirimler', icon: Bell },
 ];
 
 export function AccountSidebar() {

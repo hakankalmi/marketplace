@@ -11,6 +11,7 @@ import { updateProfile } from '@/lib/api/customer';
 import { subscribeToPush } from '@/lib/push-notifications';
 import { ApiError } from '@/lib/api/client';
 import { BRAND_CODE } from '@/lib/constants';
+import { NewsletterOptIn } from './NewsletterOptIn';
 
 const ERROR_MESSAGES: Record<string, string> = {
   OTP_INVALID: 'Doğrulama kodu hatalı. Lütfen tekrar deneyin.',
@@ -19,7 +20,7 @@ const ERROR_MESSAGES: Record<string, string> = {
   TOO_MANY_REQUESTS: 'Çok fazla istek gönderildi. Lütfen bekleyin.',
 };
 
-type Step = 'phone' | 'otp' | 'name';
+type Step = 'phone' | 'otp' | 'name' | 'newsletter';
 
 export function OtpForm() {
   const router = useRouter();
@@ -82,9 +83,11 @@ export function OtpForm() {
       // Subscribe to push notifications (non-blocking)
       subscribeToPush().catch(() => {});
 
-      // If user has no name, ask for it
+      // If user has no name, ask for it (new user flow: name → newsletter)
       if (!auth.name) {
         setStep('name');
+      } else if (auth.isNewUser) {
+        setStep('newsletter');
       } else {
         router.push(redirect);
       }
@@ -112,7 +115,7 @@ export function OtpForm() {
     try {
       await updateProfile({ name: trimmed });
       localStorage.setItem('mp_customer_name', trimmed);
-      router.push(redirect);
+      setStep('newsletter');
     } catch (err) {
       setError(
         err instanceof Error ? err.message : 'Bilgiler kaydedilemedi. Lütfen tekrar deneyin.'
@@ -287,7 +290,7 @@ export function OtpForm() {
               )}
             </div>
           </motion.div>
-        ) : (
+        ) : step === 'name' ? (
           <motion.div
             key="name"
             initial={{ opacity: 0, x: 20 }}
@@ -327,6 +330,11 @@ export function OtpForm() {
               </Button>
             </div>
           </motion.div>
+        ) : (
+          <NewsletterOptIn
+            phone={phone}
+            onComplete={() => router.push(redirect)}
+          />
         )}
       </AnimatePresence>
     </motion.div>

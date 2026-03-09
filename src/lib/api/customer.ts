@@ -52,6 +52,36 @@ export async function setDefaultAddress(
   return api.post(`/api/mp/me/addresses/${id}/default`);
 }
 
+/* ───── Newsletter Preferences ───── */
+
+export interface NewsletterPreferencesDto {
+  isSubscribed: boolean;
+  frequencyMonths: number;
+  channels: string[];
+  email: string | null;
+}
+
+export interface UpdateNewsletterDto {
+  phone: string;
+  email?: string | null;
+  frequencyMonths: number;
+  channels: string[];
+}
+
+export async function getNewsletterPreferences(): Promise<NewsletterPreferencesDto> {
+  return api.get('/api/mp/me/newsletter');
+}
+
+export async function updateNewsletterPreferences(
+  data: UpdateNewsletterDto
+): Promise<{ message: string }> {
+  return api.put('/api/mp/me/newsletter', data);
+}
+
+export async function unsubscribeNewsletter(): Promise<{ message: string }> {
+  return api.delete('/api/mp/me/newsletter');
+}
+
 /* ───── Public Data ───── */
 
 export async function getCategories(): Promise<CategoryResponseDto[]> {
