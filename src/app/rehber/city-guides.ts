@@ -2303,4 +2303,110 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'gaziantep-hali-yikama', 'adana-hali-yikama'],
   },
+
+  /* ─── 26. VAN ─── */
+  {
+    slug: 'van-hali-yikama',
+    city: 'Van',
+    citySlug: 'van',
+    title: 'Van Halı Yıkama Rehberi: Fiyatlar, Firmalar ve İpuçları (2026)',
+    metaTitle: 'Van Halı Yıkama Fiyatları 2026 | Firma Rehberi',
+    metaDescription: 'Van halı yıkama fiyatları 2026 güncel liste. İpekyolu, Tuşba, Edremit, Erciş, Özalp fiyat karşılaştırma. Van halı yıkama firması seçim rehberi.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'Şehir Rehberi',
+    readingTime: 8,
+    heroEmoji: '🐱',
+    intro: `**Van**, Türkiye'nin doğusundaki en büyük şehirdir ve Van Gölü kıyısında eşsiz bir coğrafyaya sahiptir. 1700 metre rakım, uzun ve sert kışlar, kısa ama sıcak yazlar — Van'da halı yıkama sezonu diğer şehirlere göre çok kısadır. Buna karşın Van'ın halı kültürü zengindir: İran sınırına yakınlık nedeniyle İran halıları, yerel Van kilimleri ve Doğu Anadolu'nun geleneksel dokumaları bu şehirde yoğun kullanılır. [Van halı yıkama firmaları](/van-hali-yikama-firmalari) arasında en uygun fiyatlı ve güvenilir firmayı bulmak için bu rehberi hazırladık.`,
+    sections: [
+      {
+        heading: 'Van Halı Yıkama Fiyatları 2026',
+        content: `Van'da halı yıkama fiyatları Doğu Anadolu ortalamasındadır. İstanbul ve İzmir'e göre oldukça uygun, ancak firma sayısı sınırlıdır — rekabet düşük olduğundan pazarlık marjı azdır.
+
+| Halı Türü | Fiyat Aralığı (m²) | Ortalama |
+|---|---|---|
+| Makine halısı | 70 – 110 TL | 80 TL |
+| El dokuması halı | 90 – 170 TL | 120 TL |
+| İran halısı | 120 – 300 TL | 200 TL |
+| Shaggy / tüylü halı | 75 – 130 TL | 95 TL |
+| İpek halı | 150 – 350 TL | 230 TL |
+| Koltuk yıkama (kişilik) | 120 – 250 TL | 170 TL |
+| Yorgan yıkama (adet) | 100 – 190 TL | 135 TL |
+
+**İlçe Bazlı Fiyat Farkları:**
+
+🔴 **Yüksek Segment**: [İpekyolu halı yıkama](/van-ipekyolu-hali-yikama-firmalari), [Tuşba halı yıkama](/van-tusba-hali-yikama-firmalari) — 80-170 TL/m². Şehir merkezi, en çok firma seçeneği.
+
+🟡 **Orta Segment**: [Edremit halı yıkama](/van-edremit-hali-yikama-firmalari), [Erciş halı yıkama](/van-ercis-hali-yikama-firmalari), [Başkale halı yıkama](/van-baskale-hali-yikama-firmalari) — 70-120 TL/m².
+
+🟢 **Uygun Segment**: [Özalp halı yıkama](/van-ozalp-hali-yikama-firmalari), [Çaldıran halı yıkama](/van-caldiran-hali-yikama-firmalari), [Gevaş halı yıkama](/van-gevas-hali-yikama-firmalari), [Gürpınar halı yıkama](/van-gurpinar-hali-yikama-firmalari), [Muradiye halı yıkama](/van-muradiye-hali-yikama-firmalari), [Çatak halı yıkama](/van-catak-hali-yikama-firmalari) — 70-95 TL/m².
+
+📌 *Van'da İran halısı yıkama fiyatları ayrıca belirtilmiştir çünkü sınır ticareti nedeniyle bu halılar çok yaygındır ve özel bakım gerektirir.*`,
+      },
+      {
+        heading: 'Van İklimi ve Halı Bakım Takvimi',
+        content: `Van'ın 1700 metre rakımı ve sert karasal iklimi halı yıkama sezonunu Türkiye'nin en kısa halı yıkama sezonuna indirger:
+
+**Çok Sert Kışlar (Kasım-Nisan):** Van'da kış 6 ay sürer. Sıcaklık -20°C'nin altına düşer, göl bile kısmen donar. Kar 4-5 ay yerde kalır. Bu dönemde halı yıkama neredeyse imkansızdır — kapalı kurutma tesisi olan firmalar bile zorluk çeker çünkü enerji maliyeti çok yüksektir.
+
+**Kısa Yaz (Haziran-Eylül):** Van yazları sıcak (28-33°C) ve kurudur. Nem çok düşüktür. Kurutma 1 günde tamamlanır. Bu 4 aylık pencere halı yıkama için idealdir ve tüm talep bu döneme sıkışır — erken randevu şarttır.
+
+**Van Gölü Etkisi:** Van Gölü dünyanın en büyük sodalı gölüdür. Göl kenarındaki (Edremit, Gevaş, Tuşba sahil) evlerde alkali nem halı liflerini farklı etkiler — sertleştirir ve zamanla renk solmasına neden olur.
+
+**Toz ve Kum:** Van ovası kurak steptir. Rüzgarlı günlerde (özellikle Nisan-Mayıs) toz fırtınaları halıları hızla kirletir.
+
+**Sınır Bölgesi Soğuğu:** Çaldıran, Özalp ve Başkale gibi İran sınırındaki ilçeler Van merkezden bile soğuktur. Buralarda halı yıkama sezonu Temmuz-Ağustos ile sınırlıdır.
+
+**En İyi Dönem:** Haziran-Temmuz — hava sıcak, firmalar henüz çok yoğun değil.
+
+[Van halı yıkama firmaları](/van-hali-yikama-firmalari) — Van'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+      },
+      {
+        heading: 'Van Halı Yıkama Firması Seçerken Dikkat Edilecekler',
+        content: `**İran Halıları — Özel Uzmanlık:** Van, İran sınırına 200 km mesafededir ve sınır ticareti sayesinde İran halıları çok yaygındır. İsfahan, Tebriz ve Keşan halıları özel bakım gerektirir — doğal boyalar, yüksek düğüm yoğunluğu ve ipek karışımları standart yıkamadan farklı deterjan ve teknik gerektirir. Van firmalarının çoğu bu konuda deneyimlidir.
+
+**Sezon Kısıtlaması — Erken Randevu:** Van'da halı yıkama sezonu sadece 4 aydır (Haziran-Eylül). Tüm talep bu döneme sıkışır. Haziran başında randevu almak Ağustos sonunda beklememek anlamına gelir.
+
+**Edremit — Göl Kenarı Villa Bölgesi:** Van Gölü'nün güney kıyısındaki Edremit villaları şehrin en değerli konut alanıdır. Buradaki büyük halılar için uygun araç filosuna sahip firma gerekir.
+
+**Van Kilimi ve Yörük Dokumaları:** Doğu Anadolu'nun geleneksel yün kilimleri Van'da hala yoğun kullanılır. Bu kalın yün kilimler makine yıkamaya dayanıklıdır ama kurutma süresi uzundur — firmaya belirtin.
+
+**Erciş — Ayrı Pazar:** Erciş, Van'a 100 km mesafededir ve kendi yerel pazarına sahiptir. Merkezden firma çağırmak yerine yerel Erciş firmalarını tercih etmek daha ekonomiktir.
+
+**Kışın Halı Yıkatma Riski:** Kış aylarında Van'da halı yıkatmak çok risklidir. Halı donabilir, kurutma haftalar sürebilir ve küf riski artar. Mümkünse yazı bekleyin.`,
+      },
+      {
+        heading: 'Van İlçe Bazlı Halı Yıkama Firmaları',
+        content: `Van 13 ilçeye sahiptir. İşte ilçe bazlı halı yıkama firma rehberi:
+
+**Büyükşehir Merkez İlçeler:**
+- [İpekyolu halı yıkama](/van-ipekyolu-hali-yikama-firmalari) — Şehir merkezi, ticaret, en çok firma
+- [Tuşba halı yıkama](/van-tusba-hali-yikama-firmalari) — Göl kenarı, Van Kalesi bölgesi
+- [Edremit halı yıkama](/van-edremit-hali-yikama-firmalari) — Villa bölgesi, göl manzarası
+
+**Büyük İlçeler:**
+- [Erciş halı yıkama](/van-ercis-hali-yikama-firmalari) — Van Gölü kuzeyi, büyük pazar
+- [Başkale halı yıkama](/van-baskale-hali-yikama-firmalari) — İran sınırı, ticaret
+- [Özalp halı yıkama](/van-ozalp-hali-yikama-firmalari) — Sınır ilçesi
+- [Çaldıran halı yıkama](/van-caldiran-hali-yikama-firmalari) — En soğuk ilçe
+
+**Diğer İlçeler:**
+- [Gevaş halı yıkama](/van-gevas-hali-yikama-firmalari) — Akdamar Adası karşısı
+- [Gürpınar halı yıkama](/van-gurpinar-hali-yikama-firmalari) — Dağ ilçesi
+- [Muradiye halı yıkama](/van-muradiye-hali-yikama-firmalari) — Şelale bölgesi
+- [Çatak halı yıkama](/van-catak-hali-yikama-firmalari) — Kırsal, dağlık
+- [Bahçesaray halı yıkama](/van-bahcesaray-hali-yikama-firmalari) — Türkiye'nin en izole ilçelerinden
+- [Saray halı yıkama](/van-saray-hali-yikama-firmalari) — İran sınırı
+
+📌 *Bahçesaray ve Çatak gibi dağ ilçelerinde firma yok denecek kadar azdır. Bu ilçelerden İpekyolu veya Tuşba firmalarına ulaşmak en pratik çözümdür.*`,
+      },
+    ],
+    faq: [
+      { q: 'Van\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı ortalama 80 TL/m², İran halısı 120-300 TL/m², shaggy 75-130 TL/m² aralığındadır. İpekyolu ve Tuşba merkez fiyatları, kırsal ilçelerden %10-15 yüksektir.' },
+      { q: 'Van\'da kışın halı yıkatılır mı?', a: 'Önerilmez. Van kışı 6 ay sürer ve -20°C altına düşer. Halı donabilir ve kurutma haftalar sürebilir. Mümkünse Haziran-Eylül dönemini bekleyin.' },
+      { q: 'Van\'da İran halısı nerede yıkatılır?', a: 'İpekyolu ve Tuşba\'daki firmalar İran halısı konusunda deneyimlidir. Sınır ticareti sayesinde bu halılar Van\'da çok yaygındır ve firmalar özel deterjan ve teknik kullanır.' },
+      { q: 'Van\'da halı yıkama kaç gün sürer?', a: 'Yaz aylarında 1 gün (çok kuru iklim, hızlı kurutma). Kışın yıkatmak önerilmez — kapalı tesiste bile 5-7 gün sürer ve küf riski yüksektir.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'diyarbakir-hali-yikama', 'sanliurfa-hali-yikama'],
+  },
 ];
