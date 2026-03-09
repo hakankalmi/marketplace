@@ -414,7 +414,7 @@ Bu üç kural tek başına lekelerin %60'ını kurtarır.`,
       },
       {
         heading: 'Profesyonel Koltuk Yıkama ile Derinlemesine Temizlik',
-        content: `**8. Yılda 1-2 Kez [Profesyonel Yıkatın](/turkiye/hali-yikama):** Ev temizliği yüzeyi temizler, profesyonel ekstraksiyon yöntemi kumaşın derinlerine iner. Alerjen, toz akarı ve bakterileri %99 oranında yok eder.
+        content: `**8. Yılda 1-2 Kez [Profesyonel Yıkatın](/turkiye/koltuk-yikama):** Ev temizliği yüzeyi temizler, profesyonel ekstraksiyon yöntemi kumaşın derinlerine iner. Alerjen, toz akarı ve bakterileri %99 oranında yok eder.
 
 **Ne Zaman Profesyonele Başvurmalı?**
 - Koltukta kötü koku varsa (sigara, evcil hayvan, yemek)

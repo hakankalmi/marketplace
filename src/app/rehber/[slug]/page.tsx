@@ -10,24 +10,19 @@ import { getGuideBySlug, guides } from '../guides';
 
 const brand = getBrandConfig();
 
-/** Parse inline markdown: **bold**, *italic*, [link](url), **[bold link](url):** */
-function renderInline(text: string, keyPrefix: string) {
+/** Parse inline markdown: **bold**, *italic*, [link](url), **text [bold link](url) text:** */
+function renderInline(text: string, keyPrefix: string): React.ReactNode[] {
   // Order matters: **bold** before *italic* to avoid partial matches
   const tokens = text.split(/(\*\*(?:(?!\*\*).)+\*\*|\[[^\]]+\]\([^)]+\)|\*(?!\*)[^*]+\*(?!\*))/g);
   return tokens.map((tok, ti) => {
-    // Bold: **text**
+    // Bold: **text** — recursively parse inner content for links
     if (tok.startsWith('**') && tok.endsWith('**')) {
       const inner = tok.slice(2, -2);
-      const innerLink = inner.match(/^\[([^\]]+)\]\(([^)]+)\)(.*)$/);
-      if (innerLink) {
-        return (
-          <strong key={`${keyPrefix}-${ti}`} className="text-brand-text font-semibold">
-            <Link href={innerLink[2]} className="text-brand-primary hover:underline">{innerLink[1]}</Link>
-            {innerLink[3]}
-          </strong>
-        );
-      }
-      return <strong key={`${keyPrefix}-${ti}`} className="text-brand-text font-semibold">{inner}</strong>;
+      return (
+        <strong key={`${keyPrefix}-${ti}`} className="text-brand-text font-semibold">
+          {renderInline(inner, `${keyPrefix}-${ti}-b`)}
+        </strong>
+      );
     }
     // Link: [text](url)
     const linkMatch = tok.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
