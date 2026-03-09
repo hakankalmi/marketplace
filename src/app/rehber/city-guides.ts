@@ -5251,4 +5251,162 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'gaziantep-hali-yikama', 'sanliurfa-hali-yikama'],
   },
+
+  // ── Mardin ────────────────────────────────────────────────
+  {
+    slug: 'mardin-hali-yikama',
+    city: 'Mardin',
+    citySlug: 'mardin',
+    title: 'Mardin Halı Yıkama Rehberi — Fiyatlar, İlçeler ve Tavsiyeler',
+    metaTitle: 'Mardin Halı Yıkama Fiyatları 2026 | Rehber & Karşılaştırma',
+    metaDescription: 'Mardin halı yıkama fiyatları, güvenilir firma önerileri ve ilçe bazlı hizmet rehberi. Mezopotamya\'nın taş şehrinde halı bakımı.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 9,
+    heroEmoji: '🏛️',
+    intro: 'Mardin, Mezopotamya ovasına bakan taş evleriyle UNESCO Dünya Mirası geçici listesinde yer alan eşsiz bir şehirdir. Artuklu mimarisi, taş işçiliği ve kültürel çoğulculuğuyla tanınan Mardin\'de sıcak yazlar ve ılıman kışlar hâkimdir. Turizmin yükselişiyle birlikte tarihi konaklardaki değerli halıların bakımı önem kazanmıştır. Güneydoğu Anadolu\'nun geleneksel kilim ve halı kültürü Mardin\'de de yaşamaya devam eder.',
+    sections: [
+      {
+        heading: 'Mardin Halı Yıkama Fiyatları 2026',
+        content: `Mardin halı yıkama fiyatları Güneydoğu Anadolu ortalamasındadır:
+
+| Halı Türü | Fiyat Aralığı (m²) | Not |
+|---|---|---|
+| Makine halısı | 70-82 TL | Standart |
+| El dokuması / kilim | 78-130 TL | Yöresel kilimler |
+| Shaggy / uzun tüylü | 72-112 TL | Hızlı kuruma |
+| Yün halı | 78-125 TL | Standart |
+| Antika halı (konak) | 100-200 TL | Özel bakım |
+
+🔴 **Pahalı bölgeler:** Artuklu (eski Mardin), Yenişehir merkez
+🟡 **Orta fiyatlı bölgeler:** Kızıltepe merkez, Midyat merkez, Nusaybin merkez
+🟢 **Uygun fiyatlı bölgeler:** Derik, Mazıdağı, Savur, Dargeçit
+
+💡 *Mardin'in sıcak iklimi halıları hızla kurutur — yılın 10+ ayı halı yıkama yapılabilir.*`,
+      },
+      {
+        heading: 'Mardin İklimi ve Tarihi Halı Bakımı',
+        content: `Mardin, Güneydoğu Anadolu'nun sıcak ve yarı kurak iklimine sahiptir:
+
+**Kavurucu yazlar:** 40-46°C sıcaklık. Halılar 2-3 saatte kurur ama güneş UV ışınları renkleri soldurur — gölgede kurutma zorunlu.
+
+**Ilıman kışlar:** Nadiren -5°C'nin altına düşer. Yılın 10-11 ayı halı yıkama yapılabilir.
+
+**Taş ev nemi:** Mardin'in tarihi taş evleri zemin katlarında nem tutar. Kalın taş duvarlar kışın serin, yazın serin tutar ama alt katlarda halı altı nemi birikir. Nem önleyici halı altlığı zorunludur.
+
+**Toz ve kum fırtınaları:** Mezopotamya ovasından gelen sıcak rüzgârlar ince kum ve toz taşır. Bu partiküller halılara yerleşir ve mat görünüm verir.
+
+**Turizm etkisi:** Mardin'in tarihi konakları boutique otele dönüştürüldükçe değerli halıların profesyonel bakım ihtiyacı artmıştır.
+
+📌 *Tarihi Mardin evlerinde yaşıyorsanız halı altlığı kullanın ve yılda en az 1 kez profesyonel yıkama yaptırın.*`,
+      },
+      {
+        heading: 'Mardin İlçelerinde Halı Yıkama Hizmetleri',
+        content: `Mardin 10 ilçeye sahip büyükşehirdir:
+
+**Merkez İlçeler:**
+- [Artuklu halı yıkama](/mardin-artuklu-hali-yikama-firmalari) — Tarihi Mardin, taş evler
+- [Kızıltepe halı yıkama](/mardin-kiziltepe-hali-yikama-firmalari) — Ova, en kalabalık ilçe
+
+**Doğu İlçeler:**
+- [Midyat halı yıkama](/mardin-midyat-hali-yikama-firmalari) — Telkâri, turizm, taş mimari
+- [Nusaybin halı yıkama](/mardin-nusaybin-hali-yikama-firmalari) — Suriye sınırı, büyük ilçe
+- [Dargeçit halı yıkama](/mardin-dargecit-hali-yikama-firmalari) — Batman sınırı
+
+**Batı İlçeler:**
+- [Derik halı yıkama](/mardin-derik-hali-yikama-firmalari) — Zeytinyağı
+- [Mazıdağı halı yıkama](/mardin-mazidagi-hali-yikama-firmalari) — Fosfat madeni
+- [Savur halı yıkama](/mardin-savur-hali-yikama-firmalari) — Taş evler, turizm
+
+**Diğer İlçeler:**
+- [Ömerli halı yıkama](/mardin-omerli-hali-yikama-firmalari) — Kırsal
+- [Yeşilli halı yıkama](/mardin-yesilli-hali-yikama-firmalari) — Merkeze yakın
+
+📌 *Kızıltepe, Midyat ve Nusaybin'de yerel firmalar mevcuttur. Diğer ilçelere Artuklu firmalarından alım-teslim yapılır.*`,
+      },
+    ],
+    faq: [
+      { q: 'Mardin\'de halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-82 TL/m², el dokuması 78-130 TL/m², antika halı 100-200 TL/m² aralığındadır.' },
+      { q: 'Tarihi konaklardaki halılar nasıl bakım yapılır?', a: 'Taş evlerin zemin neminden korunmak için nem önleyici halı altlığı zorunludur. Antika halılar el dokuması uzmanı firma tarafından yıkanmalıdır.' },
+      { q: 'Mardin\'de kışın halı yıkatılır mı?', a: 'Evet, ılıman kış sayesinde yılın 10-11 ayı halı yıkama yapılabilir.' },
+      { q: 'Midyat\'tan hizmet alabilir miyim?', a: 'Evet, Midyat\'ta yerel firmalar mevcuttur. Platform üzerinden karşılaştırma yapabilirsiniz.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'diyarbakir-hali-yikama', 'batman-hali-yikama'],
+  },
+
+  // ── Bitlis ────────────────────────────────────────────────
+  {
+    slug: 'bitlis-hali-yikama',
+    city: 'Bitlis',
+    citySlug: 'bitlis',
+    title: 'Bitlis Halı Yıkama Rehberi — Fiyatlar, İlçeler ve Tavsiyeler',
+    metaTitle: 'Bitlis Halı Yıkama Fiyatları 2026 | Rehber & Karşılaştırma',
+    metaDescription: 'Bitlis halı yıkama fiyatları, güvenilir firma önerileri ve ilçe bazlı hizmet rehberi. Van Gölü kıyısında sert kışlara uygun halı bakımı.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 8,
+    heroEmoji: '❄️',
+    intro: 'Bitlis, Van Gölü\'nün batı kıyısında, dağlar arasına sıkışmış tarihi bir Doğu Anadolu şehridir. Türkiye\'nin en çok kar yağışı alan illerinden biri olan Bitlis\'te kışlar 6-7 ay sürer. Tatvan\'da Van Gölü\'nün masmavi rengi, Nemrut Krater Gölü ve Ahlat\'ın Selçuklu mezar taşları şehrin kültürel zenginlikleridir. Sert kış koşulları halı yıkama sezonunu ciddi ölçüde kısıtlar.',
+    sections: [
+      {
+        heading: 'Bitlis Halı Yıkama Fiyatları 2026',
+        content: `Bitlis halı yıkama fiyatları Türkiye'nin en uygun seviyesindedir:
+
+| Halı Türü | Fiyat Aralığı (m²) | Not |
+|---|---|---|
+| Makine halısı | 70-80 TL | Standart |
+| El dokuması / kilim | 75-125 TL | Yöresel kilimler |
+| Shaggy / uzun tüylü | 72-110 TL | Kurutma çok uzun |
+| Yün halı | 75-120 TL | Soğuk yıkama |
+
+🔴 **Pahalı bölgeler:** Merkez Bitlis, Tatvan merkez
+🟡 **Orta fiyatlı bölgeler:** Ahlat merkez, Güroymak merkez
+🟢 **Uygun fiyatlı bölgeler:** Hizan, Mutki, Adilcevaz
+
+💡 *Bitlis, Türkiye'nin en düşük halı yıkama fiyatlarına sahip illerinden biridir.*`,
+      },
+      {
+        heading: 'Bitlis İklimi ve Halı Bakımı',
+        content: `Bitlis, Türkiye'nin en sert kışlarını yaşayan illerden biridir:
+
+**Aşırı kar yağışı:** Bitlis, yılda 2-3 metre kar alan Türkiye'nin en karlı ilidir. Kar örtüsü Kasım'dan Nisan sonuna kadar kalır. Bu dönemde halı yıkama imkânsızdır.
+
+**Soğuk sıcaklıklar:** -25°C'ye varan sıcaklıklar. Kapalı tesiste bile kurutma 7-10 gün sürebilir.
+
+**Kısa yaz sezonu:** Temmuz-Ağustos'ta 28-32°C. Bu 2 aylık pencere halı yıkama için neredeyse tek fırsattır.
+
+**Van Gölü nemi:** Tatvan ve Ahlat gibi göl kenarı ilçelerde nem biraz daha yüksektir. Anti-küf işlemi göl bölgesinde önerilir.
+
+**Soba ve tezek:** Kırsal bölgelerde tezek yakıtı yaygındır. Kurum ve koku profesyonel işlem gerektirir.
+
+📌 *Bitlis'te halı yıkama fırsatı yılda 2-3 aydır. Temmuz başında sipariş verin.*`,
+      },
+      {
+        heading: 'Bitlis İlçelerinde Halı Yıkama Hizmetleri',
+        content: `Bitlis 7 ilçeye sahip dağlık bir ildir:
+
+**Merkez ve Büyük İlçeler:**
+- [Bitlis Merkez halı yıkama](/bitlis-merkez-hali-yikama-firmalari) — Şehir merkezi
+- [Tatvan halı yıkama](/bitlis-tatvan-hali-yikama-firmalari) — Van Gölü, tren, büyük ilçe
+- [Ahlat halı yıkama](/bitlis-ahlat-hali-yikama-firmalari) — Selçuklu mezar taşları, turizm
+- [Güroymak halı yıkama](/bitlis-guroymak-hali-yikama-firmalari) — Büyük ilçe
+
+**Diğer İlçeler:**
+- [Adilcevaz halı yıkama](/bitlis-adilcevaz-hali-yikama-firmalari) — Van Gölü kuzey kıyısı
+- [Hizan halı yıkama](/bitlis-hizan-hali-yikama-firmalari) — Dağlık
+- [Mutki halı yıkama](/bitlis-mutki-hali-yikama-firmalari) — Dağlık, kırsal
+
+📌 *Tatvan'da yerel firmalar mevcuttur. Diğer ilçelere Bitlis merkez ve Tatvan firmalarından alım-teslim yapılır.*`,
+      },
+    ],
+    faq: [
+      { q: 'Bitlis\'te halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-80 TL/m², el dokuması 75-125 TL/m² aralığındadır. Türkiye\'nin en uygun şehirlerinden biridir.' },
+      { q: 'Bitlis\'te kışın halı yıkatılır mı?', a: '2-3 metre kar yağışı ve -25°C sıcaklıkta kışın halı yıkama pratik olarak imkânsızdır. Temmuz-Ağustos idealdir.' },
+      { q: 'Nemrut Krater Gölü bölgesinden hizmet alabilir miyim?', a: 'Evet, Tatvan firmaları Nemrut bölgesine de hizmet verir. Platform üzerinden sipariş verebilirsiniz.' },
+      { q: 'Ahlat\'tan hizmet alabilir miyim?', a: 'Evet, Tatvan ve Bitlis merkez firmaları Ahlat\'a alım-teslim yapar.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'van-hali-yikama', 'mus-hali-yikama'],
+  },
 ];
