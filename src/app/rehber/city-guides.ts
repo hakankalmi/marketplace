@@ -6282,4 +6282,188 @@ Uşak\'taki ustalar şu geleneksel yöntemi önerir: taze lekeye hemen soğuk su
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'afyon-hali-yikama', 'denizli-hali-yikama'],
   },
+
+  // ==================== BURDUR ====================
+  {
+    slug: 'burdur-hali-yikama',
+    city: 'Burdur',
+    citySlug: 'burdur',
+    title: 'Burdur Halı Yıkama Rehberi — Fiyatlar, Firmalar ve İpuçları',
+    metaTitle: 'Burdur Halı Yıkama Fiyatları 2026 | En İyi Firmalar',
+    metaDescription: 'Burdur halı yıkama fiyatları 2026 güncel liste. Göller bölgesi ikliminde halı bakımı, ilçe bazlı firmalar ve fiyat karşılaştırması.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 7,
+    heroEmoji: '🦩',
+    intro: 'Burdur, Göller Bölgesi\'nin merkezinde yer alan sakin bir Akdeniz-İç Anadolu geçiş ilidir. **Burdur Gölü** ve çevresindeki göller nemli bir mikroklima yaratır. Şehir küçük olmasına rağmen halı yıkama sektörü aktiftir. **[Burdur halı yıkama firmaları](/burdur-hali-yikama-firmalari)** bölgenin iklim koşullarına uygun hizmet sunar.',
+    sections: [
+      {
+        heading: 'Burdur\'da Halı Yıkama Fiyatları 2026',
+        content: `Burdur\'da halı yıkama fiyatları İç Anadolu ve Akdeniz ortalaması arasındadır. Küçük nüfuslu bir il olması fiyatları makul seviyede tutar.
+
+| Halı Türü | Fiyat Aralığı (m²) | Açıklama |
+|---|---|---|
+| Makine Halısı | 70 – 82 TL | Standart yıkama |
+| Yün / El Dokuma | 78 – 125 TL | Göller bölgesi kilimleri |
+| Shaggy / Uzun Tüy | 82 – 115 TL | Nem kontrolü önemli |
+| Yolluk / Merdiven | 70 – 76 TL | Metre bazlı hesaplama |
+
+🔴 **Yüksek**: Merkez (nüfus yoğunluğu)
+🟡 **Orta**: Bucak (büyük ilçe)
+🟢 **Uygun**: Ağlasun, Yeşilova, Gölhisar
+
+*Bucak ilçesi nüfus olarak Burdur merkeze yakın büyüklüktedir. Kendi halı yıkama firmaları mevcuttur.*`,
+      },
+      {
+        heading: 'Burdur İklimi ve Halı Bakımı',
+        content: `Burdur, Akdeniz ve karasal iklim arasında geçiş bölgesindedir. Burdur Gölü çevresinde nem oranı yüksektir:
+
+**İklim özellikleri:**
+- Yazlar sıcak ve kurak (35°C) — kurutma çok hızlı
+- Kışlar soğuk (-8°C) ama Akdeniz etkisiyle ılıman geçer
+- Burdur Gölü çevresinde nem birikimi — göl kenarı evlerde dikkat
+- Bahar ve sonbahar yağışları — geçiş dönemleri yıkama için uygun değil
+
+**Bakım önerileri:**
+- Göl kenarındaki evlerde halı altına nem bariyeri
+- Yazın kurutma çok hızlıdır — bu avantajı değerlendirin
+- Toz birikimi yoğundur (göl çevresinde kireçli toprak) — haftalık vakumlama
+- Kışın kapalı tesiste yıkatma tercih edin
+
+*Burdur Gölü\'nün su seviyesi düştükçe göl yatağındaki kireçli toz rüzgârla şehre taşınır. Bu toz halılara beyaz tabaka olarak çöker.*`,
+      },
+      {
+        heading: 'İlçe Bazlı Halı Yıkama Firmaları',
+        content: `Burdur\'da firmalar merkez ve Bucak\'ta yoğunlaşmıştır:
+
+- [Burdur merkez halı yıkama](/burdur-merkez-hali-yikama-firmalari) — İl merkezi
+- [Bucak halı yıkama](/burdur-bucak-hali-yikama-firmalari) — Büyük ilçe, mermer sanayisi
+- [Ağlasun halı yıkama](/burdur-aglasun-hali-yikama-firmalari) — Sagalassos antik kent bölgesi
+- [Yeşilova halı yıkama](/burdur-yesilova-hali-yikama-firmalari) — Salda Gölü bölgesi
+- [Gölhisar halı yıkama](/burdur-golhisar-hali-yikama-firmalari) — Göl ilçesi
+- [Çavdır halı yıkama](/burdur-cavdir-hali-yikama-firmalari) — Kırsal bölge
+- [Altınyayla halı yıkama](/burdur-altinyayla-hali-yikama-firmalari) — Küçük ilçe
+
+📌 *Bucak\'ta mermer sanayisi vardır. Mermer tozu halılara yerleşir — bu bölgede daha sık yıkatma önerilir.*`,
+      },
+      {
+        heading: 'Burdur\'da Halı Yıkama İpuçları',
+        content: `Burdur\'un göller bölgesi ikliminde halı bakımı:
+
+**Göl kenarı evlerde:**
+Burdur Gölü ve Salda Gölü çevresindeki evlerde zemin nemi yüksektir. Halı altına keçe bariyeri serilmeli. Plastik altlık nemi hapseder — kullanmayın.
+
+**Mermer ve taş tozu (Bucak):**
+Bucak\'taki mermer ocakları ve fabrikaları çevreye ince toz yayar. Bu toz halılarda sert bir tabaka oluşturur. HEPA filtreli süpürge + 4 ayda bir profesyonel yıkama gerekir.
+
+**Güneş avantajı:**
+Burdur\'da yaz aylarında günde 10+ saat güneş vardır. Halılar açık havada 4-5 saatte kurur. Ancak uzun süreli direkt güneş renkli halılarda solmaya neden olur — 6 saatten fazla güneşte bırakmayın.
+
+*Burdur yöresi lavanta üretim merkezidir. Kurutulmuş lavanta kesecikleri doğal güve kovucu olarak halı aralarına konabilir.*`,
+      },
+    ],
+    faq: [
+      { q: 'Burdur\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-82 TL/m², yün halı 78-125 TL/m² aralığındadır. Göller bölgesi ortalamasındadır.' },
+      { q: 'Burdur Gölü tozu halıya zarar verir mi?', a: 'Evet, kireçli toz halı liflerini sertleştirir ve rengini matlaştırır. Düzenli temizlik ve profesyonel yıkama ile önlenebilir.' },
+      { q: 'Bucak\'ta halı yıkama firması var mı?', a: 'Evet, Bucak kendi firmalarına sahiptir. Burdur merkez firmaları da Bucak\'a servis yapar.' },
+      { q: 'Burdur\'da en iyi yıkama sezonu hangisi?', a: 'Haziran-Eylül arası idealdir. Kurutma çok hızlıdır. Kışın kapalı tesislerde de hizmet verilir.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'isparta-hali-yikama', 'antalya-hali-yikama'],
+  },
+
+  // ==================== KÜTAHYA ====================
+  {
+    slug: 'kutahya-hali-yikama',
+    city: 'Kütahya',
+    citySlug: 'kutahya',
+    title: 'Kütahya Halı Yıkama Rehberi — Fiyatlar, Firmalar ve İpuçları',
+    metaTitle: 'Kütahya Halı Yıkama Fiyatları 2026 | En İyi Firmalar',
+    metaDescription: 'Kütahya halı yıkama fiyatları 2026 güncel liste. Çini ve seramik şehrinde halı bakımı, ilçe bazlı firmalar ve fiyat karşılaştırması.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 7,
+    heroEmoji: '🏺',
+    intro: 'Kütahya, Türkiye\'nin **çini ve seramik başkenti**dir. İç Batı Anadolu\'da yer alan şehir, karasal iklimi ve termal kaynaklarıyla tanınır. Kışları sert, yazları sıcak geçen Kütahya\'da halı bakımı mevsimsel bir disiplin gerektirir. **[Kütahya halı yıkama firmaları](/kutahya-hali-yikama-firmalari)** bu iklime uygun hizmet sunar.',
+    sections: [
+      {
+        heading: 'Kütahya\'da Halı Yıkama Fiyatları 2026',
+        content: `Kütahya\'da halı yıkama fiyatları İç Anadolu ortalamasının biraz altındadır. Rekabetçi bir pazar yapısı mevcuttur.
+
+| Halı Türü | Fiyat Aralığı (m²) | Açıklama |
+|---|---|---|
+| Makine Halısı | 70 – 82 TL | Standart yıkama |
+| Yün / El Dokuma | 78 – 130 TL | Kütahya dokumaları özel bakım |
+| Shaggy / Uzun Tüy | 82 – 118 TL | Derinlemesine kurutma |
+| Yolluk / Merdiven | 70 – 76 TL | Metre bazlı hesaplama |
+
+🔴 **Yüksek**: Merkez (nüfus yoğunluğu)
+🟡 **Orta**: Tavşanlı, Simav, Gediz
+🟢 **Uygun**: Emet, Hisarcık, Domaniç
+
+*Tavşanlı, Kütahya\'nın en kalabalık ilçesidir ve kendi firma altyapısı mevcuttur.*`,
+      },
+      {
+        heading: 'Kütahya İklimi ve Halı Bakımı',
+        content: `Kütahya, 969 m rakımda sert karasal iklime sahiptir. Kışlar uzun ve karlı, yazlar sıcak ve kurudur:
+
+**İklim ve halı etkileşimi:**
+- Kış -15°C ile -20°C arası — halı yıkama sezonu kısıtlı
+- Kar örtüsü 3-4 ay — açık alan kurutma imkânsız
+- Yazlar 35°C — kurutma çok hızlı, ideal sezon
+- Termal kaynaklar bölgesinde nem oranı yüksek
+
+**Bakım önerileri:**
+- Yaz sezonunu (Haziran-Eylül) mutlaka değerlendirin
+- Kışa girmeden (Ekim) son yıkamayı yapın
+- Soba/doğalgaz kullanılan evlerde ilkbaharda yıkatın (kurum birikimi)
+- Termal otel bölgesinde nem kaynaklı küf kontrolü yapın
+
+*Kütahya\'da jeotermal ısıtma kullanan bazı tesislerde yerden ısıtma sistemi halı altındaki nemi artırabilir. Bu tür ortamlarda halı altı kontrol önemlidir.*`,
+      },
+      {
+        heading: 'İlçe Bazlı Halı Yıkama Firmaları',
+        content: `Kütahya\'da firmalar merkez ve büyük ilçelerde bulunur:
+
+- [Kütahya merkez halı yıkama](/kutahya-merkez-hali-yikama-firmalari) — İl merkezi, çini şehri
+- [Tavşanlı halı yıkama](/kutahya-tavsanli-hali-yikama-firmalari) — En kalabalık ilçe
+- [Simav halı yıkama](/kutahya-simav-hali-yikama-firmalari) — Termal bölge
+- [Gediz halı yıkama](/kutahya-gediz-hali-yikama-firmalari) — Tarım ve termal
+- [Emet halı yıkama](/kutahya-emet-hali-yikama-firmalari) — Bor madeni bölgesi
+- [Domaniç halı yıkama](/kutahya-domanc-hali-yikama-firmalari) — Orman bölgesi
+- [Hisarcık halı yıkama](/kutahya-hisarcik-hali-yikama-firmalari) — Küçük ilçe
+- [Altıntaş halı yıkama](/kutahya-altintas-hali-yikama-firmalari) — Tarım ovası
+- [Aslanapa halı yıkama](/kutahya-aslanapa-hali-yikama-firmalari) — Kırsal bölge
+- [Pazarlar halı yıkama](/kutahya-pazarlar-hali-yikama-firmalari) — Küçük ilçe
+
+📌 *Simav ve Gediz termal turizm bölgesidir. Otel ve kaplıca tesislerinin halı yıkama talebi sezon öncesi (Mayıs) yoğunlaşır.*`,
+      },
+      {
+        heading: 'Kütahya\'da Halı Seçimi ve Koruma',
+        content: `Çini şehrinin iklim koşullarına uygun halı tavsiyeleri:
+
+**Seramik ve çini atölyeleri:**
+Kütahya\'nın çini atölyelerinin yoğun olduğu bölgelerde ince seramik tozu havada kalır. Bu toz halılara yerleşir ve zamanla lifleri aşındırır. Atölye yakınında yaşayanlar halılarını 3-4 ayda bir yıkatmalıdır.
+
+**Termal bölge evleri:**
+Simav ve Gediz\'de termal su kullanan evlerde buhar ve nem yoğundur. Bu ortamlarda:
+- Kısa tüylü sentetik halılar tercih edin
+- Halı altına nem bariyeri serun
+- Banyo ve mutfak halılarını sık değiştirin
+
+**Geleneksel Kütahya dokumaları:**
+Kütahya\'nın el dokuma kilimleri geometrik desenler ve canlı renklerle bilinir. Bu kilimleri düşük sıcaklıkta, doğal sabunla yıkayan firmayı seçin.
+
+*Kütahya\'da kış aylarında doğalgaz tüketimi yüksektir. Kapalı ortamda biriken kuru hava halı liflerini sertleştirir — nemlendirici kullanmak hem sağlık hem halı ömrü açısından faydalıdır.*`,
+      },
+    ],
+    faq: [
+      { q: 'Kütahya\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-82 TL/m², yün halı 78-130 TL/m² aralığındadır. İç Anadolu ortalamasındadır.' },
+      { q: 'Kütahya\'da kışın halı yıkatılır mı?', a: 'Kapalı tesislerde mümkündür. Kurutma 4-6 gün sürer. Yaz sezonu kesinlikle tercih edilmelidir.' },
+      { q: 'Çini tozu halıya zarar verir mi?', a: 'Seramik tozu ince ve aşındırıcıdır. Uzun süre birikirse halı liflerini yıpratır. Düzenli vakumlama ve profesyonel yıkama gerekir.' },
+      { q: 'Tavşanlı\'da halı yıkama firması var mı?', a: 'Evet, Tavşanlı Kütahya\'nın en büyük ilçesidir ve kendi firmaları mevcuttur.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'eskisehir-hali-yikama', 'afyon-hali-yikama'],
+  },
 ];
