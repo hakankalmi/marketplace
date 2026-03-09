@@ -5109,4 +5109,146 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'konya-hali-yikama', 'mersin-hali-yikama'],
   },
+
+  // ── Sinop ────────────────────────────────────────────────
+  {
+    slug: 'sinop-hali-yikama',
+    city: 'Sinop',
+    citySlug: 'sinop',
+    title: 'Sinop Halı Yıkama Rehberi — Fiyatlar, İlçeler ve Tavsiyeler',
+    metaTitle: 'Sinop Halı Yıkama Fiyatları 2026 | Rehber & Karşılaştırma',
+    metaDescription: 'Sinop halı yıkama fiyatları, güvenilir firma önerileri ve ilçe bazlı hizmet rehberi. Karadeniz\'in en sakin şehrinde halı bakımı.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 8,
+    heroEmoji: '⚓',
+    intro: 'Sinop, Karadeniz\'in en kuzey ucunda, Boztepe Yarımadası\'nda yer alan Türkiye\'nin "en mutlu şehri"dir. Tarihi cezaevi, Hamsilos Koyu ve Erfelek Şelaleleri\'yle tanınan Sinop, ılıman Karadeniz iklimine sahiptir. Yıl boyunca nemli ve yağışlı havası halı bakımında dikkat gerektirir. Küçük ama düzenli bir şehir olan Sinop\'ta halı yıkama sektörü merkez odaklıdır.',
+    sections: [
+      {
+        heading: 'Sinop Halı Yıkama Fiyatları 2026',
+        content: `Sinop halı yıkama fiyatları Karadeniz ortalamasında, uygun seviyededir:
+
+| Halı Türü | Fiyat Aralığı (m²) | Not |
+|---|---|---|
+| Makine halısı | 70-88 TL | Anti-küf önerilir |
+| El dokuması / kilim | 82-135 TL | Az sayıda |
+| Shaggy / uzun tüylü | 78-120 TL | Kurutma kritik |
+| Yün halı | 82-132 TL | Anti-küf dahil |
+
+🔴 **Pahalı bölgeler:** Sinop Merkez, Boztepe, sahil
+🟡 **Orta fiyatlı bölgeler:** Boyabat merkez, Gerze merkez, Ayancık merkez
+🟢 **Uygun fiyatlı bölgeler:** Türkeli, Durağan, Erfelek, Dikmen
+
+💡 *Sinop'un nemli ikliminde anti-küf işlemi her yıkamada yapılmalıdır.*`,
+      },
+      {
+        heading: 'Sinop İklimi ve Halı Bakımı',
+        content: `Sinop, ılıman Karadeniz iklimine sahiptir. Deniz etkisi kışları yumuşatır ama nem oranını yüksek tutar:
+
+**Yüksek nem:** Yarımada konumu nedeniyle nem %75-85 arasında. Küflenme riski yüksektir — anti-küf işlemi standart olmalıdır.
+
+**Ilıman kışlar:** Deniz etkisiyle -5°C'nin altına nadiren düşer. Karadeniz'in en ılıman kışlarından birini yaşar. Kapalı tesiste kurutma 3-5 gün sürer.
+
+**Bol yağış:** Yıllık 1.000+ mm yağış. Açık havada halı kurutma risklidir — kapalı kurutma tesisi tercih edilmelidir.
+
+**Deniz tuzu:** Kıyı şeridinde tuz zerrecikleri halılara yapışır ve nem çekmeyi artırır.
+
+📌 *Sinop'ta kapalı kurutma tesisi olan firmayı tercih edin ve anti-küf işlemini standart yaptırın.*`,
+      },
+      {
+        heading: 'Sinop İlçelerinde Halı Yıkama Hizmetleri',
+        content: `Sinop 9 ilçeye sahip kıyı ve iç bölge ilçelerinden oluşur:
+
+**Merkez ve Büyük İlçeler:**
+- [Sinop Merkez halı yıkama](/sinop-merkez-hali-yikama-firmalari) — Yarımada, tüm firmalar
+- [Boyabat halı yıkama](/sinop-boyabat-hali-yikama-firmalari) — En büyük ilçe, iç bölge
+- [Gerze halı yıkama](/sinop-gerze-hali-yikama-firmalari) — Sahil, balıkçılık
+- [Ayancık halı yıkama](/sinop-ayancik-hali-yikama-firmalari) — Batı sahil
+
+**Diğer İlçeler:**
+- [Türkeli halı yıkama](/sinop-turkeli-hali-yikama-firmalari) — Sahil
+- [Durağan halı yıkama](/sinop-duragan-hali-yikama-firmalari) — Kızılırmak kenarı
+- [Erfelek halı yıkama](/sinop-erfelek-hali-yikama-firmalari) — Şelaleler
+- [Dikmen halı yıkama](/sinop-dikmen-hali-yikama-firmalari) — Kırsal
+- [Saraydüzü halı yıkama](/sinop-sarayduzu-hali-yikama-firmalari) — Küçük ilçe
+
+📌 *Boyabat'ta yerel firmalar mevcuttur. Diğer ilçelere Sinop merkez firmalarından alım-teslim yapılır.*`,
+      },
+    ],
+    faq: [
+      { q: 'Sinop\'ta halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-88 TL/m², yün halı 82-132 TL/m² aralığındadır. Karadeniz ortalamasındadır.' },
+      { q: 'Sinop\'ta halı neden çabuk küflenir?', a: 'Yarımada konumu nedeniyle %75-85 nem oranı küflenmeyi hızlandırır. Anti-küf işlemi ve halı altlığı zorunludur.' },
+      { q: 'Sinop\'ta en iyi halı yıkama zamanı ne zaman?', a: 'Temmuz-Ağustos en az yağışlı dönemdir ama kapalı kurutma tesisi her zaman tercih edilmelidir.' },
+      { q: 'Boyabat\'tan hizmet alabilir miyim?', a: 'Evet, Boyabat\'ta yerel firmalar mevcuttur. Sinop merkez firmaları da alım-teslim yapar.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'samsun-hali-yikama', 'kastamonu-hali-yikama'],
+  },
+
+  // ── Kilis ────────────────────────────────────────────────
+  {
+    slug: 'kilis-hali-yikama',
+    city: 'Kilis',
+    citySlug: 'kilis',
+    title: 'Kilis Halı Yıkama Rehberi — Fiyatlar, İlçeler ve Tavsiyeler',
+    metaTitle: 'Kilis Halı Yıkama Fiyatları 2026 | Rehber & Karşılaştırma',
+    metaDescription: 'Kilis halı yıkama fiyatları, güvenilir firma önerileri ve ilçe bazlı hizmet rehberi. Güneydoğu\'nun sıcak iklimine uygun halı bakımı.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 7,
+    heroEmoji: '🫒',
+    intro: 'Kilis, Suriye sınırında Türkiye\'nin en küçük illerinden biridir. Zeytinyağı ve üzümüyle tanınan şehir, Akdeniz ve Güneydoğu Anadolu iklimlerinin geçiş noktasındadır. Sıcak yazları ve ılıman kışlarıyla yılın büyük bölümünde halı yıkama yapılabilen nadir illerden biridir.',
+    sections: [
+      {
+        heading: 'Kilis Halı Yıkama Fiyatları 2026',
+        content: `Kilis halı yıkama fiyatları Türkiye'nin en uygun seviyesindedir:
+
+| Halı Türü | Fiyat Aralığı (m²) | Not |
+|---|---|---|
+| Makine halısı | 70-78 TL | Standart |
+| El dokuması / kilim | 75-120 TL | Az sayıda |
+| Shaggy / uzun tüylü | 72-108 TL | Hızlı kuruma |
+| Yün halı | 75-118 TL | Standart |
+
+🔴 **Pahalı bölgeler:** Merkez Kilis, Cumhuriyet Mahallesi
+🟡 **Orta fiyatlı bölgeler:** Musabeyli, Polateli
+🟢 **Uygun fiyatlı bölgeler:** Elbeyli
+
+💡 *Kilis, Türkiye'nin en düşük halı yıkama fiyatlarına sahip illerinden biridir.*`,
+      },
+      {
+        heading: 'Kilis İklimi ve Halı Bakımı',
+        content: `Kilis, Akdeniz ikliminin Güneydoğu'ya geçiş bölgesindedir:
+
+**Kavurucu yazlar:** 40-44°C sıcaklık. Halılar 3-4 saatte kurur ama doğrudan güneş renkleri solduruyor — gölgede kurutma zorunlu.
+
+**Ilıman kışlar:** Nadiren 0°C'nin altına düşer. Yılın 11-12 ayı halı yıkama yapılabilir.
+
+**Zeytinyağı lekeleri:** Kilis zeytinyağıyla ünlüdür. Yağ lekeleri halıda sık rastlanır — mısır unu ile ön işlem + profesyonel yağ çözücü gerekir.
+
+**Toz ve kum:** Güneydoğu step ikliminin etkisiyle toz yoğunluğu yüksektir.
+
+📌 *Kilis'in ılıman iklimi yılın 12 ayı halı yıkama imkânı sunar — mevsim beklemeye gerek yok.*`,
+      },
+      {
+        heading: 'Kilis İlçelerinde Halı Yıkama Hizmetleri',
+        content: `Kilis, Türkiye'nin en küçük illerinden biri olup 4 ilçeden oluşur:
+
+- [Kilis Merkez halı yıkama](/kilis-merkez-hali-yikama-firmalari) — Şehir merkezi, tüm firmalar
+- [Musabeyli halı yıkama](/kilis-musabeyli-hali-yikama-firmalari) — Kuzeyde
+- [Polateli halı yıkama](/kilis-polateli-hali-yikama-firmalari) — Batıda
+- [Elbeyli halı yıkama](/kilis-elbeyli-hali-yikama-firmalari) — Güneyde, sınır
+
+📌 *Kilis çok küçük bir ildir — merkez firmalar tüm ilçelere 30 dakika içinde ulaşır.*`,
+      },
+    ],
+    faq: [
+      { q: 'Kilis\'te halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-78 TL/m², yün halı 75-118 TL/m² aralığındadır. Türkiye\'nin en uygun şehirlerinden biridir.' },
+      { q: 'Kilis\'te kışın halı yıkatılır mı?', a: 'Evet, ılıman kış sayesinde yılın 12 ayı halı yıkama yapılabilir. Don tehlikesi neredeyse yoktur.' },
+      { q: 'Zeytinyağı lekesi halıdan çıkar mı?', a: 'Taze lekeye mısır unu serpin, 2 saat bekletin, süpürün. Kalanı profesyonel yağ çözücü ile tamamen çıkar.' },
+      { q: 'Kilis\'ten Gaziantep firması mı tercih etmeliyim?', a: 'Yerel firmalar daha uygun ve hızlıdır. Gaziantep 60 km uzaktadır — nakliye maliyeti eklenir.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'gaziantep-hali-yikama', 'sanliurfa-hali-yikama'],
+  },
 ];
