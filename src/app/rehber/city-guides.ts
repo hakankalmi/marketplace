@@ -366,4 +366,86 @@ Sahilden uzak iç kesim ilçeler. Düşük talep ve düşük işletme maliyeti.
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'istanbul-hali-yikama', 'izmir-hali-yikama'],
   },
+  {
+    slug: 'konya-hali-yikama',
+    city: 'Konya',
+    citySlug: 'konya',
+    title: 'Konya Halı Yıkama Rehberi — İlçe Bazlı Fiyatlar ve Firmalar',
+    metaTitle: 'Konya Halı Yıkama | İlçe Bazlı Fiyatlar ve En İyi Firmalar 2026',
+    metaDescription: 'Konya halı yıkama fiyatları ilçe bazlı karşılaştırma. Selçuklu, Meram, Karatay, Çumra, Ereğli ve tüm ilçelerde en iyi halı yıkama firmaları.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 7,
+    heroEmoji: '🌾',
+    intro: 'Konya, Türkiye\'nin yüzölçümü en büyük ili ve İç Anadolu\'nun en önemli şehridir. Karasal iklimin getirdiği sert kışlar ve tozlu yazlar, halı bakımını zorunlu kılar. Konya aynı zamanda el halısı ve kilim üretiminde köklü bir geleneğe sahiptir — Ladik kilimleri ve Sille halıları dünyaca ünlüdür. Bu rehberde [Konya halı yıkama](/konya-hali-yikama-firmalari) fiyatlarını ilçe bazlı karşılaştırıyor, Konya\'nın iklim ve kültürel özelliklerine göre halı bakım ipuçlarını paylaşıyoruz.',
+    sections: [
+      {
+        heading: 'Konya Halı Yıkama Fiyatları — Genel',
+        content: `Konya, Türkiye'nin en uygun fiyatlı büyük şehirlerinden biridir. Düşük kira ve işçilik maliyetleri fiyatlara doğrudan yansır:
+
+**Makine Halısı:** Ortalama 65 TL/m² (aralık: 35-110 TL) — İstanbul'un yarısından az, Ankara'dan da %25 daha uygun
+**El Halısı (Yün):** 85-150 TL/m² — Konya'da el halısı kullanımı Türkiye ortalamasının üzerindedir
+**İpek Halı:** 130-300 TL/m²
+**Shaggy / Uzun Tüylü:** 50-95 TL/m²
+**Kilim / El Dokuması:** 40-80 TL/m² — Konya'nın en güçlü olduğu alan
+
+**Konya'nın Fiyat Avantajı:** Türkiye'nin en büyük 7. şehri olmasına rağmen halı yıkama fiyatları metropollerin çok altındadır. Düşük kira, bol su kaynağı ve rekabetçi piyasa bu avantajı sağlar.`,
+      },
+      {
+        heading: 'Konya Halı Yıkama — İlçe Bazlı Fiyat Karşılaştırması',
+        content: `Konya ortalaması makine halısı için 65 TL/m²'dir. Merkez 3 ilçe ve dış ilçeler arasında belirgin fark vardır:
+
+**Yüksek Fiyat Bölgeleri (75-110 TL/m²):**
+[Selçuklu halı yıkama](/konya-selcuklu-hali-yikama-firmalari) (Bosna Hersek, Yazır, Ardıçlı), [Meram halı yıkama](/konya-meram-hali-yikama-firmalari) (Lâdik, Havzan)
+Konya'nın gelir düzeyi en yüksek ilçeleri. Yeni yapılaşma bölgelerinde (Selçuklu Bosna-Hersek Mahallesi) site sakinleri kaliteli hizmet arar, fiyat ikinci plandadır.
+
+**Orta Fiyat Bölgeleri (50-75 TL/m²):**
+[Karatay halı yıkama](/konya-karatay-hali-yikama-firmalari), [Çumra halı yıkama](/konya-cumra-hali-yikama-firmalari), [Akşehir halı yıkama](/konya-aksehir-hali-yikama-firmalari)
+Karatay, Konya'nın tarihî merkezi ve en kalabalık ilçesidir. Firma yoğunluğu fazla, rekabet güçlüdür.
+
+**Uygun Fiyat Bölgeleri (30-55 TL/m²):**
+[Ereğli halı yıkama](/konya-eregli-hali-yikama-firmalari), [Beyşehir halı yıkama](/konya-beysehir-hali-yikama-firmalari), [Seydişehir halı yıkama](/konya-seydisehir-hali-yikama-firmalari), [Cihanbeyli halı yıkama](/konya-cihanbeyli-hali-yikama-firmalari), [Ilgın halı yıkama](/konya-ilgin-hali-yikama-firmalari)
+Merkeze uzak ilçeler. Ereğli kendi başına büyük bir pazar (150.000+ nüfus) — yerel firmalar mevcuttur. Diğer ilçelerde firma sayısı sınırlıdır.
+
+**Önemli Not:** Konya, Türkiye'nin yüzölçümü en büyük ilidir. Ereğli-Selçuklu arası 300+ km'dir. Dış ilçelerdeyseniz mutlaka yerel firma tercih edin — merkezden halı taşımak hem pahalı hem risklidir.`,
+      },
+      {
+        heading: 'Konya Halı Yıkama — Karasal İklim ve Toz Etkisi',
+        content: `Konya'nın sert karasal iklimi halı bakımını doğrudan etkiler:
+
+**Kış Ayları (Kasım-Mart):** Konya kışları Türkiye'nin en sert kışlarından biridir. Sıcaklık -15°C'ye düşebilir, kar 4-5 ay yerde kalır. Bu dönemde açık hava kurutma imkânsızdır. **Kesinlikle kapalı kurutma tesisi olan halı yıkama firması tercih edin** — aksi halde halınız donabilir, küflenebilir veya haftalarca gelmeyebilir.
+
+**Yaz Ayları (Haziran-Ağustos):** Sıcaklık 35-40°C'ye çıkar, hava son derece kurudur. Kurutma açısından en ideal dönemdir — halılar saatler içinde kurur. Ancak bozkır tozu halılara hızla işler. Yaz aylarında halı yıkatmak hem kurutma hem hijyen açısından en mantıklı zamandır.
+
+**Toz ve Toprak:** Konya ovası Türkiye'nin en büyük düzlüğüdür. Rüzgâr, özellikle ilkbahar ve sonbaharda yoğun toz taşır. Zemin katlarda ve müstakil evlerde yaşayanlar halılarını daha sık yıkatmalıdır (yılda 2-3 kez).
+
+**En Uygun Dönem:** Mayıs-Haziran ve Eylül — hava sıcak ama bunaltıcı değil, kurutma hızlı, firmalar henüz çok yoğun değil.
+
+**Yoğun Dönem:** Ramazan Bayramı öncesi — Konya'da bayram temizliği geleneği çok güçlüdür. Firmalar 2-3 hafta öncesinden dolar, erken sipariş şarttır.
+
+[Konya halı yıkama firmaları](/konya-hali-yikama-firmalari) — Konya'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+      },
+      {
+        heading: 'Konya Halı Yıkama Firması Seçerken Dikkat Edilecekler',
+        content: `**El Halısı ve Kilim Uzmanlığı:** Konya, Türkiye'nin en önemli el halısı ve kilim üretim merkezlerinden biridir. Ladik kilimleri, Sille halıları ve Karapınar düz dokumaları özel bakım gerektirir. El halınız varsa firmaya mutlaka belirtin — makine halısı ile aynı yöntemle yıkanmamalıdır. pH nötr deterjan, düşük sıcaklık ve el ile kurutma şarttır.
+
+**Antika ve Koleksiyon Halıları:** Konya'da antika halı koleksiyonculuğu yaygındır. 50+ yaş halılar için "antika halı yıkama" hizmeti veren uzman firma arayın. Normal yıkama antika halının renklerini soldurabilir ve liflerine zarar verebilir.
+
+**Cami Halısı Deneyimi:** Konya'da cami sayısı çok fazladır ve cami halıları düzenli yıkama gerektirir. Bu deneyime sahip firmalar büyük alan halılarını (100+ m²) verimli şekilde yıkar. Ev halıları için de bu kapasiteden faydalanabilirsiniz.
+
+**Bayram Dönemi Planlaması:** Konya'da bayram temizliği geleneği çok güçlüdür. Ramazan ve Kurban Bayramı öncesi firmalar kapasite sınırına ulaşır. En az 2 hafta önceden sipariş verin — son dakika bulabilmek çok zordur.
+
+**Su Kalitesi Avantajı:** Konya'nın yeraltı su kaynakları zengindir ve su sertliği düşüktür. Yumuşak su halı yıkamada daha iyi sonuç verir — deterjan daha az köpürür, durulaması daha temizdir. Bu, Konya'daki halı yıkama firmalarının doğal bir avantajıdır.`,
+      },
+    ],
+    faq: [
+      { q: 'Konya\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı için ortalama 65 TL/m², el halısı 85-150 TL/m², kilim 40-80 TL/m² aralığındadır. Selçuklu en pahalı, Ereğli ve Beyşehir en uygun ilçelerdir.' },
+      { q: 'Konya\'da kışın halı yıkatmak riskli mi?', a: 'Kapalı kurutma tesisi olan firmalarda sorun yoktur. Açık havada kurutma yapan firmalardan Kasım-Mart arası kesinlikle halı yıkatmayın — halınız donabilir veya küflenebilir.' },
+      { q: 'Konya\'da el halısı yıkama nerede yaptırılır?', a: 'Selçuklu ve Meram\'daki köklü halı yıkama firmaları el halısı ve kilim konusunda uzmanlaşmıştır. Konya, Ladik kilimi ve Sille halısı geleneğiyle bu konuda Türkiye\'nin en deneyimli şehirlerinden biridir.' },
+      { q: 'Konya\'da en ucuz halı yıkama nerede?', a: 'Ereğli, Beyşehir ve Seydişehir\'de 30-55 TL/m² ile Konya ortalamasının altında fiyatlar mevcuttur. Ancak bu ilçeler merkeze çok uzaktır — yerel firma tercih edin.' },
+      { q: 'Konya\'da halı yıkama kaç gün sürer?', a: 'Yaz aylarında 1-2 gün (kurutma çok hızlı), kış aylarında kapalı kurutmayla 3-5 gün. Bayram dönemlerinde 5-7 güne uzayabilir.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'ankara-hali-yikama', 'antalya-hali-yikama'],
+  },
 ];
