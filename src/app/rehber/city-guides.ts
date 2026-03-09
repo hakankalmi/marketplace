@@ -2409,4 +2409,109 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'diyarbakir-hali-yikama', 'sanliurfa-hali-yikama'],
   },
+
+  /* ─── 27. MALATYA ─── */
+  {
+    slug: 'malatya-hali-yikama',
+    city: 'Malatya',
+    citySlug: 'malatya',
+    title: 'Malatya Halı Yıkama Rehberi: Fiyatlar, Firmalar ve İpuçları (2026)',
+    metaTitle: 'Malatya Halı Yıkama Fiyatları 2026 | Firma Rehberi',
+    metaDescription: 'Malatya halı yıkama fiyatları 2026 güncel liste. Battalgazi, Yeşilyurt, Doğanşehir, Darende, Akçadağ fiyat karşılaştırma. Malatya halı yıkama firması seçim rehberi.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'Şehir Rehberi',
+    readingTime: 8,
+    heroEmoji: '🍑',
+    intro: `**Malatya**, dünya kayısı üretiminin başkentidir ve Doğu Anadolu'nun önemli sanayi şehirlerinden biridir. 2023 depreminden sonra yeniden yapılanan Malatya'da halı yıkama sektörü, karasal iklimin getirdiği uzun kış döneminde biriken toz ve alerjenlere karşı önemli bir hizmet sunar. Kayısı kurutma döneminde havadaki toz ve organik partikül birikimi halıları hızla kirletir. [Malatya halı yıkama firmaları](/malatya-hali-yikama-firmalari) arasında en uygun fiyatlı ve güvenilir firmayı bulmak için bu rehberi hazırladık.`,
+    sections: [
+      {
+        heading: 'Malatya Halı Yıkama Fiyatları 2026',
+        content: `Malatya'da halı yıkama fiyatları Doğu Anadolu'nun en uygun şehirlerinden biridir. Deprem sonrası yeniden yapılanma firmalar arasında rekabeti artırmıştır.
+
+| Halı Türü | Fiyat Aralığı (m²) | Ortalama |
+|---|---|---|
+| Makine halısı | 70 – 110 TL | 78 TL |
+| El dokuması halı | 85 – 155 TL | 110 TL |
+| Shaggy / tüylü halı | 75 – 125 TL | 90 TL |
+| İpek halı | 130 – 280 TL | 190 TL |
+| Koltuk yıkama (kişilik) | 120 – 240 TL | 165 TL |
+| Yorgan yıkama (adet) | 100 – 180 TL | 130 TL |
+
+**İlçe Bazlı Fiyat Farkları:**
+
+🔴 **Yüksek Segment**: [Yeşilyurt halı yıkama](/malatya-yesilyurt-hali-yikama-firmalari), [Battalgazi halı yıkama](/malatya-battalgazi-hali-yikama-firmalari) — 78-155 TL/m². Şehir merkezi, modern konutlar.
+
+🟡 **Orta Segment**: [Doğanşehir halı yıkama](/malatya-dogansehir-hali-yikama-firmalari), [Akçadağ halı yıkama](/malatya-akcadag-hali-yikama-firmalari), [Darende halı yıkama](/malatya-darende-hali-yikama-firmalari) — 70-110 TL/m².
+
+🟢 **Uygun Segment**: [Hekimhan halı yıkama](/malatya-hekimhan-hali-yikama-firmalari), [Arapgir halı yıkama](/malatya-arapgir-hali-yikama-firmalari), [Pütürge halı yıkama](/malatya-puturge-hali-yikama-firmalari), [Yazıhan halı yıkama](/malatya-yazihan-hali-yikama-firmalari), [Arguvan halı yıkama](/malatya-arguvan-hali-yikama-firmalari), [Kuluncak halı yıkama](/malatya-kuluncak-hali-yikama-firmalari) — 70-90 TL/m².
+
+📌 *Malatya deprem sonrası fiyatları biraz yükselmiştir ancak hala Doğu Anadolu'nun en uygun şehirlerinden biridir.*`,
+      },
+      {
+        heading: 'Malatya İklimi ve Halı Bakım Takvimi',
+        content: `Malatya'nın 950 metre rakımı ve yarı karasal iklimi halı bakımını belirler:
+
+**Soğuk Kışlar (Kasım-Mart):** Malatya kışları soğuktur (-10°C'ye düşer) ama Van kadar sert değildir. Kar 2-3 ay yerde kalır. Evler kapalı kalır, soba ve doğalgaz tozu halılara birikir. Kışın yıkatmak zordur — kapalı kurutma tesisi olan firma gerekir.
+
+**Sıcak ve Kuru Yazlar (Haziran-Eylül):** Malatya ovası yazın 38-40°C'ye çıkar. Nem çok düşüktür. Kurutma birkaç saatte tamamlanır. Halı yıkama için ideal dönemdir.
+
+**Kayısı Kurutma Dönemi (Temmuz-Ağustos):** Malatya dünya kayısı üretiminin %80'ini karşılar. Kayısı kurutma döneminde damlara ve bahçelere serilen kayısılar nedeniyle toz ve organik partikül havada yoğunlaşır. Bu dönemde halılar çok hızla kirlenir.
+
+**Kayısı Reçeli ve Pekmez Lekesi:** Malatya evlerinde kayısı reçeli ve pekmez yapımı yaygındır. Bu yapışkan, şekerli lekeler halılara bulaştığında standart yıkamada tam çıkmaz — enzimatik ön işlem gerekir.
+
+**Deprem Sonrası İnşaat Tozu:** 2023 depremi sonrası devam eden inşaat faaliyetleri çimento, alçı ve beton tozu yayar. Yeni inşaat bölgelerindeki halılar çok hızlı kirlenir.
+
+**En İyi Dönem:** Mayıs-Haziran ve Eylül — hava sıcak, kayısı toz yoğunluğu düşük.
+
+[Malatya halı yıkama firmaları](/malatya-hali-yikama-firmalari) — Malatya'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+      },
+      {
+        heading: 'Malatya Halı Yıkama Firması Seçerken Dikkat Edilecekler',
+        content: `**Kayısı Lekesi Uzmanlığı:** Malatya'da kayısı reçeli, pekmez ve kurutma sürecinden kaynaklanan lekeler çok yaygındır. Firmaya mutlaka bildirin — şekerli lekeler enzimatik deterjan ile ön işlem gerektirir. Sıcak su şekeri karamelize eder ve lekeyi sabitler, bu yüzden önce soğuk su uygulaması yapılmalıdır.
+
+**Deprem Sonrası Dikkat:** Hasar görmüş binalarda kalan halılar yapısal kirlilik (moloz tozu, asbest riski, boya kalıntısı) taşıyabilir. Bu halılar standart yıkamadan önce kontrol edilmelidir. Bazı durumlarda halıyı kurtarmak mümkün olmayabilir.
+
+**Darende ve Arapgir — Tarihi Kilimler:** Bu iki ilçe geleneksel dokuma kültürüne sahiptir. Arapgir'in el dokuması kilimleri ve Darende'nin yün halıları özel bakım gerektirir. Elle yıkama ve düşük sıcaklık şarttır.
+
+**Battalgazi vs Yeşilyurt:** Bu iki merkez ilçe Malatya'nın firma yoğunluğunun tamamını barındırır. Battalgazi tarihi merkezde, Yeşilyurt yeni yerleşim bölgesindedir. Yeşilyurt firmaları genellikle daha modern tesislere sahiptir.
+
+**Elazığ ve Kahramanmaraş Karşılaştırması:** Malatya fiyatları her iki komşu şehirle benzerdir. Doğanşehir'den Kahramanmaraş, Arapgir'den Elazığ firmaları da kullanılabilir — platforma her ikisinden de teklif alabilirsiniz.
+
+**Sanayi Bölgesi:** Malatya 2. OSB büyük yatırımlarla genişledi. Sanayi çevresindeki konutlarda endüstriyel toz birikimi yüksektir.`,
+      },
+      {
+        heading: 'Malatya İlçe Bazlı Halı Yıkama Firmaları',
+        content: `Malatya 13 ilçeye sahiptir. İşte ilçe bazlı halı yıkama firma rehberi:
+
+**Büyükşehir Merkez İlçeler:**
+- [Yeşilyurt halı yıkama](/malatya-yesilyurt-hali-yikama-firmalari) — Yeni şehir merkezi, modern konutlar
+- [Battalgazi halı yıkama](/malatya-battalgazi-hali-yikama-firmalari) — Tarihi merkez, üniversite
+
+**Büyük İlçeler:**
+- [Doğanşehir halı yıkama](/malatya-dogansehir-hali-yikama-firmalari) — Güney ilçe, tarım
+- [Akçadağ halı yıkama](/malatya-akcadag-hali-yikama-firmalari) — Kayısı bölgesi
+- [Darende halı yıkama](/malatya-darende-hali-yikama-firmalari) — Somuncu Baba, tarihi ilçe
+- [Hekimhan halı yıkama](/malatya-hekimhan-hali-yikama-firmalari) — Demir madeni bölgesi
+
+**Diğer İlçeler:**
+- [Arapgir halı yıkama](/malatya-arapgir-hali-yikama-firmalari) — Geleneksel dokuma, tarihi
+- [Pütürge halı yıkama](/malatya-puturge-hali-yikama-firmalari) — Dağ ilçesi
+- [Yazıhan halı yıkama](/malatya-yazihan-hali-yikama-firmalari) — Kırsal
+- [Arguvan halı yıkama](/malatya-arguvan-hali-yikama-firmalari) — Türkü merkezi
+- [Kuluncak halı yıkama](/malatya-kuluncak-hali-yikama-firmalari) — Küçük ilçe
+- [Kale halı yıkama](/malatya-kale-hali-yikama-firmalari) — Tarihi kale
+- [Doğanyol halı yıkama](/malatya-doganyol-hali-yikama-firmalari) — Kırsal
+
+📌 *Merkeze uzak ilçelerde firma sayısı çok sınırlıdır. Yeşilyurt ve Battalgazi firmaları il genelinde hizmet sunar.*`,
+      },
+    ],
+    faq: [
+      { q: 'Malatya\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı ortalama 78 TL/m², el dokuması 85-155 TL/m², shaggy 75-125 TL/m² aralığındadır. Doğu Anadolu\'nun en uygun şehirlerinden biridir.' },
+      { q: 'Malatya\'da halı yıkama kaç gün sürer?', a: 'Yaz aylarında 1 gün (çok kuru ve sıcak iklim), kışın 3-5 gün. Kayısı sezonu (Temmuz-Ağustos) firmalar yoğun olabilir, erken randevu alın.' },
+      { q: 'Kayısı lekesi halıdan çıkar mı?', a: 'Evet, ama önce soğuk su ile ön işlem uygulanmalıdır. Sıcak su şekeri karamelize eder ve lekeyi sabitler. Firmaya leke olduğunu önceden bildirin.' },
+      { q: 'Deprem sonrası halı yıkatmak güvenli mi?', a: 'Hasar görmemiş binalardan çıkan halılar normal yıkanabilir. Hasar görmüş binalardan gelen halılarda moloz tozu ve olası asbest riski için önce firma ile görüşün.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'kahramanmaras-hali-yikama', 'diyarbakir-hali-yikama'],
+  },
 ];
