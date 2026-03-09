@@ -76,13 +76,13 @@ Orta-üst segment. El yapımı Nepal halıları özel bakım gerektirir.`,
         heading: 'En Uygun Fiyatı Nasıl Bulursunuz?',
         content: `Halı yıkama hizmetinde kaliteden ödün vermeden en iyi fiyatı bulmak için:
 
-**Fiyat Karşılaştırması Yapın:** Halı Yıkamacılar platformunda aynı şehirdeki birden fazla firmanın m² fiyatlarını kolayca karşılaştırabilirsiniz. En ucuzu değil, en iyi fiyat/kalite oranını sunan firmayı seçin.
+**Fiyat Karşılaştırması Yapın:** [Halı Yıkamacılar platformunda](/firmalar) aynı şehirdeki birden fazla firmanın m² fiyatlarını kolayca karşılaştırabilirsiniz. En ucuzu değil, en iyi fiyat/kalite oranını sunan firmayı seçin.
 
 **Yorumları Okuyun:** Düşük fiyat her zaman iyi bir tercih değildir. Müşteri yorumları, firmanın gerçek hizmet kalitesini yansıtır. ★4.0 üzeri puanlı firmaları tercih edin.
 
-**Toplu Sipariş Avantajı:** Firmanın en büyük gider kalemi olan ulaşım maliyetini düşürmenin en kolay yolu daha fazla ürün vermektir. Birden fazla halı yıkatabilir, halı yıkamaya ek olarak koltuk yıkama veya yorgan-battaniye yıkama hizmeti de ekleyebilirsiniz. Firma aynı seferde daha fazla iş aldığında ulaşım maliyeti bölünür — bu sayede %10-15 arası indirim taleplerinize olumlu cevap alma ihtimaliniz belirgin şekilde artar.
+**Toplu Sipariş Avantajı:** Firmanın en büyük gider kalemi olan ulaşım maliyetini düşürmenin en kolay yolu daha fazla ürün vermektir. Birden fazla halı yıkatabilir, halı yıkamaya ek olarak [koltuk yıkama](/rehber/koltuk-yikama-fiyatlari) veya [yorgan-battaniye yıkama](/rehber/yorgan-yastik-yikama) hizmeti de ekleyebilirsiniz. Firma aynı seferde daha fazla iş aldığında ulaşım maliyeti bölünür — bu sayede %10-15 arası indirim taleplerinize olumlu cevap alma ihtimaliniz belirgin şekilde artar.
 
-**Kampanya ve Fırsatları Kaçırmayın:** Birçok firmadan ayrı ayrı tanıtım mesajları almak yorucu olabilir. Bunun yerine haliyikamacilar.com üzerinden fırsat bildirimi tercihlerinizi belirleyebilirsiniz. Sizin seçtiğiniz aralıklarla (örneğin 3 ayda bir veya 6 ayda bir) bölgenizdeki en iyi fırsatları SMS veya WhatsApp üzerinden size iletiriz. Tek bir tıkla bölgenizdeki tüm firmaların güncel fiyatlarına göz atabilirsiniz. Fırsat bildirimi almak için abone olun: haliyikamacilar.com/firsatlar`,
+**Kampanya ve Fırsatları Kaçırmayın:** Birçok firmadan ayrı ayrı tanıtım mesajları almak yorucu olabilir. Bunun yerine [fırsat bildirimi tercihlerinizi belirleyebilirsiniz](/firsatlar). Sizin seçtiğiniz aralıklarla (örneğin 3 ayda bir veya 6 ayda bir) bölgenizdeki en iyi fırsatları SMS veya WhatsApp üzerinden size iletiriz. Tek bir tıkla [bölgenizdeki tüm firmaların güncel fiyatlarına göz atabilirsiniz](/firmalar). [Fırsat bildirimi almak için abone olun →](/firsatlar)`,
       },
       {
         heading: 'Şehir Bazlı Fiyat Karşılaştırması',
@@ -99,7 +99,7 @@ Orta-üst segment. El yapımı Nepal halıları özel bakım gerektirir.`,
 **Konya:** Ortalama 65 TL/m² (aralık: 55-80 TL) — İç Anadolu'da en uygun fiyatlar.
 **Şanlıurfa:** Ortalama 60 TL/m² (aralık: 50-70 TL) — Güneydoğu'da rekabetçi fiyatlar.
 
-Kendi şehrinizdeki güncel fiyatları görmek için firmalarımızın fiyat listelerini inceleyebilirsiniz.`,
+Kendi şehrinizdeki güncel fiyatları görmek için [firmalarımızın fiyat listelerini inceleyebilirsiniz](/firmalar).`,
       },
     ],
     faq: [
@@ -252,7 +252,7 @@ Tam kurutma hayati önem taşır. %100 kuru olmayan halıda küf mantarı 24-48 
 
 **Koltuk Sayısı:** Çoğu firma 3+2+1 takım için paket fiyat uygular. Tekil parçalar birim fiyattan daha pahalıdır.
 
-**Lokasyon:** İstanbul, Ankara, İzmir'de fiyatlar %15-25 daha yüksektir. Firma evinize geleceği için ulaşım mesafesi de fiyatı etkileyebilir.`,
+**Lokasyon:** [İstanbul](/rehber/istanbul-hali-yikama), [Ankara](/rehber/ankara-hali-yikama), İzmir'de fiyatlar %15-25 daha yüksektir. Firma evinize geleceği için ulaşım mesafesi de fiyatı etkileyebilir.`,
       },
     ],
     faq: [
@@ -318,7 +318,7 @@ Bu üç kural tek başına lekelerin %60'ını kurtarır.`,
 **El halısı / ipek halı:** Yanlış kimyasal kalıcı hasar verebilir.
 **Boya / mürekkep:** Çözücüler halıyı da bozabilir.
 
-Profesyonel firmalar endüstriyel ekipman ve özel kimyasallarla bu lekeleri güvenle çıkarır.`,
+[Profesyonel halı yıkama firmaları](/firmalar) endüstriyel ekipman ve özel kimyasallarla bu lekeleri güvenle çıkarır.`,
       },
     ],
     faq: [
@@ -354,7 +354,7 @@ Profesyonel firmalar endüstriyel ekipman ve özel kimyasallarla bu lekeleri gü
       },
       {
         heading: 'Profesyonel Bakım',
-        content: `**6. Yılda 2 Kez Profesyonel Yıkatın:** Ev temizliği yüzeyi temizler, profesyonel yıkama derinlere iner. Uzmanlar yılda minimum 2 kez önermektedir.
+        content: `**6. Yılda 2 Kez [Profesyonel Yıkatın](/firmalar):** Ev temizliği yüzeyi temizler, [profesyonel halı yıkama](/rehber/hali-yikama-nasil-yapilir) derinlere iner. Uzmanlar yılda minimum 2 kez önermektedir.
 
 **7. Halı Koruma Spreyi Uygulatin:** Profesyonel yıkama sonrası scotchguard veya benzeri halı koruma spreyi uygulatın. Bu koruma leke oluşumunu %70 oranında azaltır.
 
@@ -407,7 +407,7 @@ Profesyonel firmalar endüstriyel ekipman ve özel kimyasallarla bu lekeleri gü
       },
       {
         heading: 'Profesyonel Bakım',
-        content: `**8. Yılda 1-2 Kez Profesyonel Yıkatın:** Ev temizliği yüzeyi temizler, profesyonel ekstraksiyon yöntemi kumaşın derinlerine iner. Alerjen, toz akarı ve bakterileri %99 oranında yok eder.
+        content: `**8. Yılda 1-2 Kez [Profesyonel Yıkatın](/firmalar):** Ev temizliği yüzeyi temizler, profesyonel ekstraksiyon yöntemi kumaşın derinlerine iner. Alerjen, toz akarı ve bakterileri %99 oranında yok eder.
 
 **Ne Zaman Profesyonele Başvurmalı?**
 - Koltukta kötü koku varsa (sigara, evcil hayvan, yemek)
@@ -445,7 +445,9 @@ Profesyonel koltuk yıkama yerinde (evinizde) yapılır, koltuğu taşımaya ger
 
 **Leke ve Koku:** Evde yıkama lekeyi yaymak, kurutma eksikliği küf kokusu oluşturmak anlamına gelebilir.
 
-**Dolgu Kabarıklığı:** Profesyonel kurutma, yorganın dolgusunu kabarık tutar. Evde kurutulan yorganlar çöker ve ısı yalıtım kapasitesini kaybeder.`,
+**Dolgu Kabarıklığı:** Profesyonel kurutma, yorganın dolgusunu kabarık tutar. Evde kurutulan yorganlar çöker ve ısı yalıtım kapasitesini kaybeder.
+
+[Halı yıkama fiyatları](/rehber/hali-yikama-fiyatlari) ile birlikte toplu sipariş vererek hem halılarınızı hem yorganlarınızı aynı anda yıkatabilirsiniz.`,
       },
       {
         heading: 'Profesyonel Yorgan Yıkama Süreci',
@@ -531,7 +533,7 @@ Profesyonel koltuk yıkama yerinde (evinizde) yapılır, koltuğu taşımaya ger
 **Yatak odası perdesi:** 4-6 ayda bir
 **Sigara içilen ortam:** 2 ayda bir
 
-**İpucu:** Perde yıkama ile halı yıkamayı aynı dönemde yaptırmak hem organizasyonu kolaylaştırır hem de firmalardan kombine indirim alma şansı verir.`,
+**İpucu:** [Perde yıkama](/rehber/perde-yikama-rehberi) ile [halı yıkamayı](/rehber/hali-yikama-fiyatlari) aynı dönemde yaptırmak hem organizasyonu kolaylaştırır hem de [firmalardan](/firmalar) kombine indirim alma şansı verir.`,
       },
     ],
     faq: [
@@ -555,7 +557,7 @@ Profesyonel koltuk yıkama yerinde (evinizde) yapılır, koltuğu taşımaya ger
     sections: [
       {
         heading: '1. Müşteri Yorumlarını İnceleyin',
-        content: `En güvenilir referans, gerçek müşteri deneyimleridir. Halı Yıkamacılar platformunda her firmanın doğrulanmış müşteri yorumlarını görebilirsiniz.
+        content: `En güvenilir referans, gerçek müşteri deneyimleridir. [Halı Yıkamacılar platformunda](/firmalar) her firmanın doğrulanmış müşteri yorumlarını görebilirsiniz.
 
 **Nelere Dikkat Etmeli?**
 - ★4.0 üzeri ortalama puan güvenilir kabul edilir
@@ -565,7 +567,7 @@ Profesyonel koltuk yıkama yerinde (evinizde) yapılır, koltuğu taşımaya ger
       },
       {
         heading: '2. Fiyat Listesini Karşılaştırın',
-        content: `**En ucuz firma her zaman en iyi değildir.** Halı Yıkamacılar platformunda firmalar fiyat listelerini şeffaf bir şekilde paylaşır.
+        content: `**En ucuz firma her zaman en iyi değildir.** [Halı Yıkamacılar platformunda](/firmalar) firmalar [fiyat listelerini](/rehber/hali-yikama-fiyatlari) şeffaf bir şekilde paylaşır.
 
 **Sağlıklı Karşılaştırma İçin:**
 - Aynı halı türü için (örn: makine halısı m²) fiyatları kıyaslayın
@@ -691,7 +693,7 @@ Platform üzerinden sipariş verirken tahmini teslimat süresini görebilirsiniz
 
 **Yatak Koruyucu:** Anti-alerjen yatak ve yastık kılıfı kullanın. Toz akarlarının yatak-halı döngüsünü kırarsınız.
 
-**Profesyonel Tercih:** Halı Yıkamacılar platformunda "anti-alerjik uygulama" hizmeti sunan firmaları filtreleyerek bulabilirsiniz.`,
+**Profesyonel Tercih:** [Halı Yıkamacılar platformunda](/firmalar) "anti-alerjik uygulama" hizmeti sunan firmaları filtreleyerek bulabilirsiniz.`,
       },
     ],
     faq: [
@@ -734,7 +736,7 @@ Platform üzerinden sipariş verirken tahmini teslimat süresini görebilirsiniz
 - Aylık düzenli temizlik sözleşmesi: %20-30 indirim
 - Hafta sonu çalışma (ofis kapalıyken): genellikle ek ücret yok
 
-**Minimum Alan:** Çoğu firma kurumsal işlerde minimum 50 m² şartı koyar.`,
+**Minimum Alan:** Çoğu firma kurumsal işlerde minimum 50 m² şartı koyar. [Firmaları karşılaştırın](/firmalar).`,
       },
       {
         heading: 'Ofis Halı Temizlik Takvimi',
@@ -810,7 +812,7 @@ Platform üzerinden sipariş verirken tahmini teslimat süresini görebilirsiniz
 
 Bu 4 ekipman yoksa firma profesyonel standartların altındadır.
 
-**Halı Yıkamacılar Avantajı:** Platform üzerindeki firmalar doğrulanmış profesyonel firmalardır. Ekipman durumları ve hizmet kapasiteleri kontrol edilir.`,
+**Halı Yıkamacılar Avantajı:** [Platform üzerindeki firmalar](/firmalar) doğrulanmış profesyonel firmalardır. Ekipman durumları ve hizmet kapasiteleri kontrol edilir. [Firma seçim rehberimizi de inceleyin](/rehber/hali-yikama-firmasi-nasil-secilir).`,
       },
     ],
     faq: [
@@ -874,13 +876,13 @@ Bu 4 ekipman yoksa firma profesyonel standartların altındadır.
       },
       {
         heading: 'Tasarruf İpuçları',
-        content: `**Kombine Sipariş:** Halı + koltuk + perde aynı firmadan yıkatırsanız %15-25 indirim alırsınız.
+        content: `**Kombine Sipariş:** [Halı](/rehber/hali-yikama-fiyatlari) + [koltuk](/rehber/koltuk-yikama-fiyatlari) + [perde](/rehber/perde-yikama-rehberi) aynı firmadan yıkatırsanız %15-25 indirim alırsınız.
 
 **Erken Sipariş:** Mayıs-Haziran yoğun dönemdir. Nisan ayında sipariş vererek hem fiyat avantajı hem hızlı teslimat alabilirsiniz.
 
 **Komşu/Apartman Organizasyonu:** Aynı apartmandan 3+ sipariş toplu gönderildiğinde firmalar ekstra indirim uygulayabilir.
 
-**Platform Kampanyaları:** Halı Yıkamacılar platformunda sezon başı kampanyaları takip edin. Bazı firmalar ilk sipariş indirimi de sunar.`,
+**Platform Kampanyaları:** [Halı Yıkamacılar platformunda](/firmalar) sezon başı kampanyaları takip edin. [Fırsat bildirimi almak için abone olun](/firsatlar). Bazı firmalar ilk sipariş indirimi de sunar.`,
       },
     ],
     faq: [
@@ -945,7 +947,7 @@ Düzenli müşterilere %15-25 indirim uygulanır. Haftalık 4 seans paketi stand
 
 **Referans Kontrol:** Müşteri yorumlarını okuyun. Düşük fiyat sunan ama kötü değerlendirilen firmaları tercih etmeyin.
 
-**Paket Hizmet:** Ev temizliği + halı yıkama + koltuk yıkama paketi alarak toplu indirim alabilirsiniz.
+**Paket Hizmet:** Ev temizliği + [halı yıkama](/rehber/hali-yikama-fiyatlari) + [koltuk yıkama](/rehber/koltuk-yikama-fiyatlari) paketi alarak toplu indirim alabilirsiniz.
 
 **Platform Üzerinden:** Halı Yıkamacılar platformunda ev temizliği firmalarını karşılaştırabilir, fiyatları görebilir ve güvenle sipariş verebilirsiniz.`,
       },
@@ -1010,7 +1012,7 @@ Pendik, Tuzla, Sultanbeyli, Arnavutköy, Esenyurt, Silivri
 
 **Teslimat Süresi:** İstanbul trafiği nedeniyle teslimat 1 gün uzayabilir. Yoğun dönemlerde (Haziran-Temmuz) 7+ gün sürebilir — erken sipariş verin.
 
-**Halı Yıkamacılar Avantajı:** Platformumuzda İstanbul'daki tüm doğrulanmış firmalar, ilçe bazlı filtreleme, şeffaf fiyat listesi ve müşteri yorumlarıyla güvenle seçim yapabilirsiniz.`,
+**Halı Yıkamacılar Avantajı:** [Platformumuzda](/firmalar) İstanbul'daki tüm doğrulanmış firmalar, ilçe bazlı filtreleme, şeffaf [fiyat listesi](/rehber/hali-yikama-fiyatlari) ve müşteri yorumlarıyla güvenle seçim yapabilirsiniz.`,
       },
     ],
     faq: [
@@ -1071,7 +1073,7 @@ Fiyatlar en uygun, ama firma seçiminde dikkatli olun.
 
 **Ankara'ya Özel Not:** Kış aylarında (Aralık-Şubat) dış kurutma yapılamaz. Kapalı kurutma tesisi olan firmaları tercih edin — aksi halde halınız haftalarca gelmeyebilir.
 
-Halı Yıkamacılar platformunda Ankara'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, fiyatları karşılaştırabilir ve güvenle sipariş verebilirsiniz.`,
+[Halı Yıkamacılar platformunda](/firmalar) Ankara'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
       },
     ],
     faq: [

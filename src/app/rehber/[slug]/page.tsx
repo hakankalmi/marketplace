@@ -178,8 +178,8 @@ export default async function GuidePage({
                 </h2>
                 <div className="prose prose-lg max-w-none text-brand-text-muted leading-relaxed whitespace-pre-line">
                   {section.content.split('\n\n').map((paragraph, pi) => {
-                    // Bold text rendering
-                    const parts = paragraph.split(/(\*\*[^*]+\*\*)/g);
+                    // Bold + link text rendering
+                    const parts = paragraph.split(/(\*\*[^*]+\*\*|\[[^\]]+\]\([^)]+\))/g);
                     return (
                       <p key={pi} className="mb-4">
                         {parts.map((part, partI) => {
@@ -188,6 +188,14 @@ export default async function GuidePage({
                               <strong key={partI} className="text-brand-text font-semibold">
                                 {part.slice(2, -2)}
                               </strong>
+                            );
+                          }
+                          const linkMatch = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
+                          if (linkMatch) {
+                            return (
+                              <Link key={partI} href={linkMatch[2]} className="text-brand-primary hover:underline font-medium">
+                                {linkMatch[1]}
+                              </Link>
                             );
                           }
                           return <span key={partI}>{part}</span>;
