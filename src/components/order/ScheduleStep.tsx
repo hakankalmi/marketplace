@@ -204,6 +204,7 @@ export function ScheduleStep({ formData, onUpdate, onNext, onBack }: Props) {
               <button
                 onClick={prevMonth}
                 disabled={isPrevDisabled}
+                aria-label="Önceki ay"
                 className="p-1 rounded hover:bg-brand-surface disabled:opacity-30 disabled:cursor-not-allowed"
               >
                 <ChevronLeft size={18} className="text-brand-text" />
@@ -213,6 +214,7 @@ export function ScheduleStep({ formData, onUpdate, onNext, onBack }: Props) {
               </span>
               <button
                 onClick={nextMonth}
+                aria-label="Sonraki ay"
                 className="p-1 rounded hover:bg-brand-surface"
               >
                 <ChevronRight size={18} className="text-brand-text" />

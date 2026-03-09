@@ -100,6 +100,7 @@ export function Nav() {
               {/* Desktop only: ShoppingBag + User */}
               <Link
                 href="/hesabim/siparislerim"
+                aria-label="Siparişlerim"
                 className={cn(
                   'hidden lg:flex p-2 rounded-brand transition-colors',
                   isSolid
@@ -192,6 +193,7 @@ export function Nav() {
               {/* Mobile Menu Toggle */}
               <button
                 onClick={() => setMobileOpen(!mobileOpen)}
+                aria-label={mobileOpen ? 'Menüyü kapat' : 'Menüyü aç'}
                 className={cn(
                   'lg:hidden p-2 rounded-brand transition-colors',
                   isSolid

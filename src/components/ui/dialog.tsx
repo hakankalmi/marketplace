@@ -45,6 +45,7 @@ export function Dialog({ open, onClose, title, children, className }: DialogProp
           </h2>
           <button
             onClick={onClose}
+            aria-label="Kapat"
             className="text-brand-text-muted hover:text-brand-text transition-colors p-1 rounded-brand hover:bg-brand-surface-hover"
           >
             <X size={20} />

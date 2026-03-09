@@ -60,7 +60,7 @@ export function CitySearch({ categorySlug, categoryDisplay, variant = 'hero' }: 
           }
           ${isOpen && filtered.length > 0 ? 'rounded-b-none' : ''}
         `}>
-          <Search size={20} className={isHero ? 'text-gray-400' : 'text-brand-text-muted'} />
+          <Search size={20} className={isHero ? 'text-gray-500' : 'text-brand-text-muted'} />
           <input
             ref={inputRef}
             type="text"
@@ -74,7 +74,7 @@ export function CitySearch({ categorySlug, categoryDisplay, variant = 'hero' }: 
             className={`
               flex-1 bg-transparent outline-none text-base
               ${isHero
-                ? 'text-gray-900 placeholder:text-gray-400'
+                ? 'text-gray-900 placeholder:text-gray-500'
                 : 'text-brand-text placeholder:text-brand-text-muted'
               }
             `}
@@ -84,7 +84,7 @@ export function CitySearch({ categorySlug, categoryDisplay, variant = 'hero' }: 
               onClick={() => { setQuery(''); setIsOpen(false); }}
               className={`text-xs font-medium px-2 py-1 rounded-lg transition-colors ${
                 isHero
-                  ? 'text-gray-400 hover:text-gray-600 hover:bg-gray-100'
+                  ? 'text-gray-500 hover:text-gray-700 hover:bg-gray-100'
                   : 'text-brand-text-muted hover:text-brand-text hover:bg-brand-surface'
               }`}
             >
@@ -114,12 +114,12 @@ export function CitySearch({ categorySlug, categoryDisplay, variant = 'hero' }: 
                   }
                 `}
               >
-                <MapPin size={16} className="shrink-0 opacity-50" />
+                <MapPin size={16} className="shrink-0 text-gray-500" />
                 <span className="flex-1 font-medium text-sm">{city}</span>
-                <span className={`text-xs ${isHero ? 'text-gray-400' : 'text-brand-text-muted'}`}>
+                <span className={`text-xs ${isHero ? 'text-gray-500' : 'text-brand-text-muted'}`}>
                   {categoryDisplay}
                 </span>
-                <ChevronRight size={14} className="opacity-30" />
+                <ChevronRight size={14} className="text-gray-400" />
               </button>
             ))}
           </div>

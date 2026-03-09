@@ -174,7 +174,7 @@ export function OrderSuccess({ companyName, orderCode }: Props) {
           <button
             onClick={handleCopy}
             className="p-1 rounded hover:bg-brand-primary/10 transition-colors"
-            title="Kopyala"
+            aria-label="Sipariş kodunu kopyala"
           >
             {copied ? (
               <Check size={16} className="text-brand-success" />

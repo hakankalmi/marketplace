@@ -250,7 +250,7 @@ export default async function CityCategoryPage({
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold text-white leading-tight">
                 Türkiye&apos;nin En İyi<br />{categoryDisplay} Firmaları
               </h1>
-              <p className="mt-5 text-lg text-white/80 max-w-3xl mx-auto leading-relaxed">
+              <p className="mt-5 text-lg text-white/90 max-w-3xl mx-auto leading-relaxed">
                 {categoryHeroSubtitle[category] || defaultHeroSubtitle}
               </p>
 
@@ -272,7 +272,7 @@ export default async function CityCategoryPage({
                     </div>
                     <div className="text-left">
                       <div className="text-xl font-bold text-white">{s.value}</div>
-                      <div className="text-xs text-white/60">{s.label}</div>
+                      <div className="text-xs text-white/80">{s.label}</div>
                     </div>
                   </div>
                 ))}
