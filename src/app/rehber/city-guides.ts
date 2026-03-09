@@ -1765,4 +1765,110 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'izmir-hali-yikama', 'aydin-hali-yikama'],
   },
+
+  /* ─── 21. ESKİŞEHİR ─── */
+  {
+    slug: 'eskisehir-hali-yikama',
+    city: 'Eskişehir',
+    citySlug: 'eskisehir',
+    title: 'Eskişehir Halı Yıkama Rehberi: Fiyatlar, Firmalar ve İpuçları (2026)',
+    metaTitle: 'Eskişehir Halı Yıkama Fiyatları 2026 | Firma Rehberi',
+    metaDescription: 'Eskişehir halı yıkama fiyatları 2026 güncel liste. Odunpazarı, Tepebaşı, Sivrihisar, Çifteler fiyat karşılaştırma. Eskişehir halı yıkama firması seçim rehberi.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'Şehir Rehberi',
+    readingTime: 8,
+    heroEmoji: '🎓',
+    intro: `**Eskişehir**, Türkiye'nin en yaşanabilir şehirlerinden biri olarak genç, dinamik nüfusuyla öne çıkar. İki büyük üniversite (Anadolu ve Eskişehir Teknik) şehre 100.000+ öğrenci kazandırır ve bu durum halı yıkama talebini doğrudan etkiler — öğrenci evlerinde halı kullanımı yoğundur. Porsuk Çayı kenarındaki modern yaşam, lüle taşı el sanatları ve sert karasal iklim Eskişehir'i kendine özgü kılar. [Eskişehir halı yıkama firmaları](/eskisehir-hali-yikama-firmalari) arasında en uygun fiyatlı ve güvenilir firmayı bulmak için bu rehberi hazırladık.`,
+    sections: [
+      {
+        heading: 'Eskişehir Halı Yıkama Fiyatları 2026',
+        content: `Eskişehir'de halı yıkama fiyatları İç Anadolu ortalamasına yakındır. Öğrenci nüfusunun oluşturduğu talep rekabeti artırır ve fiyatları makul tutar.
+
+| Halı Türü | Fiyat Aralığı (m²) | Ortalama |
+|---|---|---|
+| Makine halısı | 70 – 115 TL | 80 TL |
+| El dokuması halı | 90 – 170 TL | 120 TL |
+| Shaggy / tüylü halı | 75 – 140 TL | 100 TL |
+| İpek halı | 140 – 300 TL | 200 TL |
+| Koltuk yıkama (kişilik) | 130 – 280 TL | 185 TL |
+| Yorgan yıkama (adet) | 100 – 200 TL | 140 TL |
+
+**İlçe Bazlı Fiyat Farkları:**
+
+🔴 **Yüksek Segment**: [Tepebaşı halı yıkama](/eskisehir-tepebasi-hali-yikama-firmalari) — 85-170 TL/m². Modern siteler, yüksek gelir, Porsuk kenarı lüks konutlar.
+
+🟡 **Orta Segment**: [Odunpazarı halı yıkama](/eskisehir-odunpazari-hali-yikama-firmalari) — 75-130 TL/m². Tarihi merkez, öğrenci evleri, karma nüfus.
+
+🟢 **Uygun Segment**: [Sivrihisar halı yıkama](/eskisehir-sivrihisar-hali-yikama-firmalari), [Çifteler halı yıkama](/eskisehir-cifteler-hali-yikama-firmalari), [Mahmudiye halı yıkama](/eskisehir-mahmudiye-hali-yikama-firmalari), [Alpu halı yıkama](/eskisehir-alpu-hali-yikama-firmalari), [Seyitgazi halı yıkama](/eskisehir-seyitgazi-hali-yikama-firmalari), [Beylikova halı yıkama](/eskisehir-beylikova-hali-yikama-firmalari) — 70-95 TL/m².
+
+📌 *Öğrenci evlerinde dönem sonu (Haziran ve Ocak) halı yıkama talebi patlar. Bu dönemlerde erken randevu almak avantajlıdır.*`,
+      },
+      {
+        heading: 'Eskişehir İklimi ve Halı Bakım Takvimi',
+        content: `Eskişehir'in 790 metre rakımı ve sert karasal iklimi halı bakımını belirler:
+
+**Sert Kışlar (Kasım-Mart):** Eskişehir kışları uzun ve soğuktur — sıcaklık -15°C'ye kadar düşebilir, kar 30+ gün yerde kalır. Evler aylarca kapalı kalır, doğalgaz kombisi kuru toz yayar. Bu dönemde halılar toz, akar ve alerjenleri biriktirir. Kışın halı yıkatmak zordur — kapalı kurutma tesisi şarttır.
+
+**Porsuk Çayı Nemi:** Porsuk Çayı kenarındaki konutlarda (özellikle zemin katlar) kış nemi sorun olabilir. Anti-küf işlem bu bölgede önerilir.
+
+**Kuru Yazlar (Haziran-Ağustos):** Eskişehir yazları sıcak ve kurudur (32-36°C). Kurutma 1 günde tamamlanır. Halı yıkama için ideal dönemdir.
+
+**Öğrenci Döngüsü:** Eskişehir'in halı yıkama talebi akademik takvime bağlıdır. Haziran (dönem sonu) ve Eylül (dönem başı) en yoğun dönemlerdir. Öğrenci evlerinde halı devir teslimi sırasında yıkatma zorunlu olabilir.
+
+**Step Tozu:** Eskişehir ovası step iklimindedir. Özellikle rüzgarlı günlerde (Nisan-Mayıs) toz fırtınaları halıları hızla kirletir. Pencereler açık bırakıldığında bir günde halılar tozlanabilir.
+
+**En İyi Dönem:** Mayıs ve Eylül — hava ılık, öğrenci yoğunluğu orta, kurutma hızlı.
+
+[Eskişehir halı yıkama firmaları](/eskisehir-hali-yikama-firmalari) — Eskişehir'deki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+      },
+      {
+        heading: 'Eskişehir Halı Yıkama Firması Seçerken Dikkat Edilecekler',
+        content: `**Öğrenci Evi Paketleri:** Birçok Eskişehir firması öğrenci evlerine özel paket sunar — 3+1 evin tüm halıları sabit fiyat. Dönem sonu taşınma öncesi bu paketlerden yararlanabilirsiniz. Platform üzerinden "öğrenci paketi" sunan firmaları filtreleyebilirsiniz.
+
+**Odunpazarı Tarihi Evler:** Odunpazarı'nın ahşap tarihi evlerinde antika halılar ve kilimler mevcuttur. Bu evler UNESCO geçici listesindedir ve içlerindeki halılar da genellikle değerlidir. Standart yıkama yerine uzman firma tercih edin.
+
+**Organize Sanayi Bölgesi:** Eskişehir OSB havacılık, savunma ve seramik sanayisine ev sahipliği yapar. Sanayi çevresindeki konutlarda ince metal ve seramik tozu birikimi halılara işler — bu tür kirlilik standart ev süpürgesiyle temizlenemez, profesyonel yıkama gerektirir.
+
+**Lüle Taşı Tozu:** Eskişehir dünya lüle taşı üretiminin büyük kısmını karşılar. Atölye çevresindeki evlerde taş tozu birikimi yüksektir — bu ince beyaz toz halı liflerinin arasına girer ve vakumla çıkmaz.
+
+**Ankara ve Bursa Karşılaştırması:** Eskişehir, Ankara ve Bursa'ya eşit mesafededir. Fiyat karşılaştırması için [Ankara halı yıkama](/rehber/ankara-hali-yikama) ve [Bursa halı yıkama](/rehber/bursa-hali-yikama) rehberlerine de bakabilirsiniz — Eskişehir fiyatları genellikle her ikisinden de uygundur.
+
+**Çifteler ve Mahmudiye — Kırsal Toz:** Bu ilçelerde tarımsal ve hayvansal toz birikimi yoğundur. At çiftlikleri (Mahmudiye Türkiye'nin en eski hara merkezidir) çevresinde organik toz halıları farklı kirletir — firmaya bölgenizi belirtin.`,
+      },
+      {
+        heading: 'Eskişehir İlçe Bazlı Halı Yıkama Firmaları',
+        content: `Eskişehir 14 ilçeye sahiptir. İşte ilçe bazlı halı yıkama firma rehberi:
+
+**Büyükşehir Merkez İlçeler:**
+- [Odunpazarı halı yıkama](/eskisehir-odunpazari-hali-yikama-firmalari) — Tarihi merkez, öğrenci bölgesi, üniversite çevresi
+- [Tepebaşı halı yıkama](/eskisehir-tepebasi-hali-yikama-firmalari) — Modern şehir merkezi, Porsuk kenarı, premium konutlar
+
+**Büyük İlçeler:**
+- [Sivrihisar halı yıkama](/eskisehir-sivrihisar-hali-yikama-firmalari) — Tarihi ilçe, Nasreddin Hoca'nın doğum yeri
+- [Çifteler halı yıkama](/eskisehir-cifteler-hali-yikama-firmalari) — Tarım ve askeri bölge
+- [Mahmudiye halı yıkama](/eskisehir-mahmudiye-hali-yikama-firmalari) — Türkiye'nin en eski harası
+
+**Diğer İlçeler:**
+- [Alpu halı yıkama](/eskisehir-alpu-hali-yikama-firmalari) — Sanayi yakını
+- [Seyitgazi halı yıkama](/eskisehir-seyitgazi-hali-yikama-firmalari) — Frigya vadisi
+- [Beylikova halı yıkama](/eskisehir-beylikova-hali-yikama-firmalari) — Kırsal
+- [İnönü halı yıkama](/eskisehir-inonu-hali-yikama-firmalari) — Tarihi savaş alanı
+- [Sarıcakaya halı yıkama](/eskisehir-saricakaya-hali-yikama-firmalari) — Sakarya vadisi
+- [Günyüzü halı yıkama](/eskisehir-gunyuzu-hali-yikama-firmalari) — Step bölgesi
+- [Han halı yıkama](/eskisehir-han-hali-yikama-firmalari) — Küçük ilçe
+- [Mihalgazi halı yıkama](/eskisehir-mihalgazi-hali-yikama-firmalari) — Dağ köyü
+- [Mihalıççık halı yıkama](/eskisehir-mihalicik-hali-yikama-firmalari) — Kırsal
+
+📌 *Merkeze uzak ilçelerde firma sayısı çok sınırlıdır. Odunpazarı ve Tepebaşı firmaları il genelinde hizmet verir — bu ilçelerden de sipariş verebilirsiniz.*`,
+      },
+    ],
+    faq: [
+      { q: 'Eskişehir\'de halı yıkama ortalama ne kadar?', a: 'Makine halısı ortalama 80 TL/m², el dokuması 90-170 TL/m², shaggy 75-140 TL/m² aralığındadır. Öğrenci rekabeti fiyatları uygun tutar. Tepebaşı en pahalı, kırsal ilçeler en uygun.' },
+      { q: 'Eskişehir\'de öğrenci evi halı yıkama paketi var mı?', a: 'Evet, birçok firma dönem sonu taşınma paketi sunar — 3+1 evin tüm halıları sabit fiyat. Haziran ve Ocak aylarında bu paketler özellikle popülerdir.' },
+      { q: 'Eskişehir\'de halı yıkama kaç gün sürer?', a: 'Yaz aylarında 1-2 gün (kuru iklim, hızlı kurutma), kışın 3-5 gün. Kış -15°C\'ye düşebildiği için kapalı kurutma tesisi olan firma seçmek önemlidir.' },
+      { q: 'Eskişehir\'de kışın halı yıkatılır mı?', a: 'Evet, ancak kapalı kurutma tesisi şarttır. Eskişehir kışları çok soğuk ve uzundur — açık havada kurutma mümkün değildir. Kapalı tesiste süre 3-5 güne uzar ama halıya zarar gelmez.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'ankara-hali-yikama', 'bursa-hali-yikama'],
+  },
 ];
