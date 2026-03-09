@@ -4653,4 +4653,167 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'aksaray-hali-yikama', 'yozgat-hali-yikama'],
   },
+
+  // ── Nevşehir ────────────────────────────────────────────────
+  {
+    slug: 'nevsehir-hali-yikama',
+    city: 'Nevşehir',
+    citySlug: 'nevsehir',
+    title: 'Nevşehir Halı Yıkama Rehberi — Fiyatlar, İlçeler ve Tavsiyeler',
+    metaTitle: 'Nevşehir Halı Yıkama Fiyatları 2026 | Rehber & Karşılaştırma',
+    metaDescription: 'Nevşehir halı yıkama fiyatları, güvenilir firma önerileri ve ilçe bazlı hizmet rehberi. Kapadokya\'nın kalbinde halı bakımı ve turizm odaklı hizmetler.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 10,
+    heroEmoji: '🎈',
+    intro: 'Nevşehir, dünyaca ünlü Kapadokya\'nın kalbidir. Peri bacaları, yeraltı şehirleri ve balon turlarıyla yılda milyonlarca turist çeken şehir, aynı zamanda Türkiye\'nin en önemli halı üretim ve ticaret merkezlerinden biridir. Avanos\'un el yapımı halıları, Ürgüp\'ün antika halı dükkanları ve Göreme\'nin butik otellerindeki değerli halılar profesyonel bakım gerektirir. Karasal step ikliminde kışlar soğuk, yazlar sıcak ve kurak geçer.',
+    sections: [
+      {
+        heading: 'Nevşehir Halı Yıkama Fiyatları 2026',
+        content: `Nevşehir halı yıkama fiyatları İç Anadolu ortalamasındadır. Turizm bölgesinde ticari halı yıkama talebi yüksektir:
+
+| Halı Türü | Fiyat Aralığı (m²) | Not |
+|---|---|---|
+| Makine halısı | 70-88 TL | Standart |
+| El dokuması / Avanos halısı | 85-155 TL | Özel bakım |
+| Kilim / cicim | 78-130 TL | Doğal boya koruması |
+| Shaggy / uzun tüylü | 75-118 TL | Standart |
+| Antika halı | 120-250 TL | Restorasyon düzeyi |
+| Otel / ticari halı | 70-85 TL | Toplu indirim |
+
+🔴 **Pahalı bölgeler:** Göreme, Ürgüp merkez, Uçhisar
+🟡 **Orta fiyatlı bölgeler:** Nevşehir Merkez, Avanos merkez
+🟢 **Uygun fiyatlı bölgeler:** Derinkuyu, Gülşehir, Hacıbektaş, Kozaklı
+
+💡 *Kapadokya'daki butik oteller ve halı dükkanları için toplu yıkama paketleri mevcuttur — platform üzerinden teklif isteyin.*`,
+      },
+      {
+        heading: 'Kapadokya ve Halı Kültürü',
+        content: `Nevşehir, Türkiye'nin halı kültürünün en canlı olduğu bölgelerden biridir:
+
+**Avanos halısı:** Kızılırmak kıyısında çömlekçilik ve halıcılıkla ünlü Avanos, el dokuması halı üretim merkezi olmaya devam eder. Avanos halıları doğal boyalar ve ince düğüm yapısıyla değerlidir. Yıkamada soğuk su + nötr pH deterjan zorunludur.
+
+**Turist halı ticareti:** Kapadokya'da her yıl binlerce turist Türk halısı satın alır. Bu halılar genellikle el dokuması ve yüksek değerlidir. Satış öncesi profesyonel temizlik ve sunum önemlidir.
+
+**Butik otel halıları:** Göreme, Ürgüp ve Uçhisar'daki kaya otelleri genellikle otantik Türk halıları kullanır. Bu halılar yüksek turist trafiğine maruz kalır — 3-4 ayda bir profesyonel yıkama gerekir.
+
+**Antika halı restorasyonu:** Kapadokya'da antika halı ticareti yaygındır. 100+ yaşında halılar profesyonel restorasyon gerektirir — bu hizmet standart halı yıkamadan farklıdır.
+
+⚠️ *Antika veya müze değerinde halınız varsa standart halı yıkama firması değil, el dokuması uzmanı firma tercih edin.*`,
+      },
+      {
+        heading: 'Nevşehir İklimi ve Halı Bakımı',
+        content: `Nevşehir, 1.224 metre rakımda yarı kurak step iklimine sahiptir:
+
+**Kuru yazlar:** Nem %20-30 arasında. Türkiye'nin en kuru bölgelerinden biridir. Halılar 4-5 saatte kurur — küflenme riski sıfırdır.
+
+**Soğuk kışlar:** -15°C'ye varan sıcaklıklar. Kar 1-2 ay yerde kalır. Kaya otellerin doğal serinliği halı muhafazası için avantaj, ama nem kontrolü gerektirir.
+
+**Volkanik tüf tozu:** Peri bacalarından dökülen ince tüf tozu halılara siner. Bu toz standart süpürmeyle tam çıkmaz — profesyonel derin temizlik gerekir.
+
+**Turist sezonu:** Nisan-Kasım arası yoğun turist sezonu. Oteller bu dönemde halı yıkama hizmetine ihtiyaç duyar. Düşük sezonda (Aralık-Mart) bakım yapılması önerilir.
+
+📌 *Kapadokya'nın kuru iklimi halı muhafazası için idealdir ama tüf tozu düzenli temizlik gerektirir.*`,
+      },
+      {
+        heading: 'Nevşehir İlçelerinde Halı Yıkama Hizmetleri',
+        content: `Nevşehir 8 ilçeye sahip, Kapadokya turizm bölgesinin merkezidir:
+
+**Turizm İlçeleri:**
+- [Nevşehir Merkez halı yıkama](/nevsehir-merkez-hali-yikama-firmalari) — Şehir merkezi, firmalar burada
+- [Ürgüp halı yıkama](/nevsehir-urgup-hali-yikama-firmalari) — Turizm merkezi, kaya oteller
+- [Avanos halı yıkama](/nevsehir-avanos-hali-yikama-firmalari) — Çömlekçilik, halı üretimi
+- [Göreme halı yıkama](/nevsehir-goreme-hali-yikama-firmalari) — Balon turları, UNESCO
+- [Uçhisar halı yıkama](/nevsehir-uchisar-hali-yikama-firmalari) — Kale, lüks oteller
+
+**Diğer İlçeler:**
+- [Derinkuyu halı yıkama](/nevsehir-derinkuyu-hali-yikama-firmalari) — Yeraltı şehri
+- [Gülşehir halı yıkama](/nevsehir-gulsehir-hali-yikama-firmalari) — Açıksaray
+- [Hacıbektaş halı yıkama](/nevsehir-hacibektas-hali-yikama-firmalari) — Kültür merkezi
+- [Kozaklı halı yıkama](/nevsehir-kozakli-hali-yikama-firmalari) — Termal turizm
+
+📌 *Ürgüp ve Avanos'ta halı ticaretine hizmet veren uzman firmalar mevcuttur. Tüm ilçelere merkez firmalarından alım-teslim yapılır.*`,
+      },
+    ],
+    faq: [
+      { q: 'Nevşehir\'de halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-88 TL/m², el dokuması 85-155 TL/m², antika halı 120-250 TL/m² aralığındadır.' },
+      { q: 'Kapadokya\'daki otellerden halı yıkama hizmeti alabilir miyim?', a: 'Evet, Nevşehir firmaları Göreme, Ürgüp, Uçhisar ve Avanos\'a düzenli ticari halı yıkama hizmeti sunar.' },
+      { q: 'Avanos halısı nasıl yıkanır?', a: 'Soğuk su + nötr pH deterjan ile düşük basınçlı yıkama. Doğal boyalar sıcak suya dayanmaz. Gölgede kurutma zorunludur.' },
+      { q: 'Antika halı restorasyonu yapılır mı?', a: 'Bazı firmalar restorasyon düzeyinde hizmet sunar. Platform üzerinde "el dokuması uzmanı" etiketli firmaları tercih edin.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'aksaray-hali-yikama', 'kayseri-hali-yikama'],
+  },
+
+  // ── Batman ────────────────────────────────────────────────
+  {
+    slug: 'batman-hali-yikama',
+    city: 'Batman',
+    citySlug: 'batman',
+    title: 'Batman Halı Yıkama Rehberi — Fiyatlar, İlçeler ve Tavsiyeler',
+    metaTitle: 'Batman Halı Yıkama Fiyatları 2026 | Rehber & Karşılaştırma',
+    metaDescription: 'Batman halı yıkama fiyatları, güvenilir firma önerileri ve ilçe bazlı hizmet rehberi. Güneydoğu\'nun sıcak iklimine uygun halı bakımı.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 8,
+    heroEmoji: '🛢️',
+    intro: 'Batman, Türkiye\'nin petrol başkentidir. 1950\'lerden itibaren petrol rafinerisiyle hızla büyüyen şehir, Güneydoğu Anadolu\'nun genç ve dinamik illerinden biridir. Hasankeyf\'in tarihi dokusu ve Batman Çayı\'nın vadisi şehre kültürel derinlik katar. Sıcak yazları ve ılıman kışlarıyla halı yıkama için elverişli bir iklime sahiptir.',
+    sections: [
+      {
+        heading: 'Batman Halı Yıkama Fiyatları 2026',
+        content: `Batman halı yıkama fiyatları Güneydoğu Anadolu ortalamasında, uygun seviyededir:
+
+| Halı Türü | Fiyat Aralığı (m²) | Not |
+|---|---|---|
+| Makine halısı | 70-82 TL | Standart |
+| El dokuması / kilim | 78-128 TL | Yöresel kilimler |
+| Shaggy / uzun tüylü | 72-110 TL | Hızlı kuruma |
+| Yün halı | 78-125 TL | Standart |
+
+🔴 **Pahalı bölgeler:** Merkez Batman, İluh Mahallesi, Petrolkent
+🟡 **Orta fiyatlı bölgeler:** Kozluk merkez, Sason merkez
+🟢 **Uygun fiyatlı bölgeler:** Beşiri, Gercüş, Hasankeyf
+
+💡 *Batman'ın sıcak iklimi halıları 3-4 saatte kurutur — Türkiye'nin en hızlı kuruyan şehirlerinden biridir.*`,
+      },
+      {
+        heading: 'Batman İklimi ve Halı Bakımı',
+        content: `Batman, Güneydoğu Anadolu'nun sıcak ve yarı kurak iklimine sahiptir:
+
+**Kavurucu yazlar:** Haziran-Eylül arası sıcaklık 40-45°C'ye çıkar. Halılar çok hızlı kurur ama doğrudan güneş renkleri solduruyor — gölgede kurutma zorunludur.
+
+**Ilıman kışlar:** Sıcaklık nadiren -5°C'nin altına düşer. Yılın büyük bölümünde halı yıkama yapılabilir.
+
+**Petrol ve sanayi tozu:** Rafineri bölgesine yakın konutlarda havadaki endüstriyel partiküllerle halılar daha çabuk kirlenir.
+
+**Toz fırtınaları:** Step ikliminin etkisiyle yaz aylarında toz fırtınaları olur. Bu dönemlerde halılar birkaç günde kirlenir.
+
+**Böcek sorunu:** Sıcak iklimde halı güvesi ve akar riski yüksektir. Anti-parazit işlemi standart olmalıdır.
+
+📌 *Batman'da yılın 10 ayı halı yıkama yapılabilir — iklim açısından avantajlı bir şehirdir.*`,
+      },
+      {
+        heading: 'Batman İlçelerinde Halı Yıkama Hizmetleri',
+        content: `Batman 6 ilçeye sahip kompakt bir ildir:
+
+**Merkez ve İlçeler:**
+- [Batman Merkez halı yıkama](/batman-merkez-hali-yikama-firmalari) — Şehir merkezi
+- [Kozluk halı yıkama](/batman-kozluk-hali-yikama-firmalari) — Büyük ilçe
+- [Sason halı yıkama](/batman-sason-hali-yikama-firmalari) — Dağlık
+- [Beşiri halı yıkama](/batman-besiri-hali-yikama-firmalari) — Güneyde
+- [Gercüş halı yıkama](/batman-gercus-hali-yikama-firmalari) — Tarihi
+- [Hasankeyf halı yıkama](/batman-hasankeyf-hali-yikama-firmalari) — UNESCO aday, tarihi
+
+📌 *Batman kompakt bir ildir — merkez firmalar tüm ilçelere aynı gün hizmet verebilir.*`,
+      },
+    ],
+    faq: [
+      { q: 'Batman\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-82 TL/m², el dokuması 78-128 TL/m² aralığındadır. Güneydoğu\'nun uygun fiyatlı şehirlerinden biridir.' },
+      { q: 'Batman\'da kışın halı yıkatılır mı?', a: 'Evet, ılıman kış sayesinde yılın 10-11 ayı halı yıkama yapılabilir.' },
+      { q: 'Petrol kokusu halıdan çıkar mı?', a: 'Profesyonel ozon işlemi ile büyük ölçüde çıkar. Uzun süre sinmiş petrol kokusu birden fazla yıkama gerektirebilir.' },
+      { q: 'Hasankeyf bölgesinden hizmet alabilir miyim?', a: 'Evet, Batman merkez firmaları Hasankeyf dahil tüm ilçelere alım-teslim yapar.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'diyarbakir-hali-yikama', 'sanliurfa-hali-yikama'],
+  },
 ];
