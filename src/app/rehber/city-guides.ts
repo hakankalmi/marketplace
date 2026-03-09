@@ -3525,4 +3525,187 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'sakarya-hali-yikama', 'trabzon-hali-yikama'],
   },
+
+  // ── Isparta ────────────────────────────────────────────────
+  {
+    slug: 'isparta-hali-yikama',
+    city: 'Isparta',
+    citySlug: 'isparta',
+    title: 'Isparta Halı Yıkama Rehberi — Fiyatlar, İlçeler ve Tavsiyeler',
+    metaTitle: 'Isparta Halı Yıkama Fiyatları 2026 | Rehber & Karşılaştırma',
+    metaDescription: 'Isparta halı yıkama fiyatları, güvenilir firma önerileri ve ilçe bazlı hizmet rehberi. Güller diyarının iklimine uygun halı bakım çözümleri.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 10,
+    heroEmoji: '🌹',
+    intro: 'Isparta, Türkiye\'nin gül ve halı başkentidir. Göller bölgesinde yer alan şehir, dünya gül yağı üretiminin %60\'ını karşılar. Aynı zamanda Isparta halısı yüzyıllardır süren dokuma geleneğiyle tanınır — özellikle fabrika üretimi halılarda "Isparta halısı" adı kalite göstergesidir. 1.050 metre rakımda karasal iklime sahip şehirde kışlar soğuk, yazlar sıcak ve kurak geçer. Süleyman Demirel Üniversitesi ile canlanan şehirde öğrenci nüfusu halı yıkama talebini artırır.',
+    sections: [
+      {
+        heading: 'Isparta Halı Yıkama Fiyatları 2026',
+        content: `Isparta, Türkiye'nin halı üretim merkezlerinden biri olması nedeniyle halı yıkama konusunda deneyimli firmalara sahiptir:
+
+| Halı Türü | Fiyat Aralığı (m²) | Not |
+|---|---|---|
+| Makine halısı | 70-88 TL | Standart yıkama |
+| El dokuması Isparta halısı | 90-160 TL | Özel bakım, fabrika halısı farklı |
+| Kilim / cicim | 80-130 TL | Doğal boya koruması |
+| Shaggy / uzun tüylü | 75-118 TL | Standart |
+| Yün halı | 85-135 TL | Soğuk yıkama |
+
+🔴 **Pahalı bölgeler:** Merkez Isparta, SDÜ çevresi, Gülcü Mahallesi
+🟡 **Orta fiyatlı bölgeler:** Eğirdir, Yalvaç merkez, Şarkikaraağaç
+🟢 **Uygun fiyatlı bölgeler:** Gelendost, Keçiborlu, Senirkent, Atabey
+
+💡 *Isparta firmaları halı konusunda uzmanlaşmıştır — üretim merkezinde yıkama kalitesi doğal olarak yüksektir.*`,
+      },
+      {
+        heading: 'Isparta Halısı — Türleri ve Bakım Rehberi',
+        content: `Isparta, Türkiye'nin en önemli halı üretim merkezlerinden biridir. "Isparta halısı" adı farklı ürün kategorilerini kapsar:
+
+**Isparta fabrika halısı:** 19. yüzyıldan beri makine destekli üretimle bilinen halılar. Yoğun düğüm yapısı ve dayanıklılıkla tanınır. Standart profesyonel yıkamaya uygundur — özel işlem gerektirmez.
+
+**Isparta el dokuması halısı:** Geleneksel Türk düğümüyle elle dokunan halılar. Doğal boyalar ve yün kullanımı nedeniyle yıkamada soğuk su + nötr pH deterjan şarttır. Antika olanlar özel restorasyoncuya götürülmelidir.
+
+**Isparta kilimi:** Düz dokuma, geometrik desenli. Hafif ve dayanıklıdır. Makine yıkamaya uygundur ama düşük devir gerekir.
+
+**Gül yağı ve gül suyu lekeleri:** Isparta'nın simgesi gül ürünlerinin halıya dökülmesi sık rastlanan bir durumdur. Gül yağı yağ bazlıdır — soğuk su + yağ çözücü ön işlem gerekir. Gül suyu ise su bazlı olduğundan iz bırakmadan temizlenir.
+
+⚠️ *"Isparta halısı" etiketi taşıyan her halı el dokuması değildir. Bakım talimatları halı türüne göre değişir — firmaya halınızın fabrika üretimi mi el dokuması mı olduğunu bildirin.*`,
+      },
+      {
+        heading: 'Göller Bölgesi İklimi ve Halı Bakımı',
+        content: `Isparta, Göller Bölgesi'nde yer alır. Eğirdir, Burdur ve Kovada gölleri şehri çevreler. Bu konum iklimi ve halı bakımını etkiler:
+
+**Kuru yazlar:** Yaz aylarında nem %25-35 arasında kalır. Halılar açık havada 5-7 saatte kurur. Küflenme riski neredeyse sıfırdır — İç Anadolu'nun avantajlı iklimi.
+
+**Soğuk kışlar:** Kış sıcaklığı -10°C'ye düşebilir, kar 1-2 ay yerde kalır. Kapalı tesiste kurutma 3-4 gün sürer.
+
+**Göl kenarı nemi:** Eğirdir ve Kovada Gölü çevresindeki yerleşimlerde nem biraz daha yüksektir. Bu bölgelerde anti-küf işlemi tavsiye edilir.
+
+**Polen mevsimi:** Mayıs-Haziran arası gül hasadı ve çiçeklenme dönemidir. Bu dönemde havadaki polen halılara yerleşir ve alerjenleri artırır. Alerjik bireylerin bulunduğu evlerde polen sonrası profesyonel yıkama önerilir.
+
+📌 *Isparta'da halı yıkama için Mayıs-Ekim arası idealdir. Gül hasadı sonrasında temizlik alerji riskini azaltır.*`,
+      },
+      {
+        heading: 'Isparta İlçelerinde Halı Yıkama Hizmetleri',
+        content: `Isparta 13 ilçeye sahiptir. Göller ve dağlar arasında geniş bir coğrafyaya yayılır:
+
+**Merkez ve Büyük İlçeler:**
+- [Isparta Merkez halı yıkama](/isparta-merkez-hali-yikama-firmalari) — Şehir merkezi, tüm firmalar
+- [Eğirdir halı yıkama](/isparta-egirdir-hali-yikama-firmalari) — Eğirdir Gölü, turizm
+- [Yalvaç halı yıkama](/isparta-yalvac-hali-yikama-firmalari) — Antiokheia, tarihi ilçe
+- [Şarkikaraağaç halı yıkama](/isparta-sarkikaraagac-hali-yikama-firmalari) — Beyşehir Gölü yakını
+
+**Batı İlçeler:**
+- [Keçiborlu halı yıkama](/isparta-keciborlu-hali-yikama-firmalari) — Gül üretim merkezi, kükürt
+- [Senirkent halı yıkama](/isparta-senirkent-hali-yikama-firmalari) — Tarım
+- [Uluborlu halı yıkama](/isparta-uluborlu-hali-yikama-firmalari) — Tarihi ilçe
+- [Gelendost halı yıkama](/isparta-gelendost-hali-yikama-firmalari) — Eğirdir Gölü güneyi
+
+**Diğer İlçeler:**
+- [Atabey halı yıkama](/isparta-atabey-hali-yikama-firmalari) — Medreseler
+- [Gönen halı yıkama](/isparta-gonen-hali-yikama-firmalari) — Kırsal
+- [Sütçüler halı yıkama](/isparta-sutculer-hali-yikama-firmalari) — Dağlık, Kovada Gölü
+- [Aksu halı yıkama](/isparta-aksu-hali-yikama-firmalari) — Zindan Mağarası
+- [Yenişarbademli halı yıkama](/isparta-yenisarbademli-hali-yikama-firmalari) — Küçük ilçe
+
+📌 *Isparta merkez firmaları tüm ilçelere ücretsiz alım-teslim yapar. Eğirdir ve Yalvaç'ta da yerel firma seçenekleri mevcuttur.*`,
+      },
+    ],
+    faq: [
+      { q: 'Isparta\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-88 TL/m², el dokuması Isparta halısı 90-160 TL/m², kilim 80-130 TL/m² aralığındadır.' },
+      { q: 'Isparta halısı evde yıkanabilir mi?', a: 'Fabrika üretimi Isparta halısı dayanıklıdır ama ağırlığı nedeniyle evde yıkama zordur. El dokuması olanlar kesinlikle profesyonel yıkama gerektirir.' },
+      { q: 'Gül yağı lekesi halıdan çıkar mı?', a: 'Evet ama yağ bazlı olduğu için özel çözücü gerekir. Lekeye mısır unu serpin, 1-2 saat bekletin, ardından süpürün. Kalanı profesyonel yıkamada tamamen çıkar.' },
+      { q: 'Isparta\'da kışın halı yıkatılır mı?', a: 'Kapalı kurutma tesisli firmada mümkündür. Kurutma 3-4 gün sürer. Yaz sezonu idealdir.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'denizli-hali-yikama', 'antalya-hali-yikama'],
+  },
+
+  // ── Giresun ────────────────────────────────────────────────
+  {
+    slug: 'giresun-hali-yikama',
+    city: 'Giresun',
+    citySlug: 'giresun',
+    title: 'Giresun Halı Yıkama Rehberi — Fiyatlar, İlçeler ve Tavsiyeler',
+    metaTitle: 'Giresun Halı Yıkama Fiyatları 2026 | Rehber & Karşılaştırma',
+    metaDescription: 'Giresun halı yıkama fiyatları, güvenilir firma önerileri ve ilçe bazlı hizmet rehberi. Karadeniz nemli iklimine uygun halı bakım çözümleri.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 9,
+    heroEmoji: '🫒',
+    intro: 'Giresun, Doğu Karadeniz\'in incisi ve fındığın anavatanıdır. Giresun Adası (Türkiye\'nin Karadeniz\'deki tek adası) ile benzersiz bir konuma sahip olan şehir, yıl boyunca yağışlı ve nemli iklimiyle bilinir. Dik yamaçlara kurulu evleri, yemyeşil doğası ve balıkçı kültürüyle kendine özgü bir yaşam sunar. Bu nemli iklim halı bakımında ciddi zorluklar yaratır — küflenme, koku ve yavaş kuruma en sık karşılaşılan sorunlardır.',
+    sections: [
+      {
+        heading: 'Giresun Halı Yıkama Fiyatları 2026',
+        content: `Giresun halı yıkama fiyatları Doğu Karadeniz ortalamasındadır:
+
+| Halı Türü | Fiyat Aralığı (m²) | Not |
+|---|---|---|
+| Makine halısı | 70-92 TL | Standart |
+| El dokuması / kilim | 85-140 TL | Az sayıda |
+| Shaggy / uzun tüylü | 80-125 TL | Kurutma kritik |
+| Yün halı | 85-140 TL | Anti-küf dahil |
+| İpek halı | 115-185 TL | El yıkama |
+
+🔴 **Pahalı bölgeler:** Giresun Merkez, Teyyaredüzü, sahil şeridi
+🟡 **Orta fiyatlı bölgeler:** Bulancak merkez, Espiye merkez, Görele merkez
+🟢 **Uygun fiyatlı bölgeler:** Şebinkarahisar, Dereli, Alucra, Çamoluk
+
+💡 *Giresun'un nemli ikliminde anti-küf işlemi lüks değil zorunluluktur — mutlaka isteyin.*`,
+      },
+      {
+        heading: 'Karadeniz Nemi ve Giresun\'da Halı Bakımı',
+        content: `Giresun, Türkiye'nin en çok yağış alan illerinden biridir. Yıllık 1.200+ mm yağış ve %80-90 nem, halı bakımını doğrudan etkiler:
+
+**Küflenme riski çok yüksek:** %80-90 nem oranı halılarda küf oluşumunu hızlandırır. Zemin katlarda ve dik yamaçlardaki evlerin alt katlarında halı altı nemi sürekli kontrol edilmelidir.
+
+**Kurutma sorunu:** Yılın 250+ günü yağış alan Giresun'da açık havada halı kurutma neredeyse imkânsızdır. Kapalı, ısıtmalı kurutma tesisi mutlak zorunluluktur.
+
+**Deniz tuzu etkisi:** Sahil şeridinde deniz tuzu zerrecikleri havada asılıdır. Bu tuz halı liflerine yapışarak nem çekmeyi artırır ve korozyona benzer yıpranmaya yol açar. Sahil evlerinde yılda 2 kez yıkama önerilir.
+
+**Fındık hasadı dönemi:** Ağustos-Eylül'de tüm şehir fındık hasadıyla meşguldür. Toprak, yaprak ve fındık kabuğu halılara sık bulaşır. Hasat sonrası profesyonel yıkama standart bir ihtiyaçtır.
+
+**Soba-kalorifer nemi:** Kış aylarında kapalı ortamda ısınmadan kaynaklanan yoğuşma halı altında nem biriktirir. Halı altlığı ve düzenli havalandırma şarttır.
+
+📌 *Giresun'da halı yıkatırken kapalı kurutma tesisi olan firmayı tercih edin ve anti-küf işlemini standart yıkamayla birlikte yaptırın.*`,
+      },
+      {
+        heading: 'Giresun İlçelerinde Halı Yıkama Hizmetleri',
+        content: `Giresun 16 ilçeyle kıyıdan dağlık iç bölgelere uzanan geniş bir coğrafyaya sahiptir:
+
+**Kıyı İlçeler (hizmet yoğun):**
+- [Giresun Merkez halı yıkama](/giresun-merkez-hali-yikama-firmalari) — Şehir merkezi, tüm firmalar
+- [Bulancak halı yıkama](/giresun-bulancak-hali-yikama-firmalari) — En kalabalık ilçe, batıda
+- [Görele halı yıkama](/giresun-gorele-hali-yikama-firmalari) — Doğuda, Trabzon sınırı
+- [Espiye halı yıkama](/giresun-espiye-hali-yikama-firmalari) — Sahil, andezit taşı
+- [Tirebolu halı yıkama](/giresun-tirebolu-hali-yikama-firmalari) — Tarihi kale, balıkçılık
+- [Eynesil halı yıkama](/giresun-eynesil-hali-yikama-firmalari) — Sahil yerleşim
+- [Piraziz halı yıkama](/giresun-piraziz-hali-yikama-firmalari) — Sahil
+
+**İç Bölge İlçeler:**
+- [Dereli halı yıkama](/giresun-dereli-hali-yikama-firmalari) — Kuzalan Şelalesi
+- [Yağlıdere halı yıkama](/giresun-yaglidere-hali-yikama-firmalari) — Vadi
+- [Keşap halı yıkama](/giresun-kesap-hali-yikama-firmalari) — Merkeze yakın
+- [Güce halı yıkama](/giresun-guce-hali-yikama-firmalari) — Kırsal
+
+**Yüksek Rakım İlçeler:**
+- [Şebinkarahisar halı yıkama](/giresun-sebinkarahisar-hali-yikama-firmalari) — Tarihi şehir, 1.500m
+- [Alucra halı yıkama](/giresun-alucra-hali-yikama-firmalari) — Dağlık
+- [Çamoluk halı yıkama](/giresun-camoluk-hali-yikama-firmalari) — Sivas sınırı
+- [Çanakçı halı yıkama](/giresun-canakci-hali-yikama-firmalari) — Küçük ilçe
+- [Doğankent halı yıkama](/giresun-dogankent-hali-yikama-firmalari) — HES bölgesi
+
+📌 *Kıyı ilçelerinde Bulancak ve Görele'de yerel firmalar mevcuttur. İç bölge ilçelerine Giresun merkez firmalarından ücretsiz alım-teslim yapılır.*`,
+      },
+    ],
+    faq: [
+      { q: 'Giresun\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-92 TL/m², yün halı 85-140 TL/m² aralığındadır. Anti-küf işlemi için +10-15 TL/m² ek ücret olabilir.' },
+      { q: 'Giresun\'da halı neden çabuk küflenir?', a: '%80-90 nem oranı ve yıllık 1.200+ mm yağış küf oluşumunu hızlandırır. Zemin katlarda halı altlığı zorunludur.' },
+      { q: 'Giresun\'da en iyi halı yıkama zamanı ne zaman?', a: 'Temmuz-Ağustos en az yağışlı dönemdir ama Giresun\'da "garanti kuru gün" yoktur — her zaman kapalı kurutma tesisi tercih edin.' },
+      { q: 'Fındık kabuğu lekesi halıdan çıkar mı?', a: 'Taze iken soğuk su ile müdahale edilirse kolayca çıkar. Kurumuş lekelerde tanin bazlı deterjan gerekebilir — profesyonel yıkamada sorun olmaz.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'trabzon-hali-yikama', 'ordu-hali-yikama'],
+  },
 ];
