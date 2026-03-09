@@ -6099,4 +6099,187 @@ Osmaneli ve Bilecik merkezdeki Sakarya Nehri kıyısı evlerde bahar aylarında 
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'eskisehir-hali-yikama', 'bursa-hali-yikama'],
   },
+
+  // ==================== TUNCELİ ====================
+  {
+    slug: 'tunceli-hali-yikama',
+    city: 'Tunceli',
+    citySlug: 'tunceli',
+    title: 'Tunceli Halı Yıkama Rehberi — Fiyatlar, Firmalar ve İpuçları',
+    metaTitle: 'Tunceli Halı Yıkama Fiyatları 2026 | En İyi Firmalar',
+    metaDescription: 'Tunceli halı yıkama fiyatları 2026 güncel liste. Munzur vadisinde dağlık coğrafya koşullarında halı bakımı, ilçe bazlı firmalar ve fiyat karşılaştırması.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 7,
+    heroEmoji: '🏔️',
+    intro: 'Tunceli, Türkiye\'nin en dağlık illerinden biridir. **Munzur Vadisi Milli Parkı** ile çevrili şehir, sert kışları ve kısa yazlarıyla bilinir. Düşük nüfus yoğunluğu ve dağlık arazi nedeniyle halı yıkama firması sayısı sınırlıdır ancak mevcut firmalar bölgenin zorlu koşullarına hakimdir. **[Tunceli halı yıkama firmaları](/tunceli-hali-yikama-firmalari)** bu coğrafyaya uygun çalışır.',
+    sections: [
+      {
+        heading: 'Tunceli\'de Halı Yıkama Fiyatları 2026',
+        content: `Tunceli\'de halı yıkama fiyatları sınırlı firma sayısı ve ulaşım zorluğu nedeniyle bölge ortalamasının biraz üzerindedir.
+
+| Halı Türü | Fiyat Aralığı (m²) | Açıklama |
+|---|---|---|
+| Makine Halısı | 70 – 88 TL | Standart yıkama |
+| Yün / El Dokuma | 82 – 135 TL | Yerel el dokumaları hassas yıkama |
+| Shaggy / Uzun Tüy | 85 – 125 TL | Yüksek rakımda uzun kurutma |
+| Yolluk / Merdiven | 70 – 80 TL | Metre bazlı hesaplama |
+
+🔴 **Yüksek**: Merkez (tek ciddi hizmet noktası)
+🟡 **Orta**: Pertek, Mazgirt
+🟢 **Uygun**: Hozat, Ovacık (kırsal)
+
+*Tunceli\'de firma sayısı az olduğu için randevu önceden alınmalıdır. Özellikle yaz sezonunda talep yoğunlaşır.*`,
+      },
+      {
+        heading: 'Tunceli İklimi ve Halı Bakımı',
+        content: `Tunceli, 940 m rakımda Munzur ve Pülümür çaylarının birleştiği vadide kurulmuştur. İklimi sert karasaldır:
+
+**İklim zorlukları:**
+- Kış sıcaklıkları -15°C ile -25°C arası — halı donması riski
+- Kar örtüsü 4-5 ay — açık alan kurutma imkânsız
+- Yazlar kısa ama sıcak (Temmuz 35°C) — ideal yıkama penceresi dar
+- Dağlık arazi — nakliye zor ve maliyetli
+
+**Bakım önerileri:**
+- Halı yıkama sezonunu Haziran-Eylül arasına sıkıştırın
+- Kışa girmeden (Ekim sonu) mutlaka yıkatın
+- Soba/odun ateşi kullanan evlerde kurum birikimini ilkbaharda temizletin
+- Yayladan inen halıları toprak ve nemden arındırmak için mutlaka yıkatın
+
+*Munzur Vadisi\'ndeki yüksek nem oranı ile şehir merkezinin karasal kuru havası arasında fark vardır. Vadi köylerinde halılar daha çok nemden, merkezde tozdan etkilenir.*`,
+      },
+      {
+        heading: 'İlçe Bazlı Halı Yıkama Firmaları',
+        content: `Tunceli\'nin dağlık yapısı nedeniyle firmalar merkez ağırlıklıdır:
+
+- [Tunceli merkez halı yıkama](/tunceli-merkez-hali-yikama-firmalari) — Ana hizmet merkezi
+- [Pertek halı yıkama](/tunceli-pertek-hali-yikama-firmalari) — Keban Barajı kıyısı
+- [Mazgirt halı yıkama](/tunceli-mazgirt-hali-yikama-firmalari) — Tarihi ilçe
+- [Hozat halı yıkama](/tunceli-hozat-hali-yikama-firmalari) — Yüksek yayla
+- [Ovacık halı yıkama](/tunceli-ovacik-hali-yikama-firmalari) — Munzur Vadisi girişi
+- [Pülümür halı yıkama](/tunceli-pulumur-hali-yikama-firmalari) — Pülümür Vadisi
+- [Çemişgezek halı yıkama](/tunceli-cemiskezek-hali-yikama-firmalari) — Fırat kıyısı
+- [Nazımiye halı yıkama](/tunceli-nazimiye-hali-yikama-firmalari) — Dağ köyü
+
+📌 *Tunceli\'nin uzak ilçelerine merkezden servis yapılır. Pertek ve Çemişgezek gibi baraj kıyısı ilçeler nispeten kolay ulaşılır. Ovacık ve Pülümür\'e kışın ulaşım zorlaşır.*`,
+      },
+      {
+        heading: 'Tunceli\'de Halı Seçimi ve Koruma',
+        content: `Tunceli\'nin zorlu coğrafyasında halı bakımı için pratik öneriler:
+
+**Soba kullanan evlerde:**
+Tunceli\'de kışın odun ve kömür sobası yaygındır. Kurum, kül ve is halılara siner. Koyu renkli, kısa tüylü halılar bakımı kolaylaştırır. Her bahar mutlaka profesyonel yıkama yaptırın.
+
+**Munzur suyu avantajı:**
+Tunceli\'nin doğal kaynak suları yumuşaktır — kireç sorunu yoktur. Bu, halı yıkama kalitesini olumlu etkiler. Firmalar doğal su kullanabildiğinde sonuç daha iyi olur.
+
+**Yerel el dokumaları:**
+Tunceli bölgesinin geleneksel el dokuma kilimleri kültürel değer taşır. Doğal boyalı bu kilimleri yalnızca düşük sıcaklıkta, doğal sabunla yıkayan firmaya teslim edin.
+
+*Tunceli\'de doğa turizmi artıyor. Kamp ve yayla dönüşü çadır altlığı olarak kullanılan halıları mutlaka profesyonelce yıkatın — toprak ve rutubet liflere zarar verir.*`,
+      },
+    ],
+    faq: [
+      { q: 'Tunceli\'de halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-88 TL/m², yün halı 82-135 TL/m² aralığındadır. Sınırlı firma sayısı fiyatı etkiler.' },
+      { q: 'Tunceli\'de kışın halı yıkatılır mı?', a: 'Kapalı tesisi olan firmalarda mümkündür ama kurutma 5-7 gün sürer. Yaz sezonu kesinlikle tercih edilmelidir.' },
+      { q: 'Tunceli\'den Elazığ firması mı tercih etmeliyim?', a: 'Elazığ 120 km uzaktadır. Nakliye dahil fiyat karşılaştırması yapın. Yerel firmalar genellikle daha pratiktir.' },
+      { q: 'Munzur suyu halı yıkamaya uygun mu?', a: 'Evet, Tunceli\'nin doğal kaynak suları yumuşaktır ve kireç bırakmaz. Bu halı yıkama için büyük avantajdır.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'elazig-hali-yikama', 'erzincan-hali-yikama'],
+  },
+
+  // ==================== UŞAK ====================
+  {
+    slug: 'usak-hali-yikama',
+    city: 'Uşak',
+    citySlug: 'usak',
+    title: 'Uşak Halı Yıkama Rehberi — Fiyatlar, Firmalar ve İpuçları',
+    metaTitle: 'Uşak Halı Yıkama Fiyatları 2026 | En İyi Firmalar',
+    metaDescription: 'Uşak halı yıkama fiyatları 2026 güncel liste. Türkiye\'nin halı başkentinde profesyonel yıkama, ilçe bazlı firmalar ve fiyat karşılaştırması.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 8,
+    heroEmoji: '🧶',
+    intro: 'Uşak, Türkiye\'nin **halı üretim başkenti**dir. Yüzyıllardır halı dokumacılığıyla ünlü olan şehir, halı bakımı konusunda da derin bir birikime sahiptir. Uşak halıları dünya müzelerinde sergilenir. **[Uşak halı yıkama firmaları](/usak-hali-yikama-firmalari)** bu geleneğin uzmanlarıdır.',
+    sections: [
+      {
+        heading: 'Uşak\'ta Halı Yıkama Fiyatları 2026',
+        content: `Uşak\'ta halı yıkama fiyatları rekabetçidir. Halı üretim merkezi olması firma sayısını ve rekabeti artırır. Antika Uşak halıları için özel fiyatlandırma uygulanır.
+
+| Halı Türü | Fiyat Aralığı (m²) | Açıklama |
+|---|---|---|
+| Makine Halısı | 70 – 80 TL | Standart yıkama, bol firma seçeneği |
+| Yün / El Dokuma | 80 – 140 TL | Uşak halıları uzman işçilik |
+| Antika / Müze Değeri | 120 – 250 TL | Restorasyon düzeyinde özel bakım |
+| Shaggy / Uzun Tüy | 80 – 110 TL | Standart kurutma |
+| Yolluk / Merdiven | 70 – 75 TL | Metre bazlı hesaplama |
+
+🔴 **Yüksek**: Merkez (antika halı uzmanlığı ek fiyat)
+🟡 **Orta**: Banaz, Eşme
+🟢 **Uygun**: Sivaslı, Ulubey, Karahallı
+
+*Uşak\'ta "halı yıkama" sektörü geleneksel zanaattan evrilmiştir. Firmalar halı tamiri, onarımı ve saçak düzeltme hizmeti de sunar.*`,
+      },
+      {
+        heading: 'Uşak Halı Geleneği ve Bakım',
+        content: `Uşak, 15. yüzyıldan bu yana dünya halı tarihinde önemli bir merkezdir. **Uşak halıları** (Star Uşak, Medallion Uşak) Londra Victoria & Albert Müzesi ve New York Metropolitan Müzesi\'nde sergilenir:
+
+**Uşak halı tipleri:**
+- **Yıldız (Star) Uşak**: Mavi zemin, yıldız motifleri — antika değeri yüksek
+- **Madalyon (Medallion) Uşak**: Kırmızı zemin, merkez madalyon — en bilinen tip
+- **Kuşlu Uşak**: Stilize kuş motifleri — nadir bulunan
+- **Modern Uşak**: Geleneksel desenlerin çağdaş yorumu — fabrika üretimi
+
+**Antika halı bakımında dikkat:**
+- Kesinlikle makine yıkama YAPILMAMALI
+- Düşük sıcaklıkta (30°C altı), pH nötr deterjanla el yıkama
+- Direkt güneşte kurutmama — renk solması riski
+- Güve koruması zorunlu (lavanta, sedir)
+- Yılda 1 kez ters çevirip tozunu alma
+
+*Uşak\'ta antika halı değerlemesi yapan firmalar mevcuttur. Elinizde eski bir Uşak halısı varsa, yıkama öncesi değerleme yaptırmanız önerilir — bazıları binlerce dolar değerindedir.*`,
+      },
+      {
+        heading: 'İlçe Bazlı Halı Yıkama Firmaları',
+        content: `Uşak\'ta halı geleneği sayesinde firma çeşitliliği yüksektir:
+
+- [Uşak merkez halı yıkama](/usak-merkez-hali-yikama-firmalari) — Uzman firmalar, antika halı bakımı
+- [Banaz halı yıkama](/usak-banaz-hali-yikama-firmalari) — Tarım ilçesi
+- [Eşme halı yıkama](/usak-esme-hali-yikama-firmalari) — Dokumacılık geleneği
+- [Sivaslı halı yıkama](/usak-sivasli-hali-yikama-firmalari) — Kırsal bölge
+- [Ulubey halı yıkama](/usak-ulubey-hali-yikama-firmalari) — Kanyon bölgesi
+- [Karahallı halı yıkama](/usak-karahalli-hali-yikama-firmalari) — Küçük ilçe
+
+📌 *Eşme ilçesi halı dokumacılığı geleneğiyle ünlüdür. Eşme\'de halı bakımı konusunda deneyimli ustalar bulunur.*`,
+      },
+      {
+        heading: 'Uşak\'ta Halı Yıkama İpuçları',
+        content: `Türkiye\'nin halı başkentinden uzman öneriler:
+
+**Uşak iklimi ve halı:**
+Uşak yarı karasal iklime sahiptir. Yazlar sıcak ve kurak (35-38°C), kışlar soğuk (-5 ile -10°C). Yazın kurutma çok hızlıdır ancak direkt güneş antika halılara zararlıdır — gölgede kurutma tercih edin.
+
+**Halı saklama:**
+- Rulolar halinde, bez örtüyle — plastik poşette saklama YAPMAYIN (nem hapseder)
+- Güve hapı veya lavanta kesesi ekleyin
+- Kuru, serin ve karanlık ortam
+- 6 ayda bir açıp havalandırın
+
+**Leke müdahalesi:**
+Uşak\'taki ustalar şu geleneksel yöntemi önerir: taze lekeye hemen soğuk su + beyaz sirke (1:1) uygulayın. Ovuşturmayın, bastırarak emdirin. 15 dakika bekleyin, nemli bezle silin.
+
+*Uşak\'taki halı fabrikaları (Kaplan, Merinos, Pierre Cardin üreticileri) çalışanlarına halı bakım eğitimi verir. Bazı eski fabrika ustaları kendi yıkama firmalarını açmıştır — bu firmaları tercih edin.*`,
+      },
+    ],
+    faq: [
+      { q: 'Uşak\'ta halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-80 TL/m², yün halı 80-140 TL/m² aralığındadır. Antika Uşak halıları 120-250 TL/m² olabilir.' },
+      { q: 'Antika Uşak halısını nerede yıkatmalıyım?', a: 'Uşak merkezde antika halı uzmanı firmalar vardır. Referans isteyin, deneme için küçük bir parça yıkatın. pH nötr deterjan kullanmayan firmaya teslim etmeyin.' },
+      { q: 'Uşak halısının değerini nasıl anlayabilirim?', a: 'Uşak\'ta halı değerleme yapan uzmanlar mevcuttur. Halının yaşı, düğüm sıklığı, boyama tekniği ve motif deseni değeri belirler.' },
+      { q: 'Uşak\'ta en iyi halı yıkama sezonu hangisi?', a: 'Haziran-Eylül arası idealdir. Kurutma hızlıdır. Antika halılar için gölgede kurutma zorunludur.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'afyon-hali-yikama', 'denizli-hali-yikama'],
+  },
 ];
