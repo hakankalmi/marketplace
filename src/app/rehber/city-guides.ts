@@ -4961,4 +4961,152 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'edirne-hali-yikama', 'tekirdag-hali-yikama'],
   },
+
+  // ── Bingöl ────────────────────────────────────────────────
+  {
+    slug: 'bingol-hali-yikama',
+    city: 'Bingöl',
+    citySlug: 'bingol',
+    title: 'Bingöl Halı Yıkama Rehberi — Fiyatlar, İlçeler ve Tavsiyeler',
+    metaTitle: 'Bingöl Halı Yıkama Fiyatları 2026 | Rehber & Karşılaştırma',
+    metaDescription: 'Bingöl halı yıkama fiyatları, güvenilir firma önerileri ve ilçe bazlı hizmet rehberi. Doğu Anadolu dağ iklimine uygun halı bakımı.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 8,
+    heroEmoji: '🐝',
+    intro: 'Bingöl, "bin göl" adını aldığı sayısız krater gölüyle Doğu Anadolu\'nun doğa harikası şehridir. 1.150 metre rakımda sert karasal iklime sahip olan Bingöl\'de kışlar uzun ve soğuk, yazlar kısa ve sıcak geçer. Balı, yaylaları ve termal kaynaklarıyla tanınan şehirde geleneksel halı ve kilim kültürü yaşamaya devam eder.',
+    sections: [
+      {
+        heading: 'Bingöl Halı Yıkama Fiyatları 2026',
+        content: `Bingöl halı yıkama fiyatları Türkiye'nin en uygun seviyesindedir:
+
+| Halı Türü | Fiyat Aralığı (m²) | Not |
+|---|---|---|
+| Makine halısı | 70-80 TL | Standart |
+| El dokuması / kilim | 75-125 TL | Yöresel dokumalar |
+| Shaggy / uzun tüylü | 72-108 TL | Kurutma uzun |
+| Yün halı | 75-120 TL | Soğuk yıkama |
+
+🔴 **Pahalı bölgeler:** Merkez Bingöl, Üniversite çevresi
+🟡 **Orta fiyatlı bölgeler:** Genç merkez, Solhan merkez, Karlıova merkez
+🟢 **Uygun fiyatlı bölgeler:** Kiğı, Adaklı, Yayladere, Yedisu
+
+💡 *Bingöl, Türkiye'nin en düşük halı yıkama fiyatlarına sahip illerinden biridir.*`,
+      },
+      {
+        heading: 'Bingöl İklimi ve Halı Bakımı',
+        content: `Bingöl, Doğu Anadolu'nun sert iklim kuşağında yer alır:
+
+**Uzun kışlar:** Kasım-Nisan arası soğuk dönem. -20°C'ye varan sıcaklıklar ve 3-4 ay kar. Halı yıkama bu dönemde pratik değildir.
+
+**Kısa yazlar:** Temmuz-Ağustos'ta 32-36°C. Kuru havada halılar hızla kurur. Bu 2-3 aylık pencere halı yıkama için idealdir.
+
+**Deprem bölgesi:** Bingöl deprem riski yüksek bir bölgededir. Deprem sonrası yıkılan veya hasar gören binalarda inşaat tozu halılara siner — taşınma/onarım sonrası profesyonel yıkama önerilir.
+
+**Soba kullanımı:** Kırsal bölgelerde yaygın olan soba halılarda kurum ve is bırakır.
+
+**Arıcılık bölgesi:** Bingöl balıyla meşhurdur. Bal lekesi halıya düşerse ılık su ile hemen müdahale edin — kurumuş bal yapışkan kalıntı bırakır.
+
+📌 *Bingöl'de halı yıkama fırsatı yılda 3-4 aydır. Haziran-Eylül arasını değerlendirin.*`,
+      },
+      {
+        heading: 'Bingöl İlçelerinde Halı Yıkama Hizmetleri',
+        content: `Bingöl 8 ilçeye sahip dağlık bir ildir:
+
+**Merkez ve Büyük İlçeler:**
+- [Bingöl Merkez halı yıkama](/bingol-merkez-hali-yikama-firmalari) — Şehir merkezi
+- [Genç halı yıkama](/bingol-genc-hali-yikama-firmalari) — Büyük ilçe, ova
+- [Solhan halı yıkama](/bingol-solhan-hali-yikama-firmalari) — Muş sınırı
+- [Karlıova halı yıkama](/bingol-karliova-hali-yikama-firmalari) — Fırat-Murat birleşimi
+
+**Diğer İlçeler:**
+- [Kiğı halı yıkama](/bingol-kigi-hali-yikama-firmalari) — Dağlık, kuzey
+- [Adaklı halı yıkama](/bingol-adakli-hali-yikama-firmalari) — Kırsal
+- [Yayladere halı yıkama](/bingol-yayladere-hali-yikama-firmalari) — Peri Çayı vadisi
+- [Yedisu halı yıkama](/bingol-yedisu-hali-yikama-firmalari) — Termal kaynaklar
+
+📌 *Genç ve Solhan'da sınırlı sayıda firma bulunur. Diğer ilçelere Bingöl merkez firmalarından alım-teslim yapılır.*`,
+      },
+    ],
+    faq: [
+      { q: 'Bingöl\'de halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-80 TL/m², el dokuması kilim 75-125 TL/m² aralığındadır. Türkiye\'nin en uygun şehirlerinden biridir.' },
+      { q: 'Bingöl\'de kışın halı yıkatılır mı?', a: '-20°C sıcaklıkta kurutma çok uzun sürer. Kapalı tesiste bile 7-10 gün. Yaz sezonunu tercih edin.' },
+      { q: 'Bal lekesi halıdan çıkar mı?', a: 'Taze iken ılık su ile kolay çıkar. Kurumuş bal yapışkan kalıntı bırakır — profesyonel yıkamada sorun olmaz.' },
+      { q: 'Karlıova\'dan hizmet alabilir miyim?', a: 'Evet, Bingöl merkez firmaları tüm ilçelere alım-teslim yapar. Mesafe nedeniyle 1-2 gün ek süre olabilir.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'elazig-hali-yikama', 'van-hali-yikama'],
+  },
+
+  // ── Karaman ────────────────────────────────────────────────
+  {
+    slug: 'karaman-hali-yikama',
+    city: 'Karaman',
+    citySlug: 'karaman',
+    title: 'Karaman Halı Yıkama Rehberi — Fiyatlar, İlçeler ve Tavsiyeler',
+    metaTitle: 'Karaman Halı Yıkama Fiyatları 2026 | Rehber & Karşılaştırma',
+    metaDescription: 'Karaman halı yıkama fiyatları, güvenilir firma önerileri ve ilçe bazlı hizmet rehberi. Karamanoğulları diyarının iklimine uygun halı bakımı.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 8,
+    heroEmoji: '📜',
+    intro: 'Karaman, Karamanoğulları Beyliği\'nin başkenti ve "Türkçenin ilk resmi dil ilan edildiği şehir" olarak tarihe geçmiştir. İç Anadolu\'nun güneyinde Toros Dağları\'nın eteklerinde yer alır. Kuru karasal iklimde yazlar sıcak, kışlar soğuk geçer. Halı dokuma geleneği olan şehirde özellikle Mut tarafından gelen kilimler değerlidir.',
+    sections: [
+      {
+        heading: 'Karaman Halı Yıkama Fiyatları 2026',
+        content: `Karaman halı yıkama fiyatları İç Anadolu ortalamasında, uygun seviyededir:
+
+| Halı Türü | Fiyat Aralığı (m²) | Not |
+|---|---|---|
+| Makine halısı | 70-85 TL | Standart |
+| El dokuması / kilim | 78-130 TL | Yöresel kilimler |
+| Shaggy / uzun tüylü | 72-112 TL | Hızlı kuruma |
+| Yün halı | 78-125 TL | Standart |
+
+🔴 **Pahalı bölgeler:** Merkez Karaman, Larende Caddesi
+🟡 **Orta fiyatlı bölgeler:** Ermenek merkez, Mut yolu
+🟢 **Uygun fiyatlı bölgeler:** Ayrancı, Kazımkarabekir, Başyayla, Sarıveliler
+
+💡 *Karaman'ın kuru iklimi halı kurutma için mükemmeldir — yaz aylarında 5-6 saatte kuruma tamamlanır.*`,
+      },
+      {
+        heading: 'Karaman İklimi ve Halı Bakımı',
+        content: `Karaman, İç Anadolu step iklimi ile Akdeniz ikliminin geçiş bölgesindedir:
+
+**Kuru yazlar:** 1.025 metre rakımda nem %25-35 arasında. Halılar çok hızlı kurur, küflenme riski yoktur.
+
+**Soğuk kışlar:** -12°C'ye varan sıcaklıklar, 1-2 ay kar. Kapalı tesiste kurutma 3-4 gün sürer.
+
+**Toros etekleri nemi:** Güneydeki Ermenek ve Başyayla gibi Toros eteklerindeki ilçelerde nem biraz daha yüksektir. Bu bölgelerde anti-küf işlemi önerilir.
+
+**Toz ve toprak:** Step ikliminin etkisiyle tarım bölgelerinde kuru dönemlerde ince toz halılara yerleşir.
+
+📌 *Karaman'da halı yıkama için Mayıs-Ekim arası idealdir. Kuru iklim avantajını kullanın.*`,
+      },
+      {
+        heading: 'Karaman İlçelerinde Halı Yıkama Hizmetleri',
+        content: `Karaman 6 ilçeye sahip orta büyüklükte bir ildir:
+
+**Merkez ve Büyük İlçeler:**
+- [Karaman Merkez halı yıkama](/karaman-merkez-hali-yikama-firmalari) — Şehir merkezi
+- [Ermenek halı yıkama](/karaman-ermenek-hali-yikama-firmalari) — Toros etekleri, büyük ilçe
+
+**Diğer İlçeler:**
+- [Ayrancı halı yıkama](/karaman-ayranci-hali-yikama-firmalari) — Step ovası
+- [Kazımkarabekir halı yıkama](/karaman-kazimkarabekir-hali-yikama-firmalari) — Kırsal
+- [Başyayla halı yıkama](/karaman-basyayla-hali-yikama-firmalari) — Dağlık
+- [Sarıveliler halı yıkama](/karaman-sariveliler-hali-yikama-firmalari) — Toros dağları
+
+📌 *Ermenek'te sınırlı sayıda yerel firma bulunur. Diğer ilçelere Karaman merkez firmalarından alım-teslim yapılır.*`,
+      },
+    ],
+    faq: [
+      { q: 'Karaman\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-85 TL/m², el dokuması 78-130 TL/m² aralığındadır. İç Anadolu ortalamasındadır.' },
+      { q: 'Karaman\'da kışın halı yıkatılır mı?', a: 'Kapalı tesiste mümkündür. Kurutma 3-4 gün sürer. Yaz sezonu daha verimlidir.' },
+      { q: 'Karaman\'dan Konya firması mı tercih etmeliyim?', a: 'Yerel firmalar daha uygun fiyat ve hızlı teslim sunar. Konya 100 km uzaktadır — nakliye fiyatı artırır.' },
+      { q: 'Ermenek bölgesinden hizmet alabilir miyim?', a: 'Evet, Ermenek\'te yerel firma seçenekleri mevcuttur. Karaman merkez firmaları da alım-teslim yapar.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'konya-hali-yikama', 'mersin-hali-yikama'],
+  },
 ];
