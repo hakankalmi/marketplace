@@ -613,4 +613,85 @@ Merkeze uzak ilçeler. Nizip (150.000+ nüfus) kendi başına önemli bir pazar 
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'adana-hali-yikama', 'konya-hali-yikama'],
   },
+  {
+    slug: 'sanliurfa-hali-yikama',
+    city: 'Şanlıurfa',
+    citySlug: 'sanliurfa',
+    title: 'Şanlıurfa Halı Yıkama Rehberi — İlçe Bazlı Fiyatlar ve Firmalar',
+    metaTitle: 'Şanlıurfa Halı Yıkama | İlçe Bazlı Fiyatlar ve En İyi Firmalar 2026',
+    metaDescription: 'Şanlıurfa halı yıkama fiyatları ilçe bazlı karşılaştırma. Eyyübiye, Haliliye, Karaköprü, Viranşehir, Siverek ve tüm ilçelerde en iyi halı yıkama firmaları.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 7,
+    heroEmoji: '🕌',
+    intro: 'Şanlıurfa, "Peygamberler Şehri" olarak bilinen ve 2 milyonu aşan nüfusuyla Güneydoğu Anadolu\'nun en kalabalık ilidir. Yazları 45°C\'yi aşan kavurucu sıcaklar, çöl tozu ve düşük nem oranı halılarda ciddi toz birikimi ve aşınma yaratır. Kalabalık aile yapısı ve misafir ağırlama geleneği nedeniyle halılar yoğun kullanılır ve düzenli profesyonel bakım gerektirir. Bu rehberde [Şanlıurfa halı yıkama](/sanliurfa-hali-yikama-firmalari) fiyatlarını ilçe bazlı karşılaştırıyor ve Urfa\'ya özgü halı bakım ipuçlarını paylaşıyoruz.',
+    sections: [
+      {
+        heading: 'Şanlıurfa Halı Yıkama Fiyatları — Genel',
+        content: `Şanlıurfa, Türkiye'nin en uygun fiyatlı büyük şehirlerinden biridir. Düşük yaşam maliyeti halı yıkama fiyatlarına doğrudan yansır:
+
+**Makine Halısı:** Ortalama 75 TL/m² (aralık: 70-110 TL) — İstanbul ortalaması 140 TL iken Şanlıurfa %46 daha uygun
+**El Halısı (Yün):** 95-160 TL/m²
+**İpek Halı:** 130-300 TL/m²
+**Shaggy / Uzun Tüylü:** 70-105 TL/m²
+**Kilim / El Dokuması:** 70-95 TL/m² — Urfa ve çevresinde geleneksel kilim kullanımı yaygındır
+
+**Şanlıurfa'nın Farkı:** Kavurucu yaz sıcakları kurutmayı son derece hızlandırır — halılar birkaç saat içinde kurur. Ancak aynı sıcaklık toz birikimini artırır, halılar daha sık kirlenir. Kalabalık hanelerde (6-8 kişi) halılar yoğun aşınmaya maruz kalır ve yılda en az 2 kez profesyonel yıkama gerekir.`,
+      },
+      {
+        heading: 'Şanlıurfa Halı Yıkama — İlçe Bazlı Fiyat Karşılaştırması',
+        content: `Şanlıurfa ortalaması makine halısı için 75 TL/m²'dir. Merkez üç ilçe ve kırsal ilçeler arasında belirgin fark vardır:
+
+**Yüksek Fiyat Bölgeleri (85-110 TL/m²):**
+[Karaköprü halı yıkama](/sanliurfa-karakopru-hali-yikama-firmalari) (Yenice, Direkli), [Haliliye halı yıkama](/sanliurfa-haliliye-hali-yikama-firmalari) (Devteşti, Şanlıurfa merkez)
+Karaköprü, Şanlıurfa'nın en hızlı büyüyen ve gelir düzeyi en yüksek ilçesidir. Yeni siteler ve TOKİ konutları bölgesi. Haliliye merkez ise şehrin ticari kalbidir.
+
+**Orta Fiyat Bölgeleri (70-85 TL/m²):**
+[Eyyübiye halı yıkama](/sanliurfa-eyyubiye-hali-yikama-firmalari), [Viranşehir halı yıkama](/sanliurfa-viransehir-hali-yikama-firmalari), [Siverek halı yıkama](/sanliurfa-siverek-hali-yikama-firmalari)
+Eyyübiye, Şanlıurfa'nın en kalabalık ilçesidir (700.000+ nüfus). Viranşehir ve Siverek kendi başına büyük pazarlardır (200.000+ nüfus) — yerel halı yıkama firmaları mevcuttur.
+
+**Uygun Fiyat Bölgeleri (70-75 TL/m²):**
+[Suruç halı yıkama](/sanliurfa-suruc-hali-yikama-firmalari), [Birecik halı yıkama](/sanliurfa-birecik-hali-yikama-firmalari), [Akçakale halı yıkama](/sanliurfa-akcakale-hali-yikama-firmalari), [Bozova halı yıkama](/sanliurfa-bozova-hali-yikama-firmalari), [Ceylanpınar halı yıkama](/sanliurfa-ceylanpinar-hali-yikama-firmalari)
+Sınır ilçeleri ve kırsal bölgeler. Firma sayısı sınırlıdır — bazı ilçelerde merkezden hizmet alınması gerekebilir.
+
+**Önemli Not:** Şanlıurfa, Türkiye'nin nüfus yoğunluğu en yüksek illerinden biridir. Hane başı 5-7 kişi ortalamasıyla halılar çok yoğun kullanılır. Düzenli yıkama hem hijyen hem halı ömrü açısından kritiktir.`,
+      },
+      {
+        heading: 'Şanlıurfa Halı Yıkama — Çöl İklimi ve Toz Etkisi',
+        content: `Şanlıurfa'nın step iklimi ve coğrafi konumu halı bakımını doğrudan etkiler:
+
+**Kavurucu Yazlar (Haziran-Eylül):** Şanlıurfa, Türkiye'nin en sıcak şehirlerinden biridir. Hava sıcaklığı düzenli olarak 45°C'yi aşar, gece bile 30°C'nin altına düşmez. Bu aşırı sıcaklık halılardaki toz akarlarını öldürür ama sıcaktan kaçmak için evde geçirilen süre artar ve halılar daha çok aşınır.
+
+**Çöl Tozu ve Kum:** Suriye sınırına yakın coğrafya nedeniyle güney rüzgârlarıyla ince kum ve toz taşınır. Bu partikül madde halı liflerinin derinlerine işler ve süpürgeyle çıkmaz. Profesyonel derin yıkama zorunludur. Özellikle zemin kat ve müstakil evlerde toz birikimi daha yoğundur.
+
+**Kış Ayları (Aralık-Şubat):** Şanlıurfa kışları ılık geçer (nadiren 0°C altı), İç Anadolu'ya göre çok daha hafiftir. Kışın bile açık hava kurutma yapılabilir — bu Şanlıurfa'daki firmaların avantajıdır.
+
+**Bahar Tozu (Mart-Mayıs):** İlkbahar rüzgârları yoğun toz taşır. Bu dönemde halılar hızla kirlenir. Yaz öncesi halı yıkatmak için en uygun zaman Nisan-Mayıs'tır.
+
+**Yoğun Dönem:** Ramazan ve Kurban Bayramı öncesi — Şanlıurfa'da bayram temizliği ve misafir ağırlama geleneği çok güçlüdür. Firmalar 3 hafta öncesinden dolar. Erken sipariş şarttır.
+
+[Şanlıurfa halı yıkama firmaları](/sanliurfa-hali-yikama-firmalari) — Şanlıurfa'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+      },
+      {
+        heading: 'Şanlıurfa Halı Yıkama Firması Seçerken Dikkat Edilecekler',
+        content: `**Kalabalık Hane Avantajı:** Şanlıurfa'da hane başı halı sayısı Türkiye ortalamasının üzerindedir. Birçok firma "ev paketi" sunarak 5+ halıya toplu indirim uygular. Sipariş öncesi toplu fiyat sorun — %10-20 tasarruf sağlayabilirsiniz.
+
+**Geleneksel Halı ve Kilim:** Urfa ve çevresinde el dokuması kilimler, cicimler ve yöresel motifli halılar yaygındır. Bu halılar genellikle doğal boyalıdır — sert kimyasallar renkleri bozar. Firmaya halınızın el dokuması olduğunu mutlaka belirtin.
+
+**Misafir Odası Halıları:** Güneydoğu'da misafir odası kültürü çok güçlüdür. Misafir odası halıları genellikle daha kaliteli ve değerlidir. Bu halılar için uzman firma tercih edin — kaba yıkama değerli halınıza zarar verebilir.
+
+**Sınır İlçelerinde Dikkat:** Akçakale, Suruç ve Ceylanpınar gibi sınır ilçelerinde halı yıkama firması sayısı sınırlıdır. Merkezden hizmet alıyorsanız ulaşım ücreti eklenebilir — sipariş öncesi teyit edin.
+
+**GAP Bölgesi Su Kalitesi:** GAP sulama projeleri sayesinde Şanlıurfa'da su kaynağı bol ancak su sertliği yüksektir. İyi firmalar yumuşatıcılı su sistemi kullanır — firmaya su arıtma/filtreleme sistemi olup olmadığını sorun. Sert su halıda beyaz kalıntı bırakabilir.`,
+      },
+    ],
+    faq: [
+      { q: 'Şanlıurfa\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı için ortalama 75 TL/m², el halısı 95-160 TL/m², kilim 70-95 TL/m² aralığındadır. Karaköprü en pahalı, Suruç ve Birecik en uygun ilçelerdir.' },
+      { q: 'Şanlıurfa\'da halı yıkama kaç gün sürer?', a: 'Yaz aylarında 1-2 gün (kurutma saatler içinde olur), kış aylarında 2-3 gün. Bayram dönemlerinde 5-7 güne çıkabilir.' },
+      { q: 'Şanlıurfa\'da halılar neden daha çabuk kirlenir?', a: 'Çöl tozu, kum, yüksek sıcaklıkta evde geçirilen uzun süreler ve kalabalık haneler ana nedenlerdir. Yılda en az 2-3 kez profesyonel halı yıkama önerilir.' },
+      { q: 'Şanlıurfa\'da en ucuz halı yıkama nerede?', a: 'Suruç, Birecik ve Bozova\'da 70-75 TL/m² ile Şanlıurfa ortalamasının altında fiyatlar mevcuttur. Ancak bu ilçelerde firma sayısı sınırlıdır.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'gaziantep-hali-yikama', 'adana-hali-yikama'],
+  },
 ];
