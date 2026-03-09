@@ -141,7 +141,16 @@ export default async function GuidePage({
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             {/* Intro */}
             <p className="text-lg text-brand-text-muted leading-relaxed mb-10">
-              {guide.intro}
+              {guide.intro.split(/(\*\*[^*]+\*\*|\[[^\]]+\]\([^)]+\))/g).map((part, i) => {
+                if (part.startsWith('**') && part.endsWith('**')) {
+                  return <strong key={i} className="text-brand-text font-semibold">{part.slice(2, -2)}</strong>;
+                }
+                const linkMatch = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
+                if (linkMatch) {
+                  return <Link key={i} href={linkMatch[2]} className="text-brand-primary hover:underline font-medium">{linkMatch[1]}</Link>;
+                }
+                return <span key={i}>{part}</span>;
+              })}
             </p>
 
             {/* İçindekiler */}
@@ -227,7 +236,16 @@ export default async function GuidePage({
                         />
                       </summary>
                       <div className="px-5 pb-5 text-brand-text-muted leading-relaxed">
-                        {item.a}
+                        {item.a.split(/(\*\*[^*]+\*\*|\[[^\]]+\]\([^)]+\))/g).map((part, ai) => {
+                          if (part.startsWith('**') && part.endsWith('**')) {
+                            return <strong key={ai} className="text-brand-text font-semibold">{part.slice(2, -2)}</strong>;
+                          }
+                          const linkMatch = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
+                          if (linkMatch) {
+                            return <Link key={ai} href={linkMatch[2]} className="text-brand-primary hover:underline font-medium">{linkMatch[1]}</Link>;
+                          }
+                          return <span key={ai}>{part}</span>;
+                        })}
                       </div>
                     </details>
                   ))}
