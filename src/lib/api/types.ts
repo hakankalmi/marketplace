@@ -259,6 +259,8 @@ export interface OrderResponseDto {
   completedAt: string | null;
   beforePhotoUrls: string[] | null;
   afterPhotoUrls: string[] | null;
+  // Internal order status: 0=PendingPickup, 1=InWashing, 2=ReadyForDelivery, 3=OutForDelivery, 4=Delivered
+  internalOrderStatus: number | null;
 }
 
 /* ───── Review ───── */

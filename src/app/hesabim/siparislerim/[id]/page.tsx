@@ -92,8 +92,13 @@ interface TimelineStep {
   timestamp?: string | null;
 }
 
+/**
+ * Internal order status enum (from company's order management):
+ * 0=PendingPickup, 1=InWashing, 2=ReadyForDelivery, 3=OutForDelivery, 4=Delivered
+ */
 function buildTimeline(order: OrderResponseDto): TimelineStep[] {
-  const s = order.status;
+  const s = order.status; // marketplace status
+  const ios = order.internalOrderStatus; // internal order status (null if no internal order)
   const isTerminal = s === 2 || s === 3 || s === 4;
 
   const steps: TimelineStep[] = [
@@ -123,7 +128,11 @@ function buildTimeline(order: OrderResponseDto): TimelineStep[] {
     return steps;
   }
 
-  // Firma Onayı
+  // Helper: is internal order at or past a given status?
+  const iosPast = (threshold: number) => ios != null && ios >= threshold;
+  const iosAt = (val: number) => ios != null && ios === val;
+
+  // 2. Firma Onayı
   steps.push({
     label: s === 0 ? 'Firma Onayı Bekleniyor' : 'Firma Onayladı',
     description: s === 0
@@ -132,27 +141,60 @@ function buildTimeline(order: OrderResponseDto): TimelineStep[] {
         ? `Tahmini teslim alma: ${formatDate(order.estimatedPickupByCompany)}`
         : 'Firma en kısa sürede sizinle iletişime geçecek'),
     icon: CheckCircle,
-    status: s === 0 ? 'active' : (s === 1 ? 'active' : 'completed'),
+    status: s === 0 ? 'active' : 'completed',
     timestamp: order.acceptedAt,
   });
 
-  // Teslim Alınıyor
+  // 3. Teslim Alındı
   steps.push({
-    label: 'Teslim Alınıyor',
-    description: s >= 5
-      ? 'Ürünleriniz teslim alındı, işlem başladı'
+    label: 'Teslim Alındı',
+    description: iosPast(1)
+      ? 'Ürünleriniz firmaya teslim edildi'
       : 'Firma ürünlerinizi teslim almak için gelecek',
     icon: Truck,
-    status: s >= 5 ? (s === 6 ? 'completed' : 'active') : 'upcoming',
+    status: iosPast(1) ? 'completed' : (s >= 1 && !iosPast(1) ? 'active' : 'upcoming'),
     timestamp: null,
   });
 
-  // Tamamlandı
+  // 4. Yıkamada
+  steps.push({
+    label: 'Yıkamada',
+    description: iosPast(2)
+      ? 'Yıkama işlemi tamamlandı'
+      : (iosAt(1) ? 'Ürünleriniz yıkanıyor' : 'Ürünleriniz yıkanacak'),
+    icon: CircleDot,
+    status: iosPast(2) ? 'completed' : (iosAt(1) ? 'active' : 'upcoming'),
+    timestamp: null,
+  });
+
+  // 5. Teslimata Hazır
+  steps.push({
+    label: 'Teslimata Hazır',
+    description: iosPast(3)
+      ? 'Dağıtıma çıkarıldı'
+      : (iosAt(2) ? 'Ürünleriniz hazır, teslimat bekleniyor' : 'Ürünleriniz hazırlanacak'),
+    icon: CheckCircle,
+    status: iosPast(3) ? 'completed' : (iosAt(2) ? 'active' : 'upcoming'),
+    timestamp: null,
+  });
+
+  // 6. Dağıtımda
+  steps.push({
+    label: 'Dağıtımda',
+    description: iosPast(4)
+      ? 'Ürünleriniz teslim edildi'
+      : (iosAt(3) ? 'Ürünleriniz yolda!' : 'Ürünleriniz adresinize getirilecek'),
+    icon: Truck,
+    status: iosPast(4) ? 'completed' : (iosAt(3) ? 'active' : 'upcoming'),
+    timestamp: null,
+  });
+
+  // 7. Tamamlandı
   steps.push({
     label: 'Tamamlandı',
     description: s === 6
       ? 'Siparişiniz başarıyla tamamlandı!'
-      : 'Ürünleriniz temizlenip teslim edilecek',
+      : 'Siparişiniz tamamlanacak',
     icon: Star,
     status: s === 6 ? 'completed' : 'upcoming',
     timestamp: order.completedAt,
