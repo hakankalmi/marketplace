@@ -2514,4 +2514,109 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'kahramanmaras-hali-yikama', 'diyarbakir-hali-yikama'],
   },
+
+  /* ─── 28. ELAZIĞ ─── */
+  {
+    slug: 'elazig-hali-yikama',
+    city: 'Elazığ',
+    citySlug: 'elazig',
+    title: 'Elazığ Halı Yıkama Rehberi: Fiyatlar, Firmalar ve İpuçları (2026)',
+    metaTitle: 'Elazığ Halı Yıkama Fiyatları 2026 | Firma Rehberi',
+    metaDescription: 'Elazığ halı yıkama fiyatları 2026 güncel liste. Merkez, Kovancılar, Karakoçan, Baskil fiyat karşılaştırma. Elazığ halı yıkama firması seçim rehberi.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'Şehir Rehberi',
+    readingTime: 7,
+    heroEmoji: '🏔️',
+    intro: `**Elazığ**, Fırat Nehri kıyısında, Keban Barajı'nın göl kıyısına yayılan Doğu Anadolu'nun üniversite şehridir. 1070 metre rakımda, karasal iklimin sert kışları ve sıcak yazları arasında halı bakımı kritik önemdedir. 2020 depremi sonrası yeniden yapılanan Elazığ'da Harput kültürü, geleneksel dokumacılık ve bağcılık şehre özgü bir karakter kazandırır. [Elazığ halı yıkama firmaları](/elazig-hali-yikama-firmalari) arasında en uygun fiyatlı ve güvenilir firmayı bulmak için bu rehberi hazırladık.`,
+    sections: [
+      {
+        heading: 'Elazığ Halı Yıkama Fiyatları 2026',
+        content: `Elazığ'da halı yıkama fiyatları Doğu Anadolu ortalamasındadır. Firma sayısı sınırlı olsa da üniversite nüfusu talebi canlı tutar.
+
+| Halı Türü | Fiyat Aralığı (m²) | Ortalama |
+|---|---|---|
+| Makine halısı | 70 – 110 TL | 78 TL |
+| El dokuması halı | 85 – 155 TL | 110 TL |
+| Shaggy / tüylü halı | 75 – 125 TL | 90 TL |
+| İpek halı | 130 – 280 TL | 190 TL |
+| Koltuk yıkama (kişilik) | 120 – 240 TL | 165 TL |
+| Yorgan yıkama (adet) | 100 – 180 TL | 130 TL |
+
+**İlçe Bazlı Fiyat Farkları:**
+
+🔴 **Yüksek Segment**: Elazığ Merkez — 78-155 TL/m². Tüm firmalar merkezde yoğunlaşmıştır.
+
+🟡 **Orta Segment**: [Kovancılar halı yıkama](/elazig-kovancilar-hali-yikama-firmalari), [Karakoçan halı yıkama](/elazig-karakocan-hali-yikama-firmalari) — 70-110 TL/m².
+
+🟢 **Uygun Segment**: [Baskil halı yıkama](/elazig-baskil-hali-yikama-firmalari), [Sivrice halı yıkama](/elazig-sivrice-hali-yikama-firmalari), [Keban halı yıkama](/elazig-keban-hali-yikama-firmalari), [Palu halı yıkama](/elazig-palu-hali-yikama-firmalari), [Maden halı yıkama](/elazig-maden-hali-yikama-firmalari), [Arıcak halı yıkama](/elazig-aricak-hali-yikama-firmalari) — 70-90 TL/m².
+
+📌 *Elazığ'da firma sayısı sınırlıdır. Neredeyse tüm profesyonel firmalar merkez ilçededir ve il genelinde hizmet verir.*`,
+      },
+      {
+        heading: 'Elazığ İklimi ve Halı Bakım Takvimi',
+        content: `Elazığ'ın 1070 metre rakımı sert bir karasal iklim yaratır:
+
+**Sert Kışlar (Kasım-Mart):** Elazığ kışları -15°C'ye düşebilir, kar 2-3 ay yerde kalır. Evler 5 ay boyunca kapalı — doğalgaz ve soba tozu halılara birikir. Kışın yıkatacaksanız kapalı kurutma tesisi şarttır.
+
+**Sıcak Yazlar (Haziran-Eylül):** Yaz sıcaklığı 38°C'ye çıkabilir. Nem çok düşüktür — kurutma birkaç saatte tamamlanır. Halı yıkama için ideal dönemdir.
+
+**Keban Barajı Göl Nemi:** Keban Barajı gölü çevresindeki yerleşimlerde (Keban, Sivrice) göl nemi halıları etkiler. Bu bölgelerde anti-küf işlem önerilir.
+
+**Bağ Bozumu (Eylül-Ekim):** Elazığ Türkiye'nin önemli üzüm üretim merkezlerinden biridir (öküzgözü, boğazkere). Bağ bozumu döneminde üzüm lekesi riski artar — kırmızı üzüm lekesi en zor çıkan lekelerdendir.
+
+**Deprem Bilinci (2020):** 24 Ocak 2020 Elazığ depremi sonrası şehir büyük ölçüde yeniden yapılandı. Yeni binalar daha modern ama bazı bölgelerde inşaat tozu devam eder.
+
+**En İyi Dönem:** Mayıs-Haziran — hava ılık ama aşırı sıcak değil, firmalar henüz yoğun değil.
+
+[Elazığ halı yıkama firmaları](/elazig-hali-yikama-firmalari) — Elazığ'daki doğrulanmış firmaları filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+      },
+      {
+        heading: 'Elazığ Halı Yıkama Firması Seçerken Dikkat Edilecekler',
+        content: `**Harput Kültürü — Geleneksel Dokumalar:** Harput (Elazığ'ın tarihi merkezi) el dokuması kilim ve halı geleneğine sahiptir. Bu geleneksel dokumalar doğal boyalarla renklendirilir — pH nötr deterjan ve elle yıkama gerektirir.
+
+**Üzüm Lekesi Sorunu:** Elazığ bağcılık merkezi olduğundan üzüm ve şarap (pekmez) lekesi yaygındır. Kırmızı üzüm lekesi kurumadan müdahale edilmezse kalıcı hale gelir. Firmaya hemen bildirin.
+
+**Fırat Üniversitesi Öğrenci Talebi:** Fırat Üniversitesi 50.000+ öğrenci barındırır. Dönem sonu (Haziran, Ocak) halı yıkama talebi artar — öğrenci bölgesindeki firmalar bu dönemlerde yoğundur.
+
+**Kovancılar ve Karakoçan — Yerel Pazarlar:** Bu iki ilçe merkeze 80-100 km mesafededir ve kendi yerel firmalarına sahiptir. Merkezden firma çağırmak yerine yerel tercih daha ekonomiktir.
+
+**Malatya Karşılaştırması:** Elazığ fiyatları [Malatya halı yıkama](/rehber/malatya-hali-yikama) ile çok benzerdir. İki şehir komşu olduğundan çapraz hizmet mümkündür.
+
+**Sivrice — Deprem Merkezi:** 2020 depreminin merkez üssü Sivrice'dir. Bu ilçede yeniden yapılanma devam etmektedir — inşaat tozu halıları hızla kirletir.`,
+      },
+      {
+        heading: 'Elazığ İlçe Bazlı Halı Yıkama Firmaları',
+        content: `Elazığ 11 ilçeye sahiptir. İşte ilçe bazlı halı yıkama firma rehberi:
+
+**Merkez:**
+- Elazığ Merkez — Şehir merkezi, tüm firmalar burada yoğunlaşmıştır
+
+**Büyük İlçeler:**
+- [Kovancılar halı yıkama](/elazig-kovancilar-hali-yikama-firmalari) — Doğu ilçe, tarım merkezi
+- [Karakoçan halı yıkama](/elazig-karakocan-hali-yikama-firmalari) — Bingöl yolu üzeri
+- [Baskil halı yıkama](/elazig-baskil-hali-yikama-firmalari) — Batı ilçe, Malatya yolu
+
+**Baraj ve Göl Çevresi:**
+- [Keban halı yıkama](/elazig-keban-hali-yikama-firmalari) — Keban Barajı, tarihi ilçe
+- [Sivrice halı yıkama](/elazig-sivrice-hali-yikama-firmalari) — Hazar Gölü, deprem merkezi
+
+**Diğer İlçeler:**
+- [Palu halı yıkama](/elazig-palu-hali-yikama-firmalari) — Murat Nehri kıyısı
+- [Maden halı yıkama](/elazig-maden-hali-yikama-firmalari) — Bakır madeni tarihi
+- [Arıcak halı yıkama](/elazig-aricak-hali-yikama-firmalari) — Kırsal
+- [Alacakaya halı yıkama](/elazig-alacakaya-hali-yikama-firmalari) — Küçük ilçe
+- [Ağın halı yıkama](/elazig-agin-hali-yikama-firmalari) — Fırat kenarı
+
+📌 *Merkeze uzak ilçelerde profesyonel firma neredeyse yoktur. Elazığ merkez firmaları il genelinde ücretsiz teslimat sunar — platform üzerinden sipariş verebilirsiniz.*`,
+      },
+    ],
+    faq: [
+      { q: 'Elazığ\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı ortalama 78 TL/m², el dokuması 85-155 TL/m², shaggy 75-125 TL/m² aralığındadır. Doğu Anadolu\'nun uygun fiyatlı şehirlerinden biridir.' },
+      { q: 'Elazığ\'da halı yıkama kaç gün sürer?', a: 'Yaz aylarında 1 gün (çok kuru iklim), kışın 3-5 gün. Keban Barajı çevresinde göl nemi kurutmayı uzatabilir.' },
+      { q: 'Elazığ\'da üzüm lekesi halıdan çıkar mı?', a: 'Evet, ama kurumadan müdahale edilmesi kritiktir. Soğuk su ile ön işlem + enzimatik deterjan gerekir. Firmaya hemen bildirin — kurumuş üzüm lekesi çok daha zor çıkar.' },
+      { q: 'Elazığ\'da kışın halı yıkatılır mı?', a: 'Mümkündür ama kapalı kurutma tesisi şarttır. Elazığ kışları -15°C\'ye düşer — açık havada kurutma yapılamaz. Kapalı tesiste 3-5 gün sürer.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'malatya-hali-yikama', 'diyarbakir-hali-yikama'],
+  },
 ];
