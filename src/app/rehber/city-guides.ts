@@ -2200,4 +2200,107 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'samsun-hali-yikama', 'istanbul-hali-yikama'],
   },
+
+  /* ─── 25. KAHRAMANMARAŞ ─── */
+  {
+    slug: 'kahramanmaras-hali-yikama',
+    city: 'Kahramanmaraş',
+    citySlug: 'kahramanmaras',
+    title: 'Kahramanmaraş Halı Yıkama Rehberi: Fiyatlar, Firmalar ve İpuçları (2026)',
+    metaTitle: 'Kahramanmaraş Halı Yıkama Fiyatları 2026 | Firma Rehberi',
+    metaDescription: 'Kahramanmaraş halı yıkama fiyatları 2026 güncel liste. Dulkadiroğlu, Onikişubat, Elbistan, Afşin, Türkoğlu fiyat karşılaştırma. Maraş halı yıkama rehberi.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'Şehir Rehberi',
+    readingTime: 8,
+    heroEmoji: '🍦',
+    intro: `**Kahramanmaraş**, dondurmadan çeliğe, tekstilden halıcılığa uzanan güçlü bir üretim şehridir. 2023 depreminden sonra yeniden ayağa kalkan Maraş, aynı zamanda Türkiye'nin önemli halı üretim merkezlerinden biridir. Karasal iklimin sert kışları ve sıcak yazları, Ahir Dağı'ndan esen rüzgarların taşıdığı toz — halı bakımını her mevsim gündemde tutar. [Kahramanmaraş halı yıkama firmaları](/kahramanmaras-hali-yikama-firmalari) arasında en uygun fiyatlı ve güvenilir firmayı bulmak için bu rehberi hazırladık.`,
+    sections: [
+      {
+        heading: 'Kahramanmaraş Halı Yıkama Fiyatları 2026',
+        content: `Kahramanmaraş'ta halı yıkama fiyatları Türkiye ortalamasının altındadır. Tekstil ve halı üretim altyapısı fiyat rekabetini destekler.
+
+| Halı Türü | Fiyat Aralığı (m²) | Ortalama |
+|---|---|---|
+| Makine halısı | 70 – 110 TL | 80 TL |
+| El dokuması halı | 85 – 160 TL | 110 TL |
+| Shaggy / tüylü halı | 75 – 130 TL | 95 TL |
+| İpek halı | 130 – 280 TL | 190 TL |
+| Koltuk yıkama (kişilik) | 120 – 250 TL | 170 TL |
+| Yorgan yıkama (adet) | 100 – 190 TL | 135 TL |
+
+**İlçe Bazlı Fiyat Farkları:**
+
+🔴 **Yüksek Segment**: [Onikişubat halı yıkama](/kahramanmaras-onikisubat-hali-yikama-firmalari), [Dulkadiroğlu halı yıkama](/kahramanmaras-dulkadiroglu-hali-yikama-firmalari) — 80-160 TL/m². Şehir merkezi, modern konutlar, en çok firma seçeneği.
+
+🟡 **Orta Segment**: [Elbistan halı yıkama](/kahramanmaras-elbistan-hali-yikama-firmalari), [Türkoğlu halı yıkama](/kahramanmaras-turkoglu-hali-yikama-firmalari), [Göksun halı yıkama](/kahramanmaras-goksun-hali-yikama-firmalari) — 70-120 TL/m².
+
+🟢 **Uygun Segment**: [Afşin halı yıkama](/kahramanmaras-afsin-hali-yikama-firmalari), [Pazarcık halı yıkama](/kahramanmaras-pazarcik-hali-yikama-firmalari), [Andırın halı yıkama](/kahramanmaras-andirin-hali-yikama-firmalari), [Çağlayancerit halı yıkama](/kahramanmaras-caglayancerit-hali-yikama-firmalari), [Nurhak halı yıkama](/kahramanmaras-nurhak-hali-yikama-firmalari), [Ekinözü halı yıkama](/kahramanmaras-ekinozu-hali-yikama-firmalari) — 70-95 TL/m².
+
+📌 *Kahramanmaraş'ın tekstil ve halı üretim altyapısı fiyatları Türkiye ortalamasının altında tutar — firmalar kumaş bilgisi konusunda deneyimlidir.*`,
+      },
+      {
+        heading: 'Kahramanmaraş İklimi ve Halı Bakım Takvimi',
+        content: `Kahramanmaraş'ın Akdeniz ile karasal iklimin geçiş bölgesinde olması halı bakımını ilginç kılar:
+
+**Sıcak Yazlar (Haziran-Eylül):** Maraş ovası yazın 38-42°C'ye çıkar. Nem düşüktür ve kurutma birkaç saatte tamamlanır. Halı yıkama için en ideal dönemdir.
+
+**Soğuk Kışlar (Aralık-Şubat):** Şehir merkezi ılıman kalsa da Göksun, Andırın ve Nurhak gibi dağ ilçelerinde kış çok sert olur (-15°C altı). Kışın halı yıkatmak dağ ilçelerinde çok zordur.
+
+**Toz Fırtınaları (Mayıs-Temmuz):** Maraş ovası rüzgara açıktır. Ahir Dağı'ndan esen rüzgarlar toz taşır ve halıları hızla kirletir. Pencereler açıksa bir günde halılar tozlanabilir.
+
+**Tekstil ve Çelik Sanayi:** Kahramanmaraş Türkiye'nin en büyük tekstil ve çelik üretim merkezlerinden biridir. Sanayi bölgeleri çevresindeki konutlarda endüstriyel toz ve partikül birikimi yüksektir. Profesyonel yıkama şarttır.
+
+**Deprem Sonrası Durum (2023):** 6 Şubat 2023 depreminden sonra şehrin büyük kısmı yeniden inşa edildi. Yeni binalarda havalandırma daha iyidir ama inşaat tozu hala devam eden bölgelerde halılar çok hızlı kirlenir.
+
+**En İyi Dönem:** Mayıs-Haziran ve Eylül — hava sıcak, kurutma hızlı, firmalar müsait.
+
+[Kahramanmaraş halı yıkama firmaları](/kahramanmaras-hali-yikama-firmalari) — Kahramanmaraş'taki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+      },
+      {
+        heading: 'Kahramanmaraş Halı Yıkama Firması Seçerken Dikkat Edilecekler',
+        content: `**Tekstil Uzmanlığı:** Kahramanmaraş Türkiye'nin 3. büyük tekstil merkezidir. Bu bilgi halı yıkama firmalarına da yansır — firmalar lif analizi, deterjan seçimi ve kurutma tekniği konusunda deneyimlidir.
+
+**Maraş İşi El Dokuması Halılar:** Kahramanmaraş geleneksel el dokuması halı üretim merkezidir. "Maraş işi" halılar doğal boyalarla renklendirilir ve yanlış deterjan renk akmasına neden olur. pH nötr deterjan ve elle yıkama gerektiren bu halılar için uzman firma şarttır.
+
+**Elbistan — Ayrı Pazar:** Elbistan, Kahramanmaraş'a 150 km mesafededir ve kendi yerel pazarına sahiptir. Elbistan'dan merkeze halı göndermek yerine yerel firma tercih etmek hem pratik hem ekonomiktir.
+
+**Sanayi Bölgesi Kirlilik Tipi:** Merkez ilçelerdeki tekstil ve çelik fabrikaları çevresinde metal tozu ve pamuk lifi birikimi yoğundur. Firmaya bölgenizi belirtin — bazı firmalar ağır kirlilik için çift yıkama uygular.
+
+**Deprem Bölgesi İnşaat Tozu:** Yeniden yapılanma bölgelerinde (özellikle Dulkadiroğlu ve Onikişubat) inşaat tozu (çimento, alçı, beton) halılara işler. Bu tür toz standart yıkamada tam çıkmayabilir — firmaya belirtin.
+
+**Gaziantep Karşılaştırması:** Kahramanmaraş fiyatları [Gaziantep halı yıkama](/rehber/gaziantep-hali-yikama) fiyatlarıyla benzerdir. İki şehir arasında çapraz rekabet vardır — her ikisinden de teklif alabilirsiniz.`,
+      },
+      {
+        heading: 'Kahramanmaraş İlçe Bazlı Halı Yıkama Firmaları',
+        content: `Kahramanmaraş 11 ilçeye sahiptir. İşte ilçe bazlı halı yıkama firma rehberi:
+
+**Büyükşehir Merkez İlçeler:**
+- [Onikişubat halı yıkama](/kahramanmaras-onikisubat-hali-yikama-firmalari) — Şehir merkezi kuzey, modern konut alanları
+- [Dulkadiroğlu halı yıkama](/kahramanmaras-dulkadiroglu-hali-yikama-firmalari) — Şehir merkezi güney, tarihi bölge
+
+**Büyük İlçeler:**
+- [Elbistan halı yıkama](/kahramanmaras-elbistan-hali-yikama-firmalari) — Doğu'nun en büyük ilçesi, termik santral
+- [Afşin halı yıkama](/kahramanmaras-afsin-hali-yikama-firmalari) — Enerji bölgesi, maden
+- [Türkoğlu halı yıkama](/kahramanmaras-turkoglu-hali-yikama-firmalari) — Gaziantep yolu üzeri
+- [Göksun halı yıkama](/kahramanmaras-goksun-hali-yikama-firmalari) — Dağ ilçesi, sert kışlar
+- [Pazarcık halı yıkama](/kahramanmaras-pazarcik-hali-yikama-firmalari) — Deprem bölgesi
+
+**Diğer İlçeler:**
+- [Andırın halı yıkama](/kahramanmaras-andirin-hali-yikama-firmalari) — Dağ ve orman
+- [Çağlayancerit halı yıkama](/kahramanmaras-caglayancerit-hali-yikama-firmalari) — Kırsal
+- [Nurhak halı yıkama](/kahramanmaras-nurhak-hali-yikama-firmalari) — Dağ ilçesi
+- [Ekinözü halı yıkama](/kahramanmaras-ekinozu-hali-yikama-firmalari) — Kırsal
+
+📌 *Dağ ilçelerinde (Göksun, Andırın, Nurhak) kışın halı yıkama çok zordur. Bu ilçelerde yaz aylarını bekleyin veya merkez firmalarından yardım alın.*`,
+      },
+    ],
+    faq: [
+      { q: 'Kahramanmaraş\'ta halı yıkama ortalama ne kadar?', a: 'Makine halısı ortalama 80 TL/m², el dokuması 85-160 TL/m², shaggy 75-130 TL/m² aralığındadır. Tekstil altyapısı fiyatları Türkiye ortalamasının altında tutar.' },
+      { q: 'Kahramanmaraş\'ta halı yıkama kaç gün sürer?', a: 'Yaz aylarında 1 gün (aşırı sıcak ve kuru), kışın merkezde 2-3 gün, dağ ilçelerinde 4-5 gün. Kurutma yazın birkaç saatte tamamlanır.' },
+      { q: 'Deprem sonrası inşaat tozu halıdan çıkar mı?', a: 'Evet, ama çimento ve alçı tozu standart yıkamada tam çıkmayabilir. Firmaya belirtin — ağır ön işlem (uzun süreli sıcak su + alkalin deterjan) gerekebilir.' },
+      { q: 'Maraş işi halıyı nerede yıkatmalıyım?', a: 'Dulkadiroğlu ve Onikişubat\'taki el dokuması deneyimli firmalar tercih edilmelidir. pH nötr deterjan ve elle yıkama şarttır — doğal boyalar yanlış deterjanda akar.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'gaziantep-hali-yikama', 'adana-hali-yikama'],
+  },
 ];
