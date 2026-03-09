@@ -6659,4 +6659,183 @@ Ayvacık (Kaz Dağları) bölgesinin el dokuma kilimleri dünyaca ünlüdür. Do
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'balikesir-hali-yikama', 'edirne-hali-yikama'],
   },
+
+  // ==================== HAKKÂRİ ====================
+  {
+    slug: 'hakkari-hali-yikama',
+    city: 'Hakkâri',
+    citySlug: 'hakkari',
+    title: 'Hakkâri Halı Yıkama Rehberi — Fiyatlar, Firmalar ve İpuçları',
+    metaTitle: 'Hakkâri Halı Yıkama Fiyatları 2026 | En İyi Firmalar',
+    metaDescription: 'Hakkâri halı yıkama fiyatları 2026 güncel liste. Türkiye\'nin en dağlık ilinde halı bakımı, ilçe bazlı firmalar ve fiyat karşılaştırması.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 7,
+    heroEmoji: '🏔️',
+    intro: 'Hakkâri, Türkiye\'nin en güneydoğusunda, **Cilo-Sat Dağları** eteklerinde kurulmuş dağlık bir ildir. Rakım ortalama 1700 m civarındadır ve kış ayları oldukça serttir. Nüfus yoğunluğu düşüktür ve halı yıkama firması sayısı sınırlıdır. **[Hakkâri halı yıkama firmaları](/hakkari-hali-yikama-firmalari)** zorlu coğrafi koşullara rağmen hizmet sunmaktadır.',
+    sections: [
+      {
+        heading: 'Hakkâri\'de Halı Yıkama Fiyatları 2026',
+        content: `Hakkâri\'de halı yıkama fiyatları sınırlı firma sayısı ve ulaşım zorluğu nedeniyle bölge ortalamasının üzerindedir.
+
+| Halı Türü | Fiyat Aralığı (m²) | Açıklama |
+|---|---|---|
+| Makine Halısı | 72 – 92 TL | Ulaşım zorluğu fiyata yansır |
+| Yün / El Dokuma | 85 – 140 TL | Geleneksel Hakkâri kilimleri |
+| Shaggy / Uzun Tüy | 88 – 130 TL | Uzun kurutma süresi |
+| Yolluk / Merdiven | 70 – 82 TL | Metre bazlı hesaplama |
+
+🔴 **Yüksek**: Merkez (tek ciddi hizmet noktası)
+🟡 **Orta**: Yüksekova (ikinci büyük yerleşim)
+🟢 **Uygun**: Çukurca, Şemdinli (kırsal)
+
+*Hakkâri\'de firma sayısı çok sınırlıdır. Randevu mutlaka önceden alınmalıdır. Yüksekova\'da ayrı firmalar mevcuttur.*`,
+      },
+      {
+        heading: 'Hakkâri İklimi ve Halı Bakımı',
+        content: `Hakkâri Türkiye\'nin en sert iklimine sahip illerden biridir. 1700 m ortalama rakım ve dağlık arazi koşulları belirleyicidir:
+
+**İklim zorlukları:**
+- Kış sıcaklıkları -25°C ile -35°C arası — Türkiye\'nin en soğuk yerleri
+- Kar örtüsü 5-6 ay — yıkama sezonu çok kısa
+- Dağ yolları kışın kapanır — ulaşım kesilir
+- Yazlar kısa ama sıcak (Temmuz 30-35°C) — dar yıkama penceresi
+
+**Bakım önerileri:**
+- Halı yıkama sezonu sadece Haziran-Eylül: bu 4 ayı mutlaka değerlendirin
+- Kışa girmeden (Ekim başı) son yıkamayı yapın
+- Soba ve kuzine kullanan evlerde kış sonunda kurum temizliği şart
+- Halıları kesinlikle dondurmayın — donmuş halı kırılabilir
+
+*Hakkâri\'de kışın elektrik kesintileri yaşanabilir. Elektrikli kurutma sistemi olmayan firmalarda kışın yıkama riski yüksektir.*`,
+      },
+      {
+        heading: 'İlçe Bazlı Halı Yıkama Firmaları',
+        content: `Hakkâri\'nin dağlık yapısında firmalar çok sınırlıdır:
+
+- [Hakkâri merkez halı yıkama](/hakkari-merkez-hali-yikama-firmalari) — Ana hizmet noktası
+- [Yüksekova halı yıkama](/hakkari-yuksekova-hali-yikama-firmalari) — İkinci büyük yerleşim, ayrı firmalar
+- [Şemdinli halı yıkama](/hakkari-semdinli-hali-yikama-firmalari) — Sınır ilçesi
+- [Çukurca halı yıkama](/hakkari-cukurca-hali-yikama-firmalari) — Zap Suyu vadisi
+
+📌 *Yüksekova nüfus olarak Hakkâri merkeze yakın büyüklüktedir. Kendi altyapısı ve firmaları vardır. Şemdinli ve Çukurca\'ya genellikle merkez firmalarından servis yapılır.*`,
+      },
+      {
+        heading: 'Hakkâri\'de Halı Seçimi ve Koruma',
+        content: `Türkiye\'nin en zorlu ikliminde halı bakımı:
+
+**Soba ve kuzine etkisi:**
+Hakkâri\'de kışın odun ve tezek yakılan evler yaygındır. Kurum, kül ve is halılara derin biçimde yerleşir. Kış sonunda mutlaka profesyonel yıkama yaptırın. Koyu renkli halılar kirliliği daha az gösterir.
+
+**Geleneksel kilimler:**
+Hakkâri bölgesinin el dokuma kilimleri geometrik desenleri ve canlı renkleriyle tanınır. Bu kilimler nesiller boyu aktarılan kültürel mirastır — yalnızca el yıkama yapan firmaya teslim edin.
+
+**Kar ve buz etkisi:**
+Kışın erimekte olan kar ve buzun evlere taşınması halılarda çamur ve nem biriktirir. Girişlere paspas serilmeli ve bot/ayakkabılar mutlaka dışarıda bırakılmalıdır.
+
+*Hakkâri\'nin dağ köylerinde yaylacılık geleneği sürer. Yayla göçünden dönen halılar toprak, nem ve hayvan kılı içerir — mutlaka profesyonelce yıkatın.*`,
+      },
+    ],
+    faq: [
+      { q: 'Hakkâri\'de halı yıkama ortalama ne kadar?', a: 'Makine halısı 72-92 TL/m², yün halı 85-140 TL/m² aralığındadır. Ulaşım zorluğu fiyatları etkiler.' },
+      { q: 'Hakkâri\'de kışın halı yıkatılır mı?', a: 'Çok zordur. Kış -30°C\'ye düşer ve yollar kapanır. Sadece yaz sezonu (Haziran-Eylül) kullanılmalıdır.' },
+      { q: 'Yüksekova\'da halı yıkama firması var mı?', a: 'Evet, Yüksekova kendi firmalarına sahiptir. Nüfus olarak Hakkâri merkezden büyük bir yerleşimdir.' },
+      { q: 'Hakkâri\'den Van firması tercih etmeli miyim?', a: 'Van 180 km uzaktadır ve dağ yolları zordur. Yerel firmalar tercih edilmelidir. Acil durumlarda Van firmaları da hizmet verebilir.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'van-hali-yikama', 'sirnak-hali-yikama'],
+  },
+
+  // ==================== BAYBURT ====================
+  {
+    slug: 'bayburt-hali-yikama',
+    city: 'Bayburt',
+    citySlug: 'bayburt',
+    title: 'Bayburt Halı Yıkama Rehberi — Fiyatlar, Firmalar ve İpuçları',
+    metaTitle: 'Bayburt Halı Yıkama Fiyatları 2026 | En İyi Firmalar',
+    metaDescription: 'Bayburt halı yıkama fiyatları 2026 güncel liste. Türkiye\'nin en küçük ilinde halı bakımı, Çoruh vadisi iklimi, firmalar ve fiyat karşılaştırması.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 7,
+    heroEmoji: '🏰',
+    intro: 'Bayburt, Türkiye\'nin nüfus olarak en küçük illerinden biridir. **Çoruh Nehri** vadisinde, 1550 m rakımda kurulmuş tarihi bir şehirdir. **Bayburt Kalesi** ve ehram geleneğiyle ünlüdür. Sert karasal iklim ve küçük nüfus halı yıkama sektörünü şekillendirir. **[Bayburt halı yıkama firmaları](/bayburt-hali-yikama-firmalari)** bu koşullara uygun çalışır.',
+    sections: [
+      {
+        heading: 'Bayburt\'ta Halı Yıkama Fiyatları 2026',
+        content: `Bayburt\'ta halı yıkama fiyatları sınırlı firma sayısı nedeniyle Doğu Karadeniz iç kesimlerinin ortalamasındadır.
+
+| Halı Türü | Fiyat Aralığı (m²) | Açıklama |
+|---|---|---|
+| Makine Halısı | 70 – 85 TL | Standart yıkama |
+| Yün / El Dokuma | 80 – 130 TL | Bayburt ehram dokumaları |
+| Shaggy / Uzun Tüy | 85 – 120 TL | Yüksek rakımda uzun kurutma |
+| Yolluk / Merdiven | 70 – 78 TL | Metre bazlı hesaplama |
+
+🔴 **Yüksek**: Merkez (tek hizmet noktası)
+🟡 **Orta**: Aydıntepe
+🟢 **Uygun**: Demirözü (kırsal fiyat)
+
+*Bayburt Türkiye\'nin en küçük illerinden biridir. Firma sayısı 2-3 ile sınırlıdır — randevu şarttır.*`,
+      },
+      {
+        heading: 'Bayburt İklimi ve Halı Bakımı',
+        content: `Bayburt, 1550 m rakımda Çoruh vadisinde yer alır. İklimi sert karasaldır — Doğu Anadolu\'nun tipik özelliklerini taşır:
+
+**İklim zorlukları:**
+- Kış -20°C ile -30°C arası — Türkiye\'nin en soğuk illerinden
+- Kar örtüsü 4-5 ay (Kasım-Nisan)
+- Yaz kısa ama sıcak (Temmuz 30°C) — dar yıkama penceresi
+- Çoruh vadisinde bahar rüzgârları ve toz
+
+**Bakım önerileri:**
+- Yıkama sezonu Haziran-Eylül — bu dönemi kaçırmayın
+- Soba/kuzine kullanan evlerde kış sonunda kurum temizliği zorunlu
+- Bayburt\'un sert suyu kireçli — yumuşatılmış su kullanan firma seçin
+- Ehram dokumalarını yalnızca uzman firmaya teslim edin
+
+*Bayburt ehramı (ince yün dokuma) şehrin kültürel sembolüdür. Ehram kumaşından yapılan yer örtüleri özel bakım gerektirir — sıcak suda yıkamayın, çekmesi garanti.*`,
+      },
+      {
+        heading: 'İlçe Bazlı Halı Yıkama Firmaları',
+        content: `Bayburt\'un sadece 3 ilçesi vardır ve firmalar merkez ağırlıklıdır:
+
+- [Bayburt merkez halı yıkama](/bayburt-merkez-hali-yikama-firmalari) — Ana ve tek ciddi hizmet merkezi
+- [Aydıntepe halı yıkama](/bayburt-aydintepe-hali-yikama-firmalari) — Yayla ilçesi
+- [Demirözü halı yıkama](/bayburt-demirozu-hali-yikama-firmalari) — Kırsal bölge
+
+📌 *Bayburt\'un küçük nüfusu nedeniyle firma sayısı çok sınırlıdır. Merkezdeki 2-3 firma tüm il geneline hizmet verir. İlçelere ücretsiz alım-teslim yapılır.*`,
+      },
+      {
+        heading: 'Bayburt\'ta Halı Yıkama İpuçları',
+        content: `Türkiye\'nin en küçük ilinde halı bakımı:
+
+**Ehram geleneği:**
+Bayburt ehramı, ince yün iplikten dokunmuş geleneksel bir kumaştır. Bazı aileler ehram kumaşından yer örtüsü ve duvar halısı yapar. Bu dokumalar:
+- Kesinlikle makinede yıkanmamalı
+- Soğuk suda, elde, sabunla nazikçe yıkanmalı
+- Gölgede, düz zemine serilerek kurutulmalı
+- Asla asılmamalı — ağırlığı ile uzar
+
+**Çoruh vadisi nemi:**
+Nehir kıyısı evlerde zemin nemi halılara geçer. Halı altına keçe bariyeri serip yılda 2 kez kaldırarak kontrol edin.
+
+**Kış hazırlığı:**
+Bayburt\'ta kış 5-6 ay sürer. Kışa girmeden:
+1. Tüm halıları profesyonelce yıkatın
+2. Güve koruması (lavanta, sedir) ekleyin
+3. Kullanılmayan halıları rulo yapıp bez örtüyle saklayın
+4. Soba yakılan odalardaki halıları kışın haftalık vakumlayın
+
+*Bayburt yolu (Bayburt-Of) Türkiye\'nin en virajlı karayollarından biridir. Trabzon firmalarından hizmet almak nakliye açısından zordur — yerel tercih edin.*`,
+      },
+    ],
+    faq: [
+      { q: 'Bayburt\'ta halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-85 TL/m², yün halı 80-130 TL/m² aralığındadır. Küçük il olmasına rağmen fiyatlar makuldür.' },
+      { q: 'Bayburt\'ta kaç halı yıkama firması var?', a: 'Merkezdeki 2-3 firma tüm il geneline hizmet verir. Randevu önceden alınmalıdır.' },
+      { q: 'Ehram kumaşı halı yıkama firmasına teslim edilir mi?', a: 'Ehram ince ve hassas bir dokumadır. Yün halı deneyimi olan firmaya teslim edilebilir ama makine yıkama yapılmaması şart koşulmalıdır.' },
+      { q: 'Bayburt\'tan Erzurum veya Trabzon firması mı tercih etmeliyim?', a: 'Erzurum 110 km, Trabzon 230 km uzaktadır. Yerel firmalar daha pratik ve ekonomiktir.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'gumushane-hali-yikama', 'erzurum-hali-yikama'],
+  },
 ];
