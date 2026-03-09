@@ -1542,4 +1542,114 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'istanbul-hali-yikama', 'bursa-hali-yikama'],
   },
+
+  /* ─── 19. AYDIN ─── */
+  {
+    slug: 'aydin-hali-yikama',
+    city: 'Aydın',
+    citySlug: 'aydin',
+    title: 'Aydın Halı Yıkama Rehberi: Fiyatlar, Firmalar ve İpuçları (2026)',
+    metaTitle: 'Aydın Halı Yıkama Fiyatları 2026 | Firma Rehberi',
+    metaDescription: 'Aydın halı yıkama fiyatları 2026 güncel liste. Efeler, Nazilli, Söke, Kuşadası, Didim fiyat karşılaştırma. Aydın halı yıkama firması seçim rehberi.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'Şehir Rehberi',
+    readingTime: 8,
+    heroEmoji: '☀️',
+    intro: `**Aydın**, Ege Bölgesi'nin verimli Büyük Menderes Ovası üzerinde, tarihi Kuşadası ve Didim sahillerinden dağ köylerine uzanan geniş bir coğrafyaya sahiptir. Ege'nin sıcak ve kuru yazları halı kurutma için idealken, kış nemi ve tarımsal toz (incir, zeytin, pamuk) halıları hızla kirletir. Turizm şehri olarak Kuşadası ve Didim'deki tatil evleri sezon başı/sonu toplu halı yıkama talebi oluşturur. [Aydın halı yıkama firmaları](/aydin-hali-yikama-firmalari) arasında en uygun fiyatlı ve güvenilir firmayı bulmak için bu rehberi hazırladık.`,
+    sections: [
+      {
+        heading: 'Aydın Halı Yıkama Fiyatları 2026',
+        content: `Aydın'da halı yıkama fiyatları Ege Bölgesi ortalamasındadır. Sahil turizm ilçeleri (Kuşadası, Didim) yazın daha pahalıyken, iç kesim ilçeleri oldukça uygundur.
+
+| Halı Türü | Fiyat Aralığı (m²) | Ortalama |
+|---|---|---|
+| Makine halısı | 70 – 115 TL | 80 TL |
+| El dokuması halı | 90 – 170 TL | 120 TL |
+| Shaggy / tüylü halı | 75 – 140 TL | 100 TL |
+| İpek halı | 140 – 300 TL | 200 TL |
+| Koltuk yıkama (kişilik) | 130 – 280 TL | 185 TL |
+| Yorgan yıkama (adet) | 100 – 200 TL | 140 TL |
+
+**İlçe Bazlı Fiyat Farkları:**
+
+🔴 **Yüksek Segment**: [Kuşadası halı yıkama](/aydin-kusadasi-hali-yikama-firmalari), [Didim halı yıkama](/aydin-didim-hali-yikama-firmalari) — 85-170 TL/m². Turizm etkisi, yabancı tatilci talebi.
+
+🟡 **Orta Segment**: [Efeler halı yıkama](/aydin-efeler-hali-yikama-firmalari), [Nazilli halı yıkama](/aydin-nazilli-hali-yikama-firmalari), [Söke halı yıkama](/aydin-soke-hali-yikama-firmalari), [Germencik halı yıkama](/aydin-germencik-hali-yikama-firmalari) — 75-120 TL/m².
+
+🟢 **Uygun Segment**: [Çine halı yıkama](/aydin-cine-hali-yikama-firmalari), [Bozdoğan halı yıkama](/aydin-bozdogan-hali-yikama-firmalari), [Sultanhisar halı yıkama](/aydin-sultanhisar-hali-yikama-firmalari), [Yenipazar halı yıkama](/aydin-yenipazar-hali-yikama-firmalari), [Karacasu halı yıkama](/aydin-karacasu-hali-yikama-firmalari), [Koçarlı halı yıkama](/aydin-kocarli-hali-yikama-firmalari) — 70-95 TL/m².
+
+📌 *Kuşadası ve Didim'de yaz sezonu (Haziran-Eylül) fiyatlar %20-30 artabilir. Tatil sonrası (Ekim) en uygun dönemdir.*`,
+      },
+      {
+        heading: 'Aydın İklimi ve Halı Bakım Takvimi',
+        content: `Aydın, Türkiye'nin en sıcak şehirlerinden biridir — yaz sıcaklıkları düzenli olarak 40°C'yi aşar. Bu halı kurutmayı hızlandırır ama diğer sorunlar yaratır:
+
+**Kavurucu Yazlar (Haziran-Eylül):** Menderes Ovası'nda yaz sıcaklığı 42-45°C'ye çıkabilir. Kurutma birkaç saatte tamamlanır. Ancak aşırı sıcakta halı lifleri kuruduğunda gevrekleşebilir — doğrudan güneşte kurutma değil, gölgede havalandırma tercih edilmelidir.
+
+**Tarımsal Döngü:** Aydın, Türkiye'nin incir başkentidir (dünya üretiminin %60'ı+). Pamuk, zeytin ve narenciye de yoğun üretilir. Hasat dönemlerinde (Ağustos-Kasım) toz, polen ve organik kalıntılar halıları hızla kirletir. Özellikle incir reçeli ve zeytinyağı lekesi çok yaygındır.
+
+**Menderes Ovası Nemi:** Ova tabanındaki yerleşimlerde (Germencik, Koçarlı, İncirliova) yaz nemi düşük olsa da kış aylarında yer altı suyu nemi zemin katlarda sorun yaratır. Anti-küf işlem bu bölgelerde önerilir.
+
+**Kuşadası-Didim Sahil Nemi:** Sahil ilçelerinde deniz nemi yaz-kış hissedilir. Tuzlu nem halı liflerini sertleştirir — yılda 2 kez yıkatma önerilir.
+
+**Jeotermal Bölge:** Germencik-Sultanhisar hattında jeotermal kaynaklar mevcuttur. Jeotermal enerji kullanan kurutma tesisleri düşük maliyetle hızlı kurutma sunabilir.
+
+**En İyi Dönem:** Mayıs ve Ekim — hava sıcak ama aşırı değil, kurutma hızlı, firmalar müsait.
+
+[Aydın halı yıkama firmaları](/aydin-hali-yikama-firmalari) — Aydın'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+      },
+      {
+        heading: 'Aydın Halı Yıkama Firması Seçerken Dikkat Edilecekler',
+        content: `**İncir ve Zeytinyağı Lekesi — Aydın'ın Ortak Sorunu:** Bu iki leke Aydın'da çok yaygındır. İncir lekesi şekerli ve yapışkan, zeytinyağı lekesi yağlıdır. Her ikisi de standart yıkamada tam çıkmaz. Firmaya önceden belirtin — ayrı ön işlem gerekir. İncir lekesi için enzimatik deterjan, zeytinyağı için solvent kullanılır.
+
+**Kuşadası Tatil Evleri — Toplu Yıkama:** Kuşadası'nda binlerce tatil evi ve apart otel mevcuttur. Sezon başı (Mayıs) ve sezon sonu (Ekim) toplu halı yıkama yaptırmak %15-25 indirim sağlar. Platform üzerinden birden fazla firmadan teklif alın.
+
+**Nazilli Tekstil Etkisi:** Nazilli Türkiye'nin önemli tekstil merkezlerinden biridir. Tekstil fabrikaları çevresindeki konutlarda pamuk lifleri ve endüstriyel toz birikimi yüksektir. Bu tür kirlilik alerji tetikler — profesyonel yıkama + anti-alerjen işlem önerilir.
+
+**İzmir Karşılaştırması:** Aydın'ın kuzeyi İzmir'e yakındır. [İzmir halı yıkama](/rehber/izmir-hali-yikama) fiyatları Aydın'dan %10-20 daha yüksektir — Aydın'da yıkatmak genellikle daha ekonomiktir.
+
+**Karacasu — Afrodisias Bölgesi:** Karacasu ve çevresinde antik Afrodisias kalıntıları vardır. Bu bölgede geleneksel el dokuması kilimler hala üretilir. Kilim yıkama deneyimi olan firma tercih edin.
+
+**Pamuk Alerjisi:** Pamuk hasat döneminde (Eylül-Ekim) Menderes Ovası'nda havadaki pamuk lifleri alerjik reaksiyonları artırır. Alerjisi olan kişiler bu dönemde mutlaka halı yıkatmalıdır — profesyonel yıkama alerjenleri %95+ oranında temizler.`,
+      },
+      {
+        heading: 'Aydın İlçe Bazlı Halı Yıkama Firmaları',
+        content: `Aydın 17 ilçeye sahiptir. İşte ilçe bazlı halı yıkama firma rehberi:
+
+**Büyükşehir Merkez:**
+- [Efeler halı yıkama](/aydin-efeler-hali-yikama-firmalari) — İl merkezi, en çok firma seçeneği
+
+**Ege Sahili:**
+- [Kuşadası halı yıkama](/aydin-kusadasi-hali-yikama-firmalari) — Uluslararası turizm merkezi
+- [Didim halı yıkama](/aydin-didim-hali-yikama-firmalari) — Altınkum plajları, İngiliz tatilci yoğunluğu
+- [Söke halı yıkama](/aydin-soke-hali-yikama-firmalari) — Büyük Menderes deltası
+
+**Menderes Ovası:**
+- [Nazilli halı yıkama](/aydin-nazilli-hali-yikama-firmalari) — Tekstil sanayi merkezi
+- [Germencik halı yıkama](/aydin-germencik-hali-yikama-firmalari) — Jeotermal bölge
+- [İncirliova halı yıkama](/aydin-incirliova-hali-yikama-firmalari) — Adını incirden alan ilçe
+- [Koçarlı halı yıkama](/aydin-kocarli-hali-yikama-firmalari) — Ova yerleşimi
+- [Sultanhisar halı yıkama](/aydin-sultanhisar-hali-yikama-firmalari) — Antik Nysa
+
+**İç Kesim:**
+- [Çine halı yıkama](/aydin-cine-hali-yikama-firmalari) — Dağ eteği yerleşim
+- [Bozdoğan halı yıkama](/aydin-bozdogan-hali-yikama-firmalari) — Orman bölgesi
+- [Yenipazar halı yıkama](/aydin-yenipazar-hali-yikama-firmalari) — Tarım ilçesi
+- [Karacasu halı yıkama](/aydin-karacasu-hali-yikama-firmalari) — Afrodisias antik kenti
+- [Kuyucak halı yıkama](/aydin-kuyucak-hali-yikama-firmalari) — Lavanta köyleri
+- [Buharkent halı yıkama](/aydin-buharkent-hali-yikama-firmalari) — Jeotermal kaynaklar
+- [Köşk halı yıkama](/aydin-kosk-hali-yikama-firmalari) — Küçük tarım ilçesi
+
+📌 *Kuşadası ve Didim kendi yerel pazarlarına sahiptir. İç kesim ilçelerinde firma sınırlıdır — Efeler veya Nazilli firmalarından hizmet almak daha pratik olabilir.*`,
+      },
+    ],
+    faq: [
+      { q: 'Aydın\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı ortalama 80 TL/m², el dokuması 90-170 TL/m², shaggy 75-140 TL/m² aralığındadır. Kuşadası ve Didim en pahalı (turizm), Çine ve Bozdoğan en uygun ilçelerdir.' },
+      { q: 'Aydın\'da halı yıkama kaç gün sürer?', a: 'Yaz aylarında 1 gün (aşırı sıcakta kurutma birkaç saat), kışın 2-3 gün. Aydın Türkiye\'nin en sıcak şehirlerinden biri olduğu için kurutma yıl boyu hızlıdır.' },
+      { q: 'Kuşadası\'nda yazın halı yıkatmak pahalı mı?', a: 'Evet, turizm sezonu (Haziran-Eylül) fiyatlar %20-30 artar. Ekim ayında yıkatmak hem uygun hem de firmalar daha müsaittir.' },
+      { q: 'İncir lekesi halıdan çıkar mı?', a: 'Evet, ama standart yıkamada tam çıkmaz. Enzimatik deterjan ile ön işlem gerekir. Firmaya lekeyi bildirin ve kurumadan müdahale edilmesini isteyin — kurumuş incir lekesi çok daha zor çıkar.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'izmir-hali-yikama', 'antalya-hali-yikama'],
+  },
 ];
