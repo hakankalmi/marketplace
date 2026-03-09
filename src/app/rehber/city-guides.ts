@@ -3708,4 +3708,165 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'trabzon-hali-yikama', 'ordu-hali-yikama'],
   },
+
+  // ── Aksaray ────────────────────────────────────────────────
+  {
+    slug: 'aksaray-hali-yikama',
+    city: 'Aksaray',
+    citySlug: 'aksaray',
+    title: 'Aksaray Halı Yıkama Rehberi — Fiyatlar, İlçeler ve Tavsiyeler',
+    metaTitle: 'Aksaray Halı Yıkama Fiyatları 2026 | Rehber & Karşılaştırma',
+    metaDescription: 'Aksaray halı yıkama fiyatları, güvenilir firma önerileri ve ilçe bazlı hizmet rehberi. İç Anadolu step iklimine uygun halı bakım çözümleri.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 9,
+    heroEmoji: '🌋',
+    intro: 'Aksaray, Kapadokya\'nın batı kapısında, Hasan Dağı\'nın eteklerinde yer alan Orta Anadolu şehridir. Ihlara Vadisi ve yeraltı şehirleriyle turizm potansiyeli yüksek olan Aksaray, aynı zamanda halı dokuma geleneğine sahiptir. Step ikliminin hâkim olduğu şehirde kışlar soğuk ve karlı, yazlar sıcak ve kurak geçer. Tuz Gölü\'ne yakınlığı havadaki tuz ve mineral zerreciklerini artırır. Bu rehberde Aksaray\'a özel halı yıkama bilgilerini bulacaksınız.',
+    sections: [
+      {
+        heading: 'Aksaray Halı Yıkama Fiyatları 2026',
+        content: `Aksaray halı yıkama fiyatları İç Anadolu ortalamasında, uygun seviyededir:
+
+| Halı Türü | Fiyat Aralığı (m²) | Not |
+|---|---|---|
+| Makine halısı | 70-85 TL | Standart |
+| El dokuması / kilim | 80-135 TL | Aksaray tafta halıları |
+| Shaggy / uzun tüylü | 75-115 TL | Hızlı kuruma |
+| Yün halı | 80-130 TL | Standart |
+| İpek halı | 110-175 TL | El yıkama |
+
+🔴 **Pahalı bölgeler:** Merkez Aksaray, Zafer Mahallesi, Üniversite çevresi
+🟡 **Orta fiyatlı bölgeler:** Ortaköy, Gülağaç, Güzelyurt
+🟢 **Uygun fiyatlı bölgeler:** Ağaçören, Sarıyahşi, Eskil
+
+💡 *Aksaray'ın kurak iklimi halı kurutma için mükemmeldir — yaz aylarında 4-6 saatte kuruma tamamlanır.*`,
+      },
+      {
+        heading: 'Aksaray İklimi ve Halı Bakımı',
+        content: `Aksaray, 980 metre rakımda yarı kurak step iklimine sahiptir:
+
+**Kuru yazlar:** Yaz aylarında nem %20-30 arasında kalır — Türkiye'nin en kuru bölgelerinden biridir. Halılar çok hızlı kurur, küflenme riski yoktur.
+
+**Soğuk kışlar:** -15°C'ye düşen kış sıcaklıkları ve kar yağışı kapalı mekân yaşamını uzatır. Soba ve doğalgaz kullanımından kaynaklanan kurum ve is halılara bulaşır.
+
+**Tuz Gölü etkisi:** Aksaray'ın güneybatısındaki Tuz Gölü havzasından gelen tuzlu rüzgârlar halı liflerine ince tuz kristalleri taşır. Bu kristaller nemi çeker ve halının alt yüzeyinde nem biriktirir. Eskil ve Sultanhanı bölgesinde bu etki daha belirgindir.
+
+**Volkanik toz:** Hasan Dağı ve Kapadokya'nın volkanik toprakları ince tüf tozu üretir. Bu toz halılara sinerek mat bir görünüm verir — düzenli profesyonel yıkama gerekir.
+
+📌 *Tuz Gölü'ne yakın bölgelerde yaşıyorsanız halı altlığı kullanın ve yılda 1 kez anti-nem işlemi yaptırın.*`,
+      },
+      {
+        heading: 'Aksaray İlçelerinde Halı Yıkama Hizmetleri',
+        content: `Aksaray 8 ilçeye sahip kompakt bir ildir:
+
+**Merkez ve Yakın İlçeler:**
+- [Aksaray Merkez halı yıkama](/aksaray-merkez-hali-yikama-firmalari) — Şehir merkezi, tüm firmalar
+- [Ortaköy halı yıkama](/aksaray-ortakoy-hali-yikama-firmalari) — Merkeze yakın, büyük ilçe
+- [Gülağaç halı yıkama](/aksaray-gulagac-hali-yikama-firmalari) — Ihlara yakını
+
+**Kapadokya Bölgesi:**
+- [Güzelyurt halı yıkama](/aksaray-guzelyurt-hali-yikama-firmalari) — Ihlara Vadisi, turizm
+- [Ağaçören halı yıkama](/aksaray-agacoren-hali-yikama-firmalari) — Kuzey
+
+**Tuz Gölü Bölgesi:**
+- [Eskil halı yıkama](/aksaray-eskil-hali-yikama-firmalari) — Tuz Gölü yakını
+- [Sultanhanı halı yıkama](/aksaray-sultanhani-hali-yikama-firmalari) — Tarihi kervansaray
+- [Sarıyahşi halı yıkama](/aksaray-sariyahsi-hali-yikama-firmalari) — Küçük ilçe
+
+📌 *Aksaray kompakt bir ildir — merkez firmalar tüm ilçelere aynı gün hizmet verebilir.*`,
+      },
+    ],
+    faq: [
+      { q: 'Aksaray\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-85 TL/m², el dokuması 80-135 TL/m² aralığındadır. İç Anadolu\'nun uygun fiyatlı şehirlerinden biridir.' },
+      { q: 'Aksaray\'da kışın halı yıkatılır mı?', a: 'Kapalı kurutma tesisli firmada mümkündür. Kurutma 3-4 gün sürer. Yaz sezonu çok daha verimli ve hızlıdır.' },
+      { q: 'Tuz kristalleri halıya zarar verir mi?', a: 'Uzun süre temizlenmezse halı liflerini sertleştirir ve renkleri matlaştırır. Yılda 1 kez profesyonel yıkama bu etkiyi ortadan kaldırır.' },
+      { q: 'Kapadokya bölgesindeki otellerden hizmet alınır mı?', a: 'Evet, Güzelyurt ve Ihlara Vadisi bölgesindeki otellere Aksaray merkez firmalarından toplu halı yıkama hizmeti verilir.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'konya-hali-yikama', 'kayseri-hali-yikama'],
+  },
+
+  // ── Yozgat ────────────────────────────────────────────────
+  {
+    slug: 'yozgat-hali-yikama',
+    city: 'Yozgat',
+    citySlug: 'yozgat',
+    title: 'Yozgat Halı Yıkama Rehberi — Fiyatlar, İlçeler ve Tavsiyeler',
+    metaTitle: 'Yozgat Halı Yıkama Fiyatları 2026 | Rehber & Karşılaştırma',
+    metaDescription: 'Yozgat halı yıkama fiyatları, güvenilir firma önerileri ve ilçe bazlı hizmet rehberi. Bozok yaylasının sert iklimine uygun halı bakımı.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 9,
+    heroEmoji: '🌾',
+    intro: 'Yozgat, Bozok yaylasında 1.301 metre rakımda yer alan, Türkiye\'nin en yüksek il merkezlerinden biridir. Çamlık Milli Parkı ile Avrupa\'nın en küçük milli parkına ev sahipliği yapar. Sert karasal iklimde kışlar uzun ve soğuk, yazlar kısa ve sıcak geçer. Tarım ve hayvancılık ekonomisinin temeli olan şehirde geleneksel yaşam tarzı hâlâ güçlüdür — halılar evlerin vazgeçilmez parçasıdır.',
+    sections: [
+      {
+        heading: 'Yozgat Halı Yıkama Fiyatları 2026',
+        content: `Yozgat halı yıkama fiyatları Türkiye'nin en uygun seviyesindedir:
+
+| Halı Türü | Fiyat Aralığı (m²) | Not |
+|---|---|---|
+| Makine halısı | 70-82 TL | En yaygın |
+| El dokuması / kilim | 78-130 TL | Yöresel kilimler |
+| Shaggy / uzun tüylü | 72-110 TL | Standart |
+| Yün halı | 78-125 TL | Soğuk yıkama |
+| İpek halı | 105-170 TL | El yıkama |
+
+🔴 **Pahalı bölgeler:** Merkez Yozgat, Medrese Mahallesi, Çamlık çevresi
+🟡 **Orta fiyatlı bölgeler:** Sorgun merkez, Yerköy merkez, Boğazlıyan merkez
+🟢 **Uygun fiyatlı bölgeler:** Akdağmadeni, Çayıralan, Sarıkaya, Çekerek
+
+💡 *Yozgat, Türkiye'nin en uygun halı yıkama fiyatlarının olduğu şehirlerden biridir.*`,
+      },
+      {
+        heading: 'Yozgat İklimi ve Halı Bakımı',
+        content: `Yozgat, Türkiye'nin en soğuk il merkezlerinden biridir. 1.301 metre rakım sert bir karasal iklim yaratır:
+
+**Uzun kışlar:** Ekim'den Nisan'a kadar soğuk dönem sürer. -20°C'ye varan sıcaklıklar ve 3-4 ay kar örtüsü. Bu sürede evlerde halılar yoğun kullanılır — soba kurumu, çamur ve ıslak ayakkabı izleri birikir.
+
+**Kısa ama sıcak yazlar:** Haziran-Ağustos arası 28-33°C. Kuru steppe iklimi halı kurutma için idealdir — nem %25-35 arasında, 5-7 saatte kuruma tamamlanır.
+
+**Tarım tozu:** Buğday, arpa ve şeker pancarı tarımının yoğun olduğu Yozgat ovasında hasat dönemlerinde ince toprak tozu halılara yerleşir.
+
+**Soba kullanımı yaygın:** Kırsal bölgelerde ve küçük ilçelerde hâlâ yaygın olan soba, halılarda kurum ve is lekesi bırakır. Buhar temizliği bu lekelerde en etkili yöntemdir.
+
+**Sarıkaya termal bölgesi:** Sarıkaya'nın termal kaynaklarına yakın evlerde mineral birikimi halılarda sarımsı iz bırakabilir.
+
+📌 *Yozgat'ta halı yıkama sezonu kısadır (Haziran-Eylül). Kış bitmeden sipariş verin, sezon başında sıra beklemeden teslim alın.*`,
+      },
+      {
+        heading: 'Yozgat İlçelerinde Halı Yıkama Hizmetleri',
+        content: `Yozgat 14 ilçeyle orta büyüklükte bir ildir:
+
+**Merkez ve Büyük İlçeler:**
+- [Yozgat Merkez halı yıkama](/yozgat-merkez-hali-yikama-firmalari) — Şehir merkezi, tüm firmalar
+- [Sorgun halı yıkama](/yozgat-sorgun-hali-yikama-firmalari) — İkinci büyük ilçe
+- [Yerköy halı yıkama](/yozgat-yerkoy-hali-yikama-firmalari) — Demiryolu kavşağı
+- [Boğazlıyan halı yıkama](/yozgat-bogazliyan-hali-yikama-firmalari) — Güneyde büyük ilçe
+- [Akdağmadeni halı yıkama](/yozgat-akdagmadeni-hali-yikama-firmalari) — Maden tarihi
+
+**Orta İlçeler:**
+- [Sarıkaya halı yıkama](/yozgat-sarikaya-hali-yikama-firmalari) — Termal, Roma hamamı
+- [Çekerek halı yıkama](/yozgat-cekerek-hali-yikama-firmalari) — Tokat sınırı
+- [Çayıralan halı yıkama](/yozgat-cayiralan-hali-yikama-firmalari) — Kırsal
+
+**Küçük İlçeler:**
+- [Şefaatli halı yıkama](/yozgat-sefaatli-hali-yikama-firmalari) — Yerköy yakını
+- [Aydıncık halı yıkama](/yozgat-aydincik-hali-yikama-firmalari) — Küçük
+- [Kadışehri halı yıkama](/yozgat-kadisehri-hali-yikama-firmalari) — Kuzey
+- [Saraykent halı yıkama](/yozgat-saraykent-hali-yikama-firmalari) — Kırsal
+- [Yenifakılı halı yıkama](/yozgat-yenifakili-hali-yikama-firmalari) — Kırsal
+
+📌 *Sorgun, Yerköy ve Boğazlıyan'da yerel firma seçenekleri mevcuttur. Diğer ilçelere merkez firmalarından ücretsiz alım-teslim yapılır.*`,
+      },
+    ],
+    faq: [
+      { q: 'Yozgat\'ta halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-82 TL/m², el dokuması 78-130 TL/m² aralığındadır. Türkiye\'nin en uygun fiyatlı şehirlerinden biridir.' },
+      { q: 'Yozgat\'ta kışın halı yıkatılır mı?', a: 'Kapalı kurutma tesisli firmada mümkündür ama kış çok soğuk olduğundan kurutma 5-7 gün sürebilir. Yaz sezonunu tercih edin.' },
+      { q: 'Soba kurumu halıdan çıkar mı?', a: 'Profesyonel buhar temizliği ile büyük ölçüde çıkar. Evde sirke-karbonat yöntemi yüzeysel temizlik sağlar ama derine işleyen kurumu çıkarmaz.' },
+      { q: 'Yozgat\'ta yılda kaç kez halı yıkatmalıyım?', a: 'Soba kullanan evlerde yılda 2 kez (kış sonu + yaz sonu), doğalgaz kullanan evlerde yılda 1 kez yeterlidir.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'kayseri-hali-yikama', 'sivas-hali-yikama'],
+  },
 ];
