@@ -1652,4 +1652,117 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'izmir-hali-yikama', 'antalya-hali-yikama'],
   },
+
+  /* ─── 20. DENİZLİ ─── */
+  {
+    slug: 'denizli-hali-yikama',
+    city: 'Denizli',
+    citySlug: 'denizli',
+    title: 'Denizli Halı Yıkama Rehberi: Fiyatlar, Firmalar ve İpuçları (2026)',
+    metaTitle: 'Denizli Halı Yıkama Fiyatları 2026 | Firma Rehberi',
+    metaDescription: 'Denizli halı yıkama fiyatları 2026 güncel liste. Merkezefendi, Pamukkale, Çivril, Acıpayam fiyat karşılaştırma. Denizli halı yıkama firması seçim rehberi.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'Şehir Rehberi',
+    readingTime: 8,
+    heroEmoji: '🏛️',
+    intro: `**Denizli**, Türkiye'nin tekstil ve havlu üretim başkentidir. Denizli havlusu dünya çapında ihraç edilir ve bu tekstil kültürü halı yıkama sektörüne de yansır — firmalar kumaş ve lif konusunda derin bilgiye sahiptir. Pamukkale'nin travertenleriyle dünyaca ünlü şehir, aynı zamanda jeotermal kaynaklarıyla da bilinir. İç Batı Anadolu'nun yarı karasal iklimi — sıcak yazlar, soğuk kışlar — halı bakım döngüsünü şekillendirir. [Denizli halı yıkama firmaları](/denizli-hali-yikama-firmalari) arasında en uygun fiyatlı ve güvenilir firmayı bulmak için bu rehberi hazırladık.`,
+    sections: [
+      {
+        heading: 'Denizli Halı Yıkama Fiyatları 2026',
+        content: `Denizli'de halı yıkama fiyatları Ege ortalamasının altındadır. Tekstil sektörünün güçlü olması fiyat rekabetini artırır — Denizli firmaları kumaş bilgisi ve kalite açısından Türkiye'nin en iyileri arasındadır.
+
+| Halı Türü | Fiyat Aralığı (m²) | Ortalama |
+|---|---|---|
+| Makine halısı | 70 – 110 TL | 80 TL |
+| El dokuması halı | 90 – 165 TL | 115 TL |
+| Shaggy / tüylü halı | 75 – 135 TL | 95 TL |
+| İpek halı | 140 – 300 TL | 200 TL |
+| Koltuk yıkama (kişilik) | 130 – 270 TL | 180 TL |
+| Yorgan yıkama (adet) | 100 – 200 TL | 140 TL |
+
+**İlçe Bazlı Fiyat Farkları:**
+
+🔴 **Yüksek Segment**: [Merkezefendi halı yıkama](/denizli-merkezefendi-hali-yikama-firmalari), [Pamukkale halı yıkama](/denizli-pamukkale-hali-yikama-firmalari) — 80-165 TL/m². Şehir merkezi, modern konutlar, yüksek talep.
+
+🟡 **Orta Segment**: [Çivril halı yıkama](/denizli-civril-hali-yikama-firmalari), [Sarayköy halı yıkama](/denizli-saraykoy-hali-yikama-firmalari), [Buldan halı yıkama](/denizli-buldan-hali-yikama-firmalari), [Tavas halı yıkama](/denizli-tavas-hali-yikama-firmalari) — 70-120 TL/m².
+
+🟢 **Uygun Segment**: [Acıpayam halı yıkama](/denizli-acipayam-hali-yikama-firmalari), [Çal halı yıkama](/denizli-cal-hali-yikama-firmalari), [Honaz halı yıkama](/denizli-honaz-hali-yikama-firmalari), [Kale halı yıkama](/denizli-kale-hali-yikama-firmalari), [Güney halı yıkama](/denizli-guney-hali-yikama-firmalari), [Beyağaç halı yıkama](/denizli-beyagac-hali-yikama-firmalari) — 70-95 TL/m².
+
+📌 *Denizli'nin tekstil uzmanlığı halı yıkama sektörüne de yansır. Firmalar lif yapısı, deterjan seçimi ve kurutma tekniği konusunda ortalamadan çok daha bilgilidir.*`,
+      },
+      {
+        heading: 'Denizli İklimi ve Halı Bakım Takvimi',
+        content: `Denizli'nin 350-400 metre rakımı ve yarı karasal iklimi halı bakımını belirler:
+
+**Sıcak Yazlar (Haziran-Eylül):** Denizli yazları 38-42°C'ye çıkabilir. Nem düşüktür ve kurutma 4-6 saatte tamamlanır. Halı yıkama için en ideal dönem Mayıs-Haziran'dır — hava sıcak ama aşırı değil.
+
+**Soğuk Kışlar (Aralık-Şubat):** Kar yağışı seyrek ama gece sıcaklıkları -5°C'ye düşer. Evler kapalı kalır, soba/kalorifer tozu halılara birikit. Kışın yıkatacaksanız kapalı kurutma tesisi olan firma tercih edin.
+
+**Tekstil Fabrika Tozu:** Denizli'nin en belirgin özelliği tekstil sanayi yoğunluğudur. Babadağ, Buldan ve merkezdeki tekstil atölyeleri çevresinde pamuk lifleri ve iplik tozu havada asılı kalır. Bu bölgelerde halılar çok daha hızlı kirlenir — yılda 2-3 kez profesyonel yıkama şarttır.
+
+**Jeotermal Bölge — Pamukkale/Sarayköy:** Denizli'nin jeotermal kaynakları dünyaca ünlüdür. Jeotermal enerji kullanan kurutma tesisleri düşük maliyetle hızlı kurutma sunabilir. Sarayköy jeotermal seracılık bölgesinde nem yüksektir — bu bölgede anti-küf işlem önerilir.
+
+**Kireçli Su Sorunu:** Denizli'nin şebeke suyu kireç oranı yüksektir. Bazı firmalar arıtılmış su kullanır — bu halı liflerinin yumuşaklığını korur. Firma seçerken su arıtma tesisi olup olmadığını sorun.
+
+**En İyi Dönem:** Mayıs-Haziran ve Eylül-Ekim — hava ılık, kurutma hızlı, firmalar yoğun değil.
+
+[Denizli halı yıkama firmaları](/denizli-hali-yikama-firmalari) — Denizli'deki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+      },
+      {
+        heading: 'Denizli Halı Yıkama Firması Seçerken Dikkat Edilecekler',
+        content: `**Tekstil Uzmanlığı — Denizli'nin Avantajı:** Denizli firmaları tekstil kültüründen gelen derin lif bilgisine sahiptir. Yün, pamuk, ipek, akrilik, polyester — her lif türü için farklı deterjan ve sıcaklık gerekir. Bu bilgi Denizli'de doğal olarak mevcuttur, diğer şehirlerde aramak gerekir.
+
+**Buldan Bezi ve Dokumaları:** Buldan ilçesi el dokuması kumaşlarıyla ünlüdür. Buldan bezinden yapılan halı ve kilimler özel bakım gerektirir — standart makine yıkama bu ince dokumaları zedeleyebilir. Buldan ürünleri için mutlaka uzman firma seçin.
+
+**Pamukkale Turizm Otel/Pansiyonları:** Pamukkale'nin turist otelleri ve pansiyonları sezon sonunda (Kasım) toplu halı yıkama yaptırır. Toplu sipariş indirimi ile %10-20 tasarruf mümkündür.
+
+**Babadağ Tekstil Bölgesi:** Babadağ Türkiye'nin en yoğun tekstil üretim merkezlerinden biridir. Fabrika yakınındaki konutlarda pamuk lifi ve iplik tozu birikimi çok yüksektir. Alerji hastaları için profesyonel yıkama + anti-alerjen işlem zorunludur.
+
+**Kireçli Su Farkı:** Denizli'nin kireçli suyu halı yıkamada fark yaratır. Kireçli su ile yıkanan halılar sertleşir ve matlaşır. Arıtılmış su kullanan firmalar daha iyi sonuç verir — fiyat farkı 5-10 TL/m² olsa da uzun vadede halınızın ömrünü uzatır.
+
+**Acıpayam Yörük Kilimleri:** Acıpayam ve Tavas bölgesinde geleneksel Yörük kilimleri hala dokunmaktadır. Bu kilimlerin boyaları doğal bitkisel kökenlidir ve yanlış deterjan renk akmasına neden olur. pH nötr deterjan ve elle yıkama şarttır.`,
+      },
+      {
+        heading: 'Denizli İlçe Bazlı Halı Yıkama Firmaları',
+        content: `Denizli 19 ilçeye sahiptir. İşte ilçe bazlı halı yıkama firma rehberi:
+
+**Büyükşehir Merkez İlçeler:**
+- [Merkezefendi halı yıkama](/denizli-merkezefendi-hali-yikama-firmalari) — Şehir merkezi güney, modern konutlar
+- [Pamukkale halı yıkama](/denizli-pamukkale-hali-yikama-firmalari) — Şehir merkezi kuzey, UNESCO miras alanı
+
+**Tekstil ve Dokuma Merkezleri:**
+- [Buldan halı yıkama](/denizli-buldan-hali-yikama-firmalari) — El dokuması bez ve kilim merkezi
+- [Babadağ halı yıkama](/denizli-babadagi-hali-yikama-firmalari) — Tekstil üretim merkezi
+
+**Büyük İlçeler:**
+- [Çivril halı yıkama](/denizli-civril-hali-yikama-firmalari) — Tarım ve ticaret merkezi
+- [Acıpayam halı yıkama](/denizli-acipayam-hali-yikama-firmalari) — Yörük kültürü, geleneksel kilim
+- [Tavas halı yıkama](/denizli-tavas-hali-yikama-firmalari) — Tarım ilçesi
+- [Sarayköy halı yıkama](/denizli-saraykoy-hali-yikama-firmalari) — Jeotermal merkez
+
+**Diğer İlçeler:**
+- [Çal halı yıkama](/denizli-cal-hali-yikama-firmalari) — Dağ yerleşimi
+- [Honaz halı yıkama](/denizli-honaz-hali-yikama-firmalari) — Honaz Dağı etekleri
+- [Kale halı yıkama](/denizli-kale-hali-yikama-firmalari) — Antik Laodikeia
+- [Güney halı yıkama](/denizli-guney-hali-yikama-firmalari) — Kırsal
+- [Çameli halı yıkama](/denizli-cameli-hali-yikama-firmalari) — Dağ ilçesi
+- [Serinhisar halı yıkama](/denizli-serinhisar-hali-yikama-firmalari) — Tarım
+- [Beyağaç halı yıkama](/denizli-beyagac-hali-yikama-firmalari) — Orman bölgesi
+- [Bozkurt halı yıkama](/denizli-bozkurt-hali-yikama-firmalari) — Küçük ilçe
+- [Çardak halı yıkama](/denizli-cardak-hali-yikama-firmalari) — Göl kenarı
+- [Baklan halı yıkama](/denizli-baklan-hali-yikama-firmalari) — Ova yerleşimi
+- [Bekilli halı yıkama](/denizli-bekilli-hali-yikama-firmalari) — Kırsal
+
+📌 *İç kesim ilçelerinde firma sayısı sınırlıdır. Merkezefendi ve Pamukkale firmalarının çoğu il genelinde hizmet sunar — merkeze uzak ilçelerden de sipariş verebilirsiniz.*`,
+      },
+    ],
+    faq: [
+      { q: 'Denizli\'de halı yıkama ortalama ne kadar?', a: 'Makine halısı ortalama 80 TL/m², el dokuması 90-165 TL/m², shaggy 75-135 TL/m² aralığındadır. Denizli\'nin tekstil rekabeti fiyatları Ege ortalamasının altında tutar.' },
+      { q: 'Denizli\'de halı yıkama kaç gün sürer?', a: 'Yaz aylarında 1-2 gün (düşük nem, hızlı kurutma), kışın 3-4 gün. Jeotermal kurutma tesisi olan firmalarda yıl boyu 1-2 gün.' },
+      { q: 'Denizli\'de kireçli su halı yıkamayı etkiler mi?', a: 'Evet. Kireçli su halıları sertleştirir ve matlaştırır. Arıtılmış su kullanan firmalar daha iyi sonuç verir — firma seçerken su arıtma tesisi olup olmadığını sorun.' },
+      { q: 'Buldan dokuması halıyı nerede yıkatmalıyım?', a: 'Buldan\'daki yerel uzman firmalar veya Merkezefendi\'deki el dokuması deneyimli firmalar tercih edilmelidir. Standart makine yıkama bu ince dokumaları zedeleyebilir — elle yıkama + düşük sıcaklık şarttır.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'izmir-hali-yikama', 'aydin-hali-yikama'],
+  },
 ];
