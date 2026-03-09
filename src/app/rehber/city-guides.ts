@@ -4816,4 +4816,149 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'diyarbakir-hali-yikama', 'sanliurfa-hali-yikama'],
   },
+
+  // ── Siirt ────────────────────────────────────────────────
+  {
+    slug: 'siirt-hali-yikama',
+    city: 'Siirt',
+    citySlug: 'siirt',
+    title: 'Siirt Halı Yıkama Rehberi — Fiyatlar, İlçeler ve Tavsiyeler',
+    metaTitle: 'Siirt Halı Yıkama Fiyatları 2026 | Rehber & Karşılaştırma',
+    metaDescription: 'Siirt halı yıkama fiyatları, güvenilir firma önerileri ve ilçe bazlı hizmet rehberi. Güneydoğu Anadolu sıcak iklimine uygun halı bakımı.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 8,
+    heroEmoji: '🏜️',
+    intro: 'Siirt, Güneydoğu Anadolu\'nun dağlık iç kesiminde yer alan, battaniyesi ve büryanıyla meşhur tarihi şehirdir. Botan Çayı vadisinde kurulan Siirt, sıcak yazları ve soğuk kışlarıyla geçiş iklimi özelliği taşır. Siirt battaniyesi tiftik keçisi yününden dokunur ve yüzyıllardır bölgenin simgesidir. Keçi yünü ve tiftik dokumaların bakımı özel bilgi gerektirir.',
+    sections: [
+      {
+        heading: 'Siirt Halı Yıkama Fiyatları 2026',
+        content: `Siirt halı yıkama fiyatları Türkiye'nin en uygun seviyesindedir:
+
+| Halı Türü | Fiyat Aralığı (m²) | Not |
+|---|---|---|
+| Makine halısı | 70-80 TL | Standart |
+| El dokuması / kilim | 75-125 TL | Yöresel dokumalar |
+| Siirt battaniyesi | 80-120 TL (adet) | Tiftik, özel yıkama |
+| Yün halı | 75-120 TL | Soğuk yıkama |
+
+🔴 **Pahalı bölgeler:** Merkez Siirt, Cumhuriyet Caddesi
+🟡 **Orta fiyatlı bölgeler:** Kurtalan merkez, Baykan merkez
+🟢 **Uygun fiyatlı bölgeler:** Pervari, Şirvan, Eruh, Tillo
+
+💡 *Siirt battaniyesi özel tiftik yıkama gerektirir — deneyimli firma seçin.*`,
+      },
+      {
+        heading: 'Siirt İklimi ve Halı Bakımı',
+        content: `Siirt, Güneydoğu Anadolu'nun dağlık iç kesiminde geçiş iklimine sahiptir:
+
+**Sıcak yazlar:** 38-42°C sıcaklık. Halılar 3-4 saatte kurur. Doğrudan güneşten kaçınarak gölgede kurutma tercih edilmelidir.
+
+**Soğuk kışlar:** Rakım nedeniyle (894 m) kışlar Batman veya Diyarbakır'dan daha soğuk olur. -10°C'ye varan sıcaklıklar ve kar yağışı. Kapalı tesiste kurutma 3-4 gün sürer.
+
+**Tiftik ve yün bakımı:** Siirt'in tiftik keçisi yünü hassastır. Sıcak su yünü keçeleştirir — soğuk yıkama zorunludur. Siirt battaniyesi standart halı gibi yıkanmamalıdır.
+
+**Toz ve toprak:** Step ikliminin etkisiyle kuru dönemlerde toz yoğunluğu artar. Dağlık arazide rüzgâr tozu taşır.
+
+📌 *Siirt battaniyenizi yıkatırken firmaya mutlaka "tiftik" olduğunu belirtin — standart makine yıkama keçeleşmeye neden olabilir.*`,
+      },
+      {
+        heading: 'Siirt İlçelerinde Halı Yıkama Hizmetleri',
+        content: `Siirt 7 ilçeye sahip dağlık bir ildir:
+
+**Merkez ve İlçeler:**
+- [Siirt Merkez halı yıkama](/siirt-merkez-hali-yikama-firmalari) — Şehir merkezi
+- [Kurtalan halı yıkama](/siirt-kurtalan-hali-yikama-firmalari) — Demiryolu, büyük ilçe
+- [Baykan halı yıkama](/siirt-baykan-hali-yikama-firmalari) — Batman sınırı
+- [Pervari halı yıkama](/siirt-pervari-hali-yikama-firmalari) — Dağlık, HES
+- [Şirvan halı yıkama](/siirt-sirvan-hali-yikama-firmalari) — Tarım
+- [Eruh halı yıkama](/siirt-eruh-hali-yikama-firmalari) — Dağlık
+- [Tillo halı yıkama](/siirt-tillo-hali-yikama-firmalari) — Tarihi, kültürel
+
+📌 *Kurtalan'da sınırlı sayıda yerel firma bulunur. Diğer ilçelere Siirt merkez firmalarından alım-teslim yapılır.*`,
+      },
+    ],
+    faq: [
+      { q: 'Siirt\'te halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-80 TL/m², Siirt battaniyesi 80-120 TL (adet) aralığındadır. Türkiye\'nin en uygun şehirlerinden biridir.' },
+      { q: 'Siirt battaniyesi nasıl yıkanır?', a: 'Soğuk su + yün deterjanı ile düşük devirde yıkanır. Sıcak su keçeleştirir. Asla sıkılmaz — düz şekilde serilip kurutulur.' },
+      { q: 'Siirt\'te kışın halı yıkatılır mı?', a: 'Kapalı tesiste mümkündür. Kurutma 3-4 gün sürer. Yaz sezonu daha verimlidir.' },
+      { q: 'Tiftik yün halı evde yıkanabilir mi?', a: 'Tavsiye edilmez. Tiftik yünü çok hassastır — yanlış sıcaklık veya deterjan kalıcı hasar verir. Profesyonel yıkama zorunludur.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'batman-hali-yikama', 'diyarbakir-hali-yikama'],
+  },
+
+  // ── Kırklareli ────────────────────────────────────────────────
+  {
+    slug: 'kirklareli-hali-yikama',
+    city: 'Kırklareli',
+    citySlug: 'kirklareli',
+    title: 'Kırklareli Halı Yıkama Rehberi — Fiyatlar, İlçeler ve Tavsiyeler',
+    metaTitle: 'Kırklareli Halı Yıkama Fiyatları 2026 | Rehber & Karşılaştırma',
+    metaDescription: 'Kırklareli halı yıkama fiyatları, güvenilir firma önerileri ve ilçe bazlı hizmet rehberi. Trakya iklimine uygun halı bakım çözümleri.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 8,
+    heroEmoji: '🌻',
+    intro: 'Kırklareli, Trakya\'nın kuzeydoğu köşesinde Bulgaristan sınırında yer alan sakin ve düzenli bir şehirdir. Istranca Dağları\'nın etekleri ile Trakya ovasının buluştuğu noktada yer alır. Peyniri, ayçiçeği tarlaları ve Dupnisa Mağarası\'yla tanınan şehirde iklim ılıman geçiş özelliği taşır. Kışları Edirne\'den biraz daha soğuk, yazları İstanbul\'dan daha kurudur.',
+    sections: [
+      {
+        heading: 'Kırklareli Halı Yıkama Fiyatları 2026',
+        content: `Kırklareli halı yıkama fiyatları Trakya ortalamasında, İstanbul'dan çok uygun seviyededir:
+
+| Halı Türü | Fiyat Aralığı (m²) | Not |
+|---|---|---|
+| Makine halısı | 70-88 TL | Standart |
+| El dokuması / kilim | 82-135 TL | Az sayıda |
+| Shaggy / uzun tüylü | 75-118 TL | Standart |
+| Yün halı | 80-130 TL | Standart |
+
+🔴 **Pahalı bölgeler:** Merkez Kırklareli, İstasyon Caddesi
+🟡 **Orta fiyatlı bölgeler:** Lüleburgaz merkez, Babaeski merkez
+🟢 **Uygun fiyatlı bölgeler:** Vize, Pınarhisar, Demirköy, Pehlivanköy
+
+💡 *İstanbul'a göre %30-40 daha uygun fiyatlarla halı yıkama hizmeti alabilirsiniz.*`,
+      },
+      {
+        heading: 'Kırklareli İklimi ve Halı Bakımı',
+        content: `Kırklareli, ılıman karasal ve Karadeniz iklimlerinin geçiş noktasındadır:
+
+**Nemli kışlar:** Kuzeyden gelen soğuk rüzgârlar kışları sert yapar (-8°C'ye kadar). Kar 1-2 ay kalır. Istranca Dağları kuzey yamaçlarında nem yüksektir.
+
+**Ilıman yazlar:** 28-32°C ile Trakya'nın en ılıman bölgelerinden biri. Halı kurutma için yeterli sıcaklık.
+
+**Ayçiçeği tozu:** Trakya'nın ayçiçeği tarlaları hasat döneminde (Ağustos-Eylül) ince polen ve toz üretir. Bu toz halılara siner ve alerjenliğini artırır.
+
+**Orman nemi:** Istranca Dağları'nın ormanlık kuzey bölgesinde (Demirköy, Kofçaz) nem daha yüksektir. Bu bölgelerde anti-küf işlemi önerilir.
+
+📌 *Kırklareli'nin güney ilçeleri kuru step, kuzey ilçeleri nemli ormanlık — bölgenize göre bakım ihtiyacı değişir.*`,
+      },
+      {
+        heading: 'Kırklareli İlçelerinde Halı Yıkama Hizmetleri',
+        content: `Kırklareli 8 ilçeye sahip orta büyüklükte bir ildir:
+
+**Merkez ve Büyük İlçeler:**
+- [Kırklareli Merkez halı yıkama](/kirklareli-merkez-hali-yikama-firmalari) — Şehir merkezi
+- [Lüleburgaz halı yıkama](/kirklareli-luleburgaz-hali-yikama-firmalari) — En büyük ilçe, sanayi
+- [Babaeski halı yıkama](/kirklareli-babaeski-hali-yikama-firmalari) — Büyük ilçe
+
+**Diğer İlçeler:**
+- [Vize halı yıkama](/kirklareli-vize-hali-yikama-firmalari) — Tarihi, Trakya kalesi
+- [Pınarhisar halı yıkama](/kirklareli-pinarhisar-hali-yikama-firmalari) — Kırsal
+- [Demirköy halı yıkama](/kirklareli-demirkoy-hali-yikama-firmalari) — Istranca ormanları
+- [Kofçaz halı yıkama](/kirklareli-kofcaz-hali-yikama-firmalari) — Bulgaristan sınırı
+- [Pehlivanköy halı yıkama](/kirklareli-pehlivankoy-hali-yikama-firmalari) — Küçük ilçe
+
+📌 *Lüleburgaz ve Babaeski'de yerel firmalar mevcuttur. Diğer ilçelere merkez firmalarından alım-teslim yapılır.*`,
+      },
+    ],
+    faq: [
+      { q: 'Kırklareli\'de halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-88 TL/m², yün halı 80-130 TL/m² aralığındadır. İstanbul\'dan önemli ölçüde uygun fiyatlıdır.' },
+      { q: 'Lüleburgaz\'dan hizmet alabilir miyim?', a: 'Evet, Lüleburgaz Kırklareli\'nin en büyük ilçesidir ve kendi yerel firmaları mevcuttur.' },
+      { q: 'Kırklareli\'de kışın halı yıkatılır mı?', a: 'Kapalı tesiste mümkündür. Kurutma 3-4 gün sürer. Ilıman kış dönemlerinde açık havada da kurutma yapılabilir.' },
+      { q: 'Istranca bölgesinden hizmet alabilir miyim?', a: 'Evet, Demirköy ve Kofçaz dahil tüm ilçelere merkez firmalarından alım-teslim yapılır.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'edirne-hali-yikama', 'tekirdag-hali-yikama'],
+  },
 ];
