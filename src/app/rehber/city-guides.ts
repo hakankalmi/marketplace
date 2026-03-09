@@ -448,4 +448,88 @@ Merkeze uzak ilçeler. Ereğli kendi başına büyük bir pazar (150.000+ nüfus
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'ankara-hali-yikama', 'antalya-hali-yikama'],
   },
+  {
+    slug: 'adana-hali-yikama',
+    city: 'Adana',
+    citySlug: 'adana',
+    title: 'Adana Halı Yıkama Rehberi — İlçe Bazlı Fiyatlar ve Firmalar',
+    metaTitle: 'Adana Halı Yıkama | İlçe Bazlı Fiyatlar ve En İyi Firmalar 2026',
+    metaDescription: 'Adana halı yıkama fiyatları ilçe bazlı karşılaştırma. Seyhan, Çukurova, Yüreğir, Sarıçam, Ceyhan ve tüm ilçelerde en iyi halı yıkama firmaları.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 7,
+    heroEmoji: '🌶️',
+    intro: 'Adana, Çukurova\'nın kalbi ve Türkiye\'nin altıncı büyük şehridir. Yazları 45°C\'ye varan bunaltıcı sıcaklar, yüksek nem oranı ve tarımsal toz, halıları ciddi şekilde etkiler. Akdeniz iklimiyle Güneydoğu\'nun buluştuğu bu coğrafyada halı bakımı hem hijyen hem halı ömrü açısından kritik öneme sahiptir. Bu rehberde [Adana halı yıkama](/adana-hali-yikama-firmalari) fiyatlarını ilçe bazlı karşılaştırıyor ve Çukurova\'ya özgü halı bakım ipuçlarını paylaşıyoruz.',
+    sections: [
+      {
+        heading: 'Adana Halı Yıkama Fiyatları — Genel',
+        content: `Adana fiyatları İstanbul ve İzmir'in belirgin şekilde altında, Konya ile benzer seviyelerdedir:
+
+**Makine Halısı:** Ortalama 70 TL/m² (aralık: 40-120 TL) — İstanbul'un yarı fiyatı
+**El Halısı (Yün):** 90-160 TL/m²
+**İpek Halı:** 140-320 TL/m²
+**Shaggy / Uzun Tüylü:** 55-100 TL/m²
+**Kilim / Cicim:** 35-70 TL/m²
+
+**Adana'nın Farkı:** Sıcak iklim kurutmayı çok hızlandırır — yaz aylarında halılar birkaç saat içinde kurur. Bu, firmaların cirosunu artırır ve fiyatlara olumlu yansır. Ayrıca tarım ekonomisi nedeniyle genel yaşam maliyeti düşük olduğundan, halı yıkama fiyatları da makul seviyelerdedir.`,
+      },
+      {
+        heading: 'Adana Halı Yıkama — İlçe Bazlı Fiyat Karşılaştırması',
+        content: `Adana ortalaması makine halısı için 70 TL/m²'dir. Merkez ilçeler ile kırsal arasında önemli farklar vardır:
+
+**Yüksek Fiyat Bölgeleri (80-120 TL/m²):**
+[Çukurova halı yıkama](/adana-cukurova-hali-yikama-firmalari) (Beyazevler, Toros), [Seyhan halı yıkama](/adana-seyhan-hali-yikama-firmalari) (Reşatbey, Kurtuluş)
+Adana'nın en gelişmiş bölgeleri. Çukurova ilçesi yeni yapılaşma ve sitelerle hızla büyüyor. Seyhan merkez (Reşatbey-Kurtuluş aksı) ise şehrin ticari kalbi.
+
+**Orta Fiyat Bölgeleri (50-80 TL/m²):**
+[Yüreğir halı yıkama](/adana-yuregir-hali-yikama-firmalari), [Sarıçam halı yıkama](/adana-saricam-hali-yikama-firmalari)
+Yüreğir, Adana'nın en kalabalık ilçesi (500.000+ nüfus). Firma sayısı fazla, rekabet güçlü. Sarıçam sanayi bölgesi çevresinde kurumsal müşteri talebi yüksek.
+
+**Uygun Fiyat Bölgeleri (35-55 TL/m²):**
+[Ceyhan halı yıkama](/adana-ceyhan-hali-yikama-firmalari), [Kozan halı yıkama](/adana-kozan-hali-yikama-firmalari), [İmamoğlu halı yıkama](/adana-imamoglu-hali-yikama-firmalari), [Karaisalı halı yıkama](/adana-karaisali-hali-yikama-firmalari), [Tufanbeyli halı yıkama](/adana-tufanbeyli-hali-yikama-firmalari)
+Merkeze uzak ilçeler. Ceyhan (160.000+ nüfus) kendi başına bir pazar — yerel firmalar mevcuttur. Dağ ilçelerinde (Karaisalı, Tufanbeyli) firma bulmak zor olabilir.
+
+**İpucu:** Çukurova'da oturuyorsanız Yüreğir'deki firmalara da bakın — 15 dakika mesafede %20-30 fiyat avantajı bulabilirsiniz.`,
+      },
+      {
+        heading: 'Adana Halı Yıkama — Çukurova İklimi ve Tarım Etkisi',
+        content: `Adana'nın kendine has iklimi ve tarımsal yapısı halı bakımını doğrudan etkiler:
+
+**Bunaltıcı Yaz Sıcakları (Haziran-Eylül):** Adana, Türkiye'nin en sıcak şehirlerinden biridir. Hava sıcaklığı 45°C'ye, nem oranı %80'e çıkabilir. Bu kombinasyon halılarda bakteri ve toz akarı üremesini hızlandırır. Yaz aylarında evde klima kullanımı halıların terleme ve nem tutmasına neden olur. **Yılda en az 2 kez profesyonel halı yıkama** zorunludur.
+
+**Tarımsal Toz ve Polen:** Çukurova Türkiye'nin en verimli tarım bölgesidir. Pamuk, narenciye ve buğday ekimi nedeniyle havada yoğun polen ve tarımsal toz bulunur. Alerjisi olanlar halılarını daha sık yıkatmalıdır (yılda 3 kez).
+
+**Nem ve Küf:** Kış aylarında (Aralık-Şubat) Adana yağışlı ve nemlidir. Zemin kat dairelerde ve bodrumlarda halılarda küf riski yüksektir. Bu dönemde halı yıkattıysanız kurutma süresini sorun — kapalı kurutma tercih edin.
+
+**Kurutma Avantajı:** Mart-Kasım arası kurutma çok hızlıdır. Halılar açık havada 3-5 saatte kurur. Bu, Adana'daki firmaların İstanbul ve Ankara'ya göre daha hızlı teslimat yapmasını sağlar.
+
+**En Uygun Dönem:** Mart-Nisan ve Ekim-Kasım — hava ılık, nem düşük, firmalar yoğun değil.
+
+**Yoğun Dönem:** Mayıs-Haziran (yaz öncesi büyük temizlik) ve bayram öncesi dönemler.
+
+[Adana halı yıkama firmaları](/adana-hali-yikama-firmalari) — Adana'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+      },
+      {
+        heading: 'Adana Halı Yıkama Firması Seçerken Dikkat Edilecekler',
+        content: `**Yüksek Nem Deneyimi:** Adana'da çalışan halı yıkama firmaları yüksek nem koşullarında kurutma konusunda deneyimlidir. Firmaya kurutma yöntemini sorun — kapalı kurutma tesisinde fan/ısıtıcı kombinasyonu kullanan firmalar kış aylarında bile güvenli kurutma sağlar.
+
+**Böcek ve Haşere Problemi:** Adana'nın sıcak iklimi nedeniyle halılarda böcek (güve, halı böceği) riski diğer şehirlere göre yüksektir. Bazı firmalar anti-böcek (moth-proof) ve anti-bakteriyel işlem sunar. Özellikle yün ve el halıları için bu hizmeti mutlaka sorun.
+
+**Tarla Yakını Evler:** Tarım arazilerine yakın evlerde yaşıyorsanız (Yüreğir, Ceyhan, İmamoğlu) halılarınızda pestisit kalıntısı ve tarımsal toz birikimi olur. Firmaya bu durumu belirtin — bazı firmalar yoğun durulamalı özel program uygular.
+
+**Sanayi Bölgesi Firmaları:** Sarıçam ve Hacı Sabancı OSB çevresindeki firmalar endüstriyel kapasiteye sahiptir. Büyük halılar (50+ m²), otel ve işyeri halıları için bu firmaları tercih edebilirsiniz.
+
+**Ulaşım Mesafesi:** Ceyhan-merkez arası 50+ km, Kozan-merkez arası 70+ km'dir. Bu ilçelerdeyseniz yerel firma tercih edin — nakliye maliyeti halı yıkama ücretine yaklaşabilir.`,
+      },
+    ],
+    faq: [
+      { q: 'Adana\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı için ortalama 70 TL/m², el halısı 90-160 TL/m², kilim 35-70 TL/m² aralığındadır. Çukurova en pahalı, Ceyhan ve Kozan en uygun ilçelerdir.' },
+      { q: 'Adana\'da yazın halı yıkatmak güvenli mi?', a: 'Kurutma açısından en ideal dönemdir — halılar birkaç saatte kurur. Ancak nem+sıcak kombinasyonu bakteriyi hızlandırdığından, firmadan anti-bakteriyel işlem istemeniz tavsiye edilir.' },
+      { q: 'Adana\'da halı yıkama kaç gün sürer?', a: 'Yaz aylarında 1-2 gün (kurutma çok hızlı), kış aylarında 3-4 gün. Bayram dönemlerinde 5-7 güne çıkabilir.' },
+      { q: 'Adana\'da halı güvesi problemi var mı?', a: 'Evet, sıcak iklim nedeniyle halı güvesi ve halı böceği riski diğer şehirlere göre yüksektir. Anti-güve (moth-proof) işlem yapan halı yıkama firmalarını tercih edin, özellikle yün halılar için bu hizmet kritiktir.' },
+      { q: 'Adana\'da en ucuz halı yıkama nerede?', a: 'Ceyhan, Kozan ve İmamoğlu\'nda 35-55 TL/m² ile Adana ortalamasının altında fiyatlar mevcuttur.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'antalya-hali-yikama', 'konya-hali-yikama'],
+  },
 ];
