@@ -18,6 +18,9 @@ import {
   Truck,
   CreditCard,
   Sparkles,
+  Zap,
+  Trophy,
+  CircleDot,
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
@@ -78,6 +81,43 @@ function groupProductsByCategory(products: ProductDto[]) {
   }
 
   return sorted;
+}
+
+/* ── Working hours helper ── */
+const DAYS_TR = ['Pazar', 'Pazartesi', 'Salı', 'Çarşamba', 'Perşembe', 'Cuma', 'Cumartesi'];
+
+function getOpenStatus(workingHours: Record<string, string> | null): {
+  isOpen: boolean;
+  todayKey: string;
+  todayHours: string | null;
+  closesAt: string | null;
+} {
+  const now = new Date();
+  const dayName = DAYS_TR[now.getDay()];
+  const todayKey = dayName;
+
+  if (!workingHours) return { isOpen: false, todayKey, todayHours: null, closesAt: null };
+
+  // Find today's hours — keys might be Turkish day names
+  const todayHours = workingHours[dayName] || null;
+  if (!todayHours || todayHours.toLowerCase().includes('kapalı')) {
+    return { isOpen: false, todayKey, todayHours, closesAt: null };
+  }
+
+  // Parse "09:00 - 18:00" format
+  const match = todayHours.match(/(\d{1,2}):(\d{2})\s*-\s*(\d{1,2}):(\d{2})/);
+  if (!match) return { isOpen: true, todayKey, todayHours, closesAt: null };
+
+  const openH = parseInt(match[1]), openM = parseInt(match[2]);
+  const closeH = parseInt(match[3]), closeM = parseInt(match[4]);
+  const currentMinutes = now.getHours() * 60 + now.getMinutes();
+  const openMinutes = openH * 60 + openM;
+  const closeMinutes = closeH * 60 + closeM;
+
+  const isOpen = currentMinutes >= openMinutes && currentMinutes < closeMinutes;
+  const closesAt = `${match[3]}:${match[4]}`;
+
+  return { isOpen, todayKey, todayHours, closesAt: isOpen ? closesAt : null };
 }
 
 /* ── Component ── */
@@ -207,6 +247,68 @@ export function CompanyDetailView({ company, city, category }: Props) {
               </Button>
             </Link>
           </div>
+
+          {/* Trust Badges — key stats at a glance */}
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.05 }}
+            className="grid grid-cols-2 sm:grid-cols-4 gap-3"
+          >
+            {[
+              ...(company.averageRating > 0
+                ? [{
+                    icon: Star,
+                    value: company.averageRating.toFixed(1),
+                    label: `${company.totalReviewCount} değerlendirme`,
+                    color: 'text-amber-500',
+                    bg: 'bg-amber-500/10',
+                  }]
+                : []),
+              ...(company.completedOrderCount > 0
+                ? [{
+                    icon: Trophy,
+                    value: `${company.completedOrderCount}`,
+                    label: 'Tamamlanan sipariş',
+                    color: 'text-emerald-500',
+                    bg: 'bg-emerald-500/10',
+                  }]
+                : []),
+              ...(company.responseTimeMinutes > 0
+                ? [{
+                    icon: Zap,
+                    value: company.responseTimeMinutes < 60
+                      ? `${company.responseTimeMinutes} dk`
+                      : `${Math.round(company.responseTimeMinutes / 60)} saat`,
+                    label: 'Ort. yanıt süresi',
+                    color: 'text-blue-500',
+                    bg: 'bg-blue-500/10',
+                  }]
+                : []),
+              ...(company.acceptingOrders
+                ? [{
+                    icon: CheckCircle,
+                    value: 'Aktif',
+                    label: 'Sipariş kabul ediyor',
+                    color: 'text-green-500',
+                    bg: 'bg-green-500/10',
+                  }]
+                : []),
+            ].map((stat, i) => (
+              <div
+                key={i}
+                className="flex items-center gap-3 p-3 bg-brand-surface rounded-brand border border-brand-border"
+              >
+                <div className={`w-9 h-9 rounded-xl ${stat.bg} flex items-center justify-center shrink-0`}>
+                  <stat.icon size={18} className={stat.color} />
+                </div>
+                <div className="min-w-0">
+                  <p className="text-sm font-bold text-brand-text">{stat.value}</p>
+                  <p className="text-[11px] text-brand-text-muted truncate">{stat.label}</p>
+                </div>
+              </div>
+            ))}
+          </motion.div>
 
           {/* Fotoğraf Galerisi */}
           {photos.length > 0 && (
@@ -617,27 +719,58 @@ export function CompanyDetailView({ company, city, category }: Props) {
             )}
 
             {/* Çalışma Saatleri */}
-            {company.workingHours && Object.keys(company.workingHours).length > 0 && (
-              <motion.div
-                className="p-4 bg-brand-surface rounded-brand border border-brand-border"
-                initial={{ opacity: 0, x: 20 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ delay: 0.25 }}
-              >
-                <h4 className="text-sm font-medium text-brand-text mb-2 flex items-center gap-1.5">
-                  <Clock size={14} className="text-brand-primary" />
-                  Çalışma Saatleri
-                </h4>
-                <div className="space-y-1">
-                  {Object.entries(company.workingHours).map(([day, hours]) => (
-                    <div key={day} className="flex justify-between text-xs text-brand-text-muted">
-                      <span>{day}</span>
-                      <span>{hours as string}</span>
-                    </div>
-                  ))}
-                </div>
-              </motion.div>
-            )}
+            {company.workingHours && Object.keys(company.workingHours).length > 0 && (() => {
+              const status = getOpenStatus(company.workingHours);
+              return (
+                <motion.div
+                  className="p-4 bg-brand-surface rounded-brand border border-brand-border"
+                  initial={{ opacity: 0, x: 20 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: 0.25 }}
+                >
+                  <div className="flex items-center justify-between mb-3">
+                    <h4 className="text-sm font-medium text-brand-text flex items-center gap-1.5">
+                      <Clock size={14} className="text-brand-primary" />
+                      Çalışma Saatleri
+                    </h4>
+                    <span className={`inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-semibold ${
+                      status.isOpen
+                        ? 'bg-green-500/10 text-green-600'
+                        : 'bg-red-500/10 text-red-500'
+                    }`}>
+                      <CircleDot size={8} className={status.isOpen ? 'text-green-500' : 'text-red-400'} />
+                      {status.isOpen ? 'Şu an açık' : 'Kapalı'}
+                    </span>
+                  </div>
+                  {status.isOpen && status.closesAt && (
+                    <p className="text-[11px] text-green-600 mb-2">
+                      {status.closesAt}&apos;e kadar açık
+                    </p>
+                  )}
+                  <div className="space-y-0.5">
+                    {Object.entries(company.workingHours!).map(([day, hours]) => {
+                      const isToday = day === status.todayKey;
+                      return (
+                        <div
+                          key={day}
+                          className={`flex justify-between text-xs py-1 px-2 rounded-md transition-colors ${
+                            isToday
+                              ? 'bg-brand-primary/8 text-brand-text font-medium'
+                              : 'text-brand-text-muted'
+                          }`}
+                        >
+                          <span className="flex items-center gap-1">
+                            {isToday && <span className="w-1 h-1 rounded-full bg-brand-primary" />}
+                            {day}
+                          </span>
+                          <span>{hours as string}</span>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </motion.div>
+              );
+            })()}
           </div>
         </div>
       </div>

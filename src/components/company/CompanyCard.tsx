@@ -3,9 +3,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { Star, MapPin, Clock, CheckCircle } from 'lucide-react';
+import { Star, MapPin, Clock, CheckCircle, Zap } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
-import { cn, slugify, toTitleCase } from '@/lib/utils';
+import { slugify, toTitleCase } from '@/lib/utils';
 import type { CompanyListDto } from '@/lib/api/types';
 
 interface CompanyCardProps {
@@ -38,7 +38,7 @@ export function CompanyCard({ company, index = 0 }: CompanyCardProps) {
                 className="object-cover group-hover:scale-105 transition-transform duration-500"
               />
             ) : (
-              <div className="w-full h-full flex items-center justify-center">
+              <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-brand-primary/5 to-brand-primary/15">
                 <div className="w-16 h-16 rounded-full bg-brand-primary/10 flex items-center justify-center">
                   <span className="text-2xl font-heading font-bold text-brand-primary">
                     {company.companyName[0]}
@@ -47,11 +47,14 @@ export function CompanyCard({ company, index = 0 }: CompanyCardProps) {
               </div>
             )}
 
+            {/* Bottom gradient overlay for readability */}
+            <div className="absolute inset-x-0 bottom-0 h-16 bg-gradient-to-t from-black/40 to-transparent" />
+
             {/* Puan Badge */}
             {company.averageRating > 0 && (
               <div className="absolute top-3 right-3 flex items-center gap-1 px-2.5 py-1 bg-black/60 backdrop-blur-sm rounded-full">
                 <Star size={14} className="fill-brand-rating text-brand-rating" />
-                <span className="text-white text-sm font-medium">
+                <span className="text-white text-sm font-semibold">
                   {company.averageRating.toFixed(1)}
                 </span>
               </div>
@@ -66,6 +69,23 @@ export function CompanyCard({ company, index = 0 }: CompanyCardProps) {
                 </Badge>
               </div>
             )}
+
+            {/* Quick stats on photo — bottom-left */}
+            <div className="absolute bottom-2.5 left-3 flex items-center gap-2">
+              {company.responseTimeMinutes > 0 && (
+                <span className="flex items-center gap-1 px-2 py-0.5 bg-black/50 backdrop-blur-sm rounded-full text-[11px] text-white font-medium">
+                  <Zap size={10} />
+                  {company.responseTimeMinutes < 60
+                    ? `${company.responseTimeMinutes} dk`
+                    : `${Math.round(company.responseTimeMinutes / 60)} sa`}
+                </span>
+              )}
+              {company.completedOrderCount > 0 && (
+                <span className="flex items-center gap-1 px-2 py-0.5 bg-black/50 backdrop-blur-sm rounded-full text-[11px] text-white font-medium">
+                  {company.completedOrderCount} sipariş
+                </span>
+              )}
+            </div>
           </div>
 
           {/* İçerik */}
@@ -78,8 +98,8 @@ export function CompanyCard({ company, index = 0 }: CompanyCardProps) {
               <div className="flex items-center gap-1 mt-1.5 text-sm text-brand-text-muted">
                 <MapPin size={14} />
                 <span>{company.city}</span>
-                {company.distanceKm && (
-                  <span className="ml-1">
+                {company.distanceKm != null && company.distanceKm > 0 && (
+                  <span className="ml-1 text-brand-primary font-medium">
                     ({company.distanceKm.toFixed(1)} km)
                   </span>
                 )}
@@ -93,20 +113,20 @@ export function CompanyCard({ company, index = 0 }: CompanyCardProps) {
             )}
 
             {/* Alt Bilgiler */}
-            <div className="flex items-center gap-4 mt-3 pt-3 border-t border-brand-border">
-              <div className="flex items-center gap-1 text-xs text-brand-text-muted">
-                <Star size={12} className="fill-brand-rating text-brand-rating" />
-                <span>{company.totalReviewCount} değerlendirme</span>
-              </div>
-              {company.responseTimeMinutes > 0 && (
+            <div className="flex items-center gap-3 mt-3 pt-3 border-t border-brand-border">
+              {company.averageRating > 0 && (
                 <div className="flex items-center gap-1 text-xs text-brand-text-muted">
-                  <Clock size={12} />
-                  <span>~{company.responseTimeMinutes} dk yanıt</span>
+                  <Star size={12} className="fill-brand-rating text-brand-rating" />
+                  <span className="font-medium">{company.totalReviewCount} yorum</span>
                 </div>
               )}
-              {company.completedOrderCount > 0 && (
-                <div className={cn('text-xs text-brand-text-muted ml-auto')}>
-                  {company.completedOrderCount} sipariş
+              {company.categoryKeys?.length > 0 && (
+                <div className="flex items-center gap-1 ml-auto">
+                  {company.categoryKeys.slice(0, 2).map((key) => (
+                    <span key={key} className="px-1.5 py-0.5 bg-brand-primary/8 text-brand-primary text-[10px] font-medium rounded-md">
+                      {key.replace(/_/g, ' ').replace(/\b\w/g, c => c.toLocaleUpperCase('tr-TR')).replace('Hali', 'Halı').replace('Yikama', 'Yık.')}
+                    </span>
+                  ))}
                 </div>
               )}
             </div>

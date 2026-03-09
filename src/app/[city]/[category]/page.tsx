@@ -4,9 +4,9 @@ import { API_URL, BRAND_CODE, CITIES } from '@/lib/constants';
 import { getBrandConfig } from '@/brands';
 import { Nav } from '@/components/nav/Nav';
 import { Footer } from '@/components/footer/Footer';
-import { CompanyCard } from '@/components/company/CompanyCard';
 import { MapPin, Building2, CheckCircle, Sparkles, Shield, Clock, Star, Send } from 'lucide-react';
 import { CitySearch } from '@/components/city/CitySearch';
+import { CompanyListClient } from '@/components/company/CompanyListClient';
 import { BreadcrumbJsonLd } from '@/components/seo/JsonLd';
 import { slugify, getCategoryDisplayName } from '@/lib/utils';
 import type { CompanyListDto, PaginatedResponse, CityDto } from '@/lib/api/types';
@@ -430,11 +430,7 @@ export default async function CityCategoryPage({
         <section className="py-10">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             {data.items.length > 0 ? (
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                {data.items.map((company, i) => (
-                  <CompanyCard key={company.companyId} company={company} index={i} />
-                ))}
-              </div>
+              <CompanyListClient companies={data.items} />
             ) : (
               <div className="text-center py-20 max-w-lg mx-auto">
                 <Building2 size={48} className="mx-auto text-brand-primary/30 mb-4" />
