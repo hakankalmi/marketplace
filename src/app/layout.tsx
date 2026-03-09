@@ -18,9 +18,6 @@ export const metadata: Metadata = {
     template: `%s | ${brand.name}`,
   },
   description: brand.seo.metaDescription,
-  icons: {
-    icon: brand.faviconUrl,
-  },
   openGraph: {
     type: 'website',
     siteName: brand.name,

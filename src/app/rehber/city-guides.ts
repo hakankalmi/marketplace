@@ -5560,4 +5560,183 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'ankara-hali-yikama', 'kastamonu-hali-yikama'],
   },
+
+  // ==================== ARTVİN ====================
+  {
+    slug: 'artvin-hali-yikama',
+    city: 'Artvin',
+    citySlug: 'artvin',
+    title: 'Artvin Halı Yıkama Rehberi — Fiyatlar, Firmalar ve İpuçları',
+    metaTitle: 'Artvin Halı Yıkama Fiyatları 2026 | En İyi Firmalar',
+    metaDescription: 'Artvin halı yıkama fiyatları 2026 güncel liste. Nemli Karadeniz iklimine uygun yıkama teknikleri, ilçe bazlı firmalar ve fiyat karşılaştırması.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 8,
+    heroEmoji: '🏔️',
+    intro: 'Artvin, Türkiye\'nin en yeşil ve en yağışlı illerinden biridir. **Kaçkar Dağları**\'nın eteklerinde, derin vadiler ve yoğun ormanlarla çevrili bu şehirde nem oranı yıl boyu yüksektir. Halılar yıkanmadan önce nem emmiş olabilir ve kurutma süreci özel dikkat gerektirir. **[Artvin halı yıkama firmaları](/artvin-hali-yikama-firmalari)** bu zorlu iklim koşullarına adapte olmuş teknikler kullanır.',
+    sections: [
+      {
+        heading: 'Artvin\'de Halı Yıkama Fiyatları 2026',
+        content: `Artvin\'de halı yıkama fiyatları ulaşım zorluğu ve iklim koşulları nedeniyle Karadeniz ortalamasının biraz üzerindedir. Dağlık coğrafya nakliye maliyetini artırır.
+
+| Halı Türü | Fiyat Aralığı (m²) | Açıklama |
+|---|---|---|
+| Makine Halısı | 70 – 90 TL | Standart yıkama + nem kontrolü |
+| Yün / El Dokuma | 85 – 140 TL | Artvin yaylak kilimleri özel işlem |
+| Shaggy / Uzun Tüy | 90 – 130 TL | Kabarık tüy derinlemesine kurutma |
+| Yolluk / Merdiven | 70 – 80 TL | Metre bazlı hesaplama |
+
+🔴 **Yüksek**: Arhavi, Hopa (kıyı ilçeleri — yüksek nem)
+🟡 **Orta**: Merkez, Borçka
+🟢 **Uygun**: Şavşat, Yusufeli (ulaşım zor ama yerel fiyat düşük)
+
+*Artvin\'de kapalı kurutma tesisi olan firmalar her mevsim hizmet verir. Açık kurutma yağışlı aylarda mümkün değildir.*`,
+      },
+      {
+        heading: 'Artvin İklimi ve Halı Bakımı',
+        content: `Artvin yılda **1200-1500 mm** yağış alır. Özellikle kıyı ilçelerinde nem oranı %80\'leri aşar. Bu iklim halılar için ciddi risk oluşturur:
+
+**Nem kaynaklı sorunlar:**
+- Halı altında küf ve mantar oluşumu
+- Yün halılarda koku tutma (nem + organik lifler)
+- Kıyı ilçelerinde tuz etkisi (Hopa, Kemalpaşa)
+- Alerjenlerin nemli ortamda çoğalması
+
+**Koruma önerileri:**
+- Halı altına nem bariyeri (plastik paspas değil, nefes alan keçe) serme
+- Yaz aylarında güneşli günlerde halıları dışarı çıkarma
+- Yılda en az 2 kez profesyonel yıkatma
+- Çay ocağı olan evlerde buhar nedeniyle daha sık havalandırma
+
+*Artvin\'de çay üretimi yapan hanelerde mutfak halıları ekstra nem ve lekeye maruz kalır. Bu halıları 3-4 ayda bir yıkatmak idealdir.*`,
+      },
+      {
+        heading: 'İlçe Bazlı Halı Yıkama Firmaları',
+        content: `Artvin\'in dağlık coğrafyası nedeniyle firmalar genellikle merkez ve kıyı ilçelerinde yoğunlaşmıştır:
+
+- [Artvin merkez halı yıkama](/artvin-merkez-hali-yikama-firmalari) — Şehir merkezi
+- [Arhavi halı yıkama](/artvin-arhavi-hali-yikama-firmalari) — Çay bölgesi
+- [Hopa halı yıkama](/artvin-hopa-hali-yikama-firmalari) — Sınır kapısı, yoğun ticaret
+- [Borçka halı yıkama](/artvin-borcka-hali-yikama-firmalari) — Karagöl bölgesi
+- [Şavşat halı yıkama](/artvin-savsat-hali-yikama-firmalari) — Yayla kasabası
+- [Yusufeli halı yıkama](/artvin-yusufeli-hali-yikama-firmalari) — Baraj bölgesi yeni yerleşim
+- [Murgul halı yıkama](/artvin-murgul-hali-yikama-firmalari) — Maden kasabası
+- [Ardanuç halı yıkama](/artvin-ardanuc-hali-yikama-firmalari) — Tarihi kale bölgesi
+
+📌 *Yusufeli\'nde baraj nedeniyle yeni yerleşim alanlarına taşınma sürecinde halı yıkama talebi artmıştır. Yeni konutlarda ilk yıkama önemlidir.*`,
+      },
+      {
+        heading: 'Artvin\'de Halı Seçimi ve Bakım Önerileri',
+        content: `Artvin\'in nemli ikliminde doğru halı seçimi önemlidir:
+
+**Önerilen halı tipleri:**
+- Sentetik halılar (polipropilen) — nem tutmaz, çabuk kurur
+- Kısa tüylü makine halıları — bakımı kolay
+- Yıkanabilir kilimler — sık yıkamaya dayanıklı
+
+**Kaçınılması gereken:**
+- Kalın yün halılar (zemin katta) — alt yüzey nemli kalır
+- Shaggy halılar (banyo yakını) — kurumaz, koku tutar
+- Pamuk iplik halılar — hızla nem emer, çürür
+
+*Artvin\'in yüksek rakımlı yaylalarında yaz aylarında bile gece sıcaklığı 10°C\'nin altına düşebilir. Kurutma süresi deniz seviyesindekinin 1.5-2 katı olabilir.*`,
+      },
+    ],
+    faq: [
+      { q: 'Artvin\'de halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-90 TL/m², yün halı 85-140 TL/m² aralığındadır. Ulaşım zorluğu fiyatı etkiler.' },
+      { q: 'Artvin\'de kışın halı yıkatılır mı?', a: 'Kapalı kurutma tesisi olan firmalarda mümkündür. Kış mevsiminde kurutma 5-7 gün sürebilir.' },
+      { q: 'Yüksek nem halıya zarar verir mi?', a: 'Evet. Sürekli nemli ortamda küf, bakteri ve akar oluşur. Halı altına nem bariyeri şarttır.' },
+      { q: 'Artvin\'de ücretsiz alım-teslim var mı?', a: 'Merkez ve Hopa-Arhavi hattında çoğu firma ücretsiz alım yapar. Şavşat, Yusufeli gibi uzak ilçelere ek nakliye ücreti olabilir.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'trabzon-hali-yikama', 'rize-hali-yikama'],
+  },
+
+  // ==================== IĞDIR ====================
+  {
+    slug: 'igdir-hali-yikama',
+    city: 'Iğdır',
+    citySlug: 'igdir',
+    title: 'Iğdır Halı Yıkama Rehberi — Fiyatlar, Firmalar ve İpuçları',
+    metaTitle: 'Iğdır Halı Yıkama Fiyatları 2026 | En İyi Firmalar',
+    metaDescription: 'Iğdır halı yıkama fiyatları 2026 güncel liste. Ağrı Dağı eteklerinde kuru iklime uygun halı bakımı, ilçe bazlı firmalar ve fiyat karşılaştırması.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 7,
+    heroEmoji: '🏔️',
+    intro: 'Iğdır, Türkiye\'nin en doğusunda Ağrı Dağı\'nın eteklerinde, **Aras Nehri** havzasında kurulmuş özel bir ildir. Deniz seviyesine yakın rakımıyla (800-900 m) çevresi dağlık olmasına rağmen ılıman bir mikroklimaya sahiptir. Yazları sıcak ve kurak geçen Iğdır\'da **[halı yıkama firmaları](/igdir-hali-yikama-firmalari)** bu avantajlı iklimde hızlı kurutma yapabilir.',
+    sections: [
+      {
+        heading: 'Iğdır\'da Halı Yıkama Fiyatları 2026',
+        content: `Iğdır\'da halı yıkama fiyatları Doğu Anadolu\'nun en uygun seviyelerindedir. Düşük yaşam maliyeti ve kuru iklim avantajı fiyatları olumlu etkiler.
+
+| Halı Türü | Fiyat Aralığı (m²) | Açıklama |
+|---|---|---|
+| Makine Halısı | 70 – 80 TL | Hızlı kurutma avantajı |
+| Yün / El Dokuma | 75 – 120 TL | Aras havzası kilimleri özel bakım |
+| Shaggy / Uzun Tüy | 80 – 115 TL | Kuru iklimde çabuk kurur |
+| Yolluk / Merdiven | 70 – 75 TL | Metre bazlı hesaplama |
+
+🔴 **Yüksek**: Merkez (talep yoğunluğu)
+🟡 **Orta**: Tuzluca, Aralık
+🟢 **Uygun**: Karakoyunlu (en düşük fiyat)
+
+*Iğdır\'ın kuru iklimi halı yıkama açısından büyük avantajdır. Yazın açık havada halılar 4-6 saatte kuruyabilir.*`,
+      },
+      {
+        heading: 'Iğdır İklimi ve Halı Bakımı',
+        content: `Iğdır, çevresindeki dağlık illerden farklı olarak **yarı kurak step iklimi**ne sahiptir. Yaz sıcaklığı 40°C\'yi geçebilir, kışlar nispeten ılıktır (Doğu Anadolu için):
+
+**İklim avantajları:**
+- Yıllık yağış sadece 250-300 mm — halılar nemden korunur
+- Yazın düşük nem oranı (%25-35) — kurutma çok hızlı
+- Kayısı bahçeleri gibi açık alanlar — halı serme imkânı
+- Rüzgâr — doğal kurutma yardımcısı
+
+**Dikkat edilmesi gerekenler:**
+- Yoğun toz (step iklimi) — halılara ince kum/toz yerleşir
+- Sert sular (kireçli) — yıkama sonrası beyaz iz bırakabilir
+- UV ışınları — güneşte uzun bırakılan halılarda renk solması
+- Kayısı sezonu — kayısı lekesi halıya işler, anında müdahale gerekir
+
+*Iğdır Türkiye\'nin en büyük kayısı üreticilerindendir. Hasat döneminde (Temmuz-Ağustos) halılara kayısı lekesi bulaşması yaygındır. Soğuk suyla hemen müdahale etmek önemlidir.*`,
+      },
+      {
+        heading: 'İlçe Bazlı Halı Yıkama Firmaları',
+        content: `Iğdır küçük bir il olmasına rağmen merkezdeki firmalar tüm ilçelere hizmet verir:
+
+- [Iğdır merkez halı yıkama](/igdir-merkez-hali-yikama-firmalari) — Ana hizmet merkezi
+- [Tuzluca halı yıkama](/igdir-tuzluca-hali-yikama-firmalari) — Tuz gölü bölgesi
+- [Aralık halı yıkama](/igdir-aralik-hali-yikama-firmalari) — Sınır kapısı
+- [Karakoyunlu halı yıkama](/igdir-karakoyunlu-hali-yikama-firmalari) — Tarım bölgesi
+
+📌 *Iğdır\'ın dört ilçesi birbirine yakındır. Merkezdeki firmalar tüm ilçelere genellikle ücretsiz servis sunar. Nüfus yoğunluğu düşük olduğu için firma sayısı sınırlıdır.*`,
+      },
+      {
+        heading: 'Iğdır\'da Halı Yıkatma İpuçları',
+        content: `Iğdır\'ın kendine has koşullarında halı bakımı:
+
+**Toz ve kum sorunu:**
+Iğdır ovası step iklimine sahip olduğundan rüzgârlı günlerde ince toz evlere girer. Halılar haftada en az 2 kez süpürülmeli, 3-4 ayda bir profesyonel yıkatılmalıdır.
+
+**Sert su çözümü:**
+Iğdır\'ın şebeke suyu sert (kireçli)dir. Firmalar yumuşatılmış su veya özel deterjan kullanmalıdır. Kireçli su halıda beyazımsı tortu bırakır ve lifleri sertleştirir.
+
+**Kayısı ve tarım lekelerine karşı:**
+- Kayısı lekesine soğuk su + sirke (hemen)
+- Toprak lekesine kurumasını bekle + vakumla
+- Gübre lekesine bol su + profesyonel yıkama
+
+*Aras Nehri kıyısındaki evlerde bahar taşkınları sonrası halılarda nem ve çamur hasarı olabilir. Bu durumda profesyonel müdahale şarttır.*`,
+      },
+    ],
+    faq: [
+      { q: 'Iğdır\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-80 TL/m², yün halı 75-120 TL/m² aralığındadır. Doğu Anadolu\'nun en uygun fiyatlı illerinden biridir.' },
+      { q: 'Iğdır\'da halı ne kadar sürede kurur?', a: 'Yazın açık havada 4-6 saat, kapalı tesiste 1-2 gün. Kışın kapalı tesiste 3-4 gün sürebilir.' },
+      { q: 'Sert su halıya zarar verir mi?', a: 'Kireçli su halı liflerini sertleştirir ve beyaz tortu bırakır. Yumuşatılmış su kullanan firmayı tercih edin.' },
+      { q: 'Iğdır\'dan Kars veya Erzurum firması mı tercih etmeliyim?', a: 'Yerel firmalar daha ekonomiktir. Kars 70 km, Erzurum 290 km uzaktadır — nakliye maliyetli olur.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'kars-hali-yikama', 'agri-hali-yikama'],
+  },
 ];
