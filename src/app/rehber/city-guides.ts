@@ -6466,4 +6466,197 @@ Kütahya\'nın el dokuma kilimleri geometrik desenler ve canlı renklerle bilini
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'eskisehir-hali-yikama', 'afyon-hali-yikama'],
   },
+
+  // ==================== ERZİNCAN ====================
+  {
+    slug: 'erzincan-hali-yikama',
+    city: 'Erzincan',
+    citySlug: 'erzincan',
+    title: 'Erzincan Halı Yıkama Rehberi — Fiyatlar, Firmalar ve İpuçları',
+    metaTitle: 'Erzincan Halı Yıkama Fiyatları 2026 | En İyi Firmalar',
+    metaDescription: 'Erzincan halı yıkama fiyatları 2026 güncel liste. Fırat havzasında karasal iklimde halı bakımı, ilçe bazlı firmalar ve fiyat karşılaştırması.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 7,
+    heroEmoji: '🌾',
+    intro: 'Erzincan, **Fırat Nehri** havzasında geniş bir ovada kurulmuş Doğu Anadolu\'nun batı kapısıdır. Sert karasal iklimi ve deprem bölgesinde olması şehrin yapısını şekillendirmiştir. Modern yapılaşma ve geniş caddeler halı yıkama firmalarının erişimini kolaylaştırır. **[Erzincan halı yıkama firmaları](/erzincan-hali-yikama-firmalari)** bölgenin iklim koşullarına uygun çalışır.',
+    sections: [
+      {
+        heading: 'Erzincan\'da Halı Yıkama Fiyatları 2026',
+        content: `Erzincan\'da halı yıkama fiyatları Doğu Anadolu\'nun batı kesimlerine uygun seviyededir. Ova şehrinin düz coğrafyası ulaşımı kolaylaştırır.
+
+| Halı Türü | Fiyat Aralığı (m²) | Açıklama |
+|---|---|---|
+| Makine Halısı | 70 – 85 TL | Standart yıkama |
+| Yün / El Dokuma | 80 – 130 TL | Erzincan kilimleri özel bakım |
+| Shaggy / Uzun Tüy | 82 – 120 TL | Derinlemesine kurutma |
+| Yolluk / Merdiven | 70 – 78 TL | Metre bazlı hesaplama |
+
+🔴 **Yüksek**: Merkez (talep yoğunluğu)
+🟡 **Orta**: Üzümlü, Tercan
+🟢 **Uygun**: Refahiye, Kemah, İliç
+
+*Erzincan ovasının düz yapısı nakliyeyi kolaylaştırır. Merkezdeki firmalar çevre ilçelere de hızla ulaşır.*`,
+      },
+      {
+        heading: 'Erzincan İklimi ve Halı Bakımı',
+        content: `Erzincan, 1185 m rakımda geniş bir ovada yer alır. Karasal iklim hakimdir — kışlar uzun ve sert, yazlar sıcak ve kurudur:
+
+**İklim ve halı etkisi:**
+- Kış sıcaklıkları -20°C\'ye düşer — halı yıkama sezonu kısıtlı
+- Yazlar 35-38°C — kurutma çok hızlı, ideal sezon
+- Fırat vadisinde bahar rüzgârları — ince toz taşınması
+- Ova topraklarının kireçli yapısı — sert su sorunu
+
+**Bakım önerileri:**
+- Yaz sezonunu (Haziran-Eylül) kesinlikle değerlendirin
+- Kışın soba kullanılan evlerde ilkbaharda yıkatma zorunlu
+- Ova rüzgârlarında toz birikimi fazla — haftada 2 kez vakumlama
+- Sert su kullanan firmalardan deterjan bilgisi isteyin
+
+*Erzincan tulum peyniri üretim merkezidir. Peynir yapım döneminde mutfak halılarına süt ve peynir suyu sıçraması yaygındır — soğuk su ile anında müdahale edin.*`,
+      },
+      {
+        heading: 'İlçe Bazlı Halı Yıkama Firmaları',
+        content: `Erzincan\'da firmalar ova şehri merkezinde yoğunlaşmıştır:
+
+- [Erzincan merkez halı yıkama](/erzincan-merkez-hali-yikama-firmalari) — Ana hizmet noktası
+- [Üzümlü halı yıkama](/erzincan-uzumlu-hali-yikama-firmalari) — Merkeze yakın ilçe
+- [Tercan halı yıkama](/erzincan-tercan-hali-yikama-firmalari) — Doğu kesim
+- [Refahiye halı yıkama](/erzincan-refahiye-hali-yikama-firmalari) — Dağlık bölge
+- [Kemah halı yıkama](/erzincan-kemah-hali-yikama-firmalari) — Fırat kanyonu
+- [İliç halı yıkama](/erzincan-ilic-hali-yikama-firmalari) — Maden bölgesi
+- [Kemaliye halı yıkama](/erzincan-kemaliye-hali-yikama-firmalari) — Tarihi Eğin
+- [Otlukbeli halı yıkama](/erzincan-otlukbeli-hali-yikama-firmalari) — Kırsal bölge
+- [Çayırlı halı yıkama](/erzincan-cayirli-hali-yikama-firmalari) — Yayla bölgesi
+
+📌 *Kemaliye (eski adıyla Eğin) tarihi evleriyle ünlüdür. Bu evlerdeki geleneksel halılar özel bakım gerektirir.*`,
+      },
+      {
+        heading: 'Erzincan\'da Halı Yıkama İpuçları',
+        content: `Fırat havzasının ova şehrinde halı bakımı:
+
+**Deprem sonrası halı bakımı:**
+Erzincan deprem bölgesindedir. Deprem sonrası halılarda moloz tozu, beton parçacıkları ve cam kırıkları birikebilir. Bu durumda profesyonel derin yıkama zorunludur — normal süpürge yetmez.
+
+**Sert su sorunu:**
+Erzincan\'ın su kaynakları kireçlidir. Halı yıkama sırasında kireçli su kullanımı halılarda beyaz iz ve sertlik bırakır. Yumuşatılmış su veya özel deterjan kullanan firmayı tercih edin.
+
+**Ova rüzgârı ve toz:**
+Erzincan ovasında özellikle bahar aylarında güçlü rüzgâr eser ve toprak tozu taşır. Pencereleri açık bırakan evlerde halılar çabuk kirlenir. Rüzgârlı günlerde pencereleri kapalı tutun.
+
+*Erzincan\'ın ünlü tulum peyniri, cağ kebabı ve üzüm pekmezi mutfak halılarına leke yapan gıdalardır. Mutfak halılarını 3 ayda bir yıkatın.*`,
+      },
+    ],
+    faq: [
+      { q: 'Erzincan\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-85 TL/m², yün halı 80-130 TL/m² aralığındadır. Doğu Anadolu batı kesimi ortalamasındadır.' },
+      { q: 'Erzincan\'da kışın halı yıkatılır mı?', a: 'Kapalı tesislerde mümkündür. Kurutma 5-7 gün sürer. Yaz sezonu (Haziran-Eylül) kesinlikle tercih edilmelidir.' },
+      { q: 'Sert su halıya zarar verir mi?', a: 'Evet, kireçli su halı liflerini sertleştirir ve beyaz tortu bırakır. Su yumuşatma sistemi kullanan firmayı seçin.' },
+      { q: 'Erzincan\'dan Sivas veya Erzurum firması mı tercih etmeliyim?', a: 'Yerel firmalar daha ekonomik ve hızlıdır. Sivas 220 km, Erzurum 190 km uzaktadır — nakliye maliyeti yüksek olur.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'sivas-hali-yikama', 'tunceli-hali-yikama'],
+  },
+
+  // ==================== ÇANAKKALE ====================
+  {
+    slug: 'canakkale-hali-yikama',
+    city: 'Çanakkale',
+    citySlug: 'canakkale',
+    title: 'Çanakkale Halı Yıkama Rehberi — Fiyatlar, Firmalar ve İpuçları',
+    metaTitle: 'Çanakkale Halı Yıkama Fiyatları 2026 | En İyi Firmalar',
+    metaDescription: 'Çanakkale halı yıkama fiyatları 2026 güncel liste. Boğaz ikliminde nemli ortam halı bakımı, ilçe bazlı firmalar ve fiyat karşılaştırması.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 8,
+    heroEmoji: '⚓',
+    intro: 'Çanakkale, **Çanakkale Boğazı** kıyısında, Avrupa ve Asya kıtalarını birbirine bağlayan stratejik bir konumdadır. Ege ve Marmara iklimlerinin buluştuğu şehirde deniz etkisi nem oranını yüksek tutar. Turizm ve tarım şehri olan Çanakkale\'de **[halı yıkama firmaları](/canakkale-hali-yikama-firmalari)** hem konut hem de otel sektörüne hizmet verir.',
+    sections: [
+      {
+        heading: 'Çanakkale\'de Halı Yıkama Fiyatları 2026',
+        content: `Çanakkale\'de halı yıkama fiyatları Ege-Marmara ortalamasındadır. Turizm sezonu fiyatları hafif artırabilir.
+
+| Halı Türü | Fiyat Aralığı (m²) | Açıklama |
+|---|---|---|
+| Makine Halısı | 70 – 88 TL | Standart yıkama |
+| Yün / El Dokuma | 82 – 135 TL | Ayvacık kilimleri özel bakım |
+| Shaggy / Uzun Tüy | 85 – 125 TL | Nemli iklim derinlemesine kurutma |
+| Yolluk / Merdiven | 70 – 80 TL | Metre bazlı hesaplama |
+
+🔴 **Yüksek**: Merkez, Gelibolu (turizm bölgesi)
+🟡 **Orta**: Biga, Çan, Lapseki
+🟢 **Uygun**: Ayvacık, Bayramiç, Ezine
+
+*Çanakkale\'de turizm sezonunda (Haziran-Eylül) otel ve pansiyon halı yıkama talebi artar. Sezon öncesi randevu alın.*`,
+      },
+      {
+        heading: 'Çanakkale İklimi ve Halı Bakımı',
+        content: `Çanakkale, Akdeniz ve Marmara iklimlerinin geçiş bölgesindedir. Boğaz etkisi nem ve rüzgâr getirir:
+
+**İklim özellikleri:**
+- Yıl boyu nemli hava — boğaz etkisi %65-80 nem oranı
+- Kışlar ılık (5-8°C) ama rüzgârlı — Poyraz etkisi
+- Yazlar sıcak (30-35°C) — kurutma hızlı ama nem kalıntısına dikkat
+- Deniz kenarında tuzlu nem — korozyon riski
+
+**Halı bakımı önerileri:**
+- Boğaz kenarı evlerde halı altına nem bariyeri
+- Rüzgârlı günlerde halı serme — toz yerine tuzlu nem geliyor, dikkat
+- Kış aylarında nem giderici cihaz kullanma
+- Yılda en az 2 kez profesyonel yıkama
+
+**Turizm bölgesi otelleri:**
+Gelibolu, Truva, Bozcaada ve Gökçeada\'daki turistik tesislerde halı yıkama talebi yüksektir. Sezon sonu (Ekim) toplu yıkama avantajlıdır.
+
+*Çanakkale Boğazı\'ndan esen Poyraz rüzgârı kışın şiddetlidir. Balkon ve terastaki halıları kışın içeriye alın — rüzgâr + yağmur halıyı çürütür.*`,
+      },
+      {
+        heading: 'İlçe Bazlı Halı Yıkama Firmaları',
+        content: `Çanakkale geniş bir coğrafyaya yayılmış bir ildir — Avrupa ve Asya yakasında ilçeleri vardır:
+
+**Asya yakası:**
+- [Çanakkale merkez halı yıkama](/canakkale-merkez-hali-yikama-firmalari) — Ana hizmet noktası
+- [Biga halı yıkama](/canakkale-biga-hali-yikama-firmalari) — Sanayi ve tarım ilçesi
+- [Çan halı yıkama](/canakkale-can-hali-yikama-firmalari) — Seramik üretimi
+- [Ayvacık halı yıkama](/canakkale-ayvacik-hali-yikama-firmalari) — El dokuma kilim geleneği
+- [Bayramiç halı yıkama](/canakkale-bayramci-hali-yikama-firmalari) — İda Dağı (Kaz Dağları) etekleri
+- [Ezine halı yıkama](/canakkale-ezine-hali-yikama-firmalari) — Peynir bölgesi
+- [Lapseki halı yıkama](/canakkale-lapseki-hali-yikama-firmalari) — Boğaz kıyısı
+- [Yenice halı yıkama](/canakkale-yenice-hali-yikama-firmalari) — Orman bölgesi
+
+**Avrupa yakası:**
+- [Gelibolu halı yıkama](/canakkale-gelibolu-hali-yikama-firmalari) — Tarihi yarımada
+- [Eceabat halı yıkama](/canakkale-eceabat-hali-yikama-firmalari) — Şehitlikler bölgesi
+
+**Adalar:**
+- [Bozcaada halı yıkama](/canakkale-bozcaada-hali-yikama-firmalari) — Ada turizmi
+- [Gökçeada halı yıkama](/canakkale-gokceada-hali-yikama-firmalari) — Türkiye\'nin en büyük adası
+
+📌 *Bozcaada ve Gökçeada\'da halı yıkama firması sınırlıdır. Yaz sezonunda merkez firmalar feribot ile ada servisi yapabilir. Kış aylarında feribot iptalleri gecikme yaratabilir.*`,
+      },
+      {
+        heading: 'Çanakkale\'de Halı Seçimi ve Koruma',
+        content: `Boğaz şehrinin nemli ikliminde halı tavsiyeleri:
+
+**Deniz kenarı evler:**
+Çanakkale Boğazı, Gelibolu ve adalardaki evlerde tuzlu nem halılara zarar verir. Sentetik, nem tutmayan halılar tercih edin. Yün halılar deniz kenarında hızla küflenir.
+
+**Ayvacık kilimleri:**
+Ayvacık (Kaz Dağları) bölgesinin el dokuma kilimleri dünyaca ünlüdür. Doğal boyalarla dokunmuş bu kilimler özel bakım gerektirir — yalnızca soğuk suda, doğal sabunla yıkanmalıdır.
+
+**Zeytinyağı lekesi:**
+Çanakkale zeytinyağı üretim merkezidir. Zeytinyağı lekesi halıdan zor çıkar — hemen un veya mısır nişastası serpin, 20 dakika bekleyin ve vakumlayın. Sonra profesyonele gönderin.
+
+*Çanakkale\'de 1915 temalı müze ve sergi alanlarının halıları yoğun ziyaretçi trafiğine maruz kalır. Bu tür halılar 2-3 ayda bir yıkatılmalıdır.*`,
+      },
+    ],
+    faq: [
+      { q: 'Çanakkale\'de halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-88 TL/m², yün halı 82-135 TL/m² aralığındadır. Ege-Marmara ortalamasına yakındır.' },
+      { q: 'Bozcaada\'da halı yıkama firması var mı?', a: 'Ada\'da sınırlı sayıda firma bulunur. Yaz sezonunda merkez firmalar feribot ile servis yapabilir.' },
+      { q: 'Deniz kenarında hangi halı tercih edilmeli?', a: 'Sentetik (polipropilen) ve kısa tüylü halılar idealdir. Yün ve pamuk halılar nemli ortamda hızla küflenir.' },
+      { q: 'Ayvacık kilimi nerede yıkatılmalı?', a: 'El dokuma kilimlerde uzman firmayı tercih edin. Soğuk su ve doğal sabun kullanılmalıdır. Makine yıkama kesinlikle yapılmamalıdır.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'balikesir-hali-yikama', 'edirne-hali-yikama'],
+  },
 ];
