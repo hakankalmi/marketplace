@@ -1437,4 +1437,109 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'bursa-hali-yikama', 'izmir-hali-yikama'],
   },
+
+  /* ─── 18. TEKİRDAĞ ─── */
+  {
+    slug: 'tekirdag-hali-yikama',
+    city: 'Tekirdağ',
+    citySlug: 'tekirdag',
+    title: 'Tekirdağ Halı Yıkama Rehberi: Fiyatlar, Firmalar ve İpuçları (2026)',
+    metaTitle: 'Tekirdağ Halı Yıkama Fiyatları 2026 | Firma Rehberi',
+    metaDescription: 'Tekirdağ halı yıkama fiyatları 2026 güncel liste. Süleymanpaşa, Çorlu, Çerkezköy, Ergene fiyat karşılaştırma. Tekirdağ halı yıkama firması seçim rehberi.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'Şehir Rehberi',
+    readingTime: 8,
+    heroEmoji: '🍇',
+    intro: `**Tekirdağ**, Trakya'nın sanayi ve tarım merkezi olarak İstanbul'dan taşan nüfusu karşılayan, hızla büyüyen bir şehirdir. Çorlu ve Çerkezköy'ün devasa sanayi bölgeleri, Marmara kıyısının nemli havası ve Trakya ovalarının toz yüklü rüzgarları — Tekirdağ'da halı yıkama ihtiyacı hem konut hem ticari alanda yüksektir. İstanbul'a yakınlığı fiyatları etkiler: Çorlu-Çerkezköy hattında fiyatlar İstanbul'a yakın, iç kesimlerde çok daha uygundur. [Tekirdağ halı yıkama firmaları](/tekirdag-hali-yikama-firmalari) arasında en uygun fiyatlı ve güvenilir firmayı bulmak için bu rehberi hazırladık.`,
+    sections: [
+      {
+        heading: 'Tekirdağ Halı Yıkama Fiyatları 2026',
+        content: `Tekirdağ'da halı yıkama fiyatları bölgeye göre büyük farklılık gösterir. Çorlu-Çerkezköy sanayi hattı İstanbul fiyatlarına yakınken, Süleymanpaşa merkez ve iç kesim ilçeleri Trakya ortalamasındadır.
+
+| Halı Türü | Fiyat Aralığı (m²) | Ortalama |
+|---|---|---|
+| Makine halısı | 70 – 130 TL | 90 TL |
+| El dokuması halı | 95 – 180 TL | 130 TL |
+| Shaggy / tüylü halı | 80 – 150 TL | 105 TL |
+| İpek halı | 150 – 350 TL | 230 TL |
+| Koltuk yıkama (kişilik) | 150 – 320 TL | 210 TL |
+| Yorgan yıkama (adet) | 120 – 230 TL | 160 TL |
+
+**İlçe Bazlı Fiyat Farkları:**
+
+🔴 **Yüksek Segment**: [Çorlu halı yıkama](/tekirdag-corlu-hali-yikama-firmalari), [Çerkezköy halı yıkama](/tekirdag-cerkezkoy-hali-yikama-firmalari) — 85-180 TL/m². İstanbul etkisi, sanayi nüfusu, yüksek talep.
+
+🟡 **Orta Segment**: [Süleymanpaşa halı yıkama](/tekirdag-suleymanpasa-hali-yikama-firmalari), [Ergene halı yıkama](/tekirdag-ergene-hali-yikama-firmalari), [Kapaklı halı yıkama](/tekirdag-kapakli-hali-yikama-firmalari) — 75-130 TL/m². Tekirdağ ortalaması.
+
+🟢 **Uygun Segment**: [Saray halı yıkama](/tekirdag-saray-hali-yikama-firmalari), [Hayrabolu halı yıkama](/tekirdag-hayrabolu-hali-yikama-firmalari), [Malkara halı yıkama](/tekirdag-malkara-hali-yikama-firmalari), [Muratlı halı yıkama](/tekirdag-muratli-hali-yikama-firmalari), [Şarköy halı yıkama](/tekirdag-sarkoy-hali-yikama-firmalari) — 70-100 TL/m².
+
+📌 *Çorlu ve Çerkezköy İstanbul'un uydu şehirleri gibi çalışır. Buradaki firmalar İstanbul kalitesinde hizmet sunar ama fiyatlar İstanbul'dan %10-15 daha uygundur.*`,
+      },
+      {
+        heading: 'Tekirdağ İklimi ve Halı Bakım Takvimi',
+        content: `Tekirdağ'ın Marmara iklimi halı bakımını etkileyen belirgin özellikler taşır:
+
+**Nemli Kışlar (Kasım-Mart):** Marmara kıyısından gelen nem kış boyunca %70+ düzeyindedir. Lodos ve poyraz değişken rüzgarlar halılara tuz ve nem taşır. Kışın halı yıkatmak mümkündür ama kapalı kurutma tercih edilmelidir.
+
+**Trakya Sıcakları (Haziran-Ağustos):** Trakya yazları sıcak ve kurudur (35°C+). Kurutma 1-2 günde tamamlanır. Halı yıkama için ideal dönemdir.
+
+**Ergene Ovası — Tarımsal Toz:** Tekirdağ'ın iç kesimi (Ergene, Muratlı, Hayrabolu) Trakya'nın tarım merkezidir. Buğday, ayçiçeği ve pancar hasat dönemlerinde (Temmuz-Ekim) toz birikimi çok yüksektir. Bu bölgelerde yılda 2-3 kez yıkatma önerilir.
+
+**Sanayi Tozu — Çorlu/Çerkezköy:** Türkiye'nin en yoğun sanayi bölgelerinden biri burada yer alır (tekstil, kimya, gıda). Sanayi çevresindeki konutlarda endüstriyel partikül birikimi yüksektir — standart ev tipi temizlik yetmez, profesyonel halı yıkama şarttır.
+
+**Bağ Bozumu Dönemi (Eylül-Ekim):** Tekirdağ Türkiye'nin en önemli üzüm ve şarap üretim merkezidir. Bağ bozumu döneminde üzüm lekesi riski artar — bu lekeler kuru temizlemede çıkmaz, profesyonel yıkama gerektirir.
+
+**En İyi Dönem:** Mayıs-Haziran ve Eylül — hava ılık ve kuru, firmalar yoğun değil.
+
+[Tekirdağ halı yıkama firmaları](/tekirdag-hali-yikama-firmalari) — Tekirdağ'deki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+      },
+      {
+        heading: 'Tekirdağ Halı Yıkama Firması Seçerken Dikkat Edilecekler',
+        content: `**Çorlu-Çerkezköy — İstanbul Kalitesi, Trakya Fiyatı:** Bu iki ilçe İstanbul'dan göç alan sanayi şehirleridir. Buradaki firmalar İstanbul standartlarında çalışır, modern tesislere sahiptir ve fiyatlar İstanbul'dan daha uygundur. İstanbul'un Silivri ve Büyükçekmece bölgesinden Çorlu'ya halı göndermek bazen daha ekonomik olabilir.
+
+**Sanayi Bölgesi Kirlilik Tipi:** Çorlu-Çerkezköy-Ergene sanayi üçgeninde tekstil boyahaneleri ve kimya fabrikaları bulunur. Bu bölgelerdeki halılar kimyasal partiküllerle kirlenebilir. Firmaya bölgenizi ve çevredeki endüstriyel faaliyetleri belirtin — bazı firmalar ağır kirlilik için özel deterjan ve ön işlem uygular.
+
+**İstanbul Çapraz Rekabet:** Tekirdağ'ın doğu ilçeleri (Çorlu, Çerkezköy, Kapaklı) İstanbul sınırına çok yakındır. Bazı İstanbul firmaları bu bölgelere hizmet verir. Platform üzerinden her iki şehirdeki firmaları karşılaştırarak en iyi fiyatı bulun.
+
+**Şarköy — Tatil Bölgesi:** Marmara'nın güney kıyısında yer alan Şarköy yazlık bölgesidir. Sezon başı ve sonu toplu yıkama yaptırmak %10-15 indirim sağlayabilir.
+
+**Trakya Kilimleri:** Trakya bölgesine özgü el dokuması kilimler mevcuttur. Bu ince dokuma ürünler makine yıkamaya uygun değildir — elle yıkama deneyimi olan firma seçin.
+
+**Üzüm/Şarap Lekesi:** Tekirdağ'ın şarap üretim kültürü halılardaki leke tipini de belirler. Kırmızı şarap lekesi en zor çıkan lekelerden biridir — firmaya hemen bildirin, kurumadan müdahale edilmesi kritiktir.`,
+      },
+      {
+        heading: 'Tekirdağ İlçe Bazlı Halı Yıkama Firmaları',
+        content: `Tekirdağ 11 ilçeye sahiptir. İşte ilçe bazlı halı yıkama firma rehberi:
+
+**Büyükşehir Merkez:**
+- [Süleymanpaşa halı yıkama](/tekirdag-suleymanpasa-hali-yikama-firmalari) — İl merkezi, sahil şeridi, kültürel merkez
+
+**Sanayi Hattı (İstanbul Yakını):**
+- [Çorlu halı yıkama](/tekirdag-corlu-hali-yikama-firmalari) — Tekirdağ'ın en kalabalık ilçesi, sanayi merkezi
+- [Çerkezköy halı yıkama](/tekirdag-cerkezkoy-hali-yikama-firmalari) — Organize sanayi bölgesi
+- [Kapaklı halı yıkama](/tekirdag-kapakli-hali-yikama-firmalari) — Hızla büyüyen uydu şehir
+- [Ergene halı yıkama](/tekirdag-ergene-hali-yikama-firmalari) — Sanayi ve tarım karışımı
+- [Saray halı yıkama](/tekirdag-saray-hali-yikama-firmalari) — İstanbul-Edirne arasında
+
+**Trakya İç Kesim:**
+- [Hayrabolu halı yıkama](/tekirdag-hayrabolu-hali-yikama-firmalari) — Tarım ilçesi
+- [Malkara halı yıkama](/tekirdag-malkara-hali-yikama-firmalari) — Peynir üretim merkezi
+- [Muratlı halı yıkama](/tekirdag-muratli-hali-yikama-firmalari) — Tarım ve küçük sanayi
+
+**Sahil İlçeler:**
+- [Şarköy halı yıkama](/tekirdag-sarkoy-hali-yikama-firmalari) — Marmara sahili, bağcılık
+- [Marmaraereğlisi halı yıkama](/tekirdag-marmaraereglisi-hali-yikama-firmalari) — Petrokimya bölgesi
+
+📌 *Çorlu tek başına Tekirdağ il merkezinden büyük nüfusa sahiptir ve en çok firma seçeneği burada bulunur. İç kesim ilçelerinde firma az olabilir — Çorlu veya Süleymanpaşa firmalarından hizmet almak daha pratik olabilir.*`,
+      },
+    ],
+    faq: [
+      { q: 'Tekirdağ\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı ortalama 90 TL/m², el dokuması 95-180 TL/m², shaggy 80-150 TL/m² aralığındadır. Çorlu ve Çerkezköy en pahalı (İstanbul etkisi), Hayrabolu ve Malkara en uygun ilçelerdir.' },
+      { q: 'Tekirdağ\'da halı yıkama kaç gün sürer?', a: 'Yaz aylarında 1-2 gün (Trakya sıcağında kurutma çok hızlı), kışın 3-4 gün. Çorlu ve Çerkezköy\'deki modern tesislerde kapalı kurutma ile yıl boyu 2-3 gün.' },
+      { q: 'Çorlu\'da mı yoksa İstanbul\'da mı yıkatmalıyım?', a: 'Çorlu firmaları İstanbul kalitesinde hizmet sunar ve fiyatlar %10-15 daha uygundur. Silivri, Büyükçekmece gibi İstanbul\'un batı ilçelerinden Çorlu\'ya göndermek mantıklı olabilir.' },
+      { q: 'Tekirdağ\'da sanayi bölgesinde halı daha sık mı yıkatılmalı?', a: 'Evet. Çorlu-Çerkezköy-Ergene sanayi üçgeninde endüstriyel partikül birikimi yüksektir. Bu bölgelerde yılda en az 2-3 kez profesyonel yıkama önerilir.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'istanbul-hali-yikama', 'bursa-hali-yikama'],
+  },
 ];
