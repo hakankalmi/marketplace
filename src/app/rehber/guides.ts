@@ -990,15 +990,15 @@ Avrupa yakasında fiyatlar genellikle %5-10 daha yüksektir. Bunun nedeni kira m
         content: `İstanbul ortalaması makine halısı için 140 TL/m²'dir, ancak ilçeler arası önemli farklar vardır:
 
 **Yüksek Fiyat Bölgeleri (150-250 TL/m²):**
-Beşiktaş, Şişli, Kadıköy, Bakırköy, Sarıyer, Üsküdar
+[Beşiktaş halı yıkama](/istanbul-besiktas-hali-yikama-firmalari), [Şişli halı yıkama](/istanbul-sisli-hali-yikama-firmalari), [Kadıköy halı yıkama](/istanbul-kadikoy-hali-yikama-firmalari), [Bakırköy halı yıkama](/istanbul-bakirkoy-hali-yikama-firmalari), [Sarıyer halı yıkama](/istanbul-sariyer-hali-yikama-firmalari), [Üsküdar halı yıkama](/istanbul-uskudar-hali-yikama-firmalari)
 Bu ilçelerde kira ve işçilik maliyetleri yüksek, firma sayısı az ama kalite yüksektir.
 
 **Orta Fiyat Bölgeleri (100-150 TL/m²):**
-Ataşehir, Maltepe, Kartal, Beylikdüzü, Avcılar, Bağcılar, Ümraniye
+[Ataşehir halı yıkama](/istanbul-atasehir-hali-yikama-firmalari), [Maltepe halı yıkama](/istanbul-maltepe-hali-yikama-firmalari), [Kartal halı yıkama](/istanbul-kartal-hali-yikama-firmalari), [Beylikdüzü halı yıkama](/istanbul-beylikduzu-hali-yikama-firmalari), [Avcılar halı yıkama](/istanbul-avcilar-hali-yikama-firmalari), [Bağcılar halı yıkama](/istanbul-bagcilar-hali-yikama-firmalari), [Ümraniye halı yıkama](/istanbul-umraniye-hali-yikama-firmalari)
 Rekabet yoğun, fiyat/kalite oranı en iyi olan bölgeler.
 
 **Uygun Fiyat Bölgeleri (70-120 TL/m²):**
-Pendik, Tuzla, Sultanbeyli, Arnavutköy, Esenyurt, Silivri
+[Pendik halı yıkama](/istanbul-pendik-hali-yikama-firmalari), [Tuzla halı yıkama](/istanbul-tuzla-hali-yikama-firmalari), [Sultanbeyli halı yıkama](/istanbul-sultanbeyli-hali-yikama-firmalari), [Arnavutköy halı yıkama](/istanbul-arnavutkoy-hali-yikama-firmalari), [Esenyurt halı yıkama](/istanbul-esenyurt-hali-yikama-firmalari), [Silivri halı yıkama](/istanbul-silivri-hali-yikama-firmalari)
 Şehir merkezinden uzak, işletme maliyetleri düşük.
 
 **İpucu:** Kendi ilçenize yakın firma seçmek ulaşım ücreti riskini ortadan kaldırır. Platform üzerinden ilçenize göre filtreleme yapabilirsiniz.`,
@@ -1054,15 +1054,15 @@ Pendik, Tuzla, Sultanbeyli, Arnavutköy, Esenyurt, Silivri
         content: `Ankara ortalaması makine halısı için 85 TL/m²'dir:
 
 **Yüksek Fiyat Bölgeleri (90-130 TL/m²):**
-Çankaya (Kızılay, GOP, Oran), Yenimahalle (Batıkent üst)
+[Çankaya halı yıkama](/ankara-cankaya-hali-yikama-firmalari) (Kızılay, GOP, Oran), [Yenimahalle halı yıkama](/ankara-yenimahalle-hali-yikama-firmalari) (Batıkent üst)
 Gelir düzeyi yüksek, az firma, yüksek kalite beklentisi.
 
 **Orta Fiyat Bölgeleri (70-90 TL/m²):**
-Keçiören, Etimesgut, Yenimahalle (merkez), Pursaklar
+[Keçiören halı yıkama](/ankara-kecioren-hali-yikama-firmalari), [Etimesgut halı yıkama](/ankara-etimesgut-hali-yikama-firmalari), [Pursaklar halı yıkama](/ankara-pursaklar-hali-yikama-firmalari)
 Rekabet yoğun, fiyat/kalite oranı iyi.
 
 **Uygun Fiyat Bölgeleri (45-70 TL/m²):**
-Mamak, Altındağ, Sincan, Kahramankazan, Polatlı
+[Mamak halı yıkama](/ankara-mamak-hali-yikama-firmalari), [Altındağ halı yıkama](/ankara-altindag-hali-yikama-firmalari), [Sincan halı yıkama](/ankara-sincan-hali-yikama-firmalari), [Kahramankazan halı yıkama](/ankara-kahramankazan-hali-yikama-firmalari), [Polatlı halı yıkama](/ankara-polatli-hali-yikama-firmalari)
 Fiyatlar en uygun, ama firma seçiminde dikkatli olun.
 
 **Not:** Ankara'da firma sayısı İstanbul'a göre daha az olduğundan, fiyat farklılıkları daha dardır.`,
@@ -1117,15 +1117,15 @@ Fiyatlar en uygun, ama firma seçiminde dikkatli olun.
         content: `İzmir ortalaması makine halısı için 90 TL/m²'dir. İlçeler arası fiyat farkları:
 
 **Yüksek Fiyat Bölgeleri (100-150 TL/m²):**
-Karşıyaka, Alsancak (Konak), Balçova, Narlıdere, Çeşme, Urla
+[Karşıyaka halı yıkama](/izmir-karsiyaka-hali-yikama-firmalari), [Konak halı yıkama](/izmir-konak-hali-yikama-firmalari) (Alsancak), [Balçova halı yıkama](/izmir-balcova-hali-yikama-firmalari), [Narlıdere halı yıkama](/izmir-narlidere-hali-yikama-firmalari), [Çeşme halı yıkama](/izmir-cesme-hali-yikama-firmalari), [Urla halı yıkama](/izmir-urla-hali-yikama-firmalari)
 Gelir düzeyi yüksek, villa/müstakil ev yoğunluğu fazla. Özellikle Çeşme ve Urla'da yazlık villa temizliği talebi yüksektir.
 
 **Orta Fiyat Bölgeleri (70-100 TL/m²):**
-Bornova, Buca, Bayraklı, Çiğli, Menemen, Karabağlar
+[Bornova halı yıkama](/izmir-bornova-hali-yikama-firmalari), [Buca halı yıkama](/izmir-buca-hali-yikama-firmalari), [Bayraklı halı yıkama](/izmir-bayrakli-hali-yikama-firmalari), [Çiğli halı yıkama](/izmir-cigli-hali-yikama-firmalari), [Menemen halı yıkama](/izmir-menemen-hali-yikama-firmalari), [Karabağlar halı yıkama](/izmir-karabaglar-hali-yikama-firmalari)
 İzmir'in en kalabalık ilçeleri — firma sayısı fazla, rekabet güçlü. Fiyat/kalite oranı en iyi bölge.
 
 **Uygun Fiyat Bölgeleri (40-75 TL/m²):**
-Torbalı, Kemalpaşa, Bergama, Aliağa, Tire, Ödemiş
+[Torbalı halı yıkama](/izmir-torbali-hali-yikama-firmalari), [Kemalpaşa halı yıkama](/izmir-kemalpasa-hali-yikama-firmalari), [Bergama halı yıkama](/izmir-bergama-hali-yikama-firmalari), [Aliağa halı yıkama](/izmir-aliaga-hali-yikama-firmalari), [Tire halı yıkama](/izmir-tire-hali-yikama-firmalari), [Ödemiş halı yıkama](/izmir-odemis-hali-yikama-firmalari)
 Şehir merkezinden uzak, küçük ölçekli firmalar. Fiyat avantajı var ama teslimat süresi uzayabilir.
 
 **İpucu:** İzmir'de firma seçerken kurutma yöntemini sorun. Açık hava kurutma yapan firmalar daha hızlı ama tozlu ortamlarda halınız kirlenir. Kapalı kurutma tesisi olan firmalar daha hijyeniktir.`,
@@ -1196,15 +1196,15 @@ Yaz tatili öncesi büyük temizlik. Firma kapasiteleri dolar, teslimat 5-7 gün
         content: `Bursa ortalaması makine halısı için 80 TL/m²'dir. İlçeler arası fiyat farkları:
 
 **Yüksek Fiyat Bölgeleri (90-130 TL/m²):**
-Nilüfer (Özlüce, Beşevler, İhsaniye), Mudanya (sahil), Görükle
+[Nilüfer halı yıkama](/bursa-nilufer-hali-yikama-firmalari) (Özlüce, Beşevler, İhsaniye), [Mudanya halı yıkama](/bursa-mudanya-hali-yikama-firmalari) (sahil), Görükle
 Bursa'nın en gelişmiş ve gelir düzeyi yüksek ilçesi. Yeni siteler ve villa bölgeleri. Firma sayısı az ama kalite yüksek.
 
 **Orta Fiyat Bölgeleri (60-90 TL/m²):**
-Osmangazi (merkez), Yıldırım, Kestel, Gürsu
+[Osmangazi halı yıkama](/bursa-osmangazi-hali-yikama-firmalari) (merkez), [Yıldırım halı yıkama](/bursa-yildirim-hali-yikama-firmalari), [Kestel halı yıkama](/bursa-kestel-hali-yikama-firmalari), [Gürsu halı yıkama](/bursa-gursu-hali-yikama-firmalari)
 Nüfus yoğunluğu en fazla olan bölge. Firma rekabeti güçlü, müşteriye avantaj sağlar.
 
 **Uygun Fiyat Bölgeleri (40-65 TL/m²):**
-İnegöl, Gemlik, Orhangazi, Karacabey, Mustafakemalpaşa
+[İnegöl halı yıkama](/bursa-inegol-hali-yikama-firmalari), [Gemlik halı yıkama](/bursa-gemlik-hali-yikama-firmalari), [Orhangazi halı yıkama](/bursa-orhangazi-hali-yikama-firmalari), [Karacabey halı yıkama](/bursa-karacabey-hali-yikama-firmalari), [Mustafakemalpaşa halı yıkama](/bursa-mustafakemalpasa-hali-yikama-firmalari)
 Merkeze uzak ilçeler. Fiyat avantajı belirgin, ancak teslimat süresi 1-2 gün uzayabilir.
 
 **İpucu:** Nilüfer'de oturuyorsanız Osmangazi'deki firmalara da bakın — 10-15 dakika mesafede %20-30 daha uygun fiyat bulabilirsiniz.`,
