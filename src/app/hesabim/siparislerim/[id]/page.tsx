@@ -363,7 +363,14 @@ export default function SiparisDetayPage({
       <OrderPhotosSection orderId={order.id} order={order} queryClient={queryClient} />
 
       {/* Review Section — only for completed orders */}
-      {order.status === 6 && <OrderReviewSection orderId={order.id} companyName={order.companyName} />}
+      {order.status === 6 && (
+        <OrderReviewSection
+          orderId={order.id}
+          companyName={order.companyName}
+          beforePhotoUrls={order.beforePhotoUrls}
+          afterPhotoUrls={order.afterPhotoUrls}
+        />
+      )}
     </motion.div>
   );
 }
@@ -474,21 +481,53 @@ function OrderPhotosSection({
   );
 }
 
-/** Review section: shows form if not yet reviewed, success message after */
-function OrderReviewSection({ orderId, companyName }: { orderId: number; companyName: string }) {
+/** Review section: shows form if not yet reviewed, animated success after */
+function OrderReviewSection({
+  orderId,
+  companyName,
+  beforePhotoUrls,
+  afterPhotoUrls,
+}: {
+  orderId: number;
+  companyName: string;
+  beforePhotoUrls: string[] | null;
+  afterPhotoUrls: string[] | null;
+}) {
   const [reviewed, setReviewed] = useState(false);
 
   if (reviewed) {
     return (
-      <div className="p-4 bg-emerald-50 border border-emerald-200 rounded-xl flex items-center gap-3">
-        <CheckCircle size={20} className="text-emerald-600 shrink-0" />
+      <motion.div
+        initial={{ opacity: 0, scale: 0.95 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ type: 'spring', stiffness: 200, damping: 20 }}
+        className="p-5 bg-gradient-to-r from-emerald-50 to-teal-50 border border-emerald-200 rounded-2xl flex items-center gap-4"
+      >
+        <motion.div
+          initial={{ scale: 0, rotate: -180 }}
+          animate={{ scale: 1, rotate: 0 }}
+          transition={{ delay: 0.1, type: 'spring', stiffness: 300 }}
+          className="w-12 h-12 rounded-full bg-emerald-100 flex items-center justify-center shrink-0"
+        >
+          <CheckCircle size={24} className="text-emerald-600" />
+        </motion.div>
         <div>
-          <p className="text-sm font-medium text-emerald-800">Yorumunuz gönderildi!</p>
-          <p className="text-xs text-emerald-600">Teşekkürler, değerlendirmeniz diğer müşterilere yardımcı olacak.</p>
+          <p className="text-base font-heading font-semibold text-emerald-800">Yorumunuz gönderildi!</p>
+          <p className="text-sm text-emerald-600 mt-0.5">
+            Teşekkürler, değerlendirmeniz diğer müşterilere yol gösterecek.
+          </p>
         </div>
-      </div>
+      </motion.div>
     );
   }
 
-  return <ReviewForm orderId={orderId} companyName={companyName} onSuccess={() => setReviewed(true)} />;
+  return (
+    <ReviewForm
+      orderId={orderId}
+      companyName={companyName}
+      beforePhotoUrls={beforePhotoUrls}
+      afterPhotoUrls={afterPhotoUrls}
+      onSuccess={() => setReviewed(true)}
+    />
+  );
 }

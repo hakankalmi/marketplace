@@ -5,9 +5,6 @@ export type MarketplaceOrderStatus = 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7;
 // 0=PendingApproval, 1=Accepted, 2=Rejected, 3=AutoRejected,
 // 4=Cancelled, 5=InProgress, 6=Completed, 7=Disputed
 
-/** Integer enum matching Brain.Api MarketplacePaymentMethod (JsonStringEnumConverter OFF) */
-export type MarketplacePaymentMethod = 0 | 1 | 2; // 0=CashOnDelivery, 1=OnlinePayment, 2=CashOnReturn
-
 export type ProductUnitType = 'SquareMeter' | 'Piece' | 'Kilogram' | 'Meter';
 
 /** Integer enum matching Brain.Api.Domain.MarketplaceProductCategory */
@@ -122,6 +119,10 @@ export interface ReviewDto {
   createdAt: string;
   beforePhotoUrls: string[] | null;
   afterPhotoUrls: string[] | null;
+  orderTotal: number | null;
+  orderCurrency: string | null;
+  serviceSummary: string | null;
+  companyName: string | null;
 }
 
 /* ───── Search Query ───── */
@@ -228,20 +229,9 @@ export interface CreateOrderRequest {
   preferredPickupDate?: string;
   preferredPickupTimeStart?: string;
   preferredPickupTimeEnd?: string;
-  items: OrderItemRequest[];
   customerNotes?: string;
-  paymentMethod?: MarketplacePaymentMethod;
   source?: string;
   beforePhotoUrls?: string[];
-}
-
-export interface OrderItemRequest {
-  productId: number;
-  productName: string;
-  unitType: ProductUnitType;
-  quantity: number;
-  unitPrice: number;
-  totalPrice: number;
 }
 
 export interface OrderResponseDto {
@@ -257,12 +247,7 @@ export interface OrderResponseDto {
   customerName: string;
   customerPhone: string;
   preferredPickupDate: string | null;
-  items: OrderItemRequest[] | null;
   customerNotes: string | null;
-  estimatedTotal: number;
-  currency: string;
-  paymentMethod: MarketplacePaymentMethod;
-  isPaid: boolean;
   trackingCode: string | null;
   trackingId: string | null;
   rejectionReason: string | null;

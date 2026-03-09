@@ -59,9 +59,7 @@ export function ConfirmStep({ company, formData, onBack, onSuccess }: Props) {
         preferredPickupDate: dateStr ? `${dateStr}T00:00:00+03:00` : undefined,
         preferredPickupTimeStart: combineDateTime(formData.preferredPickupTimeStart),
         preferredPickupTimeEnd: combineDateTime(formData.preferredPickupTimeEnd),
-        items: [],
         customerNotes: formData.customerNotes || undefined,
-        paymentMethod: 0, // CashOnDelivery
         source: 'web',
         beforePhotoUrls: beforePhotos.length > 0 ? beforePhotos : undefined,
       });

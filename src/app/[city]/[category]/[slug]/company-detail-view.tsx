@@ -429,6 +429,25 @@ export function CompanyDetailView({ company, city, category }: Props) {
                         </span>
                       </div>
                     </div>
+                    {/* Verified purchase badge with service + total */}
+                    {review.isVerifiedPurchase && (review.serviceSummary || review.orderTotal) && (
+                      <div className="flex items-center gap-2 mt-1 flex-wrap">
+                        <span className="inline-flex items-center gap-1 text-[11px] font-medium text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded-full">
+                          <svg className="w-3 h-3" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" /></svg>
+                          Doğrulanmış Alışveriş
+                        </span>
+                        {review.serviceSummary && (
+                          <span className="text-[11px] text-brand-text-muted">
+                            {review.serviceSummary}
+                          </span>
+                        )}
+                        {review.orderTotal != null && review.orderTotal > 0 && (
+                          <span className="text-[11px] font-semibold text-brand-text">
+                            {new Intl.NumberFormat('tr-TR', { style: 'currency', currency: review.orderCurrency || 'TRY', minimumFractionDigits: 0 }).format(review.orderTotal)}
+                          </span>
+                        )}
+                      </div>
+                    )}
                     {review.comment && (
                       <p className="text-brand-text-muted leading-relaxed">
                         {review.comment}
