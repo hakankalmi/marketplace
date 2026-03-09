@@ -261,6 +261,20 @@ export interface OrderResponseDto {
   afterPhotoUrls: string[] | null;
   // Internal order status: 0=PendingPickup, 1=InWashing, 2=ReadyForDelivery, 3=OutForDelivery, 4=Delivered
   internalOrderStatus: number | null;
+  orderItems: OrderItemDto[] | null;
+  totalAmount: number | null;
+  currency: string | null;
+}
+
+export interface OrderItemDto {
+  productName: string;
+  quantity: number;
+  unitPrice: number;
+  total: number;
+  width: number | null;
+  height: number | null;
+  area: number | null;
+  itemNotes: string | null;
 }
 
 /* ───── Review ───── */
