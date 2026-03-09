@@ -4026,4 +4026,172 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'erzurum-hali-yikama', 'van-hali-yikama'],
   },
+
+  // ── Kastamonu ────────────────────────────────────────────────
+  {
+    slug: 'kastamonu-hali-yikama',
+    city: 'Kastamonu',
+    citySlug: 'kastamonu',
+    title: 'Kastamonu Halı Yıkama Rehberi — Fiyatlar, İlçeler ve Tavsiyeler',
+    metaTitle: 'Kastamonu Halı Yıkama Fiyatları 2026 | Rehber & Karşılaştırma',
+    metaDescription: 'Kastamonu halı yıkama fiyatları, güvenilir firma önerileri ve ilçe bazlı hizmet rehberi. Batı Karadeniz iklimine uygun halı bakımı.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 10,
+    heroEmoji: '🏔️',
+    intro: 'Kastamonu, Batı Karadeniz\'in tarihi başkentidir. Ilgaz Dağları\'nın kuzey yamaçlarında yer alan şehir, zengin Osmanlı mimarisi, sarımsağı ve pastırmasıyla tanınır. Karadeniz ve İç Anadolu iklimlerinin kesişim noktasında bulunan Kastamonu\'da kışlar soğuk ve karlı, kıyı kesimi nemli geçer. İnebolu ve Cide gibi sahil ilçelerinde Karadeniz nemi hâkimken, merkez ve güney ilçelerde karasal iklim etkilidir. Bu ikili yapı halı bakımında farklı yaklaşımlar gerektirir.',
+    sections: [
+      {
+        heading: 'Kastamonu Halı Yıkama Fiyatları 2026',
+        content: `Kastamonu halı yıkama fiyatları Türkiye ortalamasının altında, uygun seviyededir:
+
+| Halı Türü | Fiyat Aralığı (m²) | Not |
+|---|---|---|
+| Makine halısı | 70-85 TL | Standart |
+| El dokuması / kilim | 80-135 TL | Yöresel dokumalar |
+| Shaggy / uzun tüylü | 75-115 TL | Standart |
+| Yün halı | 80-130 TL | Soğuk yıkama |
+| İpek halı | 110-175 TL | El yıkama |
+
+🔴 **Pahalı bölgeler:** Merkez Kastamonu, Kale çevresi, Nasrullah Meydanı
+🟡 **Orta fiyatlı bölgeler:** Tosya merkez, İnebolu merkez, Taşköprü merkez
+🟢 **Uygun fiyatlı bölgeler:** Araç, Cide, Daday, Küre
+
+💡 *Kastamonu'da sahil ilçeleri ve iç bölge ilçeleri arasında iklim farkı büyüktür — buna göre firma seçin.*`,
+      },
+      {
+        heading: 'Kastamonu\'nun İkili İklimi ve Halı Bakımı',
+        content: `Kastamonu, kuzey kıyısı ve iç bölgeleri arasında keskin iklim farkına sahiptir:
+
+**Sahil ilçeleri (İnebolu, Cide, Abana):** Karadeniz iklimi — yüksek nem (%75-85), bol yağış (1.000+ mm/yıl). Küflenme riski yüksektir. Kapalı kurutma tesisi zorunludur. Anti-küf işlemi standart olmalıdır.
+
+**İç bölge (Merkez, Tosya, Taşköprü):** Karasal iklim — kışlar soğuk (-15°C), yazlar sıcak ve kuru. Toz ve kurum birincil sorunlardır. Yaz aylarında açık havada kurutma uygundur.
+
+**Ilgaz Dağları etkisi:** Yüksek rakımlı bölgelerde kış daha uzun ve şiddetli yaşanır. Soba kullanımı yaygındır — kurum lekeleri sık karşılaşılan sorunlardır.
+
+**Tosya pirinci ve sarımsak tozu:** Tosya'nın ünlü pirinç ve Taşköprü'nün sarımsak üretimi bölgede havaya ince toz karıştırır. Bu toz halılara sindiğinde koku yapabilir.
+
+📌 *Sahil ilçelerinde anti-küf işlemi, iç bölgelerde ise kurum temizliği öncelikli ihtiyaçtır.*`,
+      },
+      {
+        heading: 'Kastamonu İlçelerinde Halı Yıkama Hizmetleri',
+        content: `Kastamonu 20 ilçeyle geniş bir coğrafyaya yayılır:
+
+**Merkez ve Büyük İlçeler:**
+- [Kastamonu Merkez halı yıkama](/kastamonu-merkez-hali-yikama-firmalari) — Şehir merkezi
+- [Tosya halı yıkama](/kastamonu-tosya-hali-yikama-firmalari) — Pirinç, büyük ilçe
+- [Taşköprü halı yıkama](/kastamonu-taskopru-hali-yikama-firmalari) — Sarımsak, tarihi köprü
+- [İnebolu halı yıkama](/kastamonu-inebolu-hali-yikama-firmalari) — Karadeniz kıyısı
+
+**Sahil İlçeler:**
+- [Cide halı yıkama](/kastamonu-cide-hali-yikama-firmalari) — Gideros Koyu, turizm
+- [Abana halı yıkama](/kastamonu-abana-hali-yikama-firmalari) — Sahil
+- [Çatalzeytin halı yıkama](/kastamonu-catalzeytin-hali-yikama-firmalari) — Sahil
+
+**İç Bölge İlçeler:**
+- [Araç halı yıkama](/kastamonu-arac-hali-yikama-firmalari) — Büyük ilçe
+- [Daday halı yıkama](/kastamonu-daday-hali-yikama-firmalari) — Orman
+- [İhsangazi halı yıkama](/kastamonu-ihsangazi-hali-yikama-firmalari) — Kırsal
+- [Küre halı yıkama](/kastamonu-kure-hali-yikama-firmalari) — Küre Dağları milli parkı
+- [Devrekani halı yıkama](/kastamonu-devrekani-hali-yikama-firmalari) — Orta büyüklük
+- [Azdavay halı yıkama](/kastamonu-azdavay-hali-yikama-firmalari) — Kırsal
+- [Pınarbaşı halı yıkama](/kastamonu-pinarbasi-hali-yikama-firmalari) — Küçük
+- [Şenpazar halı yıkama](/kastamonu-senpazar-hali-yikama-firmalari) — Küçük
+- [Seydiler halı yıkama](/kastamonu-seydiler-hali-yikama-firmalari) — Kırsal
+- [Bozkurt halı yıkama](/kastamonu-bozkurt-hali-yikama-firmalari) — Kırsal
+- [Ağlı halı yıkama](/kastamonu-agli-hali-yikama-firmalari) — Küçük
+- [Doğanyurt halı yıkama](/kastamonu-doganyurt-hali-yikama-firmalari) — Sahil
+- [Hanönü halı yıkama](/kastamonu-hanonu-hali-yikama-firmalari) — Kırsal
+
+📌 *Tosya ve İnebolu'da yerel firmalar mevcuttur. Diğer ilçelere merkez firmalarından ücretsiz alım-teslim yapılır.*`,
+      },
+    ],
+    faq: [
+      { q: 'Kastamonu\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-85 TL/m², el dokuması 80-135 TL/m² aralığındadır. Uygun fiyatlı bir şehirdir.' },
+      { q: 'Sahil ilçelerinde halı neden daha çabuk bozulur?', a: 'Karadeniz nemi (%75-85) küflenme ve koku sorunlarına yol açar. Sahil ilçelerinde anti-küf işlemi ve halı altlığı zorunludur.' },
+      { q: 'Kastamonu\'da kışın halı yıkatılır mı?', a: 'Kapalı tesisli firmada mümkündür. İç bölgede kurutma 4-5 gün, sahilde ise nem nedeniyle 5-7 gün sürebilir.' },
+      { q: 'Sarımsak kokusu halıdan çıkar mı?', a: 'Profesyonel ozon işlemi ile tamamen çıkar. Normal yıkama kokuyu azaltır ama tam gidermez.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'corum-hali-yikama', 'samsun-hali-yikama'],
+  },
+
+  // ── Zonguldak ────────────────────────────────────────────────
+  {
+    slug: 'zonguldak-hali-yikama',
+    city: 'Zonguldak',
+    citySlug: 'zonguldak',
+    title: 'Zonguldak Halı Yıkama Rehberi — Fiyatlar, İlçeler ve Tavsiyeler',
+    metaTitle: 'Zonguldak Halı Yıkama Fiyatları 2026 | Rehber & Karşılaştırma',
+    metaDescription: 'Zonguldak halı yıkama fiyatları, güvenilir firma önerileri ve ilçe bazlı hizmet rehberi. Maden şehrinin nemli iklimine uygun halı bakımı.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 9,
+    heroEmoji: '⛏️',
+    intro: 'Zonguldak, Türkiye\'nin tek taşkömürü havzasına sahip maden şehridir. Batı Karadeniz kıyısında yer alan şehir, dik yamaçlara kurulu evleri ve nemli okyanus iklimiyle tanınır. Yıl boyunca bol yağışlı ve nemli havası halı bakımını zorlu hâle getirir. Maden tozu, nem ve deniz tuzu birleşerek halılarda kendine özgü temizlik sorunları yaratır.',
+    sections: [
+      {
+        heading: 'Zonguldak Halı Yıkama Fiyatları 2026',
+        content: `Zonguldak halı yıkama fiyatları Batı Karadeniz ortalamasındadır:
+
+| Halı Türü | Fiyat Aralığı (m²) | Not |
+|---|---|---|
+| Makine halısı | 70-92 TL | Standart |
+| El dokuması / kilim | 85-140 TL | Az sayıda |
+| Shaggy / uzun tüylü | 80-125 TL | Kurutma kritik |
+| Yün halı | 85-135 TL | Anti-küf dahil |
+| İpek halı | 115-185 TL | El yıkama |
+
+🔴 **Pahalı bölgeler:** Merkez Zonguldak, Kozlu, Kilimli
+🟡 **Orta fiyatlı bölgeler:** Ereğli merkez, Devrek merkez, Çaycuma merkez
+🟢 **Uygun fiyatlı bölgeler:** Alaplı, Gökçebey, Karabük sınırı
+
+💡 *Zonguldak'ın nemli ikliminde anti-küf işlemi standart yıkamayla birlikte yapılmalıdır.*`,
+      },
+      {
+        heading: 'Maden Şehri ve Halı Bakımı Zorlukları',
+        content: `Zonguldak'ın madencilik geleneği ve Karadeniz iklimi halı bakımında kendine özgü sorunlar yaratır:
+
+**Maden tozu:** Kömür madenciliğinden kaynaklanan ince siyah toz halı liflerine nüfuz eder. Özellikle maden ocaklarına yakın bölgelerde halılar daha hızlı kirlenir. Normal süpürme ile çıkmaz — profesyonel derin temizlik gerekir.
+
+**Yüksek nem:** Yıllık ortalama %80+ nem. Yılda 250+ gün yağış alan Zonguldak'ta açık havada halı kurutma neredeyse imkânsızdır. Kapalı kurutma tesisi zorunludur.
+
+**Deniz tuzu:** Sahil şeridinde deniz tuzu zerrecikleri havada kalır. Bu tuz halı liflerine yapışarak nem çekmeyi artırır ve yıpranmayı hızlandırır.
+
+**Dik yamaçlar ve bodrum nem:** Zonguldak'ın dik arazisi nedeniyle birçok ev yamaçlara yapılmıştır. Bodrum katları toprak temaslıdır ve sürekli nem alır. Bu katlardaki halılarda küflenme kaçınılmazdır.
+
+**Kalorifer/soba karışımı:** Bazı evlerde hem kalorifer hem soba kullanılır. Soba kurumu + nem = halıda yapışkan, çıkarılması zor bir kir tabakası.
+
+📌 *Zonguldak'ta maden bölgesi yakınında yaşıyorsanız yılda 2 kez profesyonel yıkama + anti-alerjik işlem yaptırın.*`,
+      },
+      {
+        heading: 'Zonguldak İlçelerinde Halı Yıkama Hizmetleri',
+        content: `Zonguldak 8 ilçeye sahip kompakt bir ildir:
+
+**Merkez ve Yakın İlçeler:**
+- [Zonguldak Merkez halı yıkama](/zonguldak-merkez-hali-yikama-firmalari) — Maden havzası, merkez
+- [Kozlu halı yıkama](/zonguldak-kozlu-hali-yikama-firmalari) — Maden, merkeze bitişik
+- [Kilimli halı yıkama](/zonguldak-kilimli-hali-yikama-firmalari) — Maden, sahil
+
+**Büyük İlçeler:**
+- [Ereğli halı yıkama](/zonguldak-eregli-hali-yikama-firmalari) — Erdemir, en büyük ilçe
+- [Devrek halı yıkama](/zonguldak-devrek-hali-yikama-firmalari) — Baston, iç bölge
+- [Çaycuma halı yıkama](/zonguldak-caycuma-hali-yikama-firmalari) — Filyos, havalimanı
+
+**Diğer İlçeler:**
+- [Alaplı halı yıkama](/zonguldak-alapli-hali-yikama-firmalari) — Sahil
+- [Gökçebey halı yıkama](/zonguldak-gokcebey-hali-yikama-firmalari) — İç bölge
+
+📌 *Ereğli, Devrek ve Çaycuma'da yerel firmalar mevcuttur. Diğer ilçelere merkez firmalarından alım-teslim yapılır.*`,
+      },
+    ],
+    faq: [
+      { q: 'Zonguldak\'ta halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-92 TL/m², yün halı 85-135 TL/m² aralığındadır. Anti-küf işlemi için +10-15 TL/m² ek ücret olabilir.' },
+      { q: 'Kömür tozu halıdan çıkar mı?', a: 'Profesyonel derin temizlik ile büyük ölçüde çıkar. Ancak uzun süre birikmiş kömür tozu halı liflerini kalıcı olarak kararatabilir. Düzenli yıkama önemlidir.' },
+      { q: 'Zonguldak\'ta en iyi halı yıkama zamanı ne zaman?', a: 'Temmuz-Ağustos en az yağışlı dönemdir ama kapalı kurutma tesisi her zaman tercih edilmelidir.' },
+      { q: 'Ereğli\'den hizmet alabilir miyim?', a: 'Evet, Ereğli Zonguldak\'ın en büyük ilçesidir ve kendi yerel firmaları mevcuttur. Platform üzerinden karşılaştırma yapabilirsiniz.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'sakarya-hali-yikama', 'duzce-hali-yikama'],
+  },
 ];
