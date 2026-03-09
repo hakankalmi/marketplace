@@ -776,4 +776,86 @@ Merkeze uzak ilçeler. Gölcük donanma üssü nedeniyle nüfusu yüksektir ama 
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'istanbul-hali-yikama', 'bursa-hali-yikama'],
   },
+  {
+    slug: 'mersin-hali-yikama',
+    city: 'Mersin',
+    citySlug: 'mersin',
+    title: 'Mersin Halı Yıkama Rehberi — İlçe Bazlı Fiyatlar ve Firmalar',
+    metaTitle: 'Mersin Halı Yıkama | İlçe Bazlı Fiyatlar ve En İyi Firmalar 2026',
+    metaDescription: 'Mersin halı yıkama fiyatları ilçe bazlı karşılaştırma. Mezitli, Yenişehir, Toroslar, Akdeniz, Tarsus, Erdemli ve tüm ilçelerde en iyi halı yıkama firmaları.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 7,
+    heroEmoji: '🍊',
+    intro: 'Mersin, Akdeniz\'in incisi ve Türkiye\'nin en büyük limanına ev sahipliği yapan bir metropoldür. 1.9 milyonluk nüfusu, 12 ay ılık Akdeniz iklimi ve sahil yaşam kültürü bu şehri halı bakımı açısından özel kılar. Yüksek nem, deniz tuzu ve narenciye tarlalarından gelen polen halıları hızla etkiler. Bu rehberde [Mersin halı yıkama](/mersin-hali-yikama-firmalari) fiyatlarını ilçe bazlı karşılaştırıyor ve Mersin\'e özgü halı bakım ipuçlarını paylaşıyoruz.',
+    sections: [
+      {
+        heading: 'Mersin Halı Yıkama Fiyatları — Genel',
+        content: `Mersin fiyatları Antalya'nın altında, Adana ile benzer seviyelerdedir. Akdeniz şehirleri arasında rekabetçi fiyatlara sahiptir:
+
+**Makine Halısı:** Ortalama 85 TL/m² (aralık: 70-130 TL) — İstanbul ortalaması 140 TL iken Mersin %40 daha uygun
+**El Halısı (Yün):** 105-175 TL/m²
+**İpek Halı:** 150-350 TL/m²
+**Shaggy / Uzun Tüylü:** 80-120 TL/m²
+
+**Mersin'in Avantajı:** 12 ay boyunca ılık hava kurutmayı son derece hızlandırır. Kışın bile açık havada kurutma yapılabilir — bu İstanbul, Ankara ve Bursa'da mümkün değildir. Ayrıca Adana'ya komşu olması firma rekabetini artırır ve fiyatları aşağı çeker.`,
+      },
+      {
+        heading: 'Mersin Halı Yıkama — İlçe Bazlı Fiyat Karşılaştırması',
+        content: `Mersin ortalaması makine halısı için 85 TL/m²'dir. Sahil ilçeleri ile iç kesim arasında fark vardır:
+
+**Yüksek Fiyat Bölgeleri (95-130 TL/m²):**
+[Mezitli halı yıkama](/mersin-mezitli-hali-yikama-firmalari) (Viranşehir, Kuyuluk), [Yenişehir halı yıkama](/mersin-yenisehir-hali-yikama-firmalari) (Forum, Çamlıbel)
+Mersin'in en gelişmiş ve gelir düzeyi en yüksek ilçeleri. Sahil şeridinde yeni siteler ve AVM'ler yoğundur. Kalite beklentisi yüksek, fiyatlar buna paralel.
+
+**Orta Fiyat Bölgeleri (75-95 TL/m²):**
+[Toroslar halı yıkama](/mersin-toroslar-hali-yikama-firmalari), [Akdeniz halı yıkama](/mersin-akdeniz-hali-yikama-firmalari), [Tarsus halı yıkama](/mersin-tarsus-hali-yikama-firmalari)
+Toroslar, Mersin'in en kalabalık ilçesidir (350.000+ nüfus). Firma rekabeti güçlüdür. Tarsus (350.000+ nüfus) kendi başına büyük bir pazar — yerel halı yıkama firmaları mevcuttur.
+
+**Uygun Fiyat Bölgeleri (70-80 TL/m²):**
+[Erdemli halı yıkama](/mersin-erdemli-hali-yikama-firmalari), [Silifke halı yıkama](/mersin-silifke-hali-yikama-firmalari), [Anamur halı yıkama](/mersin-anamur-hali-yikama-firmalari), [Mut halı yıkama](/mersin-mut-hali-yikama-firmalari), [Bozyazı halı yıkama](/mersin-bozyazi-hali-yikama-firmalari)
+Sahil kasabaları ve iç kesim ilçeler. Erdemli ve Silifke nüfuslarıyla yerel firmalar barındırır. Anamur Mersin merkezine 230+ km uzaklıktadır — mutlaka yerel firma tercih edin.
+
+**Önemli Not:** Mersin doğu-batı aksında çok uzun bir şehirdir. Anamur-Mezitli arası 230+ km'dir. Dış ilçelerdeyseniz mutlaka yerel halı yıkama firması tercih edin — merkezden nakliye maliyeti çok yüksek olur.`,
+      },
+      {
+        heading: 'Mersin Halı Yıkama — Akdeniz İklimi ve Liman Etkisi',
+        content: `Mersin'in Akdeniz iklimi ve liman şehri kimliği halı bakımını doğrudan etkiler:
+
+**12 Ay Ilık Hava:** Mersin, Türkiye'nin en ılık kışlarına sahip şehirlerden biridir. Ocak ortalaması 10°C — kışın bile açık hava kurutma yapılabilir. Bu, halı yıkama firmalarına büyük avantaj sağlar: yıl boyu hızlı kurutma, düşük enerji maliyeti.
+
+**Deniz Nemi ve Tuz:** Sahil şeridinde (Mezitli, Yenişehir, Erdemli) deniz nemi %70-80'e çıkabilir. Bu nem halılarda toz akarı ve küf üremesini hızlandırır. Sahil bölgesinde yaşayanlar halılarını yılda en az 2-3 kez yıkatmalıdır. Deniz tuzu da halı liflerini yıpratır — firmaya sahil evinde olduğunuzu belirtin.
+
+**Narenciye Poleni:** Mersin, Türkiye'nin en büyük narenciye üretim merkezidir. Şubat-Nisan arası portakal ve limon ağaçları çiçek açar ve yoğun polen yayar. Alerjisi olanlar bu dönemde halı yıkatmalıdır.
+
+**Liman Tozu:** Mersin Uluslararası Limanı Türkiye'nin en büyüğüdür. Liman çevresindeki mahallelerde (Akdeniz ilçesi) konteyner trafiği ve yükleme-boşaltma işlemleri hava kalitesini düşürür. Bu bölgelerde halılar daha sık kirlenir.
+
+**En Uygun Dönem:** Ekim-Kasım ve Mart-Nisan — hava ılık, firmalar yoğun değil.
+
+**Yoğun Dönem:** Mayıs-Haziran (yaz öncesi) ve bayram öncesi dönemler.
+
+[Mersin halı yıkama firmaları](/mersin-hali-yikama-firmalari) — Mersin'deki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+      },
+      {
+        heading: 'Mersin Halı Yıkama Firması Seçerken Dikkat Edilecekler',
+        content: `**Adana-Mersin Çapraz Rekabeti:** Mersin ve Adana 70 km mesafededir ve birçok halı yıkama firması her iki şehre de hizmet verir. Bu çapraz rekabet müşteriye avantaj sağlar — her iki şehirdeki firmaları karşılaştırarak en iyi fiyatı bulabilirsiniz.
+
+**Yazlık Ev Temizliği:** Mersin sahil şeridinde (Erdemli, Silifke, Anamur) yazlık ev yoğunluğu fazladır. Sezon açılışında (Mayıs-Haziran) toplu halı yıkama talebi artar. Erken sipariş verin — firmalar bu dönemde yoğundur.
+
+**Tarsus'un Ayrı Pazarı:** Tarsus, 350.000+ nüfusuyla kendi başına bir pazar oluşturur. Yerel firmalar mevcuttur ve merkezden daha uygun fiyatlar sunar. Tarsus'ta oturuyorsanız yerel firma tercih edin — Mersin merkeze 30 km mesafe gereksiz nakliye maliyeti ekler.
+
+**Nem ve Küf Kontrolü:** Halı teslim alındığında alt kısmını kontrol edin. Mersin'in yüksek nemi nedeniyle tam kurumuş görünen halının alt yüzü nemli olabilir. Tamamen kuru olduğundan emin olmadan halıyı sermeyin — küf riski vardır.
+
+**Serbest Bölge Firmaları:** Mersin Serbest Bölgesi çevresinde endüstriyel temizlik firmaları bulunur. Bu firmalar otel, fabrika ve büyük işyeri halıları konusunda deneyimlidir. Çok büyük siparişlerde (100+ m²) fiyat avantajı sağlayabilirler.`,
+      },
+    ],
+    faq: [
+      { q: 'Mersin\'de halı yıkama ortalama ne kadar?', a: 'Makine halısı için ortalama 85 TL/m², el halısı 105-175 TL/m², ipek halı 150-350 TL/m² aralığındadır. Mezitli ve Yenişehir en pahalı, Erdemli ve Silifke en uygun ilçelerdir.' },
+      { q: 'Mersin\'de kışın halı yıkatmak sorun olur mu?', a: 'Hayır, Mersin kışları Türkiye\'nin en ılıkıdır (Ocak ortalaması 10°C). Yıl boyu açık hava kurutma yapılabilir — kışın bile 2-3 günde teslimat mümkündür.' },
+      { q: 'Mersin\'de halı yıkama kaç gün sürer?', a: 'Normal dönemde 2-3 gün, yaz yoğunluğunda 4-6 gün. Ilık iklim sayesinde kurutma hızlıdır — İstanbul ve Ankara\'ya göre 1 gün avantajlıdır.' },
+      { q: 'Mersin\'de en ucuz halı yıkama nerede?', a: 'Erdemli, Silifke ve Mut\'ta 70-80 TL/m² ile Mersin ortalamasının altında fiyatlar mevcuttur. Ancak bu ilçeler merkeze uzaktır — yerel firma tercih edin.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'adana-hali-yikama', 'antalya-hali-yikama'],
+  },
 ];
