@@ -5915,4 +5915,188 @@ Yaz yayla göçünde halılar nemli zemine seriliyor. Yayla dönüşünde halıl
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'trabzon-hali-yikama', 'bayburt-hali-yikama'],
   },
+
+  // ==================== KARABÜK ====================
+  {
+    slug: 'karabuk-hali-yikama',
+    city: 'Karabük',
+    citySlug: 'karabuk',
+    title: 'Karabük Halı Yıkama Rehberi — Fiyatlar, Firmalar ve İpuçları',
+    metaTitle: 'Karabük Halı Yıkama Fiyatları 2026 | En İyi Firmalar',
+    metaDescription: 'Karabük halı yıkama fiyatları 2026 güncel liste. Demir-çelik sanayisi bölgesinde halı bakımı, Safranbolu ilçe bazlı firmalar ve fiyat karşılaştırması.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 7,
+    heroEmoji: '🏗️',
+    intro: 'Karabük, Türkiye\'nin ilk ağır sanayi şehirlerinden biridir. **Kardemir** demir-çelik fabrikası şehrin kalbinde yer alır. Sanayi bölgesine yakın mahallelerde hava kalitesi halılara doğrudan etki eder. Öte yandan **Safranbolu** ilçesi UNESCO Dünya Mirası listesindeki tarihi konakları ile ünlüdür. **[Karabük halı yıkama firmaları](/karabuk-hali-yikama-firmalari)** her iki farklı ihtiyaca da çözüm sunar.',
+    sections: [
+      {
+        heading: 'Karabük\'te Halı Yıkama Fiyatları 2026',
+        content: `Karabük\'te halı yıkama fiyatları Batı Karadeniz ortalamasındadır. Sanayi şehri olması işçi nüfusunun yoğunluğuyla talebi artırır.
+
+| Halı Türü | Fiyat Aralığı (m²) | Açıklama |
+|---|---|---|
+| Makine Halısı | 70 – 85 TL | Standart yıkama |
+| Yün / El Dokuma | 80 – 135 TL | Safranbolu konakları özel bakım |
+| Shaggy / Uzun Tüy | 85 – 120 TL | Derinlemesine toz temizliği |
+| Yolluk / Merdiven | 70 – 78 TL | Metre bazlı hesaplama |
+
+🔴 **Yüksek**: Merkez, Safranbolu (turizm ek talebi)
+🟡 **Orta**: Eskipazar
+🟢 **Uygun**: Yenice, Ovacık, Eflani
+
+*Safranbolu\'da tarihi konakların halıları özel bakım gerektirir. Antika kilimler için uzman firma seçimi kritiktir.*`,
+      },
+      {
+        heading: 'Sanayi Şehrinde Halı Bakımı',
+        content: `Karabük\'ün sanayi yapısı halı bakımını doğrudan etkiler:
+
+**Demir-çelik fabrikası etkisi:**
+- Hava kirliliği partiküllerinin halılara çökmesi (özellikle fabrikaya yakın mahalleler)
+- Metalik toz — gri-siyah renkte, halı rengini soldurur
+- Sanayi bölgesine yakın evlerde 3 ayda bir profesyonel yıkama
+- Pencereleri sık açan evlerde halı yüzeyi hızla kirlenir
+
+**Safranbolu konakları:**
+- Ahşap zeminler nemli olabilir — halı altı kontrol zorunlu
+- Tarihi dokuya uygun halılar genellikle yün veya ipek — hassas yıkama
+- Turist yoğunluğu — konak girişlerinde halılar çabuk kirlenir
+- Antika halılar yalnızca uzman firmalarda yıkanmalı
+
+*Kardemir tesislerine 2 km mesafedeki mahallelerde halılar görünür bir metalik toz tabakasıyla kaplanır. Bu bölgede yaşayanlar halıyı ortalamadan 2 kat sık yıkatmalıdır.*`,
+      },
+      {
+        heading: 'İlçe Bazlı Halı Yıkama Firmaları',
+        content: `Karabük\'ün firmalar merkez ve Safranbolu\'da yoğunlaşmıştır:
+
+- [Karabük merkez halı yıkama](/karabuk-merkez-hali-yikama-firmalari) — Sanayi şehri merkezi
+- [Safranbolu halı yıkama](/karabuk-safranbolu-hali-yikama-firmalari) — UNESCO mirası, turizm bölgesi
+- [Eskipazar halı yıkama](/karabuk-eskipazar-hali-yikama-firmalari) — Tarım ilçesi
+- [Yenice halı yıkama](/karabuk-yenice-hali-yikama-firmalari) — Orman bölgesi
+- [Ovacık halı yıkama](/karabuk-ovacik-hali-yikama-firmalari) — Kırsal bölge
+- [Eflani halı yıkama](/karabuk-eflani-hali-yikama-firmalari) — Dağ kasabası
+
+📌 *Safranbolu\'da otel, konak ve pansiyonlar sezon öncesi (Nisan-Mayıs) toplu halı yıkama yaptırır. Bu dönemde firmalar yoğun olur — erken randevu alın.*`,
+      },
+      {
+        heading: 'Karabük\'te Halı Seçimi ve Koruma',
+        content: `Karabük\'ün sanayi ve tarihi doku ikilemi halı seçiminde belirleyicidir:
+
+**Sanayi bölgesine yakın evler için:**
+- Koyu renkli, kısa tüylü sentetik halılar — toz görünmez, kolay temizlenir
+- Yıkanabilir kilimler — sık yıkamaya dayanır
+- Halı altına toz geçirmez örtü
+
+**Safranbolu ve tarihi bölge:**
+- Geleneksel yün kilimler — ahşap konağın ruhuna uygun
+- Doğal boyalı halılar — sentetik boya yerine doğal tercih
+- Değerli halılar için güve koruması (lavanta, sedir ağacı)
+
+**Genel öneriler:**
+- Halıyı her zaman rüzgâra karşı değil, rüzgâr yönünde serme (metalik toz üstte kalmasın)
+- Hava kalitesi düşük günlerde pencere açmama
+- HEPA filtreli elektrikli süpürge kullanma
+
+*Safranbolu\'daki antika halı ve kilimlerin piyasa değeri yüksektir. Bu halıları yalnızca referanslı, deneyimli firmalara teslim edin.*`,
+      },
+    ],
+    faq: [
+      { q: 'Karabük\'te halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-85 TL/m², yün halı 80-135 TL/m² aralığındadır. Safranbolu\'da antika halılar için fiyat daha yüksek olabilir.' },
+      { q: 'Fabrikaya yakın evlerde halı ne sıklıkla yıkatılmalı?', a: 'Kardemir\'e 2-3 km mesafedeki evlerde 3 ayda bir, daha uzak bölgelerde 6 ayda bir profesyonel yıkama önerilir.' },
+      { q: 'Safranbolu\'da antika halı yıkayan firma var mı?', a: 'Safranbolu ve Karabük merkezde antika halı deneyimi olan firmalar bulunur. Referans isteyin ve sigorta sorgulayın.' },
+      { q: 'Metalik toz halıdan çıkar mı?', a: 'Profesyonel yıkama ile çıkar. Ancak uzun süre birikirse halı rengini kalıcı soldurabilir. Düzenli yıkatma önemlidir.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'bartin-hali-yikama', 'zonguldak-hali-yikama'],
+  },
+
+  // ==================== BİLECİK ====================
+  {
+    slug: 'bilecik-hali-yikama',
+    city: 'Bilecik',
+    citySlug: 'bilecik',
+    title: 'Bilecik Halı Yıkama Rehberi — Fiyatlar, Firmalar ve İpuçları',
+    metaTitle: 'Bilecik Halı Yıkama Fiyatları 2026 | En İyi Firmalar',
+    metaDescription: 'Bilecik halı yıkama fiyatları 2026 güncel liste. Marmara geçiş ikliminde halı bakımı, Bolu Dağı etkisi, ilçe bazlı firmalar ve fiyat karşılaştırması.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 7,
+    heroEmoji: '🏛️',
+    intro: 'Bilecik, Marmara ile İç Anadolu arasında geçiş bölgesinde yer alan tarihi bir ildir. **Söğüt** ilçesiyle Osmanlı Devleti\'nin kuruluş yeri olarak bilinir. İklimi Marmara\'dan daha sert, İç Anadolu\'dan daha nemlidir. **[Bilecik halı yıkama firmaları](/bilecik-hali-yikama-firmalari)** bu geçiş iklimine uygun hizmet sunar.',
+    sections: [
+      {
+        heading: 'Bilecik\'te Halı Yıkama Fiyatları 2026',
+        content: `Bilecik\'te halı yıkama fiyatları Marmara ortalamasının altında, iç kesimler seviyesindedir. Küçük nüfuslu bir il olması fiyatları olumlu etkiler.
+
+| Halı Türü | Fiyat Aralığı (m²) | Açıklama |
+|---|---|---|
+| Makine Halısı | 70 – 82 TL | Standart yıkama |
+| Yün / El Dokuma | 78 – 125 TL | Söğüt bölgesi geleneksel dokumalar |
+| Shaggy / Uzun Tüy | 82 – 115 TL | Derinlemesine kurutma |
+| Yolluk / Merdiven | 70 – 76 TL | Metre bazlı hesaplama |
+
+🔴 **Yüksek**: Merkez, Bozüyük (sanayi + nüfus)
+🟡 **Orta**: Söğüt, Osmaneli
+🟢 **Uygun**: Pazaryeri, Gölpazarı, İnhisar
+
+*Bozüyük ilçesi nüfus ve sanayi açısından Bilecik merkeze yakın büyüklüktedir. Kendi halı yıkama firmaları mevcuttur.*`,
+      },
+      {
+        heading: 'Bilecik İklimi ve Halı Bakımı',
+        content: `Bilecik, Marmara ve karasal iklim arasında geçiş bölgesindedir. Kışlar soğuk ve yağışlı, yazlar sıcak ve kurudur:
+
+**İklim özellikleri ve halı etkisi:**
+- Kış sıcaklıkları -10°C\'ye düşebilir — kapalı alanda yıkama zorunlu
+- Yaz ayları 35°C\'ye çıkar — ideal kurutma dönemi
+- Bahar yağmurları (Mart-Mayıs) — pencereleri açık bırakılan evlerde halılara nem geçer
+- Sakarya Nehri vadisinde nem oranı daha yüksek
+
+**Bakım önerileri:**
+- Yaz aylarını (Haziran-Ağustos) halı yıkama sezonu olarak değerlendirin
+- Kışın soba/doğalgaz kullanımı sonrası ilkbaharda mutlaka yıkatın
+- Sakarya kıyısı evlerde halı altı nem kontrolü yapın
+- Bozüyük sanayi bölgesinde toz birikimi fazla — sık vakumlama
+
+*Bilecik\'te mermer ve seramik sanayisi vardır. Fabrika çevresindeki evlerde ince toz birikimi halılara yerleşir.*`,
+      },
+      {
+        heading: 'İlçe Bazlı Halı Yıkama Firmaları',
+        content: `Bilecik\'in firmalar merkez ve Bozüyük\'te yoğunlaşmıştır:
+
+- [Bilecik merkez halı yıkama](/bilecik-merkez-hali-yikama-firmalari) — İl merkezi
+- [Bozüyük halı yıkama](/bilecik-bozuyuk-hali-yikama-firmalari) — Sanayi ilçesi, büyük nüfus
+- [Söğüt halı yıkama](/bilecik-sogut-hali-yikama-firmalari) — Tarihi ilçe
+- [Osmaneli halı yıkama](/bilecik-osmaneli-hali-yikama-firmalari) — Sakarya kıyısı
+- [Pazaryeri halı yıkama](/bilecik-pazaryeri-hali-yikama-firmalari) — Tarım bölgesi
+- [Gölpazarı halı yıkama](/bilecik-golpazari-hali-yikama-firmalari) — Kırsal kesim
+- [İnhisar halı yıkama](/bilecik-inhisar-hali-yikama-firmalari) — Küçük ilçe
+- [Yenipazar halı yıkama](/bilecik-yenipazar-hali-yikama-firmalari) — Küçük ilçe
+
+📌 *Bozüyük, Bilecik\'in en kalabalık ilçesidir ve Eskişehir\'e yakınlığı nedeniyle bazı firmalar Eskişehir\'den de hizmet alır.*`,
+      },
+      {
+        heading: 'Bilecik\'te Halı Yıkama İpuçları',
+        content: `Bilecik\'in kendine has koşullarında pratik halı bakımı:
+
+**Söğüt ve tarihi bölge halıları:**
+Söğüt\'te Osmanlı geleneğine uygun el dokuma halı ve kilimler yaygındır. Bu tür halılar kimyasal deterjandan zarar görebilir — doğal sabunlu yıkama yapan firma tercih edin.
+
+**Mermer-seramik sanayi bölgesi:**
+Bozüyük ve çevresindeki mermer fabrikalarının ürettiği ince toz havada asılı kalır. Bu toz halılara beyaz bir tabaka olarak çöker. HEPA filtreli süpürge ve 4-5 ayda bir profesyonel yıkama etkilidir.
+
+**Sakarya kıyısı evler:**
+Osmaneli ve Bilecik merkezdeki Sakarya Nehri kıyısı evlerde bahar aylarında zemin nemi artar. Halı altına nem bariyeri serilmeli ve yılda 1 kez halı kaldırılıp zemin kontrol edilmelidir.
+
+*Bilecik\'ten Eskişehir\'e (90 km) veya Bursa\'ya (150 km) halı göndermek nakliye maliyetini artırır. Yerel firmalar hem daha uygun hem daha hızlıdır.*`,
+      },
+    ],
+    faq: [
+      { q: 'Bilecik\'te halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-82 TL/m², yün halı 78-125 TL/m² aralığındadır. Marmara ortalamasının altında uygun fiyatlıdır.' },
+      { q: 'Bozüyük\'te halı yıkama firması var mı?', a: 'Evet, Bozüyük kendi firmalarına sahiptir. Ayrıca Bilecik merkez ve Eskişehir firmalarından da hizmet alınabilir.' },
+      { q: 'Mermer tozu halıya zarar verir mi?', a: 'Uzun süre birikirse halı rengini matlaştırır ve lifleri aşındırır. Düzenli vakumlama ve profesyonel yıkama ile önlenebilir.' },
+      { q: 'Bilecik\'te en iyi halı yıkama sezonu hangisi?', a: 'Haziran-Ağustos arası idealdir. Yaz sıcağında halılar hızla kurur. Kışın kapalı tesiste de yıkama mümkündür.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'eskisehir-hali-yikama', 'bursa-hali-yikama'],
+  },
 ];
