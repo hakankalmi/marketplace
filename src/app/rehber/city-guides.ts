@@ -1323,4 +1323,118 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'istanbul-hali-yikama', 'ankara-hali-yikama'],
   },
+
+  /* ─── 17. BALIKESİR ─── */
+  {
+    slug: 'balikesir-hali-yikama',
+    city: 'Balıkesir',
+    citySlug: 'balikesir',
+    title: 'Balıkesir Halı Yıkama Rehberi: Fiyatlar, Firmalar ve İpuçları (2026)',
+    metaTitle: 'Balıkesir Halı Yıkama Fiyatları 2026 | Firma Rehberi',
+    metaDescription: 'Balıkesir halı yıkama fiyatları 2026 güncel liste. Altıeylül, Karesi, Bandırma, Edremit, Gönen fiyat karşılaştırma. Balıkesir halı yıkama firması seçim rehberi.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'Şehir Rehberi',
+    readingTime: 8,
+    heroEmoji: '🫒',
+    intro: `**Balıkesir**, Marmara ve Ege'nin buluştuğu noktada, hem sahil hem iç kesim özelliklerini barındıran benzersiz bir coğrafyaya sahiptir. Güneyde Edremit Körfezi'nin Akdeniz iklimi, kuzeyde Bandırma'nın Marmara havası, merkezde karasal steplerin kuruluğu — Balıkesir'de halı yıkama ihtiyacı bölgeden bölgeye büyük farklılık gösterir. Zeytincilik, termal kaynaklar ve turizm şehrin ekonomisini şekillendirir. [Balıkesir halı yıkama firmaları](/balikesir-hali-yikama-firmalari) arasında en uygun fiyatlı ve güvenilir firmayı bulmak için bu rehberi hazırladık.`,
+    sections: [
+      {
+        heading: 'Balıkesir Halı Yıkama Fiyatları 2026',
+        content: `Balıkesir'de halı yıkama fiyatları Türkiye ortalamasına yakındır. Sahil ilçeleri (Edremit, Ayvalık, Burhaniye) yazın turizm sezonu nedeniyle daha pahalıyken, iç kesim ilçeleri daha uygun fiyat sunar.
+
+| Halı Türü | Fiyat Aralığı (m²) | Ortalama |
+|---|---|---|
+| Makine halısı | 70 – 120 TL | 80 TL |
+| El dokuması halı | 90 – 170 TL | 120 TL |
+| Shaggy / tüylü halı | 75 – 140 TL | 100 TL |
+| İpek halı | 140 – 300 TL | 200 TL |
+| Koltuk yıkama (kişilik) | 130 – 280 TL | 190 TL |
+| Yorgan yıkama (adet) | 100 – 200 TL | 140 TL |
+
+**İlçe Bazlı Fiyat Farkları:**
+
+🔴 **Yüksek Segment**: [Edremit halı yıkama](/balikesir-edremit-hali-yikama-firmalari), [Ayvalık halı yıkama](/balikesir-ayvalik-hali-yikama-firmalari) — 85-170 TL/m². Turizm bölgesi, tatilci talebi, premium hizmet.
+
+🟡 **Orta Segment**: [Altıeylül halı yıkama](/balikesir-altieylul-hali-yikama-firmalari), [Karesi halı yıkama](/balikesir-karesi-hali-yikama-firmalari), [Bandırma halı yıkama](/balikesir-bandirma-hali-yikama-firmalari), [Burhaniye halı yıkama](/balikesir-burhaniye-hali-yikama-firmalari) — 75-130 TL/m².
+
+🟢 **Uygun Segment**: [Gönen halı yıkama](/balikesir-gonen-hali-yikama-firmalari), [Susurluk halı yıkama](/balikesir-susurluk-hali-yikama-firmalari), [Bigadiç halı yıkama](/balikesir-bigadic-hali-yikama-firmalari), [Dursunbey halı yıkama](/balikesir-dursunbey-hali-yikama-firmalari), [Sındırgı halı yıkama](/balikesir-sindirgi-hali-yikama-firmalari), [İvrindi halı yıkama](/balikesir-ivrindi-hali-yikama-firmalari) — 70-100 TL/m².
+
+📌 *Edremit ve Ayvalık'ta yaz sezonu (Haziran-Eylül) fiyatlar %15-25 artar. Tatil sonrası halı yıkatmayı planlıyorsanız Eylül-Ekim en uygun dönemdir.*`,
+      },
+      {
+        heading: 'Balıkesir İklimi ve Halı Bakım Takvimi',
+        content: `Balıkesir'in üç farklı iklim bölgesi halı bakım stratejisini tamamen değiştirir:
+
+**Güney Sahil — Edremit Körfezi (Akdeniz İklimi):** Edremit, Burhaniye, Ayvalık, Havran — ılık kışlar, sıcak yazlar. Yaz nemi Karadeniz kadar yüksek olmasa da deniz tuzu etkisi vardır. Sahil villalarında tuz nemi halı liflerini sertleştirir — yılda 2 kez yıkatma önerilir. Kurutma yazın çok hızlıdır (1-2 gün).
+
+**Kuzey — Marmara Kıyısı (Marmara İklimi):** Bandırma, Erdek, Gönen — Marmara'nın nemli kışları, rüzgarlı havası. Bandırma limanı çevresindeki endüstriyel toz + deniz tuzu kombinasyonu halıları hızla kirletir. Kışın nem yüksektir, kapalı kurutma tercih edilmeli.
+
+**Merkez ve İç Kesim (Karasal İklim):** Altıeylül, Karesi, Susurluk, Bigadiç, Dursunbey — soğuk kışlar, sıcak ve kuru yazlar. Toz birikimi yüksektir ama nem düşüktür. Kurutma çok hızlıdır. Yılda 1-2 kez yıkatma genellikle yeterlidir.
+
+**Zeytin Hasat Dönemi (Ekim-Aralık):** Balıkesir Türkiye'nin en büyük zeytin üreticisidir. Hasat döneminde evlere taşınan zeytinyağı lekesi halılar için ciddi problemdir — yağ lekesi standart yıkamada çıkmaz, firmaya önceden belirtin.
+
+**Termal Bölge — Gönen:** Gönen kaplıcalarına gelen ziyaretçiler ve termal oteller sezon sonunda toplu halı yıkama yaptırır. Bu dönemde yerel firmalarda yoğunluk oluşur.
+
+**En İyi Dönem:** Mayıs-Haziran ve Eylül-Ekim — hava ılık, firmalar yoğun değil.
+
+[Balıkesir halı yıkama firmaları](/balikesir-hali-yikama-firmalari) — Balıkesir'deki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+      },
+      {
+        heading: 'Balıkesir Halı Yıkama Firması Seçerken Dikkat Edilecekler',
+        content: `**Sahil vs İç Kesim — Farklı İhtiyaçlar:** Edremit Körfezi'ndeki sahil evlerinde deniz tuzu ve nem sorunları öne çıkarken, Dursunbey veya Sındırgı gibi iç kesimlerde kuru toz birikimi esas problemdir. Firmaya yaşadığınız bölgeyi ve sorunuzu net olarak belirtin.
+
+**Zeytinyağı Leke Uzmanlığı:** Balıkesir'de zeytinyağı lekesi çok yaygındır. Firmaya leke olduğunu yıkamadan önce söyleyin — ön işlem (solvent + emülsifiyer) uygulanması gerekir. Standart yıkama yağ lekesini sabitleyerek kalıcı hale getirebilir.
+
+**Tatil Evi Toplu Yıkama:** Edremit, Ayvalık ve Burhaniye'de binlerce tatil evi mevcuttur. Sezon başı (Mayıs) ve sezon sonu (Ekim) toplu yıkama anlaşması yaparak %10-20 indirim alabilirsiniz. Platform üzerinden birden fazla firmadan teklif isteyin.
+
+**Bandırma Sanayi:** Bandırma'nın liman ve sanayi bölgelerinde endüstriyel toz (gübre fabrikaları, kimyasal tesisler) halıları farklı kirletir. Bu tür kirlilik için ağır ön işlem gerekebilir — standart yıkama yetersiz kalır.
+
+**Susurluk — Ayran ve Mandıra:** Susurluk Türkiye'nin ayran ve süt ürünleri merkezidir. Mandıra bölgelerinde süt/yoğurt lekeli halılar yaygındır — protein bazlı lekeler için soğuk su ön yıkama şarttır, sıcak su proteini pişirir ve lekeyi sabitler.
+
+**Bursa Karşılaştırması:** Balıkesir'in doğusu Bursa'ya çok yakındır. Fiyat karşılaştırması için [Bursa halı yıkama](/rehber/bursa-hali-yikama) rehberine de bakabilirsiniz — ancak genellikle Balıkesir fiyatları Bursa'dan %10-15 daha uygundur.`,
+      },
+      {
+        heading: 'Balıkesir İlçe Bazlı Halı Yıkama Firmaları',
+        content: `Balıkesir 20 ilçeye sahiptir. İşte ilçe bazlı halı yıkama firma rehberi:
+
+**Büyükşehir Merkez İlçeler:**
+- [Altıeylül halı yıkama](/balikesir-altieylul-hali-yikama-firmalari) — Şehir merkezi doğu, konut ağırlıklı
+- [Karesi halı yıkama](/balikesir-karesi-hali-yikama-firmalari) — Şehir merkezi batı, ticaret bölgesi
+
+**Marmara Kıyısı:**
+- [Bandırma halı yıkama](/balikesir-bandirma-hali-yikama-firmalari) — Liman şehri, sanayi + sahil
+- [Erdek halı yıkama](/balikesir-erdek-hali-yikama-firmalari) — Tatil beldesi
+- [Marmara halı yıkama](/balikesir-marmara-hali-yikama-firmalari) — Ada ilçesi
+
+**Edremit Körfezi (Ege Sahili):**
+- [Edremit halı yıkama](/balikesir-edremit-hali-yikama-firmalari) — Körfezin merkezi
+- [Burhaniye halı yıkama](/balikesir-burhaniye-hali-yikama-firmalari) — Ören plajları
+- [Ayvalık halı yıkama](/balikesir-ayvalik-hali-yikama-firmalari) — Turizm + zeytincilik
+- [Havran halı yıkama](/balikesir-havran-hali-yikama-firmalari) — Zeytin bölgesi
+
+**İç Kesim İlçeler:**
+- [Gönen halı yıkama](/balikesir-gonen-hali-yikama-firmalari) — Termal şehir
+- [Susurluk halı yıkama](/balikesir-susurluk-hali-yikama-firmalari) — Süt ürünleri merkezi
+- [Bigadiç halı yıkama](/balikesir-bigadic-hali-yikama-firmalari) — Bor madeni bölgesi
+- [Dursunbey halı yıkama](/balikesir-dursunbey-hali-yikama-firmalari) — Orman bölgesi
+- [Sındırgı halı yıkama](/balikesir-sindirgi-hali-yikama-firmalari) — Termal kaynaklar
+- [İvrindi halı yıkama](/balikesir-ivrindi-hali-yikama-firmalari) — Dağ ilçesi
+- [Kepsut halı yıkama](/balikesir-kepsut-hali-yikama-firmalari) — Kırsal
+- [Manyas halı yıkama](/balikesir-manyas-hali-yikama-firmalari) — Kuş cenneti
+- [Savaştepe halı yıkama](/balikesir-savastepe-hali-yikama-firmalari) — Tarım ilçesi
+- [Balya halı yıkama](/balikesir-balya-hali-yikama-firmalari) — Maden bölgesi
+- [Gömeç halı yıkama](/balikesir-gomec-hali-yikama-firmalari) — Ege sahili
+
+📌 *Balıkesir geniş bir coğrafyaya yayılmıştır. İç kesim ilçelerinde firma sayısı sınırlıdır — Altıeylül ve Karesi'deki firmalar şehir genelinde hizmet verir. Sahil ilçeleri ise kendi yerel pazarlarına sahiptir.*`,
+      },
+    ],
+    faq: [
+      { q: 'Balıkesir\'de halı yıkama ortalama ne kadar?', a: 'Makine halısı ortalama 80 TL/m², el dokuması 90-170 TL/m², shaggy 75-140 TL/m² aralığındadır. Edremit ve Ayvalık en pahalı (turizm etkisi), Gönen ve Susurluk en uygun ilçelerdir.' },
+      { q: 'Balıkesir\'de halı yıkama kaç gün sürer?', a: 'İç kesimlerde yaz aylarında 1-2 gün (çok kuru iklim), sahilde 2-3 gün. Kışın 3-5 gün. Edremit Körfezi\'nde yaz çok hızlıdır — kurutma birkaç saatte tamamlanır.' },
+      { q: 'Ayvalık\'ta yazın halı yıkatmak pahalı mı?', a: 'Evet, turizm sezonu (Haziran-Eylül) fiyatlar %15-25 artar. Eylül-Ekim\'de tatil sonrası yıkatmak hem daha uygun hem de firmalar daha müsaittir.' },
+      { q: 'Balıkesir\'de zeytinyağı lekesi nasıl çıkar?', a: 'Zeytinyağı lekesi standart yıkamada çıkmaz. Firmaya önceden belirtin — solvent + emülsifiyer ile ön işlem uygulanması gerekir. Sıcak su kullanılmamalıdır, lekeyi sabitler.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'bursa-hali-yikama', 'izmir-hali-yikama'],
+  },
 ];
