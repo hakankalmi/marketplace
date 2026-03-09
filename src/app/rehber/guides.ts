@@ -1166,6 +1166,84 @@ Yaz tatili öncesi büyük temizlik. Firma kapasiteleri dolar, teslimat 5-7 gün
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'istanbul-hali-yikama', 'ankara-hali-yikama'],
   },
+  {
+    slug: 'bursa-hali-yikama',
+    city: 'Bursa',
+    citySlug: 'bursa',
+    title: 'Bursa Halı Yıkama Rehberi — İlçe Bazlı Fiyatlar ve Firmalar',
+    metaTitle: 'Bursa Halı Yıkama | İlçe Bazlı Fiyatlar ve En İyi Firmalar 2026',
+    metaDescription: 'Bursa halı yıkama fiyatları ilçe bazlı karşılaştırma. Nilüfer, Osmangazi, Yıldırım, Mudanya ve tüm ilçelerde en iyi halı yıkama firmaları.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 7,
+    heroEmoji: '🏔️',
+    intro: 'Bursa, Türkiye\'nin dördüncü büyük şehri ve sanayi kenti olmasına rağmen halı yıkama sektöründe oldukça rekabetçi fiyatlara sahiptir. Uludağ\'ın eteğindeki nemli iklim ve yoğun sanayi tozları halı bakımını zorunlu kılar. Bu rehberde [Bursa halı yıkama](/bursa-hali-yikama-firmalari) fiyatlarını ilçe bazlı karşılaştırıyor ve Bursa\'ya özel ipuçlarını paylaşıyoruz.',
+    sections: [
+      {
+        heading: 'Bursa Halı Yıkama Fiyatları — Genel',
+        content: `Bursa fiyatları İstanbul'un yaklaşık %35-40 altında, Türkiye ortalamasına yakındır:
+
+**Makine Halısı:** Ortalama 80 TL/m² (aralık: 45-130 TL) — İstanbul'un neredeyse yarı fiyatına
+**El Halısı (Yün):** 100-170 TL/m²
+**İpek Halı:** 150-350 TL/m² — Bursa ipek halı üretim merkezi olduğundan uzman firma sayısı fazladır
+**Shaggy / Uzun Tüylü:** 60-110 TL/m²
+
+**Bursa'nın Avantajı:** İpek halı yıkama konusunda Türkiye'nin en deneyimli firmaları Bursa'dadır. Tarihî ipek üretim geleneği sayesinde firmalar ipek halı bakımında uzmanlaşmıştır.`,
+      },
+      {
+        heading: 'Bursa Halı Yıkama — İlçe Bazlı Fiyat Karşılaştırması',
+        content: `Bursa ortalaması makine halısı için 80 TL/m²'dir. İlçeler arası fiyat farkları:
+
+**Yüksek Fiyat Bölgeleri (90-130 TL/m²):**
+Nilüfer (Özlüce, Beşevler, İhsaniye), Mudanya (sahil), Görükle
+Bursa'nın en gelişmiş ve gelir düzeyi yüksek ilçesi. Yeni siteler ve villa bölgeleri. Firma sayısı az ama kalite yüksek.
+
+**Orta Fiyat Bölgeleri (60-90 TL/m²):**
+Osmangazi (merkez), Yıldırım, Kestel, Gürsu
+Nüfus yoğunluğu en fazla olan bölge. Firma rekabeti güçlü, müşteriye avantaj sağlar.
+
+**Uygun Fiyat Bölgeleri (40-65 TL/m²):**
+İnegöl, Gemlik, Orhangazi, Karacabey, Mustafakemalpaşa
+Merkeze uzak ilçeler. Fiyat avantajı belirgin, ancak teslimat süresi 1-2 gün uzayabilir.
+
+**İpucu:** Nilüfer'de oturuyorsanız Osmangazi'deki firmalara da bakın — 10-15 dakika mesafede %20-30 daha uygun fiyat bulabilirsiniz.`,
+      },
+      {
+        heading: 'Bursa Halı Yıkama — İklim ve Sanayi Etkisi',
+        content: `Bursa'nın iklimi ve sanayi yapısı halı bakımını doğrudan etkiler:
+
+**Nem ve Yağış:** Bursa, Türkiye'nin en yağışlı büyük şehirlerinden biridir. Uludağ'dan gelen nem halılarda küf riskini artırır. Yılda en az 2 kez profesyonel halı yıkama önerilir.
+
+**Sanayi Tozu:** Organize sanayi bölgelerine yakın ilçelerde (Kestel, Gürsu, İnegöl) hava kirliliği halılarda daha hızlı toz birikimi yaratır. Bu bölgelerde 3-4 ayda bir yüzeysel temizlik, yılda 2 kez derin halı yıkama gerekir.
+
+**En Uygun Dönem:** Nisan-Mayıs ve Eylül-Ekim — hava ılık, nem düşük, kurutma hızlı.
+
+**Dikkat — Kış Ayları:** Bursa kışları soğuk ve nemlidir. Açık havada kurutma yapılamaz. Kapalı kurutma tesisi olan halı yıkama firmasını tercih edin.
+
+**Yoğun Dönem:** Haziran — Ramazan Bayramı öncesi ve yaz tatili başlangıcı çakışır. Halı yıkama firmaları çok yoğundur, 1-2 hafta önceden sipariş verin.
+
+[Bursa halı yıkama firmaları](/bursa-hali-yikama-firmalari) — Bursa'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+      },
+      {
+        heading: 'Bursa Halı Yıkama Firması Seçerken Dikkat Edilecekler',
+        content: `**İpek Halı Uzmanlığı:** Bursa, Osmanlı döneminden bu yana ipek üretim merkezidir. İpek halınız varsa Bursa'daki uzman halı yıkama firmalarını tercih etmeniz büyük avantaj sağlar. Firmaya ipek halı yıkama deneyimini ve kullandığı kimyasalları sorun.
+
+**Organize Sanayi Bölgesi Firmaları:** İnegöl ve Kestel'deki bazı halı yıkama firmaları mobilya fabrikalarına hizmet verir ve endüstriyel kapasiteye sahiptir. Bu firmalar büyük halıları (50+ m²) daha hızlı ve uygun fiyata yıkar.
+
+**Ulaşım Mesafesi:** Bursa coğrafi olarak geniştir. İnegöl-Nilüfer arası 70+ km'dir. Kendi ilçenize yakın halı yıkama firması seçmek hem ulaşım ücreti riskini ortadan kaldırır hem teslimatı hızlandırır.
+
+**Doğal Kaynak Suyu İddiası:** Bazı firmalar Uludağ kaynak suyuyla halı yıkama yaptığını iddia eder. Bu pazarlama söylemidir — profesyonel halı yıkamada suyun kaynağından çok filtreleme sistemi önemlidir. Firmadan arıtma/filtreleme sistemi olup olmadığını sorun.`,
+      },
+    ],
+    faq: [
+      { q: 'Bursa\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı için ortalama 80 TL/m², el halısı 100-170 TL/m², ipek halı 150-350 TL/m² aralığındadır. Nilüfer en pahalı, İnegöl en uygun ilçedir.' },
+      { q: 'Bursa\'da ipek halı yıkama nerede yaptırılır?', a: 'Bursa, ipek halı konusunda Türkiye\'nin en uzman şehridir. Osmangazi ve Nilüfer\'deki köklü halı yıkama firmaları ipek halı yıkama sertifikasına sahiptir. Platform üzerinden filtreleyerek bulabilirsiniz.' },
+      { q: 'Bursa\'da en ucuz halı yıkama nerede?', a: 'İnegöl, Karacabey ve Mustafakemalpaşa\'da 40-65 TL/m² ile Bursa ortalamasının (80 TL/m²) altında fiyatlar bulabilirsiniz.' },
+      { q: 'Bursa\'da halı yıkama kaç gün sürer?', a: 'Normal dönemde 2-3 gün, yoğun dönemlerde 4-6 gün. Kış aylarında kapalı kurutma nedeniyle 1 gün eklenebilir.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'istanbul-hali-yikama', 'izmir-hali-yikama'],
+  },
 ];
 
 export function getGuideBySlug(slug: string): GuideArticle | undefined {
