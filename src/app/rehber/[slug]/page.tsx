@@ -10,6 +10,18 @@ import { getGuideBySlug, guides } from '../guides';
 
 const brand = getBrandConfig();
 
+function getCategoryLabel(category: string): string {
+  const labels: Record<string, string> = {
+    'hali-yikama': 'halı yıkama',
+    'koltuk-yikama': 'koltuk yıkama',
+    'yorgan-yikama': 'yorgan battaniye yıkama',
+    'perde-yikama': 'perde yıkama',
+    'ev-temizligi': 'ev temizliği',
+    'yatak-yikama': 'yatak yıkama',
+  };
+  return labels[category] || category.replace(/-/g, ' ');
+}
+
 /** Parse inline markdown: **bold**, *italic*, [link](url), **text [bold link](url) text:** */
 function renderInline(text: string, keyPrefix: string): React.ReactNode[] {
   // Order matters: **bold** before *italic* to avoid partial matches
@@ -289,7 +301,8 @@ export default async function GuidePage({
                 {guide.city ? (
                   <>En iyi <Link href={`/${guide.citySlug}-${guide.category}-firmalari`} className="text-brand-primary hover:underline font-medium">{guide.city} halı yıkama firmalarını</Link> karşılaştırın, kolayca sipariş verin.</>
                 ) : (
-                  'Şehrinizdeki en iyi firmaları karşılaştırın, kolayca sipariş verin.'
+                  <>Şehrinizdeki en iyi <Link href={`/turkiye/${guide.category}`} className="text-brand-primary hover:underline font-medium">{getCategoryLabel(guide.category)}</Link> firmalarını karşılaştırın, kolayca sipariş verin.</>
+
                 )}
               </p>
               <Link
