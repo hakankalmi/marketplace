@@ -3052,4 +3052,161 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'eskisehir-hali-yikama', 'denizli-hali-yikama'],
   },
+
+  // ── Tokat ────────────────────────────────────────────────
+  {
+    slug: 'tokat-hali-yikama',
+    city: 'Tokat',
+    citySlug: 'tokat',
+    title: 'Tokat Halı Yıkama Rehberi — Fiyatlar, İlçeler ve Tavsiyeler',
+    metaTitle: 'Tokat Halı Yıkama Fiyatları 2026 | Rehber & Karşılaştırma',
+    metaDescription: 'Tokat halı yıkama fiyatları, güvenilir firma önerileri ve ilçe bazlı hizmet rehberi. Yeşilırmak havzasının nemli iklimine uygun bakım çözümleri.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 10,
+    heroEmoji: '🏛️',
+    intro: 'Tokat, Yeşilırmak Vadisi\'nde yer alan tarihi bir Anadolu şehridir. Kelkit Çayı ve Yeşilırmak\'ın geçtiği verimli ova, şehre zengin tarım potansiyeli kazandırırken yüksek nem oranıyla halı bakımını da zorlaştırır. Tokat kebabı ve bağcılıkla ünlü şehirde, gıda lekeleri halı temizliğinde sık karşılaşılan sorunlardır. Gaziosmanpaşa Üniversitesi ile canlanan şehirde öğrenci nüfusu da halı yıkama talebini artırmaktadır.',
+    sections: [
+      {
+        heading: 'Tokat Halı Yıkama Fiyatları 2026',
+        content: `Tokat halı yıkama fiyatları Türkiye ortalamasının altında, Orta Karadeniz-İç Anadolu geçiş bölgesi seviyesindedir:
+
+| Halı Türü | Fiyat Aralığı (m²) | Not |
+|---|---|---|
+| Makine halısı | 70-85 TL | En yaygın |
+| El dokuması / kilim | 80-135 TL | Yöresel dokumalar |
+| Shaggy / uzun tüylü | 75-115 TL | Standart |
+| Yün halı | 80-130 TL | Soğuk yıkama önerisi |
+| İpek halı | 110-180 TL | El yıkama |
+
+🔴 **Pahalı bölgeler:** Merkez Tokat, Behzat Mahallesi, Gaziosmanpaşa Bulvarı
+🟡 **Orta fiyatlı bölgeler:** Turhal merkez, Erbaa merkez, Niksar merkez
+🟢 **Uygun fiyatlı bölgeler:** Zile, Almus, Reşadiye, Artova
+
+💡 *Tokat'ta öğrenci evleri için küçük halılarda parça başı uygun fiyat seçenekleri sunan firmalar mevcuttur.*`,
+      },
+      {
+        heading: 'Tokat İklimi ve Halı Bakımı',
+        content: `Tokat, Karadeniz ve İç Anadolu iklimlerinin geçiş bölgesinde yer alır. Bu hibrit iklim halı bakımında kendine özgü zorluklar yaratır:
+
+**Vadi nemi:** Yeşilırmak ve Kelkit vadilerinin nemi şehir merkezinde %65-75 arasında seyreder. Bu seviye İstanbul kadar yüksek olmasa da İç Anadolu'dan çok daha nemlidir. Halılarda küflenme riski mevcuttur.
+
+**Dört mevsim belirgin:** Kışlar ılıman-soğuk (-5 ile -10°C), yazlar sıcak (30-35°C). Yaz mevsimi halı yıkama için idealdir — kuru günlerde açık havada 8-10 saatte kuruma tamamlanır.
+
+**Sis ve çiğ:** Sonbahar ve kış sabahları vadi dibinde yoğun sis oluşur. Bu dönemlerde açık havada kurutma yapılmamalıdır — çiğ nemli halıya tekrar nem verir.
+
+**Üzüm ve gıda lekeleri:** Tokat bağcılık ve mutfak kültürüyle tanınır. Üzüm sıkma, pekmez yapma dönemlerinde halılara düşen şıra lekeleri kuruduktan sonra çıkarılması en zor lekeler arasındadır. Taze lekeye soğuk su + tuz uygulanması gerekir.
+
+📌 *Tokat'ta halı yıkatmak için Haziran-Eylül arası ideal dönemdir. Sis mevsimi başlamadan yıkatıp temiz başlayın.*`,
+      },
+      {
+        heading: 'Tokat İlçelerinde Halı Yıkama Hizmetleri',
+        content: `Tokat 12 ilçeden oluşur. Büyük ilçelerde yerel firmalar bulunurken küçük ilçeler merkeze bağımlıdır:
+
+**Merkez ve Büyük İlçeler:**
+- [Tokat Merkez halı yıkama](/tokat-merkez-hali-yikama-firmalari) — Şehir merkezi, tüm firmalar
+- [Turhal halı yıkama](/tokat-turhal-hali-yikama-firmalari) — Şeker fabrikası, büyük ilçe
+- [Erbaa halı yıkama](/tokat-erbaa-hali-yikama-firmalari) — Kelkit Vadisi, termal
+- [Niksar halı yıkama](/tokat-niksar-hali-yikama-firmalari) — Tarihi şehir, Danişment
+- [Zile halı yıkama](/tokat-zile-hali-yikama-firmalari) — "Veni, vidi, vici" tarihi
+
+**Diğer İlçeler:**
+- [Almus halı yıkama](/tokat-almus-hali-yikama-firmalari) — Almus Barajı
+- [Reşadiye halı yıkama](/tokat-resadiye-hali-yikama-firmalari) — Dağlık, Kelkit yakını
+- [Artova halı yıkama](/tokat-artova-hali-yikama-firmalari) — Yüksek ova
+- [Pazar halı yıkama](/tokat-pazar-hali-yikama-firmalari) — Kırsal
+- [Yeşilyurt halı yıkama](/tokat-yesilyurt-hali-yikama-firmalari) — Küçük ilçe
+- [Başçiftlik halı yıkama](/tokat-basciftlik-hali-yikama-firmalari) — Kırsal
+- [Sulusaray halı yıkama](/tokat-sulusaray-hali-yikama-firmalari) — Termal kaynaklar
+
+📌 *Turhal, Erbaa ve Niksar'da yerel firmalar mevcuttur. Diğer ilçelere Tokat merkez firmalarından ücretsiz alım-teslim yapılır.*`,
+      },
+    ],
+    faq: [
+      { q: 'Tokat\'ta halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-85 TL/m², el dokuması 80-135 TL/m², yün halı 80-130 TL/m² aralığındadır. Türkiye ortalamasının altında, uygun fiyatlı bir şehirdir.' },
+      { q: 'Pekmez lekesi halıdan çıkar mı?', a: 'Taze iken soğuk su ile müdahale edilirse çıkar. Kurumuş pekmez lekesi profesyonel enzimatik deterjan gerektirir — sıcak su kullanmayın, lekeyi sabitler.' },
+      { q: 'Tokat\'ta kışın halı yıkatılır mı?', a: 'Mümkündür. Kapalı kurutma tesisli firma tercih edilmelidir. Kurutma 3-5 gün sürer. Yaz sezonu daha idealdir.' },
+      { q: 'Öğrenci evi halısı için uygun fiyat var mı?', a: 'Evet, küçük halılar (5 m² altı) için parça başı fiyat sunan firmalar mevcuttur. Platform üzerinden fiyat karşılaştırması yapabilirsiniz.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'samsun-hali-yikama', 'sivas-hali-yikama'],
+  },
+
+  // ── Kırıkkale ────────────────────────────────────────────────
+  {
+    slug: 'kirikkale-hali-yikama',
+    city: 'Kırıkkale',
+    citySlug: 'kirikkale',
+    title: 'Kırıkkale Halı Yıkama Rehberi — Fiyatlar, İlçeler ve Tavsiyeler',
+    metaTitle: 'Kırıkkale Halı Yıkama Fiyatları 2026 | Rehber & Karşılaştırma',
+    metaDescription: 'Kırıkkale halı yıkama fiyatları, güvenilir firma önerileri ve ilçe bazlı hizmet rehberi. Ankara\'ya yakın sanayii şehrine özel bilgiler.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 9,
+    heroEmoji: '🔧',
+    intro: 'Kırıkkale, Ankara\'ya sadece 80 km uzaklıkta, savunma sanayii ve silah fabrikasıyla tanınan Orta Anadolu şehridir. 1989\'da il olan genç şehir, hızla kentleşmiş ve endüstriyel yapısıyla İç Anadolu\'nun önemli sanayi merkezlerinden biri olmuştur. MKE (Makina ve Kimya Endüstrisi) tesisleri şehrin kimliğini belirler. Karasal iklimde kışlar soğuk, yazlar sıcak ve kurak geçer — halı yıkama için elverişli bir ortam sunar.',
+    sections: [
+      {
+        heading: 'Kırıkkale Halı Yıkama Fiyatları 2026',
+        content: `Kırıkkale halı yıkama fiyatları Ankara seviyesinin biraz altındadır. Şehrin kompakt yapısı nakliye maliyetini düşürür:
+
+| Halı Türü | Fiyat Aralığı (m²) | Not |
+|---|---|---|
+| Makine halısı | 70-90 TL | Standart yıkama |
+| El dokuması / kilim | 80-135 TL | Az sayıda |
+| Shaggy / uzun tüylü | 75-115 TL | Standart |
+| Yün halı | 80-130 TL | Soğuk yıkama |
+| Duvar-duvar halıfleks | 70-85 TL | Yerinde yıkama |
+
+🔴 **Pahalı bölgeler:** Merkez (Atatürk Bulvarı), Bahçelievler, Yenimahalle
+🟡 **Orta fiyatlı bölgeler:** Yahşihan, Keskin merkez, OSB çevresi
+🟢 **Uygun fiyatlı bölgeler:** Sulakyurt, Balışeyh, Çelebi, Karakeçili
+
+💡 *Kırıkkale'nin küçük yüzölçümü sayesinde tüm ilçelere hızlı teslimat yapılır — nakliye ek ücreti minimum düzeydedir.*`,
+      },
+      {
+        heading: 'Sanayi Şehri ve Halı Bakımı',
+        content: `Kırıkkale'nin endüstriyel yapısı halı temizliğinde kendine özgü zorluklar yaratır:
+
+**Endüstriyel toz:** MKE tesisleri ve sanayi bölgelerinin yakınında yaşayan aileler metalik toz sorunuyla karşılaşır. Bu toz halı liflerine yapışır ve normal süpürmeyle tam çıkmaz. Profesyonel derin temizlik özellikle sanayi bölgesi yakınlarındaki konutlarda yılda 2 kez önerilir.
+
+**İş kıyafeti lekeleri:** Fabrika çalışanlarının makine yağı, gres ve kimyasal madde taşıması halılara bulaşma riskini artırır. Yağ ve kimyasal lekeleri özel çözücü ön işlem gerektirir — normal deterjan yetmez.
+
+**Karasal iklim avantajı:** Kırıkkale'nin kuru yazları halı kurutma için mükemmeldir. Nem %25-35 arasında seyreder, halılar 4-6 saatte kurur. Kışın -10°C'ye düşse de kapalı tesiste 2-3 günde kurutma tamamlanır.
+
+**Ankara'ya yakınlık:** Kırıkkale sakinleri bazen Ankara firmalarını tercih eder ancak nakliye mesafesi maliyeti artırır. Yerel firmalar hem daha uygun fiyat hem daha hızlı teslim sunar.
+
+📌 *Sanayi bölgesi yakınındayasanız anti-alerjik işlem opsiyonunu mutlaka değerlendirin — metalik toz partiküllerinin alerjik reaksiyonları tetikleyebildiği bilinmektedir.*`,
+      },
+      {
+        heading: 'Kırıkkale İlçelerinde Halı Yıkama Hizmetleri',
+        content: `Kırıkkale 9 ilçeyle Türkiye'nin yüzölçümü en küçük illerinden biridir. Bu kompakt yapı hizmet erişimini kolaylaştırır:
+
+**Merkez İlçeler:**
+- [Kırıkkale Merkez halı yıkama](/kirikkale-merkez-hali-yikama-firmalari) — Şehir merkezi, tüm firmalar
+- [Yahşihan halı yıkama](/kirikkale-yahsihan-hali-yikama-firmalari) — Merkeze bitişik, sanayi
+
+**Batı İlçeler:**
+- [Keskin halı yıkama](/kirikkale-keskin-hali-yikama-firmalari) — Tarihi ilçe, büyük
+- [Çelebi halı yıkama](/kirikkale-celebi-hali-yikama-firmalari) — Kırsal
+- [Sulakyurt halı yıkama](/kirikkale-sulakyurt-hali-yikama-firmalari) — Kırsal
+
+**Doğu İlçeler:**
+- [Delice halı yıkama](/kirikkale-delice-hali-yikama-firmalari) — Kızılırmak kenarı
+- [Balışeyh halı yıkama](/kirikkale-baliseyh-hali-yikama-firmalari) — Tuz Gölü yakını
+- [Karakeçili halı yıkama](/kirikkale-karakecili-hali-yikama-firmalari) — Küçük ilçe
+- [Bahşili halı yıkama](/kirikkale-bahsili-hali-yikama-firmalari) — Merkeze yakın
+
+📌 *Kırıkkale'nin küçük yüzölçümü sayesinde merkez firmalar tüm ilçelere aynı gün alım-teslim yapabilir. Nakliye ek ücreti genellikle alınmaz.*`,
+      },
+    ],
+    faq: [
+      { q: 'Kırıkkale\'de halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-90 TL/m², yün halı 80-130 TL/m² aralığındadır. Ankara\'dan biraz daha uygun fiyatlıdır.' },
+      { q: 'Kırıkkale\'de Ankara firması mı tercih etmeliyim?', a: 'Yerel firmalar genellikle daha uygun fiyat ve hızlı teslim sunar. Ankara firması 80 km nakliye mesafesi nedeniyle ek ücret uygulayabilir.' },
+      { q: 'Makine yağı lekesi halıdan çıkar mı?', a: 'Profesyonel yağ çözücü ön işlemle büyük ölçüde çıkar. Lekeye asla sıcak su dökmeyin — yağı sabitler. Soğuk su + emici bezle müdahale edin ve firmaya bildirin.' },
+      { q: 'Kırıkkale\'de halı yıkama kaç gün sürer?', a: 'Yaz aylarında 1 gün (çok kuru iklim), kışın kapalı tesiste 2-3 gün. Türkiye\'nin en hızlı kuruyan şehirlerinden biridir.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'ankara-hali-yikama', 'kayseri-hali-yikama'],
+  },
 ];
