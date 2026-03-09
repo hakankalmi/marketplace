@@ -4349,4 +4349,158 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'van-hali-yikama', 'erzurum-hali-yikama'],
   },
+
+  // ── Amasya ────────────────────────────────────────────────
+  {
+    slug: 'amasya-hali-yikama',
+    city: 'Amasya',
+    citySlug: 'amasya',
+    title: 'Amasya Halı Yıkama Rehberi — Fiyatlar, İlçeler ve Tavsiyeler',
+    metaTitle: 'Amasya Halı Yıkama Fiyatları 2026 | Rehber & Karşılaştırma',
+    metaDescription: 'Amasya halı yıkama fiyatları, güvenilir firma önerileri ve ilçe bazlı hizmet rehberi. Şehzadeler şehrinin iklimine uygun halı bakımı.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 9,
+    heroEmoji: '👑',
+    intro: 'Amasya, Yeşilırmak Vadisi\'nin kalbinde, kayalara oyulmuş kral mezarları ve Osmanlı konakları arasında yer alan tarihi şehirdir. "Şehzadeler şehri" olarak bilinen Amasya, Pontus krallarından Osmanlı dönemine uzanan zengin bir mirasa sahiptir. Vadi içindeki konumu şehre kendine özgü bir mikroiklim kazandırır — kışları ılıman ama nemli, yazları sıcak ve kuru geçer. Yeşilırmak\'ın iki yakasına kurulan tarihi konaklar ve modern konutlar birlikte var olur.',
+    sections: [
+      {
+        heading: 'Amasya Halı Yıkama Fiyatları 2026',
+        content: `Amasya halı yıkama fiyatları Orta Karadeniz geçiş bölgesi seviyesindedir:
+
+| Halı Türü | Fiyat Aralığı (m²) | Not |
+|---|---|---|
+| Makine halısı | 70-85 TL | Standart |
+| El dokuması / kilim | 80-135 TL | Yöresel dokumalar |
+| Shaggy / uzun tüylü | 75-115 TL | Standart |
+| Yün halı | 80-130 TL | Standart |
+| İpek halı | 110-178 TL | El yıkama |
+
+🔴 **Pahalı bölgeler:** Merkez Amasya, Kral Kaya Mezarları çevresi, Yalıboyu
+🟡 **Orta fiyatlı bölgeler:** Merzifon merkez, Suluova merkez
+🟢 **Uygun fiyatlı bölgeler:** Taşova, Göynücek, Gümüşhacıköy, Hamamözü
+
+💡 *Amasya'nın vadi iklimi yazları kuru geçer — halı kurutma için ideal koşullar sunar.*`,
+      },
+      {
+        heading: 'Amasya\'nın Vadi İklimi ve Halı Bakımı',
+        content: `Amasya, Yeşilırmak Vadisi'ndeki konumu nedeniyle kendine özgü bir mikroiklime sahiptir:
+
+**Vadi nemi:** Nehir yakınlarında nem %65-75 arasında seyreder. Yalıboyu evlerinde ve nehir kenarı konutlarda küflenme riski şehrin yüksek bölgelerinden fazladır.
+
+**Kışlar ılıman ama sisli:** Sıcaklık nadiren -10°C'nin altına düşer. Ancak kış sabahları vadi dibinde yoğun sis oluşur — bu dönemde açık havada kurutma yapılmamalıdır.
+
+**Yazlar sıcak ve kuru:** Haziran-Eylül arası 30-35°C, nem düşük (%30-40). Halılar 6-8 saatte kurur. Halı yıkama için ideal mevsimdir.
+
+**Elma ve Misket limonu:** Amasya'nın ünlü elmalarının hasat döneminde meyve suyu lekeleri halılara bulaşabilir. Taze meyve lekesine soğuk su ile hemen müdahale edin.
+
+**Tarihi konak bakımı:** Amasya'nın Yalıboyu konakları ve tarihi evlerindeki değerli halılar özel bakım gerektirir. Zemin nemi yüksek olduğundan nem önleyici halı altlığı zorunludur.
+
+📌 *Nehir kenarında yaşıyorsanız halı altlığı kullanın ve yılda en az 1 kez anti-nem işlemi yaptırın.*`,
+      },
+      {
+        heading: 'Amasya İlçelerinde Halı Yıkama Hizmetleri',
+        content: `Amasya 7 ilçeye sahip orta büyüklükte bir ildir:
+
+**Merkez ve Büyük İlçeler:**
+- [Amasya Merkez halı yıkama](/amasya-merkez-hali-yikama-firmalari) — Şehir merkezi, kral mezarları
+- [Merzifon halı yıkama](/amasya-merzifon-hali-yikama-firmalari) — Havalimanı, büyük ilçe
+- [Suluova halı yıkama](/amasya-suluova-hali-yikama-firmalari) — Tarım, büyük ilçe
+- [Taşova halı yıkama](/amasya-tasova-hali-yikama-firmalari) — Tokat sınırı
+
+**Diğer İlçeler:**
+- [Göynücek halı yıkama](/amasya-goynucek-hali-yikama-firmalari) — Kırsal
+- [Gümüşhacıköy halı yıkama](/amasya-gumushacikoy-hali-yikama-firmalari) — Tarihi
+- [Hamamözü halı yıkama](/amasya-hamamozu-hali-yikama-firmalari) — Küçük ilçe
+
+📌 *Merzifon ve Suluova'da yerel firmalar mevcuttur. Diğer ilçelere Amasya merkez firmalarından alım-teslim yapılır.*`,
+      },
+    ],
+    faq: [
+      { q: 'Amasya\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-85 TL/m², el dokuması 80-135 TL/m² aralığındadır. Orta Karadeniz geçiş bölgesi seviyesindedir.' },
+      { q: 'Nehir kenarındaki evlerde halı neden daha çabuk bozulur?', a: 'Yeşilırmak\'ın getirdiği nem halı altında birikir ve küflenmeye yol açar. Nehir kenarı konutlarda nem önleyici halı altlığı zorunludur.' },
+      { q: 'Amasya\'da kışın halı yıkatılır mı?', a: 'Mümkündür, Amasya\'nın kışları diğer İç Anadolu şehirlerinden daha ılımandır. Kapalı tesiste kurutma 3-4 gün sürer.' },
+      { q: 'Elma lekesi halıdan çıkar mı?', a: 'Taze iken soğuk su ile kolay çıkar. Kurumuş meyve lekesi enzimatik deterjan gerektirir. Firmaya leke türünü bildirin.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'tokat-hali-yikama', 'samsun-hali-yikama'],
+  },
+
+  // ── Bolu ────────────────────────────────────────────────
+  {
+    slug: 'bolu-hali-yikama',
+    city: 'Bolu',
+    citySlug: 'bolu',
+    title: 'Bolu Halı Yıkama Rehberi — Fiyatlar, İlçeler ve Tavsiyeler',
+    metaTitle: 'Bolu Halı Yıkama Fiyatları 2026 | Rehber & Karşılaştırma',
+    metaDescription: 'Bolu halı yıkama fiyatları, güvenilir firma önerileri ve ilçe bazlı hizmet rehberi. Doğa cenneti şehrin iklimine uygun halı bakımı.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 9,
+    heroEmoji: '🌲',
+    intro: 'Bolu, Abant Gölü\'nün ve Yedigöller Milli Parkı\'nın şehri, Türkiye\'nin doğa cenneti ve aşçılar diyarıdır. Batı Karadeniz\'in iç kesiminde yer alan şehir, ormanlarla kaplı dağları ve zengin göl ekosistemleriyle tanınır. Karadeniz ve İç Anadolu iklimlerinin geçiş noktasında bulunan Bolu\'da kışlar soğuk ve karlı, yazlar ılıman geçer. Abant, Gölcük ve Kartalkaya gibi turizm merkezleri yılda yüz binlerce ziyaretçi ağırlar.',
+    sections: [
+      {
+        heading: 'Bolu Halı Yıkama Fiyatları 2026',
+        content: `Bolu halı yıkama fiyatları Batı Karadeniz-Marmara geçiş seviyesindedir:
+
+| Halı Türü | Fiyat Aralığı (m²) | Not |
+|---|---|---|
+| Makine halısı | 70-90 TL | Standart |
+| El dokuması / kilim | 82-138 TL | Az sayıda |
+| Shaggy / uzun tüylü | 78-120 TL | Standart |
+| Yün halı | 82-135 TL | Anti-küf önerilir |
+| Otel / ticari halı | 70-85 TL | Toplu indirim |
+
+🔴 **Pahalı bölgeler:** Merkez Bolu, İzzet Baysal Caddesi, Abant yolu
+🟡 **Orta fiyatlı bölgeler:** Gerede merkez, Mudurnu merkez, Göynük merkez
+🟢 **Uygun fiyatlı bölgeler:** Mengen, Seben, Kıbrıscık, Yeniçağa
+
+💡 *Bolu'da turizm tesisleri için toplu halı yıkama paketleri mevcuttur — m² başına %15-20 indirim alabilirsiniz.*`,
+      },
+      {
+        heading: 'Bolu\'nun İklimi ve Halı Bakımı',
+        content: `Bolu, Karadeniz ve İç Anadolu iklimlerinin geçiş kuşağında yer alır:
+
+**Orman nemi:** Bolu'nun %65'i ormanlarla kaplıdır. Bu yoğun bitki örtüsü havadaki nemi artırır (%55-70). İç Anadolu'dan nemli, Karadeniz kıyısından kuru bir orta noktadır.
+
+**Soğuk kışlar:** 1.325 metre rakımda kış sıcaklığı -15°C'ye düşer. Kar 3-4 ay yerde kalır. Kartalkaya kayak merkezinde 5 metreyi aşan kar kalınlığı görülür. Kapalı kurutma tesisi gereklidir.
+
+**Ilıman yazlar:** 24-28°C ile aşırı sıcak olmayan yazlar. Halı kurutma için yeterli ama kavurucu olmayan koşullar.
+
+**Turizm sektörü:** Abant, Gölcük, Kartalkaya ve termal tesislerde otel/pansiyon halıları yüksek trafik altındadır. 3-6 ayda bir profesyonel yıkama gerekir.
+
+**Bolu mutfağı:** "Aşçılar diyarı" Bolu'da zengin mutfak kültürü var. Yağlı gıda lekeleri sık karşılaşılan sorunlardır — yağ çözücü ön işlem önemlidir.
+
+📌 *Bolu'da halı yıkama sezonu Mayıs-Ekim arasıdır. Turizm tesisleri yoğun sezonda acil hizmet ihtiyacı duyabilir.*`,
+      },
+      {
+        heading: 'Bolu İlçelerinde Halı Yıkama Hizmetleri',
+        content: `Bolu 9 ilçeye sahip, dağlık ve ormanlık bir coğrafyada yer alır:
+
+**Merkez ve Büyük İlçeler:**
+- [Bolu Merkez halı yıkama](/bolu-merkez-hali-yikama-firmalari) — Şehir merkezi, tüm firmalar
+- [Gerede halı yıkama](/bolu-gerede-hali-yikama-firmalari) — Büyük ilçe, TEM üzeri
+- [Mudurnu halı yıkama](/bolu-mudurnu-hali-yikama-firmalari) — Osmanlı mimarisi, turizm
+- [Göynük halı yıkama](/bolu-goynuk-hali-yikama-firmalari) — Tarihi konaklar, turizm
+
+**Diğer İlçeler:**
+- [Mengen halı yıkama](/bolu-mengen-hali-yikama-firmalari) — Aşçılar diyarı
+- [Yeniçağa halı yıkama](/bolu-yenicaga-hali-yikama-firmalari) — Göl kenarı
+- [Seben halı yıkama](/bolu-seben-hali-yikama-firmalari) — Dağlık
+- [Kıbrıscık halı yıkama](/bolu-kibriscik-hali-yikama-firmalari) — Kırsal
+- [Dörtdivan halı yıkama](/bolu-dortdivan-hali-yikama-firmalari) — Küçük ilçe
+
+📌 *Gerede'de yerel firmalar mevcuttur. Diğer ilçelere Bolu merkez firmalarından alım-teslim yapılır.*`,
+      },
+    ],
+    faq: [
+      { q: 'Bolu\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-90 TL/m², yün halı 82-135 TL/m² aralığındadır. Marmara bölgesinden biraz uygun fiyatlıdır.' },
+      { q: 'Abant bölgesindeki otellerden hizmet alabilir miyim?', a: 'Evet, Bolu merkez firmaları Abant ve Kartalkaya bölgesine toplu halı yıkama hizmeti sunar.' },
+      { q: 'Bolu\'da kışın halı yıkatılır mı?', a: 'Kapalı tesisli firmada mümkündür. Kurutma 4-5 gün sürer. Yaz sezonu idealdir.' },
+      { q: 'Bolu\'da halı neden küflenir?', a: 'Orman neminin etkisiyle hava nemi %55-70 arasında seyreder. Anti-küf işlemi ve halı altlığı önerilir.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'duzce-hali-yikama', 'eskisehir-hali-yikama'],
+  },
 ];
