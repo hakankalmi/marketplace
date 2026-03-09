@@ -75,7 +75,9 @@ Orta-üst segment. El yapımı Nepal halıları özel bakım gerektirir.`,
 
 **6. Kirliliğin Derecesi:** Normal kullanılmış bir halı standart fiyattan yıkanır. Ancak yoğun lekeli, evcil hayvan tüylü veya uzun süredir yıkanmamış halılar ek deterjan, uzatılmış işlem süresi ve bazen ikinci bir yıkama gerektirir — bu da fiyata yansır.
 
-**7. Sezon:** Yaz aylarında (Mayıs-Ağustos) halı yıkama talebi zirve yapar. Firmalar bu dönemde yoğunluk nedeniyle fiyatları artırabilir veya teslimat süreleri uzayabilir. En uygun fiyat ve hızlı teslimat için kış sonu ve ilkbahar ideal dönemlerdir.`,
+**7. Halının Maddi Değeri ve Sorumluluk Riski:** Halı yıkama firması, teslim aldığı halının güvenliğinden sorumludur. Yıkama sürecinde halı zarar görürse — renk solması, çekme, lif dökülmesi — müşteri bu zararın tazmin edilmesini talep edebilir. 50.000 TL değerindeki bir ipek halı ile 500 TL değerindeki makine halısı aynı riskle yıkanmaz. Firmalar değerli halılar için özel sigorta, ayrı yıkama hattı ve deneyimli personel ayırır. Bu ek önlemler doğrudan fiyata yansır. Bu yüzden el dokuması, ipek ve antika halıların yıkama fiyatı makine halısının 3-5 katı olabilir — sadece yıkama zorluğu değil, üstlenilen mali sorumluluk da fiyatı belirler.
+
+**8. Sezon:** Yaz aylarında (Mayıs-Ağustos) halı yıkama talebi zirve yapar. Firmalar bu dönemde yoğunluk nedeniyle fiyatları artırabilir veya teslimat süreleri uzayabilir. En uygun fiyat ve hızlı teslimat için kış sonu ve ilkbahar ideal dönemlerdir.`,
       },
       {
         heading: 'En Uygun Halı Yıkama Fiyatını Nasıl Bulursunuz?',
