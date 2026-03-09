@@ -3869,4 +3869,161 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'kayseri-hali-yikama', 'sivas-hali-yikama'],
   },
+
+  // ── Edirne ────────────────────────────────────────────────
+  {
+    slug: 'edirne-hali-yikama',
+    city: 'Edirne',
+    citySlug: 'edirne',
+    title: 'Edirne Halı Yıkama Rehberi — Fiyatlar, İlçeler ve Tavsiyeler',
+    metaTitle: 'Edirne Halı Yıkama Fiyatları 2026 | Rehber & Karşılaştırma',
+    metaDescription: 'Edirne halı yıkama fiyatları, güvenilir firma önerileri ve ilçe bazlı hizmet rehberi. Trakya iklimine uygun halı bakım çözümleri.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 10,
+    heroEmoji: '🕌',
+    intro: 'Edirne, Osmanlı İmparatorluğu\'nun eski başkenti ve Selimiye Camii\'nin bulunduğu tarihi şehirdir. Türkiye\'nin en batısında, Yunanistan ve Bulgaristan sınırında yer alır. Meriç, Tunca ve Arda nehirlerinin buluştuğu verimli ovada kurulan şehir, nemli kışları ve ılıman yazlarıyla Trakya iklimine sahiptir. Ciğer ve badem ezmesiyle meşhur şehirde, özellikle tarihi konaklardaki değerli halılar özenli bakım gerektirir.',
+    sections: [
+      {
+        heading: 'Edirne Halı Yıkama Fiyatları 2026',
+        content: `Edirne halı yıkama fiyatları Trakya ortalamasında, İstanbul'un çok altındadır:
+
+| Halı Türü | Fiyat Aralığı (m²) | Not |
+|---|---|---|
+| Makine halısı | 70-90 TL | Standart |
+| El dokuması / kilim | 85-140 TL | Trakya kilimleri |
+| Shaggy / uzun tüylü | 78-120 TL | Standart |
+| Yün halı | 82-135 TL | Standart |
+| İpek halı | 115-185 TL | El yıkama |
+
+🔴 **Pahalı bölgeler:** Merkez Edirne, Selimiye çevresi, Karaağaç
+🟡 **Orta fiyatlı bölgeler:** Keşan merkez, Uzunköprü merkez
+🟢 **Uygun fiyatlı bölgeler:** Havsa, Enez, İpsala, Lalapaşa
+
+💡 *Edirne'de İstanbul'a göre %30-40 daha uygun fiyatlarla profesyonel halı yıkama hizmeti alabilirsiniz.*`,
+      },
+      {
+        heading: 'Edirne İklimi ve Halı Bakımı',
+        content: `Edirne, ılıman karasal ve Akdeniz iklimlerinin geçiş bölgesindedir:
+
+**Nemli kışlar:** Kış aylarında sıcaklık -5 ile 5°C arasında seyreder. Meriç ve Tunca nehirlerinin getirdiği nem %70-80'e çıkar. Bu nem halılarda küflenme riskini artırır — özellikle zemin kat evlerde dikkat gerekir.
+
+**Taşkın riski:** Meriç Nehri'nin taştığı dönemlerde su basan evlerde halılar ciddi zarar görür. Sele maruz kalmış halılar 24 saat içinde profesyonel yıkamaya götürülmelidir — aksi hâlde bakteriyel üreme ve kalıcı koku kaçınılmazdır.
+
+**Ilıman yazlar:** 28-33°C ile Türkiye ortalamasının altında sıcaklık. Halı kurutma için yeterli ama kavurucu olmayan ideal koşullar.
+
+**Poyraz rüzgârı:** Kuzeyden esen poyraz kışın soğuğu artırır ama yazın havalandırmayı kolaylaştırır. Açık havada halı kurutmada rüzgâr avantajı sağlar.
+
+**Tarihi yapılarda nem:** Edirne'nin tarihi konakları ve taş yapıları zeminden nem alır. Bu binalardaki halılar özel koruma gerektirir — nem geçirmez halı altlığı zorunludur.
+
+📌 *Edirne'de Meriç taşkın bölgesinde yaşıyorsanız halılarınızı yüksekte saklayın ve taşkın sonrası hızla profesyonel yıkamaya gönderin.*`,
+      },
+      {
+        heading: 'Edirne İlçelerinde Halı Yıkama Hizmetleri',
+        content: `Edirne 9 ilçeye sahiptir. Trakya'nın geniş ovalarına yayılmış kompakt bir ildir:
+
+**Merkez ve Büyük İlçeler:**
+- [Edirne Merkez halı yıkama](/edirne-merkez-hali-yikama-firmalari) — Selimiye, tarihi merkez
+- [Keşan halı yıkama](/edirne-kesan-hali-yikama-firmalari) — Saros Körfezi, büyük ilçe
+- [Uzunköprü halı yıkama](/edirne-uzunkopru-hali-yikama-firmalari) — Tarihi köprü, büyük ilçe
+
+**Sınır İlçeler:**
+- [İpsala halı yıkama](/edirne-ipsala-hali-yikama-firmalari) — Yunanistan sınır kapısı
+- [Enez halı yıkama](/edirne-enez-hali-yikama-firmalari) — Saros Körfezi, deniz
+- [Meriç halı yıkama](/edirne-meric-hali-yikama-firmalari) — Nehir kenarı
+
+**Diğer İlçeler:**
+- [Havsa halı yıkama](/edirne-havsa-hali-yikama-firmalari) — Merkeze yakın
+- [Lalapaşa halı yıkama](/edirne-lalapasa-hali-yikama-firmalari) — Bulgaristan sınırı
+- [Süloğlu halı yıkama](/edirne-suloglu-hali-yikama-firmalari) — Küçük ilçe
+
+📌 *Keşan ve Uzunköprü'de yerel firmalar mevcuttur. Diğer ilçelere Edirne merkez firmalarından alım-teslim yapılır.*`,
+      },
+    ],
+    faq: [
+      { q: 'Edirne\'de halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-90 TL/m², yün halı 82-135 TL/m² aralığındadır. İstanbul\'dan önemli ölçüde uygun fiyatlıdır.' },
+      { q: 'Sel suyu değmiş halı kurtarılabilir mi?', a: 'İlk 24 saat içinde profesyonel yıkamaya götürülürse büyük ölçüde kurtarılabilir. 48 saatten sonra bakteriyel üreme ve kalıcı koku riski çok yükselir.' },
+      { q: 'Edirne\'de en iyi halı yıkama zamanı ne zaman?', a: 'Mayıs-Ekim arası idealdir. Özellikle Meriç taşkınları sonrası (genellikle Şubat-Mart) acil yıkama ihtiyacı olabilir.' },
+      { q: 'Edirne\'den İstanbul firması mı tercih etmeliyim?', a: 'Hayır, yerel firmalar hem daha uygun hem daha hızlıdır. İstanbul 230 km uzaklıktadır — nakliye maliyeti fiyatı ikiye katlar.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'tekirdag-hali-yikama', 'istanbul-hali-yikama'],
+  },
+
+  // ── Ağrı ────────────────────────────────────────────────
+  {
+    slug: 'agri-hali-yikama',
+    city: 'Ağrı',
+    citySlug: 'agri',
+    title: 'Ağrı Halı Yıkama Rehberi — Fiyatlar, İlçeler ve Tavsiyeler',
+    metaTitle: 'Ağrı Halı Yıkama Fiyatları 2026 | Rehber & Karşılaştırma',
+    metaDescription: 'Ağrı halı yıkama fiyatları, güvenilir firma önerileri ve ilçe bazlı hizmet rehberi. Doğu Anadolu\'nun en sert kışlarına uygun halı bakımı.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 9,
+    heroEmoji: '🗻',
+    intro: 'Ağrı, Türkiye\'nin en yüksek dağı Ağrı Dağı\'nın (5.137 m) eteklerinde kurulmuş, Doğu Anadolu\'nun sert iklimli şehridir. Kışları -40°C\'ye varan sıcaklıklarla Türkiye\'nin en soğuk illerinden biri olan Ağrı\'da halılar hem ısı yalıtımı hem konfor için vazgeçilmezdir. Geleneksel el dokuması halı ve kilim geleneği hâlâ canlıdır — özellikle Doğubayazıt bölgesinin kilimleri bölgenin kültürel mirasıdır.',
+    sections: [
+      {
+        heading: 'Ağrı Halı Yıkama Fiyatları 2026',
+        content: `Ağrı halı yıkama fiyatları Türkiye'nin en uygun seviyesindedir:
+
+| Halı Türü | Fiyat Aralığı (m²) | Not |
+|---|---|---|
+| Makine halısı | 70-82 TL | Standart |
+| El dokuması / kilim | 78-130 TL | Yöresel kilimler |
+| Shaggy / uzun tüylü | 72-110 TL | Kurutma çok uzun |
+| Yün halı | 78-125 TL | Soğuk yıkama zorunlu |
+| İpek halı | 105-170 TL | El yıkama |
+
+🔴 **Pahalı bölgeler:** Merkez Ağrı, Erzurum Caddesi
+🟡 **Orta fiyatlı bölgeler:** Doğubayazıt merkez, Patnos merkez
+🟢 **Uygun fiyatlı bölgeler:** Eleşkirt, Hamur, Diyadin, Taşlıçay
+
+💡 *Ağrı, Türkiye'nin en uygun halı yıkama fiyatlarının olduğu illerden biridir.*`,
+      },
+      {
+        heading: 'Ağrı\'nın Ekstrem İklimi ve Halı Bakımı',
+        content: `Ağrı, Türkiye'nin en sert iklim koşullarına sahip ilidir. Bu durum halı bakımını doğrudan etkiler:
+
+**Aşırı soğuk kışlar:** -30 ile -40°C arasında sıcaklıklara ulaşan kışlar 6-7 ay sürer. Kar örtüsü Kasım'dan Nisan sonuna kadar kalır. Bu dönemde halı yıkama neredeyse imkânsızdır — kapalı tesiste bile kurutma 7-10 gün sürebilir.
+
+**Kısa ama sıcak yazlar:** Temmuz-Ağustos'ta 30-35°C. Bu 2 aylık pencere halı yıkama için neredeyse tek fırsattır. Firmalar bu dönemde yoğun çalışır.
+
+**Soba ve tezek yakıtı:** Kırsal bölgelerde tezek yakıtı hâlâ kullanılır. Tezek dumanı halılara sinen keskin koku bırakır — profesyonel ozon işlemi gerekir. Soba kurumu da yaygın bir sorundur.
+
+**Hayvan yünü ve kıl:** Hayvancılığın yaygın olduğu bölgelerde halılara hayvan kılı ve yün bulaşır. Bu partiküller alerjen olabilir — anti-alerjik yıkama önerilir.
+
+**Don hasarı:** Nemli şekilde katlanan halılar don nedeniyle çatlayabilir. Kış aylarında halı taşıma ve depolama sırasında mutlaka kuru olduğundan emin olun.
+
+📌 *Ağrı'da halı yıkama fırsatı yılda sadece 2-3 aydır (Haziran-Ağustos). Bu dönemi kaçırmayın — erken sipariş verin.*`,
+      },
+      {
+        heading: 'Ağrı İlçelerinde Halı Yıkama Hizmetleri',
+        content: `Ağrı 8 ilçeyle geniş ama seyrek nüfuslu bir ildir:
+
+**Merkez ve Büyük İlçeler:**
+- [Ağrı Merkez halı yıkama](/agri-merkez-hali-yikama-firmalari) — Şehir merkezi
+- [Doğubayazıt halı yıkama](/agri-dogubayazit-hali-yikama-firmalari) — İshak Paşa Sarayı, turizm
+- [Patnos halı yıkama](/agri-patnos-hali-yikama-firmalari) — Büyük ilçe, Van sınırı
+
+**Diğer İlçeler:**
+- [Eleşkirt halı yıkama](/agri-eleskirt-hali-yikama-firmalari) — Erzurum yolu
+- [Diyadin halı yıkama](/agri-diyadin-hali-yikama-firmalari) — Termal kaynaklar
+- [Hamur halı yıkama](/agri-hamur-hali-yikama-firmalari) — Kırsal
+- [Taşlıçay halı yıkama](/agri-taslicay-hali-yikama-firmalari) — Küçük ilçe
+- [Tutak halı yıkama](/agri-tutak-hali-yikama-firmalari) — Muş sınırı
+
+📌 *Doğubayazıt ve Patnos'ta sınırlı sayıda yerel firma bulunur. Diğer ilçelere Ağrı merkez firmalarından alım-teslim yapılır — mesafe nedeniyle 1-2 gün ek süre olabilir.*`,
+      },
+    ],
+    faq: [
+      { q: 'Ağrı\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-82 TL/m², el dokuması kilim 78-130 TL/m² aralığındadır. Türkiye\'nin en uygun şehirlerinden biridir.' },
+      { q: 'Ağrı\'da kışın halı yıkatılır mı?', a: '-30°C sıcaklıkta kapalı tesiste bile kurutma 7-10 gün sürer. Pratik olarak kış aylarında halı yıkama tavsiye edilmez. Temmuz-Ağustos idealdir.' },
+      { q: 'Tezek kokusu halıdan çıkar mı?', a: 'Profesyonel ozon işlemi ile çıkar. Normal yıkama kokuyu tamamen gidermez. Firmaya "ozon dezenfeksiyon" isteyin.' },
+      { q: 'Doğubayazıt\'tan hizmet alabilir miyim?', a: 'Evet, Doğubayazıt\'ta yerel firma seçenekleri mevcuttur. Ayrıca Ağrı merkez firmaları da hizmet verir.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'erzurum-hali-yikama', 'van-hali-yikama'],
+  },
 ];
