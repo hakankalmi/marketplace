@@ -5739,4 +5739,180 @@ Iğdır\'ın şebeke suyu sert (kireçli)dir. Firmalar yumuşatılmış su veya 
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'kars-hali-yikama', 'agri-hali-yikama'],
   },
+
+  // ==================== BARTIN ====================
+  {
+    slug: 'bartin-hali-yikama',
+    city: 'Bartın',
+    citySlug: 'bartin',
+    title: 'Bartın Halı Yıkama Rehberi — Fiyatlar, Firmalar ve İpuçları',
+    metaTitle: 'Bartın Halı Yıkama Fiyatları 2026 | En İyi Firmalar',
+    metaDescription: 'Bartın halı yıkama fiyatları 2026 güncel liste. Batı Karadeniz nemli iklimine uygun yıkama teknikleri, ilçe bazlı firmalar ve fiyat karşılaştırması.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 7,
+    heroEmoji: '🌲',
+    intro: 'Bartın, Batı Karadeniz\'in sakin ve yeşil illerinden biridir. **Bartın Çayı** kıyısında kurulan şehir, ormanları ve ahşap mimarisiyle ünlüdür. Karadeniz\'in nemli iklimi halılar için dikkatli bakım gerektirir. **[Bartın halı yıkama firmaları](/bartin-hali-yikama-firmalari)** bu koşullara uygun hizmet sunar.',
+    sections: [
+      {
+        heading: 'Bartın\'da Halı Yıkama Fiyatları 2026',
+        content: `Bartın\'da halı yıkama fiyatları Batı Karadeniz ortalamasındadır. Küçük bir il olmasına rağmen yeterli sayıda firma bulunur.
+
+| Halı Türü | Fiyat Aralığı (m²) | Açıklama |
+|---|---|---|
+| Makine Halısı | 70 – 85 TL | Standart yıkama |
+| Yün / El Dokuma | 80 – 130 TL | Geleneksel Bartın kilimleri özel bakım |
+| Shaggy / Uzun Tüy | 85 – 120 TL | Nem kontrolü önemli |
+| Yolluk / Merdiven | 70 – 78 TL | Metre bazlı hesaplama |
+
+🔴 **Yüksek**: Merkez (talep yoğunluğu)
+🟡 **Orta**: Amasra (turizm sezonu ek talep)
+🟢 **Uygun**: Kurucaşile, Ulus
+
+*Bartın\'da yazın güneşli günleri değerlendirmek önemlidir. Sonbahar-kış döneminde yağmurlu günler kurutmayı zorlaştırır.*`,
+      },
+      {
+        heading: 'Bartın İklimi ve Halı Bakımı',
+        content: `Bartın yılda **1000-1200 mm** yağış alan nemli bir Karadeniz iklimindedir. Özellikle sonbahar ve kış aylarında sürekli yağış halı bakımını zorlaştırır:
+
+**Nem kaynaklı sorunlar:**
+- Ahşap konaklarda taban nemi halıya geçer
+- Bartın Çayı kıyısı evlerde taşkın riski
+- Orman yakını evlerde böcek ve akar sorunu nemle artar
+- Yün halılarda küf ve koku oluşumu
+
+**Bartın\'a özel bakım ipuçları:**
+- Tarihi ahşap konaklarda halı altına mutlaka nem bariyeri serme
+- Kışın kapalı tesislerde yıkatma (açık alan kurutma riskli)
+- Yılda en az 2 kez profesyonel yıkama
+- Amasra gibi deniz kenarı ilçelerde tuzlu nem etkisi — 3 ayda bir süpürge ile derinlemesine temizlik
+
+*Bartın\'ın UNESCO Dünya Mirası adayı ahşap konakları nemden korunmak için özel halı seçimi gerektirir. Sentetik, kısa tüylü halılar bu yapılarda en idealidir.*`,
+      },
+      {
+        heading: 'İlçe Bazlı Halı Yıkama Firmaları',
+        content: `Bartın küçük bir il olup firmalar merkez ağırlıklıdır:
+
+- [Bartın merkez halı yıkama](/bartin-merkez-hali-yikama-firmalari) — Ana hizmet merkezi
+- [Amasra halı yıkama](/bartin-amasra-hali-yikama-firmalari) — Turizm bölgesi, otel ve pansiyon halıları
+- [Ulus halı yıkama](/bartin-ulus-hali-yikama-firmalari) — Orman köyleri
+- [Kurucaşile halı yıkama](/bartin-kurucasile-hali-yikama-firmalari) — Kıyı kasabası
+
+📌 *Amasra\'da yaz turizm sezonunda otel ve pansiyon halı yıkama talebi artar. Sezon öncesi (Mayıs) toplu yıkatma avantajlıdır.*`,
+      },
+      {
+        heading: 'Bartın\'da Halı Seçimi ve Koruma',
+        content: `Bartın\'ın nemli iklimine uygun halı seçimi:
+
+**Zemin kata önerilen halılar:**
+- Polipropilen (sentetik) halılar — nem emmez, kolay yıkanır
+- Kısa tüylü makine halıları — çabuk kurur
+- Yıkanabilir kilimler — bakımı pratik
+
+**Ahşap konaklarda dikkat:**
+Bartın\'ın tarihi ahşap evlerinde taban tahtası nemli olabilir. Halı altına keçe veya nefes alan nem bariyeri serilmeli. Plastik altlık KULLANILMAMALIDIR — nemi hapseder ve tahtayı çürütür.
+
+**Amasra ve kıyı evlerde:**
+Deniz kenarındaki evlerde tuzlu nem metal aksamları paslandırır ve halı liflerine zarar verir. Bu bölgelerde halıları 3-4 ayda bir yıkatmak önerilir.
+
+*Bartın Çayı taşkın bölgesindeki evlerde su baskını riski vardır. Değerli el dokuma halılarınızı üst katlarda muhafaza edin.*`,
+      },
+    ],
+    faq: [
+      { q: 'Bartın\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-85 TL/m², yün halı 80-130 TL/m² aralığındadır. Batı Karadeniz ortalamasındadır.' },
+      { q: 'Amasra\'da halı yıkama firması var mı?', a: 'Amasra\'da birkaç küçük firma vardır. Bartın merkezdeki büyük firmalar da Amasra\'ya servis yapar.' },
+      { q: 'Ahşap evlerde halı altı nem nasıl önlenir?', a: 'Nefes alan keçe bariyeri kullanılmalı. Plastik altlık nemi hapseder. Halıyı 2-3 ayda bir kaldırıp altını havalandırın.' },
+      { q: 'Bartın\'da kışın halı yıkatılır mı?', a: 'Kapalı kurutma tesisi olan firmalarda mümkündür. Kurutma 4-6 gün sürebilir. Yaz sezonu tercih edilmelidir.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'zonguldak-hali-yikama', 'karabuk-hali-yikama'],
+  },
+
+  // ==================== GÜMÜŞHANE ====================
+  {
+    slug: 'gumushane-hali-yikama',
+    city: 'Gümüşhane',
+    citySlug: 'gumushane',
+    title: 'Gümüşhane Halı Yıkama Rehberi — Fiyatlar, Firmalar ve İpuçları',
+    metaTitle: 'Gümüşhane Halı Yıkama Fiyatları 2026 | En İyi Firmalar',
+    metaDescription: 'Gümüşhane halı yıkama fiyatları 2026 güncel liste. Yüksek rakım ve karasal iklim koşullarında halı bakımı, ilçe bazlı firmalar ve fiyat karşılaştırması.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 7,
+    heroEmoji: '⛰️',
+    intro: 'Gümüşhane, **Zigana** ve **Vavuk** dağları arasında, Harşit Çayı vadisinde kurulmuş tarihi bir Doğu Karadeniz ilidir. Denizden yüksek konumu nedeniyle karasal iklim etkisi altındadır. Uzun kışlar ve kısa yazlar halı yıkama sezonunu belirler. **[Gümüşhane halı yıkama firmaları](/gumushane-hali-yikama-firmalari)** bu zorlu koşullara adapte çalışır.',
+    sections: [
+      {
+        heading: 'Gümüşhane\'de Halı Yıkama Fiyatları 2026',
+        content: `Gümüşhane\'de halı yıkama fiyatları Doğu Karadeniz\'in iç kesimlerine uygun seviyededir. Küçük nüfus yapısı nedeniyle firma sayısı sınırlıdır.
+
+| Halı Türü | Fiyat Aralığı (m²) | Açıklama |
+|---|---|---|
+| Makine Halısı | 70 – 85 TL | Standart yıkama |
+| Yün / El Dokuma | 80 – 130 TL | Geleneksel kilimler özel işlem |
+| Shaggy / Uzun Tüy | 85 – 120 TL | Yüksek rakımda uzun kurutma |
+| Yolluk / Merdiven | 70 – 78 TL | Metre bazlı hesaplama |
+
+🔴 **Yüksek**: Merkez (sınırlı firma, yüksek talep)
+🟡 **Orta**: Torul, Kelkit
+🟢 **Uygun**: Şiran, Köse (kırsal bölge)
+
+*Gümüşhane\'de halı yıkama sezonu Mayıs-Eylül arasıdır. Kışın -20°C altına düşen sıcaklıklar açık alan kurutmayı imkânsız kılar.*`,
+      },
+      {
+        heading: 'Gümüşhane İklimi ve Halı Bakımı',
+        content: `Gümüşhane, Karadeniz\'in iç kesimlerinde yüksek rakımda (1150 m) konumlanır. İklimi Karadeniz ile karasal arasında geçiş özelliği taşır:
+
+**İklim zorlukları:**
+- Kış -15°C ile -25°C arası — halılar donar, lif kırılması riski
+- Uzun kış (Kasım-Nisan) — yıkama sezonu kısa
+- Yaz gündüzleri sıcak ama geceler serin — kurutma yavaş
+- Kar erimesi döneminde (Mart-Nisan) nem artışı
+
+**Bakım önerileri:**
+- Kışa girmeden önce (Ekim) mutlaka yıkatma
+- Halıları dondurmama — düşük sıcaklıkta lif kırılır
+- Kışın haftalık vakumlama — sobadan gelen kül ve kurum birikimi
+- Bahar erimesinde halı altı kontrol (nem birikimi)
+
+*Gümüşhane\'de kışın soba ve kuzine kullanımı yaygındır. Kurum ve kül halılara yerleşir. Bu nedenle halıyı kıştan sonra mutlaka profesyonelce yıkatın.*`,
+      },
+      {
+        heading: 'İlçe Bazlı Halı Yıkama Firmaları',
+        content: `Gümüşhane\'nin dağlık coğrafyasında firmalar merkez ve büyük ilçelerde yoğunlaşmıştır:
+
+- [Gümüşhane merkez halı yıkama](/gumushane-merkez-hali-yikama-firmalari) — Ana hizmet noktası
+- [Torul halı yıkama](/gumushane-torul-hali-yikama-firmalari) — Zigana geçidi bölgesi
+- [Kelkit halı yıkama](/gumushane-kelkit-hali-yikama-firmalari) — Kelkit Ovası
+- [Şiran halı yıkama](/gumushane-siran-hali-yikama-firmalari) — Tarım bölgesi
+- [Köse halı yıkama](/gumushane-kose-hali-yikama-firmalari) — Kırsal kesim
+- [Kürtün halı yıkama](/gumushane-kurtun-hali-yikama-firmalari) — Dağ kasabası
+
+📌 *Kelkit ilçesi Gümüşhane\'nin en kalabalık ilçesidir ve kendi yerel firmaları vardır. Diğer küçük ilçelere merkez firmalarından servis yapılır.*`,
+      },
+      {
+        heading: 'Gümüşhane\'de Halı Yıkama İpuçları',
+        content: `Gümüşhane\'nin yüksek rakımlı, karasal ikliminde halı bakımı:
+
+**Soba kullanılan evlerde:**
+Kışın soba ve kuzine yakılan evlerde halılara kurum, kül ve is yerleşir. Bu kirler normal süpürgeyle tam çıkmaz — 6 ayda bir profesyonel yıkama önerilir.
+
+**Pestil ve köme sezonu:**
+Gümüşhane dut ve üzümden pestil-köme üretir. Üretim döneminde (Ağustos-Eylül) yapışkan pekmez lekesi halıya bulaşabilir. Ilık su + bulaşık deterjanı ile hemen müdahale edin.
+
+**Yaylalarda halı bakımı:**
+Yaz yayla göçünde halılar nemli zemine seriliyor. Yayla dönüşünde halılar mutlaka yıkatılmalıdır — toprak, nem ve böcek riski yüksektir.
+
+*Gümüşhane\'nin el dokuma kilimleri kültürel değer taşır. Bu tür halıları kesinlikle profesyonel firmaya teslim edin — evde yıkama renk akmasına neden olabilir.*`,
+      },
+    ],
+    faq: [
+      { q: 'Gümüşhane\'de halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-85 TL/m², yün halı 80-130 TL/m² aralığındadır. Doğu Karadeniz ortalamasına yakındır.' },
+      { q: 'Gümüşhane\'de kışın halı yıkatılır mı?', a: 'Kapalı tesisi olan firmalarda mümkündür ama kurutma 5-7 gün sürebilir. İdeal sezon Mayıs-Eylül\'dür.' },
+      { q: 'Soba kurumu halıdan nasıl çıkar?', a: 'Vakumla yüzey temizliği yapılabilir ama derin kurum için profesyonel yıkama gerekir. Kıştan sonra mutlaka yıkatın.' },
+      { q: 'Gümüşhane\'den Trabzon firması tercih etmeli miyim?', a: 'Trabzon 100 km uzaktadır. Nakliye maliyeti eklenince yerel firmalar daha avantajlıdır. Acil durumlarda Trabzon firmaları da hizmet verir.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'trabzon-hali-yikama', 'bayburt-hali-yikama'],
+  },
 ];
