@@ -2,7 +2,8 @@ import type { Metadata } from 'next';
 import { getBrandConfig } from '@/brands';
 import { Nav } from '@/components/nav/Nav';
 import { Footer } from '@/components/footer/Footer';
-import { Building2, CheckCircle, ArrowRight, Phone, Mail, Globe } from 'lucide-react';
+import { ApplicationForm } from './ApplicationForm';
+import { Building2, CheckCircle } from 'lucide-react';
 
 const brand = getBrandConfig();
 
@@ -67,52 +68,10 @@ export default function BasvuruPage() {
           </div>
         </section>
 
-        {/* Başvuru Formu / İletişim */}
+        {/* Başvuru Formu */}
         <section className="py-14 bg-brand-surface">
           <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="bg-brand-bg rounded-2xl border border-brand-border p-8 text-center">
-              <h2 className="text-2xl font-heading font-bold text-brand-text mb-4">
-                Hemen Başvurun
-              </h2>
-              <p className="text-brand-text-muted mb-8 leading-relaxed">
-                Firma başvurunuz için aşağıdaki kanallardan bizimle iletişime geçin. Ekibimiz en kısa sürede sizinle iletişime geçecektir.
-              </p>
-
-              <div className="space-y-4">
-                <a
-                  href="https://wa.me/905330916795?text=Merhaba%2C%20firma%20ba%C5%9Fvurusu%20yapmak%20istiyorum."
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center justify-center gap-3 w-full py-3.5 px-6 bg-[#25D366] text-white rounded-xl font-medium hover:opacity-90 transition text-base"
-                >
-                  <Phone size={20} />
-                  WhatsApp ile Başvur
-                </a>
-
-                <a
-                  href="mailto:info@haliyikamacilar.com?subject=Firma%20Ba%C5%9Fvurusu"
-                  className="flex items-center justify-center gap-3 w-full py-3.5 px-6 bg-brand-primary text-white rounded-xl font-medium hover:opacity-90 transition text-base"
-                >
-                  <Mail size={20} />
-                  E-posta ile Başvur
-                </a>
-
-                <a
-                  href="https://protakip.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center justify-center gap-3 w-full py-3.5 px-6 border border-brand-border text-brand-text rounded-xl font-medium hover:border-brand-primary hover:text-brand-primary transition text-base"
-                >
-                  <Globe size={20} />
-                  ProTakip Hakkında Bilgi Alın
-                  <ArrowRight size={16} />
-                </a>
-              </div>
-
-              <p className="text-xs text-brand-text-muted mt-6">
-                Başvurunuz ücretsizdir. Herhangi bir taahhüt gerektirmez.
-              </p>
-            </div>
+            <ApplicationForm />
           </div>
         </section>
       </main>
