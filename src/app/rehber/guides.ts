@@ -80,7 +80,7 @@ Orta-üst segment. El yapımı Nepal halıları özel bakım gerektirir.`,
 
 **Yorumları Okuyun:** Düşük fiyat her zaman iyi bir tercih değildir. Müşteri yorumları, firmanın gerçek hizmet kalitesini yansıtır. ★4.0 üzeri puanlı firmaları tercih edin.
 
-**Toplu Sipariş Avantajı:** Birden fazla halı veya halı + koltuk gibi kombine hizmet alarak %15-25 arası indirim alabilirsiniz.
+**Toplu Sipariş Avantajı:** Firmanın en büyük gider kalemi olan ulaşım maliyetini düşürmenin en kolay yolu daha fazla ürün vermektir. Birden fazla halı yıkatabilir, halı yıkamaya ek olarak koltuk yıkama veya yorgan-battaniye yıkama hizmeti de ekleyebilirsiniz. Firma aynı seferde daha fazla iş aldığında ulaşım maliyeti bölünür — bu sayede %10-15 arası indirim taleplerinize olumlu cevap alma ihtimaliniz belirgin şekilde artar.
 
 **Kampanya Dönemlerini Takip Edin:** Birçok firma sezon başı ve bayram öncesi kampanyalar düzenler.`,
       },
