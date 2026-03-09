@@ -278,7 +278,7 @@ export function ApplicationForm() {
         {/* Kullanılan Program */}
         <Input
           label="Kullandığınız Program"
-          placeholder="Entegrasyon için — örn: NegroPos, Excel, kağıt defter..."
+          placeholder="Entegrasyon için — örn: NegroPos, Halı Pratik, Portsis, Excel..."
           icon={<Monitor size={18} />}
           value={form.currentSoftware}
           onChange={(e) => update('currentSoftware', e.target.value)}
