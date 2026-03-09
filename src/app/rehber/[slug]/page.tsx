@@ -10,10 +10,12 @@ import { getGuideBySlug, guides } from '../guides';
 
 const brand = getBrandConfig();
 
-/** Parse inline markdown: **bold**, [link](url), **[bold link](url):** */
+/** Parse inline markdown: **bold**, *italic*, [link](url), **[bold link](url):** */
 function renderInline(text: string, keyPrefix: string) {
-  const tokens = text.split(/(\*\*(?:(?!\*\*).)+\*\*|\[[^\]]+\]\([^)]+\))/g);
+  // Order matters: **bold** before *italic* to avoid partial matches
+  const tokens = text.split(/(\*\*(?:(?!\*\*).)+\*\*|\[[^\]]+\]\([^)]+\)|\*(?!\*)[^*]+\*(?!\*))/g);
   return tokens.map((tok, ti) => {
+    // Bold: **text**
     if (tok.startsWith('**') && tok.endsWith('**')) {
       const inner = tok.slice(2, -2);
       const innerLink = inner.match(/^\[([^\]]+)\]\(([^)]+)\)(.*)$/);
@@ -27,9 +29,14 @@ function renderInline(text: string, keyPrefix: string) {
       }
       return <strong key={`${keyPrefix}-${ti}`} className="text-brand-text font-semibold">{inner}</strong>;
     }
+    // Link: [text](url)
     const linkMatch = tok.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
     if (linkMatch) {
       return <Link key={`${keyPrefix}-${ti}`} href={linkMatch[2]} className="text-brand-primary hover:underline font-medium">{linkMatch[1]}</Link>;
+    }
+    // Italic: *text*
+    if (tok.startsWith('*') && tok.endsWith('*') && !tok.startsWith('**')) {
+      return <em key={`${keyPrefix}-${ti}`} className="text-brand-text-muted italic">{tok.slice(1, -1)}</em>;
     }
     return <span key={`${keyPrefix}-${ti}`}>{tok}</span>;
   });

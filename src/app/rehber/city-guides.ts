@@ -1980,4 +1980,111 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'kocaeli-hali-yikama', 'istanbul-hali-yikama'],
   },
+
+  /* ─── 23. MUĞLA ─── */
+  {
+    slug: 'mugla-hali-yikama',
+    city: 'Muğla',
+    citySlug: 'mugla',
+    title: 'Muğla Halı Yıkama Rehberi: Fiyatlar, Firmalar ve İpuçları (2026)',
+    metaTitle: 'Muğla Halı Yıkama Fiyatları 2026 | Firma Rehberi',
+    metaDescription: 'Muğla halı yıkama fiyatları 2026 güncel liste. Bodrum, Fethiye, Marmaris, Milas, Menteşe fiyat karşılaştırma. Muğla halı yıkama firması seçim rehberi.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'Şehir Rehberi',
+    readingTime: 9,
+    heroEmoji: '⛵',
+    intro: `**Muğla**, Türkiye'nin turizm başkentidir. Bodrum, Fethiye, Marmaris, Datça, Dalaman — bu isimler dünya turizm haritasında parlayan noktalar. Ege ve Akdeniz'in buluştuğu Muğla'da halı yıkama sektörü turistik konaklama ile doğrudan bağlantılıdır. Yüzlerce otel, pansiyon, tatil köyü ve kiralık villa sezon başında ve sonunda toplu halı yıkama yaptırır. Yerleşik halk için ise Akdeniz ikliminin nemli kışları ve tuzlu deniz havası halı bakımını sürekli gündemde tutar. [Muğla halı yıkama firmaları](/mugla-hali-yikama-firmalari) arasında en uygun fiyatlı ve güvenilir firmayı bulmak için bu rehberi hazırladık.`,
+    sections: [
+      {
+        heading: 'Muğla Halı Yıkama Fiyatları 2026',
+        content: `Muğla'da halı yıkama fiyatları turizm ilçelerinde Türkiye ortalamasının üzerinde, iç kesimlerde ise oldukça uygundur. Bodrum tek başına İstanbul fiyatlarını yakalayabilir.
+
+| Halı Türü | Fiyat Aralığı (m²) | Ortalama |
+|---|---|---|
+| Makine halısı | 70 – 140 TL | 90 TL |
+| El dokuması halı | 100 – 200 TL | 140 TL |
+| Shaggy / tüylü halı | 80 – 160 TL | 110 TL |
+| İpek halı | 150 – 400 TL | 250 TL |
+| Koltuk yıkama (kişilik) | 150 – 350 TL | 230 TL |
+| Yorgan yıkama (adet) | 120 – 250 TL | 170 TL |
+
+**İlçe Bazlı Fiyat Farkları:**
+
+🔴 **Yüksek Segment**: [Bodrum halı yıkama](/mugla-bodrum-hali-yikama-firmalari), [Göcek/Fethiye halı yıkama](/mugla-fethiye-hali-yikama-firmalari) — 95-200 TL/m². Lüks turizm, villa sahipleri, yabancı müşteri yoğunluğu.
+
+🟡 **Orta Segment**: [Marmaris halı yıkama](/mugla-marmaris-hali-yikama-firmalari), [Dalaman halı yıkama](/mugla-dalaman-hali-yikama-firmalari), [Menteşe halı yıkama](/mugla-mentese-hali-yikama-firmalari), [Ortaca halı yıkama](/mugla-ortaca-hali-yikama-firmalari) — 80-140 TL/m².
+
+🟢 **Uygun Segment**: [Milas halı yıkama](/mugla-milas-hali-yikama-firmalari), [Yatağan halı yıkama](/mugla-yatagan-hali-yikama-firmalari), [Kavaklıdere halı yıkama](/mugla-kavaklidere-hali-yikama-firmalari), [Köyceğiz halı yıkama](/mugla-koycegiz-hali-yikama-firmalari), [Seydikemer halı yıkama](/mugla-seydikemer-hali-yikama-firmalari) — 70-110 TL/m².
+
+📌 *Bodrum'da yaz sezonu (Haziran-Eylül) fiyatlar %25-40 artabilir. Sezon dışı (Kasım-Mart) hem fiyat hem de randevu açısından çok daha avantajlıdır.*`,
+      },
+      {
+        heading: 'Muğla İklimi ve Halı Bakım Takvimi',
+        content: `Muğla'nın Akdeniz iklimi sıcak-kuru yazlar ve ılık-yağışlı kışlardan oluşur. Ancak sahil ve iç kesim arasında ciddi fark vardır:
+
+**Sahil İlçeleri (Bodrum, Marmaris, Fethiye, Datça):** Yaz sıcaklığı 35-40°C, nem %50-65 arası. Deniz tuzu halı liflerine işler ve sertleştirir. Kurutma yazın 1 günde tamamlanır. Kışlar ılıktır (10-15°C) ama yağışlı — Aralık-Şubat arası yıkatacaksanız kapalı kurutma tercih edin.
+
+**İç Kesim (Menteşe, Yatağan, Kavaklıdere):** Muğla merkez 650 metre rakımdadır ve sahilden çok farklı bir iklime sahiptir. Kışları daha soğuk (0-5°C), yazları daha kuru. Çam ormanlarından gelen reçine tozu ve polen halıları kirletir.
+
+**Turizm Sezonu Etkisi (Haziran-Eylül):** Muğla nüfusu yazın 3-4 kat artar. Otel, villa ve apart halıları sezon boyunca yoğun kullanılır. Sezon sonu (Ekim) toplu yıkama dönemidir — firmalar bu dönemde çok yoğundur, erken randevu alın.
+
+**Deniz Tuzu ve Nem:** Sahil ilçelerinde tuzlu nem yıl boyu hissedilir. Tuz halı liflerini sertleştirir, renkleri matlaştırır ve bakteri üremesini hızlandırır. Sahilde yaşıyorsanız yılda en az 2 kez profesyonel yıkama önerilir.
+
+**Milas Zeytin Bölgesi:** Milas çevresi zeytincilik merkezidir. Zeytinyağı lekesi bu bölgede çok yaygındır — firmaya önceden belirtin.
+
+**En İyi Dönem:** Ekim-Kasım (sezon sonu, sıcak hava devam eder) ve Nisan-Mayıs (sezon öncesi, firmalar henüz yoğun değil).
+
+[Muğla halı yıkama firmaları](/mugla-hali-yikama-firmalari) — Muğla'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+      },
+      {
+        heading: 'Muğla Halı Yıkama Firması Seçerken Dikkat Edilecekler',
+        content: `**Bodrum Villa Halıları — Premium Hizmet:** Bodrum yarımadasındaki lüks villalarda 10.000-100.000 TL değerinde el dokuması ve antika halılar mevcuttur. Bu halılar için sıradan firma yeterli değildir — sigortalı teslimat, pH nötr deterjan ve uzman kadro şarttır. Platform üzerinden "değerli halı" deneyimi olan firmaları filtreleyebilirsiniz.
+
+**Otel/Pansiyon Toplu Anlaşmaları:** Muğla'daki konaklama tesisleri sezon başı ve sonu toplu halı yıkama yaptırır. 100+ m² siparişlerde %15-30 indirim yapan firmalar mevcuttur. Birden fazla firmadan teklif alarak karşılaştırın.
+
+**Marmaris ve Fethiye — Orta Segment Turizm:** Bu ilçelerde fiyatlar Bodrum'dan daha makul ama kalite aynı seviyededir. Tatil evi sahipleri için sezon sonu yıkatma en mantıklı zamandır.
+
+**Datça — Ulaşım Zorluğu:** Datça yarımadası coğrafi olarak izoledir. Yerel firma sayısı sınırlıdır ve Marmaris'ten firma getirmek ek ulaşım maliyeti doğurur. Datça'da erken randevu almanız önerilir.
+
+**Dalyan ve Köyceğiz — Doğa Nemi:** Dalyan Kanalı ve Köyceğiz Gölü çevresi sürekli yüksek nemle yaşar. Bu bölgelerde anti-küf işlem standart olmalıdır.
+
+**Milas Halı Geleneği:** Milas, geleneksel Türk halıcılığının önemli merkezlerinden biridir. "Milas halısı" dünya halı pazarında bilinen bir markadır. Bu tür değerli halılarınız varsa mutlaka el dokuması deneyimi olan firma tercih edin.`,
+      },
+      {
+        heading: 'Muğla İlçe Bazlı Halı Yıkama Firmaları',
+        content: `Muğla 13 ilçeye sahiptir. İşte ilçe bazlı halı yıkama firma rehberi:
+
+**Büyükşehir Merkez:**
+- [Menteşe halı yıkama](/mugla-mentese-hali-yikama-firmalari) — İl merkezi, iç kesim, uygun fiyatlar
+
+**Ege Sahili:**
+- [Bodrum halı yıkama](/mugla-bodrum-hali-yikama-firmalari) — Lüks turizm, villa bölgesi, en pahalı ilçe
+- [Milas halı yıkama](/mugla-milas-hali-yikama-firmalari) — Havalimanı, zeytincilik, geleneksel halıcılık
+- [Datça halı yıkama](/mugla-datca-hali-yikama-firmalari) — Yarımada, izole coğrafya
+
+**Akdeniz Sahili:**
+- [Fethiye halı yıkama](/mugla-fethiye-hali-yikama-firmalari) — Ölüdeniz, Göcek, turizm merkezi
+- [Marmaris halı yıkama](/mugla-marmaris-hali-yikama-firmalari) — Kruvaziyer, marina, eğlence turizmi
+- [Dalaman halı yıkama](/mugla-dalaman-hali-yikama-firmalari) — Havalimanı bölgesi
+- [Ortaca halı yıkama](/mugla-ortaca-hali-yikama-firmalari) — Dalyan kanalı çevresi
+- [Köyceğiz halı yıkama](/mugla-koycegiz-hali-yikama-firmalari) — Göl kenarı, doğa turizmi
+- [Seydikemer halı yıkama](/mugla-seydikemer-hali-yikama-firmalari) — Saklıkent, kırsal turizm
+
+**İç Kesim:**
+- [Yatağan halı yıkama](/mugla-yatagan-hali-yikama-firmalari) — Termik santral, maden bölgesi
+- [Kavaklıdere halı yıkama](/mugla-kavaklidere-hali-yikama-firmalari) — Şarapçılık bölgesi
+- [Ula halı yıkama](/mugla-ula-hali-yikama-firmalari) — Dağ ilçesi
+
+📌 *Bodrum ve Fethiye kendi büyük yerel pazarlarına sahiptir. İç kesim ilçelerinde firma sınırlıdır — Menteşe veya Milas firmalarından hizmet alınabilir.*`,
+      },
+    ],
+    faq: [
+      { q: 'Muğla\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı ortalama 90 TL/m², el dokuması 100-200 TL/m², shaggy 80-160 TL/m² aralığındadır. Bodrum en pahalı (lüks turizm etkisi), Yatağan ve Kavaklıdere en uygun ilçelerdir.' },
+      { q: 'Bodrum\'da halı yıkama neden bu kadar pahalı?', a: 'Bodrum\'da kira, işçilik ve müşteri profili fiyatları yükseltir. Villa sahiplerinin değerli halıları sigortalı taşıma ve uzman yıkama gerektirir. Sezon dışında (Kasım-Mart) fiyatlar %20-30 düşer.' },
+      { q: 'Muğla\'da halı yıkama kaç gün sürer?', a: 'Yaz aylarında 1 gün (sıcak ve kuru hava), kışın 2-4 gün. Sahil ilçelerinde kış nemi kurutmayı uzatır — kapalı kurutma tesisi olan firma tercih edin.' },
+      { q: 'Otel için toplu halı yıkama indirimi var mı?', a: 'Evet, 100+ m² siparişlerde çoğu firma %15-30 indirim yapar. Sezon başı (Mayıs) veya sonu (Ekim) toplu anlaşma yaparak maliyeti düşürebilirsiniz.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'antalya-hali-yikama', 'aydin-hali-yikama'],
+  },
 ];
