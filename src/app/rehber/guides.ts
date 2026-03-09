@@ -56,19 +56,21 @@ Orta-üst segment. El yapımı Nepal halıları özel bakım gerektirir.`,
       },
       {
         heading: 'Fiyatı Etkileyen Faktörler',
-        content: `Halı yıkama fiyatını belirleyen birçok faktör vardır:
+        content: `Halı yıkama fiyatını belirleyen birçok faktör vardır. Bu faktörleri anlamak, fiyatların neden bu seviyede olduğunu kavramanızı sağlar:
 
-**1. Halının Türü ve Malzemesi:** Makine halısı en uygun fiyatlıyken, el dokuması, yün, ipek ve antik halılar özel işlem gerektirdiğinden daha pahalıdır.
+**1. Ulaşım Maliyeti (En Büyük Gider Kalemi):** Her sipariş için adresinize 2 kez gelinir — 1 alma, 1 teslim. Mazot fiyatı litresi 67 TL'yi aşmış durumda. Büyükşehirlerde trafik ve mesafe bu maliyeti daha da artırır. Firmaların fiyatlarının önemli bir kısmı sadece ulaşıma gider.
 
-**2. Halının Boyutu:** m² arttıkça birim fiyat genellikle düşer. 20 m²'nin üstünde indirimli fiyat uygulayan firmalar yaygındır.
+**2. İşçilik Maliyeti:** Halı yıkama ağır fiziksel iştir — ıslak halı taşıma, yükleme, makineleri çalıştırma. 2026 yılında bir işçinin işverene toplam maliyeti asgari ücretli bile olsa aylık 41.000 TL'yi aşmaktadır. Halı yıkama sektöründe ağır iş koşulları nedeniyle çalışanlar asgari ücretin üzerinde ücret alır. Kimyasal, su, elektrik ve makine bakım giderleri de cabası.
 
-**3. Bulunduğunuz Şehir:** İstanbul, Ankara, İzmir gibi büyük şehirlerde fiyatlar %20-30 daha yüksek olabilir. Küçük şehirlerde ve ilçelerde rekabet fiyatları aşağı çeker.
+**3. Halının Türü ve Malzemesi:** Makine halısı en uygun fiyatlıyken, el dokuması, yün, ipek ve antik halılar özel işlem, farklı deterjan ve daha uzun yıkama süresi gerektirdiğinden pahalıdır.
 
-**4. Kirliliğin Derecesi:** Yoğun lekeli, evcil hayvan tüylü veya uzun süredir yıkanmamış halılar ek işlem ücreti gerektirebilir.
+**4. Halının Boyutu:** m² arttıkça birim fiyat genellikle düşer. 20 m²'nin üstünde indirimli fiyat uygulayan firmalar yaygındır. Çünkü ulaşım maliyeti aynı kalırken işlenen alan artar.
 
-**5. Ek Hizmetler:** Halı koruma spreyi, anti-alerjik uygulama, leke koruma gibi ek hizmetler fiyatı artırır. Ücretsiz alma-teslim çoğu firmada standarttır.
+**5. Bulunduğunuz Şehir:** İstanbul'da fiyatlar Türkiye ortalamasının %65 üzerinde olabilir. Nedeni sadece talep değil — kira, yakıt, işçilik ve trafikteki zaman kaybı. Anadolu şehirlerinde mesafeler kısa, maliyetler düşük, dolayısıyla fiyatlar daha uygun.
 
-**6. Sezon:** Yaz aylarında talep artışıyla birlikte fiyatlar %10-15 yükselebilir. Kış başı ve ilkbahar en uygun dönemlerdir.`,
+**6. Kirliliğin Derecesi:** Yoğun lekeli, evcil hayvan tüylü veya uzun süredir yıkanmamış halılar ek deterjan, ek işlem süresi ve bazen ikinci yıkama gerektirir.
+
+**7. Sezon:** Yaz aylarında (Mayıs-Ağustos) talep zirve yapar. Firmalar yoğunluk nedeniyle fiyat artırabilir. Kış sonu ve ilkbahar en uygun dönemlerdir.`,
       },
       {
         heading: 'En Uygun Fiyatı Nasıl Bulursunuz?',
