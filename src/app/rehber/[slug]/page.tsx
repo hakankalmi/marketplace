@@ -241,14 +241,18 @@ export default async function GuidePage({
                 Profesyonel hizmet mi arıyorsunuz?
               </h3>
               <p className="text-brand-text-muted mb-4">
-                Şehrinizdeki en iyi firmaları karşılaştırın, kolayca sipariş verin.
+                {guide.city ? (
+                  <>En iyi <Link href={`/${guide.citySlug}-${guide.category}-firmalari`} className="text-brand-primary hover:underline font-medium">{guide.city} halı yıkama firmalarını</Link> karşılaştırın, kolayca sipariş verin.</>
+                ) : (
+                  'Şehrinizdeki en iyi firmaları karşılaştırın, kolayca sipariş verin.'
+                )}
               </p>
               <Link
-                href={`/turkiye/${guide.category}`}
+                href={guide.city ? `/${guide.citySlug}-${guide.category}-firmalari` : `/turkiye/${guide.category}`}
                 className="inline-flex items-center gap-2 px-6 py-2.5 bg-brand-primary text-white rounded-brand font-medium hover:opacity-90 transition"
               >
                 <BookOpen size={16} />
-                Firmaları İncele
+                {guide.city ? `${guide.city} Firmalarını İncele` : 'Firmaları İncele'}
               </Link>
             </div>
 

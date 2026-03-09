@@ -14,6 +14,9 @@ export interface GuideArticle {
   sections: { heading: string; content: string }[];
   faq: { q: string; a: string }[];
   relatedSlugs: string[];
+  /** Şehir rehberleri için — CTA'da şehre özel metin ve link */
+  city?: string;
+  citySlug?: string;
 }
 
 export const guides: GuideArticle[] = [
@@ -958,6 +961,8 @@ Düzenli müşterilere %15-25 indirim uygulanır. Haftalık 4 seans paketi stand
   },
   {
     slug: 'istanbul-hali-yikama',
+    city: 'İstanbul',
+    citySlug: 'istanbul',
     title: 'İstanbul Halı Yıkama Rehberi — İlçe Bazlı Fiyatlar ve Firmalar',
     metaTitle: 'İstanbul Halı Yıkama | İlçe Bazlı Fiyatlar ve En İyi Firmalar 2026',
     metaDescription: 'İstanbul halı yıkama fiyatları ilçe bazlı karşılaştırma. Kadıköy, Beşiktaş, Ataşehir, Pendik, Beylikdüzü ve tüm ilçelerde en iyi firmalar.',
@@ -966,7 +971,7 @@ Düzenli müşterilere %15-25 indirim uygulanır. Haftalık 4 seans paketi stand
     category: 'hali-yikama',
     readingTime: 7,
     heroEmoji: '🌉',
-    intro: 'İstanbul, Türkiye\'nin en büyük halı yıkama pazarıdır. 16 milyonluk nüfus ve binlerce firma arasından doğru seçimi yapmak zor olabilir. Bu rehberde İstanbul halı yıkama fiyatlarını ilçe bazlı karşılaştırıyor ve en iyi firmayı bulmanın yollarını anlatıyoruz.',
+    intro: 'İstanbul, Türkiye\'nin en büyük halı yıkama pazarıdır. 16 milyonluk nüfus ve binlerce firma arasından doğru seçimi yapmak zor olabilir. Bu rehberde [İstanbul halı yıkama](/istanbul-hali-yikama-firmalari) fiyatlarını ilçe bazlı karşılaştırıyor ve en iyi firmayı bulmanın yollarını anlatıyoruz.',
     sections: [
       {
         heading: 'İstanbul Halı Yıkama Fiyatları — Genel',
@@ -1009,7 +1014,7 @@ Pendik, Tuzla, Sultanbeyli, Arnavutköy, Esenyurt, Silivri
 
 **Teslimat Süresi:** İstanbul trafiği nedeniyle teslimat 1 gün uzayabilir. Yoğun dönemlerde (Haziran-Temmuz) 7+ gün sürebilir — erken sipariş verin.
 
-**Halı Yıkamacılar Avantajı:** [İstanbul halı yıkama firmalarını karşılaştırın](/turkiye/hali-yikama) — tüm doğrulanmış firmalar, ilçe bazlı filtreleme, şeffaf [fiyat listesi](/rehber/hali-yikama-fiyatlari) ve müşteri yorumlarıyla güvenle seçim yapabilirsiniz.`,
+**Halı Yıkamacılar Avantajı:** [İstanbul halı yıkama firmalarını karşılaştırın](/istanbul-hali-yikama-firmalari) — tüm doğrulanmış firmalar, ilçe bazlı filtreleme, şeffaf [fiyat listesi](/rehber/hali-yikama-fiyatlari) ve müşteri yorumlarıyla güvenle seçim yapabilirsiniz.`,
       },
     ],
     faq: [
@@ -1021,6 +1026,8 @@ Pendik, Tuzla, Sultanbeyli, Arnavutköy, Esenyurt, Silivri
   },
   {
     slug: 'ankara-hali-yikama',
+    city: 'Ankara',
+    citySlug: 'ankara',
     title: 'Ankara Halı Yıkama Rehberi — İlçe Bazlı Fiyatlar ve Firmalar',
     metaTitle: 'Ankara Halı Yıkama | İlçe Bazlı Fiyatlar ve En İyi Firmalar 2026',
     metaDescription: 'Ankara halı yıkama fiyatları ilçe bazlı karşılaştırma. Çankaya, Keçiören, Mamak, Etimesgut ve tüm ilçelerde en iyi firmalar.',
@@ -1029,7 +1036,7 @@ Pendik, Tuzla, Sultanbeyli, Arnavutköy, Esenyurt, Silivri
     category: 'hali-yikama',
     readingTime: 6,
     heroEmoji: '🏛️',
-    intro: 'Ankara, Türkiye\'nin ikinci büyük halı yıkama pazarıdır. Başkentin farklı ilçelerinde fiyatlar ve hizmet kalitesi değişkenlik gösterir. Bu rehberde Ankara halı yıkama fiyatlarını ilçe bazlı karşılaştırıyoruz.',
+    intro: 'Ankara, Türkiye\'nin ikinci büyük halı yıkama pazarıdır. Başkentin farklı ilçelerinde fiyatlar ve hizmet kalitesi değişkenlik gösterir. Bu rehberde [Ankara halı yıkama](/ankara-hali-yikama-firmalari) fiyatlarını ilçe bazlı karşılaştırıyoruz.',
     sections: [
       {
         heading: 'Ankara Halı Yıkama Fiyatları — Genel',
@@ -1070,7 +1077,7 @@ Fiyatlar en uygun, ama firma seçiminde dikkatli olun.
 
 **Ankara'ya Özel Not:** Kış aylarında (Aralık-Şubat) dış kurutma yapılamaz. Kapalı kurutma tesisi olan firmaları tercih edin — aksi halde halınız haftalarca gelmeyebilir.
 
-[Ankara halı yıkama firmaları](/turkiye/hali-yikama) — Ankara'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+[Ankara halı yıkama firmaları](/ankara-hali-yikama-firmalari) — Ankara'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
       },
     ],
     faq: [
@@ -1079,6 +1086,85 @@ Fiyatlar en uygun, ama firma seçiminde dikkatli olun.
       { q: 'Ankara\'da en hızlı teslimat hangi ilçelerde?', a: 'Firma yoğunluğu Keçiören, Yenimahalle ve Etimesgut\'ta fazla olduğundan bu ilçelerde 2 gün teslimat yaygındır.' },
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'istanbul-hali-yikama', 'hali-yikama-firmasi-nasil-secilir'],
+  },
+  {
+    slug: 'izmir-hali-yikama',
+    city: 'İzmir',
+    citySlug: 'izmir',
+    title: 'İzmir Halı Yıkama Rehberi — İlçe Bazlı Fiyatlar ve Firmalar',
+    metaTitle: 'İzmir Halı Yıkama | İlçe Bazlı Fiyatlar ve En İyi Firmalar 2026',
+    metaDescription: 'İzmir halı yıkama fiyatları ilçe bazlı karşılaştırma. Bornova, Karşıyaka, Buca, Konak, Çiğli ve tüm ilçelerde en iyi firmalar.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 7,
+    heroEmoji: '🌊',
+    intro: 'İzmir, Türkiye\'nin üçüncü büyük halı yıkama pazarıdır. Ege\'nin nemli iklimi halı bakımını özellikle önemli kılar — nem, küf ve toz akarı riski İstanbul ve Ankara\'ya göre belirgin şekilde yüksektir. Bu rehberde [İzmir halı yıkama](/izmir-hali-yikama-firmalari) fiyatlarını ilçe bazlı karşılaştırıyor ve İzmir\'e özel dikkat edilmesi gereken noktaları anlatıyoruz.',
+    sections: [
+      {
+        heading: 'İzmir Halı Yıkama Fiyatları — Genel',
+        content: `İzmir fiyatları İstanbul'un yaklaşık %30 altında, Ankara ile benzer seviyelerdedir:
+
+**Makine Halısı:** Ortalama 90 TL/m² (aralık: 50-150 TL) — İstanbul ortalaması 140 TL iken İzmir %35 daha uygun
+**El Halısı (Yün):** 110-190 TL/m²
+**İpek Halı:** 160-380 TL/m²
+**Shaggy / Uzun Tüylü:** 70-130 TL/m²
+
+**İzmir'in Avantajı:** Sıcak ve rüzgârlı iklim sayesinde açık havada kurutma çok hızlıdır. Yaz aylarında halınız aynı gün kuruyabilir — İstanbul ve Ankara'da bu mümkün değildir.`,
+      },
+      {
+        heading: 'İzmir Halı Yıkama — İlçe Bazlı Fiyat Karşılaştırması',
+        content: `İzmir ortalaması makine halısı için 90 TL/m²'dir. İlçeler arası fiyat farkları:
+
+**Yüksek Fiyat Bölgeleri (100-150 TL/m²):**
+Karşıyaka, Alsancak (Konak), Balçova, Narlıdere, Çeşme, Urla
+Gelir düzeyi yüksek, villa/müstakil ev yoğunluğu fazla. Özellikle Çeşme ve Urla'da yazlık villa temizliği talebi yüksektir.
+
+**Orta Fiyat Bölgeleri (70-100 TL/m²):**
+Bornova, Buca, Bayraklı, Çiğli, Menemen, Karabağlar
+İzmir'in en kalabalık ilçeleri — firma sayısı fazla, rekabet güçlü. Fiyat/kalite oranı en iyi bölge.
+
+**Uygun Fiyat Bölgeleri (40-75 TL/m²):**
+Torbalı, Kemalpaşa, Bergama, Aliağa, Tire, Ödemiş
+Şehir merkezinden uzak, küçük ölçekli firmalar. Fiyat avantajı var ama teslimat süresi uzayabilir.
+
+**İpucu:** İzmir'de firma seçerken kurutma yöntemini sorun. Açık hava kurutma yapan firmalar daha hızlı ama tozlu ortamlarda halınız kirlenir. Kapalı kurutma tesisi olan firmalar daha hijyeniktir.`,
+      },
+      {
+        heading: 'İzmir Halı Yıkama — İklim ve Mevsim Etkisi',
+        content: `İzmir'in Akdeniz iklimi halı yıkamayı doğrudan etkiler:
+
+**En Uygun Dönem:** Nisan-Mayıs ve Eylül-Ekim
+Hava sıcak ama bunaltıcı değil. Kurutma hızlı, fiyatlar henüz zirve yapmamış.
+
+**En Yoğun Dönem:** Haziran-Temmuz
+Yaz tatili öncesi büyük temizlik. Firma kapasiteleri dolar, teslimat 5-7 güne uzar. Erken sipariş verin.
+
+**Dikkat — Kış Ayları (Aralık-Şubat):**
+İzmir'de kış yağışlı ve nemlidir. Bu dönemde halı yıkatırsanız kurutma 2-3 gün sürebilir. Kapalı kurutma tesisi olan firmayı tercih edin — aksi halde küf riski vardır.
+
+**Nem Faktörü:** İzmir'in nemli iklimi toz akarı üremesini hızlandırır. Alerjisi olan kişiler yılda en az 2 kez profesyonel halı yıkatmalıdır.
+
+[İzmir halı yıkama firmaları](/izmir-hali-yikama-firmalari) — İzmir'deki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+      },
+      {
+        heading: 'İzmir Halı Yıkama Firması Seçerken Dikkat Edilecekler',
+        content: `**Yazlık/Tatil Evi Temizliği:** İzmir, Çeşme, Alaçatı ve Urla'da yazlık ev yoğunluğu çok fazladır. Sezon açılışında (Mayıs-Haziran) tüm halılar ve kilimler yıkatılır — bu dönemde firmalar çok yoğundur. En az 1 hafta önceden sipariş verin.
+
+**Deniz Tuzu ve Nem Etkisi:** Sahil bölgelerindeki halılar deniz tuzundan daha hızlı yıpranır. Yılda 2-3 kez profesyonel yıkatma önerilir. Firmaya halınızın sahil evinde olduğunu belirtin — bazı firmalar tuz arındırma işlemi uygular.
+
+**Kilim ve Cicim Halılar:** İzmir ve çevresinde geleneksel kilim ve cicim kullanımı yaygındır. Bu tür halılar hassas yıkama gerektirir. Firmadan kilim yıkama deneyimi olup olmadığını sorun.
+
+**Sahte Firma Uyarısı:** Özellikle Buca ve Karabağlar'da kayıt dışı çalışan firmalar mevcuttur. Platform üzerinden doğrulanmış profili olan firmaları tercih edin.`,
+      },
+    ],
+    faq: [
+      { q: 'İzmir\'de halı yıkama ortalama ne kadar?', a: 'Makine halısı için ortalama 90 TL/m², el halısı 110-190 TL/m², ipek halı 160-380 TL/m² aralığındadır. İlçeye göre %30\'a varan fark olabilir.' },
+      { q: 'İzmir\'de en ucuz halı yıkama nerede?', a: 'Torbalı, Kemalpaşa, Bergama ve Tire gibi merkez dışı ilçelerde 40-75 TL/m² ile İzmir ortalamasının altında fiyatlar mevcuttur.' },
+      { q: 'İzmir\'de yazın halı yıkatmak avantajlı mı?', a: 'Kurutma açısından evet — sıcak rüzgâr sayesinde halılar çok hızlı kurur. Ancak Haziran-Temmuz yoğun dönemdir, fiyatlar %10-15 artabilir. En avantajlı dönem Nisan-Mayıs ve Eylül-Ekim\'dir.' },
+      { q: 'İzmir\'de halı yıkama kaç gün sürer?', a: 'Normal dönemde 2-3 gün, yaz yoğunluğunda 4-6 gün. İzmir\'in sıcak iklimi sayesinde kurutma İstanbul\'a göre 1 gün daha hızlıdır.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'istanbul-hali-yikama', 'ankara-hali-yikama'],
   },
 ];
 
