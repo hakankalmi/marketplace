@@ -532,4 +532,85 @@ Merkeze uzak ilçeler. Ceyhan (160.000+ nüfus) kendi başına bir pazar — yer
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'antalya-hali-yikama', 'konya-hali-yikama'],
   },
+  {
+    slug: 'gaziantep-hali-yikama',
+    city: 'Gaziantep',
+    citySlug: 'gaziantep',
+    title: 'Gaziantep Halı Yıkama Rehberi — İlçe Bazlı Fiyatlar ve Firmalar',
+    metaTitle: 'Gaziantep Halı Yıkama | İlçe Bazlı Fiyatlar ve En İyi Firmalar 2026',
+    metaDescription: 'Gaziantep halı yıkama fiyatları ilçe bazlı karşılaştırma. Şahinbey, Şehitkamil, Nizip, İslahiye ve tüm ilçelerde en iyi halı yıkama firmaları.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 7,
+    heroEmoji: '🏭',
+    intro: 'Gaziantep, Türkiye\'nin sanayi devi ve Güneydoğu\'nun en büyük şehridir. 2 milyonu aşan nüfusu, güçlü sanayi altyapısı ve köklü halıcılık geleneğiyle halı yıkama sektöründe önemli bir pazardır. Sıcak ve kurak yazlar, sanayi tozları ve kışın oluşan çamur, halı bakımını zorunlu kılar. Bu rehberde [Gaziantep halı yıkama](/gaziantep-hali-yikama-firmalari) fiyatlarını ilçe bazlı karşılaştırıyor ve Antep\'e özgü halı bakım ipuçlarını paylaşıyoruz.',
+    sections: [
+      {
+        heading: 'Gaziantep Halı Yıkama Fiyatları — Genel',
+        content: `Gaziantep, düşük işçilik ve kira maliyetleri sayesinde Türkiye'nin en uygun fiyatlı büyük şehirlerinden biridir:
+
+**Makine Halısı:** Ortalama 80 TL/m² (aralık: 70-120 TL) — İstanbul ortalaması 140 TL iken Gaziantep %43 daha uygun
+**El Halısı (Yün):** 100-170 TL/m²
+**İpek Halı:** 140-320 TL/m²
+**Shaggy / Uzun Tüylü:** 75-115 TL/m²
+**Kilim / El Dokuması:** 70-100 TL/m²
+
+**Gaziantep'in Avantajı:** Gaziantep, Türkiye'nin en büyük makine halısı üretim merkezlerinden biridir. Halı fabrikalarına hizmet veren profesyonel yıkama tesisleri bulunur — bu firmalar endüstriyel kapasiteye ve uzmanlığa sahiptir. Ayrıca sıcak iklim kurutmayı hızlandırır, teslimat süreleri kısadır.`,
+      },
+      {
+        heading: 'Gaziantep Halı Yıkama — İlçe Bazlı Fiyat Karşılaştırması',
+        content: `Gaziantep ortalaması makine halısı için 80 TL/m²'dir. Şehrin iki büyük merkez ilçesi pazarın %90'ını oluşturur:
+
+**Yüksek Fiyat Bölgeleri (90-120 TL/m²):**
+[Şehitkamil halı yıkama](/gaziantep-sehitkamil-hali-yikama-firmalari) (Mavikent, Batıkent, Güneykent), [Şahinbey halı yıkama](/gaziantep-sahinbey-hali-yikama-firmalari) (Bey Mahallesi, Kolejtepe)
+Şehitkamil'in kuzeyi (Mavikent, Batıkent) Gaziantep'in en yeni ve gelir düzeyi yüksek bölgesidir. Modern siteler ve AVM'lerin yoğun olduğu bu bölgede kalite beklentisi yüksektir.
+
+**Orta Fiyat Bölgeleri (75-90 TL/m²):**
+[Şahinbey halı yıkama](/gaziantep-sahinbey-hali-yikama-firmalari) (merkez), [Şehitkamil halı yıkama](/gaziantep-sehitkamil-hali-yikama-firmalari) (Karataş, İbrahimli)
+Şahinbey, Gaziantep'in en kalabalık ilçesi (1 milyon+ nüfus). Firma yoğunluğu en fazla olan bölge — rekabet güçlü, fiyat/kalite oranı avantajlı.
+
+**Uygun Fiyat Bölgeleri (70-80 TL/m²):**
+[Nizip halı yıkama](/gaziantep-nizip-hali-yikama-firmalari), [İslahiye halı yıkama](/gaziantep-islahiye-hali-yikama-firmalari), [Nurdağı halı yıkama](/gaziantep-nurdagi-hali-yikama-firmalari), [Oğuzeli halı yıkama](/gaziantep-oguzeli-hali-yikama-firmalari), [Araban halı yıkama](/gaziantep-araban-hali-yikama-firmalari)
+Merkeze uzak ilçeler. Nizip (150.000+ nüfus) kendi başına önemli bir pazar — yerel halı yıkama firmaları mevcuttur. Diğer ilçelerde firma sayısı sınırlıdır.
+
+**Önemli Not:** Gaziantep'te halı üreticileri ve toptancılar da bulunur. Bazı halı yıkama firmaları hem perakende hem toptan hizmet verir — büyük siparişlerde (10+ halı) toplu indirim alabilirsiniz.`,
+      },
+      {
+        heading: 'Gaziantep Halı Yıkama — Sanayi Şehri ve İklim Etkisi',
+        content: `Gaziantep'in sanayi yoğunluğu ve karasal-Akdeniz geçiş iklimi halı bakımını doğrudan etkiler:
+
+**Sanayi Tozu ve Hava Kirliliği:** Gaziantep, Türkiye'nin en büyük sanayi şehirlerinden biridir. Organize sanayi bölgeleri (1., 2., 3., 4. OSB) şehri çevreler. Fabrika bacalarından yayılan partikül madde halılara hızla işler. Özellikle OSB yakınındaki mahallelerde (Beylerbeyi, Fevzipaşa, Bülbülzade) halılar daha sık kirlenir. Bu bölgelerde yılda en az 2-3 kez profesyonel halı yıkama gerekir.
+
+**Sıcak ve Kurak Yazlar (Haziran-Eylül):** Sıcaklık 40°C'yi aşar, hava son derece kurudur. Kurutma açısından ideal dönemdir — halılar birkaç saatte kurur. Ancak kuru sıcak toz taşır, halılar hızla kirlenir. Yaz aylarında halı yıkatmak hem hijyen hem kurutma açısından en mantıklı zamandır.
+
+**Kış Ayları (Aralık-Şubat):** Gaziantep kışları soğuk olabilir (-5°C'ye düşer) ama İç Anadolu kadar sert değildir. Yağışlı günlerde çamur halılara zarar verir. Kapalı kurutma tesisi olan firmayı tercih edin.
+
+**En Uygun Dönem:** Nisan-Mayıs ve Eylül-Ekim — hava ılık, nem düşük, firmalar yoğun değil.
+
+**Yoğun Dönem:** Ramazan ve Kurban Bayramı öncesi — Güneydoğu'da bayram temizliği geleneği çok güçlüdür. Firmalar 2-3 hafta öncesinden dolar. Erken sipariş şarttır.
+
+[Gaziantep halı yıkama firmaları](/gaziantep-hali-yikama-firmalari) — Gaziantep'teki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+      },
+      {
+        heading: 'Gaziantep Halı Yıkama Firması Seçerken Dikkat Edilecekler',
+        content: `**Halı Üretim Uzmanlığı:** Gaziantep, Türkiye'nin makine halısı üretim başkentidir. Halı fabrikalarına hizmet veren yıkama tesisleri profesyonel ekipmana ve geniş kapasiteye sahiptir. Bu firmalar her türlü halı malzemesini (polipropilen, akrilik, yün, polyester) tanır ve doğru yöntemle yıkar.
+
+**Antep İşi Halılar:** Gaziantep'in geleneksel el dokuması halıları ve kilimleri özel bakım gerektirir. Bu halılar genellikle doğal boyalarla boyanmıştır — yanlış kimyasal kullanımı renkleri soldurur. El halınız varsa firmaya mutlaka belirtin ve referans isteyin.
+
+**Toplu Sipariş İndirimi:** Gaziantep'te halı toptancıları ve mağazaları yaygındır. Halı yıkama firmaları da toplu siparişlere alışıktır. 5+ halı yıkatacaksanız toplu fiyat isteyin — %10-15 indirim yaygındır.
+
+**Deprem Sonrası Dikkat:** 2023 depremlerinden sonra Gaziantep'te bazı halı yıkama tesisleri hasar gördü. Yeni veya yenilenmiş tesisleri tercih edin. Platform üzerinden doğrulanmış profili olan firmalar güvenilirdir.
+
+**OSB Firmaları:** Organize sanayi bölgesindeki halı yıkama firmaları genellikle kurumsal müşterilere (otel, restoran, fabrika) hizmet verir. Endüstriyel kapasiteleri yüksektir — çok büyük halılar (100+ m²) ve toplu siparişler için idealdir.`,
+      },
+    ],
+    faq: [
+      { q: 'Gaziantep\'te halı yıkama ortalama ne kadar?', a: 'Makine halısı için ortalama 80 TL/m², el halısı 100-170 TL/m², kilim 70-100 TL/m² aralığındadır. Şehitkamil Mavikent bölgesi en pahalı, Nizip ve İslahiye en uygun ilçelerdir.' },
+      { q: 'Gaziantep\'te halı yıkama kaç gün sürer?', a: 'Yaz aylarında 1-2 gün (kurutma çok hızlı), kış aylarında 3-4 gün. Bayram dönemlerinde 5-7 güne çıkabilir.' },
+      { q: 'Gaziantep\'te el halısı yıkama nerede yaptırılır?', a: 'Şahinbey merkez ve Şehitkamil\'deki köklü halı yıkama firmaları el dokuması Antep halıları konusunda uzmanlaşmıştır. Halı üretim geleneği sayesinde firmalar her türlü halı malzemesine hâkimdir.' },
+      { q: 'Gaziantep\'te en ucuz halı yıkama nerede?', a: 'Nizip, İslahiye ve Oğuzeli\'nde 70-80 TL/m² ile Gaziantep ortalamasının altında fiyatlar mevcuttur. Ancak bu ilçeler merkeze uzaktır — yerel firma tercih edin.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'adana-hali-yikama', 'konya-hali-yikama'],
+  },
 ];
