@@ -1022,4 +1022,84 @@ Sınır ilçeleri ve kırsal bölgeler. Kırıkhan ve Reyhanlı nüfuslarıyla y
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'adana-hali-yikama', 'mersin-hali-yikama'],
   },
+  {
+    slug: 'manisa-hali-yikama',
+    city: 'Manisa',
+    citySlug: 'manisa',
+    title: 'Manisa Halı Yıkama Rehberi — İlçe Bazlı Fiyatlar ve Firmalar',
+    metaTitle: 'Manisa Halı Yıkama | İlçe Bazlı Fiyatlar ve En İyi Firmalar 2026',
+    metaDescription: 'Manisa halı yıkama fiyatları ilçe bazlı karşılaştırma. Yunusemre, Şehzadeler, Turgutlu, Akhisar, Salihli ve tüm ilçelerde en iyi halı yıkama firmaları.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 7,
+    heroEmoji: '🍇',
+    intro: 'Manisa, Ege Bölgesi\'nin İzmir\'den sonra en kalabalık ili ve tarım-sanayi iç içe geçmiş bir şehirdir. 1.5 milyonluk nüfusu, Gediz Ovası\'nın verimli toprakları ve İzmir\'e 40 km komşuluk bu şehri halı yıkama pazarında önemli kılar. Ege\'nin sıcak yazları, tarımsal toz ve ova nemi halıları hızla etkiler. Bu rehberde [Manisa halı yıkama](/manisa-hali-yikama-firmalari) fiyatlarını ilçe bazlı karşılaştırıyor ve Manisa\'ya özgü halı bakım ipuçlarını paylaşıyoruz.',
+    sections: [
+      {
+        heading: 'Manisa Halı Yıkama Fiyatları — Genel',
+        content: `Manisa fiyatları İzmir'in altında, Türkiye ortalamasına yakındır. İzmir'e komşu olması rekabeti artırır:
+
+**Makine Halısı:** Ortalama 85 TL/m² (aralık: 70-125 TL) — İzmir ortalaması 95 TL iken Manisa %10 daha uygun
+**El Halısı (Yün):** 105-175 TL/m²
+**İpek Halı:** 150-350 TL/m²
+**Shaggy / Uzun Tüylü:** 80-120 TL/m²
+
+**Manisa'nın Avantajı:** İzmir'e 40 km mesafede olması firma rekabetini artırır — İzmir firmaları Manisa'ya da hizmet verir. Ege iklimi kurutmayı hızlandırır, teslimat süreleri kısadır. Ayrıca İzmir'e göre düşük kira ve işletme maliyetleri fiyatlara olumlu yansır.`,
+      },
+      {
+        heading: 'Manisa Halı Yıkama — İlçe Bazlı Fiyat Karşılaştırması',
+        content: `Manisa ortalaması makine halısı için 85 TL/m²'dir. Merkez ilçeler ile ilçe şehirler arasında fark vardır:
+
+**Yüksek Fiyat Bölgeleri (90-125 TL/m²):**
+[Yunusemre halı yıkama](/manisa-yunusemre-hali-yikama-firmalari) (Laleli, Uncubozköy), [Şehzadeler halı yıkama](/manisa-sehzadeler-hali-yikama-firmalari) (merkez)
+Manisa'nın iki merkez ilçesi. Yunusemre yeni yapılaşma ve site bölgeleriyle hızla büyüyor. Şehzadeler tarihi merkez ve ticaret bölgesi.
+
+**Orta Fiyat Bölgeleri (75-90 TL/m²):**
+[Turgutlu halı yıkama](/manisa-turgutlu-hali-yikama-firmalari), [Akhisar halı yıkama](/manisa-akhisar-hali-yikama-firmalari), [Salihli halı yıkama](/manisa-salihli-hali-yikama-firmalari)
+Her biri 100.000+ nüfuslu ilçe şehirler. Kendi yerel halı yıkama pazarlarına sahipler — firma sayısı yeterli, rekabet orta düzeyde.
+
+**Uygun Fiyat Bölgeleri (70-80 TL/m²):**
+[Soma halı yıkama](/manisa-soma-hali-yikama-firmalari), [Kula halı yıkama](/manisa-kula-hali-yikama-firmalari), [Demirci halı yıkama](/manisa-demirci-hali-yikama-firmalari), [Gördes halı yıkama](/manisa-gordes-hali-yikama-firmalari), [Sarıgöl halı yıkama](/manisa-sarigol-hali-yikama-firmalari)
+Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yüksektir. Kula ve Gördes geleneksel halı üretim merkezleridir.
+
+**İpucu:** Yunusemre ve Şehzadeler'de oturuyorsanız İzmir'deki firmalara da bakın — 40 km mesafede daha rekabetçi fiyat bulma şansınız yüksektir.`,
+      },
+      {
+        heading: 'Manisa Halı Yıkama — Ege İklimi ve Tarım Etkisi',
+        content: `Manisa'nın Ege iklimi ve tarımsal yapısı halı bakımını doğrudan etkiler:
+
+**Sıcak Yazlar (Haziran-Eylül):** Gediz Ovası'nda yaz sıcaklıkları 40°C'yi aşabilir. Kurutma çok hızlıdır — halılar birkaç saatte kurur. Ancak sıcaklık toz taşır ve halılar hızla kirlenir.
+
+**Tarımsal Toz ve Polen:** Manisa, Türkiye'nin en büyük üzüm, zeytin ve tütün üretim merkezlerinden biridir. Hasat dönemlerinde (Ağustos-Ekim) havadaki toz ve polen yoğunluğu artar. Alerjisi olanlar bu dönemde halı yıkatmalıdır.
+
+**Ova Nemi:** Gediz Ovası'nın düz coğrafyası ve yer altı suyu zemin katlardaki evlerde nem sorununa yol açar. Zemin katta yaşıyorsanız halılarınızı daha sık yıkatın (yılda 2-3 kez) ve anti-küf işlem isteyin.
+
+**Soma Maden Tozu:** Soma ilçesinde termik santral ve maden faaliyetleri havaya kömür tozu yayar. Bu bölgede halılar çok daha hızlı kirlenir — yılda en az 3 kez profesyonel halı yıkama önerilir.
+
+**En Uygun Dönem:** Nisan-Mayıs ve Eylül-Ekim — hava ılık, nem düşük, firmalar yoğun değil.
+
+[Manisa halı yıkama firmaları](/manisa-hali-yikama-firmalari) — Manisa'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+      },
+      {
+        heading: 'Manisa Halı Yıkama Firması Seçerken Dikkat Edilecekler',
+        content: `**İzmir Çapraz Rekabeti:** Manisa merkez İzmir'e sadece 40 km mesafededir. Birçok İzmir firması Manisa'ya da hizmet verir. Platform üzerinden her iki şehirdeki firmaları karşılaştırarak en iyi fiyatı bulabilirsiniz.
+
+**Kula ve Gördes Halıları — Dünya Mirası:** Kula ve Gördes, dünya halıcılık tarihinde önemli bir yere sahiptir. "Gördes düğümü" tüm dünyada bu ilçenin adını taşır. Kula halıları koleksiyonerler tarafından aranır. Bu tür el dokuması halılarınız varsa mutlaka uzman firma tercih edin — standart makine yıkama bu halılara zarar verebilir.
+
+**Turgutlu-Akhisar-Salihli Ayrı Pazarlar:** Bu üç ilçe 100.000+ nüfuslarıyla kendi yerel pazarlarını oluşturur. Merkeze uzak olduklarından yerel firma tercih etmek hem fiyat hem teslimat açısından avantajlıdır.
+
+**Organize Sanayi Bölgesi:** Manisa OSB Türkiye'nin en büyüklerinden biridir (beyaz eşya, otomotiv). Sanayi çevresindeki mahallelerde endüstriyel toz birikimi yüksektir. Firmaya bölgenizi belirtin — bazı firmalar ağır kirlilik için ön işlem (çift silkeleme + vakumlama) uygular.
+
+**Üzüm ve Zeytin Lekesi:** Manisa'nın tarım ürünleri halılarda zor çıkan lekeler bırakabilir. Üzüm sıkma veya zeytin işleme dönemlerinde halınıza leke bulaştıysa firmaya mutlaka belirtin — özel leke çıkarma işlemi gerekebilir.`,
+      },
+    ],
+    faq: [
+      { q: 'Manisa\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı için ortalama 85 TL/m², el halısı 105-175 TL/m², ipek halı 150-350 TL/m² aralığındadır. Yunusemre en pahalı, Soma ve Kula en uygun ilçelerdir.' },
+      { q: 'Manisa\'da halı yıkama kaç gün sürer?', a: 'Yaz aylarında 1-2 gün (kurutma çok hızlı), kış aylarında 3-4 gün. Ege iklimi sayesinde İstanbul ve Ankara\'ya göre kurutma 1 gün daha hızlıdır.' },
+      { q: 'Manisa\'da Kula/Gördes halısı nerede yıkatılır?', a: 'Bu değerli el dokuması halılar için Yunusemre ve Şehzadeler\'deki uzman firmalar veya İzmir\'deki köklü halı yıkama tesisleri tercih edilmelidir. Standart yıkama bu halılara zarar verebilir.' },
+      { q: 'Manisa\'da en ucuz halı yıkama nerede?', a: 'Soma, Kula ve Demirci\'de 70-80 TL/m² ile Manisa ortalamasının altında fiyatlar mevcuttur. Ancak bu ilçeler merkeze uzaktır — yerel firma tercih edin.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'izmir-hali-yikama', 'bursa-hali-yikama'],
+  },
 ];

@@ -80,7 +80,7 @@ export default function BasvuruPage() {
 
               <div className="space-y-4">
                 <a
-                  href="https://wa.me/905001234567?text=Merhaba%2C%20firma%20ba%C5%9Fvurusu%20yapmak%20istiyorum."
+                  href="https://wa.me/905330916795?text=Merhaba%2C%20firma%20ba%C5%9Fvurusu%20yapmak%20istiyorum."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-3 w-full py-3.5 px-6 bg-[#25D366] text-white rounded-xl font-medium hover:opacity-90 transition text-base"
@@ -90,7 +90,7 @@ export default function BasvuruPage() {
                 </a>
 
                 <a
-                  href="mailto:basvuru@protakip.com?subject=Firma%20Ba%C5%9Fvurusu"
+                  href="mailto:info@haliyikamacilar.com?subject=Firma%20Ba%C5%9Fvurusu"
                   className="flex items-center justify-center gap-3 w-full py-3.5 px-6 bg-brand-primary text-white rounded-xl font-medium hover:opacity-90 transition text-base"
                 >
                   <Mail size={20} />
