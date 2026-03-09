@@ -858,4 +858,85 @@ Sahil kasabaları ve iç kesim ilçeler. Erdemli ve Silifke nüfuslarıyla yerel
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'adana-hali-yikama', 'antalya-hali-yikama'],
   },
+  {
+    slug: 'diyarbakir-hali-yikama',
+    city: 'Diyarbakır',
+    citySlug: 'diyarbakir',
+    title: 'Diyarbakır Halı Yıkama Rehberi — İlçe Bazlı Fiyatlar ve Firmalar',
+    metaTitle: 'Diyarbakır Halı Yıkama | İlçe Bazlı Fiyatlar ve En İyi Firmalar 2026',
+    metaDescription: 'Diyarbakır halı yıkama fiyatları ilçe bazlı karşılaştırma. Bağlar, Kayapınar, Yenişehir, Sur, Ergani, Bismil ve tüm ilçelerde en iyi halı yıkama firmaları.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 7,
+    heroEmoji: '🏰',
+    intro: 'Diyarbakır, Güneydoğu Anadolu\'nun tarihi ve kültürel başkentidir. 1.8 milyonluk nüfusu, sıcak karasal iklimi ve köklü halıcılık geleneğiyle halı yıkama sektöründe önemli bir pazardır. Yazları 45°C\'yi aşan kavurucu sıcaklar, bozkır tozu ve kalabalık haneler halıların yoğun kullanımına ve hızlı kirlenmesine neden olur. Bu rehberde [Diyarbakır halı yıkama](/diyarbakir-hali-yikama-firmalari) fiyatlarını ilçe bazlı karşılaştırıyor ve Diyarbakır\'a özgü halı bakım ipuçlarını paylaşıyoruz.',
+    sections: [
+      {
+        heading: 'Diyarbakır Halı Yıkama Fiyatları — Genel',
+        content: `Diyarbakır, düşük yaşam maliyeti sayesinde Türkiye'nin en uygun fiyatlı büyük şehirlerinden biridir:
+
+**Makine Halısı:** Ortalama 75 TL/m² (aralık: 70-110 TL) — İstanbul ortalaması 140 TL iken Diyarbakır %46 daha uygun
+**El Halısı (Yün):** 95-165 TL/m²
+**İpek Halı:** 130-300 TL/m²
+**Shaggy / Uzun Tüylü:** 70-105 TL/m²
+**Kilim / El Dokuması:** 70-95 TL/m² — Diyarbakır ve çevresi geleneksel kilim üretim merkezidir
+
+**Diyarbakır'ın Farkı:** Kavurucu yaz sıcakları kurutmayı saatler içinde tamamlar — teslimat süreleri kısadır. Düşük işletme maliyetleri fiyatlara olumlu yansır. Ayrıca Diyarbakır'da kalabalık hane yapısı (ortalama 5-7 kişi) nedeniyle halı talebi yüksektir ve firmalar rekabetçi fiyat sunar.`,
+      },
+      {
+        heading: 'Diyarbakır Halı Yıkama — İlçe Bazlı Fiyat Karşılaştırması',
+        content: `Diyarbakır ortalaması makine halısı için 75 TL/m²'dir. Merkez 4 ilçe ve dış ilçeler arasında fark belirgindir:
+
+**Yüksek Fiyat Bölgeleri (85-110 TL/m²):**
+[Kayapınar halı yıkama](/diyarbakir-kayapinar-hali-yikama-firmalari) (Diclekent, Peyas, Talaytepe), [Yenişehir halı yıkama](/diyarbakir-yenisehir-hali-yikama-firmalari) (Şilbe, Urfa Yolu)
+Kayapınar, Diyarbakır'ın en hızlı büyüyen ve modern ilçesidir. Yeni siteler, AVM'ler ve üniversite çevresi. Gelir düzeyi en yüksek bölge.
+
+**Orta Fiyat Bölgeleri (70-85 TL/m²):**
+[Bağlar halı yıkama](/diyarbakir-baglar-hali-yikama-firmalari), [Sur halı yıkama](/diyarbakir-sur-hali-yikama-firmalari), [Bismil halı yıkama](/diyarbakir-bismil-hali-yikama-firmalari)
+Bağlar, Diyarbakır'ın en kalabalık ilçesidir (400.000+ nüfus). Firma rekabeti güçlü, fiyatlar uygun. Sur tarihi merkez olup dar sokaklar teslimatı zorlaştırabilir. Bismil (120.000+ nüfus) yerel firmalarıyla kendi pazarını oluşturur.
+
+**Uygun Fiyat Bölgeleri (70-75 TL/m²):**
+[Ergani halı yıkama](/diyarbakir-ergani-hali-yikama-firmalari), [Silvan halı yıkama](/diyarbakir-silvan-hali-yikama-firmalari), [Çınar halı yıkama](/diyarbakir-cinar-hali-yikama-firmalari), [Çermik halı yıkama](/diyarbakir-cermik-hali-yikama-firmalari), [Lice halı yıkama](/diyarbakir-lice-hali-yikama-firmalari)
+Merkeze uzak ilçeler. Ergani ve Silvan nüfuslarıyla (80.000+) yerel firma barındırır. Diğer ilçelerde firma sayısı sınırlıdır.
+
+**Önemli Not:** Diyarbakır'da hane başı halı sayısı Türkiye ortalamasının üzerindedir. Misafir odası kültürü güçlüdür — toplu sipariş (5+ halı) vererek fiyat avantajı sağlayabilirsiniz.`,
+      },
+      {
+        heading: 'Diyarbakır Halı Yıkama — Karasal İklim ve Toz Etkisi',
+        content: `Diyarbakır'ın sert karasal iklimi halı bakımını doğrudan etkiler:
+
+**Kavurucu Yazlar (Haziran-Eylül):** Diyarbakır, Türkiye'nin en sıcak şehirlerinden biridir. Hava sıcaklığı düzenli olarak 45°C'yi aşar. Kurutma açısından mükemmel — halılar birkaç saatte kurur. Ancak aşırı sıcakta evde geçirilen süre artar, halılar daha çok aşınır.
+
+**Bozkır Tozu ve Rüzgâr:** Dicle vadisinin step iklimi güçlü rüzgâr ve yoğun toz taşır. İlkbahar (Mart-Mayıs) özellikle tozlu geçer. Bu ince toz halı liflerinin derinlerine işler ve ev tipi süpürgeyle çıkmaz — profesyonel derin yıkama zorunludur.
+
+**Kış Ayları (Aralık-Şubat):** Diyarbakır kışları Şanlıurfa'dan daha sert olabilir (-10°C'ye düşer). Kar yağışı yaygındır. Bu dönemde açık havada kurutma yapılamaz — kapalı kurutma tesisi olan firmayı tercih edin.
+
+**En Uygun Dönem:** Nisan-Mayıs ve Eylül-Ekim — hava ılık, nem düşük, firmalar yoğun değil.
+
+**Yoğun Dönem:** Ramazan ve Kurban Bayramı öncesi — Güneydoğu'da bayram temizliği ve misafir ağırlama geleneği çok güçlüdür. Firmalar 3 hafta öncesinden dolar.
+
+[Diyarbakır halı yıkama firmaları](/diyarbakir-hali-yikama-firmalari) — Diyarbakır'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+      },
+      {
+        heading: 'Diyarbakır Halı Yıkama Firması Seçerken Dikkat Edilecekler',
+        content: `**Geleneksel Halı ve Kilim Uzmanlığı:** Diyarbakır ve çevresi (Karacadağ yöresi) Türkiye'nin en önemli el dokuması kilim ve halı üretim bölgelerinden biridir. Karacadağ kilimleri, Diyarbakır cicim ve zili dokumaları koleksiyonerler tarafından aranır. Bu tür halılar özel bakım gerektirir — firma seçerken el dokuması halı deneyimini sorun.
+
+**Kalabalık Hane Avantajı:** Diyarbakır'da hane başı ortalama 5-7 kişidir. Birçok firma "ev paketi" sunarak toplu siparişlerde %10-20 indirim uygular. Tüm ev halılarını tek seferde yıkatmak hem fiyat hem ulaşım açısından avantajlıdır.
+
+**Sur İlçesi — Tarihi Merkez:** Sur ilçesinin dar sokaklarında halı teslim ve teslimat zorlaşabilir. Bazı firmalar bu bölge için ek ulaşım ücreti talep edebilir — sipariş öncesi teyit edin.
+
+**Su Kalitesi:** Diyarbakır'ın su sertliği orta düzeydedir. Dicle nehri kaynaklı su filtreleme sistemiyle kullanıldığında iyi sonuç verir. Firmaya arıtma sistemi olup olmadığını sorun — sert su halıda kalıntı bırakabilir.
+
+**Kış Döneminde Dikkat:** Aralık-Şubat arası halı yıkatıyorsanız firmadan kapalı kurutma tesisi olup olmadığını sorun. Açık havada kurutma yapan firmalardan kışın halı yıkatmayın — donma ve küf riski yüksektir.`,
+      },
+    ],
+    faq: [
+      { q: 'Diyarbakır\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı için ortalama 75 TL/m², el halısı 95-165 TL/m², kilim 70-95 TL/m² aralığındadır. Kayapınar en pahalı, Ergani ve Silvan en uygun ilçelerdir.' },
+      { q: 'Diyarbakır\'da halı yıkama kaç gün sürer?', a: 'Yaz aylarında 1-2 gün (kurutma birkaç saatte tamamlanır), kış aylarında kapalı kurutmayla 3-5 gün. Bayram dönemlerinde 5-7 güne çıkabilir.' },
+      { q: 'Diyarbakır\'da el dokuması kilim nerede yıkatılır?', a: 'Kayapınar ve Yenişehir\'deki köklü halı yıkama firmaları el dokuması Karacadağ kilimleri konusunda uzmanlaşmıştır. El dokuması halınız varsa mutlaka uzman firma tercih edin — standart yıkama renkleri bozabilir.' },
+      { q: 'Diyarbakır\'da en ucuz halı yıkama nerede?', a: 'Ergani, Silvan ve Çınar\'da 70-75 TL/m² ile Diyarbakır ortalamasının altında fiyatlar mevcuttur. Ancak bu ilçeler merkeze uzaktır — yerel firma tercih edin.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'sanliurfa-hali-yikama', 'gaziantep-hali-yikama'],
+  },
 ];
