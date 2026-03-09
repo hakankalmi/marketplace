@@ -6838,4 +6838,286 @@ Bayburt\'ta kış 5-6 ay sürer. Kışa girmeden:
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'gumushane-hali-yikama', 'erzurum-hali-yikama'],
   },
+
+  // ==================== ARDAHAN ====================
+  {
+    slug: 'ardahan-hali-yikama',
+    city: 'Ardahan',
+    citySlug: 'ardahan',
+    title: 'Ardahan Halı Yıkama Rehberi — Fiyatlar, Firmalar ve İpuçları',
+    metaTitle: 'Ardahan Halı Yıkama Fiyatları 2026 | En İyi Firmalar',
+    metaDescription: 'Ardahan halı yıkama fiyatları 2026 güncel liste. Türkiye\'nin en soğuk ilinde halı bakımı, ilçe bazlı firmalar ve fiyat karşılaştırması.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 7,
+    heroEmoji: '❄️',
+    intro: 'Ardahan, Türkiye\'nin en kuzeydoğusunda, **Kura Nehri** havzasında, 1829 m rakımda kurulmuş soğuk bir ildir. Yılın büyük bölümü kışla geçer ve halı yıkama sezonu son derece kısadır. Düşük nüfus yoğunluğu firma sayısını sınırlandırır. **[Ardahan halı yıkama firmaları](/ardahan-hali-yikama-firmalari)** bu zorlu koşullarda hizmet vermektedir.',
+    sections: [
+      {
+        heading: 'Ardahan\'da Halı Yıkama Fiyatları 2026',
+        content: `Ardahan\'da halı yıkama fiyatları sınırlı firma sayısı ve kısa sezon nedeniyle bölge ortalamasının üzerindedir.
+
+| Halı Türü | Fiyat Aralığı (m²) | Açıklama |
+|---|---|---|
+| Makine Halısı | 72 – 90 TL | Sezon kısıtlılığı fiyata yansır |
+| Yün / El Dokuma | 82 – 135 TL | Kafkas kilimleri özel bakım |
+| Shaggy / Uzun Tüy | 85 – 125 TL | Uzun kurutma süresi |
+| Yolluk / Merdiven | 70 – 80 TL | Metre bazlı hesaplama |
+
+🔴 **Yüksek**: Merkez (tek ciddi hizmet noktası)
+🟡 **Orta**: Göle (ikinci büyük yerleşim)
+🟢 **Uygun**: Çıldır, Posof (kırsal)
+
+*Ardahan Türkiye\'nin en soğuk ilidir. Halı yıkama sezonu Haziran ortası - Eylül başı ile sınırlıdır.*`,
+      },
+      {
+        heading: 'Ardahan İklimi ve Halı Bakımı',
+        content: `Ardahan, Türkiye\'nin sıcaklık rekorlarının kırıldığı illerdendir. -46°C ölçülmüştür. Yıllık ortalama sıcaklık sadece 4-5°C\'dir:
+
+**İklim zorlukları:**
+- Kış sıcaklıkları -30°C ile -46°C arası — Türkiye\'nin en soğuk ili
+- Kar örtüsü 5-6 ay (Kasım-Nisan)
+- Yaz bile serin geçer — Temmuz ortalaması 15-18°C
+- Çıldır Gölü kışın tamamen donar
+
+**Bakım önerileri:**
+- Halı yıkama penceresi sadece Haziran ortası - Eylül başı (yaklaşık 3 ay)
+- Açık havada kurutma bile yavaştır — serin hava ve rüzgâr nedeniyle
+- Kışa girmeden (Eylül sonu) tüm halıları yıkatın
+- Soba/kuzine kullanan evlerde kurum birikimi çok yoğun — kış sonunda kesinlikle yıkatma zorunlu
+- Halıları kesinlikle dondurmayın — lif kırılması kalıcıdır
+
+*Ardahan\'da kışın ev içi sıcaklık farkı büyüktür. Dışarısı -30°C iken soba yanı 25°C olabilir. Bu sıcaklık şoku halıda nem yoğuşmasına neden olur — soba yakınındaki halıları düzenli kontrol edin.*`,
+      },
+      {
+        heading: 'İlçe Bazlı Halı Yıkama Firmaları',
+        content: `Ardahan\'da firmalar çok sınırlıdır:
+
+- [Ardahan merkez halı yıkama](/ardahan-merkez-hali-yikama-firmalari) — Ana hizmet noktası
+- [Göle halı yıkama](/ardahan-gole-hali-yikama-firmalari) — İkinci büyük yerleşim
+- [Çıldır halı yıkama](/ardahan-cildir-hali-yikama-firmalari) — Çıldır Gölü bölgesi
+- [Posof halı yıkama](/ardahan-posof-hali-yikama-firmalari) — Gürcistan sınırı
+- [Hanak halı yıkama](/ardahan-hanak-hali-yikama-firmalari) — Kırsal bölge
+- [Damal halı yıkama](/ardahan-damal-hali-yikama-firmalari) — Dağ kasabası
+
+📌 *Ardahan\'da firma sayısı 1-2 ile sınırlıdır. Göle ilçesinde de küçük firmalar vardır. Diğer ilçelere merkezden servis yapılır.*`,
+      },
+      {
+        heading: 'Ardahan\'da Halı Seçimi ve Koruma',
+        content: `Türkiye\'nin en soğuk ilinde halı bakımı özel dikkat gerektirir:
+
+**Soba etkisi:**
+Ardahan\'da kışın odun, kömür ve tezek yakılır. 6 ay boyunca biriken kurum, kül ve is halılara derinlemesine işler. Koyu renkli, kısa tüylü halılar daha pratiktir. Kış sonunda profesyonel yıkama zorunludur.
+
+**Kafkas kilimleri:**
+Ardahan bölgesinin Kafkas etkili el dokuma kilimleri geometrik desenleri ve koyu tonlarıyla bilinir. Bu kilimler soğuk suda, elde yıkanmalıdır.
+
+**Hayvancılık etkisi:**
+Ardahan Türkiye\'nin en önemli hayvancılık merkezlerinden biridir. Ahır yakını evlerde hayvan kılı ve organik kirler halılara bulaşır. Bu tür halılar antibakteriyel yıkama gerektirir.
+
+**Kaz tüyü/yün döşeme:**
+Ardahan\'da kışın sıcak tutmak için halı altına kaz tüyü veya keçe serilir. Bu altlıklar da yılda 1 kez yıkatılmalıdır.
+
+*Çıldır Gölü kıyısındaki evlerde donma-çözülme döngüsü zemin nemini artırır. Bu bölgede halı altı kontrol özellikle önemlidir.*`,
+      },
+    ],
+    faq: [
+      { q: 'Ardahan\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı 72-90 TL/m², yün halı 82-135 TL/m² aralığındadır. Sınırlı firma ve kısa sezon fiyatları etkiler.' },
+      { q: 'Ardahan\'da halı yıkama sezonu ne zaman?', a: 'Haziran ortası - Eylül başı arasında yaklaşık 3 aylık bir pencere vardır. Bu süreyi mutlaka değerlendirin.' },
+      { q: 'Ardahan\'dan Kars firması tercih etmeli miyim?', a: 'Kars 65 km uzaktadır ve daha fazla firma seçeneği sunar. Fiyat + nakliye karşılaştırması yapın.' },
+      { q: '-30°C soğukta halıya ne olur?', a: 'Donmuş halıda lifler kırılganlaşır. Katlanma veya darbe halıyı kalıcı olarak bozar. Halıları kesinlikle dondurmayın.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'kars-hali-yikama', 'igdir-hali-yikama'],
+  },
+
+  // ==================== KARS ====================
+  {
+    slug: 'kars-hali-yikama',
+    city: 'Kars',
+    citySlug: 'kars',
+    title: 'Kars Halı Yıkama Rehberi — Fiyatlar, Firmalar ve İpuçları',
+    metaTitle: 'Kars Halı Yıkama Fiyatları 2026 | En İyi Firmalar',
+    metaDescription: 'Kars halı yıkama fiyatları 2026 güncel liste. Doğu\'nun tarihi şehrinde soğuk iklim halı bakımı, ilçe bazlı firmalar ve fiyat karşılaştırması.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 8,
+    heroEmoji: '🧊',
+    intro: 'Kars, Türkiye\'nin kuzeydoğusunda, 1768 m rakımda kurulmuş tarihi bir ildir. **Ani Harabeleri** (UNESCO Dünya Mirası), Rus mimarisi ve sert kışlarıyla bilinir. Orhan Pamuk\'un "Kar" romanına ev sahipliği yapan şehirde kış uzun ve acımasızdır. **[Kars halı yıkama firmaları](/kars-hali-yikama-firmalari)** bu zorlu iklime uygun çalışır.',
+    sections: [
+      {
+        heading: 'Kars\'ta Halı Yıkama Fiyatları 2026',
+        content: `Kars\'ta halı yıkama fiyatları Doğu Anadolu ortalamasındadır. Şehir merkezinde yeterli firma seçeneği bulunur.
+
+| Halı Türü | Fiyat Aralığı (m²) | Açıklama |
+|---|---|---|
+| Makine Halısı | 70 – 88 TL | Standart yıkama |
+| Yün / El Dokuma | 82 – 135 TL | Kars kilimleri ve Kafkas dokumaları |
+| Shaggy / Uzun Tüy | 85 – 125 TL | Uzun kurutma süresi |
+| Yolluk / Merdiven | 70 – 80 TL | Metre bazlı hesaplama |
+
+🔴 **Yüksek**: Merkez (talep yoğunluğu)
+🟡 **Orta**: Sarıkamış (turizm ilçesi), Kağızman
+🟢 **Uygun**: Selim, Arpaçay, Digor
+
+*Kars\'ta turizm sezonu (Haziran-Eylül) halı yıkama sezonu ile çakışır. Otel ve pansiyonlar sezon öncesi toplu yıkama yaptırır.*`,
+      },
+      {
+        heading: 'Kars İklimi ve Halı Bakımı',
+        content: `Kars, Türkiye\'nin en soğuk illerinden biridir. Karasal iklimin en sert hali burada yaşanır:
+
+**İklim zorlukları:**
+- Kış sıcaklıkları -25°C ile -40°C arası
+- Kar örtüsü 5-6 ay (Kasım-Nisan)
+- Yaz serin ve kısa — Temmuz ortalaması 18-20°C
+- Rüzgârlı bozkır — toz ve kum taşınması
+
+**Bakım önerileri:**
+- Yıkama sezonu Haziran-Eylül — bu pencereyi kaçırmayın
+- Sarıkamış\'ın çam ormanları bölgesinde nem oranı daha yüksek — dikkat
+- Kışa girmeden tüm halıları yıkatın
+- Soba kullanılan evlerde kış sonrası kurum temizliği zorunlu
+- Kars gravyeri ve kaşar peyniri üretim döneminde mutfak halılarına süt lekesi dikkat
+
+**Rus dönemi taş binalar:**
+Kars\'ın tarihi Rus mimarisi taş duvarlı evler içerir. Bu binalarda duvar soğukluğu halılara nem geçirir — halı altına keçe bariyeri şarttır.
+
+*Kars\'ta "kaz evi" geleneği vardır. Kaz yetiştiriciliği yapılan evlerde kaz tüyü halılara yapışır. Yapışkan bant rulosu ile düzenli temizlik + 6 ayda bir profesyonel yıkama önerilir.*`,
+      },
+      {
+        heading: 'İlçe Bazlı Halı Yıkama Firmaları',
+        content: `Kars\'ta firmalar merkez ve büyük ilçelerde bulunur:
+
+- [Kars merkez halı yıkama](/kars-merkez-hali-yikama-firmalari) — Ana hizmet noktası
+- [Sarıkamış halı yıkama](/kars-sarikamis-hali-yikama-firmalari) — Kayak merkezi, turizm
+- [Kağızman halı yıkama](/kars-kagizman-hali-yikama-firmalari) — Büyük ilçe
+- [Selim halı yıkama](/kars-selim-hali-yikama-firmalari) — Tarım bölgesi
+- [Arpaçay halı yıkama](/kars-arpacay-hali-yikama-firmalari) — Sınır ilçesi
+- [Digor halı yıkama](/kars-digor-hali-yikama-firmalari) — Kırsal bölge
+- [Akyaka halı yıkama](/kars-akyaka-hali-yikama-firmalari) — Küçük ilçe
+- [Susuz halı yıkama](/kars-susuz-hali-yikama-firmalari) — Ardahan sınırı
+
+📌 *Sarıkamış\'ta kayak sezonu (Aralık-Mart) otellerde halı yıpranmasını artırır. Sezon sonu (Nisan) toplu yıkama önerilir. Yaz aylarında Ani ören yeri turizmi başka bir yoğunluk dönemidir.*`,
+      },
+      {
+        heading: 'Kars\'ta Halı Seçimi ve Koruma',
+        content: `Doğu\'nun tarihi şehrinde halı bakımı:
+
+**Kars kilimleri ve Kafkas dokumaları:**
+Kars bölgesinin el dokuma kilimleri Kafkas etkisi taşır. Koyu tonlar (bordo, lacivert, siyah) ve geometrik desenler hakimdir. Bu kilimler kültürel miras değeri taşır — yalnızca uzman firmaya teslim edin.
+
+**Sarıkamış kayak otelleri:**
+Sarıkamış\'taki otel ve pansiyonlarda kar ayakkabılarından gelen nem ve tuz halılara zarar verir. Giriş bölgesinde paspas + ızgara sistemi olmalıdır. Otel halıları sezon sonunda mutlaka yıkatılmalıdır.
+
+**Peynir ve süt ürünleri:**
+Kars, Türkiye\'nin peynir başkentidir. Kaşar, gravyer ve çeçil üretimi yapılan evlerde süt ve peynir suyu lekesi yaygındır. Soğuk su ile anında müdahale edin — sıcak su proteini pıhtılaştırır ve lekeyi sabitler.
+
+*Kars\'ta "soğuk hava deposu" gibi kullanılan bodrum katlarda halı saklama yaygındır. Bu ortamda nem ve küf riski yüksektir — halıları kuru ve havadar ortamda saklayın.*`,
+      },
+    ],
+    faq: [
+      { q: 'Kars\'ta halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-88 TL/m², yün halı 82-135 TL/m² aralığındadır. Doğu Anadolu ortalamasına yakındır.' },
+      { q: 'Kars\'ta kışın halı yıkatılır mı?', a: 'Çok zordur. Kış -35°C\'ye düşer. Sadece kapalı tesislerde mümkün olabilir ama kurutma çok uzun sürer. Yaz sezonu kesinlikle tercih edin.' },
+      { q: 'Sarıkamış\'ta halı yıkama firması var mı?', a: 'Sarıkamış\'ta küçük firmalar mevcuttur. Kars merkezdeki büyük firmalar da Sarıkamış\'a servis yapar.' },
+      { q: 'Kars kiliminin değerini nasıl anlayabilirim?', a: 'Kars ve Kafkas kilimlerinin değeri yaşa, düğüm sıklığına ve boyama tekniğine göre değişir. Uzman firmalardan değerleme isteyin.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'ardahan-hali-yikama', 'igdir-hali-yikama'],
+  },
+
+  // ==================== YALOVA ====================
+  {
+    slug: 'yalova-hali-yikama',
+    city: 'Yalova',
+    citySlug: 'yalova',
+    title: 'Yalova Halı Yıkama Rehberi — Fiyatlar, Firmalar ve İpuçları',
+    metaTitle: 'Yalova Halı Yıkama Fiyatları 2026 | En İyi Firmalar',
+    metaDescription: 'Yalova halı yıkama fiyatları 2026 güncel liste. Marmara kıyısında termal şehirde halı bakımı, ilçe bazlı firmalar ve fiyat karşılaştırması.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 7,
+    heroEmoji: '♨️',
+    intro: 'Yalova, **Marmara Denizi** kıyısında, İstanbul\'a feribot ile 1 saat mesafede küçük ama canlı bir ildir. **Termal kaplıcaları** ile ünlü olan şehir, ılıman Marmara ikliminden faydalanır. Deniz kenarı konumu ve nemli hava halı bakımında özel dikkat gerektirir. **[Yalova halı yıkama firmaları](/yalova-hali-yikama-firmalari)** bu koşullara uygun hizmet sunar.',
+    sections: [
+      {
+        heading: 'Yalova\'da Halı Yıkama Fiyatları 2026',
+        content: `Yalova\'da halı yıkama fiyatları Marmara bölgesi ortalamasındadır. İstanbul\'a yakınlığı firma rekabetini artırır.
+
+| Halı Türü | Fiyat Aralığı (m²) | Açıklama |
+|---|---|---|
+| Makine Halısı | 70 – 88 TL | Standart yıkama |
+| Yün / El Dokuma | 80 – 135 TL | Özel bakım |
+| Shaggy / Uzun Tüy | 85 – 125 TL | Nemli iklim, derinlemesine kurutma |
+| Yolluk / Merdiven | 70 – 80 TL | Metre bazlı hesaplama |
+
+🔴 **Yüksek**: Merkez, Termal (turizm ek talebi)
+🟡 **Orta**: Çiftlikköy, Altınova
+🟢 **Uygun**: Çınarcık, Armutlu
+
+*Yalova küçük bir il olmasına rağmen İstanbul göçü ile nüfusu hızla artmaktadır. Firma sayısı talebi karşılayacak düzeydedir.*`,
+      },
+      {
+        heading: 'Yalova İklimi ve Halı Bakımı',
+        content: `Yalova, ılıman Marmara iklimi etkisindedir. Deniz yakınlığı nem oranını yıl boyu yüksek tutar:
+
+**İklim özellikleri:**
+- Kışlar ılık (5-8°C), yazlar sıcak (28-32°C)
+- Yıl boyu nem oranı %65-80 — deniz etkisi
+- Yağışlı sonbahar-kış dönemi
+- Termal bölgelerde ek buhar ve nem
+
+**Halı bakımı önerileri:**
+- Deniz kenarı ve termal bölge evlerinde halı altına nem bariyeri zorunlu
+- Yılda en az 2 kez profesyonel yıkama — nem kaynaklı küf riski
+- Kapalı ortamlarda nem giderici cihaz kullanma
+- Yaz aylarında kurutma hızlı — bu dönemi değerlendirin
+
+**Termal bölge özel:**
+Yalova Termal\'deki otel ve kaplıca tesislerinde aşırı buhar ortamı halılara zarar verir. Bu tesislerde sentetik, nem tutmayan halılar tercih edilmeli ve 3 ayda bir yıkatılmalıdır.
+
+*Yalova\'da İstanbul\'dan emekli göçü yoğundur. Yeni taşınan aileler genellikle eski halılarını getirir — taşınma sonrası profesyonel yıkama önerilir.*`,
+      },
+      {
+        heading: 'İlçe Bazlı Halı Yıkama Firmaları',
+        content: `Yalova küçük bir il olup tüm ilçeler birbirine yakındır:
+
+- [Yalova merkez halı yıkama](/yalova-merkez-hali-yikama-firmalari) — Ana hizmet merkezi
+- [Çiftlikköy halı yıkama](/yalova-ciftlikkoy-hali-yikama-firmalari) — Sanayi ve yerleşim
+- [Çınarcık halı yıkama](/yalova-cinarcik-hali-yikama-firmalari) — Yazlık bölge
+- [Altınova halı yıkama](/yalova-altinova-hali-yikama-firmalari) — Tersane bölgesi
+- [Termal halı yıkama](/yalova-termal-hali-yikama-firmalari) — Kaplıca turizmi
+- [Armutlu halı yıkama](/yalova-armutlu-hali-yikama-firmalari) — Yarımada
+
+📌 *Çınarcık ve Armutlu yazlık bölgeleridir. Yaz sezonunda halı yıkama talebi artar. Sezon öncesi (Mayıs) yıkatmak hem fiyat hem randevu açısından avantajlıdır.*`,
+      },
+      {
+        heading: 'Yalova\'da Halı Yıkama İpuçları',
+        content: `Marmara\'nın termal şehrinde halı bakımı:
+
+**Yazlık evler:**
+Çınarcık ve Armutlu\'daki yazlık evlerin halıları kışın aylarca kapalı kalır. Sezon açılışında halılar nemli ve küflü olabilir. Mutlaka sezon başında profesyonel yıkatın.
+
+**Tersane bölgesi (Altınova):**
+Yalova Altınova\'daki tersane ve sanayi bölgesinde metalik toz ve endüstriyel kirler halılara yerleşir. Bu bölgede 4-5 ayda bir yıkatma önerilir.
+
+**Zeytinyağı ve balık lekesi:**
+Yalova\'da zeytin bahçeleri ve balıkçılık yaygındır:
+- Zeytinyağı lekesine un/nişasta serpin, 20 dk bekleyin, vakumlayın
+- Balık lekesine soğuk su + sirke (koku için karbonat ekleme)
+
+**İstanbul firmaları mı tercih etmeliyim?**
+Yalova\'dan İstanbul\'a feribot ile ulaşım kolay olsa da nakliye maliyeti eklenince yerel firmalar daha avantajlıdır. Yalova\'daki firmalar İstanbul kalitesinde hizmet sunar.
+
+*Yalova\'da deprem riski yüksektir (1999 depremi). Deprem çantanızda halı değil ama deprem sonrası halılardaki moloz ve cam temizliği için profesyonel firma numarasını saklayın.*`,
+      },
+    ],
+    faq: [
+      { q: 'Yalova\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-88 TL/m², yün halı 80-135 TL/m² aralığındadır. Marmara ortalamasına yakındır.' },
+      { q: 'Yalova\'da termal bölgede özel halı bakımı gerekir mi?', a: 'Evet, termal bölgede buhar ve nem çok yoğundur. Sentetik halılar tercih edilmeli ve daha sık yıkatılmalıdır.' },
+      { q: 'Yazlık evin halılarını ne zaman yıkatmalıyım?', a: 'Sezon açılışında (Mayıs) mutlaka yıkatın. Kış boyunca kapalı kalan halılarda nem ve küf birikmiş olabilir.' },
+      { q: 'Yalova\'dan İstanbul firması mı tercih etmeliyim?', a: 'Yerel firmalar daha ekonomik ve pratiktir. Feribot + nakliye maliyeti eklenince İstanbul firması avantajını kaybeder.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'bursa-hali-yikama', 'istanbul-hali-yikama'],
+  },
 ];
