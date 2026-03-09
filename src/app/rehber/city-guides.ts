@@ -1102,4 +1102,116 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'izmir-hali-yikama', 'bursa-hali-yikama'],
   },
+
+  /* ─── 15. KAYSERİ ─── */
+  {
+    slug: 'kayseri-hali-yikama',
+    city: 'Kayseri',
+    citySlug: 'kayseri',
+    title: 'Kayseri Halı Yıkama Rehberi: Fiyatlar, Firmalar ve İpuçları (2026)',
+    metaTitle: 'Kayseri Halı Yıkama Fiyatları 2026 | Firma Rehberi',
+    metaDescription: 'Kayseri halı yıkama fiyatları 2026 güncel liste. Melikgazi, Kocasinan, Talas, Develi fiyat karşılaştırma. Kayseri halı yıkama firması seçim rehberi.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'Şehir Rehberi',
+    readingTime: 9,
+    heroEmoji: '🏔️',
+    intro: `**Kayseri**, Türkiye'nin halıcılık başkentidir. Bünyan halıları dünya çapında tanınır ve Kayseri'de halı yıkama, sadece temizlik değil bir kültürel miras koruma işidir. İç Anadolu'nun sert kara iklimi — uzun soğuk kışlar, sıcak yazlar, düşük nem — halı bakım döngüsünü doğrudan şekillendirir. Kayseri'deki halı yıkama firmaları özellikle el dokuması ve antika halı konusunda Türkiye'nin en deneyimli firmalarıdır. [Kayseri halı yıkama firmaları](/kayseri-hali-yikama-firmalari) arasında en uygun fiyatlı ve güvenilir firmayı bulmak için bu rehberi hazırladık.`,
+    sections: [
+      {
+        heading: 'Kayseri Halı Yıkama Fiyatları 2026',
+        content: `Kayseri'de halı yıkama fiyatları İstanbul ve Ankara'ya göre daha uygun, ancak Kayseri halıcılık bilgisinin derinliği fiyatlara yansır — el dokuması halı yıkama konusunda uzman firmalar burada yoğunlaşmıştır.
+
+| Halı Türü | Fiyat Aralığı (m²) | Ortalama |
+|---|---|---|
+| Makine halısı | 70 – 120 TL | 85 TL |
+| El dokuması halı | 100 – 200 TL | 140 TL |
+| Bünyan / antika halı | 150 – 400 TL | 250 TL |
+| Shaggy / tüylü halı | 80 – 160 TL | 110 TL |
+| İpek halı | 180 – 500 TL | 300 TL |
+| Koltuk yıkama (kişilik) | 150 – 350 TL | 230 TL |
+| Yorgan yıkama (adet) | 120 – 250 TL | 170 TL |
+
+**İlçe Bazlı Fiyat Farkları:**
+
+🔴 **Yüksek Segment**: [Melikgazi halı yıkama](/kayseri-melikgazi-hali-yikama-firmalari), [Talas halı yıkama](/kayseri-talas-hali-yikama-firmalari) — 90-200 TL/m². Modern siteler, yüksek gelir düzeyi, özel halı oranı yüksek.
+
+🟡 **Orta Segment**: [Kocasinan halı yıkama](/kayseri-kocasinan-hali-yikama-firmalari), [İncesu halı yıkama](/kayseri-incesu-hali-yikama-firmalari), [Hacılar halı yıkama](/kayseri-hacilar-hali-yikama-firmalari) — 75-140 TL/m². Kayseri ortalaması.
+
+🟢 **Uygun Segment**: [Develi halı yıkama](/kayseri-develi-hali-yikama-firmalari), [Yahyalı halı yıkama](/kayseri-yahyali-hali-yikama-firmalari), [Bünyan halı yıkama](/kayseri-bunyan-hali-yikama-firmalari), [Tomarza halı yıkama](/kayseri-tomarza-hali-yikama-firmalari), [Pınarbaşı halı yıkama](/kayseri-pinarbasi-hali-yikama-firmalari), [Sarıoğlan halı yıkama](/kayseri-sarioglan-hali-yikama-firmalari) — 70-110 TL/m². Merkeze uzak ilçeler, rekabet düşük ama fiyat da düşük.
+
+📌 *Kayseri halıcılık kültürü nedeniyle el dokuması halı fiyatları Türkiye ortalamasının üzerindedir — uzmanlık gerektirdiği için bu normaldir.*`,
+      },
+      {
+        heading: 'Kayseri İklimi ve Halı Bakım Takvimi',
+        content: `Kayseri'nin 1050 metre rakımı ve karasal iklimi halı bakım stratejisini belirler:
+
+**Sert Kışlar (Kasım-Mart):** Kayseri'de kış -15°C'ye kadar düşebilir ve Erciyes Dağı'ndan gelen soğuk rüzgarlar nemi sıfıra indirir. Evler kapalı kalır, kalorifer ve soba tozu havada tutar — halılar kuru toz biriktirir. Kışın halı yıkatmak zordur çünkü dış kurutma imkansız; bu dönemde yıkatacaksanız kapalı kurutma tesisi olan firma tercih edin.
+
+**Erciyes Kayak Sezonu (Aralık-Mart):** Erciyes Kayak Merkezi'ne yakın bölgelerdeki apart ve otellerde halılar çok yoğun kullanılır. Sezon sonu (Mart-Nisan) bu bölgelerde halı yıkama talebi patlar.
+
+**Bahar Temizliği (Nisan-Mayıs):** Kayseri'de "bahar temizliği" geleneği çok güçlüdür. Nisan ortasından itibaren halılar pencerelerden sarkıtılır, bahçelerde serilir. Firmalara en erken randevu Mart sonunda alınmalıdır — Nisan'da kuyruk oluşur.
+
+**Sıcak Yazlar (Haziran-Ağustos):** Gündüz 35°C+ olabilir ama nem çok düşüktür. Kurutma 3-4 saatte tamamlanır. Halı yıkama için ideal dönem.
+
+**Toz Fırtınaları (Temmuz-Ağustos):** Kayseri Ovası'ndan gelen toz fırtınaları açık pencereli evlerdeki halıları hızla kirletir. Yaz sonunda bir kez daha yıkatmak gerekebilir.
+
+**En İyi Dönem:** Mayıs ve Eylül — hava ılık, firmalar yoğun değil, kurutma hızlı.
+
+[Kayseri halı yıkama firmaları](/kayseri-hali-yikama-firmalari) — Kayseri'deki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+      },
+      {
+        heading: 'Kayseri Halı Yıkama Firması Seçerken Dikkat Edilecekler',
+        content: `**Bünyan ve Yahyalı Halıları — Özel Uzmanlık:** Kayseri, Bünyan ve Yahyalı halılarının üretim merkezidir. Bu el dokuması halılar doğal boyalarla boyanır ve yanlış yıkama renk akmasına neden olur. Firma seçerken "el dokuması halı yıkama deneyimi var mı?" sorusunu mutlaka sorun. Platform üzerinden firma profillerinde bu bilgiyi görebilirsiniz.
+
+**Antika Halı Koleksiyonerleri:** Kayseri'de 100+ yıllık antika halı koleksiyonu olan aileler çoktur. Bu halılar müze değerindedir ve standart yıkama yapılmamalıdır. pH nötr deterjan, elle yıkama ve gölgede kurutma şarttır. Fiyat yüksek olsa bile uzman firma tercih edin — bir hatanın maliyeti yıkama ücretinin yüzlerce katı olabilir.
+
+**Organize Sanayi Bölgesi Etkisi:** Kayseri OSB Türkiye'nin en büyük sanayi bölgelerinden biridir (mobilya, tekstil, metal). Sanayi çevresindeki mahallelerde (Mimarsinan, Osman Kavuncu civarı) endüstriyel toz ve partikül birikimi yüksektir. Bu bölgelerdeyseniz yılda 2-3 kez yıkatmayı planlayın.
+
+**Erciyes Bölgesi Oteller:** Erciyes'e yakın apart/otel işletmecisiyseniz, sezon sonu toplu halı yıkama anlaşması yapılabilir. 50+ m² üzeri siparişlerde %10-25 indirim sunan firmalar mevcuttur.
+
+**Kayseri Ticaret Kültürü:** Kayserililer pazarlık konusunda ünlüdür ve bu halı yıkama sektörüne de yansır. Birden fazla firmadan teklif alın, platform üzerinden fiyatları karşılaştırın. Ancak en ucuza değil, en güvenilire bakın — özellikle değerli halılarda.
+
+**Talas ve Melikgazi — Premium Talep:** Bu iki ilçe Kayseri'nin en gelişmiş bölgeleridir. Buradaki firmalar daha profesyonel hizmet sunar ama fiyatlar da yüksektir. Kocasinan'daki firmalar benzer kaliteyi daha uygun fiyata sunabilir.`,
+      },
+      {
+        heading: 'Kayseri İlçe Bazlı Halı Yıkama Firmaları',
+        content: `Kayseri 16 ilçeye sahiptir. İşte ilçe bazlı halı yıkama firma rehberi:
+
+**Büyükşehir Merkez İlçeler:**
+- [Melikgazi halı yıkama](/kayseri-melikgazi-hali-yikama-firmalari) — Kayseri'nin en kalabalık ilçesi, en çok firma seçeneği
+- [Kocasinan halı yıkama](/kayseri-kocasinan-hali-yikama-firmalari) — Sanayi bölgesine yakın, uygun fiyatlı firmalar
+- [Talas halı yıkama](/kayseri-talas-hali-yikama-firmalari) — Premium konut bölgesi, kaliteli firmalar
+- [Hacılar halı yıkama](/kayseri-hacilar-hali-yikama-firmalari) — Küçük ama gelişen ilçe
+
+**Halıcılık Merkezi İlçeler:**
+- [Bünyan halı yıkama](/kayseri-bunyan-hali-yikama-firmalari) — El dokuması halının merkezi, uzman firmalar
+- [Yahyalı halı yıkama](/kayseri-yahyali-hali-yikama-firmalari) — Yahyalı halıları için yerel uzmanlar
+
+**Erciyes Bölgesi:**
+- [Develi halı yıkama](/kayseri-develi-hali-yikama-firmalari) — Erciyes'in güney etekleri, uygun fiyatlar
+
+**Diğer İlçeler:**
+- [İncesu halı yıkama](/kayseri-incesu-hali-yikama-firmalari) — Yer altı şehirleri bölgesi
+- [Tomarza halı yıkama](/kayseri-tomarza-hali-yikama-firmalari) — Kırsal bölge, yerel firmalar
+- [Pınarbaşı halı yıkama](/kayseri-pinarbasi-hali-yikama-firmalari) — Kayseri'nin doğusu
+- [Sarıoğlan halı yıkama](/kayseri-sarioglan-hali-yikama-firmalari) — Ova bölgesi
+- [Felahiye halı yıkama](/kayseri-felahiye-hali-yikama-firmalari) — Küçük ilçe
+- [Özvatan halı yıkama](/kayseri-ozvatan-hali-yikama-firmalari) — Kırsal
+- [Akkışla halı yıkama](/kayseri-akkisla-hali-yikama-firmalari) — Merkeze uzak
+- [Sarız halı yıkama](/kayseri-sariz-hali-yikama-firmalari) — En doğu ilçe
+- [Yeşilhisar halı yıkama](/kayseri-yesilhisar-hali-yikama-firmalari) — Kapadokya sınırı
+
+📌 *Merkeze uzak ilçelerde (Pınarbaşı, Sarız, Akkışla) firma sayısı sınırlıdır. Bu ilçelerden Melikgazi veya Kocasinan'daki firmalardan hizmet almak daha pratik olabilir — birçok firma şehir genelinde ücretsiz teslimat sunar.*`,
+      },
+    ],
+    faq: [
+      { q: 'Kayseri\'de halı yıkama ortalama ne kadar?', a: 'Makine halısı ortalama 85 TL/m², el dokuması 100-200 TL/m², Bünyan/antika halı 150-400 TL/m² aralığındadır. Melikgazi ve Talas en pahalı, Develi ve Yahyalı en uygun ilçelerdir.' },
+      { q: 'Kayseri\'de Bünyan halısı nerede yıkatılır?', a: 'Bünyan halıları için ya Bünyan\'daki yerel uzman firmalar ya da Melikgazi/Kocasinan\'daki el dokuması halı deneyimi olan firmalar tercih edilmelidir. Standart makine yıkama bu halılara zarar verebilir — pH nötr deterjan ve elle yıkama şarttır.' },
+      { q: 'Kayseri\'de halı yıkama kaç gün sürer?', a: 'Yaz aylarında düşük nem sayesinde 1-2 gün, kış aylarında kapalı kurutma ile 3-5 gün. Bahar sezonu (Nisan-Mayıs) yoğunlukta süre 4-5 güne uzayabilir.' },
+      { q: 'Kayseri\'de en uygun halı yıkama hangi ilçede?', a: 'Develi, Yahyalı, Tomarza ve Pınarbaşı\'da 70-80 TL/m² ile Kayseri ortalamasının altında fiyatlar mevcuttur. Ancak firma sayısı sınırlıdır — merkez ilçelerdeki firmalar da bu bölgelere hizmet verir.' },
+      { q: 'Kayseri\'de kışın halı yıkatılır mı?', a: 'Evet, ancak kapalı kurutma tesisi olan firma tercih edin. Kayseri kışları çok soğuktur (-10°C altı), açık havada kurutma yapılamaz. Kapalı kurutma ile süre 3-5 güne uzar ama halıya zarar gelmez.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'ankara-hali-yikama', 'konya-hali-yikama'],
+  },
 ];
