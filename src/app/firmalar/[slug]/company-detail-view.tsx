@@ -274,6 +274,16 @@ export function CompanyDetailView({ company }: Props) {
                         />
                       </div>
                     ) : null}
+                    {review.companyResponse && (
+                      <div className="mt-3 ml-6 p-3 bg-brand-primary/5 rounded-brand border-l-2 border-brand-primary/30">
+                        <p className="text-[11px] font-semibold text-brand-primary mb-1">
+                          Firma Yanıtı
+                        </p>
+                        <p className="text-sm text-brand-text-muted">
+                          {review.companyResponse}
+                        </p>
+                      </div>
+                    )}
                   </div>
                 ))}
               </div>
