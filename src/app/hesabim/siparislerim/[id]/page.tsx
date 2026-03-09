@@ -125,14 +125,14 @@ function buildTimeline(order: OrderResponseDto): TimelineStep[] {
 
   // Firma Onayı
   steps.push({
-    label: 'Firma Onayladı',
-    description: s >= 1
-      ? (order.estimatedPickupByCompany
+    label: s === 0 ? 'Firma Onayı Bekleniyor' : 'Firma Onayladı',
+    description: s === 0
+      ? 'Firma siparişinizi değerlendiriyor'
+      : (order.estimatedPickupByCompany
         ? `Tahmini teslim alma: ${formatDate(order.estimatedPickupByCompany)}`
-        : 'Firma en kısa sürede sizinle iletişime geçecek')
-      : 'Firma siparişinizi değerlendiriyor',
+        : 'Firma en kısa sürede sizinle iletişime geçecek'),
     icon: CheckCircle,
-    status: s >= 1 ? 'completed' : (s === 0 ? 'active' : 'upcoming'),
+    status: s === 0 ? 'active' : (s === 1 ? 'active' : 'completed'),
     timestamp: order.acceptedAt,
   });
 
@@ -143,7 +143,7 @@ function buildTimeline(order: OrderResponseDto): TimelineStep[] {
       ? 'Ürünleriniz teslim alındı, işlem başladı'
       : 'Firma ürünlerinizi teslim almak için gelecek',
     icon: Truck,
-    status: s >= 5 ? 'completed' : (s === 1 ? 'active' : 'upcoming'),
+    status: s >= 5 ? (s === 6 ? 'completed' : 'active') : 'upcoming',
     timestamp: null,
   });
 
