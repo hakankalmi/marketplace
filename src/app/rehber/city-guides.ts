@@ -1214,4 +1214,113 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'ankara-hali-yikama', 'konya-hali-yikama'],
   },
+
+  /* ─── 16. SAMSUN ─── */
+  {
+    slug: 'samsun-hali-yikama',
+    city: 'Samsun',
+    citySlug: 'samsun',
+    title: 'Samsun Halı Yıkama Rehberi: Fiyatlar, Firmalar ve İpuçları (2026)',
+    metaTitle: 'Samsun Halı Yıkama Fiyatları 2026 | Firma Rehberi',
+    metaDescription: 'Samsun halı yıkama fiyatları 2026 güncel liste. Atakum, İlkadım, Canik, Bafra fiyat karşılaştırma. Samsun halı yıkama firması seçim rehberi.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'Şehir Rehberi',
+    readingTime: 8,
+    heroEmoji: '🌊',
+    intro: `**Samsun**, Karadeniz'in en büyük şehri ve bölgenin ticaret merkezidir. Yılda 1000 mm'yi aşan yağış ve %75+ ortalama nem, Samsun'u Türkiye'nin halı bakımı açısından en zorlu şehirlerinden biri yapar. Nemli iklim halılarda küf, bakteri ve koku oluşumunu hızlandırır — bu nedenle Samsun'da düzenli halı yıkama sağlık açısından da kritiktir. [Samsun halı yıkama firmaları](/samsun-hali-yikama-firmalari) arasında en uygun fiyatlı ve güvenilir firmayı bulmak için bu rehberi hazırladık.`,
+    sections: [
+      {
+        heading: 'Samsun Halı Yıkama Fiyatları 2026',
+        content: `Samsun'da halı yıkama fiyatları Karadeniz Bölgesi ortalamasındadır. Ancak yüksek nem nedeniyle kurutma maliyetleri batı illerine göre daha yüksektir — kapalı kurutma tesisi olan firmalar bunu fiyata yansıtır.
+
+| Halı Türü | Fiyat Aralığı (m²) | Ortalama |
+|---|---|---|
+| Makine halısı | 70 – 120 TL | 85 TL |
+| El dokuması halı | 95 – 180 TL | 130 TL |
+| Shaggy / tüylü halı | 80 – 150 TL | 105 TL |
+| İpek halı | 150 – 350 TL | 230 TL |
+| Koltuk yıkama (kişilik) | 150 – 300 TL | 200 TL |
+| Yorgan yıkama (adet) | 120 – 220 TL | 160 TL |
+
+**İlçe Bazlı Fiyat Farkları:**
+
+🔴 **Yüksek Segment**: [Atakum halı yıkama](/samsun-atakum-hali-yikama-firmalari), [İlkadım halı yıkama](/samsun-ilkadim-hali-yikama-firmalari) — 85-180 TL/m². Sahil şeridi, modern konutlar, yüksek talep.
+
+🟡 **Orta Segment**: [Canik halı yıkama](/samsun-canik-hali-yikama-firmalari), [Tekkeköy halı yıkama](/samsun-tekkekoy-hali-yikama-firmalari), [Bafra halı yıkama](/samsun-bafra-hali-yikama-firmalari) — 75-130 TL/m². Samsun ortalaması.
+
+🟢 **Uygun Segment**: [Çarşamba halı yıkama](/samsun-carsamba-hali-yikama-firmalari), [Terme halı yıkama](/samsun-terme-hali-yikama-firmalari), [Vezirköprü halı yıkama](/samsun-vezirkopru-hali-yikama-firmalari), [Havza halı yıkama](/samsun-havza-hali-yikama-firmalari), [Ladik halı yıkama](/samsun-ladik-hali-yikama-firmalari), [Alaçam halı yıkama](/samsun-alacam-hali-yikama-firmalari) — 70-100 TL/m².
+
+📌 *Samsun'da kurutma maliyeti kritiktir. Kapalı kurutma tesisi olmayan firmalar nem dönemlerinde halıları tam kurutamayabilir — küf riski artar. Firma seçerken kurutma altyapısını sorun.*`,
+      },
+      {
+        heading: 'Samsun İklimi ve Halı Bakım Takvimi',
+        content: `Samsun'un Karadeniz iklimi halı bakımını Türkiye'nin çoğu şehrinden farklı kılar:
+
+**Sürekli Nem (Yıl Boyu):** Samsun'da ortalama nem %75-85 arasıdır. Bu, halıların doğal olarak nem çekmesi ve kurumaması anlamına gelir. Zemin kattaki halılarda küf riski çok yüksektir. Yılda en az 2-3 kez profesyonel yıkama + anti-küf işlem tavsiye edilir.
+
+**Yağışlı Dönem (Ekim-Mart):** Samsun yılda 200+ gün yağış alır. Bu dönemde açık havada kurutma neredeyse imkansızdır. Kapalı kurutma tesisi olan firma seçmek zorunludur — yoksa halınız 5-7 gün yaş kalabilir ve küflenebilir.
+
+**Kısa Yaz (Haziran-Ağustos):** Samsun yazları serin ve nemlidir (25-28°C), ancak yaz aylarında nem biraz düşer. Bu dönem halı yıkama için en uygun zamandır — kurutma 2-3 günde tamamlanır.
+
+**Tütün ve Fındık Dönemleri (Temmuz-Eylül):** Samsun Türkiye'nin en önemli tütün ve fındık üretim merkezidir. Hasat dönemlerinde evlere taşınan toz, polen ve organik kalıntılar halıları kirletir. Hasat sonrası (Eylül) halı yıkatmak mantıklıdır.
+
+**Kızılırmak Ovası — Seller:** Bafra ve Çarşamba ovaları sel riski taşır. Sel sonrası halılar kirli su ile temas ederse acil profesyonel yıkama gerekir — ev tipi temizlik yetmez.
+
+**En İyi Dönem:** Haziran-Temmuz — en az yağışlı, en sıcak ve en kuru dönem.
+
+[Samsun halı yıkama firmaları](/samsun-hali-yikama-firmalari) — Samsun'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+      },
+      {
+        heading: 'Samsun Halı Yıkama Firması Seçerken Dikkat Edilecekler',
+        content: `**Kurutma Tesisi — 1 Numaralı Kriter:** Samsun'da firma seçerken ilk soru "kapalı kurutma tesisi var mı?" olmalıdır. Kapalı kurutma (fan + ısıtıcı) olmadan nem döneminde halılar düzgün kuruamaz. Platform üzerinden firma profillerinde bu bilgiyi kontrol edebilirsiniz.
+
+**Anti-Küf İşlem:** Yüksek nem nedeniyle Samsun'daki profesyonel firmalar anti-küf (anti-fungal) işlem sunar. Özellikle zemin katta yaşıyorsanız veya halılarınızda küf kokusu varsa bu hizmeti talep edin. Genellikle 10-20 TL/m² ek ücret.
+
+**Bafra ve Çarşamba — Ova Nemi:** Kızılırmak ve Yeşilırmak deltaları Türkiye'nin en verimli ovalarıdır ama nem düzeyi şehir merkezinden bile yüksektir. Bu bölgelerdeki halılar daha sık yıkanmalı ve mutlaka anti-küf işlem yapılmalıdır.
+
+**Deniz Tuzu Etkisi:** Atakum sahil şeridindeki evlerde deniz tuzu nemi halı liflerine işler. Bu tür halılar önce tatlı su ile durulanmalı — tuzlu halı kuruduktan sonra sertleşir ve lif bozulması başlar. Sahil bölgesinde yaşıyorsanız firmaya belirtin.
+
+**Karadeniz El Dokuması Kilimleri:** Samsun ve çevresinde geleneksel Karadeniz kilimleri üretilir. Bu ince dokuma kilimler makine yıkamaya uygun değildir — elle yıkama gerektiren az sayıdaki firma vardır, platform üzerinden filtreleyebilirsiniz.
+
+**Ordu-Trabzon Karşılaştırması:** Samsun fiyatları doğusundaki Ordu ve Trabzon'a göre %5-10 daha uygundur — daha büyük pazarın rekabet avantajı. Doğu Karadeniz'den Samsun'a halı göndermek bazen daha ekonomik olabilir.`,
+      },
+      {
+        heading: 'Samsun İlçe Bazlı Halı Yıkama Firmaları',
+        content: `Samsun 17 ilçeye sahiptir. İşte ilçe bazlı halı yıkama firma rehberi:
+
+**Büyükşehir Merkez İlçeler:**
+- [Atakum halı yıkama](/samsun-atakum-hali-yikama-firmalari) — Sahil şeridi, üniversite, en çok firma
+- [İlkadım halı yıkama](/samsun-ilkadim-hali-yikama-firmalari) — Şehir merkezi, tarihi çarşı
+- [Canik halı yıkama](/samsun-canik-hali-yikama-firmalari) — Gelişen konut alanları
+- [Tekkeköy halı yıkama](/samsun-tekkekoy-hali-yikama-firmalari) — Sanayi bölgesi yakını
+
+**Delta Ovaları:**
+- [Bafra halı yıkama](/samsun-bafra-hali-yikama-firmalari) — Kızılırmak deltası, yüksek nem
+- [Çarşamba halı yıkama](/samsun-carsamba-hali-yikama-firmalari) — Yeşilırmak deltası, tarım bölgesi
+- [Terme halı yıkama](/samsun-terme-hali-yikama-firmalari) — Fındık üretim merkezi
+
+**İç Kesim İlçeler:**
+- [Vezirköprü halı yıkama](/samsun-vezirkopru-hali-yikama-firmalari) — Tarihi ilçe
+- [Havza halı yıkama](/samsun-havza-hali-yikama-firmalari) — Kaplıcalar şehri
+- [Ladik halı yıkama](/samsun-ladik-hali-yikama-firmalari) — Göl kenarı yerleşim
+- [Kavak halı yıkama](/samsun-kavak-hali-yikama-firmalari) — Orman bölgesi
+- [Asarcık halı yıkama](/samsun-asarcik-hali-yikama-firmalari) — Dağ ilçesi
+- [Salıpazarı halı yıkama](/samsun-salipazari-hali-yikama-firmalari) — Kırsal
+- [Ayvacık halı yıkama](/samsun-ayvacik-hali-yikama-firmalari) — Küçük ilçe
+- [Alaçam halı yıkama](/samsun-alacam-hali-yikama-firmalari) — Sahil kasabası
+- [Yakakent halı yıkama](/samsun-yakakent-hali-yikama-firmalari) — Batı sahil
+- [19 Mayıs halı yıkama](/samsun-19-mayis-hali-yikama-firmalari) — Tarım ilçesi
+
+📌 *Merkeze uzak ilçelerde firma sayısı sınırlıdır. Bafra ve Çarşamba kendi yerel pazarlarına sahiptir, ancak diğer ilçelerde Atakum veya İlkadım firmalarından hizmet almak daha pratik olabilir.*`,
+      },
+    ],
+    faq: [
+      { q: 'Samsun\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı ortalama 85 TL/m², shaggy 80-150 TL/m², ipek halı 150-350 TL/m² aralığındadır. Atakum ve İlkadım en pahalı, Çarşamba ve Terme en uygun ilçelerdir.' },
+      { q: 'Samsun\'da halı yıkama kaç gün sürer?', a: 'Yaz aylarında 2-3 gün, kışın 4-6 gün. Samsun\'un yüksek nemi kurutmayı uzatır — kapalı kurutma tesisi olan firmalar 1-2 gün daha hızlıdır.' },
+      { q: 'Samsun neminde halı küflenmez mi?', a: 'Evet, profesyonel yıkama yapılmazsa küf riski yüksektir. Anti-küf işlem isteyin (10-20 TL/m² ek ücret). Zemin katta yaşıyorsanız yılda 2-3 kez yıkatmak şarttır.' },
+      { q: 'Samsun\'da kışın halı yıkatılır mı?', a: 'Evet, ancak kapalı kurutma tesisi olan firma seçmek zorunludur. Açık havada kurutma kışın mümkün değildir — 200+ gün yağış alan bir şehirde halınız düzgün kurumaz ve küflenme riski artar.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'istanbul-hali-yikama', 'ankara-hali-yikama'],
+  },
 ];
