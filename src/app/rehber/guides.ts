@@ -88,16 +88,16 @@ Orta-üst segment. El yapımı Nepal halıları özel bakım gerektirir.`,
         heading: 'Halı Yıkama Fiyatları — Şehir Bazlı Karşılaştırma',
         content: `Türkiye genelinde halı yıkama fiyatları bölgesel farklılıklar gösterir. Aşağıdaki veriler firmaların gerçek fiyat listelerinden derlenmiştir:
 
-**İstanbul:** Ortalama 140 TL/m² (aralık: 70-450 TL) — Türkiye'nin en pahalı pazarı, kira ve işçilik maliyetleri nedeniyle.
-**Kocaeli:** Ortalama 135 TL/m² (aralık: 75-200 TL).
-**İzmir:** Ortalama 120 TL/m² (aralık: 70-300 TL) — Ege bölgesinde rekabetçi fiyatlar.
-**Bursa:** Ortalama 110 TL/m² (aralık: 65-300 TL) — İstanbul'a göre %20 daha uygun.
-**Antalya:** Ortalama 95 TL/m² (aralık: 55-150 TL) — Turizm sezonu fiyat artışı olabilir.
-**Ankara:** Ortalama 85 TL/m² (aralık: 55-130 TL) — Türkiye ortalamasına yakın.
-**Eskişehir:** Ortalama 86 TL/m² (aralık: 70-120 TL).
-**Mersin:** Ortalama 80 TL/m² (aralık: 65-125 TL).
-**Konya:** Ortalama 65 TL/m² (aralık: 55-80 TL) — İç Anadolu'da en uygun fiyatlar.
-**Şanlıurfa:** Ortalama 60 TL/m² (aralık: 50-70 TL) — Güneydoğu'da rekabetçi fiyatlar.
+**[İstanbul Halı Yıkama](/istanbul-hali-yikama-firmalari):** Ortalama 140 TL/m² (aralık: 70-450 TL) — Türkiye'nin en pahalı pazarı, kira ve işçilik maliyetleri nedeniyle.
+**[Kocaeli Halı Yıkama](/kocaeli-hali-yikama-firmalari):** Ortalama 135 TL/m² (aralık: 75-200 TL).
+**[İzmir Halı Yıkama](/izmir-hali-yikama-firmalari):** Ortalama 120 TL/m² (aralık: 70-300 TL) — Ege bölgesinde rekabetçi fiyatlar.
+**[Bursa Halı Yıkama](/bursa-hali-yikama-firmalari):** Ortalama 110 TL/m² (aralık: 65-300 TL) — İstanbul'a göre %20 daha uygun.
+**[Antalya Halı Yıkama](/antalya-hali-yikama-firmalari):** Ortalama 95 TL/m² (aralık: 55-150 TL) — Turizm sezonu fiyat artışı olabilir.
+**[Ankara Halı Yıkama](/ankara-hali-yikama-firmalari):** Ortalama 85 TL/m² (aralık: 55-130 TL) — Türkiye ortalamasına yakın.
+**[Eskişehir Halı Yıkama](/eskisehir-hali-yikama-firmalari):** Ortalama 86 TL/m² (aralık: 70-120 TL).
+**[Mersin Halı Yıkama](/mersin-hali-yikama-firmalari):** Ortalama 80 TL/m² (aralık: 65-125 TL).
+**[Konya Halı Yıkama](/konya-hali-yikama-firmalari):** Ortalama 65 TL/m² (aralık: 55-80 TL) — İç Anadolu'da en uygun fiyatlar.
+**[Şanlıurfa Halı Yıkama](/sanliurfa-hali-yikama-firmalari):** Ortalama 60 TL/m² (aralık: 50-70 TL) — Güneydoğu'da rekabetçi fiyatlar.
 
 Kendi şehrinizdeki güncel fiyatları görmek için [halı yıkama firmalarının fiyat listelerini inceleyebilirsiniz](/turkiye/hali-yikama).`,
       },
