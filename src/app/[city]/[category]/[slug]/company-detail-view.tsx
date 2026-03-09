@@ -429,6 +429,22 @@ export function CompanyDetailView({ company, city, category }: Props) {
                         </span>
                       </div>
                     </div>
+                    {/* Sub-ratings */}
+                    {(review.qualityRating || review.punctualityRating || review.communicationRating || review.priceRating) && (
+                      <div className="flex flex-wrap gap-2 mb-2">
+                        {[
+                          { label: 'Temizlik', value: review.qualityRating },
+                          { label: 'Dakiklik', value: review.punctualityRating },
+                          { label: 'İletişim', value: review.communicationRating },
+                          { label: 'Fiyat', value: review.priceRating },
+                        ].filter(r => r.value != null && r.value > 0).map((r) => (
+                          <span key={r.label} className="inline-flex items-center gap-1 text-[11px] font-medium text-brand-text-muted bg-brand-border/30 px-2 py-0.5 rounded-full">
+                            <Star size={10} className="fill-brand-rating text-brand-rating" />
+                            {r.value} {r.label}
+                          </span>
+                        ))}
+                      </div>
+                    )}
                     {/* Verified purchase badge with service + total */}
                     {review.isVerifiedPurchase && (review.serviceSummary || review.orderTotal) && (
                       <div className="flex items-center gap-2 mt-1 flex-wrap">
