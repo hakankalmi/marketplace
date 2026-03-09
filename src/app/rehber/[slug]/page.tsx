@@ -10,6 +10,31 @@ import { getGuideBySlug, guides } from '../guides';
 
 const brand = getBrandConfig();
 
+/** Parse inline markdown: **bold**, [link](url), **[bold link](url):** */
+function renderInline(text: string, keyPrefix: string) {
+  const tokens = text.split(/(\*\*(?:(?!\*\*).)+\*\*|\[[^\]]+\]\([^)]+\))/g);
+  return tokens.map((tok, ti) => {
+    if (tok.startsWith('**') && tok.endsWith('**')) {
+      const inner = tok.slice(2, -2);
+      const innerLink = inner.match(/^\[([^\]]+)\]\(([^)]+)\)(.*)$/);
+      if (innerLink) {
+        return (
+          <strong key={`${keyPrefix}-${ti}`} className="text-brand-text font-semibold">
+            <Link href={innerLink[2]} className="text-brand-primary hover:underline">{innerLink[1]}</Link>
+            {innerLink[3]}
+          </strong>
+        );
+      }
+      return <strong key={`${keyPrefix}-${ti}`} className="text-brand-text font-semibold">{inner}</strong>;
+    }
+    const linkMatch = tok.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
+    if (linkMatch) {
+      return <Link key={`${keyPrefix}-${ti}`} href={linkMatch[2]} className="text-brand-primary hover:underline font-medium">{linkMatch[1]}</Link>;
+    }
+    return <span key={`${keyPrefix}-${ti}`}>{tok}</span>;
+  });
+}
+
 export async function generateStaticParams() {
   return guides.map((g) => ({ slug: g.slug }));
 }
@@ -141,16 +166,7 @@ export default async function GuidePage({
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             {/* Intro */}
             <p className="text-lg text-brand-text-muted leading-relaxed mb-10">
-              {guide.intro.split(/(\*\*[^*]+\*\*|\[[^\]]+\]\([^)]+\))/g).map((part, i) => {
-                if (part.startsWith('**') && part.endsWith('**')) {
-                  return <strong key={i} className="text-brand-text font-semibold">{part.slice(2, -2)}</strong>;
-                }
-                const linkMatch = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
-                if (linkMatch) {
-                  return <Link key={i} href={linkMatch[2]} className="text-brand-primary hover:underline font-medium">{linkMatch[1]}</Link>;
-                }
-                return <span key={i}>{part}</span>;
-              })}
+              {renderInline(guide.intro, 'intro')}
             </p>
 
             {/* İçindekiler */}
@@ -224,28 +240,9 @@ export default async function GuidePage({
                       );
                     }
 
-                    // Bold + link text rendering
-                    const parts = paragraph.split(/(\*\*[^*]+\*\*|\[[^\]]+\]\([^)]+\))/g);
                     return (
                       <p key={pi} className="mb-4">
-                        {parts.map((part, partI) => {
-                          if (part.startsWith('**') && part.endsWith('**')) {
-                            return (
-                              <strong key={partI} className="text-brand-text font-semibold">
-                                {part.slice(2, -2)}
-                              </strong>
-                            );
-                          }
-                          const linkMatch = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
-                          if (linkMatch) {
-                            return (
-                              <Link key={partI} href={linkMatch[2]} className="text-brand-primary hover:underline font-medium">
-                                {linkMatch[1]}
-                              </Link>
-                            );
-                          }
-                          return <span key={partI}>{part}</span>;
-                        })}
+                        {renderInline(paragraph, `s${i}-p${pi}`)}
                       </p>
                     );
                   })}
@@ -273,16 +270,7 @@ export default async function GuidePage({
                         />
                       </summary>
                       <div className="px-5 pb-5 text-brand-text-muted leading-relaxed">
-                        {item.a.split(/(\*\*[^*]+\*\*|\[[^\]]+\]\([^)]+\))/g).map((part, ai) => {
-                          if (part.startsWith('**') && part.endsWith('**')) {
-                            return <strong key={ai} className="text-brand-text font-semibold">{part.slice(2, -2)}</strong>;
-                          }
-                          const linkMatch = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
-                          if (linkMatch) {
-                            return <Link key={ai} href={linkMatch[2]} className="text-brand-primary hover:underline font-medium">{linkMatch[1]}</Link>;
-                          }
-                          return <span key={ai}>{part}</span>;
-                        })}
+                        {renderInline(item.a, `faq${i}`)}
                       </div>
                     </details>
                   ))}

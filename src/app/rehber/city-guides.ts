@@ -1871,4 +1871,113 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'ankara-hali-yikama', 'bursa-hali-yikama'],
   },
+
+  /* ─── 22. SAKARYA ─── */
+  {
+    slug: 'sakarya-hali-yikama',
+    city: 'Sakarya',
+    citySlug: 'sakarya',
+    title: 'Sakarya Halı Yıkama Rehberi: Fiyatlar, Firmalar ve İpuçları (2026)',
+    metaTitle: 'Sakarya Halı Yıkama Fiyatları 2026 | Firma Rehberi',
+    metaDescription: 'Sakarya halı yıkama fiyatları 2026 güncel liste. Adapazarı, Serdivan, Erenler, Hendek, Sapanca fiyat karşılaştırma. Sakarya halı yıkama firması seçim rehberi.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'Şehir Rehberi',
+    readingTime: 8,
+    heroEmoji: '🌿',
+    intro: `**Sakarya**, Marmara Bölgesi'nin doğusunda, yeşilin her tonunu barındıran verimli bir coğrafyada yer alır. Sakarya Nehri'nin geçtiği ova, Sapanca Gölü'nün kıyıları ve Karadeniz'e uzanan dağlar — Sakarya'da nem her mevsim hissedilir. Fındık, tütün ve tarım ekonomisi, yanına eklenen güçlü sanayi ile (Toyota, Otokar, GOSB) Sakarya'yı hem kırsal hem kentsel ihtiyaçların buluştuğu bir şehir yapar. [Sakarya halı yıkama firmaları](/sakarya-hali-yikama-firmalari) arasında en uygun fiyatlı ve güvenilir firmayı bulmak için bu rehberi hazırladık.`,
+    sections: [
+      {
+        heading: 'Sakarya Halı Yıkama Fiyatları 2026',
+        content: `Sakarya'da halı yıkama fiyatları İstanbul'dan daha uygun, Bolu-Düzce hattından biraz yüksektir. İstanbul'a yakınlık hem rekabeti hem de kaliteyi artırır.
+
+| Halı Türü | Fiyat Aralığı (m²) | Ortalama |
+|---|---|---|
+| Makine halısı | 70 – 120 TL | 85 TL |
+| El dokuması halı | 90 – 170 TL | 120 TL |
+| Shaggy / tüylü halı | 75 – 140 TL | 100 TL |
+| İpek halı | 140 – 300 TL | 210 TL |
+| Koltuk yıkama (kişilik) | 140 – 290 TL | 195 TL |
+| Yorgan yıkama (adet) | 110 – 210 TL | 150 TL |
+
+**İlçe Bazlı Fiyat Farkları:**
+
+🔴 **Yüksek Segment**: [Serdivan halı yıkama](/sakarya-serdivan-hali-yikama-firmalari), [Sapanca halı yıkama](/sakarya-sapanca-hali-yikama-firmalari) — 85-170 TL/m². Villa bölgesi, yüksek gelir, Sapanca Gölü çevresi.
+
+🟡 **Orta Segment**: [Adapazarı halı yıkama](/sakarya-adapazari-hali-yikama-firmalari), [Erenler halı yıkama](/sakarya-erenler-hali-yikama-firmalari), [Arifiye halı yıkama](/sakarya-arifiye-hali-yikama-firmalari) — 75-130 TL/m². Şehir merkezi, en çok firma seçeneği.
+
+🟢 **Uygun Segment**: [Hendek halı yıkama](/sakarya-hendek-hali-yikama-firmalari), [Geyve halı yıkama](/sakarya-geyve-hali-yikama-firmalari), [Kaynarca halı yıkama](/sakarya-kaynarca-hali-yikama-firmalari), [Pamukova halı yıkama](/sakarya-pamukova-hali-yikama-firmalari), [Taraklı halı yıkama](/sakarya-tarakli-hali-yikama-firmalari), [Ferizli halı yıkama](/sakarya-ferizli-hali-yikama-firmalari) — 70-100 TL/m².
+
+📌 *Serdivan ve Sapanca villa bölgesinde halı kalitesi ve boyutu genellikle büyüktür — firmalar bu bölgeye özel büyük halı yıkama hizmeti sunar.*`,
+      },
+      {
+        heading: 'Sakarya İklimi ve Halı Bakım Takvimi',
+        content: `Sakarya'nın geçiş iklimi (Marmara + Karadeniz karışımı) halı bakımını her mevsim gündemde tutar:
+
+**Yüksek Nem (Yıl Boyu):** Sakarya'da ortalama nem %70-80 arasıdır. Sakarya Nehri, Sapanca Gölü ve Karadeniz'e yakınlık nemi artırır. Zemin kattaki halılarda küf riski her mevsim mevcuttur. Anti-küf işlem standart hale gelmiştir.
+
+**Yağışlı Kışlar (Kasım-Mart):** Sakarya yılda 800-900 mm yağış alır. Kış aylarında kurutma süresi uzar — kapalı kurutma tesisi olan firma tercih edin.
+
+**Ilık ve Nemli Yazlar (Haziran-Ağustos):** Yazlar İç Anadolu kadar sıcak değildir (28-33°C), ama nem yüksektir. Kurutma 2-3 gün sürer. Yaz başı (Haziran) halı yıkama için en iyi dönemdir.
+
+**Fındık Hasadı (Ağustos-Eylül):** Sakarya'nın güney ilçeleri (Hendek, Akyazı) fındık üretim merkezidir. Hasat döneminde evlere taşınan toz ve kabuk kalıntıları halıları kirletir. Hasat sonrası (Ekim) yıkatmak mantıklıdır.
+
+**Deprem Bilinci:** 1999 Gölcük-Adapazarı depremi sonrası Sakarya'da bina yapısı tamamen değişti. Yeni binalar daha iyi havalandırma sistemine sahip, ama eski binaların zemin katlarında nem sorunu devam eder.
+
+**En İyi Dönem:** Haziran ve Eylül — hava ılık, nem nispeten düşük, firmalar müsait.
+
+[Sakarya halı yıkama firmaları](/sakarya-hali-yikama-firmalari) — Sakarya'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+      },
+      {
+        heading: 'Sakarya Halı Yıkama Firması Seçerken Dikkat Edilecekler',
+        content: `**Sapanca Villa Bölgesi — Büyük Halı Hizmeti:** Sapanca ve Serdivan'daki villalarda 20-50 m² boyutunda salon halıları yaygındır. Bu büyüklükte halıları her firma taşıyamaz — büyük halı deneyimi olan, uygun araç filosuna sahip firma seçin.
+
+**Sanayi Bölgesi Etkisi:** Sakarya'da Toyota, Otokar ve çeşitli otomotiv yan sanayi tesisleri bulunur. Sanayi çevresindeki konutlarda metal tozu ve yağ partikülü birikimi yüksektir — bu tür kirlilik standart yıkamada tam çıkmaz, firmaya bölgenizi belirtin.
+
+**İstanbul Çapraz Rekabet:** Kocaeli ve İstanbul firmalarının bir kısmı Sakarya'ya da hizmet verir. Platform üzerinden komşu şehirlerdeki firmaları da karşılaştırabilirsiniz — özellikle Serdivan ve Sapanca için [Kocaeli halı yıkama](/rehber/kocaeli-hali-yikama) rehberine de bakın.
+
+**Hendek-Akyazı Fındık Bölgesi:** Bu ilçelerde fındık kabuğu tozu ve tarımsal ilaç kalıntıları halılara yapışır. Alerjisi olan kişiler hasat sonrası mutlaka profesyonel yıkama + anti-alerjen işlem yaptırmalıdır.
+
+**Taraklı — UNESCO Koruma Alanı:** Taraklı tarihi ahşap evleriyle UNESCO geçici listesindedir. Bu evlerdeki antika halı ve kilimler uzman bakım gerektirir — standart yıkama yapılmamalıdır.
+
+**Sel Riski Bölgeleri:** Sakarya Nehri taşkın ovasında (özellikle Adapazarı merkez ve Erenler) sel riski mevcuttur. Sel sonrası halılar kirli su ile temas ederse acil profesyonel yıkama şarttır — ev tipi temizlik bakteriyel kontaminasyonu temizlemez.`,
+      },
+      {
+        heading: 'Sakarya İlçe Bazlı Halı Yıkama Firmaları',
+        content: `Sakarya 16 ilçeye sahiptir. İşte ilçe bazlı halı yıkama firma rehberi:
+
+**Büyükşehir Merkez:**
+- [Adapazarı halı yıkama](/sakarya-adapazari-hali-yikama-firmalari) — İl merkezi, en kalabalık, en çok firma
+- [Serdivan halı yıkama](/sakarya-serdivan-hali-yikama-firmalari) — Villa bölgesi, üniversite, premium
+- [Erenler halı yıkama](/sakarya-erenler-hali-yikama-firmalari) — Sanayi yakını, gelişen konut alanı
+- [Arifiye halı yıkama](/sakarya-arifiye-hali-yikama-firmalari) — YHT istasyonu, merkeze yakın
+
+**Sapanca Gölü Çevresi:**
+- [Sapanca halı yıkama](/sakarya-sapanca-hali-yikama-firmalari) — Göl kenarı villalar, tatil evleri
+
+**Batı Karadeniz Geçiş:**
+- [Hendek halı yıkama](/sakarya-hendek-hali-yikama-firmalari) — Fındık bölgesi
+- [Akyazı halı yıkama](/sakarya-akyazi-hali-yikama-firmalari) — Tarım merkezi
+- [Kaynarca halı yıkama](/sakarya-kaynarca-hali-yikama-firmalari) — Karadeniz kıyısı
+
+**İç Kesim:**
+- [Geyve halı yıkama](/sakarya-geyve-hali-yikama-firmalari) — Sakarya vadisi
+- [Pamukova halı yıkama](/sakarya-pamukova-hali-yikama-firmalari) — Sanayi gelişen ilçe
+- [Taraklı halı yıkama](/sakarya-tarakli-hali-yikama-firmalari) — UNESCO tarihi evler
+- [Ferizli halı yıkama](/sakarya-ferizli-hali-yikama-firmalari) — Kırsal
+- [Söğütlü halı yıkama](/sakarya-sogutlu-hali-yikama-firmalari) — Küçük ilçe
+- [Karasu halı yıkama](/sakarya-karasu-hali-yikama-firmalari) — Karadeniz sahili, yazlık bölge
+- [Kocaali halı yıkama](/sakarya-kocaali-hali-yikama-firmalari) — Sahil kasabası
+
+📌 *Karasu ve Kocaali sahil ilçelerinde yazlık evler yoğundur. Sezon başı/sonu toplu yıkama anlaşması ile indirim alınabilir.*`,
+      },
+    ],
+    faq: [
+      { q: 'Sakarya\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı ortalama 85 TL/m², el dokuması 90-170 TL/m², shaggy 75-140 TL/m² aralığındadır. Serdivan ve Sapanca en pahalı, Hendek ve Geyve en uygun ilçelerdir.' },
+      { q: 'Sakarya\'da halı yıkama kaç gün sürer?', a: 'Yaz aylarında 2-3 gün (nem yüksek), kışın 4-5 gün. Kapalı kurutma tesisi olan firmalarda süre 1-2 gün kısalır.' },
+      { q: 'Sakarya\'da nem halıları etkiler mi?', a: 'Evet, Sakarya\'nın %70-80 nem ortalaması halılarda küf riskini artırır. Zemin katta yaşıyorsanız yılda 2-3 kez yıkatma ve anti-küf işlem önerilir.' },
+      { q: 'Sapanca\'da villa halısı nerede yıkatılır?', a: 'Sapanca ve Serdivan\'daki firmalar büyük halı (20-50 m²) deneyimine sahiptir. Adapazarı merkezindeki firmalar da Sapanca\'ya hizmet verir. Platform üzerinden büyük halı hizmeti sunan firmaları filtreleyebilirsiniz.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'kocaeli-hali-yikama', 'istanbul-hali-yikama'],
+  },
 ];
