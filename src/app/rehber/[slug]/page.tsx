@@ -187,6 +187,43 @@ export default async function GuidePage({
                 </h2>
                 <div className="prose prose-lg max-w-none text-brand-text-muted leading-relaxed whitespace-pre-line">
                   {section.content.split('\n\n').map((paragraph, pi) => {
+                    // Markdown table detection
+                    const lines = paragraph.trim().split('\n');
+                    const isTable = lines.length >= 3 && lines[0].includes('|') && lines[1].includes('---');
+                    if (isTable) {
+                      const headerCells = lines[0].split('|').map(c => c.trim()).filter(Boolean);
+                      const bodyRows = lines.slice(2).filter(l => l.includes('|'));
+                      return (
+                        <div key={pi} className="overflow-x-auto mb-6 not-prose">
+                          <table className="w-full text-sm border border-brand-border rounded-brand overflow-hidden">
+                            <thead>
+                              <tr className="bg-brand-surface">
+                                {headerCells.map((cell, ci) => (
+                                  <th key={ci} className="px-4 py-3 text-left font-semibold text-brand-text border-b border-brand-border">
+                                    {cell}
+                                  </th>
+                                ))}
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {bodyRows.map((row, ri) => {
+                                const cells = row.split('|').map(c => c.trim()).filter(Boolean);
+                                return (
+                                  <tr key={ri} className={ri % 2 === 0 ? 'bg-brand-bg' : 'bg-brand-surface/50'}>
+                                    {cells.map((cell, ci) => (
+                                      <td key={ci} className="px-4 py-2.5 border-b border-brand-border/50 text-brand-text-muted">
+                                        {cell}
+                                      </td>
+                                    ))}
+                                  </tr>
+                                );
+                              })}
+                            </tbody>
+                          </table>
+                        </div>
+                      );
+                    }
+
                     // Bold + link text rendering
                     const parts = paragraph.split(/(\*\*[^*]+\*\*|\[[^\]]+\]\([^)]+\))/g);
                     return (
