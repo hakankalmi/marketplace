@@ -5409,4 +5409,155 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'van-hali-yikama', 'mus-hali-yikama'],
   },
+
+  // ── Şırnak ────────────────────────────────────────────────
+  {
+    slug: 'sirnak-hali-yikama',
+    city: 'Şırnak',
+    citySlug: 'sirnak',
+    title: 'Şırnak Halı Yıkama Rehberi — Fiyatlar, İlçeler ve Tavsiyeler',
+    metaTitle: 'Şırnak Halı Yıkama Fiyatları 2026 | Rehber & Karşılaştırma',
+    metaDescription: 'Şırnak halı yıkama fiyatları, güvenilir firma önerileri ve ilçe bazlı hizmet rehberi. Güneydoğu\'nun dağlık iklimine uygun halı bakımı.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 8,
+    heroEmoji: '⛰️',
+    intro: 'Şırnak, Güneydoğu Anadolu\'nun en doğusunda Irak ve Suriye sınırlarında yer alan dağlık bir ildir. Cudi Dağı\'nın eteklerinde kurulmuş olan şehir, Cizre\'nin tarihi dokusu ve Habur Sınır Kapısı\'nın ticari canlılığıyla öne çıkar. Yüksek rakım nedeniyle kışlar sert, yazlar sıcak geçer. Geleneksel kilim ve halı kültürü bölgede yaşamaya devam eder.',
+    sections: [
+      {
+        heading: 'Şırnak Halı Yıkama Fiyatları 2026',
+        content: `Şırnak halı yıkama fiyatları Türkiye'nin en uygun seviyesindedir:
+
+| Halı Türü | Fiyat Aralığı (m²) | Not |
+|---|---|---|
+| Makine halısı | 70-80 TL | Standart |
+| El dokuması / kilim | 75-125 TL | Yöresel kilimler |
+| Shaggy / uzun tüylü | 72-108 TL | Standart |
+| Yün halı | 75-120 TL | Soğuk yıkama |
+
+🔴 **Pahalı bölgeler:** Şırnak Merkez, Cizre merkez
+🟡 **Orta fiyatlı bölgeler:** Silopi merkez, İdil merkez
+🟢 **Uygun fiyatlı bölgeler:** Beytüşşebap, Uludere, Güçlükonak
+
+💡 *Şırnak, Türkiye'nin en düşük halı yıkama fiyatlarına sahip illerinden biridir.*`,
+      },
+      {
+        heading: 'Şırnak İklimi ve Halı Bakımı',
+        content: `Şırnak, dağlık coğrafyası nedeniyle ilçeden ilçeye iklim farklılığı gösterir:
+
+**Cizre-Silopi ovası:** Dicle kıyısında sıcak iklim. Yazları 45°C'ye çıkar. Halılar 2-3 saatte kurur. Yılın 10+ ayı halı yıkama yapılabilir.
+
+**Şırnak merkez (dağlık):** 1.400 metre rakımda kışlar soğuk (-15°C) ve karlıdır. Yaz aylarında ılıman (28-32°C). Kapalı tesiste kurutma 4-5 gün.
+
+**Beytüşşebap-Uludere (yüksek dağ):** 1.500+ metre rakımda sert kışlar. Halı yıkama sezonu Haziran-Eylül ile sınırlıdır.
+
+**Soba ve tezek:** Dağ ilçelerinde yaygın. Kurum ve koku profesyonel işlem gerektirir.
+
+📌 *Şırnak'ta iklim ilçeye göre değişir — Cizre'de yılın 10 ayı, merkez'de 5-6 ayı halı yıkama yapılabilir.*`,
+      },
+      {
+        heading: 'Şırnak İlçelerinde Halı Yıkama Hizmetleri',
+        content: `Şırnak 7 ilçeye sahip geniş ve dağlık bir ildir:
+
+**Büyük İlçeler:**
+- [Şırnak Merkez halı yıkama](/sirnak-merkez-hali-yikama-firmalari) — Şehir merkezi
+- [Cizre halı yıkama](/sirnak-cizre-hali-yikama-firmalari) — Dicle kenarı, en büyük ilçe
+- [Silopi halı yıkama](/sirnak-silopi-hali-yikama-firmalari) — Habur Sınır Kapısı, ticaret
+- [İdil halı yıkama](/sirnak-idil-hali-yikama-firmalari) — Midyat yakını
+
+**Dağ İlçeler:**
+- [Beytüşşebap halı yıkama](/sirnak-beytussebap-hali-yikama-firmalari) — Dağlık, Hakkâri sınırı
+- [Uludere halı yıkama](/sirnak-uludere-hali-yikama-firmalari) — Irak sınırı, dağlık
+- [Güçlükonak halı yıkama](/sirnak-guclukonak-hali-yikama-firmalari) — Küçük ilçe
+
+📌 *Cizre ve Silopi'de yerel firmalar mevcuttur. Dağ ilçelerine merkez firmalarından alım-teslim yapılır.*`,
+      },
+    ],
+    faq: [
+      { q: 'Şırnak\'ta halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-80 TL/m², el dokuması 75-125 TL/m² aralığındadır. Türkiye\'nin en uygun şehirlerinden biridir.' },
+      { q: 'Cizre\'de yılın hangi aylarında halı yıkatılır?', a: 'Cizre\'nin sıcak iklimi sayesinde yılın 10-11 ayı halı yıkama yapılabilir.' },
+      { q: 'Şırnak merkez\'de kışın halı yıkatılır mı?', a: 'Kapalı tesiste mümkündür ama kurutma 4-5 gün sürer. Yaz sezonunu tercih edin.' },
+      { q: 'Silopi\'den hizmet alabilir miyim?', a: 'Evet, Silopi\'de yerel firmalar mevcuttur. Platform üzerinden sipariş verebilirsiniz.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'batman-hali-yikama', 'diyarbakir-hali-yikama'],
+  },
+
+  // ── Çankırı ────────────────────────────────────────────────
+  {
+    slug: 'cankiri-hali-yikama',
+    city: 'Çankırı',
+    citySlug: 'cankiri',
+    title: 'Çankırı Halı Yıkama Rehberi — Fiyatlar, İlçeler ve Tavsiyeler',
+    metaTitle: 'Çankırı Halı Yıkama Fiyatları 2026 | Rehber & Karşılaştırma',
+    metaDescription: 'Çankırı halı yıkama fiyatları, güvenilir firma önerileri ve ilçe bazlı hizmet rehberi. Tuz mağaraları şehrinin iklimine uygun halı bakımı.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 8,
+    heroEmoji: '🧂',
+    intro: 'Çankırı, Orta Anadolu\'nun kuzeyinde, tuz mağaraları ve kaya tuzuyla tanınan küçük bir ildir. Ankara\'ya 130 km uzaklıkta yer alan şehir, karasal iklimde kışlar soğuk, yazlar sıcak ve kurak geçer. Sakin ve düzenli yapısıyla halı yıkama hizmetleri merkez odaklıdır.',
+    sections: [
+      {
+        heading: 'Çankırı Halı Yıkama Fiyatları 2026',
+        content: `Çankırı halı yıkama fiyatları İç Anadolu ortalamasında, uygun seviyededir:
+
+| Halı Türü | Fiyat Aralığı (m²) | Not |
+|---|---|---|
+| Makine halısı | 70-82 TL | Standart |
+| El dokuması / kilim | 78-128 TL | Az sayıda |
+| Shaggy / uzun tüylü | 72-112 TL | Standart |
+| Yün halı | 78-125 TL | Soğuk yıkama |
+
+🔴 **Pahalı bölgeler:** Merkez Çankırı, İstiklal Caddesi
+🟡 **Orta fiyatlı bölgeler:** Çerkeş merkez, Ilgaz merkez
+🟢 **Uygun fiyatlı bölgeler:** Kurşunlu, Orta, Şabanözü, Yapraklı
+
+💡 *Çankırı'nın kuru iklimi halı kurutma için idealdir — küflenme riski neredeyse sıfırdır.*`,
+      },
+      {
+        heading: 'Çankırı İklimi ve Halı Bakımı',
+        content: `Çankırı, 736 metre rakımda karasal iklime sahiptir:
+
+**Kuru yazlar:** Nem %30-40 arasında. Halılar 6-8 saatte kurur. Küflenme riski yoktur.
+
+**Soğuk kışlar:** -15°C'ye varan sıcaklıklar. Ilgaz Dağı bölgesinde kar 3-4 ay kalır. Kapalı tesiste kurutma 3-5 gün sürer.
+
+**Tuz ve mineral tozu:** Çankırı'nın kaya tuzu madenleri çevresinde ince tuz ve mineral tozu halılara yerleşebilir. Bu kristaller nem çeker — düzenli profesyonel temizlik önerilir.
+
+**Step tozu:** Kuru dönemlerde ince toprak tozu halılara siner.
+
+📌 *Çankırı'da halı yıkama için Mayıs-Ekim arası idealdir. Kuru iklim avantajını değerlendirin.*`,
+      },
+      {
+        heading: 'Çankırı İlçelerinde Halı Yıkama Hizmetleri',
+        content: `Çankırı 12 ilçeye sahip orta büyüklükte bir ildir:
+
+**Merkez ve Büyük İlçeler:**
+- [Çankırı Merkez halı yıkama](/cankiri-merkez-hali-yikama-firmalari) — Şehir merkezi
+- [Çerkeş halı yıkama](/cankiri-cerkes-hali-yikama-firmalari) — Büyük ilçe, batıda
+- [Ilgaz halı yıkama](/cankiri-ilgaz-hali-yikama-firmalari) — Kayak merkezi
+
+**Diğer İlçeler:**
+- [Kurşunlu halı yıkama](/cankiri-kursunlu-hali-yikama-firmalari) — Merkeze yakın
+- [Orta halı yıkama](/cankiri-orta-hali-yikama-firmalari) — Kırsal
+- [Şabanözü halı yıkama](/cankiri-sabanozuv-hali-yikama-firmalari) — Kırsal
+- [Yapraklı halı yıkama](/cankiri-yaprakli-hali-yikama-firmalari) — Kırsal
+- [Eldivan halı yıkama](/cankiri-eldivan-hali-yikama-firmalari) — Küçük
+- [Korgun halı yıkama](/cankiri-korgun-hali-yikama-firmalari) — Küçük
+- [Atkaracalar halı yıkama](/cankiri-atkaracalar-hali-yikama-firmalari) — Kırsal
+- [Bayramören halı yıkama](/cankiri-bayramoren-hali-yikama-firmalari) — Küçük
+- [Kızılırmak halı yıkama](/cankiri-kizilirmak-hali-yikama-firmalari) — Nehir kenarı
+
+📌 *Çerkeş'te sınırlı sayıda firma bulunur. Diğer ilçelere merkez firmalarından ücretsiz alım-teslim yapılır.*`,
+      },
+    ],
+    faq: [
+      { q: 'Çankırı\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-82 TL/m², yün halı 78-125 TL/m² aralığındadır. İç Anadolu ortalamasındadır.' },
+      { q: 'Çankırı\'da kışın halı yıkatılır mı?', a: 'Kapalı tesiste mümkündür. Kurutma 3-5 gün sürer. Yaz sezonu daha verimlidir.' },
+      { q: 'Tuz kristalleri halıya zarar verir mi?', a: 'Uzun süre temizlenmezse nem çekerek halı altında birikim yapar. Yılda 1 kez profesyonel yıkama yeterlidir.' },
+      { q: 'Çankırı\'dan Ankara firması mı tercih etmeliyim?', a: 'Yerel firmalar daha uygun ve hızlıdır. Ankara 130 km uzaktadır — nakliye maliyeti eklenir.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'ankara-hali-yikama', 'kastamonu-hali-yikama'],
+  },
 ];
