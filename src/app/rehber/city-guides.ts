@@ -4503,4 +4503,154 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'duzce-hali-yikama', 'eskisehir-hali-yikama'],
   },
+
+  // ── Niğde ────────────────────────────────────────────────
+  {
+    slug: 'nigde-hali-yikama',
+    city: 'Niğde',
+    citySlug: 'nigde',
+    title: 'Niğde Halı Yıkama Rehberi — Fiyatlar, İlçeler ve Tavsiyeler',
+    metaTitle: 'Niğde Halı Yıkama Fiyatları 2026 | Rehber & Karşılaştırma',
+    metaDescription: 'Niğde halı yıkama fiyatları, güvenilir firma önerileri ve ilçe bazlı hizmet rehberi. Kapadokya\'nın güney kapısında halı bakımı.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 9,
+    heroEmoji: '🏔️',
+    intro: 'Niğde, Kapadokya\'nın güney kapısı ve Aladağlar\'ın eteklerinde yer alan Orta Anadolu şehridir. Tuz Gölü ile Bolkar Dağları arasındaki konumu şehre kendine özgü bir iklim verir. Elma bahçeleri, patates tarımı ve Ihlara Vadisi\'nin güney ucuyla tanınan Niğde\'de karasal iklim hâkimdir. Kuru yazlar halı kurutma için idealdir, soğuk kışlar ise kapalı mekân yaşamını uzatır.',
+    sections: [
+      {
+        heading: 'Niğde Halı Yıkama Fiyatları 2026',
+        content: `Niğde halı yıkama fiyatları İç Anadolu ortalamasında, uygun seviyededir:
+
+| Halı Türü | Fiyat Aralığı (m²) | Not |
+|---|---|---|
+| Makine halısı | 70-85 TL | Standart |
+| El dokuması / kilim | 78-130 TL | Yöresel dokumalar |
+| Shaggy / uzun tüylü | 72-112 TL | Hızlı kuruma |
+| Yün halı | 78-125 TL | Standart |
+| İpek halı | 108-170 TL | El yıkama |
+
+🔴 **Pahalı bölgeler:** Merkez Niğde, Ömer Halisdemir Bulvarı
+🟡 **Orta fiyatlı bölgeler:** Bor merkez, Ulukışla merkez
+🟢 **Uygun fiyatlı bölgeler:** Çamardı, Altunhisar, Çiftlik
+
+💡 *Niğde'nin kuru iklimi halı kurutma için mükemmeldir — yaz aylarında 4-6 saatte kuruma tamamlanır.*`,
+      },
+      {
+        heading: 'Niğde İklimi ve Halı Bakımı',
+        content: `Niğde, 1.229 metre rakımda yarı kurak karasal iklime sahiptir:
+
+**Kuru yazlar:** Nem %25-35 arasında. Halılar çok hızlı kurur, küflenme riski yoktur. Haziran-Eylül halı yıkama için ideal dönemdir.
+
+**Soğuk kışlar:** -15°C'ye varan kış sıcaklıkları. Kar 2-3 ay yerde kalır. Kapalı tesiste kurutma 3-4 gün sürer.
+
+**Volkanik toprak:** Kapadokya'nın volkanik tüf toprağı ince toz üretir. Bu toz halılara sinerek mat bir görünüm verir — profesyonel derin temizlik gerekir.
+
+**Tuz Gölü etkisi:** Niğde'nin batısındaki Tuz Gölü havzasından gelen tuzlu rüzgârlar bazı bölgelerde halı liflerine tuz kristalleri taşır.
+
+**Elma ve patates hasadı:** Hasat dönemlerinde toprak ve bitki kalıntıları halılara bulaşabilir. Tarım bölgelerinde yılda 2 kez yıkama önerilir.
+
+📌 *Niğde'de halı yıkama için Mayıs-Ekim arası idealdir. Kuru iklim avantajını değerlendirin.*`,
+      },
+      {
+        heading: 'Niğde İlçelerinde Halı Yıkama Hizmetleri',
+        content: `Niğde 6 ilçeye sahip kompakt bir ildir:
+
+**Merkez ve Büyük İlçeler:**
+- [Niğde Merkez halı yıkama](/nigde-merkez-hali-yikama-firmalari) — Şehir merkezi
+- [Bor halı yıkama](/nigde-bor-hali-yikama-firmalari) — İkinci büyük ilçe, sanayi
+- [Ulukışla halı yıkama](/nigde-ulukisla-hali-yikama-firmalari) — Toros geçidi, demiryolu
+
+**Diğer İlçeler:**
+- [Çamardı halı yıkama](/nigde-camardi-hali-yikama-firmalari) — Aladağlar, dağcılık
+- [Altunhisar halı yıkama](/nigde-altunhisar-hali-yikama-firmalari) — Küçük ilçe
+- [Çiftlik halı yıkama](/nigde-ciftlik-hali-yikama-firmalari) — Kırsal
+
+📌 *Bor'da yerel firmalar mevcuttur. Diğer ilçelere Niğde merkez firmalarından ücretsiz alım-teslim yapılır.*`,
+      },
+    ],
+    faq: [
+      { q: 'Niğde\'de halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-85 TL/m², el dokuması 78-130 TL/m² aralığındadır. İç Anadolu ortalamasında uygun fiyatlıdır.' },
+      { q: 'Niğde\'de kışın halı yıkatılır mı?', a: 'Kapalı tesisli firmada mümkündür. Kurutma 3-4 gün sürer. Kuru iklim kışın bile avantaj sağlar.' },
+      { q: 'Aladağlar bölgesinden hizmet alabilir miyim?', a: 'Evet, Çamardı dahil tüm ilçelere Niğde merkez firmalarından alım-teslim yapılır.' },
+      { q: 'Volkanik toz halıya zarar verir mi?', a: 'Uzun süre temizlenmezse lifleri matlaştırır. Yılda 1 kez profesyonel yıkama bu etkiyi ortadan kaldırır.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'aksaray-hali-yikama', 'kayseri-hali-yikama'],
+  },
+
+  // ── Kırşehir ────────────────────────────────────────────────
+  {
+    slug: 'kirsehir-hali-yikama',
+    city: 'Kırşehir',
+    citySlug: 'kirsehir',
+    title: 'Kırşehir Halı Yıkama Rehberi — Fiyatlar, İlçeler ve Tavsiyeler',
+    metaTitle: 'Kırşehir Halı Yıkama Fiyatları 2026 | Rehber & Karşılaştırma',
+    metaDescription: 'Kırşehir halı yıkama fiyatları, güvenilir firma önerileri ve ilçe bazlı hizmet rehberi. Âşıklar diyarının iklimine uygun halı bakımı.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 8,
+    heroEmoji: '🎵',
+    intro: 'Kırşehir, Türkiye\'nin tam ortasında, Kızılırmak\'ın geçtiği Orta Anadolu şehridir. "Âşıklar diyarı" ve "Bağbozumu diyarı" olarak bilinen şehir, Ahi Evran\'ın mirası ve termal kaynaklarıyla tanınır. Karasal iklimde kışlar soğuk, yazlar sıcak ve kurak geçer. Küçük ama samimi şehir yapısıyla halı yıkama hizmetleri merkez odaklıdır.',
+    sections: [
+      {
+        heading: 'Kırşehir Halı Yıkama Fiyatları 2026',
+        content: `Kırşehir, Türkiye'nin en uygun halı yıkama fiyatlarının olduğu illerden biridir:
+
+| Halı Türü | Fiyat Aralığı (m²) | Not |
+|---|---|---|
+| Makine halısı | 70-82 TL | Standart |
+| El dokuması / kilim | 75-125 TL | Az sayıda |
+| Shaggy / uzun tüylü | 72-110 TL | Standart |
+| Yün halı | 75-120 TL | Soğuk yıkama |
+
+🔴 **Pahalı bölgeler:** Merkez Kırşehir, Ahi Evran Caddesi
+🟡 **Orta fiyatlı bölgeler:** Kaman merkez, Mucur merkez
+🟢 **Uygun fiyatlı bölgeler:** Çiçekdağı, Akpınar, Boztepe, Akçakent
+
+💡 *Kırşehir, Türkiye'nin en düşük halı yıkama fiyatlarına sahip illerinden biridir.*`,
+      },
+      {
+        heading: 'Kırşehir İklimi ve Halı Bakımı',
+        content: `Kırşehir, 985 metre rakımda yarı kurak karasal iklime sahiptir:
+
+**Kuru yazlar:** Nem %25-35. Halılar 5-6 saatte kurur. Küflenme riski yoktur. Halı yıkama için mükemmel koşullar.
+
+**Soğuk kışlar:** -12°C'ye varan sıcaklıklar. Kar 1-2 ay yerde kalır. Soba kullanımı yaygındır — kurum lekeleri birincil sorun.
+
+**Step iklimi:** Kırşehir ovası rüzgâra açıktır. Kuru dönemlerde ince toprak tozu halılara yerleşir.
+
+**Termal bölgeler:** Terme ve Kaman civarında termal kaynaklar mevcuttur. Termal bölgelerdeki evlerde mineral birikimi halılarda iz bırakabilir.
+
+**Bağbozumu dönemi:** Sonbaharda üzüm hasadı sırasında şıra ve üzüm suyu lekeleri halılara bulaşabilir.
+
+📌 *Kırşehir'in kompakt yapısı ve kuru iklimi halı yıkama için avantajlıdır.*`,
+      },
+      {
+        heading: 'Kırşehir İlçelerinde Halı Yıkama Hizmetleri',
+        content: `Kırşehir 7 ilçeye sahip küçük bir ildir:
+
+**Merkez ve Büyük İlçeler:**
+- [Kırşehir Merkez halı yıkama](/kirsehir-merkez-hali-yikama-firmalari) — Şehir merkezi
+- [Kaman halı yıkama](/kirsehir-kaman-hali-yikama-firmalari) — İkinci büyük ilçe
+- [Mucur halı yıkama](/kirsehir-mucur-hali-yikama-firmalari) — Kayseri yolu üzeri
+
+**Diğer İlçeler:**
+- [Çiçekdağı halı yıkama](/kirsehir-cicekdagi-hali-yikama-firmalari) — Kırıkkale sınırı
+- [Akpınar halı yıkama](/kirsehir-akpinar-hali-yikama-firmalari) — Kırsal
+- [Boztepe halı yıkama](/kirsehir-boztepe-hali-yikama-firmalari) — Küçük ilçe
+- [Akçakent halı yıkama](/kirsehir-akcakent-hali-yikama-firmalari) — Kırsal
+
+📌 *Kırşehir'in küçük yüzölçümü sayesinde merkez firmalar tüm ilçelere aynı gün hizmet verebilir.*`,
+      },
+    ],
+    faq: [
+      { q: 'Kırşehir\'de halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-82 TL/m², yün halı 75-120 TL/m² aralığındadır. Türkiye\'nin en uygun şehirlerinden biridir.' },
+      { q: 'Kırşehir\'de kışın halı yıkatılır mı?', a: 'Kapalı tesiste mümkündür. Kurutma 3-4 gün sürer. Yaz sezonu daha verimlidir.' },
+      { q: 'Üzüm şırası lekesi halıdan çıkar mı?', a: 'Taze iken soğuk su + tuz ile müdahale edilirse çıkar. Kurumuş şıra lekesi çok zordur — profesyonel enzimatik deterjan gerekir.' },
+      { q: 'Kırşehir\'den Ankara firması mı tercih etmeliyim?', a: 'Yerel firmalar daha uygun fiyat ve hızlı teslim sunar. Ankara 180 km uzaktadır — nakliye maliyeti fiyatı artırır.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'aksaray-hali-yikama', 'yozgat-hali-yikama'],
+  },
 ];
