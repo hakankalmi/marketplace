@@ -26,6 +26,7 @@ import { Button } from '@/components/ui/button';
 import { Skeleton } from '@/components/ui/skeleton';
 import { PhotoUploader } from '@/components/ui/photo-uploader';
 import { BeforeAfterSlider } from '@/components/ui/before-after';
+import { ReviewForm } from '@/components/order/ReviewForm';
 import { formatDate } from '@/lib/utils';
 import { toast } from 'sonner';
 import type { MarketplaceOrderStatus } from '@/lib/api/types';
@@ -360,6 +361,9 @@ export default function SiparisDetayPage({
 
       {/* Before/After Photo Section */}
       <OrderPhotosSection orderId={order.id} order={order} queryClient={queryClient} />
+
+      {/* Review Section — only for completed orders */}
+      {order.status === 6 && <OrderReviewSection orderId={order.id} companyName={order.companyName} />}
     </motion.div>
   );
 }
@@ -468,4 +472,23 @@ function OrderPhotosSection({
       )}
     </div>
   );
+}
+
+/** Review section: shows form if not yet reviewed, success message after */
+function OrderReviewSection({ orderId, companyName }: { orderId: number; companyName: string }) {
+  const [reviewed, setReviewed] = useState(false);
+
+  if (reviewed) {
+    return (
+      <div className="p-4 bg-emerald-50 border border-emerald-200 rounded-xl flex items-center gap-3">
+        <CheckCircle size={20} className="text-emerald-600 shrink-0" />
+        <div>
+          <p className="text-sm font-medium text-emerald-800">Yorumunuz gönderildi!</p>
+          <p className="text-xs text-emerald-600">Teşekkürler, değerlendirmeniz diğer müşterilere yardımcı olacak.</p>
+        </div>
+      </div>
+    );
+  }
+
+  return <ReviewForm orderId={orderId} companyName={companyName} onSuccess={() => setReviewed(true)} />;
 }

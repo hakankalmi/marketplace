@@ -82,6 +82,15 @@ export async function unsubscribeNewsletter(): Promise<{ message: string }> {
   return api.delete('/api/mp/me/newsletter');
 }
 
+/* ───── Reviews ───── */
+
+export async function getMyReviews(
+  page = 1,
+  pageSize = 20
+): Promise<{ items: import('./types').ReviewDto[]; totalCount: number; page: number; pageSize: number }> {
+  return api.get(`/api/mp/me/reviews?page=${page}&pageSize=${pageSize}`);
+}
+
 /* ───── Public Data ───── */
 
 export async function getCategories(): Promise<CategoryResponseDto[]> {
