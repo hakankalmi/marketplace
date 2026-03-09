@@ -4194,4 +4194,159 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'sakarya-hali-yikama', 'duzce-hali-yikama'],
   },
+
+  // ── Rize ────────────────────────────────────────────────
+  {
+    slug: 'rize-hali-yikama',
+    city: 'Rize',
+    citySlug: 'rize',
+    title: 'Rize Halı Yıkama Rehberi — Fiyatlar, İlçeler ve Tavsiyeler',
+    metaTitle: 'Rize Halı Yıkama Fiyatları 2026 | Rehber & Karşılaştırma',
+    metaDescription: 'Rize halı yıkama fiyatları, güvenilir firma önerileri ve ilçe bazlı hizmet rehberi. Türkiye\'nin en yağışlı şehrine özel halı bakım çözümleri.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 9,
+    heroEmoji: '🍵',
+    intro: 'Rize, Türkiye\'nin çay başkenti ve en çok yağış alan şehridir. Yıllık 2.300+ mm yağışla Avrupa\'nın da en yağışlı noktalarından biri olan Rize\'de halı bakımı ciddi bir meydan okumadır. Deniz seviyesinden 3.000 metreye diken gibi yükselen dağları, yeşilin her tonunu barındıran çay bahçeleri ve sıcak insanlarıyla bilinen şehirde nem oranı %85-95 arasında seyreder. Bu aşırı nem halılarda küflenme, koku ve bakteri üremesini kaçınılmaz kılar.',
+    sections: [
+      {
+        heading: 'Rize Halı Yıkama Fiyatları 2026',
+        content: `Rize halı yıkama fiyatları Doğu Karadeniz ortalamasındadır. Kurutma maliyetleri yüksek neme bağlı olarak fiyatı etkiler:
+
+| Halı Türü | Fiyat Aralığı (m²) | Not |
+|---|---|---|
+| Makine halısı | 72-95 TL | Anti-küf dahil olmalı |
+| El dokuması / kilim | 85-145 TL | Az sayıda |
+| Shaggy / uzun tüylü | 82-128 TL | Kurutma çok kritik |
+| Yün halı | 88-142 TL | Anti-küf zorunlu |
+| İpek halı | 118-190 TL | El yıkama |
+
+🔴 **Pahalı bölgeler:** Rize Merkez, Müftü Mahallesi, sahil
+🟡 **Orta fiyatlı bölgeler:** Çayeli merkez, Ardeşen merkez, Pazar merkez
+🟢 **Uygun fiyatlı bölgeler:** İkizdere, Çamlıhemşin, Güneysu, Hemşin
+
+💡 *Rize'de anti-küf işlemi lüks değil zorunluluktur — her yıkamada mutlaka yapılmalıdır.*`,
+      },
+      {
+        heading: 'Türkiye\'nin En Yağışlı Şehri ve Halı Bakımı',
+        content: `Rize, yıllık 2.300+ mm yağışla Türkiye'nin açık ara en çok yağış alan ilidir. Bu ekstrem iklim halı bakımını doğrudan etkiler:
+
+**Küflenme kaçınılmaz:** %85-95 nem oranında anti-küf işlemi yapılmamış halı 2-3 ay içinde küflenmeye başlar. Zemin katlarda bu süre daha da kısadır.
+
+**Açık havada kurutma imkânsız:** Yılda 200+ gün yağış alan Rize'de halıyı dışarıda kurutmak bahis oynamak gibidir. Kapalı, sıcak hava sirküsyonlu kurutma tesisi olmazsa olmaz koşuldur.
+
+**Çay hasadı dönemi:** Mayıs-Ekim arası çay hasadı yapılır. Çay bahçelerinden gelen toprak, yaprak ve çay artıkları halılara bulaşır. Çay lekesi taze iken kolay çıkar ama kuruduğunda kalıcı sarı iz bırakır.
+
+**Sel ve heyelan:** Rize, Türkiye'de sel ve heyelan riskinin en yüksek olduğu ildir. Su basan evlerde halılar acil müdahale gerektirir — 24 saat içinde profesyonel yıkamaya gitmeli.
+
+**Deniz tuzu + nem:** Sahil şeridinde tuz ve nemin birleşik etkisi halı liflerini sertleştirir ve ömrünü kısaltır. Yılda en az 2 kez profesyonel yıkama önerilir.
+
+📌 *Rize'de halı bakımı diğer şehirlerden çok farklıdır — anti-küf işlemi, kapalı kurutma ve yılda 2 kez yıkama standart olmalıdır.*`,
+      },
+      {
+        heading: 'Rize İlçelerinde Halı Yıkama Hizmetleri',
+        content: `Rize 12 ilçeyle kıyıdan yüksek dağlara uzanan bir coğrafyaya sahiptir:
+
+**Sahil İlçeler:**
+- [Rize Merkez halı yıkama](/rize-merkez-hali-yikama-firmalari) — Şehir merkezi, tüm firmalar
+- [Çayeli halı yıkama](/rize-cayeli-hali-yikama-firmalari) — Çay üretim merkezi
+- [Ardeşen halı yıkama](/rize-ardesen-hali-yikama-firmalari) — Doğuda büyük ilçe
+- [Pazar halı yıkama](/rize-pazar-hali-yikama-firmalari) — Artvin sınırı
+- [Fındıklı halı yıkama](/rize-findikli-hali-yikama-firmalari) — Fındık + çay
+- [Derepazarı halı yıkama](/rize-derepazari-hali-yikama-firmalari) — Merkeze yakın
+
+**Dağ İlçeler:**
+- [İkizdere halı yıkama](/rize-ikizdere-hali-yikama-firmalari) — Kaçkar Dağları
+- [Çamlıhemşin halı yıkama](/rize-camlihemsin-hali-yikama-firmalari) — Ayder Yaylası, turizm
+- [Hemşin halı yıkama](/rize-hemsin-hali-yikama-firmalari) — Hemşin kültürü
+- [Güneysu halı yıkama](/rize-guneysu-hali-yikama-firmalari) — Vadi
+- [Kalkandere halı yıkama](/rize-kalkandere-hali-yikama-firmalari) — İç bölge
+- [İyidere halı yıkama](/rize-iyidere-hali-yikama-firmalari) — Sahile yakın
+
+📌 *Sahil ilçelerinde Çayeli ve Ardeşen'de yerel firmalar mevcuttur. Dağ ilçelerine merkez firmalarından alım-teslim yapılır — dik yollar nedeniyle 1-2 gün ek süre olabilir.*`,
+      },
+    ],
+    faq: [
+      { q: 'Rize\'de halı yıkama ortalama ne kadar?', a: 'Makine halısı 72-95 TL/m², yün halı 88-142 TL/m² aralığındadır. Anti-küf işlemi genellikle fiyata dahildir.' },
+      { q: 'Rize\'de halı neden bu kadar çabuk küflenir?', a: '%85-95 nem ve yıllık 2.300+ mm yağış küf oluşumunu hızlandırır. Anti-küf işlemi olmadan 2-3 ayda küf başlayabilir.' },
+      { q: 'Çay lekesi halıdan çıkar mı?', a: 'Taze iken soğuk su + limon ile kolay çıkar. Kurumuş çay lekesi profesyonel enzimatik deterjan gerektirir — ev yöntemleri sarı izi tam çıkarmaz.' },
+      { q: 'Rize\'de yılda kaç kez halı yıkatmalıyım?', a: 'Yılda en az 2 kez önerilir. Zemin katlarda 3 kez bile gerekebilir. Her yıkamada anti-küf işlemi zorunludur.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'trabzon-hali-yikama', 'giresun-hali-yikama'],
+  },
+
+  // ── Muş ────────────────────────────────────────────────
+  {
+    slug: 'mus-hali-yikama',
+    city: 'Muş',
+    citySlug: 'mus',
+    title: 'Muş Halı Yıkama Rehberi — Fiyatlar, İlçeler ve Tavsiyeler',
+    metaTitle: 'Muş Halı Yıkama Fiyatları 2026 | Rehber & Karşılaştırma',
+    metaDescription: 'Muş halı yıkama fiyatları, güvenilir firma önerileri ve ilçe bazlı hizmet rehberi. Muş Ovası\'nın sert iklimine uygun halı bakımı.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 8,
+    heroEmoji: '🌿',
+    intro: 'Muş, Doğu Anadolu\'nun geniş Muş Ovası\'nda yer alan, tarım ve hayvancılıkla geçinen bir şehirdir. 1.350 metre rakımda sert karasal iklime sahip olan Muş\'ta kışlar uzun ve şiddetli, yazlar kısa ve sıcak geçer. Geleneksel el dokuması kilim ve halı geleneği hâlâ yaşayan şehirde, halılar hem ısı yalıtımı hem kültürel miras olarak önemlidir.',
+    sections: [
+      {
+        heading: 'Muş Halı Yıkama Fiyatları 2026',
+        content: `Muş, Türkiye'nin en uygun halı yıkama fiyatlarının olduğu illerden biridir:
+
+| Halı Türü | Fiyat Aralığı (m²) | Not |
+|---|---|---|
+| Makine halısı | 70-80 TL | Standart |
+| El dokuması / kilim | 75-125 TL | Yöresel kilimler |
+| Shaggy / uzun tüylü | 72-108 TL | Kurutma uzun |
+| Yün halı | 75-120 TL | Soğuk yıkama |
+
+🔴 **Pahalı bölgeler:** Merkez Muş, Hükümet Caddesi
+🟡 **Orta fiyatlı bölgeler:** Malazgirt merkez, Bulanık merkez
+🟢 **Uygun fiyatlı bölgeler:** Varto, Hasköy, Korkut
+
+💡 *Muş, Türkiye'nin en düşük halı yıkama fiyatlarına sahip illerinden biridir.*`,
+      },
+      {
+        heading: 'Muş İklimi ve Halı Bakımı',
+        content: `Muş, sert karasal iklimin etkisiyle Türkiye'nin en soğuk illerinden biridir:
+
+**Uzun kışlar:** Kasım'dan Nisan'a kadar kış sürer. -25°C'ye varan sıcaklıklar ve 4-5 ay kar örtüsü. Bu dönemde halı yıkama pratik olarak mümkün değildir.
+
+**Kısa ama sıcak yazlar:** Temmuz-Ağustos'ta 30-35°C. Kuru havada halılar hızla kurur — bu 2 aylık pencere halı yıkama için en uygun dönemdir.
+
+**Soba ve tezek:** Kırsal bölgelerde tezek yakıtı yaygındır. Tezek ve soba kurumu halılarda koyu lekeler ve keskin koku bırakır. Buhar temizliği + ozon dezenfeksiyon en etkili çözümdür.
+
+**Muş Ovası tozu:** Geniş ovanın step karakterli toprağı kuru dönemlerde ince toz üretir. Rüzgârlı günlerde bu toz halılara yerleşir.
+
+**Hayvan yünü:** Hayvancılığın temel geçim kaynağı olduğu Muş'ta evlere hayvan yünü ve kıl taşınır. Bu lifler alerjenleri artırır.
+
+📌 *Muş'ta halı yıkama fırsatı yılda 2-3 aydır. Haziran-Ağustos arasını kaçırmayın.*`,
+      },
+      {
+        heading: 'Muş İlçelerinde Halı Yıkama Hizmetleri',
+        content: `Muş 6 ilçeye sahip, geniş ovaya yayılmış bir ildir:
+
+**Merkez ve Büyük İlçeler:**
+- [Muş Merkez halı yıkama](/mus-merkez-hali-yikama-firmalari) — Şehir merkezi
+- [Malazgirt halı yıkama](/mus-malazgirt-hali-yikama-firmalari) — 1071 Zaferi, tarihi ilçe
+- [Bulanık halı yıkama](/mus-bulanik-hali-yikama-firmalari) — En kalabalık ilçe
+
+**Diğer İlçeler:**
+- [Varto halı yıkama](/mus-varto-hali-yikama-firmalari) — Bingöl sınırı
+- [Hasköy halı yıkama](/mus-haskoy-hali-yikama-firmalari) — Kırsal
+- [Korkut halı yıkama](/mus-korkut-hali-yikama-firmalari) — Küçük ilçe
+
+📌 *Malazgirt ve Bulanık'ta sınırlı sayıda yerel firma bulunur. Diğer ilçelere Muş merkez firmalarından alım-teslim yapılır.*`,
+      },
+    ],
+    faq: [
+      { q: 'Muş\'ta halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-80 TL/m², el dokuması kilim 75-125 TL/m² aralığındadır. Türkiye\'nin en uygun şehirlerinden biridir.' },
+      { q: 'Muş\'ta kışın halı yıkatılır mı?', a: '-25°C sıcaklıkta kurutma imkânsıza yakındır. Kapalı tesiste bile 7-10 gün sürer. Yaz sezonunu tercih edin.' },
+      { q: 'Tezek kokusu halıdan çıkar mı?', a: 'Profesyonel ozon dezenfeksiyon işlemi ile tamamen çıkar. Normal yıkama kokuyu azaltır ama tam gidermez.' },
+      { q: 'Malazgirt\'ten hizmet alabilir miyim?', a: 'Evet, Malazgirt\'te sınırlı sayıda firma mevcuttur. Muş merkez firmaları da Malazgirt\'e alım-teslim yapar.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'van-hali-yikama', 'erzurum-hali-yikama'],
+  },
 ];
