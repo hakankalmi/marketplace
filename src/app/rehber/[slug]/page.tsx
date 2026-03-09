@@ -7,6 +7,7 @@ import { Footer } from '@/components/footer/Footer';
 import { BreadcrumbJsonLd, ArticleJsonLd, FaqJsonLd, HowToJsonLd } from '@/components/seo/JsonLd';
 import { Clock, ArrowLeft, ArrowRight, BookOpen } from 'lucide-react';
 import { getGuideBySlug, guides } from '../guides';
+import { CitySearch } from '@/components/city/CitySearch';
 
 const brand = getBrandConfig();
 
@@ -297,21 +298,31 @@ export default async function GuidePage({
               <h3 className="text-lg font-heading font-semibold text-brand-text mb-2">
                 Profesyonel hizmet mi arıyorsunuz?
               </h3>
-              <p className="text-brand-text-muted mb-4">
-                {guide.city ? (
-                  <>En iyi <Link href={`/${guide.citySlug}-${guide.category}-firmalari`} className="text-brand-primary hover:underline font-medium">{guide.city} halı yıkama firmalarını</Link> karşılaştırın, kolayca sipariş verin.</>
-                ) : (
-                  <>Şehrinizdeki en iyi <Link href={`/turkiye/${guide.category}`} className="text-brand-primary hover:underline font-medium">{getCategoryLabel(guide.category)}</Link> firmalarını karşılaştırın, kolayca sipariş verin.</>
-
-                )}
-              </p>
-              <Link
-                href={guide.city ? `/${guide.citySlug}-${guide.category}-firmalari` : `/turkiye/${guide.category}`}
-                className="inline-flex items-center gap-2 px-6 py-2.5 bg-brand-primary text-white rounded-brand font-medium hover:opacity-90 transition"
-              >
-                <BookOpen size={16} />
-                {guide.city ? `${guide.city} Firmalarını İncele` : 'Firmaları İncele'}
-              </Link>
+              {guide.city ? (
+                <>
+                  <p className="text-brand-text-muted mb-4">
+                    En iyi <Link href={`/${guide.citySlug}-${guide.category}-firmalari`} className="text-brand-primary hover:underline font-medium">{guide.city} {getCategoryLabel(guide.category)} firmalarını</Link> karşılaştırın, kolayca sipariş verin.
+                  </p>
+                  <Link
+                    href={`/${guide.citySlug}-${guide.category}-firmalari`}
+                    className="inline-flex items-center gap-2 px-6 py-2.5 bg-brand-primary text-white rounded-brand font-medium hover:opacity-90 transition"
+                  >
+                    <BookOpen size={16} />
+                    {guide.city} Firmalarını İncele
+                  </Link>
+                </>
+              ) : (
+                <>
+                  <p className="text-brand-text-muted mb-5">
+                    Şehrinizdeki en iyi <Link href={`/turkiye/${guide.category}`} className="text-brand-primary hover:underline font-medium">{getCategoryLabel(guide.category)}</Link> firmalarını karşılaştırın, kolayca sipariş verin.
+                  </p>
+                  <CitySearch
+                    categorySlug={guide.category}
+                    categoryDisplay={getCategoryLabel(guide.category)}
+                    variant="section"
+                  />
+                </>
+              )}
             </div>
 
             {/* İlgili Rehberler */}
