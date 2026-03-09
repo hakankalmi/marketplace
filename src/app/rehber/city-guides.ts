@@ -939,4 +939,87 @@ Merkeze uzak ilçeler. Ergani ve Silvan nüfuslarıyla (80.000+) yerel firma bar
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'sanliurfa-hali-yikama', 'gaziantep-hali-yikama'],
   },
+  {
+    slug: 'hatay-hali-yikama',
+    city: 'Hatay',
+    citySlug: 'hatay',
+    title: 'Hatay Halı Yıkama Rehberi — İlçe Bazlı Fiyatlar ve Firmalar',
+    metaTitle: 'Hatay Halı Yıkama | İlçe Bazlı Fiyatlar ve En İyi Firmalar 2026',
+    metaDescription: 'Hatay halı yıkama fiyatları ilçe bazlı karşılaştırma. Antakya, İskenderun, Defne, Arsuz, Dörtyol, Kırıkhan ve tüm ilçelerde en iyi halı yıkama firmaları.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 7,
+    heroEmoji: '🫒',
+    intro: 'Hatay, Akdeniz\'in doğusunda medeniyetler beşiği bir şehirdir. 1.7 milyonluk nüfusu, Akdeniz-Ortadoğu geçiş iklimi ve zengin kültürel mozaiği bu ili farklı kılar. Yüksek nem, Amanos dağlarından inen rüzgârlar ve 2023 depremlerinin etkileri halı yıkama sektörünü doğrudan şekillendirmiştir. Bu rehberde [Hatay halı yıkama](/hatay-hali-yikama-firmalari) fiyatlarını ilçe bazlı karşılaştırıyor ve Hatay\'a özgü halı bakım ipuçlarını paylaşıyoruz.',
+    sections: [
+      {
+        heading: 'Hatay Halı Yıkama Fiyatları — Genel',
+        content: `Hatay fiyatları Adana ve Mersin ile benzer seviyelerde, Türkiye ortalamasının hafif altındadır:
+
+**Makine Halısı:** Ortalama 80 TL/m² (aralık: 70-120 TL) — İstanbul ortalaması 140 TL iken Hatay %43 daha uygun
+**El Halısı (Yün):** 100-170 TL/m²
+**İpek Halı:** 140-320 TL/m²
+**Shaggy / Uzun Tüylü:** 75-115 TL/m²
+**Kilim / El Dokuması:** 70-100 TL/m²
+
+**Hatay'ın Farkı:** Akdeniz iklimi kurutmayı hızlandırır — yaz aylarında halılar birkaç saatte kurur. Adana ve Mersin'e coğrafi yakınlık firma rekabetini artırır. Ancak 2023 depremlerinden sonra bazı tesisler hasar gördü — yenilenmiş veya yeni tesisleri tercih edin.`,
+      },
+      {
+        heading: 'Hatay Halı Yıkama — İlçe Bazlı Fiyat Karşılaştırması',
+        content: `Hatay ortalaması makine halısı için 80 TL/m²'dir. İki ana şehir (Antakya ve İskenderun) pazarın büyük bölümünü oluşturur:
+
+**Yüksek Fiyat Bölgeleri (90-120 TL/m²):**
+[Defne halı yıkama](/hatay-defne-hali-yikama-firmalari) (Harbiye, Sümerler), [Antakya halı yıkama](/hatay-antakya-hali-yikama-firmalari) (merkez), [Arsuz halı yıkama](/hatay-arsuz-hali-yikama-firmalari) (sahil)
+Defne, Hatay'ın modern ve gelir düzeyi yüksek ilçesidir. Harbiye'nin serin iklimi ve yazlık villa yoğunluğu talebi artırır. Arsuz sahil bölgesinde yazlık ev temizliği sezonluk fiyat artışı yaratır.
+
+**Orta Fiyat Bölgeleri (75-90 TL/m²):**
+[İskenderun halı yıkama](/hatay-iskenderun-hali-yikama-firmalari), [Dörtyol halı yıkama](/hatay-dortyol-hali-yikama-firmalari), [Payas halı yıkama](/hatay-payas-hali-yikama-firmalari)
+İskenderun, Hatay'ın en büyük liman şehri ve sanayi merkezidir (250.000+ nüfus). Demir-çelik fabrikaları çevresinde sanayi tozu halıları hızla kirletir. Firma yoğunluğu fazla, rekabet güçlüdür.
+
+**Uygun Fiyat Bölgeleri (70-80 TL/m²):**
+[Kırıkhan halı yıkama](/hatay-kirikhan-hali-yikama-firmalari), [Reyhanlı halı yıkama](/hatay-reyhanli-hali-yikama-firmalari), [Hassa halı yıkama](/hatay-hassa-hali-yikama-firmalari), [Samandağ halı yıkama](/hatay-samandag-hali-yikama-firmalari), [Altınözü halı yıkama](/hatay-altinozsu-hali-yikama-firmalari)
+Sınır ilçeleri ve kırsal bölgeler. Kırıkhan ve Reyhanlı nüfuslarıyla yerel firma barındırır. Diğer ilçelerde firma sayısı sınırlıdır.
+
+**Deprem Sonrası Not:** 2023 depremleri Hatay'ı ağır etkiledi. Birçok halı yıkama tesisi hasar gördü veya kapandı. Yeni açılan ve modern tesislere sahip firmalar daha güvenilirdir — platform üzerinden doğrulanmış profili olan firmaları tercih edin.`,
+      },
+      {
+        heading: 'Hatay Halı Yıkama — Akdeniz İklimi ve Coğrafya Etkisi',
+        content: `Hatay'ın kendine has iklimi ve coğrafyası halı bakımını doğrudan etkiler:
+
+**Yüksek Nem:** Hatay, Akdeniz kıyısında ve Amanos dağlarının eteğinde yer alır. Nem oranı özellikle İskenderun ve Samandağ'da %75-85'e çıkabilir. Bu yüksek nem halılarda toz akarı, küf ve bakteri üremesini hızlandırır. Sahil bölgesinde yaşayanlar yılda en az 2-3 kez profesyonel halı yıkama yaptırmalıdır.
+
+**Amanos Rüzgârı:** Amanos dağlarından inen kuvvetli rüzgârlar özellikle kış aylarında yoğun nem ve yağmur getirir. İlkbahar rüzgârları ise toz taşır. Her iki durumda da halılar etkilenir.
+
+**Sanayi Tozu — İskenderun:** İskenderun'daki demir-çelik fabrikaları (İsdemir) ve liman faaliyetleri hava kalitesini düşürür. Çevredeki mahallelerde halılar metal tozu ve endüstriyel partikül madde nedeniyle daha hızlı kirlenir. Bu bölgelerde yılda 3+ kez halı yıkama önerilir.
+
+**Kurutma Avantajı:** Hatay'ın sıcak Akdeniz iklimi kurutma açısından idealdir. Yaz aylarında halılar birkaç saatte kurur. Kışın bile kapalı ortamda 2-3 günde kurutma tamamlanır.
+
+**En Uygun Dönem:** Ekim-Kasım ve Mart-Nisan — hava ılık, firmalar yoğun değil.
+
+**Yoğun Dönem:** Mayıs-Haziran ve bayram öncesi dönemler.
+
+[Hatay halı yıkama firmaları](/hatay-hali-yikama-firmalari) — Hatay'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+      },
+      {
+        heading: 'Hatay Halı Yıkama Firması Seçerken Dikkat Edilecekler',
+        content: `**Deprem Sonrası Yeniden Yapılanma:** 2023 depremlerinden sonra Hatay'da birçok firma yeniden kuruldu veya tesislerini yeniledi. Yeni tesisler modern ekipman ve hijyenik koşullar sunar. Platform üzerinden firma profillerini inceleyerek doğrulanmış ve güncel fotoğrafları olan firmaları tercih edin.
+
+**İskenderun Sanayi Bölgesi:** İsdemir ve liman çevresindeki mahallelerde yaşıyorsanız halılarınızda metal tozu birikimi olur. Firmaya bu durumu belirtin — bazı firmalar endüstriyel toz için özel ön işlem (silkeleme + vakumlama) uygular.
+
+**Antakya-İskenderun İkili Pazarı:** Hatay'ın iki ana merkezi (Antakya ve İskenderun) 60 km mesafededir. Her iki merkezde de yeterli firma bulunur — kendi bölgenizdeki firmayı tercih ederek ulaşım maliyetinden tasarruf edin.
+
+**Harbiye Yazlık Evleri:** Defne ilçesinin Harbiye bölgesi serin iklimi ve doğal güzellikleriyle yazlık ev yoğunluğu yüksektir. Sezon açılışında (Mayıs) toplu halı yıkama talebi artar — erken sipariş verin.
+
+**Çok Kültürlü Halı Çeşitliliği:** Hatay'ın zengin kültürel mozaiği (Arap, Türk, Ermeni, Süryani) halı çeşitliliğine yansır. Yöresel el dokumaları, Suriye tarzı halılar ve geleneksel kilimler özel bakım gerektirebilir. Firmaya halınızın türünü ve kökenini belirtin.`,
+      },
+    ],
+    faq: [
+      { q: 'Hatay\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı için ortalama 80 TL/m², el halısı 100-170 TL/m², kilim 70-100 TL/m² aralığındadır. Defne ve Arsuz en pahalı, Kırıkhan ve Reyhanlı en uygun ilçelerdir.' },
+      { q: 'Hatay\'da deprem sonrası halı yıkama firması bulmak zor mu?', a: 'Birçok firma yeniden açıldı veya tesislerini yeniledi. Platform üzerinden doğrulanmış profili olan aktif firmaları kolayca bulabilirsiniz.' },
+      { q: 'Hatay\'da halı yıkama kaç gün sürer?', a: 'Yaz aylarında 1-2 gün, kış aylarında 2-4 gün. Sıcak iklim kurutmayı hızlandırır.' },
+      { q: 'İskenderun\'da halı neden daha çabuk kirlenir?', a: 'Demir-çelik fabrikaları ve liman faaliyetleri havaya metal tozu ve endüstriyel partikül yayar. Bu bölgede halılar daha sık profesyonel yıkama gerektirir (yılda 3+ kez).' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'adana-hali-yikama', 'mersin-hali-yikama'],
+  },
 ];
