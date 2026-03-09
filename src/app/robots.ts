@@ -9,7 +9,7 @@ export default function robots(): MetadataRoute.Robots {
     rules: [
       {
         userAgent: '*',
-        allow: '/',
+        allow: ['/', '/api/og'],
         disallow: ['/hesabim/', '/giris', '/api/'],
       },
       // Block AI training crawlers (keep search crawlers allowed)
