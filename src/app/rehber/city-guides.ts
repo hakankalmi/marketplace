@@ -2619,4 +2619,230 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'malatya-hali-yikama', 'diyarbakir-hali-yikama'],
   },
+
+  // ── Erzurum ────────────────────────────────────────────────
+  {
+    slug: 'erzurum-hali-yikama',
+    city: 'Erzurum',
+    citySlug: 'erzurum',
+    title: 'Erzurum Halı Yıkama Rehberi — Fiyatlar, İlçeler ve Tavsiyeler',
+    metaTitle: 'Erzurum Halı Yıkama Fiyatları 2026 | Rehber & Karşılaştırma',
+    metaDescription: 'Erzurum halı yıkama fiyatları, güvenilir firma önerileri ve ilçe bazlı hizmet rehberi. Sert kış koşullarına uygun halı bakımı.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 11,
+    heroEmoji: '🏔️',
+    intro: 'Erzurum, Türkiye\'nin en soğuk şehirlerinden biri olarak kışın -30°C\'ye varan sıcaklıklarıyla bilinir. Uzun kış aylarında kapalı kalan evlerde halılar yoğun kullanılır ve özellikle soba-kalorifer kurum lekeleri ciddi bir sorun oluşturur. Yaz aylarının kısalığı nedeniyle halı yıkama sezonu Haziran-Eylül arasına sıkışır; bu dönemde firmalar yoğun çalışır. Doğu Anadolu\'nun en büyük şehri olan Erzurum\'da geleneksel el dokuması halılar hâlâ yaygındır — özellikle Erzurum kilimi ve İspir halısı bölgenin önemli dokuma miraslarıdır.',
+    sections: [
+      {
+        heading: 'Erzurum Halı Yıkama Fiyatları 2026',
+        content: `Erzurum halı yıkama fiyatları Türkiye ortalamasının altındadır. Uzun kış nedeniyle firmalar yaz sezonunda rekabetçi fiyatlar sunar:
+
+| Halı Türü | Fiyat Aralığı (m²) | Not |
+|---|---|---|
+| Makine halısı | 70-90 TL | En yaygın tür |
+| El dokuması / kilim | 80-150 TL | Erzurum kilimi özel işlem |
+| Shaggy / uzun tüylü | 75-120 TL | Kurutma süresi uzun |
+| Yün halı | 85-140 TL | Soğuk yıkama tercih edilir |
+| İpek halı | 120-200 TL | El yıkama zorunlu |
+
+🔴 **Pahalı bölgeler:** Yakutiye merkez, MNG AVM çevresi, Yenişehir
+🟡 **Orta fiyatlı bölgeler:** Aziziye, Palandöken merkez, Dadaşkent
+🟢 **Uygun fiyatlı bölgeler:** Horasan, Oltu, Hınıs, Tekman
+
+💡 *Erzurum'da yaz sezonu kısadır — erken sipariş verirseniz hem fiyat avantajı hem hızlı teslim alırsınız.*`,
+      },
+      {
+        heading: 'Erzurum İklimi ve Halı Bakımı İlişkisi',
+        content: `Erzurum, Türkiye'nin en sert kışlarını yaşayan şehridir. Bu durum halı bakımını doğrudan etkiler:
+
+**Kış ayları (Ekim-Nisan):** Sıcaklıklar -20°C ile -35°C arasına düşer. Açık havada halı yıkama imkânsızdır. Kapalı tesiste bile kurutma süresi 5-7 güne çıkar. Soğuk hava halı liflerini sertleştirir — kışın halı silkelemek bile liflere zarar verebilir.
+
+**Soba ve kalorifer kurum lekeleri:** Erzurum'da hâlâ birçok evde soba kullanılır. Kurum zerrecikleri halı liflerine nüfuz eder ve normal süpürmeyle çıkmaz. Profesyonel buhar temizliği bu lekelerde en etkili yöntemdir.
+
+**Yaz sezonu (Haziran-Eylül):** Sıcaklık 25-32°C arasında kalır. Bu 4 aylık pencere halı yıkama için ideal dönemdir. Kuru ve güneşli havada halılar 1 günde kurur. Firmalar bu dönemde tam kapasite çalışır.
+
+**Kar suyu nemi:** Bahar aylarında kar erimesiyle evlerde nem artar. Bu nem halılarda küflenme riskini artırır — bahar başında profesyonel yıkama önerilir.
+
+📌 *Erzurum'da halı yıkama işini yaza bırakmak risksizdir ama firmalar yoğun olduğu için en az 1 hafta önceden sipariş verin.*`,
+      },
+      {
+        heading: 'Erzurum\'da Geleneksel Halılar ve El Dokuması Bakımı',
+        content: `Erzurum, Doğu Anadolu'nun önemli dokuma merkezlerinden biridir. Bölgeye özgü halı ve kilim türleri:
+
+**Erzurum Kilimi:** Geometrik desenleri ve canlı renkleriyle tanınır. Doğal boyalar kullanıldığı için yıkamada özel dikkat gerekir — sıcak su boyaları akıtabilir. Soğuk su + nötr pH deterjan zorunludur.
+
+**İspir Halısı:** İspir ilçesine özgü, ince düğümlü el dokuması halılar. Antika değeri yüksek olanlar sadece el yıkama ile temizlenmelidir. Makine yıkama düğüm yapısına zarar verir.
+
+**Oltu taşı motifli halılar:** Oltu'ya özgü desenlerle dokunan modern halılar. Standart makine yıkama uygundur ama boyaları solabileceğinden güneş altında kurutulmamalıdır.
+
+**Yün cecimler:** Kışlık yer örtüsü olarak kullanılan kalın dokuma. Ağırlığı nedeniyle evde yıkama mümkün değildir — profesyonel tesis şarttır.
+
+⚠️ *El dokuması halınızın yaşı 50 yılı geçiyorsa, firmaya mutlaka "antika halı" olarak bildirin. Standart kimyasal işlem geri dönüşü olmayan hasara yol açabilir.*`,
+      },
+      {
+        heading: 'Erzurum Halı Yıkama Firması Seçerken Dikkat Edilecekler',
+        content: `Erzurum'un zorlu iklimi firma seçiminde ekstra dikkat gerektirir:
+
+**Kapalı kurutma tesisi şart:** Erzurum'da yılın 7-8 ayı açık havada kurutma yapılamaz. Kapalı, ısıtmalı kurutma alanı olan firmayı tercih edin. Sıcak hava sirküsyonlu tesis ideal olanıdır.
+
+**El dokuması deneyimi:** Bölgede el dokuması halı oranı yüksektir. Firma seçerken geleneksel halı temizleme deneyimi olup olmadığını sorun. Makine halısı yıkayan her firma el dokuması yıkayamaz.
+
+**Soba kurum lekesi uzmanlığı:** Erzurum'a özgü bir ihtiyaçtır. Kurum lekesi çıkarma konusunda deneyimli firmalar öne çıkar. Buhar temizliği yapabilen firmalar tercih edilmelidir.
+
+**Teslimat süresi:** Kış aylarında kurutma süresi 5-7 güne uzar. Firma sipariş alırken gerçekçi teslim süresi belirtmeli — "2 günde teslim" diyorsa kışın bu mümkün değildir.
+
+**Fiyat şeffaflığı:** Halı türüne göre m² fiyatı net olarak belirtilmeli. Platform üzerinden sipariş verirseniz fiyat önceden görünür ve sürpriz ek ücret olmaz.`,
+      },
+      {
+        heading: 'Erzurum İlçelerinde Halı Yıkama Hizmetleri',
+        content: `Erzurum büyükşehir sınırları içinde 20 ilçe bulunur. İlçe bazlı halı yıkama hizmet durumu:
+
+**Merkez İlçeler (yoğun hizmet):**
+- [Yakutiye halı yıkama](/erzurum-yakutiye-hali-yikama-firmalari) — Tarihi merkez, çarşı bölgesi
+- [Aziziye halı yıkama](/erzurum-aziziye-hali-yikama-firmalari) — Erzurum Kalesi, üniversite
+- [Palandöken halı yıkama](/erzurum-palandoken-hali-yikama-firmalari) — Kayak merkezi, yeni yerleşim
+
+**Batı İlçeler:**
+- [Horasan halı yıkama](/erzurum-horasan-hali-yikama-firmalari) — İpek Yolu güzergâhı, büyük ilçe
+- [Pasinler halı yıkama](/erzurum-pasinler-hali-yikama-firmalari) — Termal kaynaklar, tarih
+- [Köprüköy halı yıkama](/erzurum-koprukoy-hali-yikama-firmalari) — Aras Nehri kıyısı
+
+**Kuzeydoğu İlçeler:**
+- [Oltu halı yıkama](/erzurum-oltu-hali-yikama-firmalari) — Oltu taşı, tarihi kale
+- [Tortum halı yıkama](/erzurum-tortum-hali-yikama-firmalari) — Tortum Gölü, şelale
+- [İspir halı yıkama](/erzurum-ispir-hali-yikama-firmalari) — Çoruh Vadisi, el dokuması geleneği
+- [Narman halı yıkama](/erzurum-narman-hali-yikama-firmalari) — Peri Bacaları
+
+**Güney İlçeler:**
+- [Hınıs halı yıkama](/erzurum-hinis-hali-yikama-firmalari) — Bingöl sınırı
+- [Tekman halı yıkama](/erzurum-tekman-hali-yikama-firmalari) — Yaylacılık bölgesi
+- [Karayazı halı yıkama](/erzurum-karayazi-hali-yikama-firmalari) — Ağrı sınırı
+
+**Diğer İlçeler:**
+- [Aşkale halı yıkama](/erzurum-askale-hali-yikama-firmalari) — Erzincan yolu üzeri
+- [Çat halı yıkama](/erzurum-cat-hali-yikama-firmalari) — Kırsal
+- [Karaçoban halı yıkama](/erzurum-karacoban-hali-yikama-firmalari) — Bingöl sınırı
+- [Şenkaya halı yıkama](/erzurum-senkaya-hali-yikama-firmalari) — Kars sınırı
+- [Pazaryolu halı yıkama](/erzurum-pazaryolu-hali-yikama-firmalari) — Artvin sınırı
+- [Uzundere halı yıkama](/erzurum-uzundere-hali-yikama-firmalari) — Tortum Gölü manzarası
+
+📌 *Merkeze uzak ilçelerde profesyonel halı yıkama firması bulunmaz. Erzurum merkez firmaları tüm ilçelere ücretsiz alım-teslim hizmeti sunar — platform üzerinden kolayca sipariş verebilirsiniz.*`,
+      },
+    ],
+    faq: [
+      { q: 'Erzurum\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-90 TL/m², el dokuması kilim 80-150 TL/m², yün halı 85-140 TL/m² aralığındadır. Türkiye ortalamasının altında, uygun fiyatlı bir şehirdir.' },
+      { q: 'Erzurum\'da kışın halı yıkatılır mı?', a: 'Mümkündür ama kapalı kurutma tesisi olan firma şarttır. Kurutma süresi 5-7 güne uzar. İdeal dönem Haziran-Eylül arasıdır.' },
+      { q: 'Soba kurumu halıdan çıkar mı?', a: 'Evet, profesyonel buhar temizliği ile çıkar. Evde sirke veya karbonat gibi yöntemler yetersiz kalır — kurum zerrecikleri halı liflerinin derinlerine nüfuz eder.' },
+      { q: 'Erzurum kilimi nasıl yıkanır?', a: 'Soğuk su + nötr pH deterjan ile düşük devirde yıkanır. Doğal boyalar sıcak suya dayanmaz. Gölgede kurutulmalıdır — güneş boyaları soldurur.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'elazig-hali-yikama', 'van-hali-yikama'],
+  },
+
+  // ── Sivas ────────────────────────────────────────────────
+  {
+    slug: 'sivas-hali-yikama',
+    city: 'Sivas',
+    citySlug: 'sivas',
+    title: 'Sivas Halı Yıkama Rehberi — Fiyatlar, İlçeler ve Tavsiyeler',
+    metaTitle: 'Sivas Halı Yıkama Fiyatları 2026 | Rehber & Karşılaştırma',
+    metaDescription: 'Sivas halı yıkama fiyatları, güvenilir firma önerileri ve ilçe bazlı hizmet rehberi. Sivas halısı bakımı ve kış koşullarına uygun çözümler.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 11,
+    heroEmoji: '🐺',
+    intro: 'Sivas, Türkiye\'nin yüzölçümü en büyük ikinci ili ve Anadolu\'nun tam ortasında yer alır. Sert karasal iklimi, uzun kışları ve yüksek rakımıyla bilinen şehir, aynı zamanda Türkiye\'nin en önemli halı dokuma merkezlerinden biridir. Sivas halısı dünya çapında tanınır — özellikle çifte düğüm tekniğiyle dokunan el halıları koleksiyoncular arasında değerlidir. Bu rehberde Sivas\'ta halı yıkama fiyatlarını, iklime uygun bakım önerilerini ve ilçe bazlı hizmet bilgilerini bulacaksınız.',
+    sections: [
+      {
+        heading: 'Sivas Halı Yıkama Fiyatları 2026',
+        content: `Sivas halı yıkama fiyatları Türkiye ortalamasının altındadır. Şehrin büyük yüzölçümü nedeniyle uzak ilçelerde nakliye maliyeti fiyatı etkileyebilir:
+
+| Halı Türü | Fiyat Aralığı (m²) | Not |
+|---|---|---|
+| Makine halısı | 70-85 TL | En yaygın, standart yıkama |
+| El dokuması Sivas halısı | 90-170 TL | Çifte düğüm, özel bakım |
+| Kilim / cicim | 75-130 TL | Doğal boya koruması |
+| Shaggy / uzun tüylü | 75-115 TL | Kurutma süresi uzun |
+| Yün halı | 80-135 TL | Soğuk yıkama önerilir |
+
+🔴 **Pahalı bölgeler:** Merkez Sivas (Kale çevresi), Yeni Sivas, Üniversite bölgesi
+🟡 **Orta fiyatlı bölgeler:** 4 Eylül Mahallesi, Karşıyaka, Kangal yolu
+🟢 **Uygun fiyatlı bölgeler:** Şarkışla, Zara, Gemerek, Suşehri
+
+💡 *Sivas'ta el dokuması halı oranı Türkiye ortalamasının çok üzerindedir — fiyat alırken halı türünüzü mutlaka belirtin.*`,
+      },
+      {
+        heading: 'Sivas İklimi ve Halı Yıkama Mevsimselliği',
+        content: `Sivas, 1.285 metre rakımıyla Türkiye'nin en yüksek il merkezlerinden biridir. Kışları uzun ve sert, yazları kısa ama sıcak geçer:
+
+**Kış dönemi (Kasım-Nisan):** Sıcaklık -25°C'ye kadar düşer. Kar örtüsü 4-5 ay kalır. Açık havada halı yıkama kesinlikle yapılamaz. Kapalı tesiste kurutma 4-6 gün sürer.
+
+**Yaz dönemi (Haziran-Eylül):** Sıcaklık 28-34°C arasında seyreder. Kuru step iklimi halı kurutma için idealdir — güneşli günlerde 6-8 saatte tamamen kurur. Bu dönem halı yıkama için en verimli zamanıdır.
+
+**Toz ve toprak:** Sivas'ın step iklimi nedeniyle toz miktarı yüksektir. Özellikle rüzgârlı günlerde ince toprak halı liflerine işler. Yılda en az 1 kez profesyonel yıkama tavsiye edilir.
+
+**Soba kullanımı:** Kırsal bölgelerde ve ilçelerde hâlâ yaygın olan soba, halılarda kurum ve is lekesi bırakır. Bu lekelerin temizliği için buhar yöntemi en etkili çözümdür.
+
+📌 *Sivas'ta halı yıkama sezonu kısadır. Haziran başında sipariş verirseniz sıra beklemeden hızlı teslim alırsınız.*`,
+      },
+      {
+        heading: 'Dünyaca Ünlü Sivas Halısı — Bakım Rehberi',
+        content: `Sivas, yüzyıllardır halı dokuma geleneğine sahiptir. Sivas halıları uluslararası müzayedelerde binlerce dolara satılır. Bakımında dikkat edilmesi gerekenler:
+
+**Sivas çifte düğüm halısı:** Türk düğümü (Gördes düğümü) ile dokunan bu halılar son derece dayanıklıdır. Yine de profesyonel yıkamada düşük devir ve soğuk su kullanılmalıdır. Yanlış kimyasal düğüm yapısını gevşetir.
+
+**Sivas kilimi:** Düz dokuma, geometrik desenli. Doğal kök boyalarla renklendirilir — sıcak su boyaları akıtır. El yıkama veya çok düşük basınçlı makine yıkama uygundur.
+
+**Zara halısı:** Zara ilçesine özgü, ince düğümlü, ipek karışımlı halılar. Antika değeri çok yüksek olanlar sadece uzman restorasyoncular tarafından temizlenmelidir.
+
+**Kangal halısı:** Kangal yöresine özgü kalın yün halılar. Dayanıklıdır ama boyaları hassas olabilir — pH nötr deterjan zorunludur.
+
+**Divriği halısı:** UNESCO Dünya Mirası Divriği'ye özgü motifler taşır. Müze değerinde olanlar için profesyonel restorasyon önerilir.
+
+⚠️ *Sivas'ta 50 yaş üstü el dokuması halınız varsa, temizlik öncesi mutlaka firmaya "antika halı" olarak bildirin. Standart yıkama tekniği telafisi mümkün olmayan hasara yol açabilir.*`,
+      },
+      {
+        heading: 'Sivas İlçelerinde Halı Yıkama Hizmetleri',
+        content: `Sivas, 17 ilçesiyle Türkiye'nin coğrafi olarak en geniş illerinden biridir. İlçe bazlı halı yıkama hizmet durumu:
+
+**Merkez ve Yakın İlçeler:**
+- [Sivas Merkez halı yıkama](/sivas-merkez-hali-yikama-firmalari) — Şehir merkezi, tüm firmalar burada
+- [Hafik halı yıkama](/sivas-hafik-hali-yikama-firmalari) — Tödürge Gölü
+- [Yıldızeli halı yıkama](/sivas-yildizeli-hali-yikama-firmalari) — Merkeze yakın
+
+**Batı İlçeler:**
+- [Şarkışla halı yıkama](/sivas-sarkisla-hali-yikama-firmalari) — Sivas'ın en kalabalık ilçesi
+- [Gemerek halı yıkama](/sivas-gemerek-hali-yikama-firmalari) — Kayseri sınırı
+- [Kangal halı yıkama](/sivas-kangal-hali-yikama-firmalari) — Kangal köpeği, termal
+
+**Kuzey İlçeler:**
+- [Suşehri halı yıkama](/sivas-susehri-hali-yikama-firmalari) — Kelkit Vadisi
+- [Koyulhisar halı yıkama](/sivas-koyulhisar-hali-yikama-firmalari) — Yeşilırmak kenarı
+- [Akıncılar halı yıkama](/sivas-akincilar-hali-yikama-firmalari) — Küçük ilçe
+
+**Güney İlçeler:**
+- [Divriği halı yıkama](/sivas-divrigi-hali-yikama-firmalari) — UNESCO mirası, demir madeni
+- [Gürün halı yıkama](/sivas-gurun-hali-yikama-firmalari) — Gürün elması, Malatya sınırı
+- [Zara halı yıkama](/sivas-zara-hali-yikama-firmalari) — Halı dokuma merkezi
+
+**Diğer İlçeler:**
+- [İmranlı halı yıkama](/sivas-imranli-hali-yikama-firmalari) — Kızılırmak kaynağı
+- [Doğanşar halı yıkama](/sivas-dogansar-hali-yikama-firmalari) — Kırsal
+- [Gölova halı yıkama](/sivas-golova-hali-yikama-firmalari) — Küçük ilçe
+- [Ulaş halı yıkama](/sivas-ulas-hali-yikama-firmalari) — Tuz Gölü (Sivas)
+- [Altınyayla halı yıkama](/sivas-altinyayla-hali-yikama-firmalari) — Toprakkale sınırı
+
+📌 *Sivas'ın büyük yüzölçümü nedeniyle uzak ilçelerde profesyonel firma yoktur. Merkez firmalar il genelinde ücretsiz alım-teslim yapar — platform üzerinden sipariş verebilirsiniz.*`,
+      },
+    ],
+    faq: [
+      { q: 'Sivas\'ta halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-85 TL/m², el dokuması Sivas halısı 90-170 TL/m², kilim 75-130 TL/m² aralığındadır. Türkiye\'nin en uygun fiyatlı şehirlerinden biridir.' },
+      { q: 'Sivas halısı evde yıkanabilir mi?', a: 'El dokuması Sivas halısı evde yıkanmamalıdır. Ağırlığı, boyaların hassasiyeti ve düğüm yapısı profesyonel işlem gerektirir. Makine halısı için ev yıkama mümkündür ama profesyonel sonuç vermez.' },
+      { q: 'Sivas\'ta kışın halı yıkatılır mı?', a: 'Kapalı kurutma tesisi olan firmada mümkündür. Kurutma 4-6 gün sürer. Yaz sezonunu kaçırdıysanız kapalı tesisli firma tercih edin.' },
+      { q: 'Antika Sivas halısını nerede yıkatmalıyım?', a: 'El dokuması halı deneyimi olan firmaya mutlaka "antika" olarak bildirin. Platform üzerinde firma profillerinde el dokuması deneyimini kontrol edebilirsiniz.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'erzurum-hali-yikama', 'kayseri-hali-yikama'],
+  },
 ];
