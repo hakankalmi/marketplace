@@ -3209,4 +3209,165 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'ankara-hali-yikama', 'kayseri-hali-yikama'],
   },
+
+  // ── Osmaniye ────────────────────────────────────────────────
+  {
+    slug: 'osmaniye-hali-yikama',
+    city: 'Osmaniye',
+    citySlug: 'osmaniye',
+    title: 'Osmaniye Halı Yıkama Rehberi — Fiyatlar, İlçeler ve Tavsiyeler',
+    metaTitle: 'Osmaniye Halı Yıkama Fiyatları 2026 | Rehber & Karşılaştırma',
+    metaDescription: 'Osmaniye halı yıkama fiyatları, güvenilir firma önerileri ve ilçe bazlı hizmet rehberi. Akdeniz-İç Anadolu geçiş ikliminde halı bakımı.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 9,
+    heroEmoji: '🏰',
+    intro: 'Osmaniye, Çukurova\'nın doğusunda Amanos Dağları\'nın eteklerinde yer alan genç bir ildir. 1996\'da il statüsü kazanan şehir, Akdeniz ve İç Anadolu iklimlerinin kesişim noktasındadır. Yazları kavurucu sıcak, kışları ılıman geçer. Kadirli ve Düziçi gibi verimli ovalarda tarım yoğun olduğundan toprak ve toz halılara sık bulaşır. Karatepe-Aslantaş antik kenti ve Kastabala kalıntılarıyla tarihi zenginliğe sahip şehirde, halı yıkama sektörü giderek profesyonelleşmektedir.',
+    sections: [
+      {
+        heading: 'Osmaniye Halı Yıkama Fiyatları 2026',
+        content: `Osmaniye halı yıkama fiyatları Adana-Gaziantep hattının biraz altında, uygun fiyatlı bir bölgededir:
+
+| Halı Türü | Fiyat Aralığı (m²) | Not |
+|---|---|---|
+| Makine halısı | 70-85 TL | Standart |
+| El dokuması / kilim | 80-130 TL | Yöresel kilimler |
+| Shaggy / uzun tüylü | 75-115 TL | Sıcak iklimde hızlı kuruma |
+| Yün halı | 80-125 TL | Standart |
+| İpek halı | 110-175 TL | El yıkama |
+
+🔴 **Pahalı bölgeler:** Merkez Osmaniye, Alibeyli, Raufbey Mahallesi
+🟡 **Orta fiyatlı bölgeler:** Kadirli merkez, Düziçi merkez
+🟢 **Uygun fiyatlı bölgeler:** Bahçe, Hasanbeyli, Sumbas, Toprakkale
+
+💡 *Osmaniye'nin sıcak iklimi kurutmayı kolaylaştırır — yaz aylarında halılar 4-5 saatte kurur.*`,
+      },
+      {
+        heading: 'Osmaniye İklimi ve Halı Bakımına Etkisi',
+        content: `Osmaniye, Akdeniz iklimi etkisinde sıcak ve yarı nemli bir bölgededir:
+
+**Yazları kavurucu:** Haziran-Eylül arası sıcaklık 38-42°C'ye çıkar. Bu aşırı sıcak halı kurutma için avantajdır ama halıların doğrudan güneş altında bırakılması renk solmasına yol açar. Gölgede kurutma tercih edilmelidir.
+
+**Kışları ılıman:** Sıcaklık nadiren 0°C'nin altına düşer. Kışın bile açık havada halı kurutma mümkündür — bu Osmaniye'yi yılın 12 ayı halı yıkama yapılabilen nadir illerden biri yapar.
+
+**Tarım tozu:** Çukurova'nın doğu ucunda yer alan Osmaniye'de pamuk, yer fıstığı ve tahıl tarımı yapılır. Hasat dönemlerinde havadaki toz miktarı artar ve halılara yerleşir. Bu ince tarım tozu derin temizlik gerektirir.
+
+**Böcek sorunu:** Sıcak iklimde halı güvesi ve akar gibi zararlılar daha hızlı çoğalır. Profesyonel yıkamada anti-parazit işlemi Osmaniye için standart olmalıdır.
+
+📌 *Osmaniye'de yaz sıcağı halıları hızla kurutsa da UV ışınları renkleri soldurur — firmaya "gölgede kurutma" tercihini belirtin.*`,
+      },
+      {
+        heading: 'Osmaniye İlçelerinde Halı Yıkama Hizmetleri',
+        content: `Osmaniye 7 ilçeden oluşan kompakt bir ildir:
+
+**Merkez ve Büyük İlçeler:**
+- [Osmaniye Merkez halı yıkama](/osmaniye-merkez-hali-yikama-firmalari) — Şehir merkezi
+- [Kadirli halı yıkama](/osmaniye-kadirli-hali-yikama-firmalari) — En büyük ilçe, kendi firmaları var
+- [Düziçi halı yıkama](/osmaniye-duzici-hali-yikama-firmalari) — Verimli ova, büyük ilçe
+
+**Diğer İlçeler:**
+- [Bahçe halı yıkama](/osmaniye-bahce-hali-yikama-firmalari) — Amanos geçidi
+- [Toprakkale halı yıkama](/osmaniye-toprakkale-hali-yikama-firmalari) — Tarihi kale, demir yolu
+- [Hasanbeyli halı yıkama](/osmaniye-hasanbeyli-hali-yikama-firmalari) — Dağ ilçesi
+- [Sumbas halı yıkama](/osmaniye-sumbas-hali-yikama-firmalari) — Kırsal
+
+📌 *Kadirli ve Düziçi'de yerel firmalar mevcuttur. Diğer ilçelere merkez firmalarından ücretsiz alım-teslim yapılır.*`,
+      },
+    ],
+    faq: [
+      { q: 'Osmaniye\'de halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-85 TL/m², el dokuması 80-130 TL/m² aralığındadır. Bölgenin en uygun fiyatlı illerinden biridir.' },
+      { q: 'Osmaniye\'de kışın halı yıkatılır mı?', a: 'Evet, Osmaniye\'nin ılıman kışı sayesinde yılın 12 ayı halı yıkama yapılabilir. Don tehlikesi çok nadirdir.' },
+      { q: 'Halı güvesi nasıl önlenir?', a: 'Yılda en az 1 kez profesyonel yıkama + anti-parazit işlemi, halı altını düzenli havalandırma ve naftalin kullanımı güveyi önler. Sıcak iklimde zararlılar hızlı çoğalır.' },
+      { q: 'Osmaniye\'de Adana firması mı tercih etmeliyim?', a: 'Yerel firmalar genellikle daha hızlı teslim ve uygun fiyat sunar. Adana firması 80+ km nakliye maliyeti ekleyebilir.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'adana-hali-yikama', 'gaziantep-hali-yikama'],
+  },
+
+  // ── Çorum ────────────────────────────────────────────────
+  {
+    slug: 'corum-hali-yikama',
+    city: 'Çorum',
+    citySlug: 'corum',
+    title: 'Çorum Halı Yıkama Rehberi — Fiyatlar, İlçeler ve Tavsiyeler',
+    metaTitle: 'Çorum Halı Yıkama Fiyatları 2026 | Rehber & Karşılaştırma',
+    metaDescription: 'Çorum halı yıkama fiyatları, güvenilir firma önerileri ve ilçe bazlı hizmet rehberi. Hitit başkentinin iklim koşullarına uygun halı bakımı.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 10,
+    heroEmoji: '🦁',
+    intro: 'Çorum, Hitit Uygarlığı\'nın başkenti Hattuşa\'ya ev sahipliği yapan kadim bir Anadolu şehridir. Leblebi ve bakır işçiliğiyle meşhur şehir, Orta Karadeniz\'in iç kesiminde karasal iklime sahiptir. Kızılırmak havzasında yer alan verimli toprakları tarıma, soğuk kışları ise uzun süreli kapalı mekân yaşamına yönlendirir. Halılar Çorum evlerinde merkezi bir yer tutar — özellikle kış aylarında sıcaklık ve konfor sağlayan halılar yoğun kullanımdan yıpranır. Bu rehberde Çorum\'a özel fiyatları ve bakım önerilerini bulacaksınız.',
+    sections: [
+      {
+        heading: 'Çorum Halı Yıkama Fiyatları 2026',
+        content: `Çorum halı yıkama fiyatları İç Anadolu ortalamasında, uygun fiyatlı bir şehirdir:
+
+| Halı Türü | Fiyat Aralığı (m²) | Not |
+|---|---|---|
+| Makine halısı | 70-88 TL | En yaygın |
+| El dokuması / kilim | 80-140 TL | Yöresel kilimler |
+| Shaggy / uzun tüylü | 75-118 TL | Standart |
+| Yün halı | 80-135 TL | Soğuk yıkama |
+| İpek halı | 115-185 TL | El yıkama |
+
+🔴 **Pahalı bölgeler:** Merkez Çorum, Gazi Caddesi, Üniversite çevresi
+🟡 **Orta fiyatlı bölgeler:** Sungurlu merkez, Osmancık merkez, Alaca merkez
+🟢 **Uygun fiyatlı bölgeler:** İskilip, Bayat, Kargı, Mecitözü
+
+💡 *Çorum'da leblebi üretiminin yoğun olduğu bölgelerde ince toz halılara sık bulaşır — yılda en az 1 kez profesyonel yıkama önerilir.*`,
+      },
+      {
+        heading: 'Çorum İklimi ve Halı Bakımı',
+        content: `Çorum, 801 metre rakımda karasal iklim kuşağında yer alır. Kışlar soğuk ve karlı, yazlar sıcak ve kurak geçer:
+
+**Kış ayları (Kasım-Mart):** Sıcaklık -15°C'ye kadar düşer. Kar 2-3 ay yerde kalır. Kapalı mekânlarda halılar yoğun kullanılır — soba kurumu, çamur ve ıslak ayakkabı izleri en sık karşılaşılan sorunlardır.
+
+**Yaz ayları (Haziran-Eylül):** Sıcaklık 30-35°C arasında, nem düşüktür (%30-40). Halı kurutma için ideal koşullar — açık havada 6-8 saatte kuruma tamamlanır.
+
+**Kızılırmak havzası:** Nehir yakınlarındaki bölgelerde nem biraz daha yüksektir. Osmancık ve Kargı gibi vadi ilçelerinde küflenme riski şehir merkezinden fazladır.
+
+**Tarım tozu:** Çorum'un verimli toprakları hasat döneminde ince toz üretir. Buğday, şeker pancarı ve nohut tarımının yoğun olduğu bölgelerde halılar daha çabuk kirlenir.
+
+**Leblebi tozu:** Çorum'un simgesi leblebi üretim tesislerinin çevresinde ince nohut tozu havaya karışır. Bu toz halılara sindiğinde koku bırakır — düzenli profesyonel yıkama gerekir.
+
+📌 *Çorum'da halı yıkama sezonu Mayıs-Ekim arasıdır. Kış sonunda biriken kirleri temizlemek için bahar başında sipariş verin.*`,
+      },
+      {
+        heading: 'Çorum İlçelerinde Halı Yıkama Hizmetleri',
+        content: `Çorum 14 ilçeyle orta büyüklükte bir ildir. Büyük ilçelerde yerel firma seçenekleri mevcuttur:
+
+**Merkez ve Büyük İlçeler:**
+- [Çorum Merkez halı yıkama](/corum-merkez-hali-yikama-firmalari) — Şehir merkezi, tüm firmalar
+- [Sungurlu halı yıkama](/corum-sungurlu-hali-yikama-firmalari) — İkinci büyük ilçe, sanayi
+- [Osmancık halı yıkama](/corum-osmancik-hali-yikama-firmalari) — Kızılırmak kenarı, pirinç
+- [Alaca halı yıkama](/corum-alaca-hali-yikama-firmalari) — Alacahöyük, tarihi ilçe
+- [İskilip halı yıkama](/corum-iskilip-hali-yikama-firmalari) — Dolma, ahşap sanatı
+
+**Kuzey İlçeler:**
+- [Kargı halı yıkama](/corum-kargi-hali-yikama-firmalari) — Kızılırmak vadisi
+- [Oğuzlar halı yıkama](/corum-oguzlar-hali-yikama-firmalari) — Obruk Şelalesi
+- [Dodurga halı yıkama](/corum-dodurga-hali-yikama-firmalari) — Kırsal
+
+**Güney İlçeler:**
+- [Bayat halı yıkama](/corum-bayat-hali-yikama-firmalari) — Tarım bölgesi
+- [Mecitözü halı yıkama](/corum-mecitozu-hali-yikama-firmalari) — Amasya sınırı
+- [Ortaköy halı yıkama](/corum-ortakoy-hali-yikama-firmalari) — Merkeze yakın
+
+**Diğer İlçeler:**
+- [Boğazkale halı yıkama](/corum-bogazkale-hali-yikama-firmalari) — Hattuşa UNESCO mirası
+- [Uğurludağ halı yıkama](/corum-ugurludag-hali-yikama-firmalari) — Kırsal
+- [Laçin halı yıkama](/corum-lacin-hali-yikama-firmalari) — Küçük ilçe
+
+📌 *Sungurlu ve Osmancık'ta yerel firmalar mevcuttur. Diğer ilçelere Çorum merkez firmalarından ücretsiz alım-teslim yapılır.*`,
+      },
+    ],
+    faq: [
+      { q: 'Çorum\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-88 TL/m², el dokuması 80-140 TL/m², yün halı 80-135 TL/m² aralığındadır. İç Anadolu ortalamasındadır.' },
+      { q: 'Çorum\'da kışın halı yıkatılır mı?', a: 'Kapalı kurutma tesisi olan firmada mümkündür. Kurutma 3-5 gün sürer. Yaz sezonu çok daha verimlidir.' },
+      { q: 'Leblebi kokusu halıdan nasıl çıkar?', a: 'Profesyonel ozon işlemi en etkili çözümdür. Ev yöntemi olarak halıyı açık havada gün boyu havalandırmak kokuyu azaltır ama tamamen çıkarmaz.' },
+      { q: 'Hattuşa (Boğazkale) bölgesinden halı yıkama hizmeti alabilir miyim?', a: 'Evet, Çorum merkez firmaları Boğazkale dahil tüm ilçelere ücretsiz alım-teslim yapar. Platform üzerinden sipariş verebilirsiniz.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'samsun-hali-yikama', 'tokat-hali-yikama'],
+  },
 ];
