@@ -3370,4 +3370,159 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'samsun-hali-yikama', 'tokat-hali-yikama'],
   },
+
+  // ── Adıyaman ────────────────────────────────────────────────
+  {
+    slug: 'adiyaman-hali-yikama',
+    city: 'Adıyaman',
+    citySlug: 'adiyaman',
+    title: 'Adıyaman Halı Yıkama Rehberi — Fiyatlar, İlçeler ve Tavsiyeler',
+    metaTitle: 'Adıyaman Halı Yıkama Fiyatları 2026 | Rehber & Karşılaştırma',
+    metaDescription: 'Adıyaman halı yıkama fiyatları, güvenilir firma önerileri ve ilçe bazlı hizmet rehberi. Nemrut Dağı şehrinin iklimine uygun halı bakımı.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 9,
+    heroEmoji: '⛰️',
+    intro: 'Adıyaman, Güneydoğu Anadolu\'nun batısında Fırat Nehri kıyısında yer alır. Nemrut Dağı\'ndaki dev heykelleriyle dünyaca tanınan şehir, sıcak yazları ve ılıman kışlarıyla halı yıkama için elverişli bir iklime sahiptir. Atatürk Barajı\'nın şehre yakınlığı sulamalı tarımı mümkün kılmış, şehrin ekonomisi tarım ve petrol sanayiine dayanır. 2023 depreminden etkilenen şehirde yeniden yapılanma sürmektedir.',
+    sections: [
+      {
+        heading: 'Adıyaman Halı Yıkama Fiyatları 2026',
+        content: `Adıyaman halı yıkama fiyatları Güneydoğu Anadolu ortalamasındadır:
+
+| Halı Türü | Fiyat Aralığı (m²) | Not |
+|---|---|---|
+| Makine halısı | 70-85 TL | En yaygın |
+| El dokuması / kilim | 80-135 TL | Yöresel dokumalar |
+| Shaggy / uzun tüylü | 75-115 TL | Standart |
+| Yün halı | 80-130 TL | Standart |
+| İpek halı | 110-175 TL | El yıkama |
+
+🔴 **Pahalı bölgeler:** Merkez Adıyaman, Atatürk Bulvarı, Yeni Mahalle
+🟡 **Orta fiyatlı bölgeler:** Kahta merkez, Besni merkez, Gölbaşı merkez
+🟢 **Uygun fiyatlı bölgeler:** Gerger, Çelikhan, Tut, Sincik
+
+💡 *Adıyaman'ın sıcak yaz aylarında halılar 3-4 saatte kurur — Türkiye'nin en hızlı kuruyan şehirlerinden biridir.*`,
+      },
+      {
+        heading: 'Adıyaman İklimi ve Halı Bakımı',
+        content: `Adıyaman, Akdeniz ve karasal iklim arasında geçiş bölgesindedir. Sıcak ve kurak yazlar halı bakımını kolaylaştırır:
+
+**Yazları kavurucu:** Haziran-Eylül arası sıcaklık 40-45°C'ye çıkar. Bu aşırı sıcakta halılar çok hızlı kurur ama doğrudan güneş ışığı renkleri solduruyor. Gölgede kurutma zorunludur.
+
+**Kışları ılıman:** Sıcaklık nadiren -5°C'nin altına düşer. Kar birkaç gün yerde kalır. Kışın bile açık havada halı kurutma genellikle mümkündür — bu Adıyaman'ın avantajıdır.
+
+**Atatürk Barajı nemi:** Baraj gölüne yakın bölgelerde (Kahta, Samsat) nem oranı mevsimsel olarak artar. Bu alanlarda küflenme riski göl kenarından uzak bölgelere göre daha yüksektir.
+
+**Toz ve toprak:** Step ikliminin etkisiyle havadaki toz yoğunluğu yüksektir. Halılar daha çabuk kirlenir — özellikle bahçeli evlerde yılda 2 kez yıkama önerilir.
+
+**Deprem sonrası:** 2023 depreminden sonra yeniden inşa edilen binalarda inşaat tozu halılara sinebilir. Taşınma sonrası profesyonel yıkama tavsiye edilir.
+
+📌 *Adıyaman'da yılın büyük bölümünde halı yıkama yapılabilir. Sadece Temmuz-Ağustos ortasındaki aşırı sıcakta doğrudan güneşten kaçının.*`,
+      },
+      {
+        heading: 'Adıyaman İlçelerinde Halı Yıkama Hizmetleri',
+        content: `Adıyaman 9 ilçeye sahiptir. Büyük ilçelerde yerel firma seçenekleri mevcuttur:
+
+**Merkez ve Büyük İlçeler:**
+- [Adıyaman Merkez halı yıkama](/adiyaman-merkez-hali-yikama-firmalari) — Şehir merkezi
+- [Kahta halı yıkama](/adiyaman-kahta-hali-yikama-firmalari) — Nemrut Dağı, turizm, büyük ilçe
+- [Besni halı yıkama](/adiyaman-besni-hali-yikama-firmalari) — Tarihi ilçe, büyük nüfus
+- [Gölbaşı halı yıkama](/adiyaman-golbasi-hali-yikama-firmalari) — Göl kenarı, Malatya sınırı
+
+**Diğer İlçeler:**
+- [Gerger halı yıkama](/adiyaman-gerger-hali-yikama-firmalari) — Fırat kenarı, dağlık
+- [Çelikhan halı yıkama](/adiyaman-celikhan-hali-yikama-firmalari) — Malatya sınırı
+- [Samsat halı yıkama](/adiyaman-samsat-hali-yikama-firmalari) — Atatürk Barajı kıyısı
+- [Tut halı yıkama](/adiyaman-tut-hali-yikama-firmalari) — Küçük ilçe
+- [Sincik halı yıkama](/adiyaman-sincik-hali-yikama-firmalari) — Dağlık, kırsal
+
+📌 *Kahta ve Besni'de yerel firmalar bulunur. Diğer ilçelere Adıyaman merkez firmalarından ücretsiz alım-teslim yapılır.*`,
+      },
+    ],
+    faq: [
+      { q: 'Adıyaman\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-85 TL/m², el dokuması 80-135 TL/m² aralığındadır. Güneydoğu Anadolu ortalamasında uygun fiyatlıdır.' },
+      { q: 'Adıyaman\'da kışın halı yıkatılır mı?', a: 'Evet, ılıman kış sayesinde yılın 12 ayı halı yıkama yapılabilir. Don riski çok düşüktür.' },
+      { q: 'Nemrut Dağı (Kahta) bölgesinden hizmet alabilir miyim?', a: 'Evet, Kahta\'da yerel firmalar mevcuttur. Ayrıca Adıyaman merkez firmaları da Kahta\'ya alım-teslim yapar.' },
+      { q: 'Deprem sonrası inşaat tozu halıdan çıkar mı?', a: 'Evet, profesyonel derin temizlik ile çıkar. İnce beton ve alçı tozu halı liflerinin derinlerine nüfuz eder — normal süpürme yetmez, profesyonel işlem gerekir.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'gaziantep-hali-yikama', 'malatya-hali-yikama'],
+  },
+
+  // ── Düzce ────────────────────────────────────────────────
+  {
+    slug: 'duzce-hali-yikama',
+    city: 'Düzce',
+    citySlug: 'duzce',
+    title: 'Düzce Halı Yıkama Rehberi — Fiyatlar, İlçeler ve Tavsiyeler',
+    metaTitle: 'Düzce Halı Yıkama Fiyatları 2026 | Rehber & Karşılaştırma',
+    metaDescription: 'Düzce halı yıkama fiyatları, güvenilir firma önerileri ve ilçe bazlı hizmet rehberi. Batı Karadeniz nemli iklimine uygun bakım çözümleri.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 9,
+    heroEmoji: '🌲',
+    intro: 'Düzce, Batı Karadeniz\'in yeşil ovasında yer alan, 1999 depreminden sonra il statüsü kazanmış genç bir şehirdir. Fındık ve kereste sanayiiyle tanınan Düzce, Bolu ve Sakarya arasında Anadolu\'nun doğu-batı koridorunda konumlanır. Yıl boyunca bol yağışlı ve nemli iklimi, halı bakımında özel dikkat gerektirir. TEM otoyolu üzerindeki stratejik konumu sayesinde İstanbul\'a 3, Ankara\'ya 4 saat mesafededir.',
+    sections: [
+      {
+        heading: 'Düzce Halı Yıkama Fiyatları 2026',
+        content: `Düzce halı yıkama fiyatları Marmara bölgesinin biraz altında, Batı Karadeniz seviyesindedir:
+
+| Halı Türü | Fiyat Aralığı (m²) | Not |
+|---|---|---|
+| Makine halısı | 70-92 TL | Standart |
+| El dokuması / kilim | 85-140 TL | Az sayıda |
+| Shaggy / uzun tüylü | 80-120 TL | Kurutma süresi uzun |
+| Yün halı | 85-135 TL | Anti-küf önemli |
+| İpek halı | 115-185 TL | El yıkama |
+
+🔴 **Pahalı bölgeler:** Düzce Merkez, Beyköy, Cedidiye
+🟡 **Orta fiyatlı bölgeler:** Akçakoca merkez, Gölyaka, Çilimli
+🟢 **Uygun fiyatlı bölgeler:** Kaynaşlı, Yığılca, Cumayeri, Gümüşova
+
+💡 *Düzce'nin nemli iklimi nedeniyle anti-küf işlemi standart yıkamayla birlikte yapılmalıdır — küçük ek ücret büyük sorunları önler.*`,
+      },
+      {
+        heading: 'Düzce\'nin Nemli İklimi ve Halı Bakımı',
+        content: `Düzce, Türkiye'nin en çok yağış alan bölgelerinden birinde yer alır. Bu nemli iklim halı bakımını doğrudan etkiler:
+
+**Yüksek nem oranı:** Yıllık ortalama %70-80 nem. Bu seviye halılarda küflenme, koku ve bakteri üremesi riskini ciddi ölçüde artırır. Özellikle zemin katlarda halı altı nemi kontrol edilmelidir.
+
+**Bol yağış:** Yıllık 800-1.000 mm yağış alır. Açık havada halı kurutma risklidir — ani sağanak halıyı tekrar ıslatır. Kapalı kurutma tesisi zorunludur.
+
+**Fındık hasat dönemi:** Ağustos-Eylül'de fındık hasadı yapılır. Bu dönemde halılara toprak, fındık kabuğu ve bitki kalıntıları bulaşır. Hasat sonrası profesyonel yıkama önerilir.
+
+**Ahşap ev nemi:** Düzce'de ahşap yapı geleneği hâlâ yaygındır. Ahşap evlerde zemin nemi betonarmeye göre daha değişkendir — halı altlığı (anti-nem ped) kullanılması tavsiye edilir.
+
+**Kış nemi:** Kışlar ılıman ama nemlidir (0-5°C arası). Kapalı kurutma tesisinde 3-4 gün yeterlidir — Doğu Anadolu kadar uzun sürmez.
+
+📌 *Düzce'de halı yıkatırken kapalı kurutma tesisi olan firmayı mutlaka tercih edin. Açık havada kurutma Düzce ikliminde risklidir.*`,
+      },
+      {
+        heading: 'Düzce İlçelerinde Halı Yıkama Hizmetleri',
+        content: `Düzce 8 ilçeyle Türkiye'nin küçük yüzölçümlü illerinden biridir. Bu kompakt yapı hizmet erişimini kolaylaştırır:
+
+**Merkez ve Yakın İlçeler:**
+- [Düzce Merkez halı yıkama](/duzce-merkez-hali-yikama-firmalari) — Şehir merkezi, tüm firmalar
+- [Çilimli halı yıkama](/duzce-cilimli-hali-yikama-firmalari) — Merkeze yakın
+- [Gümüşova halı yıkama](/duzce-gumusova-hali-yikama-firmalari) — TEM üzeri
+- [Gölyaka halı yıkama](/duzce-golyaka-hali-yikama-firmalari) — Efteni Gölü
+
+**Kıyı ve Dağ İlçeler:**
+- [Akçakoca halı yıkama](/duzce-akcakoca-hali-yikama-firmalari) — Karadeniz kıyısı, turizm
+- [Kaynaşlı halı yıkama](/duzce-kaynasli-hali-yikama-firmalari) — Bolu Dağı tüneli
+- [Cumayeri halı yıkama](/duzce-cumayeri-hali-yikama-firmalari) — Kırsal
+- [Yığılca halı yıkama](/duzce-yigilca-hali-yikama-firmalari) — Orman köyleri, dağlık
+
+📌 *Düzce'nin küçük yüzölçümü sayesinde merkez firmalar tüm ilçelere aynı gün alım-teslim yapar. Akçakoca bile merkeze 50 km'dir.*`,
+      },
+    ],
+    faq: [
+      { q: 'Düzce\'de halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-92 TL/m², yün halı 85-135 TL/m² aralığındadır. Batı Karadeniz ortalamasındadır.' },
+      { q: 'Düzce\'de halı neden çabuk küflenir?', a: 'Yıllık %70-80 nem oranı küf oluşumunu hızlandırır. Zemin katlarda halı altlığı kullanın ve yılda en az 1 kez profesyonel yıkama + anti-küf işlemi yaptırın.' },
+      { q: 'Düzce\'de en iyi halı yıkama zamanı ne zaman?', a: 'Temmuz-Ağustos en az yağışlı dönemdir ama yine de kapalı kurutma tesisi tercih edin. Düzce\'de "güvenli kurutma günü" garanti değildir.' },
+      { q: 'Akçakoca\'dan halı yıkama hizmeti alabilir miyim?', a: 'Evet, Akçakoca\'dan Düzce merkeze 50 km\'dir. Merkez firmalar ücretsiz alım-teslim yapar. Platform üzerinden sipariş verebilirsiniz.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'sakarya-hali-yikama', 'trabzon-hali-yikama'],
+  },
 ];
