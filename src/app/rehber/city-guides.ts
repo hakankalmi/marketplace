@@ -694,4 +694,86 @@ Sınır ilçeleri ve kırsal bölgeler. Firma sayısı sınırlıdır — bazı 
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'gaziantep-hali-yikama', 'adana-hali-yikama'],
   },
+  {
+    slug: 'kocaeli-hali-yikama',
+    city: 'Kocaeli',
+    citySlug: 'kocaeli',
+    title: 'Kocaeli Halı Yıkama Rehberi — İlçe Bazlı Fiyatlar ve Firmalar',
+    metaTitle: 'Kocaeli Halı Yıkama | İlçe Bazlı Fiyatlar ve En İyi Firmalar 2026',
+    metaDescription: 'Kocaeli halı yıkama fiyatları ilçe bazlı karşılaştırma. İzmit, Gebze, Darıca, Çayırova, Körfez ve tüm ilçelerde en iyi halı yıkama firmaları.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 7,
+    heroEmoji: '🏗️',
+    intro: 'Kocaeli, Türkiye\'nin sanayi başkenti ve İstanbul\'un doğu komşusudur. 2 milyona yaklaşan nüfusu, yoğun sanayi altyapısı ve İstanbul\'a yakınlığı bu şehri halı yıkama sektöründe önemli bir pazar yapar. Sanayi kaynaklı hava kirliliği, Marmara\'nın nemli iklimi ve yoğun trafik tozları halıları hızla kirletir. Bu rehberde [Kocaeli halı yıkama](/kocaeli-hali-yikama-firmalari) fiyatlarını ilçe bazlı karşılaştırıyor ve Kocaeli\'ye özgü halı bakım ipuçlarını paylaşıyoruz.',
+    sections: [
+      {
+        heading: 'Kocaeli Halı Yıkama Fiyatları — Genel',
+        content: `Kocaeli fiyatları İstanbul'a yakın ama biraz daha uygundur. İstanbul'a komşu olması firmalar arası rekabeti artırır:
+
+**Makine Halısı:** Ortalama 110 TL/m² (aralık: 70-180 TL) — İstanbul ortalaması 140 TL iken Kocaeli %20 daha uygun
+**El Halısı (Yün):** 130-210 TL/m²
+**İpek Halı:** 170-400 TL/m²
+**Shaggy / Uzun Tüylü:** 85-140 TL/m²
+
+**Kocaeli'nin Avantajı:** İstanbul'a sınır komşusu olmasına rağmen kira ve işletme maliyetleri belirgin şekilde düşüktür. İstanbul'un Anadolu yakasındaki firmalar Kocaeli'ye de hizmet verir — bu çapraz rekabet fiyatları aşağı çeker. Ayrıca sanayi bölgelerindeki firmalar endüstriyel kapasiteye sahiptir.`,
+      },
+      {
+        heading: 'Kocaeli Halı Yıkama — İlçe Bazlı Fiyat Karşılaştırması',
+        content: `Kocaeli ortalaması makine halısı için 110 TL/m²'dir. İstanbul'a yakın batı ilçeleri daha pahalı, doğu ilçeleri daha uygundur:
+
+**Yüksek Fiyat Bölgeleri (110-180 TL/m²):**
+[Gebze halı yıkama](/kocaeli-gebze-hali-yikama-firmalari), [Darıca halı yıkama](/kocaeli-darica-hali-yikama-firmalari), [Çayırova halı yıkama](/kocaeli-cayirova-hali-yikama-firmalari)
+Gebze, İstanbul sınırında ve Türkiye'nin en yoğun sanayi bölgelerinden biridir. Nüfus yoğunluğu ve İstanbul fiyat etkisi nedeniyle fiyatlar Kocaeli ortalamasının üzerindedir.
+
+**Orta Fiyat Bölgeleri (85-110 TL/m²):**
+[İzmit halı yıkama](/kocaeli-izmit-hali-yikama-firmalari), [Körfez halı yıkama](/kocaeli-korfez-hali-yikama-firmalari), [Derince halı yıkama](/kocaeli-derince-hali-yikama-firmalari), [Başiskele halı yıkama](/kocaeli-basiskele-hali-yikama-firmalari), [Kartepe halı yıkama](/kocaeli-kartepe-hali-yikama-firmalari)
+İzmit, Kocaeli'nin merkezi ve en kalabalık ilçesidir. Firma yoğunluğu fazla, rekabet güçlü. Fiyat/kalite oranı en avantajlı bölge.
+
+**Uygun Fiyat Bölgeleri (70-90 TL/m²):**
+[Gölcük halı yıkama](/kocaeli-golcuk-hali-yikama-firmalari), [Karamürsel halı yıkama](/kocaeli-karamursel-hali-yikama-firmalari), [Kandıra halı yıkama](/kocaeli-kandira-hali-yikama-firmalari), [Dilovası halı yıkama](/kocaeli-dilovasi-hali-yikama-firmalari)
+Merkeze uzak ilçeler. Gölcük donanma üssü nedeniyle nüfusu yüksektir ama halı yıkama fiyatları uygundur. Kandıra kırsal yapısıyla en uygun bölgedir.
+
+**İpucu:** Gebze'de oturuyorsanız İstanbul Tuzla ve Pendik'teki firmalara da bakın — sınır komşusu olduğunuz için fiyat karşılaştırması avantaj sağlayabilir.`,
+      },
+      {
+        heading: 'Kocaeli Halı Yıkama — Sanayi ve İklim Etkisi',
+        content: `Kocaeli'nin ağır sanayi yapısı ve Marmara iklimi halı bakımını doğrudan etkiler:
+
+**Sanayi Kirliliği — Türkiye'nin En Yoğun Bölgesi:** Kocaeli, ülkenin en büyük sanayi hatlarından birini barındırır. Petrokimya, otomotiv, kağıt ve çelik fabrikaları yoğundur. Özellikle Dilovası, Gebze OSB ve Körfez çevresinde hava kalitesi düşüktür. Bu bölgelerde halılar çok daha hızlı kirlenir — yılda en az 2-3 kez profesyonel halı yıkama zorunludur.
+
+**Marmara Nemi:** Kocaeli, Marmara Denizi ve İzmit Körfezi'ne kıyısıyla yüksek nem oranına sahiptir. Nem, halılarda toz akarı ve küf üremesini hızlandırır. Alerjisi olanlar halılarını daha sık yıkatmalıdır.
+
+**Kış Ayları (Kasım-Mart):** Kocaeli kışları ılık ama yağışlıdır. Açık havada kurutma zorlaşır. Kapalı kurutma tesisi olan firmayı tercih edin.
+
+**Yaz Ayları (Haziran-Ağustos):** Sıcaklık 30-35°C civarında, nem yüksektir. Kurutma İstanbul'a benzer — 2-3 gün sürebilir. İç Anadolu'daki gibi birkaç saatte kurutma beklemeyin.
+
+**En Uygun Dönem:** Nisan-Mayıs ve Eylül-Ekim — hava ılık, firmalar yoğun değil.
+
+**Yoğun Dönem:** Haziran (yaz öncesi büyük temizlik) ve bayram öncesi dönemler.
+
+[Kocaeli halı yıkama firmaları](/kocaeli-hali-yikama-firmalari) — Kocaeli'deki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+      },
+      {
+        heading: 'Kocaeli Halı Yıkama Firması Seçerken Dikkat Edilecekler',
+        content: `**İstanbul Firmaları ile Karşılaştırma:** Kocaeli'nin batı ilçeleri (Gebze, Darıca, Çayırova) İstanbul sınırındadır. İstanbul Tuzla ve Pendik'teki firmalar bu bölgelere de hizmet verir. Platform üzerinden her iki şehirdeki firmaları karşılaştırarak en iyi fiyatı bulabilirsiniz.
+
+**Sanayi Bölgesi Firmaları:** Kocaeli'deki birçok halı yıkama firması aynı zamanda fabrika ve ofis temizliği yapar. Endüstriyel kapasiteleri yüksektir — büyük halılar (50+ m²) ve toplu siparişler için avantajlıdır.
+
+**Araç Trafiği ve Teslimat:** Kocaeli, D-100 ve TEM otoyollarının geçtiği bir transit şehirdir. Trafik yoğunluğu teslimat sürelerini uzatabilir. Sipariş verirken tahmini teslimat süresini sorun — özellikle Gebze-İzmit arası yoğun saatlerde 1 saati aşabilir.
+
+**Fabrika Çalışanları İçin İpucu:** Kocaeli'de sanayi çalışanlarının mesai saatleri vardiyalıdır. Birçok firma hafta sonu ve akşam teslimat seçeneği sunar. Sipariş verirken mesai dışı teslimat imkânını sorun.
+
+**Nem Kontrolü:** Kocaeli'nin nemli iklimine rağmen halılarınızı kurutma sonrası mutlaka kontrol edin. Tam kurumuş görünen halının alt kısmı nemli olabilir — firmaya kurutma süresini ve yöntemini sorun.`,
+      },
+    ],
+    faq: [
+      { q: 'Kocaeli\'de halı yıkama ortalama ne kadar?', a: 'Makine halısı için ortalama 110 TL/m², el halısı 130-210 TL/m², ipek halı 170-400 TL/m² aralığındadır. Gebze en pahalı, Gölcük ve Kandıra en uygun ilçelerdir.' },
+      { q: 'Kocaeli\'de halı yıkama kaç gün sürer?', a: 'Normal dönemde 2-4 gün, yoğun dönemlerde 5-7 gün. Nemli iklim nedeniyle kurutma İç Anadolu\'ya göre 1-2 gün daha uzun sürebilir.' },
+      { q: 'Gebze\'de İstanbul firması mı Kocaeli firması mı tercih etmeliyim?', a: 'Her ikisini de karşılaştırın. Gebze İstanbul sınırındadır, Tuzla ve Pendik\'teki firmalar Gebze\'ye de hizmet verir. Platform üzerinden fiyat karşılaştırması yaparak en avantajlı firmayı seçebilirsiniz.' },
+      { q: 'Kocaeli\'de en ucuz halı yıkama nerede?', a: 'Gölcük, Karamürsel ve Kandıra\'da 70-90 TL/m² ile Kocaeli ortalamasının altında fiyatlar mevcuttur.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'istanbul-hali-yikama', 'bursa-hali-yikama'],
+  },
 ];
