@@ -56,21 +56,21 @@ Orta-üst segment. El yapımı Nepal halıları özel bakım gerektirir.`,
       },
       {
         heading: 'Fiyatı Etkileyen Faktörler',
-        content: `Halı yıkama fiyatını belirleyen birçok faktör vardır. Bu faktörleri anlamak, fiyatların neden bu seviyede olduğunu kavramanızı sağlar:
+        content: `Halı yıkama fiyatlarının neden bu seviyede olduğunu merak ediyorsanız, firmaların katlandığı gerçek maliyetleri bilmeniz faydalı olacaktır:
 
-**1. Ulaşım Maliyeti (En Büyük Gider Kalemi):** Her sipariş için adresinize 2 kez gelinir — 1 alma, 1 teslim. Mazot fiyatı litresi 67 TL'yi aşmış durumda. Büyükşehirlerde trafik ve mesafe bu maliyeti daha da artırır. Firmaların fiyatlarının önemli bir kısmı sadece ulaşıma gider.
+**1. Ulaşım Maliyeti — Firmaların En Büyük Gider Kalemi:** Profesyonel halı yıkama hizmeti kapıdan kapıya çalışır. Firma ekibi adresinize iki kez gelir: birincisi yıkanacak halılarınızı teslim almak için, ikincisi halı yıkama tesisinde tertemiz yıkanmış halılarınızı size geri teslim etmek için. 2026 yılında mazot fiyatı litre başına 67 TL'yi aşmış durumda. Büyükşehirlerde trafik yoğunluğu ve uzun mesafeler bu maliyeti daha da yukarı çekiyor. Ödediğiniz fiyatın önemli bir kısmı daha halınız yıkanmadan sadece ulaşıma harcanıyor.
 
-**2. İşçilik Maliyeti:** Halı yıkama ağır fiziksel iştir — ıslak halı taşıma, yükleme, makineleri çalıştırma. 2026 yılında bir işçinin işverene toplam maliyeti asgari ücretli bile olsa aylık 41.000 TL'yi aşmaktadır. Halı yıkama sektöründe ağır iş koşulları nedeniyle çalışanlar asgari ücretin üzerinde ücret alır. Kimyasal, su, elektrik ve makine bakım giderleri de cabası.
+**2. İşçilik Maliyeti — Ağır ve Kalifiye İş:** Halı yıkama kolay bir iş değildir. Islak bir halı kendi ağırlığının 3-4 katına çıkar. Ekip bu halıları taşır, araca yükler, tesiste makinelere yerleştirir, yıkar, kurutur ve tekrar paketleyip adresinize getirir. 2026 yılında bir çalışanın işverene toplam maliyeti asgari ücretli bile olsa aylık 41.000 TL'yi aşmaktadır. Halı yıkama sektöründe ağır fiziksel koşullar nedeniyle çalışanlar asgari ücretin üzerinde ücret alır. Bunun üzerine deterjan, su, elektrik ve endüstriyel makine bakım giderlerini de ekleyin.
 
-**3. Halının Türü ve Malzemesi:** Makine halısı en uygun fiyatlıyken, el dokuması, yün, ipek ve antik halılar özel işlem, farklı deterjan ve daha uzun yıkama süresi gerektirdiğinden pahalıdır.
+**3. Halının Türü ve Malzemesi:** Makine halısı standart programla yıkandığı için en uygun fiyatlıdır. El dokuması, yün, ipek ve antik halılar ise özel deterjan, farklı yıkama tekniği ve daha uzun işlem süresi gerektirdiğinden fiyatları belirgin şekilde yükselir.
 
-**4. Halının Boyutu:** m² arttıkça birim fiyat genellikle düşer. 20 m²'nin üstünde indirimli fiyat uygulayan firmalar yaygındır. Çünkü ulaşım maliyeti aynı kalırken işlenen alan artar.
+**4. Halının Boyutu:** Metrekare arttıkça birim fiyat genellikle düşer. Bunun sebebi basit: firma zaten adresinize geliyor, ulaşım maliyeti aynı. 20 m²'nin üstündeki siparişlerde indirimli birim fiyat uygulayan firmalar oldukça yaygındır.
 
-**5. Bulunduğunuz Şehir:** İstanbul'da fiyatlar Türkiye ortalamasının %65 üzerinde olabilir. Nedeni sadece talep değil — kira, yakıt, işçilik ve trafikteki zaman kaybı. Anadolu şehirlerinde mesafeler kısa, maliyetler düşük, dolayısıyla fiyatlar daha uygun.
+**5. Bulunduğunuz Şehir:** İstanbul'da halı yıkama fiyatları Türkiye ortalamasının %65 üzerinde olabilir. Bunun nedeni sadece talep değil — yüksek kira, pahalı yakıt, trafikteki zaman kaybı ve işçilik maliyetlerinin tamamı fiyata yansır. Anadolu şehirlerinde mesafeler kısa ve işletme maliyetleri düşük olduğundan fiyatlar çok daha uygundur.
 
-**6. Kirliliğin Derecesi:** Yoğun lekeli, evcil hayvan tüylü veya uzun süredir yıkanmamış halılar ek deterjan, ek işlem süresi ve bazen ikinci yıkama gerektirir.
+**6. Kirliliğin Derecesi:** Normal kullanılmış bir halı standart fiyattan yıkanır. Ancak yoğun lekeli, evcil hayvan tüylü veya uzun süredir yıkanmamış halılar ek deterjan, uzatılmış işlem süresi ve bazen ikinci bir yıkama gerektirir — bu da fiyata yansır.
 
-**7. Sezon:** Yaz aylarında (Mayıs-Ağustos) talep zirve yapar. Firmalar yoğunluk nedeniyle fiyat artırabilir. Kış sonu ve ilkbahar en uygun dönemlerdir.`,
+**7. Sezon:** Yaz aylarında (Mayıs-Ağustos) halı yıkama talebi zirve yapar. Firmalar bu dönemde yoğunluk nedeniyle fiyatları artırabilir veya teslimat süreleri uzayabilir. En uygun fiyat ve hızlı teslimat için kış sonu ve ilkbahar ideal dönemlerdir.`,
       },
       {
         heading: 'En Uygun Fiyatı Nasıl Bulursunuz?',
