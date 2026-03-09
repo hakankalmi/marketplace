@@ -10,6 +10,7 @@ export function Footer() {
   const links = [
     { label: 'Halı Yıkama Firmaları', href: '/turkiye/hali-yikama' },
     { label: 'Rehber', href: '/rehber' },
+    { label: 'Fırsat Bildirimleri', href: '/firsatlar' },
     { label: 'Hizmet Veren Olun', href: '/basvuru' },
     { label: 'Hakkımızda', href: '/hakkimizda' },
     { label: 'Gizlilik', href: '/gizlilik' },

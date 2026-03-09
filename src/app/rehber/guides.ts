@@ -82,7 +82,7 @@ Orta-üst segment. El yapımı Nepal halıları özel bakım gerektirir.`,
 
 **Toplu Sipariş Avantajı:** Firmanın en büyük gider kalemi olan ulaşım maliyetini düşürmenin en kolay yolu daha fazla ürün vermektir. Birden fazla halı yıkatabilir, halı yıkamaya ek olarak koltuk yıkama veya yorgan-battaniye yıkama hizmeti de ekleyebilirsiniz. Firma aynı seferde daha fazla iş aldığında ulaşım maliyeti bölünür — bu sayede %10-15 arası indirim taleplerinize olumlu cevap alma ihtimaliniz belirgin şekilde artar.
 
-**Kampanya Dönemlerini Takip Edin:** Birçok firma sezon başı ve bayram öncesi kampanyalar düzenler.`,
+**Kampanya ve Fırsatları Kaçırmayın:** Birçok firmadan ayrı ayrı tanıtım mesajları almak yorucu olabilir. Bunun yerine haliyikamacilar.com üzerinden fırsat bildirimi tercihlerinizi belirleyebilirsiniz. Sizin seçtiğiniz aralıklarla (örneğin 3 ayda bir veya 6 ayda bir) bölgenizdeki en iyi fırsatları SMS veya WhatsApp üzerinden size iletiriz. Tek bir tıkla bölgenizdeki tüm firmaların güncel fiyatlarına göz atabilirsiniz. Fırsat bildirimi almak için abone olun: haliyikamacilar.com/firsatlar`,
       },
       {
         heading: 'Şehir Bazlı Fiyat Karşılaştırması',
