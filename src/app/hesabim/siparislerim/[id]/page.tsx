@@ -560,43 +560,44 @@ function OrderPhotosTab({
 
 /* ─────────── Review Section ─────────── */
 
+function ReviewThankYou() {
+  return (
+    <motion.div
+      initial={{ opacity: 0, scale: 0.95 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ type: 'spring', stiffness: 200, damping: 20 }}
+      className="p-5 bg-gradient-to-r from-emerald-50 to-teal-50 border border-emerald-200 rounded-2xl flex items-center gap-4"
+    >
+      <div className="w-12 h-12 rounded-full bg-emerald-100 flex items-center justify-center shrink-0">
+        <CheckCircle size={24} className="text-emerald-600" />
+      </div>
+      <div>
+        <p className="text-base font-heading font-semibold text-emerald-800">Yorumunuz için teşekkürler!</p>
+        <p className="text-sm text-emerald-600 mt-0.5">
+          Değerlendirmeniz diğer müşterilere yol gösterecek.
+        </p>
+      </div>
+    </motion.div>
+  );
+}
+
 function OrderReviewSection({
   orderId,
   companyName,
+  hasReview,
   beforePhotoUrls,
   afterPhotoUrls,
 }: {
   orderId: number;
   companyName: string;
+  hasReview: boolean;
   beforePhotoUrls: string[] | null;
   afterPhotoUrls: string[] | null;
 }) {
-  const [reviewed, setReviewed] = useState(false);
+  const [justReviewed, setJustReviewed] = useState(false);
 
-  if (reviewed) {
-    return (
-      <motion.div
-        initial={{ opacity: 0, scale: 0.95 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ type: 'spring', stiffness: 200, damping: 20 }}
-        className="p-5 bg-gradient-to-r from-emerald-50 to-teal-50 border border-emerald-200 rounded-2xl flex items-center gap-4"
-      >
-        <motion.div
-          initial={{ scale: 0, rotate: -180 }}
-          animate={{ scale: 1, rotate: 0 }}
-          transition={{ delay: 0.1, type: 'spring', stiffness: 300 }}
-          className="w-12 h-12 rounded-full bg-emerald-100 flex items-center justify-center shrink-0"
-        >
-          <CheckCircle size={24} className="text-emerald-600" />
-        </motion.div>
-        <div>
-          <p className="text-base font-heading font-semibold text-emerald-800">Yorumunuz gönderildi!</p>
-          <p className="text-sm text-emerald-600 mt-0.5">
-            Teşekkürler, değerlendirmeniz diğer müşterilere yol gösterecek.
-          </p>
-        </div>
-      </motion.div>
-    );
+  if (hasReview || justReviewed) {
+    return <ReviewThankYou />;
   }
 
   return (
@@ -605,7 +606,7 @@ function OrderReviewSection({
       companyName={companyName}
       beforePhotoUrls={beforePhotoUrls}
       afterPhotoUrls={afterPhotoUrls}
-      onSuccess={() => setReviewed(true)}
+      onSuccess={() => setJustReviewed(true)}
     />
   );
 }
@@ -733,6 +734,20 @@ export default function SiparisDetayPage({
         </motion.div>
       )}
 
+      {/* ── Total Amount (always visible above tabs) ── */}
+      {order.totalAmount != null && order.totalAmount > 0 && (
+        <motion.div
+          initial={{ opacity: 0, y: -8 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="flex items-center justify-between p-4 bg-brand-surface rounded-2xl border border-brand-border"
+        >
+          <span className="text-sm font-medium text-brand-text-muted">Sipariş Tutarı</span>
+          <span className="text-xl font-heading font-bold text-brand-primary">
+            {new Intl.NumberFormat('tr-TR', { style: 'currency', currency: order.currency || 'TRY', minimumFractionDigits: 0 }).format(order.totalAmount)}
+          </span>
+        </motion.div>
+      )}
+
       {/* ── Tabs ── */}
       <div className="bg-brand-surface rounded-2xl border border-brand-border overflow-hidden">
         {/* Tab bar */}
@@ -811,6 +826,7 @@ export default function SiparisDetayPage({
         <OrderReviewSection
           orderId={order.id}
           companyName={order.companyName}
+          hasReview={order.hasReview}
           beforePhotoUrls={order.beforePhotoUrls}
           afterPhotoUrls={order.afterPhotoUrls}
         />

@@ -264,6 +264,7 @@ export interface OrderResponseDto {
   orderItems: OrderItemDto[] | null;
   totalAmount: number | null;
   currency: string | null;
+  hasReview: boolean;
 }
 
 export interface OrderItemDto {
