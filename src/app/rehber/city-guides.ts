@@ -21,10 +21,10 @@ export const cityGuides: GuideArticle[] = [
         heading: 'İstanbul Halı Yıkama Fiyatları — Genel',
         content: `İstanbul, Türkiye ortalamasının belirgin şekilde üzerinde fiyatlara sahiptir. Nedeni: Yüksek kira, işçilik ve ulaşım maliyetleri.
 
-**Makine Halısı:** Ortalama 140 TL/m² (aralık: 70-450 TL) — Türkiye ortalaması 85 TL iken İstanbul %65 daha pahalı
+**Makine Halısı:** Ortalama 140 TL/m² (aralık: 70-450 TL) — Türkiye ortalaması 90 TL iken İstanbul %55 daha pahalı
 **El Halısı (Yün):** Ortalama 165 TL/m² (aralık: 80-400 TL)
 **İpek Halı:** Ortalama 420 TL/m² (aralık: 150-1.500 TL). Saf ipek halılar 800+ TL/m²
-**Shaggy / Uzun Tüylü:** Ortalama 100-115 TL/m² (aralık: 60-250 TL)
+**Shaggy / Uzun Tüylü:** Ortalama 100-115 TL/m² (aralık: 75-250 TL)
 
 **Avrupa Yakası vs Anadolu Yakası:**
 Avrupa yakasında fiyatlar genellikle %5-10 daha yüksektir. Bunun nedeni kira maliyetlerindeki farktır.`,
@@ -86,26 +86,26 @@ Rekabet yoğun, fiyat/kalite oranı en iyi olan bölgeler.
         heading: 'Ankara Halı Yıkama Fiyatları — Genel',
         content: `Ankara fiyatları İstanbul'un yaklaşık %40 altındadır:
 
-**Makine Halısı:** Ortalama 85 TL/m² (aralık: 55-130 TL) — İstanbul ortalaması 140 TL iken Ankara %40 daha uygun
-**El Halısı (Yün):** 100-180 TL/m²
-**İpek Halı:** 150-350 TL/m²
-**Shaggy / Uzun Tüylü:** 65-120 TL/m²
+**Makine Halısı:** Ortalama 90 TL/m² (aralık: 70-140 TL) — İstanbul ortalaması 140 TL iken Ankara %35 daha uygun
+**El Halısı (Yün):** 110-190 TL/m²
+**İpek Halı:** 160-380 TL/m²
+**Shaggy / Uzun Tüylü:** 75-130 TL/m²
 
 **Ankara'nın Avantajı:** İstanbul'a göre hem fiyatlar çok daha uygun, hem ulaşım daha kısa, teslimat süreleri 1-2 gün daha hızlı.`,
       },
       {
         heading: 'Ankara Halı Yıkama — İlçe Bazlı Fiyat Karşılaştırması',
-        content: `Ankara ortalaması makine halısı için 85 TL/m²'dir:
+        content: `Ankara ortalaması makine halısı için 90 TL/m²'dir:
 
-**Yüksek Fiyat Bölgeleri (90-130 TL/m²):**
+**Yüksek Fiyat Bölgeleri (100-140 TL/m²):**
 [Çankaya halı yıkama](/ankara-cankaya-hali-yikama-firmalari) (Kızılay, GOP, Oran), [Yenimahalle halı yıkama](/ankara-yenimahalle-hali-yikama-firmalari) (Batıkent üst)
 Gelir düzeyi yüksek, az firma, yüksek kalite beklentisi.
 
-**Orta Fiyat Bölgeleri (70-90 TL/m²):**
+**Orta Fiyat Bölgeleri (80-100 TL/m²):**
 [Keçiören halı yıkama](/ankara-kecioren-hali-yikama-firmalari), [Etimesgut halı yıkama](/ankara-etimesgut-hali-yikama-firmalari), [Pursaklar halı yıkama](/ankara-pursaklar-hali-yikama-firmalari)
 Rekabet yoğun, fiyat/kalite oranı iyi.
 
-**Uygun Fiyat Bölgeleri (45-70 TL/m²):**
+**Uygun Fiyat Bölgeleri (70-90 TL/m²):**
 [Mamak halı yıkama](/ankara-mamak-hali-yikama-firmalari), [Altındağ halı yıkama](/ankara-altindag-hali-yikama-firmalari), [Sincan halı yıkama](/ankara-sincan-hali-yikama-firmalari), [Kahramankazan halı yıkama](/ankara-kahramankazan-hali-yikama-firmalari), [Polatlı halı yıkama](/ankara-polatli-hali-yikama-firmalari)
 Fiyatlar en uygun, ama firma seçiminde dikkatli olun.
 
@@ -125,7 +125,7 @@ Fiyatlar en uygun, ama firma seçiminde dikkatli olun.
       },
     ],
     faq: [
-      { q: 'Ankara\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı için 40-60 TL/m² aralığındadır. El halısı 90-160 TL/m², ipek halı 130-250 TL/m².' },
+      { q: 'Ankara\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı için ortalama 90 TL/m² (aralık: 70-140 TL). El halısı 110-190 TL/m², ipek halı 160-380 TL/m².' },
       { q: 'Ankara\'da kışın halı yıkatmak riskli mi?', a: 'Kapalı kurutma tesisi olan firmalarda risk yoktur. Açık havada kurutma yapan firmalardan kışın halı yıkatmayın — küf riski yüksektir.' },
       { q: 'Ankara\'da en hızlı teslimat hangi ilçelerde?', a: 'Firma yoğunluğu Keçiören, Yenimahalle ve Etimesgut\'ta fazla olduğundan bu ilçelerde 2 gün teslimat yaygındır.' },
     ],
@@ -149,26 +149,26 @@ Fiyatlar en uygun, ama firma seçiminde dikkatli olun.
         heading: 'İzmir Halı Yıkama Fiyatları — Genel',
         content: `İzmir fiyatları İstanbul'un yaklaşık %30 altında, Ankara ile benzer seviyelerdedir:
 
-**Makine Halısı:** Ortalama 90 TL/m² (aralık: 50-150 TL) — İstanbul ortalaması 140 TL iken İzmir %35 daha uygun
-**El Halısı (Yün):** 110-190 TL/m²
-**İpek Halı:** 160-380 TL/m²
-**Shaggy / Uzun Tüylü:** 70-130 TL/m²
+**Makine Halısı:** Ortalama 95 TL/m² (aralık: 70-160 TL) — İstanbul ortalaması 140 TL iken İzmir %30 daha uygun
+**El Halısı (Yün):** 120-200 TL/m²
+**İpek Halı:** 170-400 TL/m²
+**Shaggy / Uzun Tüylü:** 80-140 TL/m²
 
 **İzmir'in Avantajı:** Sıcak ve rüzgârlı iklim sayesinde açık havada kurutma çok hızlıdır. Yaz aylarında halınız aynı gün kuruyabilir — İstanbul ve Ankara'da bu mümkün değildir.`,
       },
       {
         heading: 'İzmir Halı Yıkama — İlçe Bazlı Fiyat Karşılaştırması',
-        content: `İzmir ortalaması makine halısı için 90 TL/m²'dir. İlçeler arası fiyat farkları:
+        content: `İzmir ortalaması makine halısı için 95 TL/m²'dir. İlçeler arası fiyat farkları:
 
-**Yüksek Fiyat Bölgeleri (100-150 TL/m²):**
+**Yüksek Fiyat Bölgeleri (110-160 TL/m²):**
 [Karşıyaka halı yıkama](/izmir-karsiyaka-hali-yikama-firmalari), [Konak halı yıkama](/izmir-konak-hali-yikama-firmalari) (Alsancak), [Balçova halı yıkama](/izmir-balcova-hali-yikama-firmalari), [Narlıdere halı yıkama](/izmir-narlidere-hali-yikama-firmalari), [Çeşme halı yıkama](/izmir-cesme-hali-yikama-firmalari), [Urla halı yıkama](/izmir-urla-hali-yikama-firmalari)
 Gelir düzeyi yüksek, villa/müstakil ev yoğunluğu fazla. Özellikle Çeşme ve Urla'da yazlık villa temizliği talebi yüksektir.
 
-**Orta Fiyat Bölgeleri (70-100 TL/m²):**
+**Orta Fiyat Bölgeleri (80-110 TL/m²):**
 [Bornova halı yıkama](/izmir-bornova-hali-yikama-firmalari), [Buca halı yıkama](/izmir-buca-hali-yikama-firmalari), [Bayraklı halı yıkama](/izmir-bayrakli-hali-yikama-firmalari), [Çiğli halı yıkama](/izmir-cigli-hali-yikama-firmalari), [Menemen halı yıkama](/izmir-menemen-hali-yikama-firmalari), [Karabağlar halı yıkama](/izmir-karabaglar-hali-yikama-firmalari)
 İzmir'in en kalabalık ilçeleri — firma sayısı fazla, rekabet güçlü. Fiyat/kalite oranı en iyi bölge.
 
-**Uygun Fiyat Bölgeleri (40-75 TL/m²):**
+**Uygun Fiyat Bölgeleri (70-90 TL/m²):**
 [Torbalı halı yıkama](/izmir-torbali-hali-yikama-firmalari), [Kemalpaşa halı yıkama](/izmir-kemalpasa-hali-yikama-firmalari), [Bergama halı yıkama](/izmir-bergama-hali-yikama-firmalari), [Aliağa halı yıkama](/izmir-aliaga-hali-yikama-firmalari), [Tire halı yıkama](/izmir-tire-hali-yikama-firmalari), [Ödemiş halı yıkama](/izmir-odemis-hali-yikama-firmalari)
 Şehir merkezinden uzak, küçük ölçekli firmalar. Fiyat avantajı var ama teslimat süresi uzayabilir.
 
@@ -203,8 +203,8 @@ Yaz tatili öncesi büyük temizlik. Firma kapasiteleri dolar, teslimat 5-7 gün
       },
     ],
     faq: [
-      { q: 'İzmir\'de halı yıkama ortalama ne kadar?', a: 'Makine halısı için ortalama 90 TL/m², el halısı 110-190 TL/m², ipek halı 160-380 TL/m² aralığındadır. İlçeye göre %30\'a varan fark olabilir.' },
-      { q: 'İzmir\'de en ucuz halı yıkama nerede?', a: 'Torbalı, Kemalpaşa, Bergama ve Tire gibi merkez dışı ilçelerde 40-75 TL/m² ile İzmir ortalamasının altında fiyatlar mevcuttur.' },
+      { q: 'İzmir\'de halı yıkama ortalama ne kadar?', a: 'Makine halısı için ortalama 95 TL/m², el halısı 120-200 TL/m², ipek halı 170-400 TL/m² aralığındadır. İlçeye göre %30\'a varan fark olabilir.' },
+      { q: 'İzmir\'de en ucuz halı yıkama nerede?', a: 'Torbalı, Kemalpaşa, Bergama ve Tire gibi merkez dışı ilçelerde 70-90 TL/m² ile İzmir ortalamasının altında fiyatlar mevcuttur.' },
       { q: 'İzmir\'de yazın halı yıkatmak avantajlı mı?', a: 'Kurutma açısından evet — sıcak rüzgâr sayesinde halılar çok hızlı kurur. Ancak Haziran-Temmuz yoğun dönemdir, fiyatlar %10-15 artabilir. En avantajlı dönem Nisan-Mayıs ve Eylül-Ekim\'dir.' },
       { q: 'İzmir\'de halı yıkama kaç gün sürer?', a: 'Normal dönemde 2-3 gün, yaz yoğunluğunda 4-6 gün. İzmir\'in sıcak iklimi sayesinde kurutma İstanbul\'a göre 1 gün daha hızlıdır.' },
     ],
@@ -228,30 +228,30 @@ Yaz tatili öncesi büyük temizlik. Firma kapasiteleri dolar, teslimat 5-7 gün
         heading: 'Bursa Halı Yıkama Fiyatları — Genel',
         content: `Bursa fiyatları İstanbul'un yaklaşık %35-40 altında, Türkiye ortalamasına yakındır:
 
-**Makine Halısı:** Ortalama 80 TL/m² (aralık: 45-130 TL) — İstanbul'un neredeyse yarı fiyatına
-**El Halısı (Yün):** 100-170 TL/m²
-**İpek Halı:** 150-350 TL/m² — Bursa ipek halı üretim merkezi olduğundan uzman firma sayısı fazladır
-**Shaggy / Uzun Tüylü:** 60-110 TL/m²
+**Makine Halısı:** Ortalama 85 TL/m² (aralık: 70-140 TL) — İstanbul'un neredeyse yarı fiyatına
+**El Halısı (Yün):** 110-180 TL/m²
+**İpek Halı:** 160-380 TL/m² — Bursa ipek halı üretim merkezi olduğundan uzman firma sayısı fazladır
+**Shaggy / Uzun Tüylü:** 75-120 TL/m²
 
 **Bursa'nın Avantajı:** İpek halı yıkama konusunda Türkiye'nin en deneyimli firmaları Bursa'dadır. Tarihî ipek üretim geleneği sayesinde firmalar ipek halı bakımında uzmanlaşmıştır.`,
       },
       {
         heading: 'Bursa Halı Yıkama — İlçe Bazlı Fiyat Karşılaştırması',
-        content: `Bursa ortalaması makine halısı için 80 TL/m²'dir. İlçeler arası fiyat farkları:
+        content: `Bursa ortalaması makine halısı için 85 TL/m²'dir. İlçeler arası fiyat farkları:
 
-**Yüksek Fiyat Bölgeleri (90-130 TL/m²):**
+**Yüksek Fiyat Bölgeleri (100-140 TL/m²):**
 [Nilüfer halı yıkama](/bursa-nilufer-hali-yikama-firmalari) (Özlüce, Beşevler, İhsaniye), [Mudanya halı yıkama](/bursa-mudanya-hali-yikama-firmalari) (sahil), Görükle
 Bursa'nın en gelişmiş ve gelir düzeyi yüksek ilçesi. Yeni siteler ve villa bölgeleri. Firma sayısı az ama kalite yüksek.
 
-**Orta Fiyat Bölgeleri (60-90 TL/m²):**
+**Orta Fiyat Bölgeleri (80-100 TL/m²):**
 [Osmangazi halı yıkama](/bursa-osmangazi-hali-yikama-firmalari) (merkez), [Yıldırım halı yıkama](/bursa-yildirim-hali-yikama-firmalari), [Kestel halı yıkama](/bursa-kestel-hali-yikama-firmalari), [Gürsu halı yıkama](/bursa-gursu-hali-yikama-firmalari)
 Nüfus yoğunluğu en fazla olan bölge. Firma rekabeti güçlü, müşteriye avantaj sağlar.
 
-**Uygun Fiyat Bölgeleri (40-65 TL/m²):**
+**Uygun Fiyat Bölgeleri (70-85 TL/m²):**
 [İnegöl halı yıkama](/bursa-inegol-hali-yikama-firmalari), [Gemlik halı yıkama](/bursa-gemlik-hali-yikama-firmalari), [Orhangazi halı yıkama](/bursa-orhangazi-hali-yikama-firmalari), [Karacabey halı yıkama](/bursa-karacabey-hali-yikama-firmalari), [Mustafakemalpaşa halı yıkama](/bursa-mustafakemalpasa-hali-yikama-firmalari)
 Merkeze uzak ilçeler. Fiyat avantajı belirgin, ancak teslimat süresi 1-2 gün uzayabilir.
 
-**İpucu:** Nilüfer'de oturuyorsanız Osmangazi'deki firmalara da bakın — 10-15 dakika mesafede %20-30 daha uygun fiyat bulabilirsiniz.`,
+**İpucu:** Nilüfer'de oturuyorsanız Osmangazi'deki firmalara da bakın — 10-15 dakika mesafede %15-20 daha uygun fiyat bulabilirsiniz.`,
       },
       {
         heading: 'Bursa Halı Yıkama — İklim ve Sanayi Etkisi',
@@ -281,9 +281,9 @@ Merkeze uzak ilçeler. Fiyat avantajı belirgin, ancak teslimat süresi 1-2 gün
       },
     ],
     faq: [
-      { q: 'Bursa\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı için ortalama 80 TL/m², el halısı 100-170 TL/m², ipek halı 150-350 TL/m² aralığındadır. Nilüfer en pahalı, İnegöl en uygun ilçedir.' },
+      { q: 'Bursa\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı için ortalama 85 TL/m², el halısı 110-180 TL/m², ipek halı 160-380 TL/m² aralığındadır. Nilüfer en pahalı, İnegöl en uygun ilçedir.' },
       { q: 'Bursa\'da ipek halı yıkama nerede yaptırılır?', a: 'Bursa, ipek halı konusunda Türkiye\'nin en uzman şehridir. Osmangazi ve Nilüfer\'deki köklü halı yıkama firmaları ipek halı yıkama sertifikasına sahiptir. Platform üzerinden filtreleyerek bulabilirsiniz.' },
-      { q: 'Bursa\'da en ucuz halı yıkama nerede?', a: 'İnegöl, Karacabey ve Mustafakemalpaşa\'da 40-65 TL/m² ile Bursa ortalamasının (80 TL/m²) altında fiyatlar bulabilirsiniz.' },
+      { q: 'Bursa\'da en ucuz halı yıkama nerede?', a: 'İnegöl, Karacabey ve Mustafakemalpaşa\'da 70-85 TL/m² ile Bursa ortalamasının (85 TL/m²) altında fiyatlar bulabilirsiniz.' },
       { q: 'Bursa\'da halı yıkama kaç gün sürer?', a: 'Normal dönemde 2-3 gün, yoğun dönemlerde 4-6 gün. Kış aylarında kapalı kurutma nedeniyle 1 gün eklenebilir.' },
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'istanbul-hali-yikama', 'izmir-hali-yikama'],
@@ -306,26 +306,26 @@ Merkeze uzak ilçeler. Fiyat avantajı belirgin, ancak teslimat süresi 1-2 gün
         heading: 'Antalya Halı Yıkama Fiyatları — Genel',
         content: `Antalya fiyatları Türkiye ortalamasının hafif üzerindedir. Turizm sezonu fiyatları belirgin şekilde artırır:
 
-**Makine Halısı:** Ortalama 95 TL/m² (aralık: 55-160 TL) — sezon dışı %15-20 daha uygun
-**El Halısı (Yün):** 120-200 TL/m²
-**İpek Halı:** 170-400 TL/m²
-**Shaggy / Uzun Tüylü:** 75-130 TL/m²
+**Makine Halısı:** Ortalama 100 TL/m² (aralık: 70-180 TL) — sezon dışı %15-20 daha uygun
+**El Halısı (Yün):** 130-220 TL/m²
+**İpek Halı:** 180-420 TL/m²
+**Shaggy / Uzun Tüylü:** 85-140 TL/m²
 
 **Antalya'nın Farkı:** Turizm sezonu (Haziran-Eylül) fiyatlar %15-20 artar. Otel ve apart daire sahipleri sezon açılışında toplu halı yıkatır — bu dönemde firmalar çok yoğundur. Sezon dışı (Ekim-Mart) en uygun fiyatları bulabilirsiniz.`,
       },
       {
         heading: 'Antalya Halı Yıkama — İlçe Bazlı Fiyat Karşılaştırması',
-        content: `Antalya ortalaması makine halısı için 95 TL/m²'dir. Turizm bölgelerinde fiyatlar belirgin şekilde yüksektir:
+        content: `Antalya ortalaması makine halısı için 100 TL/m²'dir. Turizm bölgelerinde fiyatlar belirgin şekilde yüksektir:
 
-**Yüksek Fiyat Bölgeleri (110-160 TL/m²):**
+**Yüksek Fiyat Bölgeleri (120-180 TL/m²):**
 [Muratpaşa halı yıkama](/antalya-muratpasa-hali-yikama-firmalari) (Lara, Kundu), [Konyaaltı halı yıkama](/antalya-konyaalti-hali-yikama-firmalari), [Alanya halı yıkama](/antalya-alanya-hali-yikama-firmalari), [Kaş halı yıkama](/antalya-kas-hali-yikama-firmalari)
 Turizm yoğunluğu yüksek, otel/villa müşterisi fazla. Lara ve Kundu'da 5 yıldızlı otellere hizmet veren firmalar premium fiyat uygular.
 
-**Orta Fiyat Bölgeleri (70-110 TL/m²):**
+**Orta Fiyat Bölgeleri (85-120 TL/m²):**
 [Kepez halı yıkama](/antalya-kepez-hali-yikama-firmalari), [Döşemealtı halı yıkama](/antalya-dosemealti-hali-yikama-firmalari), [Manavgat halı yıkama](/antalya-manavgat-hali-yikama-firmalari), [Serik halı yıkama](/antalya-serik-hali-yikama-firmalari)
 Yerleşik nüfusun yoğun olduğu bölgeler. Fiyat/kalite dengesi iyi.
 
-**Uygun Fiyat Bölgeleri (45-75 TL/m²):**
+**Uygun Fiyat Bölgeleri (70-90 TL/m²):**
 [Kumluca halı yıkama](/antalya-kumluca-hali-yikama-firmalari), [Elmalı halı yıkama](/antalya-elmali-hali-yikama-firmalari), [Korkuteli halı yıkama](/antalya-korkuteli-hali-yikama-firmalari), [Gazipaşa halı yıkama](/antalya-gazipasa-hali-yikama-firmalari), [Finike halı yıkama](/antalya-finike-hali-yikama-firmalari)
 Sahilden uzak iç kesim ilçeler. Düşük talep ve düşük işletme maliyeti.
 
@@ -359,7 +359,7 @@ Sahilden uzak iç kesim ilçeler. Düşük talep ve düşük işletme maliyeti.
       },
     ],
     faq: [
-      { q: 'Antalya\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı için ortalama 95 TL/m², el halısı 120-200 TL/m², ipek halı 170-400 TL/m² aralığındadır. Turizm sezonunda fiyatlar %15-20 artabilir.' },
+      { q: 'Antalya\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı için ortalama 100 TL/m², el halısı 130-220 TL/m², ipek halı 180-420 TL/m² aralığındadır. Turizm sezonunda fiyatlar %15-20 artabilir.' },
       { q: 'Antalya\'da en ucuz halı yıkama ne zaman?', a: 'Ekim-Mart arası (sezon dışı) en uygun fiyatları bulabilirsiniz. Firmalar boş kapasiteyle çalışır, fiyatlar %15-20 düşer ve teslimat daha hızlıdır.' },
       { q: 'Antalya\'da halı yıkama kaç gün sürer?', a: 'Sezon dışında 2-3 gün, turizm sezonunda (Haziran-Eylül) 5-7 gün. Sıcak hava kurutmayı hızlandırır ama firma yoğunluğu teslimatı uzatır.' },
       { q: 'Alanya\'da halı yıkama firması var mı?', a: 'Evet, Alanya\'da çok sayıda halı yıkama firması mevcuttur. Alanya-merkez arası 130+ km olduğundan yerel firma tercih etmeniz teslimat açısından avantajlıdır.' },
@@ -384,27 +384,27 @@ Sahilden uzak iç kesim ilçeler. Düşük talep ve düşük işletme maliyeti.
         heading: 'Konya Halı Yıkama Fiyatları — Genel',
         content: `Konya, Türkiye'nin en uygun fiyatlı büyük şehirlerinden biridir. Düşük kira ve işçilik maliyetleri fiyatlara doğrudan yansır:
 
-**Makine Halısı:** Ortalama 65 TL/m² (aralık: 35-110 TL) — İstanbul'un yarısından az, Ankara'dan da %25 daha uygun
-**El Halısı (Yün):** 85-150 TL/m² — Konya'da el halısı kullanımı Türkiye ortalamasının üzerindedir
-**İpek Halı:** 130-300 TL/m²
-**Shaggy / Uzun Tüylü:** 50-95 TL/m²
-**Kilim / El Dokuması:** 40-80 TL/m² — Konya'nın en güçlü olduğu alan
+**Makine Halısı:** Ortalama 80 TL/m² (aralık: 70-120 TL) — İstanbul'un yarısından az, Ankara'dan da %10 daha uygun
+**El Halısı (Yün):** 100-170 TL/m² — Konya'da el halısı kullanımı Türkiye ortalamasının üzerindedir
+**İpek Halı:** 150-320 TL/m²
+**Shaggy / Uzun Tüylü:** 75-110 TL/m²
+**Kilim / El Dokuması:** 70-100 TL/m² — Konya'nın en güçlü olduğu alan
 
-**Konya'nın Fiyat Avantajı:** Türkiye'nin en büyük 7. şehri olmasına rağmen halı yıkama fiyatları metropollerin çok altındadır. Düşük kira, bol su kaynağı ve rekabetçi piyasa bu avantajı sağlar.`,
+**Konya'nın Fiyat Avantajı:** Türkiye'nin en büyük 7. şehri olmasına rağmen halı yıkama fiyatları metropollerin altındadır. Düşük kira, bol su kaynağı ve rekabetçi piyasa bu avantajı sağlar.`,
       },
       {
         heading: 'Konya Halı Yıkama — İlçe Bazlı Fiyat Karşılaştırması',
-        content: `Konya ortalaması makine halısı için 65 TL/m²'dir. Merkez 3 ilçe ve dış ilçeler arasında belirgin fark vardır:
+        content: `Konya ortalaması makine halısı için 80 TL/m²'dir. Merkez 3 ilçe ve dış ilçeler arasında belirgin fark vardır:
 
-**Yüksek Fiyat Bölgeleri (75-110 TL/m²):**
+**Yüksek Fiyat Bölgeleri (90-120 TL/m²):**
 [Selçuklu halı yıkama](/konya-selcuklu-hali-yikama-firmalari) (Bosna Hersek, Yazır, Ardıçlı), [Meram halı yıkama](/konya-meram-hali-yikama-firmalari) (Lâdik, Havzan)
 Konya'nın gelir düzeyi en yüksek ilçeleri. Yeni yapılaşma bölgelerinde (Selçuklu Bosna-Hersek Mahallesi) site sakinleri kaliteli hizmet arar, fiyat ikinci plandadır.
 
-**Orta Fiyat Bölgeleri (50-75 TL/m²):**
+**Orta Fiyat Bölgeleri (75-90 TL/m²):**
 [Karatay halı yıkama](/konya-karatay-hali-yikama-firmalari), [Çumra halı yıkama](/konya-cumra-hali-yikama-firmalari), [Akşehir halı yıkama](/konya-aksehir-hali-yikama-firmalari)
 Karatay, Konya'nın tarihî merkezi ve en kalabalık ilçesidir. Firma yoğunluğu fazla, rekabet güçlüdür.
 
-**Uygun Fiyat Bölgeleri (30-55 TL/m²):**
+**Uygun Fiyat Bölgeleri (70-80 TL/m²):**
 [Ereğli halı yıkama](/konya-eregli-hali-yikama-firmalari), [Beyşehir halı yıkama](/konya-beysehir-hali-yikama-firmalari), [Seydişehir halı yıkama](/konya-seydisehir-hali-yikama-firmalari), [Cihanbeyli halı yıkama](/konya-cihanbeyli-hali-yikama-firmalari), [Ilgın halı yıkama](/konya-ilgin-hali-yikama-firmalari)
 Merkeze uzak ilçeler. Ereğli kendi başına büyük bir pazar (150.000+ nüfus) — yerel firmalar mevcuttur. Diğer ilçelerde firma sayısı sınırlıdır.
 
@@ -440,10 +440,10 @@ Merkeze uzak ilçeler. Ereğli kendi başına büyük bir pazar (150.000+ nüfus
       },
     ],
     faq: [
-      { q: 'Konya\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı için ortalama 65 TL/m², el halısı 85-150 TL/m², kilim 40-80 TL/m² aralığındadır. Selçuklu en pahalı, Ereğli ve Beyşehir en uygun ilçelerdir.' },
+      { q: 'Konya\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı için ortalama 80 TL/m², el halısı 100-170 TL/m², kilim 70-100 TL/m² aralığındadır. Selçuklu en pahalı, Ereğli ve Beyşehir en uygun ilçelerdir.' },
       { q: 'Konya\'da kışın halı yıkatmak riskli mi?', a: 'Kapalı kurutma tesisi olan firmalarda sorun yoktur. Açık havada kurutma yapan firmalardan Kasım-Mart arası kesinlikle halı yıkatmayın — halınız donabilir veya küflenebilir.' },
       { q: 'Konya\'da el halısı yıkama nerede yaptırılır?', a: 'Selçuklu ve Meram\'daki köklü halı yıkama firmaları el halısı ve kilim konusunda uzmanlaşmıştır. Konya, Ladik kilimi ve Sille halısı geleneğiyle bu konuda Türkiye\'nin en deneyimli şehirlerinden biridir.' },
-      { q: 'Konya\'da en ucuz halı yıkama nerede?', a: 'Ereğli, Beyşehir ve Seydişehir\'de 30-55 TL/m² ile Konya ortalamasının altında fiyatlar mevcuttur. Ancak bu ilçeler merkeze çok uzaktır — yerel firma tercih edin.' },
+      { q: 'Konya\'da en ucuz halı yıkama nerede?', a: 'Ereğli, Beyşehir ve Seydişehir\'de 70-80 TL/m² ile Konya ortalamasının altında fiyatlar mevcuttur. Ancak bu ilçeler merkeze çok uzaktır — yerel firma tercih edin.' },
       { q: 'Konya\'da halı yıkama kaç gün sürer?', a: 'Yaz aylarında 1-2 gün (kurutma çok hızlı), kış aylarında kapalı kurutmayla 3-5 gün. Bayram dönemlerinde 5-7 güne uzayabilir.' },
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'ankara-hali-yikama', 'antalya-hali-yikama'],
@@ -466,31 +466,31 @@ Merkeze uzak ilçeler. Ereğli kendi başına büyük bir pazar (150.000+ nüfus
         heading: 'Adana Halı Yıkama Fiyatları — Genel',
         content: `Adana fiyatları İstanbul ve İzmir'in belirgin şekilde altında, Konya ile benzer seviyelerdedir:
 
-**Makine Halısı:** Ortalama 70 TL/m² (aralık: 40-120 TL) — İstanbul'un yarı fiyatı
-**El Halısı (Yün):** 90-160 TL/m²
-**İpek Halı:** 140-320 TL/m²
-**Shaggy / Uzun Tüylü:** 55-100 TL/m²
-**Kilim / Cicim:** 35-70 TL/m²
+**Makine Halısı:** Ortalama 80 TL/m² (aralık: 70-130 TL) — İstanbul'un yarı fiyatı
+**El Halısı (Yün):** 100-170 TL/m²
+**İpek Halı:** 150-340 TL/m²
+**Shaggy / Uzun Tüylü:** 75-110 TL/m²
+**Kilim / Cicim:** 70-95 TL/m²
 
 **Adana'nın Farkı:** Sıcak iklim kurutmayı çok hızlandırır — yaz aylarında halılar birkaç saat içinde kurur. Bu, firmaların cirosunu artırır ve fiyatlara olumlu yansır. Ayrıca tarım ekonomisi nedeniyle genel yaşam maliyeti düşük olduğundan, halı yıkama fiyatları da makul seviyelerdedir.`,
       },
       {
         heading: 'Adana Halı Yıkama — İlçe Bazlı Fiyat Karşılaştırması',
-        content: `Adana ortalaması makine halısı için 70 TL/m²'dir. Merkez ilçeler ile kırsal arasında önemli farklar vardır:
+        content: `Adana ortalaması makine halısı için 80 TL/m²'dir. Merkez ilçeler ile kırsal arasında önemli farklar vardır:
 
-**Yüksek Fiyat Bölgeleri (80-120 TL/m²):**
+**Yüksek Fiyat Bölgeleri (90-130 TL/m²):**
 [Çukurova halı yıkama](/adana-cukurova-hali-yikama-firmalari) (Beyazevler, Toros), [Seyhan halı yıkama](/adana-seyhan-hali-yikama-firmalari) (Reşatbey, Kurtuluş)
 Adana'nın en gelişmiş bölgeleri. Çukurova ilçesi yeni yapılaşma ve sitelerle hızla büyüyor. Seyhan merkez (Reşatbey-Kurtuluş aksı) ise şehrin ticari kalbi.
 
-**Orta Fiyat Bölgeleri (50-80 TL/m²):**
+**Orta Fiyat Bölgeleri (75-95 TL/m²):**
 [Yüreğir halı yıkama](/adana-yuregir-hali-yikama-firmalari), [Sarıçam halı yıkama](/adana-saricam-hali-yikama-firmalari)
 Yüreğir, Adana'nın en kalabalık ilçesi (500.000+ nüfus). Firma sayısı fazla, rekabet güçlü. Sarıçam sanayi bölgesi çevresinde kurumsal müşteri talebi yüksek.
 
-**Uygun Fiyat Bölgeleri (35-55 TL/m²):**
+**Uygun Fiyat Bölgeleri (70-85 TL/m²):**
 [Ceyhan halı yıkama](/adana-ceyhan-hali-yikama-firmalari), [Kozan halı yıkama](/adana-kozan-hali-yikama-firmalari), [İmamoğlu halı yıkama](/adana-imamoglu-hali-yikama-firmalari), [Karaisalı halı yıkama](/adana-karaisali-hali-yikama-firmalari), [Tufanbeyli halı yıkama](/adana-tufanbeyli-hali-yikama-firmalari)
 Merkeze uzak ilçeler. Ceyhan (160.000+ nüfus) kendi başına bir pazar — yerel firmalar mevcuttur. Dağ ilçelerinde (Karaisalı, Tufanbeyli) firma bulmak zor olabilir.
 
-**İpucu:** Çukurova'da oturuyorsanız Yüreğir'deki firmalara da bakın — 15 dakika mesafede %20-30 fiyat avantajı bulabilirsiniz.`,
+**İpucu:** Çukurova'da oturuyorsanız Yüreğir'deki firmalara da bakın — 15 dakika mesafede %10-15 fiyat avantajı bulabilirsiniz.`,
       },
       {
         heading: 'Adana Halı Yıkama — Çukurova İklimi ve Tarım Etkisi',
@@ -524,11 +524,11 @@ Merkeze uzak ilçeler. Ceyhan (160.000+ nüfus) kendi başına bir pazar — yer
       },
     ],
     faq: [
-      { q: 'Adana\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı için ortalama 70 TL/m², el halısı 90-160 TL/m², kilim 35-70 TL/m² aralığındadır. Çukurova en pahalı, Ceyhan ve Kozan en uygun ilçelerdir.' },
+      { q: 'Adana\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı için ortalama 80 TL/m², el halısı 100-170 TL/m², kilim 70-95 TL/m² aralığındadır. Çukurova en pahalı, Ceyhan ve Kozan en uygun ilçelerdir.' },
       { q: 'Adana\'da yazın halı yıkatmak güvenli mi?', a: 'Kurutma açısından en ideal dönemdir — halılar birkaç saatte kurur. Ancak nem+sıcak kombinasyonu bakteriyi hızlandırdığından, firmadan anti-bakteriyel işlem istemeniz tavsiye edilir.' },
       { q: 'Adana\'da halı yıkama kaç gün sürer?', a: 'Yaz aylarında 1-2 gün (kurutma çok hızlı), kış aylarında 3-4 gün. Bayram dönemlerinde 5-7 güne çıkabilir.' },
       { q: 'Adana\'da halı güvesi problemi var mı?', a: 'Evet, sıcak iklim nedeniyle halı güvesi ve halı böceği riski diğer şehirlere göre yüksektir. Anti-güve (moth-proof) işlem yapan halı yıkama firmalarını tercih edin, özellikle yün halılar için bu hizmet kritiktir.' },
-      { q: 'Adana\'da en ucuz halı yıkama nerede?', a: 'Ceyhan, Kozan ve İmamoğlu\'nda 35-55 TL/m² ile Adana ortalamasının altında fiyatlar mevcuttur.' },
+      { q: 'Adana\'da en ucuz halı yıkama nerede?', a: 'Ceyhan, Kozan ve İmamoğlu\'nda 70-85 TL/m² ile Adana ortalamasının altında fiyatlar mevcuttur.' },
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'antalya-hali-yikama', 'konya-hali-yikama'],
   },
