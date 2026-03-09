@@ -2087,4 +2087,117 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'antalya-hali-yikama', 'aydin-hali-yikama'],
   },
+
+  /* ─── 24. TRABZON ─── */
+  {
+    slug: 'trabzon-hali-yikama',
+    city: 'Trabzon',
+    citySlug: 'trabzon',
+    title: 'Trabzon Halı Yıkama Rehberi: Fiyatlar, Firmalar ve İpuçları (2026)',
+    metaTitle: 'Trabzon Halı Yıkama Fiyatları 2026 | Firma Rehberi',
+    metaDescription: 'Trabzon halı yıkama fiyatları 2026 güncel liste. Ortahisar, Akçaabat, Yomra, Of, Araklı fiyat karşılaştırma. Trabzon halı yıkama firması seçim rehberi.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'Şehir Rehberi',
+    readingTime: 8,
+    heroEmoji: '⛰️',
+    intro: `**Trabzon**, Doğu Karadeniz'in kalbi ve bölgenin en büyük şehridir. Yılda 800+ mm yağış, %80+ ortalama nem ve deniz kenarındaki dik yamaçlar — Trabzon'da halı yıkama bir lüks değil, hijyen zorunluluğudur. Nemli Karadeniz iklimi halılarda küf, bakteri ve koku oluşumunu Türkiye ortalamasının çok üzerinde hızlandırır. Çay tarlaları, fındık bahçeleri ve deniz tuzu üçlüsü halıları sürekli kirletir. [Trabzon halı yıkama firmaları](/trabzon-hali-yikama-firmalari) arasında en uygun fiyatlı ve güvenilir firmayı bulmak için bu rehberi hazırladık.`,
+    sections: [
+      {
+        heading: 'Trabzon Halı Yıkama Fiyatları 2026',
+        content: `Trabzon'da halı yıkama fiyatları Karadeniz Bölgesi ortalamasındadır. Yüksek nem nedeniyle kurutma maliyetleri batı illerine göre daha yüksektir.
+
+| Halı Türü | Fiyat Aralığı (m²) | Ortalama |
+|---|---|---|
+| Makine halısı | 70 – 120 TL | 85 TL |
+| El dokuması halı | 95 – 180 TL | 130 TL |
+| Shaggy / tüylü halı | 80 – 150 TL | 105 TL |
+| İpek halı | 150 – 350 TL | 230 TL |
+| Koltuk yıkama (kişilik) | 140 – 300 TL | 200 TL |
+| Yorgan yıkama (adet) | 120 – 220 TL | 160 TL |
+
+**İlçe Bazlı Fiyat Farkları:**
+
+🔴 **Yüksek Segment**: [Ortahisar halı yıkama](/trabzon-ortahisar-hali-yikama-firmalari) — 85-180 TL/m². Şehir merkezi, modern konutlar, yüksek talep.
+
+🟡 **Orta Segment**: [Akçaabat halı yıkama](/trabzon-akcaabat-hali-yikama-firmalari), [Yomra halı yıkama](/trabzon-yomra-hali-yikama-firmalari), [Araklı halı yıkama](/trabzon-arakli-hali-yikama-firmalari), [Of halı yıkama](/trabzon-of-hali-yikama-firmalari) — 75-130 TL/m².
+
+🟢 **Uygun Segment**: [Sürmene halı yıkama](/trabzon-surmene-hali-yikama-firmalari), [Çaykara halı yıkama](/trabzon-caykara-hali-yikama-firmalari), [Maçka halı yıkama](/trabzon-macka-hali-yikama-firmalari), [Tonya halı yıkama](/trabzon-tonya-hali-yikama-firmalari), [Vakfıkebir halı yıkama](/trabzon-vakfikebir-hali-yikama-firmalari), [Beşikdüzü halı yıkama](/trabzon-besikduzu-hali-yikama-firmalari) — 70-100 TL/m².
+
+📌 *Trabzon'da kurutma maliyeti kritiktir. Kapalı kurutma tesisi olmayan firmalar nem dönemlerinde halıları tam kurutamaz — küf riski çok yüksektir.*`,
+      },
+      {
+        heading: 'Trabzon İklimi ve Halı Bakım Takvimi',
+        content: `Trabzon'un okyanus iklimi Türkiye'nin çoğu şehrinden tamamen farklıdır:
+
+**Sürekli Yağış ve Nem:** Trabzon yılda 250+ gün yağış alır. Ortalama nem %80-90 arasıdır. Halılar doğal olarak nem çeker ve kuruması çok zordur. Bu durum küf ve bakteri üremesini hızlandırır. Yılda en az 2-3 kez profesyonel yıkama + anti-küf işlem zorunludur.
+
+**Kış Ayları (Kasım-Mart):** Sahilde kar nadir ama yağmur neredeyse her gün yağar. Açık havada kurutma imkansızdır. Kapalı kurutma tesisi olan firma seçmek zorunludur — yoksa halınız bir hafta yaş kalabilir.
+
+**Yaz Ayları (Haziran-Ağustos):** Trabzon yazları serin (22-27°C) ve nemlidir. Ama yılın en az yağışlı dönemidir. Kurutma 2-3 günde tamamlanır. Halı yıkama için en uygun dönemdir.
+
+**Çay ve Fındık Hasadı:** Trabzon'un güney yamaçları çay tarlaları, doğu ilçeleri fındık bahçeleriyle kaplıdır. Hasat dönemlerinde (Mayıs-Haziran çay, Ağustos-Eylül fındık) evlere taşınan organik toz ve kalıntılar halıları kirletir. Hasat sonrası yıkatmak mantıklıdır.
+
+**Deniz Tuzu + Dik Yamaçlar:** Trabzon'da yerleşim deniz seviyesinden 500 metreye kadar yamaçlarda yayılır. Denize yakın evlerde tuzlu nem, yamaç evlerde yağmur suyu akıntısı halı sorunlarının ana kaynağıdır.
+
+**Sümela Manastırı ve Maçka Bölgesi:** Maçka ve Altındere vadisindeki evlerde orman nemi çok yüksektir. Bu bölgede yılda 3 kez yıkatma bile yeterli olmayabilir.
+
+**En İyi Dönem:** Temmuz-Ağustos — yılın en kuru ve en sıcak dönemi.
+
+[Trabzon halı yıkama firmaları](/trabzon-hali-yikama-firmalari) — Trabzon'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+      },
+      {
+        heading: 'Trabzon Halı Yıkama Firması Seçerken Dikkat Edilecekler',
+        content: `**Kurutma Altyapısı — En Kritik Kriter:** Trabzon'da firma seçerken ilk soru "kapalı kurutma tesisi var mı, ne kapasitede?" olmalıdır. Fan + ısıtıcı sistemi olmayan firmalar Trabzon ikliminde halıları düzgün kurutamaz. Yetersiz kurutma küf oluşumuna yol açar ve yıkama yapılmamış halıdan daha kötü sonuç verir.
+
+**Anti-Küf İşlem Standart Olmalı:** Trabzon'da anti-küf (anti-fungal) işlem opsiyonel değil, zorunlu olarak düşünülmelidir. Özellikle zemin katta yaşıyorsanız veya halılarınızda küf kokusu varsa ek ücret olsa da talep edin (10-20 TL/m² ek).
+
+**Karadeniz Kilimleri ve Herekeleri:** Doğu Karadeniz'de geleneksel yün kilimler ve keçeler hala kullanılır. Bu ürünler makine yıkamaya uygun değildir. Elle yıkama deneyimi olan firma seçin.
+
+**Yamaç Evler ve Ulaşım:** Trabzon'un dik yamaçlarındaki evlere halı taşıma bazı firmalar için zordur. Dar sokaklar ve merdivenlerde büyük halıları taşıyabilecek ekip ve ekipman gerekir. Adresinizi önceden belirterek teyit alın.
+
+**Samsun Karşılaştırması:** Trabzon fiyatları [Samsun halı yıkama](/rehber/samsun-hali-yikama) fiyatlarından %5-10 daha yüksektir — daha küçük pazar ve daha zorlu iklim nedeniyle.
+
+**Çaykara ve Uzungöl Turizm:** Uzungöl turizm bölgesindeki konaklama tesisleri sezon sonunda toplu halı yıkama yaptırır. Yerel firma sayısı sınırlıdır — Trabzon merkez firmalarından hizmet almak daha pratik olabilir.`,
+      },
+      {
+        heading: 'Trabzon İlçe Bazlı Halı Yıkama Firmaları',
+        content: `Trabzon 18 ilçeye sahiptir. İşte ilçe bazlı halı yıkama firma rehberi:
+
+**Büyükşehir Merkez:**
+- [Ortahisar halı yıkama](/trabzon-ortahisar-hali-yikama-firmalari) — Şehir merkezi, en çok firma seçeneği
+
+**Batı İlçeler:**
+- [Akçaabat halı yıkama](/trabzon-akcaabat-hali-yikama-firmalari) — Köfte şehri, sahil yerleşimi
+- [Vakfıkebir halı yıkama](/trabzon-vakfikebir-hali-yikama-firmalari) — Ekmek şehri
+- [Beşikdüzü halı yıkama](/trabzon-besikduzu-hali-yikama-firmalari) — Sahil kasabası
+- [Tonya halı yıkama](/trabzon-tonya-hali-yikama-firmalari) — Dağ ilçesi, tereyağı merkezi
+- [Şalpazarı halı yıkama](/trabzon-salpazari-hali-yikama-firmalari) — Kırsal
+
+**Doğu İlçeler:**
+- [Yomra halı yıkama](/trabzon-yomra-hali-yikama-firmalari) — Sahil, sanayi
+- [Araklı halı yıkama](/trabzon-arakli-hali-yikama-firmalari) — Sel riski bölgesi
+- [Of halı yıkama](/trabzon-of-hali-yikama-firmalari) — Çay tarlaları
+- [Sürmene halı yıkama](/trabzon-surmene-hali-yikama-firmalari) — Bıçakçılık merkezi
+- [Çaykara halı yıkama](/trabzon-caykara-hali-yikama-firmalari) — Uzungöl, dağ turizmi
+- [Hayrat halı yıkama](/trabzon-hayrat-hali-yikama-firmalari) — Kırsal
+- [Dernekpazarı halı yıkama](/trabzon-dernekpazari-hali-yikama-firmalari) — Küçük ilçe
+
+**İç Kesim:**
+- [Maçka halı yıkama](/trabzon-macka-hali-yikama-firmalari) — Sümela Manastırı, orman nemi
+- [Düzköy halı yıkama](/trabzon-duzkoy-hali-yikama-firmalari) — Yayla yerleşimi
+- [Köprübaşı halı yıkama](/trabzon-koprubasi-hali-yikama-firmalari) — Dağ ilçesi
+- [Çarşıbaşı halı yıkama](/trabzon-carsibaisi-hali-yikama-firmalari) — Sahil
+
+📌 *Merkeze uzak ilçelerde (Çaykara, Hayrat, Dernekpazarı) firma sayısı çok sınırlıdır. Ortahisar veya Akçaabat firmalarından hizmet almak daha pratik olabilir.*`,
+      },
+    ],
+    faq: [
+      { q: 'Trabzon\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı ortalama 85 TL/m², el dokuması 95-180 TL/m², shaggy 80-150 TL/m² aralığındadır. Ortahisar en pahalı, Çaykara ve Tonya en uygun ilçelerdir.' },
+      { q: 'Trabzon\'da halı yıkama kaç gün sürer?', a: 'Yaz aylarında 2-3 gün, kışın 5-7 gün. Trabzon\'un çok yüksek nemi kurutmayı uzatır. Kapalı kurutma tesisi olan firmalar 1-2 gün kısaltır.' },
+      { q: 'Trabzon neminde halı küflenmez mi?', a: 'Profesyonel yıkama yapılmazsa küf riski çok yüksektir. Anti-küf işlem isteyin ve yılda 2-3 kez yıkatın. Zemin katta yaşıyorsanız 3-4 kez bile gerekebilir.' },
+      { q: 'Trabzon\'da kışın halı yıkatılır mı?', a: 'Evet, ancak kapalı kurutma tesisi zorunludur. Trabzon\'da kışın neredeyse her gün yağmur yağar — açık havada kurutma kesinlikle mümkün değildir.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'samsun-hali-yikama', 'istanbul-hali-yikama'],
+  },
 ];
