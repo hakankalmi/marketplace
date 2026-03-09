@@ -2845,4 +2845,211 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'erzurum-hali-yikama', 'kayseri-hali-yikama'],
   },
+
+  // ── Ordu ────────────────────────────────────────────────
+  {
+    slug: 'ordu-hali-yikama',
+    city: 'Ordu',
+    citySlug: 'ordu',
+    title: 'Ordu Halı Yıkama Rehberi — Fiyatlar, İlçeler ve Tavsiyeler',
+    metaTitle: 'Ordu Halı Yıkama Fiyatları 2026 | Rehber & Karşılaştırma',
+    metaDescription: 'Ordu halı yıkama fiyatları, güvenilir firma önerileri ve ilçe bazlı hizmet rehberi. Karadeniz nemine uygun halı bakım çözümleri.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 10,
+    heroEmoji: '🌰',
+    intro: 'Ordu, Karadeniz\'in yeşil cennetidir. Fındık başkenti olarak bilinen şehir, yıl boyunca yağışlı iklimi ve yüksek nemiyle halı bakımını zorlu hâle getirir. Deniz kenarından 1.500 metreye kadar yükselen coğrafyada nem oranı %80\'leri bulur — bu durum halılarda küflenme ve kötü koku riskini ciddi ölçüde artırır. Boztepe\'den şehre bakan manzaranın güzelliği kadar, bu nemin halılara etkisi de o denli gerçektir. Bu rehberde Ordu\'ya özel halı yıkama ipuçlarını, fiyatları ve ilçe bazlı hizmet bilgilerini bulacaksınız.',
+    sections: [
+      {
+        heading: 'Ordu Halı Yıkama Fiyatları 2026',
+        content: `Ordu halı yıkama fiyatları Karadeniz Bölgesi ortalamasındadır. Yüksek nem nedeniyle kurutma maliyetleri fiyata yansır:
+
+| Halı Türü | Fiyat Aralığı (m²) | Not |
+|---|---|---|
+| Makine halısı | 70-95 TL | Standart yıkama |
+| El dokuması / kilim | 85-145 TL | Nem hassasiyeti |
+| Shaggy / uzun tüylü | 80-125 TL | Kurutma kritik |
+| Yün halı | 85-140 TL | Küf önleyici işlem dahil |
+| İpek halı | 120-190 TL | El yıkama |
+
+🔴 **Pahalı bölgeler:** Altınordu merkez, Boztepe, sahil şeridi
+🟡 **Orta fiyatlı bölgeler:** Ünye merkez, Fatsa merkez, Perşembe
+🟢 **Uygun fiyatlı bölgeler:** Akkuş, Mesudiye, Gölköy, Aybastı
+
+💡 *Ordu'da nem nedeniyle kurutma süreci kritiktir — kapalı kurutma tesisi olan firmalar daha güvenilir sonuç verir.*`,
+      },
+      {
+        heading: 'Karadeniz Nemi ve Halı Bakımı',
+        content: `Ordu'nun nemli iklimi halı bakımını doğrudan etkiler. Bu bölgeye özel sorunlar ve çözümleri:
+
+**Küflenme riski:** Karadeniz'in %75-85 nem oranı halılarda küf oluşumunu hızlandırır. Özellikle zemini beton olan evlerde, halının alt yüzeyinde fark edilmeyen küf kolonileri oluşabilir. Yılda en az 1 kez profesyonel yıkama + anti-küf işlemi önerilir.
+
+**Kötü koku:** Nem emilen halı lifleri zamanla kötü koku yayar. Ev tipi havalandırma yeterli olmaz. Profesyonel ozon veya UV-C dezenfeksiyon işlemi kalıcı çözüm sağlar.
+
+**Kurutma sorunu:** Ordu'da yıllık yağış miktarı 1.000 mm'yi geçer. Açık havada halı kurutma risklidir — ani yağmur halıyı tekrar ıslatır. Kapalı, sıcak hava sirküsyonlu tesislerde kurutma zorunludur.
+
+**Çay ve fındık lekesi:** Ordu'nun iki simgesi çay ve fındık. Çay lekeleri taze iken kolay çıkar ama kuruduğunda sarı iz bırakır. Fındık yağı lekeleri ise yağ çözücü deterjan gerektirir — normal yıkama tek başına yetmez.
+
+**Yosun ve yeşillenme:** Bodrum katlardaki halılarda nemden kaynaklanan yeşillenme görülebilir. Bu mikrobiyolojik bir sorundur ve sadece dezenfektanlı profesyonel yıkama ile çözülür.
+
+📌 *Ordu'da halı yıkatırken "anti-küf işlemi" opsiyonunu mutlaka sorun — küçük ek ücretle büyük sorunları önler.*`,
+      },
+      {
+        heading: 'Ordu\'da Halı Yıkama Firması Seçerken',
+        content: `Karadeniz iklimine uygun halı yıkama firması seçmek için dikkat edilecek noktalar:
+
+**Kapalı kurutma tesisi:** Ordu'da olmazsa olmaz kriterdir. Açık havada kurutma yapan firma tercih etmeyin — ani yağmurlar halıyı tekrar kirletir ve küf riskini artırır.
+
+**Anti-küf işlemi:** Firma anti-küf ve anti-bakteriyel işlem sunuyor mu? Ordu'nun nemli ortamında bu işlem standart yıkama kadar önemlidir.
+
+**Nem ölçümü:** Profesyonel firmalar teslim öncesi nem ölçer ile halının kuruluğunu kontrol eder. Nemli teslim edilen halı evde küflenir.
+
+**Nakliye koruması:** Halılar nakliye sırasında yağmurdan korunuyor mu? Kapalı araçla taşınması gerekir — açık kamyonet kabul edilemez.
+
+**Dezenfeksiyon hizmeti:** Ozon veya UV-C dezenfeksiyon sunuyor mu? Nemli iklimde bu hizmet sadece lüks değil, sağlık gerekliliğidir.`,
+      },
+      {
+        heading: 'Ordu İlçelerinde Halı Yıkama Hizmetleri',
+        content: `Ordu'nun 19 ilçesi deniz kıyısından dağlık iç bölgelere kadar uzanır. İlçe bazlı halı yıkama hizmet durumu:
+
+**Merkez ve Kıyı İlçeler:**
+- [Altınordu halı yıkama](/ordu-altinordu-hali-yikama-firmalari) — Merkez ilçe, tüm firmalar burada
+- [Ünye halı yıkama](/ordu-unye-hali-yikama-firmalari) — Batıda büyük ilçe, tarihi şehir
+- [Fatsa halı yıkama](/ordu-fatsa-hali-yikama-firmalari) — Doğuda büyük ilçe, sanayi
+- [Perşembe halı yıkama](/ordu-persembe-hali-yikama-firmalari) — Sahil, Hoynat Adası
+- [Gülyalı halı yıkama](/ordu-gulyali-hali-yikama-firmalari) — Sahil yerleşim
+
+**İç Bölge İlçeler:**
+- [Kumru halı yıkama](/ordu-kumru-hali-yikama-firmalari) — Fındık üretimi
+- [Ulubey halı yıkama](/ordu-ulubey-hali-yikama-firmalari) — Ulubey Kanyonu
+- [Gölköy halı yıkama](/ordu-golkoy-hali-yikama-firmalari) — Yüksek rakım
+- [Korgan halı yıkama](/ordu-korgan-hali-yikama-firmalari) — Melet Irmağı
+- [Kabadüz halı yıkama](/ordu-kabaduz-hali-yikama-firmalari) — Dağlık
+
+**Yüksek Rakım İlçeler:**
+- [Akkuş halı yıkama](/ordu-akkus-hali-yikama-firmalari) — Tokat sınırı, en yüksek ilçe
+- [Mesudiye halı yıkama](/ordu-mesudiye-hali-yikama-firmalari) — Yeşil doğa, yaylalar
+- [Aybastı halı yıkama](/ordu-aybasti-hali-yikama-firmalari) — Perşembe Yaylası
+- [Gürgentepe halı yıkama](/ordu-gurgentepe-hali-yikama-firmalari) — Orman köyleri
+
+**Diğer İlçeler:**
+- [İkizce halı yıkama](/ordu-ikizce-hali-yikama-firmalari) — Küçük ilçe
+- [Çamaş halı yıkama](/ordu-camas-hali-yikama-firmalari) — Kırsal
+- [Kabataş halı yıkama](/ordu-kabatas-hali-yikama-firmalari) — Kırsal
+- [Çatalpınar halı yıkama](/ordu-catalpinar-hali-yikama-firmalari) — Dağlık
+- [Çaybaşı halı yıkama](/ordu-caybasi-hali-yikama-firmalari) — Kıyıya yakın
+
+📌 *Dağlık iç bölge ilçelerinde profesyonel halı yıkama firması bulunmaz. Altınordu, Ünye ve Fatsa'daki firmalar tüm ilçelere ücretsiz alım-teslim hizmeti sunar.*`,
+      },
+    ],
+    faq: [
+      { q: 'Ordu\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-95 TL/m², yün halı 85-140 TL/m², shaggy 80-125 TL/m² aralığındadır. Anti-küf işlemi için +10-15 TL/m² ek ücret olabilir.' },
+      { q: 'Ordu\'da halı neden çabuk küflenir?', a: 'Yıllık ortalama %80 nem oranı küf oluşumunu hızlandırır. Özellikle zemin katlarda, halının altında hava sirkülasyonu yoksa 3-4 ayda küf başlayabilir. Halı altlığı ve düzenli havalandırma önemlidir.' },
+      { q: 'Çay lekesi halıdan nasıl çıkar?', a: 'Taze çay lekesine soğuk su + birkaç damla limon sıkın ve emici bezle bastırın. Kurumuş çay lekesi için profesyonel enzimatik deterjan gerekir — ev yöntemleri sarı izi tam çıkarmaz.' },
+      { q: 'Ordu\'da en iyi halı yıkama sezonu ne zaman?', a: 'Temmuz-Ağustos en iyi dönemdir — yağış en az, sıcaklık en yüksek bu aylardadır. Yine de kapalı kurutma tesisi olan firma tercih edin.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'trabzon-hali-yikama', 'samsun-hali-yikama'],
+  },
+
+  // ── Afyonkarahisar ────────────────────────────────────────────────
+  {
+    slug: 'afyonkarahisar-hali-yikama',
+    city: 'Afyonkarahisar',
+    citySlug: 'afyonkarahisar',
+    title: 'Afyonkarahisar Halı Yıkama Rehberi — Fiyatlar, İlçeler ve Tavsiyeler',
+    metaTitle: 'Afyonkarahisar Halı Yıkama Fiyatları 2026 | Rehber & Karşılaştırma',
+    metaDescription: 'Afyonkarahisar halı yıkama fiyatları, güvenilir firma önerileri ve ilçe bazlı hizmet rehberi. Termal turizm şehrine özel bakım çözümleri.',
+    datePublished: '2026-03-09',
+    dateModified: '2026-03-09',
+    category: 'hali-yikama',
+    readingTime: 10,
+    heroEmoji: '♨️',
+    intro: 'Afyonkarahisar, termal turizmin başkenti ve mermer sanayinin kalbi olarak bilinir. İç Anadolu\'nun batısında yer alan şehir, karasal iklimin etkisiyle kışları soğuk, yazları sıcak ve kurak geçer. Termal otellerin yoğunluğu nedeniyle halı temizliği hem konut hem ticari sektörde önemlidir. Sucuk ve kaymağıyla meşhur şehirde, yağ bazlı gıda lekeleri halı temizliğinde sık karşılaşılan sorunlardandır. Bu rehberde Afyonkarahisar\'a özel fiyatları, bakım önerilerini ve ilçe bazlı hizmet bilgilerini bulacaksınız.',
+    sections: [
+      {
+        heading: 'Afyonkarahisar Halı Yıkama Fiyatları 2026',
+        content: `Afyonkarahisar halı yıkama fiyatları Türkiye ortalamasının altında, İç Anadolu seviyesindedir:
+
+| Halı Türü | Fiyat Aralığı (m²) | Not |
+|---|---|---|
+| Makine halısı | 70-90 TL | Standart yıkama |
+| El dokuması / kilim | 80-140 TL | Yöresel kilimler dahil |
+| Shaggy / uzun tüylü | 75-120 TL | Kurutma kolay (kuru iklim) |
+| Yün halı | 80-130 TL | Standart |
+| Otel / ticari halı | 70-85 TL | Toplu siparişlerde indirim |
+
+🔴 **Pahalı bölgeler:** Merkez (Kale çevresi), termal otel bölgesi, Zafer Meydanı
+🟡 **Orta fiyatlı bölgeler:** Bolvadin, Sandıklı merkez, Dinar merkez
+🟢 **Uygun fiyatlı bölgeler:** Emirdağ, Çay, Sultandağı, İhsaniye
+
+💡 *Afyon'un kuru iklimi halı kurutma için idealdir — yaz aylarında günde kuruma tamamlanır.*`,
+      },
+      {
+        heading: 'Afyonkarahisar\'ın İklimi ve Halı Bakımına Etkisi',
+        content: `Afyonkarahisar 1.034 metre rakımda, yarı kurak karasal iklime sahiptir. Bu iklim halı bakımında hem avantaj hem zorluk yaratır:
+
+**Kuru yazlar (avantaj):** Yaz aylarında nem %30-40 arasında kalır. Halılar açık havada 6-8 saatte tamamen kurur. Küflenme riski neredeyse sıfırdır. Bu, halı yıkama firmaları için ideal çalışma koşullarıdır.
+
+**Soğuk kışlar:** Kış sıcaklığı -10°C'ye kadar düşer. Kar örtüsü 2-3 ay kalır. Kapalı tesiste kurutma 3-4 gün sürer — Erzurum veya Sivas kadar uzun değildir.
+
+**Toz ve kireç:** Afyon'un mermer ve traverten kaynaklı toprağı ince kireçli toz üretir. Bu toz halı liflerine yerleştiğinde normal süpürme ile çıkmaz — profesyonel derin temizlik gerekir.
+
+**Termal su etkisi:** Termal bölgelerde (Sandıklı, Gazlıgöl, Ömer) havadaki kükürt ve mineral zerrecikleri halılara yerleşir. Bu zerrecikler sarımsı leke ve hafif koku bırakabilir — özel nötrleştirici deterjan kullanılmalıdır.
+
+**Yağ lekeleri:** Afyon sucuğu, kaymağı ve yağlı mutfak kültürü halılarda yağ lekesi sıklığını artırır. Taze yağ lekesine mısır unu serpin, 2 saat bekletin, ardından süpürün — bu ilk müdahale lekeyi %60 çıkarır. Profesyonel yıkamada yağ çözücü ön işlem uygulanır.`,
+      },
+      {
+        heading: 'Termal Oteller ve Ticari Halı Temizliği',
+        content: `Afyonkarahisar Türkiye'nin en yoğun termal turizm merkezidir. Sandıklı, Gazlıgöl ve Ömer-Gecek termal tesisleri yılda yüz binlerce ziyaretçi ağırlar. Bu otellerin halı temizlik ihtiyacı konutlardan farklıdır:
+
+**Yüksek trafik:** Otel lobileri, koridor ve odalarındaki halılar günde yüzlerce kişinin ayak trafiğine maruz kalır. 3-6 ayda bir profesyonel yıkama gerekir.
+
+**Termal su lekeleri:** Misafirler termal suyu odalara taşır. Kükürlü su halıda sarımsı iz ve koku bırakır — standart deterjan yetmez, özel mineral çözücü gerekir.
+
+**Çamaşır ve banyo nemi:** Termal otellerde iç mekân nemi yüksektir. Halı altı nem önleyici uygulama (su geçirmez alt tabaka) şarttır.
+
+**Toplu sipariş avantajı:** Otel ve pansiyonlar toplu sipariş vererek m² başına %15-25 indirim alabilir. Platform üzerinden teklif isteyerek fiyat karşılaştırması yapabilirsiniz.
+
+📌 *Termal tesis işletmecileri için özel ticari halı yıkama paketleri sunan firmalar platformda "ticari hizmet" etiketiyle listelenir.*`,
+      },
+      {
+        heading: 'Afyonkarahisar İlçelerinde Halı Yıkama Hizmetleri',
+        content: `Afyonkarahisar 18 ilçeyle İç Batı Anadolu'nun önemli merkezlerinden biridir. İlçe bazlı hizmet durumu:
+
+**Merkez ve Büyük İlçeler:**
+- [Afyonkarahisar Merkez halı yıkama](/afyonkarahisar-merkez-hali-yikama-firmalari) — Kale, şehir merkezi
+- [Bolvadin halı yıkama](/afyonkarahisar-bolvadin-hali-yikama-firmalari) — İkinci büyük ilçe, Eber Gölü
+- [Sandıklı halı yıkama](/afyonkarahisar-sandikli-hali-yikama-firmalari) — Termal turizm, büyük ilçe
+- [Dinar halı yıkama](/afyonkarahisar-dinar-hali-yikama-firmalari) — Büyük Menderes kaynağı
+- [Emirdağ halı yıkama](/afyonkarahisar-emirdag-hali-yikama-firmalari) — Göçmen kültürü, Eskişehir sınırı
+
+**Termal Bölge İlçeler:**
+- [İhsaniye halı yıkama](/afyonkarahisar-ihsaniye-hali-yikama-firmalari) — Gazlıgöl termal, Ayazini
+- [Başmakçı halı yıkama](/afyonkarahisar-basmakci-hali-yikama-firmalari) — Güneybatı
+
+**Diğer İlçeler:**
+- [Çay halı yıkama](/afyonkarahisar-cay-hali-yikama-firmalari) — Demiryolu kavşağı
+- [Sultandağı halı yıkama](/afyonkarahisar-sultandagi-hali-yikama-firmalari) — Sultandağları etekleri
+- [Sinanpaşa halı yıkama](/afyonkarahisar-sinanpasa-hali-yikama-firmalari) — Merkeze yakın
+- [Şuhut halı yıkama](/afyonkarahisar-suhut-hali-yikama-firmalari) — Başkomutanlık Karargâhı
+- [Dazkırı halı yıkama](/afyonkarahisar-dazkiri-hali-yikama-firmalari) — Gül yağı
+- [İscehisar halı yıkama](/afyonkarahisar-iscehisar-hali-yikama-firmalari) — Mermer sanayii
+- [Bayat halı yıkama](/afyonkarahisar-bayat-hali-yikama-firmalari) — Kırsal
+- [Hocalar halı yıkama](/afyonkarahisar-hocalar-hali-yikama-firmalari) — Küçük ilçe
+- [Çobanlar halı yıkama](/afyonkarahisar-cobanlar-hali-yikama-firmalari) — Küçük ilçe
+- [Evciler halı yıkama](/afyonkarahisar-evciler-hali-yikama-firmalari) — Kırsal
+- [Kızılören halı yıkama](/afyonkarahisar-kiziloren-hali-yikama-firmalari) — Küçük ilçe
+
+📌 *Küçük ilçelerde profesyonel firma yoktur. Afyon merkez ve büyük ilçe firmalarında ücretsiz alım-teslim hizmeti mevcuttur.*`,
+      },
+    ],
+    faq: [
+      { q: 'Afyonkarahisar\'da halı yıkama ortalama ne kadar?', a: 'Makine halısı 70-90 TL/m², el dokuması 80-140 TL/m², yün halı 80-130 TL/m² aralığındadır. Türkiye ortalamasının biraz altındadır.' },
+      { q: 'Termal su lekesi halıdan çıkar mı?', a: 'Evet ama özel mineral çözücü deterjan gerekir. Standart yıkama kükürt ve mineralleri tam çıkarmaz. Firmaya "termal su lekesi" olarak bildirin.' },
+      { q: 'Afyon\'da en iyi halı yıkama zamanı ne zaman?', a: 'Mayıs-Ekim arası idealdir. Kuru iklimde halılar çok hızlı kurur. Kışın da kapalı tesiste yıkama mümkündür.' },
+      { q: 'Otel halıları ne sıklıkla yıkanmalı?', a: 'Yüksek trafik alan lobiler ve koridorlar 3-4 ayda bir, odalar 6 ayda bir yıkanmalıdır. Termal otellerde mineral birikimi nedeniyle bu süre daha kısa tutulmalıdır.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'eskisehir-hali-yikama', 'denizli-hali-yikama'],
+  },
 ];
