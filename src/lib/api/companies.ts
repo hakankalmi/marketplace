@@ -27,6 +27,12 @@ export async function getCompanyDetail(
   return api.get(`/api/mp/companies/${slugOrId}`);
 }
 
+export async function revealPhone(
+  companyId: string
+): Promise<{ phone: string }> {
+  return api.post(`/api/mp/companies/${companyId}/phone-reveal`);
+}
+
 export async function searchCompanies(
   query: CompanySearchQuery
 ): Promise<PaginatedResponse<CompanyListDto>> {

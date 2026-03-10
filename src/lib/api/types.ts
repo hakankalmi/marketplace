@@ -77,7 +77,6 @@ export interface CompanyDetailDto {
   slug: string | null;
   logoUrl: string | null;
   city: string | null;
-  phone: string | null;
   description: string | null;
   averageRating: number;
   totalReviewCount: number;

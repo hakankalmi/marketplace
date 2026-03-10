@@ -8,7 +8,6 @@ import {
   Star,
   MapPin,
   Clock,
-  Phone,
   CheckCircle,
   ChevronLeft,
   ChevronRight,
@@ -18,6 +17,7 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { StarRating } from '@/components/ui/star-rating';
 import { BeforeAfterGrid } from '@/components/ui/before-after';
+import { PhoneRevealButton } from '@/components/ui/phone-reveal-button';
 import { formatCurrency, formatDate, slugify } from '@/lib/utils';
 import type { CompanyDetailDto } from '@/lib/api/types';
 
@@ -328,17 +328,7 @@ export function CompanyDetailView({ company }: Props) {
                 </Button>
               </Link>
 
-              {company.phone && (
-                <a
-                  href={`tel:${company.phone}`}
-                  className="mt-3 w-full"
-                >
-                  <Button variant="outline" size="lg" className="w-full mt-3">
-                    <Phone size={16} />
-                    Ara: {company.phone}
-                  </Button>
-                </a>
-              )}
+              <PhoneRevealButton companyId={company.companyId} />
             </motion.div>
 
             {/* Servis Bölgeleri */}

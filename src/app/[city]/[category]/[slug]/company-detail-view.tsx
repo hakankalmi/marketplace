@@ -27,6 +27,7 @@ import { Badge } from '@/components/ui/badge';
 import { StarRating } from '@/components/ui/star-rating';
 import { BeforeAfterGrid } from '@/components/ui/before-after';
 import { formatCurrency, formatDate, toTitleCase, getCategoryDisplayName, slugify } from '@/lib/utils';
+import { PhoneRevealButton } from '@/components/ui/phone-reveal-button';
 import type { CompanyDetailDto, ProductDto, MarketplaceProductCategory } from '@/lib/api/types';
 
 /* ── Category display config (integer keys matching backend enum) ── */
@@ -238,7 +239,7 @@ export function CompanyDetailView({ company, city, category }: Props) {
           </motion.div>
 
           {/* Mobile CTA — firma bilgisinin hemen altında (desktop sidebar var) */}
-          <div className="lg:hidden">
+          <div className="lg:hidden space-y-0">
             <Link
               href={`/${city || 'turkiye'}/${category || 'hali-yikama'}/${company.slug || company.companyId}/siparis`}
             >
@@ -246,6 +247,7 @@ export function CompanyDetailView({ company, city, category }: Props) {
                 Sipariş Oluştur
               </Button>
             </Link>
+            <PhoneRevealButton companyId={company.companyId} />
           </div>
 
           {/* Trust Badges — key stats at a glance */}
@@ -657,6 +659,8 @@ export function CompanyDetailView({ company, city, category }: Props) {
                   Sipariş Oluştur
                 </Button>
               </Link>
+
+              <PhoneRevealButton companyId={company.companyId} />
 
               <p className="text-xs text-brand-text-muted text-center mt-3">
                 Ürün türleri ve ölçüler firma tarafından belirlenir
