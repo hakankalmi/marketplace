@@ -257,21 +257,17 @@ export function CompanyDetailView({ company, city, category }: Props) {
             <PhoneRevealButton companyId={company.companyId} />
           </div>
 
-          {/* Trust Badges — key stats at a glance */}
-          <motion.div
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.05 }}
-            className="grid grid-cols-2 sm:grid-cols-4 gap-3"
-          >
+          {/* Trust Badges — premium animated stats */}
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {[
               ...(company.averageRating > 0
                 ? [{
                     icon: Star,
                     value: company.averageRating.toFixed(1),
                     label: `${company.totalReviewCount} değerlendirme`,
-                    color: 'text-amber-500',
-                    bg: 'bg-amber-500/10',
+                    gradient: 'from-amber-400 to-orange-500',
+                    glow: 'shadow-amber-500/20',
+                    iconFill: true,
                   }]
                 : []),
               ...(company.completedOrderCount > 0
@@ -279,8 +275,9 @@ export function CompanyDetailView({ company, city, category }: Props) {
                     icon: Trophy,
                     value: `${company.completedOrderCount}`,
                     label: 'Tamamlanan sipariş',
-                    color: 'text-emerald-500',
-                    bg: 'bg-emerald-500/10',
+                    gradient: 'from-emerald-400 to-teal-500',
+                    glow: 'shadow-emerald-500/20',
+                    iconFill: false,
                   }]
                 : []),
               ...(company.responseTimeMinutes > 0
@@ -289,35 +286,55 @@ export function CompanyDetailView({ company, city, category }: Props) {
                     value: company.responseTimeMinutes < 60
                       ? `${company.responseTimeMinutes} dk`
                       : `${Math.round(company.responseTimeMinutes / 60)} saat`,
-                    label: 'Ort. yanıt süresi',
-                    color: 'text-blue-500',
-                    bg: 'bg-blue-500/10',
+                    label: 'Yanıt süresi',
+                    gradient: 'from-blue-400 to-indigo-500',
+                    glow: 'shadow-blue-500/20',
+                    iconFill: true,
                   }]
                 : []),
               ...(company.acceptingOrders
                 ? [{
                     icon: CheckCircle,
                     value: 'Aktif',
-                    label: 'Sipariş kabul ediyor',
-                    color: 'text-green-500',
-                    bg: 'bg-green-500/10',
+                    label: 'Sipariş alıyor',
+                    gradient: 'from-green-400 to-emerald-500',
+                    glow: 'shadow-green-500/20',
+                    iconFill: false,
                   }]
                 : []),
             ].map((stat, i) => (
-              <div
+              <motion.div
                 key={i}
-                className="flex items-center gap-3 p-3 bg-brand-surface rounded-brand border border-brand-border"
+                initial={{ opacity: 0, scale: 0.8, y: 20 }}
+                animate={{ opacity: 1, scale: 1, y: 0 }}
+                transition={{ delay: 0.1 + i * 0.08, type: 'spring', stiffness: 200, damping: 15 }}
+                whileHover={{ scale: 1.05, y: -2 }}
+                className="relative group cursor-default overflow-hidden rounded-2xl border border-white/10 bg-white p-4 text-center shadow-lg hover:shadow-xl transition-shadow"
               >
-                <div className={`w-9 h-9 rounded-xl ${stat.bg} flex items-center justify-center shrink-0`}>
-                  <stat.icon size={18} className={stat.color} />
-                </div>
-                <div className="min-w-0">
-                  <p className="text-sm font-bold text-brand-text">{stat.value}</p>
-                  <p className="text-[11px] text-brand-text-muted truncate">{stat.label}</p>
-                </div>
-              </div>
+                {/* Gradient glow behind icon */}
+                <div className={`absolute -top-3 left-1/2 -translate-x-1/2 w-16 h-16 rounded-full bg-gradient-to-br ${stat.gradient} opacity-15 blur-xl group-hover:opacity-25 transition-opacity`} />
+
+                {/* Icon with gradient background */}
+                <motion.div
+                  className={`relative mx-auto w-11 h-11 rounded-xl bg-gradient-to-br ${stat.gradient} flex items-center justify-center shadow-lg ${stat.glow}`}
+                  whileHover={{ rotate: [0, -10, 10, 0] }}
+                  transition={{ duration: 0.4 }}
+                >
+                  <stat.icon size={20} className={`text-white ${stat.iconFill ? 'fill-white' : ''}`} />
+                </motion.div>
+
+                {/* Value */}
+                <p className="mt-2.5 text-lg font-bold text-brand-text tracking-tight">
+                  {stat.value}
+                </p>
+
+                {/* Label */}
+                <p className="text-[11px] text-brand-text-muted font-medium">
+                  {stat.label}
+                </p>
+              </motion.div>
             ))}
-          </motion.div>
+          </div>
 
           {/* Fotoğraf Galerisi */}
           {photos.length > 0 && (
