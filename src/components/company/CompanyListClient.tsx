@@ -1,8 +1,8 @@
 'use client';
 
 import { useState, useMemo } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { Search, SlidersHorizontal, Star, ArrowUpDown, X, ShoppingCart } from 'lucide-react';
+import { motion } from 'framer-motion';
+import { Search, Star, X, ShoppingCart } from 'lucide-react';
 import { CompanyCard } from './CompanyCard';
 import type { CompanyListDto } from '@/lib/api/types';
 
@@ -29,14 +29,12 @@ export function CompanyListClient({ companies }: CompanyListClientProps) {
   const [sortBy, setSortBy] = useState<SortKey>('rating');
   const [minRating, setMinRating] = useState(0);
   const [onlineOnly, setOnlineOnly] = useState(false);
-  const [showFilters, setShowFilters] = useState(false);
 
   const hasActiveFilters = search.length > 0 || minRating > 0 || sortBy !== 'rating' || onlineOnly;
 
   const filtered = useMemo(() => {
     let result = [...companies];
 
-    // Search filter
     if (search.length > 0) {
       const q = search.toLocaleLowerCase('tr-TR');
       result = result.filter(
@@ -46,28 +44,25 @@ export function CompanyListClient({ companies }: CompanyListClientProps) {
       );
     }
 
-    // Rating filter
     if (minRating > 0) {
       result = result.filter((c) => c.averageRating >= minRating);
     }
 
-    // Online order filter
     if (onlineOnly) {
       result = result.filter((c) => c.canAcceptOnlineOrders);
     }
 
-    // Sort
     result.sort((a, b) => {
       switch (sortBy) {
         case 'rating':
           return b.averageRating - a.averageRating;
         case 'completedOrders':
           return b.completedOrderCount - a.completedOrderCount;
-        case 'responseTime':
-          // Lower response time = better, 0 means no data → push to end
+        case 'responseTime': {
           const aTime = a.responseTimeMinutes || 9999;
           const bTime = b.responseTimeMinutes || 9999;
           return aTime - bTime;
+        }
         default:
           return 0;
       }
@@ -84,147 +79,96 @@ export function CompanyListClient({ companies }: CompanyListClientProps) {
   };
 
   return (
-    <div className="space-y-6">
-      {/* Search + Filter Toggle */}
-      <div className="flex gap-3">
-        {/* Search */}
-        <div className="flex-1 relative">
-          <Search size={18} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-brand-text-muted" />
-          <input
-            type="text"
-            value={search}
-            onChange={(e) => setSearch(e.target.value)}
-            placeholder="Firma ara..."
-            className="w-full pl-10 pr-4 py-2.5 bg-brand-surface border border-brand-border rounded-brand text-sm text-brand-text placeholder:text-brand-text-muted/60 focus:outline-none focus:border-brand-primary focus:ring-1 focus:ring-brand-primary/20 transition-all"
-          />
-          {search && (
-            <button
-              onClick={() => setSearch('')}
-              className="absolute right-3 top-1/2 -translate-y-1/2 text-brand-text-muted hover:text-brand-text transition-colors"
-            >
-              <X size={16} />
-            </button>
-          )}
-        </div>
-
-        {/* Filter Toggle */}
-        <button
-          onClick={() => setShowFilters(!showFilters)}
-          className={`flex items-center gap-2 px-4 py-2.5 border rounded-brand text-sm font-medium transition-all ${
-            showFilters || hasActiveFilters
-              ? 'bg-brand-primary/10 border-brand-primary/30 text-brand-primary'
-              : 'bg-brand-surface border-brand-border text-brand-text-muted hover:border-brand-primary/40'
-          }`}
-        >
-          <SlidersHorizontal size={16} />
-          <span className="hidden sm:inline">Filtrele</span>
-          {hasActiveFilters && (
-            <span className="w-2 h-2 rounded-full bg-brand-primary" />
-          )}
-        </button>
+    <div className="space-y-4">
+      {/* Search */}
+      <div className="relative">
+        <Search size={18} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-brand-text-muted" />
+        <input
+          type="text"
+          value={search}
+          onChange={(e) => setSearch(e.target.value)}
+          placeholder="Firma ara..."
+          className="w-full pl-10 pr-4 py-2.5 bg-brand-surface border border-brand-border rounded-brand text-sm text-brand-text placeholder:text-brand-text-muted/60 focus:outline-none focus:border-brand-primary focus:ring-1 focus:ring-brand-primary/20 transition-all"
+        />
+        {search && (
+          <button
+            onClick={() => setSearch('')}
+            className="absolute right-3 top-1/2 -translate-y-1/2 text-brand-text-muted hover:text-brand-text transition-colors"
+          >
+            <X size={16} />
+          </button>
+        )}
       </div>
 
-      {/* Expandable Filter Bar */}
-      <AnimatePresence>
-        {showFilters && (
-          <motion.div
-            initial={{ height: 0, opacity: 0 }}
-            animate={{ height: 'auto', opacity: 1 }}
-            exit={{ height: 0, opacity: 0 }}
-            transition={{ duration: 0.2 }}
-            className="overflow-hidden"
+      {/* Quick Filters — always visible, horizontal scroll on mobile */}
+      <div className="flex flex-wrap gap-2 items-center">
+        {/* Sort chips */}
+        {SORT_OPTIONS.map((opt) => (
+          <button
+            key={opt.key}
+            onClick={() => setSortBy(opt.key)}
+            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium border transition-all whitespace-nowrap ${
+              sortBy === opt.key
+                ? 'bg-brand-primary text-white border-brand-primary shadow-sm'
+                : 'bg-brand-surface border-brand-border text-brand-text-muted hover:border-brand-primary/40 hover:text-brand-text'
+            }`}
           >
-            <div className="p-4 bg-brand-surface rounded-brand border border-brand-border space-y-4">
-              {/* Sort */}
-              <div>
-                <label className="flex items-center gap-1.5 text-xs font-medium text-brand-text-muted mb-2">
-                  <ArrowUpDown size={12} />
-                  Sıralama
-                </label>
-                <div className="flex flex-wrap gap-2">
-                  {SORT_OPTIONS.map((opt) => (
-                    <button
-                      key={opt.key}
-                      onClick={() => setSortBy(opt.key)}
-                      className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium border transition-all ${
-                        sortBy === opt.key
-                          ? 'bg-brand-primary text-white border-brand-primary shadow-sm'
-                          : 'bg-brand-bg border-brand-border text-brand-text-muted hover:border-brand-primary/40 hover:text-brand-text'
-                      }`}
-                    >
-                      <span>{opt.icon}</span>
-                      {opt.label}
-                    </button>
-                  ))}
-                </div>
-              </div>
+            <span>{opt.icon}</span>
+            {opt.label}
+          </button>
+        ))}
 
-              {/* Rating */}
-              <div>
-                <label className="flex items-center gap-1.5 text-xs font-medium text-brand-text-muted mb-2">
-                  <Star size={12} />
-                  Minimum Puan
-                </label>
-                <div className="flex flex-wrap gap-2">
-                  {RATING_FILTERS.map((opt) => (
-                    <button
-                      key={opt.value}
-                      onClick={() => setMinRating(opt.value)}
-                      className={`flex items-center gap-1 px-3 py-1.5 rounded-full text-xs font-medium border transition-all ${
-                        minRating === opt.value
-                          ? 'bg-brand-primary text-white border-brand-primary shadow-sm'
-                          : 'bg-brand-bg border-brand-border text-brand-text-muted hover:border-brand-primary/40 hover:text-brand-text'
-                      }`}
-                    >
-                      {opt.value > 0 && <Star size={10} className="fill-current" />}
-                      {opt.label}
-                    </button>
-                  ))}
-                </div>
-              </div>
+        {/* Separator */}
+        <div className="w-px h-5 bg-brand-border hidden sm:block" />
 
-              {/* Online Order Filter */}
-              <div>
-                <label className="flex items-center gap-1.5 text-xs font-medium text-brand-text-muted mb-2">
-                  <ShoppingCart size={12} />
-                  Online Sipariş
-                </label>
-                <button
-                  onClick={() => setOnlineOnly(!onlineOnly)}
-                  className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium border transition-all ${
-                    onlineOnly
-                      ? 'bg-brand-primary text-white border-brand-primary shadow-sm'
-                      : 'bg-brand-bg border-brand-border text-brand-text-muted hover:border-brand-primary/40 hover:text-brand-text'
-                  }`}
-                >
-                  <ShoppingCart size={10} />
-                  Online sipariş kabul edenler
-                </button>
-              </div>
+        {/* Rating chips */}
+        {RATING_FILTERS.filter(opt => opt.value > 0).map((opt) => (
+          <button
+            key={opt.value}
+            onClick={() => setMinRating(minRating === opt.value ? 0 : opt.value)}
+            className={`flex items-center gap-1 px-3 py-1.5 rounded-full text-xs font-medium border transition-all whitespace-nowrap ${
+              minRating === opt.value
+                ? 'bg-brand-primary text-white border-brand-primary shadow-sm'
+                : 'bg-brand-surface border-brand-border text-brand-text-muted hover:border-brand-primary/40 hover:text-brand-text'
+            }`}
+          >
+            <Star size={10} className="fill-current" />
+            {opt.label}
+          </button>
+        ))}
 
-              {/* Clear */}
-              {hasActiveFilters && (
-                <button
-                  onClick={clearFilters}
-                  className="text-xs text-brand-primary hover:underline"
-                >
-                  Filtreleri temizle
-                </button>
-              )}
-            </div>
-          </motion.div>
+        {/* Online sipariş chip */}
+        <button
+          onClick={() => setOnlineOnly(!onlineOnly)}
+          className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium border transition-all whitespace-nowrap ${
+            onlineOnly
+              ? 'bg-emerald-500 text-white border-emerald-500 shadow-sm'
+              : 'bg-brand-surface border-brand-border text-brand-text-muted hover:border-emerald-400 hover:text-brand-text'
+          }`}
+        >
+          <ShoppingCart size={10} />
+          Online Sipariş
+        </button>
+
+        {/* Clear */}
+        {hasActiveFilters && (
+          <button
+            onClick={clearFilters}
+            className="flex items-center gap-1 px-2.5 py-1.5 rounded-full text-xs text-brand-primary hover:bg-brand-primary/5 transition-colors"
+          >
+            <X size={12} />
+            Temizle
+          </button>
         )}
-      </AnimatePresence>
+      </div>
 
       {/* Results count */}
-      {(search || minRating > 0 || onlineOnly) && (
-        <p className="text-sm text-brand-text-muted">
-          {filtered.length} firma bulundu
-          {search && <span> &middot; &ldquo;{search}&rdquo;</span>}
-          {minRating > 0 && <span> &middot; {minRating}+ puan</span>}
-          {onlineOnly && <span> &middot; Online sipariş</span>}
-        </p>
-      )}
+      <p className="text-sm text-brand-text-muted">
+        {filtered.length} firma bulundu
+        {search && <span> &middot; &ldquo;{search}&rdquo;</span>}
+        {minRating > 0 && <span> &middot; {minRating}+ puan</span>}
+        {onlineOnly && <span> &middot; Online sipariş</span>}
+      </p>
 
       {/* Company Grid */}
       {filtered.length > 0 ? (
@@ -234,7 +178,11 @@ export function CompanyListClient({ companies }: CompanyListClientProps) {
           ))}
         </div>
       ) : (
-        <div className="text-center py-16">
+        <motion.div
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="text-center py-16"
+        >
           <Search size={40} className="mx-auto text-brand-text-muted/30 mb-3" />
           <p className="text-brand-text font-medium">Sonuç bulunamadı</p>
           <p className="text-sm text-brand-text-muted mt-1">
@@ -248,7 +196,7 @@ export function CompanyListClient({ companies }: CompanyListClientProps) {
               Filtreleri temizle
             </button>
           )}
-        </div>
+        </motion.div>
       )}
     </div>
   );
