@@ -240,13 +240,20 @@ export function CompanyDetailView({ company, city, category }: Props) {
 
           {/* Mobile CTA — firma bilgisinin hemen altında (desktop sidebar var) */}
           <div className="lg:hidden space-y-0">
-            <Link
-              href={`/${city || 'turkiye'}/${category || 'hali-yikama'}/${company.slug || company.companyId}/siparis`}
-            >
-              <Button size="lg" className="w-full text-base">
-                Sipariş Oluştur
-              </Button>
-            </Link>
+            {company.canAcceptOnlineOrders ? (
+              <Link
+                href={`/${city || 'turkiye'}/${category || 'hali-yikama'}/${company.slug || company.companyId}/siparis`}
+              >
+                <Button size="lg" className="w-full text-base">
+                  Sipariş Oluştur
+                </Button>
+              </Link>
+            ) : (
+              <div className="text-center py-3 px-4 bg-amber-50 border border-amber-200 rounded-brand">
+                <p className="text-sm text-amber-800 font-medium">Bu firma şu an online sipariş kabul edemiyor</p>
+                <p className="text-xs text-amber-600 mt-1">Telefonla iletişime geçebilirsiniz</p>
+              </div>
+            )}
             <PhoneRevealButton companyId={company.companyId} />
           </div>
 
@@ -652,19 +659,27 @@ export function CompanyDetailView({ company, city, category }: Props) {
                 </div>
               </div>
 
-              <Link
-                href={`/${city || 'turkiye'}/${category || 'hali-yikama'}/${company.slug || company.companyId}/siparis`}
-              >
-                <Button size="lg" className="w-full text-base">
-                  Sipariş Oluştur
-                </Button>
-              </Link>
+              {company.canAcceptOnlineOrders ? (
+                <>
+                  <Link
+                    href={`/${city || 'turkiye'}/${category || 'hali-yikama'}/${company.slug || company.companyId}/siparis`}
+                  >
+                    <Button size="lg" className="w-full text-base">
+                      Sipariş Oluştur
+                    </Button>
+                  </Link>
+                  <p className="text-xs text-brand-text-muted text-center mt-3">
+                    Ürün türleri ve ölçüler firma tarafından belirlenir
+                  </p>
+                </>
+              ) : (
+                <div className="text-center py-3 px-4 bg-amber-50 border border-amber-200 rounded-brand">
+                  <p className="text-sm text-amber-800 font-medium">Bu firma şu an online sipariş kabul edemiyor</p>
+                  <p className="text-xs text-amber-600 mt-1">Telefonla iletişime geçebilirsiniz</p>
+                </div>
+              )}
 
               <PhoneRevealButton companyId={company.companyId} />
-
-              <p className="text-xs text-brand-text-muted text-center mt-3">
-                Ürün türleri ve ölçüler firma tarafından belirlenir
-              </p>
             </motion.div>
 
             {/* Servis Bölgeleri */}
@@ -791,11 +806,17 @@ export function CompanyDetailView({ company, city, category }: Props) {
               </div>
             )}
           </div>
-          <Link href={`/${city || 'turkiye'}/${category || 'hali-yikama'}/${company.slug || company.companyId}/siparis`}>
-            <Button size="lg" className="whitespace-nowrap px-6">
-              Sipariş Oluştur
-            </Button>
-          </Link>
+          {company.canAcceptOnlineOrders ? (
+            <Link href={`/${city || 'turkiye'}/${category || 'hali-yikama'}/${company.slug || company.companyId}/siparis`}>
+              <Button size="lg" className="whitespace-nowrap px-6">
+                Sipariş Oluştur
+              </Button>
+            </Link>
+          ) : (
+            <span className="text-xs text-amber-700 font-medium whitespace-nowrap">
+              Online sipariş kapalı
+            </span>
+          )}
         </div>
       </div>
       {/* Bottom spacer for mobile (BottomNav 56px + CTA bar ~68px) */}

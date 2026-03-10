@@ -66,6 +66,7 @@ export interface CompanyListDto {
   completedOrderCount: number;
   responseTimeMinutes: number;
   acceptingOrders: boolean;
+  canAcceptOnlineOrders: boolean;
   categoryKeys: string[];
   photoUrls: string[] | null;
   distanceKm: number | null;
@@ -83,6 +84,7 @@ export interface CompanyDetailDto {
   completedOrderCount: number;
   responseTimeMinutes: number;
   acceptingOrders: boolean;
+  canAcceptOnlineOrders: boolean;
   photoUrls: string[] | null;
   workingHours: Record<string, string> | null;
   serviceAreaDescription: string | null;

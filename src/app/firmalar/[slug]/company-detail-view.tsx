@@ -320,13 +320,20 @@ export function CompanyDetailView({ company }: Props) {
                 </div>
               </div>
 
-              <Link
-                href={`/firmalar/${company.slug || company.companyId}/siparis`}
-              >
-                <Button size="lg" className="w-full">
-                  Sipariş Oluştur
-                </Button>
-              </Link>
+              {company.canAcceptOnlineOrders ? (
+                <Link
+                  href={`/firmalar/${company.slug || company.companyId}/siparis`}
+                >
+                  <Button size="lg" className="w-full">
+                    Sipariş Oluştur
+                  </Button>
+                </Link>
+              ) : (
+                <div className="text-center py-3 px-4 bg-amber-50 border border-amber-200 rounded-brand">
+                  <p className="text-sm text-amber-800 font-medium">Bu firma şu an online sipariş kabul edemiyor</p>
+                  <p className="text-xs text-amber-600 mt-1">Telefonla iletişime geçebilirsiniz</p>
+                </div>
+              )}
 
               <PhoneRevealButton companyId={company.companyId} />
             </motion.div>
