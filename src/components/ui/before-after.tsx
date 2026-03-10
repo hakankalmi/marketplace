@@ -46,7 +46,7 @@ export function BeforeAfterSlider({ beforeUrl, afterUrl, className = '' }: Befor
 
       <div
         ref={containerRef}
-        className="relative w-full aspect-[4/3] rounded-xl overflow-hidden cursor-col-resize"
+        className="relative w-full aspect-[3/2] rounded-xl overflow-hidden cursor-col-resize"
         onMouseDown={handleMouseDown}
         onMouseUp={handleMouseUp}
         onMouseLeave={handleMouseUp}
@@ -130,7 +130,7 @@ export function BeforeAfterGrid({
     <div className="space-y-2">
       {/* All matched pairs as sliders in a compact grid */}
       {pairCount > 0 && (
-        <div className={`grid gap-2 ${pairCount === 1 ? 'grid-cols-1 max-w-[280px]' : 'grid-cols-2'}`}>
+        <div className={`grid gap-2 ${pairCount === 1 ? 'grid-cols-1 max-w-[240px]' : 'grid-cols-2 max-w-[480px]'}`}>
           {Array.from({ length: pairCount }).map((_, i) => (
             <BeforeAfterSlider
               key={`pair-${i}`}

@@ -119,17 +119,18 @@ export function CompanyDetailView({ company }: Props) {
               <h2 className="text-lg font-heading font-semibold text-brand-text mb-3">
                 Fotoğraflar
               </h2>
-              <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+              <div className="grid grid-cols-3 sm:grid-cols-4 gap-2">
                 {photos.map((url, i) => (
                   <button
                     key={i}
                     onClick={() => setLightboxIndex(i)}
-                    className="relative aspect-[4/3] rounded-brand overflow-hidden group cursor-pointer"
+                    className="relative aspect-square rounded-lg overflow-hidden group cursor-pointer"
                   >
                     <Image
                       src={url}
                       alt={`${company.companyName} foto ${i + 1}`}
                       fill
+                      sizes="(max-width: 640px) 33vw, 25vw"
                       className="object-cover group-hover:scale-105 transition-transform duration-300"
                     />
                   </button>
