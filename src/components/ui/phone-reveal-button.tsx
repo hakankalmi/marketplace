@@ -11,11 +11,44 @@ interface PhoneRevealButtonProps {
 }
 
 function parsePhones(raw: string): string[] {
-  // Split by common separators: comma, slash, dash between numbers, whitespace groups
-  return raw
-    .split(/[,/;|]+/)
-    .map(p => p.trim())
-    .filter(p => p.length >= 7);
+  // Extract all phone numbers by finding digit sequences that form valid Turkish numbers
+  // Turkish numbers: 0XXX XXX XX XX (11 digits) or 0XXX XXXXXXX etc.
+  // Strip all non-digit chars first, then find 10-11 digit sequences starting with 0 or 90
+  const digits = raw.replace(/[^\d\s\-()]/g, '');
+
+  // Strategy: split by separators that indicate number boundaries
+  // A dash/comma/slash between two digit groups = separator
+  const parts = raw.split(/\s*[-–—,/;|]\s*(?=\s*0\d)/).map(p => p.trim()).filter(Boolean);
+
+  if (parts.length > 1) {
+    // Multiple numbers found via separator splitting
+    return parts
+      .map(p => p.replace(/\D/g, ''))
+      .filter(d => d.length >= 10 && d.length <= 12);
+  }
+
+  // Fallback: extract all 10-12 digit sequences starting with 0 or 90
+  const allDigits = raw.replace(/\D/g, '');
+
+  // Try to find multiple numbers concatenated
+  const numbers: string[] = [];
+  let remaining = allDigits;
+
+  while (remaining.length >= 10) {
+    if (remaining.startsWith('90') && remaining.length >= 12) {
+      numbers.push(remaining.slice(0, 12));
+      remaining = remaining.slice(12);
+    } else if (remaining.startsWith('0') && remaining.length >= 11) {
+      numbers.push(remaining.slice(0, 11));
+      remaining = remaining.slice(11);
+    } else {
+      // Try 10-digit (without leading 0)
+      numbers.push('0' + remaining.slice(0, 10));
+      remaining = remaining.slice(10);
+    }
+  }
+
+  return numbers.length > 0 ? numbers : [allDigits].filter(d => d.length >= 7);
 }
 
 function formatPhone(phone: string): string {
