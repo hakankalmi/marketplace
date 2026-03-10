@@ -2,7 +2,7 @@
 
 import { useState, useCallback } from 'react';
 import { useQuery } from '@tanstack/react-query';
-import { Search, SlidersHorizontal, X } from 'lucide-react';
+import { Search, SlidersHorizontal, X, ShoppingCart } from 'lucide-react';
 import { getCompanies } from '@/lib/api/companies';
 import { getCategories, getCities } from '@/lib/api/customer';
 import { CompanyCard } from '@/components/company/CompanyCard';
@@ -73,7 +73,7 @@ export function CompanyListView() {
     setQuery({ page: 1, pageSize: 12, sortBy: 'rating' });
   };
 
-  const hasActiveFilters = query.city || query.categoryId || query.q;
+  const hasActiveFilters = query.city || query.categoryId || query.q || query.onlineOnly;
   const totalPages = companiesData
     ? Math.ceil(companiesData.totalCount / (query.pageSize || 12))
     : 0;
@@ -181,6 +181,21 @@ export function CompanyListView() {
                 <option value="responseTime">En Hızlı Yanıt</option>
               </select>
             </div>
+          </div>
+
+          {/* Online Sipariş Filtresi */}
+          <div className="pt-2">
+            <button
+              onClick={() => setQuery(prev => ({ ...prev, onlineOnly: prev.onlineOnly ? undefined : true, page: 1 }))}
+              className={`flex items-center gap-2 px-4 py-2 rounded-brand text-sm font-medium border transition-all ${
+                query.onlineOnly
+                  ? 'bg-brand-primary text-white border-brand-primary shadow-sm'
+                  : 'bg-brand-bg border-brand-border text-brand-text-muted hover:border-brand-primary/40 hover:text-brand-text'
+              }`}
+            >
+              <ShoppingCart size={14} />
+              Online sipariş kabul edenler
+            </button>
           </div>
         </div>
       )}

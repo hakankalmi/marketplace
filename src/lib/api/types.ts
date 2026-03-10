@@ -136,6 +136,7 @@ export interface CompanySearchQuery {
   lat?: number;
   lng?: number;
   q?: string;
+  onlineOnly?: boolean;
   page?: number;
   pageSize?: number;
 }

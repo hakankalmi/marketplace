@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Search, SlidersHorizontal, Star, ArrowUpDown, X } from 'lucide-react';
+import { Search, SlidersHorizontal, Star, ArrowUpDown, X, ShoppingCart } from 'lucide-react';
 import { CompanyCard } from './CompanyCard';
 import type { CompanyListDto } from '@/lib/api/types';
 
@@ -28,9 +28,10 @@ export function CompanyListClient({ companies }: CompanyListClientProps) {
   const [search, setSearch] = useState('');
   const [sortBy, setSortBy] = useState<SortKey>('rating');
   const [minRating, setMinRating] = useState(0);
+  const [onlineOnly, setOnlineOnly] = useState(false);
   const [showFilters, setShowFilters] = useState(false);
 
-  const hasActiveFilters = search.length > 0 || minRating > 0 || sortBy !== 'rating';
+  const hasActiveFilters = search.length > 0 || minRating > 0 || sortBy !== 'rating' || onlineOnly;
 
   const filtered = useMemo(() => {
     let result = [...companies];
@@ -48,6 +49,11 @@ export function CompanyListClient({ companies }: CompanyListClientProps) {
     // Rating filter
     if (minRating > 0) {
       result = result.filter((c) => c.averageRating >= minRating);
+    }
+
+    // Online order filter
+    if (onlineOnly) {
+      result = result.filter((c) => c.canAcceptOnlineOrders);
     }
 
     // Sort
@@ -68,12 +74,13 @@ export function CompanyListClient({ companies }: CompanyListClientProps) {
     });
 
     return result;
-  }, [companies, search, sortBy, minRating]);
+  }, [companies, search, sortBy, minRating, onlineOnly]);
 
   const clearFilters = () => {
     setSearch('');
     setSortBy('rating');
     setMinRating(0);
+    setOnlineOnly(false);
   };
 
   return (
@@ -176,6 +183,25 @@ export function CompanyListClient({ companies }: CompanyListClientProps) {
                 </div>
               </div>
 
+              {/* Online Order Filter */}
+              <div>
+                <label className="flex items-center gap-1.5 text-xs font-medium text-brand-text-muted mb-2">
+                  <ShoppingCart size={12} />
+                  Online Sipariş
+                </label>
+                <button
+                  onClick={() => setOnlineOnly(!onlineOnly)}
+                  className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium border transition-all ${
+                    onlineOnly
+                      ? 'bg-brand-primary text-white border-brand-primary shadow-sm'
+                      : 'bg-brand-bg border-brand-border text-brand-text-muted hover:border-brand-primary/40 hover:text-brand-text'
+                  }`}
+                >
+                  <ShoppingCart size={10} />
+                  Online sipariş kabul edenler
+                </button>
+              </div>
+
               {/* Clear */}
               {hasActiveFilters && (
                 <button
@@ -191,11 +217,12 @@ export function CompanyListClient({ companies }: CompanyListClientProps) {
       </AnimatePresence>
 
       {/* Results count */}
-      {(search || minRating > 0) && (
+      {(search || minRating > 0 || onlineOnly) && (
         <p className="text-sm text-brand-text-muted">
           {filtered.length} firma bulundu
           {search && <span> &middot; &ldquo;{search}&rdquo;</span>}
           {minRating > 0 && <span> &middot; {minRating}+ puan</span>}
+          {onlineOnly && <span> &middot; Online sipariş</span>}
         </p>
       )}
 
