@@ -254,7 +254,7 @@ export function CompanyDetailView({ company, city, category }: Props) {
                 <p className="text-xs text-amber-600 mt-1">Telefonla iletişime geçebilirsiniz</p>
               </div>
             )}
-            <PhoneRevealButton companyId={company.companyId} />
+            <PhoneRevealButton companyId={company.companyId} citySlug={city} categorySlug={category} />
           </div>
 
           {/* Trust Badges — premium animated stats */}
@@ -716,7 +716,7 @@ export function CompanyDetailView({ company, city, category }: Props) {
                 </div>
               )}
 
-              <PhoneRevealButton companyId={company.companyId} />
+              <PhoneRevealButton companyId={company.companyId} citySlug={city} categorySlug={category} />
             </motion.div>
 
             {/* Servis Bölgeleri */}

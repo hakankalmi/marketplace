@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useMemo } from 'react';
+import { useSearchParams } from 'next/navigation';
 import { motion } from 'framer-motion';
 import { Search, Star, X, ShoppingCart, SlidersHorizontal } from 'lucide-react';
 import { CompanyCard } from './CompanyCard';
@@ -19,10 +20,11 @@ interface CompanyListClientProps {
 }
 
 export function CompanyListClient({ companies }: CompanyListClientProps) {
+  const searchParams = useSearchParams();
   const [search, setSearch] = useState('');
   const [sortBy, setSortBy] = useState<SortKey>('rating');
   const [minRating, setMinRating] = useState(0);
-  const [onlineOnly, setOnlineOnly] = useState(false);
+  const [onlineOnly, setOnlineOnly] = useState(searchParams.get('online') === 'true');
 
   const hasActiveFilters = search.length > 0 || minRating > 0 || sortBy !== 'rating' || onlineOnly;
 

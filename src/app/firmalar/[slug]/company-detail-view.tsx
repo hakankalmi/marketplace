@@ -335,7 +335,11 @@ export function CompanyDetailView({ company }: Props) {
                 </div>
               )}
 
-              <PhoneRevealButton companyId={company.companyId} />
+              <PhoneRevealButton
+                companyId={company.companyId}
+                citySlug={company.city ? slugify(company.city) : undefined}
+                categorySlug={(company.categories?.[0]?.key || 'hali_yikama').replace(/_/g, '-')}
+              />
             </motion.div>
 
             {/* Servis Bölgeleri */}
