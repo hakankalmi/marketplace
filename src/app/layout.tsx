@@ -4,6 +4,7 @@ import { generateCSSVariables, generateDarkCSSVariables } from '@/lib/brand/css-
 import { getBrandFontClassNames } from '@/lib/brand/next-fonts';
 import { Providers } from './providers';
 import { ServiceWorkerRegister } from '@/components/shared/sw-register';
+import { PwaInstallBanner } from '@/components/shared/pwa-install-banner';
 import { BottomNav } from '@/components/nav/BottomNav';
 import { GtmLoader } from '@/components/shared/GtmLoader';
 import { OrganizationJsonLd } from '@/components/seo/JsonLd';
@@ -54,6 +55,7 @@ export default function RootLayout({
           <GtmLoader />
           {children}
           <BottomNav />
+          <PwaInstallBanner />
           <ServiceWorkerRegister />
         </Providers>
       </body>
