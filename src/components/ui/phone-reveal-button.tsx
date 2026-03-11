@@ -1,12 +1,13 @@
 'use client';
 
 import { useState } from 'react';
-import { Phone, Loader2, X, ShieldAlert } from 'lucide-react';
+import { Phone, Loader2, X, ShieldAlert, ShieldX } from 'lucide-react';
 import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { useBrand } from '@/lib/brand/context';
 import { revealPhone } from '@/lib/api/companies';
+import { ApiError } from '@/lib/api/client';
 
 interface PhoneRevealButtonProps {
   companyId: string;
@@ -72,6 +73,7 @@ function cleanForTel(phone: string): string {
 export function PhoneRevealButton({ companyId, citySlug, categorySlug, className = '' }: PhoneRevealButtonProps) {
   const [loading, setLoading] = useState(false);
   const [phones, setPhones] = useState<string[] | null>(null);
+  const [rateLimited, setRateLimited] = useState(false);
   const brand = useBrand();
 
   const handleClick = async () => {
@@ -80,7 +82,7 @@ export function PhoneRevealButton({ companyId, citySlug, categorySlug, className
       return;
     }
 
-    if (loading) return;
+    if (loading || rateLimited) return;
     setLoading(true);
     try {
       const { phone, gsm } = await revealPhone(companyId);
@@ -91,8 +93,10 @@ export function PhoneRevealButton({ companyId, citySlug, categorySlug, className
       if (unique.length > 0) {
         setPhones(unique);
       }
-    } catch {
-      // Silently fail — phone not available
+    } catch (err) {
+      if (err instanceof ApiError && err.status === 429) {
+        setRateLimited(true);
+      }
     } finally {
       setLoading(false);
     }
@@ -125,6 +129,30 @@ export function PhoneRevealButton({ companyId, citySlug, categorySlug, className
         )}
         {phones ? 'Kapat' : 'Ara & Sipariş Ver'}
       </Button>
+
+      {/* Rate limit warning */}
+      <AnimatePresence>
+        {rateLimited && (
+          <motion.div
+            initial={{ opacity: 0, height: 0 }}
+            animate={{ opacity: 1, height: 'auto' }}
+            exit={{ opacity: 0, height: 0 }}
+            transition={{ duration: 0.3 }}
+            className="overflow-hidden"
+          >
+            <div className="mt-2.5 p-3.5 bg-red-50 border border-red-200/60 rounded-xl">
+              <div className="flex gap-2.5">
+                <div className="w-6 h-6 rounded-full bg-red-400/15 flex items-center justify-center shrink-0 mt-0.5">
+                  <ShieldX size={12} className="text-red-600" />
+                </div>
+                <p className="text-[11px] leading-[1.6] text-red-800/80">
+                  Çok fazla telefon numarası görüntülediniz. Lütfen birkaç dakika sonra tekrar deneyin.
+                </p>
+              </div>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
 
       {/* Phone numbers + disclaimer — animated reveal */}
       <AnimatePresence>
