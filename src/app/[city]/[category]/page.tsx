@@ -146,7 +146,13 @@ async function getCities(): Promise<CityDto[]> {
 }
 
 function findCityBySlug(cities: CityDto[], slug: string): CityDto | undefined {
-  return cities.find((c) => slugify(c.city) === slug);
+  // 1. API'den gelen şehirlerle eşleştir
+  const fromApi = cities.find((c) => slugify(c.city) === slug);
+  if (fromApi) return fromApi;
+  // 2. Fallback: 81 il listesinden eşleştir (API'de henüz firma yoksa bile sayfa göster)
+  const fromConstants = CITIES.find((c) => slugify(c) === slug);
+  if (fromConstants) return { city: fromConstants, companyCount: 0 };
+  return undefined;
 }
 
 async function getCompaniesByCity(city: string | null): Promise<PaginatedResponse<CompanyListDto>> {
