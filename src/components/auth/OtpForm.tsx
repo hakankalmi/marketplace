@@ -8,7 +8,7 @@ import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { requestOtp, verifyOtp, saveAuth } from '@/lib/api/auth';
 import { updateProfile } from '@/lib/api/customer';
-import { subscribeToPush } from '@/lib/push-notifications';
+import { syncPushToken } from '@/lib/push-notifications';
 import { ApiError } from '@/lib/api/client';
 import { BRAND_CODE } from '@/lib/constants';
 import { NewsletterOptIn } from './NewsletterOptIn';
@@ -80,8 +80,8 @@ export function OtpForm() {
       });
       saveAuth(auth);
 
-      // Subscribe to push notifications (non-blocking)
-      subscribeToPush().catch(() => {});
+      // Send saved push token to backend (non-blocking)
+      syncPushToken().catch(() => {});
 
       // If user has no name, ask for it (new user flow: name → newsletter)
       if (!auth.name) {
