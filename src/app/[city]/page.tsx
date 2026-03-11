@@ -4,10 +4,8 @@ import { API_URL, BRAND_CODE, CITIES } from '@/lib/constants';
 import { getBrandConfig } from '@/brands';
 import { Nav } from '@/components/nav/Nav';
 import { Footer } from '@/components/footer/Footer';
-import { CompanyCard } from '@/components/company/CompanyCard';
-import { Button } from '@/components/ui/button';
-import Link from 'next/link';
-import { ArrowRight, MapPin, Building2, Send } from 'lucide-react';
+import { CompanyListClient } from '@/components/company/CompanyListClient';
+import { MapPin, Building2, Send } from 'lucide-react';
 import { slugify, getCategoryDisplayName } from '@/lib/utils';
 import type { CompanyListDto, PaginatedResponse, CityDto } from '@/lib/api/types';
 
@@ -181,13 +179,13 @@ export default async function CityPage({
         <Nav />
         <main className="min-h-screen bg-brand-bg">
           <section
-            className="relative py-14 lg:py-20 overflow-hidden"
+            className="relative py-6 sm:py-10 lg:py-16 overflow-hidden"
             style={{
               background: `linear-gradient(135deg, ${brand.colors.primary}15 0%, ${brand.colors.primaryLight} 100%)`,
             }}
           >
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-              <nav className="flex items-center gap-2 text-sm text-brand-text-muted mb-6 flex-wrap">
+              <nav className="flex items-center gap-2 text-xs sm:text-sm text-brand-text-muted mb-3 sm:mb-6 flex-wrap">
                 <a href="/" className="hover:text-brand-primary transition-colors">Anasayfa</a>
                 <span>/</span>
                 <a href={`/turkiye/${firmalari.categorySlug}`} className="hover:text-brand-primary transition-colors">
@@ -208,14 +206,15 @@ export default async function CityPage({
               </nav>
 
               <div className="flex items-center gap-3">
-                <div className="w-12 h-12 rounded-xl bg-brand-primary/10 flex items-center justify-center">
-                  <MapPin size={24} className="text-brand-primary" />
+                <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-brand-primary/10 flex items-center justify-center">
+                  <MapPin size={20} className="text-brand-primary sm:hidden" />
+                  <MapPin size={24} className="text-brand-primary hidden sm:block" />
                 </div>
                 <div>
-                  <h1 className="text-2xl sm:text-3xl lg:text-4xl font-heading font-bold text-brand-text">
+                  <h1 className="text-xl sm:text-2xl lg:text-4xl font-heading font-bold text-brand-text">
                     {heading}
                   </h1>
-                  <p className="text-brand-text-muted mt-1">
+                  <p className="text-brand-text-muted text-sm mt-0.5">
                     {companies.length} firma bulundu
                   </p>
                 </div>
@@ -223,14 +222,10 @@ export default async function CityPage({
             </div>
           </section>
 
-          <section className="py-10">
+          <section className="py-6 sm:py-10">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               {companies.length > 0 ? (
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                  {companies.map((company, i) => (
-                    <CompanyCard key={company.companyId} company={company} index={i} />
-                  ))}
-                </div>
+                <CompanyListClient companies={companies} />
               ) : (
                 <div className="text-center py-20 max-w-lg mx-auto">
                   <Building2 size={48} className="mx-auto text-brand-primary/30 mb-4" />
@@ -301,45 +296,35 @@ export default async function CityPage({
       <Nav />
       <main className="min-h-screen bg-brand-bg">
         <section
-          className="relative py-16 lg:py-24 overflow-hidden"
+          className="relative py-6 sm:py-10 lg:py-16 overflow-hidden"
           style={{
             background: `linear-gradient(135deg, ${brand.colors.primary}15 0%, ${brand.colors.primaryLight} 100%)`,
           }}
         >
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <div className="inline-flex items-center gap-2 px-3 py-1 bg-brand-primary/10 text-brand-primary text-sm font-medium rounded-full mb-4">
-              <MapPin size={14} />
-              {cityData.city}
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-brand-primary/10 flex items-center justify-center">
+                <MapPin size={20} className="text-brand-primary sm:hidden" />
+                <MapPin size={24} className="text-brand-primary hidden sm:block" />
+              </div>
+              <div>
+                <h1 className="text-xl sm:text-2xl lg:text-4xl font-heading font-bold text-brand-text">
+                  {cityData.city} Hizmet Firmaları
+                </h1>
+                <p className="text-brand-text-muted text-sm mt-0.5">
+                  {companies.length > 0
+                    ? `${companies.length} firma ile hizmetinizdeyiz`
+                    : 'Yakında firmalar eklenecek'}
+                </p>
+              </div>
             </div>
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold text-brand-text">
-              {cityData.city} Hizmet Firmaları
-            </h1>
-            <p className="mt-4 text-lg text-brand-text-muted max-w-2xl mx-auto">
-              {companies.length > 0
-                ? `${cityData.city} şehrinde ${companies.length} firma ile hizmetinizdeyiz. En iyi firmaları karşılaştırın, tek tıkla sipariş verin.`
-                : `${cityData.city} şehrinde yakında firmalar eklenecek.`}
-            </p>
           </div>
         </section>
 
-        <section className="py-12">
+        <section className="py-6 sm:py-10">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             {companies.length > 0 ? (
-              <>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                  {companies.map((company, i) => (
-                    <CompanyCard key={company.companyId} company={company} index={i} />
-                  ))}
-                </div>
-                <div className="text-center mt-10">
-                  <Link href={`/${slug}/hali-yikama`}>
-                    <Button variant="outline">
-                      Tüm {cityData.city} Firmalarını Gör
-                      <ArrowRight size={16} />
-                    </Button>
-                  </Link>
-                </div>
-              </>
+              <CompanyListClient companies={companies} />
             ) : (
               <div className="text-center py-16 max-w-lg mx-auto">
                 <Building2 size={48} className="mx-auto text-brand-primary/30 mb-4" />

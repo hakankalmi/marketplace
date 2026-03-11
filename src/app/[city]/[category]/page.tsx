@@ -395,13 +395,13 @@ export default async function CityCategoryPage({
       <Nav />
       <main className="min-h-screen bg-brand-bg">
         <section
-          className="relative py-14 lg:py-20 overflow-hidden"
+          className="relative py-6 sm:py-10 lg:py-16 overflow-hidden"
           style={{
             background: `linear-gradient(135deg, ${brand.colors.primary}15 0%, ${brand.colors.primaryLight} 100%)`,
           }}
         >
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <nav className="flex items-center gap-2 text-sm text-brand-text-muted mb-6">
+            <nav className="flex items-center gap-2 text-xs sm:text-sm text-brand-text-muted mb-3 sm:mb-6">
               <a href="/" className="hover:text-brand-primary transition-colors">Anasayfa</a>
               <span>/</span>
               <a href={`/turkiye/${category}`} className="hover:text-brand-primary transition-colors">
@@ -412,14 +412,15 @@ export default async function CityCategoryPage({
             </nav>
 
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 rounded-xl bg-brand-primary/10 flex items-center justify-center">
-                <MapPin size={24} className="text-brand-primary" />
+              <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-brand-primary/10 flex items-center justify-center">
+                <MapPin size={20} className="text-brand-primary sm:hidden" />
+                <MapPin size={24} className="text-brand-primary hidden sm:block" />
               </div>
               <div>
-                <h1 className="text-2xl sm:text-3xl lg:text-4xl font-heading font-bold text-brand-text">
+                <h1 className="text-xl sm:text-2xl lg:text-4xl font-heading font-bold text-brand-text">
                   {heading} Firmaları
                 </h1>
-                <p className="text-brand-text-muted mt-1">
+                <p className="text-brand-text-muted text-sm mt-0.5">
                   {data.totalCount} firma bulundu
                 </p>
               </div>
@@ -427,7 +428,7 @@ export default async function CityCategoryPage({
           </div>
         </section>
 
-        <section className="py-10">
+        <section className="py-6 sm:py-10">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             {data.items.length > 0 ? (
               <CompanyListClient companies={data.items} />
