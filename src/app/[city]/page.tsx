@@ -105,13 +105,88 @@ async function getCompaniesByCity(
   }
 }
 
-/** Slug → Turkish district name (reverse slugify via ServiceRegions is done later) */
+/** Slug → Turkish district/city name with proper Turkish characters */
 function deslugify(slug: string): string {
+  // Try to find from 81-city list first
+  const cityMatch = CITIES.find((c) => slugify(c) === slug);
+  if (cityMatch) return cityMatch;
+  // Try known district names (common Turkish chars lost in slugification)
+  const knownDistrict = KNOWN_DISTRICTS[slug];
+  if (knownDistrict) return knownDistrict;
+  // Fallback: basic capitalization
   return slug
     .split('-')
     .map((w) => w.charAt(0).toLocaleUpperCase('tr-TR') + w.slice(1))
     .join(' ');
 }
+
+// Districts where slugify loses Turkish characters — add as discovered
+const KNOWN_DISTRICTS: Record<string, string> = {
+  'eleskirt': 'Eleşkirt', 'diyadin': 'Diyadin', 'dogubayazit': 'Doğubayazıt',
+  'taskopru': 'Taşköprü', 'tosya': 'Tosya', 'taskent': 'Taşkent',
+  'golbasi': 'Gölbaşı', 'cankiri': 'Çankırı', 'corum': 'Çorum',
+  'duzce': 'Düzce', 'gumushane': 'Gümüşhane', 'igdir': 'Iğdır',
+  'iskenderun': 'İskenderun', 'osmaniye': 'Osmaniye', 'sirnak': 'Şırnak',
+  'usak': 'Uşak', 'nigde': 'Niğde', 'kirikkale': 'Kırıkkale',
+  'kirsehir': 'Kırşehir', 'kutahya': 'Kütahya', 'nevsehir': 'Nevşehir',
+  'tekirdag': 'Tekirdağ', 'mugla': 'Muğla', 'burdur': 'Burdur',
+  'karabuk': 'Karabük', 'duzici': 'Düziçi', 'elbistan': 'Elbistan',
+  'goksun': 'Göksun', 'ercis': 'Erciş', 'ozalp': 'Özalp',
+  'suruc': 'Suruç', 'cizre': 'Cizre', 'nusaybin': 'Nusaybin',
+  'silopi': 'Silopi', 'yuksekova': 'Yüksekova', 'semdinli': 'Şemdinli',
+  'ergani': 'Ergani', 'bismil': 'Bismil', 'silvan': 'Silvan',
+  'korfez': 'Körfez', 'gebze': 'Gebze', 'darica': 'Darıca',
+  'cayirova': 'Çayırova', 'dilovasi': 'Dilovası', 'kartepe': 'Kartepe',
+  'derince': 'Derince', 'golcuk': 'Gölcük', 'basiskele': 'Başiskele',
+  'hendek': 'Hendek', 'bolu': 'Bolu',
+  'serdivan': 'Serdivan', 'sapanca': 'Sapanca', 'pamukova': 'Pamukova',
+  'akyazi': 'Akyazı', 'ferizli': 'Ferizli', 'sogutlu': 'Söğütlü',
+  'kaynarca': 'Kaynarca', 'kocaali': 'Kocaali', 'geyve': 'Geyve',
+  'tarakli': 'Taraklı', 'guzelce': 'Güzelce', 'buyukcekmece': 'Büyükçekmece',
+  'kucukcekmece': 'Küçükçekmece', 'bahcelievler': 'Bahçelievler',
+  'bakirkoy': 'Bakırköy', 'besiktas': 'Beşiktaş', 'beyoglu': 'Beyoğlu',
+  'kadikoy': 'Kadıköy', 'uskudar': 'Üsküdar', 'sisli': 'Şişli',
+  'umraniye': 'Ümraniye', 'sancaktepe': 'Sancaktepe', 'sultanbeyli': 'Sultanbeyli',
+  'tuzla': 'Tuzla', 'pendik': 'Pendik', 'kartal': 'Kartal',
+  'maltepe': 'Maltepe', 'atasehir': 'Ataşehir', 'cekmekoy': 'Çekmeköy',
+  'esenyurt': 'Esenyurt', 'avcilar': 'Avcılar', 'beylikduzu': 'Beylikdüzü',
+  'basaksehir': 'Başakşehir', 'arnavutkoy': 'Arnavutköy', 'catalca': 'Çatalca',
+  'silivri': 'Silivri', 'sile': 'Şile', 'beykoz': 'Beykoz',
+  'sarigazi': 'Sarıgazi', 'sultanahmet': 'Sultanahmet', 'fatih': 'Fatih',
+  'eyupsultan': 'Eyüpsultan', 'kagithane': 'Kağıthane', 'sariyer': 'Sarıyer',
+  'buyukada': 'Büyükada', 'buca': 'Buca', 'bornova': 'Bornova',
+  'karsiyaka': 'Karşıyaka', 'konak': 'Konak', 'cigli': 'Çiğli',
+  'bayrakli': 'Bayraklı', 'gaziemir': 'Gaziemir', 'alsancak': 'Alsancak',
+  'cesme': 'Çeşme', 'dikili': 'Dikili', 'foca': 'Foça',
+  'menemen': 'Menemen', 'odemis': 'Ödemiş', 'seferihisar': 'Seferihisar',
+  'selcuk': 'Selçuk', 'tire': 'Tire', 'torbali': 'Torbalı', 'urla': 'Urla',
+  'osmangazi': 'Osmangazi', 'nilufer': 'Nilüfer', 'yildirim': 'Yıldırım',
+  'gursu': 'Gürsu', 'kestel': 'Kestel', 'inegol': 'İnegöl',
+  'gemlik': 'Gemlik', 'mudanya': 'Mudanya', 'mustafakemalpasa': 'Mustafakemalpaşa',
+  'orhangazi': 'Orhangazi', 'iznik': 'İznik', 'yenisehir': 'Yenişehir',
+  'ceyhan': 'Ceyhan', 'kozan': 'Kozan', 'imamoglu': 'İmamoğlu',
+  'tufanbeyli': 'Tufanbeyli', 'pozanti': 'Pozantı', 'saimbeyli': 'Saimbeyli',
+  'kepez': 'Kepez', 'muratpasa': 'Muratpaşa', 'konyaalti': 'Konyaaltı',
+  'aksu': 'Aksu', 'dosemealti': 'Döşemealtı', 'alanya': 'Alanya',
+  'manavgat': 'Manavgat', 'serik': 'Serik', 'kumluca': 'Kumluca',
+  'kas': 'Kaş', 'demre': 'Demre', 'finike': 'Finike',
+  'yenimahalle': 'Yenimahalle', 'cankaya': 'Çankaya', 'kecioren': 'Keçiören',
+  'mamak': 'Mamak', 'etimesgut': 'Etimesgut', 'sincan': 'Sincan',
+  'pursaklar': 'Pursaklar', 'altindag': 'Altındağ', 'polatli': 'Polatlı',
+  'cubuk': 'Çubuk', 'kahramankazan': 'Kahramankazan', 'beypazari': 'Beypazarı',
+  'efeler': 'Efeler', 'nazilli': 'Nazilli', 'soke': 'Söke',
+  'kusadasi': 'Kuşadası', 'didim': 'Didim', 'incirliova': 'İncirliova',
+  'bodrum': 'Bodrum', 'marmaris': 'Marmaris', 'fethiye': 'Fethiye',
+  'milas': 'Milas', 'dalaman': 'Dalaman', 'ortaca': 'Ortaca',
+  'datca': 'Datça', 'koycegiz': 'Köyceğiz', 'mentese': 'Menteşe',
+  'seydikemer': 'Seydikemer', 'ula': 'Ula', 'yatagan': 'Yatağan',
+  'merzifon': 'Merzifon', 'suluova': 'Suluova', 'tasova': 'Taşova',
+  'tokat': 'Tokat', 'erbaa': 'Erbaa', 'turhal': 'Turhal', 'niksar': 'Niksar',
+  'gurun': 'Gürün', 'kangal': 'Kangal', 'zara': 'Zara',
+  'susehi̇r': 'Suşehri', 'susehri': 'Suşehri', 'gemerek': 'Gemerek',
+  'sarkisla': 'Şarkışla', 'divrigi': 'Divriği', 'yildizeli': 'Yıldızeli',
+  'hafik': 'Hafik', 'imranli': 'İmranlı', 'koyulhisar': 'Koyulhisar',
+};
 
 export async function generateMetadata({
   params,
