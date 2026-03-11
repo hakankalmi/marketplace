@@ -29,7 +29,7 @@ export async function getCompanyDetail(
 
 export async function revealPhone(
   companyId: string
-): Promise<{ phone: string }> {
+): Promise<{ phone: string | null; gsm: string | null }> {
   return api.post(`/api/mp/companies/${companyId}/phone-reveal`);
 }
 

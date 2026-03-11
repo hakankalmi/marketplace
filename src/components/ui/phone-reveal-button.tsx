@@ -89,16 +89,19 @@ export function PhoneRevealButton({ companyId, className = '' }: PhoneRevealButt
     if (loading) return;
     setLoading(true);
     try {
-      const { phone } = await revealPhone(companyId);
-      if (phone) {
-        const parsed = parsePhones(phone);
-        if (parsed.length === 1) {
-          // Single number — call directly
-          window.location.href = `tel:${cleanForTel(parsed[0])}`;
-        } else if (parsed.length > 1) {
-          // Multiple numbers — show selection
-          setPhones(parsed);
-        }
+      const { phone, gsm } = await revealPhone(companyId);
+      // Collect all unique phone numbers from both fields
+      const allNumbers: string[] = [];
+      if (phone) allNumbers.push(...parsePhones(phone));
+      if (gsm) allNumbers.push(...parsePhones(gsm));
+      // Deduplicate by digits
+      const unique = [...new Map(allNumbers.map(n => [n.replace(/\D/g, ''), n])).values()];
+      if (unique.length === 1) {
+        // Single number — call directly
+        window.location.href = `tel:${cleanForTel(unique[0])}`;
+      } else if (unique.length > 1) {
+        // Multiple numbers — show selection
+        setPhones(unique);
       }
     } catch {
       // Silently fail — phone not available
