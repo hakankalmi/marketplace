@@ -5,11 +5,10 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Download, X } from 'lucide-react';
 import { useBrand } from '@/lib/brand/context';
 
-// Minimum visits before showing the banner (show on 2nd visit)
-const MIN_VISITS_KEY = 'pwa-visit-count';
 const DISMISSED_KEY = 'pwa-install-dismissed';
 const INSTALLED_KEY = 'pwa-installed';
-const MIN_VISITS = 2;
+// Show again after 24 hours if dismissed
+const DISMISS_COOLDOWN_MS = 24 * 60 * 60 * 1000;
 
 interface BeforeInstallPromptEvent extends Event {
   prompt: () => Promise<void>;
@@ -37,7 +36,6 @@ export function PwaInstallBanner() {
 
   const handleDismiss = useCallback(() => {
     setShow(false);
-    // Don't show again for 7 days
     localStorage.setItem(DISMISSED_KEY, String(Date.now()));
   }, []);
 
@@ -46,30 +44,21 @@ export function PwaInstallBanner() {
     if (window.matchMedia('(display-mode: standalone)').matches) return;
     if (localStorage.getItem(INSTALLED_KEY) === 'true') return;
 
-    // Check if dismissed recently (within 7 days)
+    // If dismissed, wait 24h before showing again
     const dismissedAt = localStorage.getItem(DISMISSED_KEY);
     if (dismissedAt) {
-      const daysSince = (Date.now() - Number(dismissedAt)) / (1000 * 60 * 60 * 24);
-      if (daysSince < 7) return;
+      const elapsed = Date.now() - Number(dismissedAt);
+      if (elapsed < DISMISS_COOLDOWN_MS) return;
     }
-
-    // Track visits
-    const visits = Number(localStorage.getItem(MIN_VISITS_KEY) || '0') + 1;
-    localStorage.setItem(MIN_VISITS_KEY, String(visits));
-
-    if (visits < MIN_VISITS) return;
 
     const handler = (e: Event) => {
       e.preventDefault();
       setDeferredPrompt(e as BeforeInstallPromptEvent);
-      // Small delay for better UX — don't show immediately on page load
+      // Brief delay so page settles first
       setTimeout(() => setShow(true), 2500);
     };
 
     window.addEventListener('beforeinstallprompt', handler);
-
-    // iOS: no beforeinstallprompt, but we can still show a manual hint
-    // (iOS Safari shows its own share→Add to Home Screen)
 
     return () => window.removeEventListener('beforeinstallprompt', handler);
   }, []);
