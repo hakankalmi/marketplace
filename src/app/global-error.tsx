@@ -47,7 +47,7 @@ export default function GlobalError({
               Sayfa yüklenirken beklenmeyen bir hata oluştu.
             </p>
             <button
-              onClick={reset}
+              onClick={() => window.location.reload()}
               style={{
                 padding: '10px 24px',
                 background: '#2563eb',

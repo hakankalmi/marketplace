@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 import { AlertTriangle, RotateCcw } from 'lucide-react';
 
 export default function Error({
@@ -10,6 +11,8 @@ export default function Error({
   error: Error & { digest?: string };
   reset: () => void;
 }) {
+  const router = useRouter();
+
   useEffect(() => {
     // Log to external service in production (Sentry etc.)
     if (process.env.NODE_ENV === 'production') {
@@ -18,6 +21,11 @@ export default function Error({
       console.error('[App Error]', error);
     }
   }, [error]);
+
+  const handleRetry = () => {
+    router.refresh();
+    reset();
+  };
 
   return (
     <div className="min-h-[60vh] flex items-center justify-center px-4">
@@ -32,7 +40,7 @@ export default function Error({
           Sayfa yüklenirken beklenmeyen bir hata oluştu. Lütfen tekrar deneyin.
         </p>
         <button
-          onClick={reset}
+          onClick={handleRetry}
           className="inline-flex items-center gap-2 px-5 py-2.5 bg-brand-primary text-white rounded-brand font-medium text-sm hover:bg-brand-primary-dark transition-colors"
         >
           <RotateCcw size={16} />
