@@ -55,6 +55,21 @@ export function getCategoryDisplayName(slug: string): string {
   return categoryNames[slug] || decodeURIComponent(slug).replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
 }
 
+/** Map category slug to backend CategoryId (MarketplaceProductCategory enum) */
+const categorySlugToId: Record<string, number> = {
+  'hali-yikama': 1,
+  'koltuk-yikama': 2,
+  'yorgan-yikama': 3,
+  'perde-yikama': 4,
+  'yatak-yikama': 5,
+  'ev-temizligi': 7,
+  'ofis-temizligi': 7,
+};
+
+export function getCategoryId(slug: string): number | undefined {
+  return categorySlugToId[slug];
+}
+
 export function slugify(text: string): string {
   if (!text) return '';
   return text

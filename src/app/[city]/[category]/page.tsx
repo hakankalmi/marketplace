@@ -8,7 +8,7 @@ import { MapPin, Building2, CheckCircle, Sparkles, Shield, Clock, Star, Send } f
 import { CitySearch } from '@/components/city/CitySearch';
 import { CompanyListClient } from '@/components/company/CompanyListClient';
 import { BreadcrumbJsonLd } from '@/components/seo/JsonLd';
-import { slugify, getCategoryDisplayName } from '@/lib/utils';
+import { slugify, getCategoryDisplayName, getCategoryId } from '@/lib/utils';
 import type { CompanyListDto, PaginatedResponse, CityDto } from '@/lib/api/types';
 
 const brand = getBrandConfig();
@@ -155,11 +155,12 @@ function findCityBySlug(cities: CityDto[], slug: string): CityDto | undefined {
   return undefined;
 }
 
-async function getCompaniesByCity(city: string | null): Promise<PaginatedResponse<CompanyListDto>> {
+async function getCompaniesByCity(city: string | null, categoryId?: number): Promise<PaginatedResponse<CompanyListDto>> {
   try {
     const cityParam = city ? `&city=${encodeURIComponent(city)}` : '';
+    const catParam = categoryId ? `&categoryId=${categoryId}` : '';
     const res = await fetch(
-      `${API_URL}/api/mp/companies?sortBy=rating&pageSize=50${cityParam}`,
+      `${API_URL}/api/mp/companies?sortBy=rating&pageSize=50${cityParam}${catParam}`,
       {
         headers: { 'X-Marketplace-Brand': BRAND_CODE },
         next: { revalidate: 300 },
@@ -386,7 +387,8 @@ export default async function CityCategoryPage({
   const cityData = findCityBySlug(cities, citySlug);
   if (!cityData) notFound();
   const cityName = cityData.city;
-  const data = await getCompaniesByCity(cityName);
+  const catId = getCategoryId(category);
+  const data = await getCompaniesByCity(cityName, catId);
   const heading = `${cityName} ${categoryDisplay}`;
 
   return (

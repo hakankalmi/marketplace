@@ -446,6 +446,26 @@ export function CompanyDetailView({ company, city, category }: Props) {
             </motion.div>
           )}
 
+          {/* Fiyat Listesi Yok — Empty State */}
+          {!hasProducts && (
+            <motion.div
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.2 }}
+              className="bg-brand-surface rounded-brand border border-brand-border p-6 text-center"
+            >
+              <div className="w-12 h-12 mx-auto mb-3 rounded-xl bg-brand-primary/10 flex items-center justify-center">
+                <CircleDot size={24} className="text-brand-primary/50" />
+              </div>
+              <h3 className="text-base font-heading font-semibold text-brand-text mb-1">
+                Fiyat Listesi Henüz Eklenmemiş
+              </h3>
+              <p className="text-sm text-brand-text-muted max-w-md mx-auto">
+                Bu firma henüz fiyat listesini sisteme eklememiştir. Detaylı fiyat bilgisi için firmayı arayabilirsiniz.
+              </p>
+            </motion.div>
+          )}
+
           {/* Yorumlar ve Değerlendirmeler */}
           <motion.div
             initial={{ opacity: 0, y: 10 }}

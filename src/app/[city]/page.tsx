@@ -6,7 +6,7 @@ import { Nav } from '@/components/nav/Nav';
 import { Footer } from '@/components/footer/Footer';
 import { CompanyListClient } from '@/components/company/CompanyListClient';
 import { MapPin, Building2, Send } from 'lucide-react';
-import { slugify, getCategoryDisplayName } from '@/lib/utils';
+import { slugify, getCategoryDisplayName, getCategoryId } from '@/lib/utils';
 import type { CompanyListDto, PaginatedResponse, CityDto } from '@/lib/api/types';
 
 const brand = getBrandConfig();
@@ -87,11 +87,13 @@ function findCityBySlug(cities: CityDto[], slug: string): CityDto | undefined {
 async function getCompaniesByCity(
   city: string,
   district?: string,
+  categoryId?: number,
 ): Promise<CompanyListDto[]> {
   try {
     const districtParam = district ? `&district=${encodeURIComponent(district)}` : '';
+    const catParam = categoryId ? `&categoryId=${categoryId}` : '';
     const res = await fetch(
-      `${API_URL}/api/mp/companies?city=${encodeURIComponent(city)}&sortBy=rating&pageSize=50${districtParam}`,
+      `${API_URL}/api/mp/companies?city=${encodeURIComponent(city)}&sortBy=rating&pageSize=50${districtParam}${catParam}`,
       {
         headers: { 'X-Marketplace-Brand': BRAND_CODE },
         next: { revalidate: 300 },
@@ -251,7 +253,8 @@ export default async function CityPage({
     const cityName = firmalari.cityName || deslugify(firmalari.citySlug);
     const districtName = firmalari.districtSlug ? deslugify(firmalari.districtSlug) : undefined;
     const categoryDisplay = getCategoryDisplayName(firmalari.categorySlug);
-    const companies = await getCompaniesByCity(cityName, districtName);
+    const catId = getCategoryId(firmalari.categorySlug);
+    const companies = await getCompaniesByCity(cityName, districtName, catId);
     const locationLabel = districtName ? `${districtName}, ${cityName}` : cityName;
     const heading = `${locationLabel} ${categoryDisplay} Firmaları`;
 
