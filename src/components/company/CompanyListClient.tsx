@@ -110,6 +110,22 @@ export function CompanyListClient({ companies }: CompanyListClientProps) {
 
       {/* Chip Filter Bar — single row, horizontal scroll on mobile */}
       <div className="flex gap-1.5 items-center overflow-x-auto pb-0.5 -mx-4 px-4 sm:mx-0 sm:px-0 sm:flex-wrap sm:overflow-visible scrollbar-hide">
+        {/* Online sipariş chip — en başta */}
+        <button
+          onClick={() => setOnlineOnly(!onlineOnly)}
+          className={`flex items-center gap-1 px-2.5 py-1.5 rounded-lg text-xs font-medium border transition-all whitespace-nowrap ${
+            onlineOnly
+              ? 'bg-emerald-500 text-white border-emerald-500 shadow-sm shadow-emerald-500/20'
+              : 'bg-brand-surface border-brand-border/60 text-brand-text-muted hover:border-emerald-400 hover:text-brand-text'
+          }`}
+        >
+          <ShoppingCart size={9} />
+          Online Sipariş
+        </button>
+
+        {/* Thin separator */}
+        <div className="w-px h-4 bg-brand-border/50 shrink-0 mx-0.5" />
+
         {/* Sort chips */}
         {SORT_OPTIONS.map((opt) => (
           <button
@@ -144,22 +160,6 @@ export function CompanyListClient({ companies }: CompanyListClientProps) {
             {value}+
           </button>
         ))}
-
-        {/* Thin separator */}
-        <div className="w-px h-4 bg-brand-border/50 shrink-0 mx-0.5" />
-
-        {/* Online sipariş chip */}
-        <button
-          onClick={() => setOnlineOnly(!onlineOnly)}
-          className={`flex items-center gap-1 px-2.5 py-1.5 rounded-lg text-xs font-medium border transition-all whitespace-nowrap ${
-            onlineOnly
-              ? 'bg-emerald-500 text-white border-emerald-500 shadow-sm shadow-emerald-500/20'
-              : 'bg-brand-surface border-brand-border/60 text-brand-text-muted hover:border-emerald-400 hover:text-brand-text'
-          }`}
-        >
-          <ShoppingCart size={9} />
-          Online Sipariş
-        </button>
       </div>
 
       {/* Results count — compact */}

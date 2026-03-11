@@ -97,6 +97,21 @@ export function CompanyListView() {
 
       {/* Filter Chips — single row, horizontal scroll */}
       <div className="flex gap-1.5 items-center overflow-x-auto pb-0.5 -mx-4 px-4 sm:mx-0 sm:px-0 sm:flex-wrap sm:overflow-visible scrollbar-hide">
+        {/* Online sipariş chip — en başta */}
+        <button
+          onClick={() => setQuery(prev => ({ ...prev, onlineOnly: prev.onlineOnly ? undefined : true, page: 1 }))}
+          className={`flex items-center gap-1 px-2.5 py-1.5 rounded-lg text-xs font-medium border transition-all whitespace-nowrap ${
+            query.onlineOnly
+              ? 'bg-emerald-500 text-white border-emerald-500 shadow-sm shadow-emerald-500/20'
+              : 'bg-brand-surface border-brand-border/60 text-brand-text-muted hover:border-emerald-400 hover:text-brand-text'
+          }`}
+        >
+          <ShoppingCart size={9} />
+          Online Sipariş
+        </button>
+
+        <div className="w-px h-4 bg-brand-border/50 shrink-0 mx-0.5" />
+
         {/* Sort chips */}
         {([
           { key: 'rating', label: 'Puan', icon: '⭐' },
@@ -160,21 +175,6 @@ export function CompanyListView() {
           </select>
           <Grid3X3 size={10} className={`absolute left-2 top-1/2 -translate-y-1/2 pointer-events-none ${query.categoryId ? 'text-white' : 'text-brand-text-muted'}`} />
         </div>
-
-        <div className="w-px h-4 bg-brand-border/50 shrink-0 mx-0.5" />
-
-        {/* Online chip */}
-        <button
-          onClick={() => setQuery(prev => ({ ...prev, onlineOnly: prev.onlineOnly ? undefined : true, page: 1 }))}
-          className={`flex items-center gap-1 px-2.5 py-1.5 rounded-lg text-xs font-medium border transition-all whitespace-nowrap ${
-            query.onlineOnly
-              ? 'bg-emerald-500 text-white border-emerald-500 shadow-sm shadow-emerald-500/20'
-              : 'bg-brand-surface border-brand-border/60 text-brand-text-muted hover:border-emerald-400 hover:text-brand-text'
-          }`}
-        >
-          <ShoppingCart size={9} />
-          Online Sipariş
-        </button>
       </div>
 
       {/* Results count */}
