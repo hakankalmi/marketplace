@@ -10,7 +10,7 @@ type SortKey = 'rating' | 'responseTime' | 'completedOrders';
 
 const SORT_OPTIONS: { key: SortKey; label: string; icon: string }[] = [
   { key: 'rating', label: 'Puan', icon: '⭐' },
-  { key: 'completedOrders', label: 'Sipariş', icon: '📦' },
+  { key: 'completedOrders', label: 'Sipariş Sayısı', icon: '📦' },
   { key: 'responseTime', label: 'Hız', icon: '⚡' },
 ];
 
@@ -158,7 +158,7 @@ export function CompanyListClient({ companies }: CompanyListClientProps) {
           }`}
         >
           <ShoppingCart size={9} />
-          Online
+          Online Sipariş
         </button>
       </div>
 

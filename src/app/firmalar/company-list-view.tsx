@@ -100,7 +100,7 @@ export function CompanyListView() {
         {/* Sort chips */}
         {([
           { key: 'rating', label: 'Puan', icon: '⭐' },
-          { key: 'completedOrders', label: 'Sipariş', icon: '📦' },
+          { key: 'completedOrders', label: 'Sipariş Sayısı', icon: '📦' },
           { key: 'responseTime', label: 'Hız', icon: '⚡' },
         ] as const).map((opt) => (
           <button
@@ -173,7 +173,7 @@ export function CompanyListView() {
           }`}
         >
           <ShoppingCart size={9} />
-          Online
+          Online Sipariş
         </button>
       </div>
 
