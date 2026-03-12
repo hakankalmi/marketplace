@@ -93,7 +93,7 @@ async function getCompaniesByCity(
     const districtParam = district ? `&district=${encodeURIComponent(district)}` : '';
     const catParam = categoryId ? `&categoryId=${categoryId}` : '';
     const res = await fetch(
-      `${API_URL}/api/mp/companies?city=${encodeURIComponent(city)}&sortBy=rating&pageSize=50${districtParam}${catParam}`,
+      `${API_URL}/api/mp/companies?city=${encodeURIComponent(city)}&sortBy=rating&pageSize=200${districtParam}${catParam}`,
       {
         headers: { 'X-Marketplace-Brand': BRAND_CODE },
         next: { revalidate: 300 },

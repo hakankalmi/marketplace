@@ -13,7 +13,7 @@ import type { CompanySearchQuery } from '@/lib/api/types';
 export function CompanyListView() {
   const [query, setQuery] = useState<CompanySearchQuery>({
     page: 1,
-    pageSize: 12,
+    pageSize: 200,
     sortBy: 'rating',
   });
   const [searchText, setSearchText] = useState('');
@@ -48,7 +48,7 @@ export function CompanyListView() {
 
   const clearFilters = () => {
     setSearchText('');
-    setQuery({ page: 1, pageSize: 12, sortBy: 'rating' });
+    setQuery({ page: 1, pageSize: 200, sortBy: 'rating' });
   };
 
   const hasActiveFilters = query.city || query.categoryId || query.q || query.onlineOnly || query.sortBy !== 'rating';

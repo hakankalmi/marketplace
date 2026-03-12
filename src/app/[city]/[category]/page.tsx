@@ -160,16 +160,16 @@ async function getCompaniesByCity(city: string | null, categoryId?: number): Pro
     const cityParam = city ? `&city=${encodeURIComponent(city)}` : '';
     const catParam = categoryId ? `&categoryId=${categoryId}` : '';
     const res = await fetch(
-      `${API_URL}/api/mp/companies?sortBy=rating&pageSize=50${cityParam}${catParam}`,
+      `${API_URL}/api/mp/companies?sortBy=rating&pageSize=200${cityParam}${catParam}`,
       {
         headers: { 'X-Marketplace-Brand': BRAND_CODE },
         next: { revalidate: 300 },
       }
     );
-    if (!res.ok) return { items: [], totalCount: 0, page: 1, pageSize: 50 };
+    if (!res.ok) return { items: [], totalCount: 0, page: 1, pageSize: 200 };
     return res.json();
   } catch {
-    return { items: [], totalCount: 0, page: 1, pageSize: 50 };
+    return { items: [], totalCount: 0, page: 1, pageSize: 200 };
   }
 }
 
