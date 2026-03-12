@@ -403,13 +403,13 @@ export default async function CityCategoryPage({
       <Nav />
       <main className="min-h-screen bg-brand-bg">
         <section
-          className="relative py-6 sm:py-10 lg:py-16 overflow-hidden"
+          className="relative py-4 sm:py-6 lg:py-8 overflow-hidden"
           style={{
             background: `linear-gradient(135deg, ${brand.colors.primary}15 0%, ${brand.colors.primaryLight} 100%)`,
           }}
         >
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <nav className="flex items-center gap-2 text-xs sm:text-sm text-brand-text-muted mb-3 sm:mb-6">
+            <nav className="flex items-center gap-2 text-xs sm:text-sm text-brand-text-muted mb-2 sm:mb-3">
               <a href="/" className="hover:text-brand-primary transition-colors">Anasayfa</a>
               <span>/</span>
               <a href={`/turkiye/${category}`} className="hover:text-brand-primary transition-colors">
@@ -420,12 +420,12 @@ export default async function CityCategoryPage({
             </nav>
 
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-brand-primary/10 flex items-center justify-center">
+              <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-lg bg-brand-primary/10 flex items-center justify-center">
                 <MapPin size={20} className="text-brand-primary sm:hidden" />
                 <MapPin size={24} className="text-brand-primary hidden sm:block" />
               </div>
               <div>
-                <h1 className="text-xl sm:text-2xl lg:text-4xl font-heading font-bold text-brand-text">
+                <h1 className="text-lg sm:text-xl lg:text-2xl font-heading font-bold text-brand-text">
                   {heading} Firmaları
                 </h1>
                 <p className="text-brand-text-muted text-sm mt-0.5">
