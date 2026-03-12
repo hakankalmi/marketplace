@@ -195,10 +195,7 @@ export function CompanyListView() {
       ) : companiesData && companiesData.items.length > 0 ? (
         (() => {
           const items = companiesData.items;
-          // Önerilen: 4.5+ puan, 3+ yorum, online sipariş, 5+ tamamlanan
-          const featured = items.filter(
-            (c) => c.averageRating >= 4.5 && c.totalReviewCount >= 3 && c.canAcceptOnlineOrders && c.completedOrderCount >= 5
-          ).slice(0, 5);
+          const featured = items.filter((c) => c.isFeatured);
           const featuredIds = new Set(featured.map((c) => c.companyId));
           const rest = items.filter((c) => !featuredIds.has(c.companyId));
 

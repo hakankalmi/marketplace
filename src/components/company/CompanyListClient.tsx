@@ -16,15 +16,6 @@ const SORT_OPTIONS: { key: SortKey; label: string; icon: string }[] = [
   { key: 'responseTime', label: 'Hız', icon: '⚡' },
 ];
 
-/** Önerilen firma kriterleri: yüksek puan + yeterli yorum + online sipariş */
-function isFeatured(c: CompanyListDto): boolean {
-  return (
-    c.averageRating >= 4.5 &&
-    c.totalReviewCount >= 3 &&
-    c.canAcceptOnlineOrders &&
-    c.completedOrderCount >= 5
-  );
-}
 
 interface CompanyListClientProps {
   companies: CompanyListDto[];
@@ -86,14 +77,8 @@ export function CompanyListClient({ companies }: CompanyListClientProps) {
       return { featured: [], rest: result };
     }
 
-    const featuredIds = new Set<string>();
-    const featuredList: CompanyListDto[] = [];
-    for (const c of result) {
-      if (isFeatured(c) && featuredList.length < 5) {
-        featuredList.push(c);
-        featuredIds.add(c.companyId);
-      }
-    }
+    const featuredList = result.filter((c) => c.isFeatured);
+    const featuredIds = new Set(featuredList.map((c) => c.companyId));
     const restList = result.filter((c) => !featuredIds.has(c.companyId));
 
     return { featured: featuredList, rest: restList };

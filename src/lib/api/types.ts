@@ -67,6 +67,7 @@ export interface CompanyListDto {
   responseTimeMinutes: number;
   acceptingOrders: boolean;
   canAcceptOnlineOrders: boolean;
+  isFeatured: boolean;
   categoryKeys: string[];
   photoUrls: string[] | null;
   distanceKm: number | null;
