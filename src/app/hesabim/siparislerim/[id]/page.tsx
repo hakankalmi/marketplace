@@ -25,6 +25,7 @@ import {
   Ruler,
   Info,
   ImageIcon,
+  MessageCircle,
 } from 'lucide-react';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -37,6 +38,7 @@ import { ReviewForm } from '@/components/order/ReviewForm';
 import { formatDate } from '@/lib/utils';
 import { toast } from 'sonner';
 import type { MarketplaceOrderStatus, OrderResponseDto, OrderItemDto } from '@/lib/api/types';
+import { OrderChat } from '@/components/chat/OrderChat';
 
 /* ─────────── Status Helpers ─────────── */
 
@@ -231,7 +233,7 @@ function OrderTimeline({ order }: { order: OrderResponseDto }) {
 
 /* ─────────── Tab System ─────────── */
 
-type TabKey = 'tracking' | 'items' | 'details' | 'photos';
+type TabKey = 'tracking' | 'items' | 'details' | 'photos' | 'chat';
 
 interface TabDef {
   key: TabKey;
@@ -263,6 +265,16 @@ function buildTabs(order: OrderResponseDto): TabDef[] {
       label: 'Fotoğraflar',
       icon: ImageIcon,
       badge: photoCount > 0 ? photoCount : undefined,
+    });
+  }
+
+  // Chat tab: show after acceptance (status 1, 5, 6, 7)
+  const chatEligibleStatuses = [1, 5, 6, 7];
+  if (chatEligibleStatuses.includes(order.status)) {
+    tabs.push({
+      key: 'chat',
+      label: 'Mesajlar',
+      icon: MessageCircle,
     });
   }
 
@@ -799,6 +811,12 @@ export default function SiparisDetayPage({
               {activeTab === 'items' && <OrderItemsTab order={order} />}
               {activeTab === 'details' && <OrderDetailsTab order={order} />}
               {activeTab === 'photos' && <OrderPhotosTab order={order} queryClient={queryClient} />}
+              {activeTab === 'chat' && (
+                <OrderChat
+                  orderId={order.id}
+                  isWritable={[1, 5, 6].includes(order.status)}
+                />
+              )}
             </motion.div>
           </AnimatePresence>
         </div>
