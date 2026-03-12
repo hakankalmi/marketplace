@@ -19,7 +19,59 @@ import { StarRating } from '@/components/ui/star-rating';
 import { BeforeAfterGrid } from '@/components/ui/before-after';
 import { PhoneRevealButton } from '@/components/ui/phone-reveal-button';
 import { formatCurrency, formatDate, slugify } from '@/lib/utils';
-import type { CompanyDetailDto } from '@/lib/api/types';
+import type { CompanyDetailDto, ProductDto, MarketplaceProductCategory } from '@/lib/api/types';
+
+/* ── Category display config (integer keys matching backend enum) ── */
+const categoryConfig: Record<MarketplaceProductCategory, { label: string; icon: string }> = {
+  1: { label: 'Halı Yıkama', icon: '🧶' },
+  2: { label: 'Koltuk Yıkama', icon: '🛋️' },
+  3: { label: 'Ev Tekstil Yıkama', icon: '🧺' },
+  4: { label: 'Perde Yıkama', icon: '🪟' },
+  5: { label: 'Yatak Yıkama', icon: '🛏️' },
+  6: { label: 'Ek Hizmetler', icon: '✨' },
+  7: { label: 'Genel Temizlik', icon: '🧹' },
+};
+
+const categoryOrder: MarketplaceProductCategory[] = [1, 2, 3, 4, 5, 7, 6];
+
+function getUnitLabel(unitType: number | string): string {
+  switch (unitType) {
+    case 0: case 'SquareMeter': return 'm²';
+    case 1: case 'Piece': return 'adet';
+    case 2: case 'Kilogram': return 'kg';
+    case 3: case 'Meter': return 'm';
+    case 4: return 'parça';
+    default: return 'adet';
+  }
+}
+
+function groupProductsByCategory(products: ProductDto[]) {
+  const active = products.filter(p => p.isActive);
+  const grouped = new Map<MarketplaceProductCategory | 'uncategorized', ProductDto[]>();
+
+  for (const product of active) {
+    const key = product.marketplaceCategory || 'uncategorized';
+    if (!grouped.has(key)) grouped.set(key, []);
+    grouped.get(key)!.push(product);
+  }
+
+  const sorted: { key: string; label: string; icon: string; products: ProductDto[] }[] = [];
+
+  for (const cat of categoryOrder) {
+    const items = grouped.get(cat);
+    if (items && items.length > 0) {
+      const cfg = categoryConfig[cat];
+      sorted.push({ key: String(cat), label: cfg.label, icon: cfg.icon, products: items });
+    }
+  }
+
+  const uncategorized = grouped.get('uncategorized');
+  if (uncategorized && uncategorized.length > 0) {
+    sorted.push({ key: 'uncategorized', label: 'Diğer Hizmetler', icon: '📋', products: uncategorized });
+  }
+
+  return sorted;
+}
 
 interface Props {
   company: CompanyDetailDto;
@@ -155,57 +207,71 @@ export function CompanyDetailView({ company }: Props) {
             </motion.div>
           )}
 
-          {/* Fiyat Listesi */}
-          {company.products.length > 0 && (
-            <motion.div
-              initial={{ opacity: 0, y: 10 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.2 }}
-            >
-              <h2 className="text-lg font-heading font-semibold text-brand-text mb-3">
-                Fiyat Listesi
-              </h2>
-              <div className="bg-brand-surface rounded-brand border border-brand-border overflow-hidden">
-                <table className="w-full text-sm">
-                  <thead>
-                    <tr className="bg-brand-surface-hover">
-                      <th className="text-left px-4 py-3 text-brand-text-muted font-medium">
-                        Hizmet
-                      </th>
-                      <th className="text-right px-4 py-3 text-brand-text-muted font-medium">
-                        Fiyat
-                      </th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {company.products
-                      .filter((p) => p.isActive)
-                      .map((product) => (
-                        <tr
-                          key={product.productId}
-                          className="border-t border-brand-border hover:bg-brand-surface-hover transition-colors"
-                        >
-                          <td className="px-4 py-3 text-brand-text">
-                            {product.productName}
-                          </td>
-                          <td className="px-4 py-3 text-right font-medium text-brand-text">
-                            {formatCurrency(product.unitPrice)}
-                            <span className="text-brand-text-muted font-normal text-xs ml-1">
-                              / {product.unitType === 0 ? 'm²' : product.unitType === 1 ? 'adet' : product.unitType === 2 ? 'kg' : 'm'}
+          {/* Fiyat Listesi — Kategorize */}
+          {company.products.length > 0 && (() => {
+            const productGroups = groupProductsByCategory(company.products);
+            if (productGroups.length === 0) return null;
+            return (
+              <motion.div
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.2 }}
+              >
+                <h2 className="text-lg font-heading font-semibold text-brand-text mb-4">
+                  Fiyat Listesi
+                </h2>
+
+                <div className="space-y-4">
+                  {productGroups.map((group, gi) => (
+                    <motion.div
+                      key={group.key}
+                      initial={{ opacity: 0, y: 10 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ delay: 0.25 + gi * 0.05 }}
+                      className="bg-brand-surface rounded-brand border border-brand-border overflow-hidden"
+                    >
+                      {/* Category Header */}
+                      <div className="flex items-center gap-3 px-4 py-3 bg-brand-primary/5 border-b border-brand-border">
+                        <span className="text-lg">{group.icon}</span>
+                        <h3 className="font-heading font-semibold text-brand-text text-sm">
+                          {group.label}
+                        </h3>
+                        <span className="ml-auto text-xs text-brand-text-muted bg-brand-border/50 px-2 py-0.5 rounded-full">
+                          {group.products.length} hizmet
+                        </span>
+                      </div>
+
+                      {/* Products */}
+                      <div className="divide-y divide-brand-border">
+                        {group.products.map((product) => (
+                          <div
+                            key={product.productId}
+                            className="flex items-center justify-between px-4 py-3 hover:bg-brand-surface-hover transition-colors"
+                          >
+                            <span className="text-sm text-brand-text">
+                              {product.productName}
                             </span>
-                          </td>
-                        </tr>
-                      ))}
-                  </tbody>
-                </table>
-              </div>
-              {company.minimumOrderAmount > 0 && (
-                <p className="mt-2 text-sm text-brand-text-muted">
-                  Minimum sipariş tutarı: {formatCurrency(company.minimumOrderAmount)}
-                </p>
-              )}
-            </motion.div>
-          )}
+                            <span className="text-sm font-semibold text-brand-primary whitespace-nowrap ml-4">
+                              {formatCurrency(product.unitPrice)}
+                              <span className="text-brand-text-muted font-normal text-xs ml-1">
+                                / {getUnitLabel(product.unitType)}
+                              </span>
+                            </span>
+                          </div>
+                        ))}
+                      </div>
+                    </motion.div>
+                  ))}
+                </div>
+
+                {company.minimumOrderAmount > 0 && (
+                  <p className="mt-3 text-sm text-brand-text-muted">
+                    Minimum sipariş tutarı: <strong>{formatCurrency(company.minimumOrderAmount)}</strong>
+                  </p>
+                )}
+              </motion.div>
+            );
+          })()}
 
           {/* Yorumlar */}
           {company.recentReviews.length > 0 && (
