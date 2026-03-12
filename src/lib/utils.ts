@@ -61,9 +61,7 @@ const categorySlugToId: Record<string, number> = {
   'koltuk-yikama': 2,
   'yorgan-yikama': 3,
   'perde-yikama': 4,
-  'yatak-yikama': 5,
-  'ev-temizligi': 7,
-  'ofis-temizligi': 7,
+  'yatak-yikama': 7,
 };
 
 export function getCategoryId(slug: string): number | undefined {
