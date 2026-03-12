@@ -72,11 +72,6 @@ export function CompanyListClient({ companies }: CompanyListClientProps) {
       }
     });
 
-    // Arama/filtre aktifken önerilen bölümü gösterme — düz liste
-    if (hasActiveFilters) {
-      return { featured: [], rest: result };
-    }
-
     const featuredList = result.filter((c) => c.isFeatured);
     const featuredIds = new Set(featuredList.map((c) => c.companyId));
     const restList = result.filter((c) => !featuredIds.has(c.companyId));
