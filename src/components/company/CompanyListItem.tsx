@@ -13,13 +13,13 @@ interface Props {
 }
 
 const CATEGORY_LABELS: Record<string, string> = {
-  hali_yikama: 'Halı Yık.',
-  koltuk_yikama: 'Koltuk Yık.',
-  yorgan_yikama: 'Yorgan Yık.',
-  perde_yikama: 'Perde Yık.',
-  yatak_yikama: 'Yatak Yık.',
+  hali_yikama: 'Halı Yıkama',
+  koltuk_yikama: 'Koltuk Yıkama',
+  yorgan_yikama: 'Yorgan Yıkama',
+  perde_yikama: 'Perde Yıkama',
+  yatak_yikama: 'Yatak Yıkama',
   ev_temizligi: 'Ev Temizliği',
-  ofis_temizligi: 'Ofis Tem.',
+  ofis_temizligi: 'Ofis Temizliği',
 };
 
 export function CompanyListItem({ company, index = 0 }: Props) {
