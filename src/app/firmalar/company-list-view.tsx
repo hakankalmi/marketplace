@@ -2,10 +2,11 @@
 
 import { useState, useCallback } from 'react';
 import { useQuery } from '@tanstack/react-query';
-import { Search, Star, X, ShoppingCart, MapPin, Grid3X3, SlidersHorizontal } from 'lucide-react';
+import { Search, Star, X, ShoppingCart, MapPin, Grid3X3, SlidersHorizontal, Award } from 'lucide-react';
 import { getCompanies } from '@/lib/api/companies';
 import { getCategories, getCities } from '@/lib/api/customer';
-import { CompanyCard } from '@/components/company/CompanyCard';
+import { CompanyListItem } from '@/components/company/CompanyListItem';
+import { FeaturedCompanyCard } from '@/components/company/FeaturedCompanyCard';
 import { Button } from '@/components/ui/button';
 import { ListSkeleton } from '@/components/ui/skeleton';
 import type { CompanySearchQuery } from '@/lib/api/types';
@@ -192,52 +193,70 @@ export function CompanyListView() {
       {isLoading ? (
         <ListSkeleton count={9} />
       ) : companiesData && companiesData.items.length > 0 ? (
-        <>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
-            {companiesData.items.map((company, i) => (
-              <CompanyCard
-                key={company.companyId}
-                company={company}
-                index={i}
-              />
-            ))}
-          </div>
+        (() => {
+          const items = companiesData.items;
+          // Önerilen: 4.5+ puan, 3+ yorum, online sipariş, 5+ tamamlanan
+          const featured = items.filter(
+            (c) => c.averageRating >= 4.5 && c.totalReviewCount >= 3 && c.canAcceptOnlineOrders && c.completedOrderCount >= 5
+          ).slice(0, 5);
+          const featuredIds = new Set(featured.map((c) => c.companyId));
+          const rest = items.filter((c) => !featuredIds.has(c.companyId));
 
-          {/* Pagination */}
-          {totalPages > 1 && (
-            <div className="flex justify-center gap-2 mt-10">
-              <Button
-                variant="secondary"
-                size="sm"
-                disabled={query.page === 1}
-                onClick={() => handlePageChange((query.page || 1) - 1)}
-              >
-                Önceki
-              </Button>
-              {Array.from({ length: Math.min(totalPages, 5) }).map((_, i) => {
-                const page = i + 1;
-                return (
-                  <Button
-                    key={page}
-                    variant={page === query.page ? 'primary' : 'secondary'}
-                    size="sm"
-                    onClick={() => handlePageChange(page)}
-                  >
-                    {page}
+          return (
+            <div className="space-y-6">
+              {featured.length > 0 && (
+                <section>
+                  <div className="flex items-center gap-2 mb-3">
+                    <Award size={16} className="text-brand-primary" />
+                    <h2 className="text-sm font-heading font-bold text-brand-text">Önerilen Firmalar</h2>
+                    <div className="flex-1 h-px bg-brand-border/50" />
+                  </div>
+                  <div className="space-y-3">
+                    {featured.map((company, i) => (
+                      <FeaturedCompanyCard key={company.companyId} company={company} index={i} />
+                    ))}
+                  </div>
+                </section>
+              )}
+
+              {rest.length > 0 && (
+                <section>
+                  {featured.length > 0 && (
+                    <div className="flex items-center gap-2 mb-3">
+                      <h2 className="text-sm font-heading font-bold text-brand-text">Tüm Firmalar</h2>
+                      <div className="flex-1 h-px bg-brand-border/50" />
+                    </div>
+                  )}
+                  <div className="space-y-2">
+                    {rest.map((company, i) => (
+                      <CompanyListItem key={company.companyId} company={company} index={i} />
+                    ))}
+                  </div>
+                </section>
+              )}
+
+              {/* Pagination */}
+              {totalPages > 1 && (
+                <div className="flex justify-center gap-2 mt-10">
+                  <Button variant="secondary" size="sm" disabled={query.page === 1} onClick={() => handlePageChange((query.page || 1) - 1)}>
+                    Önceki
                   </Button>
-                );
-              })}
-              <Button
-                variant="secondary"
-                size="sm"
-                disabled={query.page === totalPages}
-                onClick={() => handlePageChange((query.page || 1) + 1)}
-              >
-                Sonraki
-              </Button>
+                  {Array.from({ length: Math.min(totalPages, 5) }).map((_, i) => {
+                    const page = i + 1;
+                    return (
+                      <Button key={page} variant={page === query.page ? 'primary' : 'secondary'} size="sm" onClick={() => handlePageChange(page)}>
+                        {page}
+                      </Button>
+                    );
+                  })}
+                  <Button variant="secondary" size="sm" disabled={query.page === totalPages} onClick={() => handlePageChange((query.page || 1) + 1)}>
+                    Sonraki
+                  </Button>
+                </div>
+              )}
             </div>
-          )}
-        </>
+          );
+        })()
       ) : (
         <div className="text-center py-16">
           <Search size={40} className="mx-auto text-brand-text-muted/30 mb-3" />
@@ -246,12 +265,7 @@ export function CompanyListView() {
             Farklı filtreler deneyebilir veya arama terimini değiştirebilirsiniz.
           </p>
           {hasActiveFilters && (
-            <Button
-              variant="outline"
-              size="sm"
-              className="mt-4"
-              onClick={clearFilters}
-            >
+            <Button variant="outline" size="sm" className="mt-4" onClick={clearFilters}>
               Filtreleri Temizle
             </Button>
           )}

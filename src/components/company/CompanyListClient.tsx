@@ -3,8 +3,9 @@
 import { useState, useMemo } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { motion } from 'framer-motion';
-import { Search, Star, X, ShoppingCart, SlidersHorizontal } from 'lucide-react';
-import { CompanyCard } from './CompanyCard';
+import { Search, Star, X, ShoppingCart, SlidersHorizontal, Award } from 'lucide-react';
+import { CompanyListItem } from './CompanyListItem';
+import { FeaturedCompanyCard } from './FeaturedCompanyCard';
 import type { CompanyListDto } from '@/lib/api/types';
 
 type SortKey = 'rating' | 'responseTime' | 'completedOrders';
@@ -14,6 +15,16 @@ const SORT_OPTIONS: { key: SortKey; label: string; icon: string }[] = [
   { key: 'completedOrders', label: 'Sipariş Sayısı', icon: '📦' },
   { key: 'responseTime', label: 'Hız', icon: '⚡' },
 ];
+
+/** Önerilen firma kriterleri: yüksek puan + yeterli yorum + online sipariş */
+function isFeatured(c: CompanyListDto): boolean {
+  return (
+    c.averageRating >= 4.5 &&
+    c.totalReviewCount >= 3 &&
+    c.canAcceptOnlineOrders &&
+    c.completedOrderCount >= 5
+  );
+}
 
 interface CompanyListClientProps {
   companies: CompanyListDto[];
@@ -28,7 +39,7 @@ export function CompanyListClient({ companies }: CompanyListClientProps) {
 
   const hasActiveFilters = search.length > 0 || minRating > 0 || sortBy !== 'rating' || onlineOnly;
 
-  const filtered = useMemo(() => {
+  const { featured, rest } = useMemo(() => {
     let result = [...companies];
 
     if (search.length > 0) {
@@ -49,6 +60,12 @@ export function CompanyListClient({ companies }: CompanyListClientProps) {
     }
 
     result.sort((a, b) => {
+      // Birincil: online sipariş kabul edenler önce
+      const aOnline = a.canAcceptOnlineOrders ? 1 : 0;
+      const bOnline = b.canAcceptOnlineOrders ? 1 : 0;
+      if (bOnline !== aOnline) return bOnline - aOnline;
+
+      // İkincil: seçili sıralama kriteri
       switch (sortBy) {
         case 'rating':
           return b.averageRating - a.averageRating;
@@ -64,8 +81,25 @@ export function CompanyListClient({ companies }: CompanyListClientProps) {
       }
     });
 
-    return result;
-  }, [companies, search, sortBy, minRating, onlineOnly]);
+    // Arama/filtre aktifken önerilen bölümü gösterme — düz liste
+    if (hasActiveFilters) {
+      return { featured: [], rest: result };
+    }
+
+    const featuredIds = new Set<string>();
+    const featuredList: CompanyListDto[] = [];
+    for (const c of result) {
+      if (isFeatured(c) && featuredList.length < 5) {
+        featuredList.push(c);
+        featuredIds.add(c.companyId);
+      }
+    }
+    const restList = result.filter((c) => !featuredIds.has(c.companyId));
+
+    return { featured: featuredList, rest: restList };
+  }, [companies, search, sortBy, minRating, onlineOnly, hasActiveFilters]);
+
+  const totalCount = featured.length + rest.length;
 
   const clearFilters = () => {
     setSearch('');
@@ -77,7 +111,7 @@ export function CompanyListClient({ companies }: CompanyListClientProps) {
   const activeFilterCount = [minRating > 0, onlineOnly, sortBy !== 'rating'].filter(Boolean).length;
 
   return (
-    <div className="space-y-3">
+    <div className="space-y-4">
       {/* Search + Filter Row */}
       <div className="flex gap-2">
         <div className="relative flex-1">
@@ -98,7 +132,6 @@ export function CompanyListClient({ companies }: CompanyListClientProps) {
             </button>
           )}
         </div>
-        {/* Active filter count badge */}
         {hasActiveFilters && (
           <button
             onClick={clearFilters}
@@ -110,9 +143,8 @@ export function CompanyListClient({ companies }: CompanyListClientProps) {
         )}
       </div>
 
-      {/* Chip Filter Bar — single row, horizontal scroll on mobile */}
+      {/* Chip Filter Bar */}
       <div className="flex gap-1.5 items-center overflow-x-auto pb-0.5 -mx-4 px-4 sm:mx-0 sm:px-0 sm:flex-wrap sm:overflow-visible scrollbar-hide">
-        {/* Online sipariş chip — en başta */}
         <button
           onClick={() => setOnlineOnly(!onlineOnly)}
           className={`flex items-center gap-1 px-2.5 py-1.5 rounded-lg text-xs font-medium border transition-all whitespace-nowrap ${
@@ -125,10 +157,8 @@ export function CompanyListClient({ companies }: CompanyListClientProps) {
           Online Sipariş
         </button>
 
-        {/* Thin separator */}
         <div className="w-px h-4 bg-brand-border/50 shrink-0 mx-0.5" />
 
-        {/* Sort chips */}
         {SORT_OPTIONS.map((opt) => (
           <button
             key={opt.key}
@@ -144,10 +174,8 @@ export function CompanyListClient({ companies }: CompanyListClientProps) {
           </button>
         ))}
 
-        {/* Thin separator */}
         <div className="w-px h-4 bg-brand-border/50 shrink-0 mx-0.5" />
 
-        {/* Rating chips */}
         {[4, 4.5].map((value) => (
           <button
             key={value}
@@ -164,23 +192,55 @@ export function CompanyListClient({ companies }: CompanyListClientProps) {
         ))}
       </div>
 
-      {/* Results count — compact */}
+      {/* Results count */}
       <div className="flex items-center gap-2 text-xs text-brand-text-muted">
         <SlidersHorizontal size={12} />
         <span>
-          <strong className="text-brand-text">{filtered.length}</strong> firma
+          <strong className="text-brand-text">{totalCount}</strong> firma
           {search && <span> &middot; &ldquo;{search}&rdquo;</span>}
           {minRating > 0 && <span> &middot; {minRating}+</span>}
           {onlineOnly && <span> &middot; Online</span>}
         </span>
       </div>
 
-      {/* Company Grid */}
-      {filtered.length > 0 ? (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
-          {filtered.map((company, i) => (
-            <CompanyCard key={company.companyId} company={company} index={i} />
-          ))}
+      {totalCount > 0 ? (
+        <div className="space-y-6">
+          {/* Önerilen Firmalar */}
+          {featured.length > 0 && (
+            <section>
+              <div className="flex items-center gap-2 mb-3">
+                <Award size={16} className="text-brand-primary" />
+                <h2 className="text-sm font-heading font-bold text-brand-text">
+                  Önerilen Firmalar
+                </h2>
+                <div className="flex-1 h-px bg-brand-border/50" />
+              </div>
+              <div className="space-y-3">
+                {featured.map((company, i) => (
+                  <FeaturedCompanyCard key={company.companyId} company={company} index={i} />
+                ))}
+              </div>
+            </section>
+          )}
+
+          {/* Tüm Firmalar */}
+          {rest.length > 0 && (
+            <section>
+              {featured.length > 0 && (
+                <div className="flex items-center gap-2 mb-3">
+                  <h2 className="text-sm font-heading font-bold text-brand-text">
+                    Tüm Firmalar
+                  </h2>
+                  <div className="flex-1 h-px bg-brand-border/50" />
+                </div>
+              )}
+              <div className="space-y-2">
+                {rest.map((company, i) => (
+                  <CompanyListItem key={company.companyId} company={company} index={i} />
+                ))}
+              </div>
+            </section>
+          )}
         </div>
       ) : (
         <motion.div
