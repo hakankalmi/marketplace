@@ -100,6 +100,8 @@ export function OrderChat({ orderId, isWritable }: OrderChatProps) {
   const [recording, setRecording] = useState(false);
   const [recordingDuration, setRecordingDuration] = useState(0);
   const messagesEndRef = useRef<HTMLDivElement>(null);
+  const scrollContainerRef = useRef<HTMLDivElement>(null);
+  const initialScrollDone = useRef(false);
   const inputRef = useRef<HTMLInputElement>(null);
   const typingTimeoutRef = useRef<ReturnType<typeof setTimeout>>(undefined);
   const lastTypingSentRef = useRef<number>(0);
@@ -125,22 +127,31 @@ export function OrderChat({ orderId, isWritable }: OrderChatProps) {
     }
   }, [chatData]);
 
-  // Auto-scroll to bottom on messages change and on initial mount
-  const scrollToBottom = useCallback(() => {
-    // Use setTimeout to ensure DOM is rendered (especially after tab switch)
+  // Scroll helpers
+  const scrollToBottom = useCallback((instant = false) => {
     setTimeout(() => {
-      messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
-    }, 50);
+      const container = scrollContainerRef.current;
+      if (container) {
+        container.scrollTo({
+          top: container.scrollHeight,
+          behavior: instant ? 'instant' : 'smooth',
+        });
+      }
+    }, 60);
   }, []);
 
+  // Scroll on new messages (smooth)
   useEffect(() => {
-    scrollToBottom();
+    if (messages.length > 0) {
+      scrollToBottom(false);
+    }
   }, [messages, scrollToBottom]);
 
-  // Also scroll on first render / tab switch (chatData loaded from cache)
+  // Instant scroll on first load / tab switch
   useEffect(() => {
-    if (chatData?.messages?.length) {
-      scrollToBottom();
+    if (chatData?.messages?.length && !initialScrollDone.current) {
+      initialScrollDone.current = true;
+      scrollToBottom(true);
     }
   }, [chatData, scrollToBottom]);
 
@@ -417,7 +428,7 @@ export function OrderChat({ orderId, isWritable }: OrderChatProps) {
   return (
     <div className="flex flex-col" style={{ minHeight: 300, maxHeight: 500 }}>
       {/* Messages area */}
-      <div className="flex-1 overflow-y-auto space-y-2 pb-2 px-1" style={{ maxHeight: 400 }}>
+      <div ref={scrollContainerRef} className="flex-1 overflow-y-auto space-y-2 pb-2 px-1" style={{ maxHeight: 400 }}>
         {messages.map((msg) => (
           <MessageBubble key={msg.id} message={msg} />
         ))}
