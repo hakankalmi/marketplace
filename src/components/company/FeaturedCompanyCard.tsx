@@ -77,9 +77,13 @@ export function FeaturedCompanyCard({ company, index = 0 }: Props) {
                   </span>
                 </div>
               )}
-              {/* Gradient overlay */}
-              <div className="absolute inset-0 bg-gradient-to-r from-transparent via-transparent to-brand-surface/80 hidden sm:block" />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent sm:hidden" />
+              {/* Gradient overlay — only for photos, not logos */}
+              {company.photoUrls?.[0] && (
+                <>
+                  <div className="absolute inset-0 bg-gradient-to-r from-transparent via-transparent to-brand-surface/80 hidden sm:block" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent sm:hidden" />
+                </>
+              )}
             </div>
 
             {/* Content */}
