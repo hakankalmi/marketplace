@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { useQuery } from '@tanstack/react-query';
-import { ShoppingBag, ChevronRight, Clock, CheckCircle, XCircle, AlertCircle, Camera } from 'lucide-react';
+import { ShoppingBag, ChevronRight, Clock, CheckCircle, XCircle, AlertCircle, MessageCircle } from 'lucide-react';
 import Image from 'next/image';
 import { getOrders } from '@/lib/api/orders';
 import { Badge } from '@/components/ui/badge';
@@ -11,6 +11,11 @@ import { Button } from '@/components/ui/button';
 import { Skeleton } from '@/components/ui/skeleton';
 import { formatDate } from '@/lib/utils';
 import type { MarketplaceOrderStatus } from '@/lib/api/types';
+
+/** Chat available for: Accepted(1), InProgress(5), Completed(6), Disputed(7) */
+function hasChatAccess(status: number): boolean {
+  return status === 1 || status === 5 || status === 6 || status === 7;
+}
 
 const statusConfig: Record<number, { label: string; variant: 'default' | 'success' | 'warning' | 'error' | 'accent'; icon: typeof Clock }> = {
   0: { label: 'Beklemede', variant: 'warning', icon: Clock },
@@ -96,14 +101,24 @@ export default function SiparislerimPage() {
                       <p className="font-medium text-brand-text group-hover:text-brand-primary transition-colors truncate">
                         {order.companyName}
                       </p>
-                      <ChevronRight
-                        size={18}
-                        className="text-brand-text-muted group-hover:text-brand-primary transition-colors shrink-0"
-                      />
+                      <div className="flex items-center gap-1.5 shrink-0">
+                        {hasChatAccess(order.status) && (
+                          <MessageCircle size={16} className="text-brand-primary" />
+                        )}
+                        <ChevronRight
+                          size={18}
+                          className="text-brand-text-muted group-hover:text-brand-primary transition-colors"
+                        />
+                      </div>
                     </div>
                     <div className="flex items-center justify-between gap-2 mt-1">
                       <p className="text-xs text-brand-text-muted truncate">
                         {order.marketplaceOrderCode} · {formatDate(order.createdAt)}
+                        {order.totalAmount != null && order.totalAmount > 0 && (
+                          <span className="font-semibold text-brand-text ml-1.5">
+                            · {order.totalAmount.toLocaleString('tr-TR')} {order.currency || '₺'}
+                          </span>
+                        )}
                       </p>
                       <Badge variant={status.variant}>
                         <StatusIcon size={12} />
