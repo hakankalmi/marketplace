@@ -101,7 +101,6 @@ export function OrderChat({ orderId, isWritable }: OrderChatProps) {
   const [recordingDuration, setRecordingDuration] = useState(0);
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const scrollContainerRef = useRef<HTMLDivElement>(null);
-  const initialScrollDone = useRef(false);
   const inputRef = useRef<HTMLInputElement>(null);
   const typingTimeoutRef = useRef<ReturnType<typeof setTimeout>>(undefined);
   const lastTypingSentRef = useRef<number>(0);
@@ -127,31 +126,26 @@ export function OrderChat({ orderId, isWritable }: OrderChatProps) {
     }
   }, [chatData]);
 
-  // Scroll helpers
-  const scrollToBottom = useCallback((instant = false) => {
-    setTimeout(() => {
-      const container = scrollContainerRef.current;
-      if (container) {
-        container.scrollTo({
-          top: container.scrollHeight,
-          behavior: instant ? 'instant' : 'smooth',
-        });
-      }
-    }, 60);
+  // Scroll helper — force container to bottom
+  const scrollToBottom = useCallback(() => {
+    const container = scrollContainerRef.current;
+    if (container) {
+      container.scrollTop = container.scrollHeight;
+    }
   }, []);
 
-  // Scroll on new messages (smooth)
+  // Scroll on new messages
   useEffect(() => {
     if (messages.length > 0) {
-      scrollToBottom(false);
+      setTimeout(scrollToBottom, 100);
     }
   }, [messages, scrollToBottom]);
 
-  // Instant scroll on first load / tab switch
+  // Scroll 1 second after page load (ensures images etc. are rendered)
   useEffect(() => {
-    if (chatData?.messages?.length && !initialScrollDone.current) {
-      initialScrollDone.current = true;
-      scrollToBottom(true);
+    if (chatData?.messages?.length) {
+      const timer = setTimeout(scrollToBottom, 1000);
+      return () => clearTimeout(timer);
     }
   }, [chatData, scrollToBottom]);
 
