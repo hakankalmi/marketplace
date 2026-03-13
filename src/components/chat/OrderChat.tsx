@@ -106,6 +106,8 @@ export function OrderChat({ orderId, isWritable }: OrderChatProps) {
   const mediaRecorderRef = useRef<MediaRecorder | null>(null);
   const recordingChunksRef = useRef<Blob[]>([]);
   const recordingTimerRef = useRef<ReturnType<typeof setInterval>>(undefined);
+  const recordingDurationRef = useRef(0);
+  const conversationIdRef = useRef<string | null>(null);
 
   // Load initial messages via REST
   const { data: chatData, isLoading } = useQuery({
@@ -119,13 +121,28 @@ export function OrderChat({ orderId, isWritable }: OrderChatProps) {
     if (chatData) {
       setMessages(chatData.messages);
       setChatConversationId(chatData.conversationId);
+      conversationIdRef.current = chatData.conversationId;
     }
   }, [chatData]);
 
-  // Auto-scroll to bottom
+  // Auto-scroll to bottom on messages change and on initial mount
+  const scrollToBottom = useCallback(() => {
+    // Use setTimeout to ensure DOM is rendered (especially after tab switch)
+    setTimeout(() => {
+      messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+    }, 50);
+  }, []);
+
   useEffect(() => {
-    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
-  }, [messages]);
+    scrollToBottom();
+  }, [messages, scrollToBottom]);
+
+  // Also scroll on first render / tab switch (chatData loaded from cache)
+  useEffect(() => {
+    if (chatData?.messages?.length) {
+      scrollToBottom();
+    }
+  }, [chatData, scrollToBottom]);
 
   // SignalR connection
   useEffect(() => {
@@ -258,7 +275,14 @@ export function OrderChat({ orderId, isWritable }: OrderChatProps) {
     if (!conversationId || sending) return;
     try {
       const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-      const recorder = new MediaRecorder(stream, { mimeType: 'audio/webm' });
+
+      // Detect supported mimeType
+      const mimeType = MediaRecorder.isTypeSupported('audio/webm;codecs=opus')
+        ? 'audio/webm;codecs=opus'
+        : MediaRecorder.isTypeSupported('audio/webm')
+          ? 'audio/webm'
+          : 'audio/mp4';
+      const recorder = new MediaRecorder(stream, { mimeType });
       recordingChunksRef.current = [];
 
       recorder.ondataavailable = (e) => {
@@ -267,18 +291,28 @@ export function OrderChat({ orderId, isWritable }: OrderChatProps) {
 
       recorder.onstop = async () => {
         stream.getTracks().forEach((t) => t.stop());
-        const blob = new Blob(recordingChunksRef.current, { type: 'audio/webm' });
+        const blob = new Blob(recordingChunksRef.current, { type: mimeType });
         if (blob.size < 1000) return; // too short, ignore
+
+        // Use refs for fresh values (avoid stale closures)
+        const convId = conversationIdRef.current;
+        const duration = recordingDurationRef.current;
+
+        if (!convId) {
+          console.error('Voice: conversationId is null');
+          return;
+        }
 
         setSending(true);
         try {
-          const result = await uploadVoiceBlob(blob, orderId, recordingDuration);
+          const ext = mimeType.includes('mp4') ? 'mp4' : 'webm';
+          const result = await uploadVoiceBlob(blob, orderId, duration);
           await sendMessage(
-            conversationId!,
+            convId,
             'Ses mesajı',
             2, // Voice
             result.url,
-            'voice.webm',
+            `voice.${ext}`,
             result.size,
             result.duration
           );
@@ -294,10 +328,15 @@ export function OrderChat({ orderId, isWritable }: OrderChatProps) {
       recorder.start();
       setRecording(true);
       setRecordingDuration(0);
+      recordingDurationRef.current = 0;
       recordingTimerRef.current = setInterval(() => {
-        setRecordingDuration((d) => d + 1);
+        setRecordingDuration((d) => {
+          recordingDurationRef.current = d + 1;
+          return d + 1;
+        });
       }, 1000);
-    } catch {
+    } catch (err) {
+      console.error('Microphone access failed:', err);
       alert('Mikrofon erişimi reddedildi.');
     }
   };
