@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { useQuery, useQueryClient } from '@tanstack/react-query';
-import { Send, Loader2, FileText, Play, Download, Paperclip, Mic, Square, X } from 'lucide-react';
+import { Send, Loader2, FileText, Play, Pause, Download, Paperclip, Mic, Square, X } from 'lucide-react';
 import { getChatMessages, uploadChatFileViaBackend } from '@/lib/api/chat';
 import {
   connectChat,
@@ -515,33 +515,9 @@ function MessageContent({ message, isCustomer }: { message: ChatMessage; isCusto
     );
   }
 
-  // Voice
+  // Voice — inline player
   if (message.messageType === 2 && message.fileUrl) {
-    const durationLabel = message.duration
-      ? `${Math.floor(message.duration / 60)}:${String(message.duration % 60).padStart(2, '0')}`
-      : '';
-    return (
-      <div className="flex items-center gap-2 min-w-[160px]">
-        <a
-          href={message.fileUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className={`w-8 h-8 flex items-center justify-center rounded-full shrink-0 ${
-            isCustomer ? 'bg-white/20' : 'bg-brand-primary/10'
-          }`}
-        >
-          <Play size={14} className={isCustomer ? 'text-white' : 'text-brand-primary'} />
-        </a>
-        <div className="flex-1">
-          <div className={`h-1 rounded-full ${isCustomer ? 'bg-white/30' : 'bg-brand-primary/20'}`} />
-        </div>
-        {durationLabel && (
-          <span className={`text-[10px] ${isCustomer ? 'text-white/70' : 'text-brand-text-muted'}`}>
-            {durationLabel}
-          </span>
-        )}
-      </div>
-    );
+    return <VoicePlayer message={message} isCustomer={isCustomer} />;
   }
 
   // File
@@ -701,6 +677,114 @@ function ChatInput({
           {sending ? <Loader2 size={18} className="animate-spin" /> : <Mic size={18} />}
         </button>
       )}
+    </div>
+  );
+}
+
+// ─── Voice Player Component ──────────────────────────────────
+
+function VoicePlayer({ message, isCustomer }: { message: ChatMessage; isCustomer: boolean }) {
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+  const [isPlaying, setIsPlaying] = useState(false);
+  const [progress, setProgress] = useState(0);
+  const [currentTime, setCurrentTime] = useState(0);
+  const rafRef = useRef<number>(0);
+
+  const totalDuration = message.duration || 0;
+
+  const formatTime = (sec: number) => {
+    const m = Math.floor(sec / 60);
+    const s = Math.floor(sec % 60);
+    return `${m}:${String(s).padStart(2, '0')}`;
+  };
+
+  const togglePlay = () => {
+    if (!audioRef.current) {
+      audioRef.current = new Audio(message.fileUrl!);
+      audioRef.current.addEventListener('ended', () => {
+        setIsPlaying(false);
+        setProgress(1);
+        cancelAnimationFrame(rafRef.current);
+      });
+    }
+
+    const audio = audioRef.current;
+
+    if (isPlaying) {
+      audio.pause();
+      setIsPlaying(false);
+      cancelAnimationFrame(rafRef.current);
+    } else {
+      if (progress >= 1) {
+        audio.currentTime = 0;
+        setProgress(0);
+      }
+      audio.play();
+      setIsPlaying(true);
+      const tick = () => {
+        if (audio.duration && audio.duration > 0) {
+          setProgress(audio.currentTime / audio.duration);
+          setCurrentTime(audio.currentTime);
+        }
+        rafRef.current = requestAnimationFrame(tick);
+      };
+      rafRef.current = requestAnimationFrame(tick);
+    }
+  };
+
+  // Cleanup
+  useEffect(() => {
+    return () => {
+      cancelAnimationFrame(rafRef.current);
+      if (audioRef.current) {
+        audioRef.current.pause();
+        audioRef.current = null;
+      }
+    };
+  }, []);
+
+  // Waveform bars
+  const barHeights = [0.3,0.8,0.5,1,0.4,0.9,0.6,0.2,0.7,0.5,0.9,0.4,0.8,0.3,0.6,1,0.5,0.7,0.4,0.8];
+
+  const displayTime = isPlaying ? currentTime : totalDuration;
+
+  return (
+    <div className="flex items-center gap-2.5 min-w-[180px]">
+      {/* Play/Pause */}
+      <button
+        onClick={togglePlay}
+        className={`w-9 h-9 flex items-center justify-center rounded-full shrink-0 transition-colors ${
+          isCustomer ? 'bg-white/20 hover:bg-white/30' : 'bg-brand-primary/10 hover:bg-brand-primary/20'
+        }`}
+      >
+        {isPlaying
+          ? <Pause size={16} className={isCustomer ? 'text-white' : 'text-brand-primary'} />
+          : <Play size={16} className={`${isCustomer ? 'text-white' : 'text-brand-primary'} ml-0.5`} />
+        }
+      </button>
+
+      {/* Waveform */}
+      <div className="flex-1 flex flex-col gap-1">
+        <div className="flex items-end gap-[2px] h-6">
+          {barHeights.map((h, i) => {
+            const isPlayed = i < progress * barHeights.length;
+            return (
+              <div
+                key={i}
+                className={`w-[3px] rounded-full transition-colors ${
+                  isPlayed
+                    ? (isCustomer ? 'bg-white' : 'bg-brand-primary')
+                    : (isCustomer ? 'bg-white/30' : 'bg-brand-primary/20')
+                }`}
+                style={{ height: `${h * 100}%` }}
+              />
+            );
+          })}
+        </div>
+        <span className={`text-[10px] tabular-nums ${isCustomer ? 'text-white/70' : 'text-brand-text-muted'}`}>
+          {formatTime(displayTime)}
+        </span>
+      </div>
     </div>
   );
 }
