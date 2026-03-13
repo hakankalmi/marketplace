@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { useQuery, useQueryClient } from '@tanstack/react-query';
-import { Send, Loader2, FileText, Play, Pause, Download, Paperclip, Mic, Square, X } from 'lucide-react';
+import { Send, Loader2, FileText, Play, Pause, Download, Paperclip, Mic, Square, X, ZoomIn } from 'lucide-react';
 import { getChatMessages, uploadChatFileViaBackend } from '@/lib/api/chat';
 import {
   connectChat,
@@ -495,21 +495,29 @@ function MessageBubble({ message }: { message: ChatMessage }) {
 /* ─────────── Message Content (by type) ─────────── */
 
 function MessageContent({ message, isCustomer }: { message: ChatMessage; isCustomer: boolean }) {
-  // Image
+  const [lightboxOpen, setLightboxOpen] = useState(false);
+
+  // Image — click to open lightbox overlay
   if (message.messageType === 1 && message.fileUrl) {
     return (
       <div className="space-y-1">
-        <a href={message.fileUrl} target="_blank" rel="noopener noreferrer">
+        <div className="relative cursor-pointer group" onClick={() => setLightboxOpen(true)}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={message.fileUrl}
             alt={message.fileName || 'Resim'}
-            className="max-w-[240px] max-h-[240px] rounded-lg object-cover cursor-pointer hover:opacity-90 transition-opacity"
+            className="max-w-[240px] max-h-[240px] rounded-lg object-cover group-hover:opacity-90 transition-opacity"
             loading="lazy"
           />
-        </a>
+          <div className="absolute top-1.5 right-1.5 bg-black/50 rounded-md p-1 opacity-0 group-hover:opacity-100 transition-opacity">
+            <ZoomIn size={14} className="text-white" />
+          </div>
+        </div>
         {message.content && message.content !== message.fileName && (
           <p className="text-sm whitespace-pre-wrap break-words">{message.content}</p>
+        )}
+        {lightboxOpen && (
+          <ImageLightbox imageUrl={message.fileUrl} onClose={() => setLightboxOpen(false)} />
         )}
       </div>
     );
@@ -677,6 +685,41 @@ function ChatInput({
           {sending ? <Loader2 size={18} className="animate-spin" /> : <Mic size={18} />}
         </button>
       )}
+    </div>
+  );
+}
+
+// ─── Image Lightbox ──────────────────────────────────────────
+
+function ImageLightbox({ imageUrl, onClose }: { imageUrl: string; onClose: () => void }) {
+  useEffect(() => {
+    const handleKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') onClose();
+    };
+    document.addEventListener('keydown', handleKey);
+    return () => document.removeEventListener('keydown', handleKey);
+  }, [onClose]);
+
+  return (
+    <div
+      className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm animate-in fade-in duration-200"
+      onClick={onClose}
+    >
+      {/* Close button */}
+      <button
+        onClick={onClose}
+        className="absolute top-4 right-4 w-10 h-10 flex items-center justify-center rounded-full bg-black/60 text-white hover:bg-black/80 transition-colors z-10"
+      >
+        <X size={20} />
+      </button>
+      {/* Full-size image */}
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        src={imageUrl}
+        alt="Büyük görüntü"
+        className="max-w-[90vw] max-h-[90vh] object-contain rounded-lg shadow-2xl"
+        onClick={(e) => e.stopPropagation()}
+      />
     </div>
   );
 }
