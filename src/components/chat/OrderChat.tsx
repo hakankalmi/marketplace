@@ -2,7 +2,9 @@
 
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { useQuery, useQueryClient } from '@tanstack/react-query';
-import { Send, Loader2 } from 'lucide-react';
+import { Send, Loader2, FileText, Play, Download, Paperclip, Image as ImageIcon, X } from 'lucide-react';
+import { ref, uploadBytes, getDownloadURL } from 'firebase/storage';
+import { storage } from '@/lib/firebase';
 import { getChatMessages } from '@/lib/api/chat';
 import {
   connectChat,
@@ -15,6 +17,60 @@ import {
   type ChatMessage,
 } from '@/lib/marketplace-chat';
 import { formatDate } from '@/lib/utils';
+
+const MAX_UPLOAD_SIZE = 10 * 1024 * 1024; // 10MB
+const MAX_IMAGE_DIMENSION = 1200;
+
+function resizeChatImage(file: File): Promise<Blob> {
+  return new Promise((resolve, reject) => {
+    const img = new window.Image();
+    img.onload = () => {
+      let { width, height } = img;
+      if (width <= MAX_IMAGE_DIMENSION && height <= MAX_IMAGE_DIMENSION) {
+        resolve(file);
+        return;
+      }
+      const ratio = Math.min(MAX_IMAGE_DIMENSION / width, MAX_IMAGE_DIMENSION / height);
+      width = Math.round(width * ratio);
+      height = Math.round(height * ratio);
+      const canvas = document.createElement('canvas');
+      canvas.width = width;
+      canvas.height = height;
+      const ctx = canvas.getContext('2d')!;
+      ctx.drawImage(img, 0, 0, width, height);
+      canvas.toBlob(
+        (blob) => (blob ? resolve(blob) : reject(new Error('Canvas toBlob failed'))),
+        'image/jpeg',
+        0.85
+      );
+    };
+    img.onerror = () => reject(new Error('Image load failed'));
+    img.src = URL.createObjectURL(file);
+  });
+}
+
+async function uploadChatFile(
+  file: File,
+  orderId: number,
+  folder: 'images' | 'files'
+): Promise<{ url: string; name: string; size: number }> {
+  let blob: Blob = file;
+  let contentType = file.type;
+
+  if (folder === 'images' && file.type.startsWith('image/')) {
+    blob = await resizeChatImage(file);
+    contentType = 'image/jpeg';
+  }
+
+  const ext = folder === 'images' ? 'jpg' : file.name.split('.').pop() || 'bin';
+  const path = `marketplace-chat/${orderId}/${folder}/${Date.now()}.${ext}`;
+  const storageRef = ref(storage, path);
+
+  await uploadBytes(storageRef, blob, { contentType });
+  const url = await getDownloadURL(storageRef);
+
+  return { url, name: file.name, size: file.size };
+}
 
 interface OrderChatProps {
   orderId: number;
@@ -131,7 +187,7 @@ export function OrderChat({ orderId, isWritable }: OrderChatProps) {
     }
   }, [conversationId]);
 
-  // Send message
+  // Send text message
   const handleSend = async () => {
     if (!input.trim() || !conversationId || sending) return;
 
@@ -147,6 +203,36 @@ export function OrderChat({ orderId, isWritable }: OrderChatProps) {
     } finally {
       setSending(false);
       inputRef.current?.focus();
+    }
+  };
+
+  // Send file/image
+  const handleFileSelect = async (file: File) => {
+    if (!conversationId || sending) return;
+    if (file.size > MAX_UPLOAD_SIZE) {
+      alert('Dosya boyutu 10MB\'dan küçük olmalı.');
+      return;
+    }
+
+    setSending(true);
+    try {
+      const isImage = file.type.startsWith('image/');
+      const folder = isImage ? 'images' : 'files';
+      const result = await uploadChatFile(file, orderId, folder);
+      const messageType = isImage ? 1 : 3; // 1=Image, 3=File
+      await sendMessage(
+        conversationId,
+        result.name,
+        messageType,
+        result.url,
+        result.name,
+        result.size
+      );
+    } catch (err) {
+      console.error('Failed to send file:', err);
+      alert('Dosya gönderilemedi.');
+    } finally {
+      setSending(false);
     }
   };
 
@@ -182,6 +268,7 @@ export function OrderChat({ orderId, isWritable }: OrderChatProps) {
               onSend={handleSend}
               onKeyDown={handleKeyDown}
               onTyping={handleTyping}
+              onFileSelect={handleFileSelect}
               inputRef={inputRef}
             />
           </div>
@@ -219,6 +306,7 @@ export function OrderChat({ orderId, isWritable }: OrderChatProps) {
           onSend={handleSend}
           onKeyDown={handleKeyDown}
           onTyping={handleTyping}
+          onFileSelect={handleFileSelect}
           inputRef={inputRef}
         />
       ) : (
@@ -262,7 +350,7 @@ function MessageBubble({ message }: { message: ChatMessage }) {
             {message.senderName}
           </p>
         )}
-        <p className="text-sm whitespace-pre-wrap break-words">{message.content}</p>
+        <MessageContent message={message} isCustomer={isCustomer} />
         <div className={`flex items-center justify-end gap-1 mt-0.5 ${
           isCustomer ? 'text-white/60' : 'text-brand-text-muted'
         }`}>
@@ -283,6 +371,102 @@ function MessageBubble({ message }: { message: ChatMessage }) {
   );
 }
 
+/* ─────────── Message Content (by type) ─────────── */
+
+function MessageContent({ message, isCustomer }: { message: ChatMessage; isCustomer: boolean }) {
+  // Image
+  if (message.messageType === 1 && message.fileUrl) {
+    return (
+      <div className="space-y-1">
+        <a href={message.fileUrl} target="_blank" rel="noopener noreferrer">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={message.fileUrl}
+            alt={message.fileName || 'Resim'}
+            className="max-w-[240px] max-h-[240px] rounded-lg object-cover cursor-pointer hover:opacity-90 transition-opacity"
+            loading="lazy"
+          />
+        </a>
+        {message.content && message.content !== message.fileName && (
+          <p className="text-sm whitespace-pre-wrap break-words">{message.content}</p>
+        )}
+      </div>
+    );
+  }
+
+  // Voice
+  if (message.messageType === 2 && message.fileUrl) {
+    const durationLabel = message.duration
+      ? `${Math.floor(message.duration / 60)}:${String(message.duration % 60).padStart(2, '0')}`
+      : '';
+    return (
+      <div className="flex items-center gap-2 min-w-[160px]">
+        <a
+          href={message.fileUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={`w-8 h-8 flex items-center justify-center rounded-full shrink-0 ${
+            isCustomer ? 'bg-white/20' : 'bg-brand-primary/10'
+          }`}
+        >
+          <Play size={14} className={isCustomer ? 'text-white' : 'text-brand-primary'} />
+        </a>
+        <div className="flex-1">
+          <div className={`h-1 rounded-full ${isCustomer ? 'bg-white/30' : 'bg-brand-primary/20'}`} />
+        </div>
+        {durationLabel && (
+          <span className={`text-[10px] ${isCustomer ? 'text-white/70' : 'text-brand-text-muted'}`}>
+            {durationLabel}
+          </span>
+        )}
+      </div>
+    );
+  }
+
+  // File
+  if (message.messageType === 3 && message.fileUrl) {
+    return (
+      <a
+        href={message.fileUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex items-center gap-2 hover:opacity-80 transition-opacity"
+      >
+        <FileText size={18} className={isCustomer ? 'text-white/80' : 'text-brand-primary'} />
+        <div className="flex-1 min-w-0">
+          <p className="text-sm font-medium truncate">{message.fileName || 'Dosya'}</p>
+          {message.fileSize && (
+            <p className={`text-[10px] ${isCustomer ? 'text-white/60' : 'text-brand-text-muted'}`}>
+              {(message.fileSize / 1024).toFixed(0)} KB
+            </p>
+          )}
+        </div>
+        <Download size={14} className={isCustomer ? 'text-white/60' : 'text-brand-text-muted'} />
+      </a>
+    );
+  }
+
+  // Video
+  if (message.messageType === 4 && message.fileUrl) {
+    return (
+      <div className="space-y-1">
+        <video
+          src={message.fileUrl}
+          controls
+          preload="metadata"
+          className="max-w-[280px] max-h-[200px] rounded-lg"
+        />
+        {message.content && message.content !== message.fileName && (
+          <p className="text-sm whitespace-pre-wrap break-words">{message.content}</p>
+        )}
+      </div>
+    );
+  }
+
+  // Text (default)
+  return <p className="text-sm whitespace-pre-wrap break-words">{message.content}</p>;
+}
+
 /* ─────────── Chat Input ─────────── */
 
 interface ChatInputProps {
@@ -292,12 +476,36 @@ interface ChatInputProps {
   onSend: () => void;
   onKeyDown: (e: React.KeyboardEvent) => void;
   onTyping: () => void;
+  onFileSelect: (file: File) => void;
   inputRef: React.RefObject<HTMLInputElement | null>;
 }
 
-function ChatInput({ input, setInput, sending, onSend, onKeyDown, onTyping, inputRef }: ChatInputProps) {
+function ChatInput({ input, setInput, sending, onSend, onKeyDown, onTyping, onFileSelect, inputRef }: ChatInputProps) {
+  const fileInputRef = useRef<HTMLInputElement>(null);
+
   return (
     <div className="flex items-center gap-2 pt-3 border-t border-brand-border">
+      {/* Attach button */}
+      <button
+        onClick={() => fileInputRef.current?.click()}
+        disabled={sending}
+        className="w-10 h-10 flex items-center justify-center rounded-full text-brand-text-muted hover:text-brand-primary hover:bg-brand-primary/5 disabled:opacity-40 transition-all shrink-0"
+        title="Dosya veya resim ekle"
+      >
+        <Paperclip size={18} />
+      </button>
+      <input
+        ref={fileInputRef}
+        type="file"
+        accept="image/*,.pdf,.doc,.docx,.xls,.xlsx,.txt"
+        className="hidden"
+        onChange={(e) => {
+          const file = e.target.files?.[0];
+          if (file) onFileSelect(file);
+          e.target.value = '';
+        }}
+      />
+
       <input
         ref={inputRef}
         type="text"
