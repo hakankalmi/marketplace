@@ -3,9 +3,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { useQuery, useQueryClient } from '@tanstack/react-query';
 import { Send, Loader2, FileText, Play, Download, Paperclip, Mic, Square, X } from 'lucide-react';
-import { ref, uploadBytes, getDownloadURL } from 'firebase/storage';
-import { storage } from '@/lib/firebase';
-import { getChatMessages } from '@/lib/api/chat';
+import { getChatMessages, uploadChatFileViaBackend } from '@/lib/api/chat';
 import {
   connectChat,
   disconnectChat,
@@ -47,41 +45,6 @@ function resizeChatImage(file: File): Promise<Blob> {
     img.onerror = () => reject(new Error('Image load failed'));
     img.src = URL.createObjectURL(file);
   });
-}
-
-async function uploadChatFile(
-  file: File,
-  orderId: number,
-  folder: 'images' | 'files'
-): Promise<{ url: string; name: string; size: number }> {
-  let blob: Blob = file;
-  let contentType = file.type;
-
-  if (folder === 'images' && file.type.startsWith('image/')) {
-    blob = await resizeChatImage(file);
-    contentType = 'image/jpeg';
-  }
-
-  const ext = folder === 'images' ? 'jpg' : file.name.split('.').pop() || 'bin';
-  const path = `marketplace-chat/${orderId}/${folder}/${Date.now()}.${ext}`;
-  const storageRef = ref(storage, path);
-
-  await uploadBytes(storageRef, blob, { contentType });
-  const url = await getDownloadURL(storageRef);
-
-  return { url, name: file.name, size: file.size };
-}
-
-async function uploadVoiceBlob(
-  blob: Blob,
-  orderId: number,
-  duration: number
-): Promise<{ url: string; size: number; duration: number }> {
-  const path = `marketplace-chat/${orderId}/voice/${Date.now()}.webm`;
-  const storageRef = ref(storage, path);
-  await uploadBytes(storageRef, blob, { contentType: 'audio/webm' });
-  const url = await getDownloadURL(storageRef);
-  return { url, size: blob.size, duration };
 }
 
 interface OrderChatProps {
@@ -256,16 +219,26 @@ export function OrderChat({ orderId, isWritable }: OrderChatProps) {
     setSending(true);
     try {
       const isImage = file.type.startsWith('image/');
-      const folder = isImage ? 'images' : 'files';
-      const result = await uploadChatFile(file, orderId, folder);
+      const folder = isImage ? 'images' as const : 'files' as const;
+
+      // Resize images client-side before uploading
+      let uploadBlob: Blob = file;
+      let uploadName = file.name;
+      if (isImage) {
+        uploadBlob = await resizeChatImage(file);
+        uploadName = file.name.replace(/\.[^.]+$/, '.jpg');
+      }
+
+      // Upload through authenticated backend proxy
+      const result = await uploadChatFileViaBackend(orderId, uploadBlob, uploadName, folder);
       const messageType = isImage ? 1 : 3; // 1=Image, 3=File
       await sendMessage(
         conversationId,
-        result.name,
+        result.fileName,
         messageType,
         result.url,
-        result.name,
-        result.size
+        result.fileName,
+        result.fileSize
       );
     } catch (err) {
       console.error('Failed to send file:', err);
@@ -311,15 +284,16 @@ export function OrderChat({ orderId, isWritable }: OrderChatProps) {
         setSending(true);
         try {
           const ext = mimeType.includes('mp4') ? 'mp4' : 'webm';
-          const result = await uploadVoiceBlob(blob, orderId, duration);
+          // Upload through authenticated backend proxy
+          const result = await uploadChatFileViaBackend(orderId, blob, `voice.${ext}`, 'voice');
           await sendMessage(
             convId,
             'Ses mesajı',
             2, // Voice
             result.url,
-            `voice.${ext}`,
-            result.size,
-            result.duration
+            result.fileName,
+            result.fileSize,
+            duration
           );
         } catch (err) {
           console.error('Failed to send voice:', err);
