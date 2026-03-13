@@ -1,5 +1,4 @@
-import { ref, uploadBytes, getDownloadURL } from 'firebase/storage';
-import { storage } from './firebase';
+import { API_URL, BRAND_CODE } from './constants';
 
 const MAX_FILE_SIZE = 5 * 1024 * 1024; // 5MB
 const MAX_DIMENSION = 1200;
@@ -40,7 +39,7 @@ function resizeImage(file: File): Promise<Blob> {
   });
 }
 
-/** Upload a photo to Firebase Storage and return the download URL */
+/** Upload a photo through authenticated backend proxy and return the download URL */
 export async function uploadOrderPhoto(
   file: File,
   type: 'before' | 'after',
@@ -53,15 +52,30 @@ export async function uploadOrderPhoto(
     throw new Error('Dosya boyutu 5MB\'dan küçük olmalı.');
   }
 
-  const resized = await resizeImage(file);
-  const timestamp = Date.now();
-  const folder = orderId || 'temp';
-  const path = `marketplace/orders/${folder}/${type}/${timestamp}.jpg`;
-  const storageRef = ref(storage, path);
+  const token = typeof window !== 'undefined' ? localStorage.getItem('mp_token') : null;
+  if (!token) throw new Error('Not authenticated');
 
-  await uploadBytes(storageRef, resized, {
-    contentType: 'image/jpeg',
+  const resized = await resizeImage(file);
+  const folder = orderId ? `orders/${orderId}/${type}` : `orders/temp/${type}`;
+
+  const formData = new FormData();
+  formData.append('file', resized, `${Date.now()}.jpg`);
+  formData.append('folder', folder);
+
+  const res = await fetch(`${API_URL}/api/mp/me/upload`, {
+    method: 'POST',
+    headers: {
+      Authorization: `Bearer ${token}`,
+      'X-Marketplace-Brand': BRAND_CODE,
+    },
+    body: formData,
   });
 
-  return getDownloadURL(storageRef);
+  if (!res.ok) {
+    const body = await res.json().catch(() => ({}));
+    throw new Error(body.message || 'Upload failed');
+  }
+
+  const data = await res.json();
+  return data.url;
 }
