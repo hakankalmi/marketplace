@@ -20,6 +20,10 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'firebasestorage.googleapis.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'haliyikamacilar.com',
+      },
     ],
   },
   // Modern browsers only — eliminates ~26 KiB polyfills
