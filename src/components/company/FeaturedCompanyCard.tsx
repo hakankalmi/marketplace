@@ -50,9 +50,13 @@ export function FeaturedCompanyCard({ company, index = 0 }: Props) {
             </div>
           </div>
 
-          <div className="flex flex-col sm:flex-row">
-            {/* Photo — larger for featured */}
-            <div className="relative w-full sm:w-48 h-36 sm:h-auto shrink-0 overflow-hidden">
+          <div className={`flex ${company.photoUrls?.[0] && !company.logoUrl ? 'flex-col sm:flex-row' : 'flex-row'}`}>
+            {/* Photo/Logo area */}
+            <div className={`relative shrink-0 overflow-hidden ${
+              company.photoUrls?.[0] && !company.logoUrl
+                ? 'w-full sm:w-48 h-36 sm:h-auto'
+                : 'w-28 sm:w-48 h-auto'
+            }`}>
               {company.photoUrls?.[0] ? (
                 <Image
                   src={company.photoUrls[0]}
@@ -67,17 +71,17 @@ export function FeaturedCompanyCard({ company, index = 0 }: Props) {
                   src={company.logoUrl}
                   alt={company.companyName}
                   fill
-                  sizes="(max-width: 640px) 100vw, 192px"
+                  sizes="(max-width: 640px) 112px, 192px"
                   className="object-cover"
                 />
               ) : (
-                <div className="w-full h-full min-h-[144px] bg-gradient-to-br from-brand-primary/5 to-brand-primary/15 flex items-center justify-center">
+                <div className="w-full h-full min-h-[112px] bg-gradient-to-br from-brand-primary/5 to-brand-primary/15 flex items-center justify-center">
                   <span className="text-4xl font-heading font-bold text-brand-primary/30">
                     {company.companyName[0]}
                   </span>
                 </div>
               )}
-              {/* Gradient overlay — only for photos, not logos */}
+              {/* Gradient overlay — only for photos */}
               {company.photoUrls?.[0] && (
                 <>
                   <div className="absolute inset-0 bg-gradient-to-r from-transparent via-transparent to-brand-surface/80 hidden sm:block" />
