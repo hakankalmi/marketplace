@@ -55,7 +55,7 @@ export function FeaturedCompanyCard({ company, index = 0 }: Props) {
             <div className={`relative shrink-0 overflow-hidden ${
               company.photoUrls?.[0] && !company.logoUrl
                 ? 'w-full sm:w-48 h-36 sm:h-auto'
-                : 'w-28 sm:w-48 h-auto'
+                : 'w-36 sm:w-56 h-auto'
             }`}>
               {company.photoUrls?.[0] ? (
                 <Image
