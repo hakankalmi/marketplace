@@ -1,6 +1,7 @@
 'use client';
 
-import { use, useState, useEffect } from 'react';
+import { use, useState, useEffect, useMemo } from 'react';
+import { useSearchParams } from 'next/navigation';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
@@ -632,7 +633,9 @@ export default function SiparisDetayPage({
 }) {
   const { id } = use(params);
   const queryClient = useQueryClient();
-  const [activeTab, setActiveTab] = useState<TabKey>('tracking');
+  const searchParams = useSearchParams();
+  const initialTab = (searchParams.get('tab') as TabKey) || 'tracking';
+  const [activeTab, setActiveTab] = useState<TabKey>(initialTab);
 
   const { data: order, isLoading } = useQuery({
     queryKey: ['order', id],

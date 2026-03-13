@@ -103,7 +103,13 @@ export default function SiparislerimPage() {
                       </p>
                       <div className="flex items-center gap-1.5 shrink-0">
                         {hasChatAccess(order.status) && (
-                          <MessageCircle size={16} className="text-brand-primary" />
+                          <Link
+                            href={`/hesabim/siparislerim/${order.id}?tab=chat`}
+                            onClick={(e) => e.stopPropagation()}
+                            className="w-8 h-8 flex items-center justify-center rounded-full hover:bg-brand-primary/10 transition-colors"
+                          >
+                            <MessageCircle size={16} className="text-brand-primary" />
+                          </Link>
                         )}
                         <ChevronRight
                           size={18}

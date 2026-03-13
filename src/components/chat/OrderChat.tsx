@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { useQuery, useQueryClient } from '@tanstack/react-query';
-import { Send, Loader2, FileText, Play, Download, Paperclip, Image as ImageIcon, X } from 'lucide-react';
+import { Send, Loader2, FileText, Play, Download, Paperclip, Mic, Square, X } from 'lucide-react';
 import { ref, uploadBytes, getDownloadURL } from 'firebase/storage';
 import { storage } from '@/lib/firebase';
 import { getChatMessages } from '@/lib/api/chat';
@@ -72,6 +72,18 @@ async function uploadChatFile(
   return { url, name: file.name, size: file.size };
 }
 
+async function uploadVoiceBlob(
+  blob: Blob,
+  orderId: number,
+  duration: number
+): Promise<{ url: string; size: number; duration: number }> {
+  const path = `marketplace-chat/${orderId}/voice/${Date.now()}.webm`;
+  const storageRef = ref(storage, path);
+  await uploadBytes(storageRef, blob, { contentType: 'audio/webm' });
+  const url = await getDownloadURL(storageRef);
+  return { url, size: blob.size, duration };
+}
+
 interface OrderChatProps {
   orderId: number;
   isWritable: boolean;
@@ -85,10 +97,15 @@ export function OrderChat({ orderId, isWritable }: OrderChatProps) {
   const [sending, setSending] = useState(false);
   const [connected, setConnected] = useState(false);
   const [typingName, setTypingName] = useState<string | null>(null);
+  const [recording, setRecording] = useState(false);
+  const [recordingDuration, setRecordingDuration] = useState(0);
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const typingTimeoutRef = useRef<ReturnType<typeof setTimeout>>(undefined);
   const lastTypingSentRef = useRef<number>(0);
+  const mediaRecorderRef = useRef<MediaRecorder | null>(null);
+  const recordingChunksRef = useRef<Blob[]>([]);
+  const recordingTimerRef = useRef<ReturnType<typeof setInterval>>(undefined);
 
   // Load initial messages via REST
   const { data: chatData, isLoading } = useQuery({
@@ -236,6 +253,82 @@ export function OrderChat({ orderId, isWritable }: OrderChatProps) {
     }
   };
 
+  // Voice recording
+  const startRecording = async () => {
+    if (!conversationId || sending) return;
+    try {
+      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      const recorder = new MediaRecorder(stream, { mimeType: 'audio/webm' });
+      recordingChunksRef.current = [];
+
+      recorder.ondataavailable = (e) => {
+        if (e.data.size > 0) recordingChunksRef.current.push(e.data);
+      };
+
+      recorder.onstop = async () => {
+        stream.getTracks().forEach((t) => t.stop());
+        const blob = new Blob(recordingChunksRef.current, { type: 'audio/webm' });
+        if (blob.size < 1000) return; // too short, ignore
+
+        setSending(true);
+        try {
+          const result = await uploadVoiceBlob(blob, orderId, recordingDuration);
+          await sendMessage(
+            conversationId!,
+            'Ses mesajı',
+            2, // Voice
+            result.url,
+            'voice.webm',
+            result.size,
+            result.duration
+          );
+        } catch (err) {
+          console.error('Failed to send voice:', err);
+          alert('Ses mesajı gönderilemedi.');
+        } finally {
+          setSending(false);
+        }
+      };
+
+      mediaRecorderRef.current = recorder;
+      recorder.start();
+      setRecording(true);
+      setRecordingDuration(0);
+      recordingTimerRef.current = setInterval(() => {
+        setRecordingDuration((d) => d + 1);
+      }, 1000);
+    } catch {
+      alert('Mikrofon erişimi reddedildi.');
+    }
+  };
+
+  const stopRecording = () => {
+    if (mediaRecorderRef.current?.state === 'recording') {
+      mediaRecorderRef.current.stop();
+    }
+    setRecording(false);
+    if (recordingTimerRef.current) {
+      clearInterval(recordingTimerRef.current);
+      recordingTimerRef.current = undefined;
+    }
+  };
+
+  const cancelRecording = () => {
+    if (mediaRecorderRef.current?.state === 'recording') {
+      mediaRecorderRef.current.ondataavailable = null;
+      mediaRecorderRef.current.onstop = null;
+      mediaRecorderRef.current.stop();
+      mediaRecorderRef.current.stream.getTracks().forEach((t) => t.stop());
+    }
+    recordingChunksRef.current = [];
+    setRecording(false);
+    setRecordingDuration(0);
+    if (recordingTimerRef.current) {
+      clearInterval(recordingTimerRef.current);
+      recordingTimerRef.current = undefined;
+    }
+  };
+
   const handleKeyDown = (e: React.KeyboardEvent) => {
     if (e.key === 'Enter' && !e.shiftKey) {
       e.preventDefault();
@@ -269,6 +362,11 @@ export function OrderChat({ orderId, isWritable }: OrderChatProps) {
               onKeyDown={handleKeyDown}
               onTyping={handleTyping}
               onFileSelect={handleFileSelect}
+              recording={recording}
+              recordingDuration={recordingDuration}
+              onStartRecording={startRecording}
+              onStopRecording={stopRecording}
+              onCancelRecording={cancelRecording}
               inputRef={inputRef}
             />
           </div>
@@ -307,6 +405,11 @@ export function OrderChat({ orderId, isWritable }: OrderChatProps) {
           onKeyDown={handleKeyDown}
           onTyping={handleTyping}
           onFileSelect={handleFileSelect}
+          recording={recording}
+          recordingDuration={recordingDuration}
+          onStartRecording={startRecording}
+          onStopRecording={stopRecording}
+          onCancelRecording={cancelRecording}
           inputRef={inputRef}
         />
       ) : (
@@ -477,11 +580,52 @@ interface ChatInputProps {
   onKeyDown: (e: React.KeyboardEvent) => void;
   onTyping: () => void;
   onFileSelect: (file: File) => void;
+  recording: boolean;
+  recordingDuration: number;
+  onStartRecording: () => void;
+  onStopRecording: () => void;
+  onCancelRecording: () => void;
   inputRef: React.RefObject<HTMLInputElement | null>;
 }
 
-function ChatInput({ input, setInput, sending, onSend, onKeyDown, onTyping, onFileSelect, inputRef }: ChatInputProps) {
+function ChatInput({
+  input, setInput, sending, onSend, onKeyDown, onTyping, onFileSelect,
+  recording, recordingDuration, onStartRecording, onStopRecording, onCancelRecording,
+  inputRef,
+}: ChatInputProps) {
   const fileInputRef = useRef<HTMLInputElement>(null);
+
+  const formatDuration = (s: number) =>
+    `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`;
+
+  // Recording mode
+  if (recording) {
+    return (
+      <div className="flex items-center gap-2 pt-3 border-t border-brand-border">
+        <button
+          onClick={onCancelRecording}
+          className="w-10 h-10 flex items-center justify-center rounded-full text-red-500 hover:bg-red-50 transition-all shrink-0"
+          title="İptal"
+        >
+          <X size={18} />
+        </button>
+        <div className="flex-1 flex items-center gap-2 px-4 py-2.5 bg-red-50 border border-red-200 rounded-full">
+          <span className="w-2 h-2 rounded-full bg-red-500 animate-pulse" />
+          <span className="text-sm font-medium text-red-600">
+            {formatDuration(recordingDuration)}
+          </span>
+          <span className="text-xs text-red-400">Kayıt yapılıyor...</span>
+        </div>
+        <button
+          onClick={onStopRecording}
+          className="w-10 h-10 flex items-center justify-center rounded-full bg-brand-primary text-white transition-opacity shrink-0"
+          title="Gönder"
+        >
+          <Send size={18} />
+        </button>
+      </div>
+    );
+  }
 
   return (
     <div className="flex items-center gap-2 pt-3 border-t border-brand-border">
@@ -519,17 +663,26 @@ function ChatInput({ input, setInput, sending, onSend, onKeyDown, onTyping, onFi
         className="flex-1 px-4 py-2.5 bg-brand-bg border border-brand-border rounded-full text-sm text-brand-text placeholder:text-brand-text-muted/50 focus:outline-none focus:ring-2 focus:ring-brand-primary/30 focus:border-brand-primary transition-all"
         disabled={sending}
       />
-      <button
-        onClick={onSend}
-        disabled={!input.trim() || sending}
-        className="w-10 h-10 flex items-center justify-center rounded-full bg-brand-primary text-white disabled:opacity-40 transition-opacity shrink-0"
-      >
-        {sending ? (
-          <Loader2 size={18} className="animate-spin" />
-        ) : (
-          <Send size={18} />
-        )}
-      </button>
+
+      {/* Send text or start voice */}
+      {input.trim() ? (
+        <button
+          onClick={onSend}
+          disabled={sending}
+          className="w-10 h-10 flex items-center justify-center rounded-full bg-brand-primary text-white disabled:opacity-40 transition-opacity shrink-0"
+        >
+          {sending ? <Loader2 size={18} className="animate-spin" /> : <Send size={18} />}
+        </button>
+      ) : (
+        <button
+          onClick={onStartRecording}
+          disabled={sending}
+          className="w-10 h-10 flex items-center justify-center rounded-full bg-brand-primary text-white disabled:opacity-40 transition-opacity shrink-0"
+          title="Ses kaydı"
+        >
+          {sending ? <Loader2 size={18} className="animate-spin" /> : <Mic size={18} />}
+        </button>
+      )}
     </div>
   );
 }
