@@ -963,6 +963,434 @@ Düzenli müşterilere %15-25 indirim uygulanır. Haftalık 4 seans paketi stand
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'koltuk-yikama-fiyatlari', 'yaz-temizligi-kontrol-listesi'],
   },
+  /* ───── ÖZGÜN ŞEHİR MAKALELERİ — Gerçek Pazar Verisiyle ───── */
+
+  {
+    slug: 'istanbul-hali-yikama-rehberi-2026',
+    city: 'İstanbul',
+    citySlug: 'istanbul',
+    title: 'İstanbul\'da 112 Halı Yıkama Firması Var — Doğru Olanı Nasıl Bulursunuz?',
+    metaTitle: 'İstanbul Halı Yıkama 2026 | 112 Firma, Gerçek Fiyatlar, Doğru Seçim',
+    metaDescription: 'İstanbul halı yıkama firmaları arasından doğru seçim nasıl yapılır? 112 firmanın gerçek fiyat listesi, ilçe bazlı karşılaştırma ve tuzaklardan korunma rehberi.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 9,
+    heroEmoji: '🌉',
+    intro: 'İstanbul\'da şu an 112 halı yıkama firması aktif olarak hizmet veriyor. Peki bir dakika — 112 firma arasından nasıl seçim yapacaksınız? Birinin makine halısı fiyatı 80 TL/m², diğerininki 140 TL/m². Arada neredeyse iki kat fark var. Bu fark neyi anlatıyor? Ucuz olan kötü mü, pahalı olan iyi mi? Bu yazıda İstanbul halı yıkama pazarını gerçek verilerle masaya yatırıyoruz — yıldız puanı, sipariş sayısı, fiyat listesi ve ilçe dağılımıyla.',
+    sections: [
+      {
+        heading: 'İstanbul Halı Yıkama Pazarının Gerçek Yüzü',
+        content: `İstanbul halı yıkama pazarı Türkiye\'nin en büyük, en kalabalık ve en karmaşık pazarı. 112 aktif firmanın birçoğu birden fazla ilçeye hizmet veriyor. Bu büyüklük hem avantaj hem dezavantaj:
+
+**Avantaj — Rekabet:** Bu kadar firmanın olduğu bir pazarda fiyatlar doğal olarak baskılanıyor. [İstanbul halı yıkama firmaları](/istanbul-hali-yikama-firmalari) arasında karşılaştırma yapmak, daha iyi fiyat ve hizmet bulmanın en kolay yolu. Firma sayısı arttıkça fiyat/kalite oranı sizin lehinize çalışıyor.
+
+**Dezavantaj — Kalabalıkta Kaybolmak:** 112 firma arasında hangisine güveneceğinizi bilmek zor. İsmi bile olmayan, WhatsApp\'tan sipariş alıp kamyonetle halı toplayan kayıt dışı "firmalar" da bu sayıya dahil değil — onlar zaten platformda yer almıyor. Ama platformdaki 112 firma arasında bile ciddi kalite farkları var.
+
+**Gerçek Sipariş Verileri:**
+Platformda en çok sipariş alan İstanbul firması 40 tamamlanmış sipariş ile öne çıkıyor. Bu sayı küçük görünebilir ama platform yeni — önemli olan trendin yukarı yönlü olması. Karşılaştırma için, İzmir\'de bir firma 138, Bursa\'da iki firma 119 ve 136 sipariş tamamlamış durumda. İstanbul\'da firma sayısı çok ama pazarın dağınıklığı nedeniyle siparişler daha geniş bir yelpazede dağılıyor.`,
+      },
+      {
+        heading: 'İstanbul Halı Yıkama Gerçek Fiyatları — Platformdaki Firmalardan',
+        content: `Aşağıdaki fiyatlar İstanbul\'da aktif olarak hizmet veren firmaların güncel fiyat listelerinden alınmıştır:
+
+| Halı Türü | Fiyat (TL/m²) |
+|-----------|---------------|
+| Makine Halısı | 80-140 |
+| Hasır Halı | 120 |
+| Makine Yün | 140 |
+| Akrilik Halı | 160 |
+| Şaggy (Uzun Tüylü) | 160 |
+| Kilim | 150 |
+| Nepal Halısı | 180 |
+| Deri Halı | 200 |
+| Yün Halı | 200 |
+| El Dokuma | 250 |
+| Bambu Halı | 300 |
+| İpekli Nepal | 300 |
+| Çin Halısı | 300 |
+
+**Halı dışı hizmetler:**
+- Koltuk takımı yıkama: 2.500 TL
+- Yorgan / Battaniye: 600 TL/adet
+- Stor / Zebra perde: 200 TL/m²
+- Yatak yıkama: 500 TL/adet
+
+**Kritik bilgi:** Aynı İstanbul\'da bile makine halısı fiyatı 80-140 TL/m² arasında değişiyor. Bu %75\'lik fark nereden geliyor? Birincisi, ilçe — Güngören\'deki firma ile Beşiktaş\'taki firmanın kira, işçilik ve ulaşım maliyetleri çok farklı. İkincisi, firmanın yıkama kalitesi ve kullandığı deterjan. Ucuz deterjan kullanan firma daha düşük fiyat sunabilir ama halınız 2 hafta içinde tekrar kirleniyorsa o "ucuzluk" aslında pahalıya gelmiştir.
+
+Firmaların güncel fiyat listelerini [İstanbul halı yıkama firmaları](/istanbul-hali-yikama-firmalari) sayfasında doğrudan görebilirsiniz.`,
+      },
+      {
+        heading: 'İstanbul\'da Hangi İlçeden Firma Seçmeli?',
+        content: `İstanbul\'da firma seçerken en önemli kriter ilçe yakınlığı. Bunun sebebi basit matematik:
+
+Firma adresinize iki kez geliyor — halıyı almak ve geri getirmek. Beylikdüzü\'nden Kadıköy\'e gidip gelen firma sadece mazota 400-500 TL harcıyor. Bu maliyet doğrudan sizin faturanıza yansıyor.
+
+**Pratik kural:** Kendi ilçenizde veya komşu ilçelerde hizmet veren firmayı tercih edin. Platformda [İstanbul halı yıkama firmaları](/istanbul-hali-yikama-firmalari) sayfasında ilçe bazlı filtreleme yapabilirsiniz.
+
+**Avrupa Yakası vs Anadolu Yakası:**
+Bir yakadan diğer yakaya halı göndermek hem pahalı hem yavaş. Köprü geçiş ücreti, trafik ve zaman kaybı düşünün. Kendi yakasındaki firmayı tercih etmek hem daha ucuz hem daha hızlı. Mümkünse ilçenize 15-20 dakika mesafedeki firmalarla çalışın.
+
+**İstanbul\'un Gizli Avantajı — Uzmanlaşma:**
+112 firma demek niş uzmanlık demek. Makine halısı yıkayan standart firma var, ama sadece ipek ve antik halılara özel hizmet veren butik firma da var. El halınız veya ipek halınız varsa — özellikle de değeri 10.000 TL\'yi aşıyorsa — genel firma yerine o türe uzmanlaşmış firmayı arayın.`,
+      },
+      {
+        heading: 'İstanbul\'da Halı Yıkatırken Tuzaklardan Korunma',
+        content: `112 firmalık bir pazarda sizi bekleyen tuzaklar:
+
+**1. "Halıyı göreyim, sonra fiyat söylerim" diyen firma:**
+Fiyat listesi olmayan, halıyı gördükten sonra fiyat belirlediğini söyleyen firmalardan uzak durun. Bu yöntem genellikle fiyat şişirme amacı taşır. Ciddi firmalar m² fiyatını önceden belirler ve yayınlar.
+
+**2. Kapıda nakit isteyen firma:**
+Profesyonel firmalar banka havalesi, kredi kartı veya online ödeme kabul eder. "Sadece nakit" diyen firma büyük ihtimalle vergisiz çalışıyordur — bu da sorun çıktığında yasal haklarınızın olmadığı anlamına gelir.
+
+**3. Teslimat süresi belirsiz firma:**
+İstanbul trafiği zaten zor. Bir de firmanın "2-3 güne, belki 1 haftaya..." şeklinde belirsiz teslimat vermesi kabul edilemez. Sipariş öncesi net teslimat tarihi isteyin.
+
+**4. Güvenlik önlemi — Fotoğraf çekin:**
+Halılarınızı teslim etmeden önce her birinin fotoğrafını çekin. Boyutlarını, özel desenlerini ve mevcut hasarlarını kaydedin. Bu basit adım, olası anlaşmazlıklarda en güçlü kanıtınız.
+
+Güvenilir firma bulmak için [İstanbul halı yıkama firmaları](/istanbul-hali-yikama-firmalari) sayfasından doğrulanmış firmaları, müşteri yorumlarını ve sipariş sayılarını karşılaştırabilirsiniz.`,
+      },
+    ],
+    faq: [
+      { q: 'İstanbul\'da halı yıkama kaç TL 2026?', a: 'Makine halısı 80-140 TL/m², yün 200 TL/m², ipek/bambu 300 TL/m². Firmalar arası fark büyük — platform üzerinden karşılaştırma yapın.' },
+      { q: 'İstanbul\'da kaç halı yıkama firması var?', a: 'Platformda 112 aktif firma listeleniyor. Kayıt dışı firmalarla birlikte bu sayı çok daha yüksek ama güvenlik için kayıtlı firmalarla çalışın.' },
+      { q: 'İstanbul\'da halı yıkama kaç gün sürer?', a: 'Ortalama 3-5 gün. Yaz aylarında (Haziran-Temmuz) 7 güne uzayabilir. Trafik yoğunluğu teslimatı 1 gün uzatabilir.' },
+    ],
+    relatedSlugs: ['istanbul-hali-yikama', 'hali-yikama-fiyatlari', 'hali-yikama-firmasi-nasil-secilir'],
+  },
+
+  {
+    slug: 'ankara-hali-yikama-gercek-fiyatlar',
+    city: 'Ankara',
+    citySlug: 'ankara',
+    title: 'Ankara Halı Yıkama: 65 Firma, Gerçek Fiyatlar ve Başkentin Avantajı',
+    metaTitle: 'Ankara Halı Yıkama 2026 | 65 Firma, Gerçek Fiyatlar, İlçe Karşılaştırma',
+    metaDescription: 'Ankara halı yıkama firmaları gerçek fiyat karşılaştırması. 65 firmanın güncel m² fiyatları, Çankaya-Keçiören-Mamak ilçe bazlı analiz.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 8,
+    heroEmoji: '🏛️',
+    intro: 'Ankara\'da halı yıkama yaptırmak İstanbul\'a göre hem daha ucuz hem daha hızlı. 65 aktif firma, İstanbul\'un yarısından az gibi görünse de Ankara\'nın kompakt yapısı sayesinde ulaşım süreleri kısa ve teslimatlar hızlı. Platformdaki en çok sipariş alan Ankara firması 57 tamamlanmış siparişle öne çıkıyor — bu rakam İstanbul\'daki liderin (40 sipariş) üzerinde. Başkentin halı yıkama pazarını gerçek verilerle inceliyoruz.',
+    sections: [
+      {
+        heading: 'Ankara\'nın İstanbul\'a Karşı Avantajı',
+        content: `Ankara halı yıkama pazarını İstanbul ile karşılaştırdığınızda 3 belirgin avantaj öne çıkıyor:
+
+**1. Fiyat farkı ciddi.** Ankara\'daki firmalarda makine halısı 80 TL/m²\'den başlıyor. İstanbul\'da aynı hizmet 120-140 TL/m². Basit hesap: 15 m²\'lik salon halınız için Ankara\'da 1.200 TL, İstanbul\'da 2.100 TL. Aradaki 900 TL\'lik fark, aynı halı için aynı kalitede hizmet alırken cebinizde kalıyor.
+
+**2. Teslimat daha hızlı.** İstanbul\'da firma adresinize gelip dönmek 2-3 saat trafik demek. Ankara\'da aynı iş 45 dakika-1 saat. Bu zaman farkı doğrudan teslimat süresine yansıyor — Ankara\'da ortalama 2-4 gün, İstanbul\'da 4-7 gün.
+
+**3. Firmalar daha ulaşılabilir.** 65 firma 5.8 milyonluk nüfusa hizmet veriyor. Yoğunluk daha az ama bu, firmaların müşteriye daha fazla vakit ayırdığı anlamına geliyor. İstanbul\'da siz firmayı seçiyorsunuz, Ankara\'da firma sizi kaybetmek istemiyor.
+
+[Ankara halı yıkama firmaları](/ankara-hali-yikama-firmalari) sayfasından ilçenize göre filtreleme yapabilir ve fiyat listelerini karşılaştırabilirsiniz.`,
+      },
+      {
+        heading: 'Ankara Halı Yıkama Gerçek Fiyatları — Firmalardan Birebir',
+        content: `Ankara\'da platformda listelenen firmaların güncel fiyat listesinden derlenen veriler:
+
+| Halı Türü | Fiyat (TL/m²) |
+|-----------|---------------|
+| Makine Halısı | 80 |
+| Samur Halı | 85 |
+| Halıfleks | 90 |
+| Şaggy Halı | 95 |
+| Kilim / Makine Yün | 100 |
+| Akrilik / Deri Halı | 110 |
+| Yün / Isparta Halısı | 120 |
+| Step / Patchwork | 130 |
+| Hasır / İskandinav | 150 |
+| Viskon / Nepal / Bambu | 240 |
+| El Dokuma / Bünyan | 250 |
+| Milas Kök Boyalı | 300 |
+| Çin Halısı | 325 |
+| İpek Halı | 350 |
+
+**Halı dışı hizmetler:**
+- Koltuk takımı (minderli): 2.850 TL
+- Elyaf yorgan: 700 TL / Yün yorgan: 750 TL
+- Battaniye: 650 TL
+- Stor / Zebra perde: 110 TL/m²
+- Çekyat: 850 TL
+- Yatak (çift): 1.200 TL
+
+**Dikkat çeken detay:** Ankara\'daki firmalar ürün çeşitliliğinde İstanbul\'un önünde. Ankara\'daki bir firma 38 farklı ürün/hizmet listeliyor — makine halısından Bünyan halısına, yatak yıkamadan stor perde temizliğine kadar. Bu, Ankara firmalarının "her şeyi yapan" yapısını gösteriyor.
+
+Firmaların detaylı fiyat listelerine [Ankara halı yıkama firmaları](/ankara-hali-yikama-firmalari) sayfasından ulaşabilirsiniz.`,
+      },
+      {
+        heading: 'Ankara\'da Kara İklimin Halı Yıkamaya Etkisi',
+        content: `Ankara\'nın kara iklimi halı yıkama zamanlamasını doğrudan etkiler ve bu konuda İstanbul ya da İzmir\'den çok farklı bir strateji gerektirir.
+
+**Kışın (Kasım-Mart) dikkat:**
+Ankara\'da kış aylarında gece sıcaklıkları -10°C\'nin altına düşer. Açık havada kurutma yapan firmalar bu dönemde halınızı düzgün kurutamaz. Yarı kuru teslim edilen halıda küf oluşması kaçınılmaz. Sipariş vermeden önce "kurutma yönteminiz nedir?" sorusunu mutlaka sorun. Kapalı kurutma tesisi olan firmalar kışın da güvenle yıkar.
+
+**En ideal dönem — Nisan-Haziran:**
+Ankara\'nın kuru ve sıcak bahar ayları halı yıkama için mükemmel. Firmalar henüz yaz yoğunluğuna girmemiş, fiyatlar makul ve kurutma hızlı. Bu dönemde sipariş verin.
+
+**Kuru iklimin gizli avantajı:**
+Ankara\'nın düşük nem oranı halılar için aslında iyi haber. İzmir veya Trabzon\'da nemden dolayı yılda 2-3 kez yıkama gerektiren halı, Ankara\'da yılda 1 kez yıkamak yeterli. Toz akarı üremesi de nemli şehirlere göre daha yavaş.
+
+**Bünyan ve el halısı avantajı:**
+Ankara, Kayseri\'nin komşusu. Bünyan halısı, Isparta halısı gibi değerli el dokuma halılara sahip ev sayısı yüksek. [Ankara halı yıkama firmaları](/ankara-hali-yikama-firmalari) arasında el halısı uzmanlığı olan firmalar mevcut — bu halıları standart firmaya vermeyin.`,
+      },
+      {
+        heading: 'Ankara\'da Halı Yıkama — İlçe Stratejisi',
+        content: `Ankara\'nın ilçe yapısı İstanbul\'dan çok farklı. 5 büyük ilçe (Çankaya, Keçiören, Yenimahalle, Etimesgut, Mamak) nüfusun %70\'inden fazlasını barındırıyor. Firma yoğunluğu da bu ilçelerde.
+
+**Çankaya — Premium Bölge:**
+Ankara\'nın en yüksek gelirli ilçesi. Kızılay, GOP, Oran, Çayyolu gibi semtlerde fiyatlar Ankara ortalamasının %10-15 üzerinde olabilir. Ama kalite beklentisi de yüksek — firmalar buna göre hizmet sunuyor.
+
+**Keçiören ve Yenimahalle — Rekabetçi Bölge:**
+Firma sayısı en yoğun bölge. Rekabet nedeniyle fiyatlar uygun ve teslimat süreleri kısa. Fiyat/kalite oranı en iyi ilçeler.
+
+**Mamak ve Altındağ — Uygun Fiyat:**
+İşletme maliyetleri düşük olduğundan fiyatlar Ankara ortalamasının altında. Firma sayısı az ama mevcut firmalar genellikle uzun süredir faaliyet gösteren, tanınmış işletmeler.
+
+**Etimesgut ve Sincan — Büyüyen Pazar:**
+Yeni konut projeleriyle birlikte halı yıkama talebi artıyor. Firmalar bu bölgeye yatırım yapıyor.
+
+[Ankara halı yıkama firmaları](/ankara-hali-yikama-firmalari) sayfasından Dikmen, Yenikent, Yenimahalle ve diğer ilçelerde hizmet veren firmaları görebilirsiniz.`,
+      },
+    ],
+    faq: [
+      { q: 'Ankara\'da halı yıkama kaç TL 2026?', a: 'Makine halısı 80 TL/m²\'den başlıyor. Şaggy 95, yün 120, ipek 350 TL/m². İstanbul\'a göre ortalama %30-40 daha uygun.' },
+      { q: 'Ankara\'da en çok sipariş alan halı yıkama firması hangisi?', a: 'Platformdaki verilere göre 57 tamamlanmış siparişle öne çıkan firma Dikmen, Yenikent ve Yenimahalle bölgelerinde hizmet veriyor.' },
+      { q: 'Ankara\'da kışın halı yıkatmak güvenli mi?', a: 'Kapalı kurutma tesisi olan firmalarda evet. Açık havada kurutma yapan firmalardan kışın halı yıkatmayın — küf riski çok yüksek.' },
+    ],
+    relatedSlugs: ['ankara-hali-yikama', 'hali-yikama-fiyatlari', 'hali-yikama-firmasi-nasil-secilir'],
+  },
+
+  {
+    slug: 'bursa-hali-yikama-tekstil-sehri',
+    city: 'Bursa',
+    citySlug: 'bursa',
+    title: 'Bursa Halı Yıkama: Tekstil Şehrinin Halıya Bakış Açısı Neden Farklı?',
+    metaTitle: 'Bursa Halı Yıkama 2026 | 50 Firma, Gerçek Fiyatlar, İpek Halı Uzmanlığı',
+    metaDescription: 'Bursa halı yıkama firmaları gerçek fiyat listesi. Osmanlı ipek halısından makine halısına, 50 firmanın fiyat karşılaştırması ve Bursa\'ya özel ipuçları.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 8,
+    heroEmoji: '🌿',
+    intro: 'Bursa, Türkiye\'nin tekstil başkenti. Osmanlı döneminden beri ipek üretiminin merkezi olan bu şehirde halıya bakış açısı diğer şehirlerden farklı. 50 aktif halı yıkama firmasının bulunduğu Bursa\'da, iki firma platformdaki sipariş sayısıyla dikkat çekiyor: biri 136, diğeri 119 tamamlanmış sipariş. Bu rakamlar İstanbul\'daki herhangi bir firmadan yüksek. Bursa\'da halı yıkama işi ciddi tutuluyor.',
+    sections: [
+      {
+        heading: 'Bursa\'nın İki Dev Firması ve Rekabet',
+        content: `Bursa halı yıkama pazarında iki firma açık ara öne çıkıyor. Biri 136, diğeri 119 tamamlanmış siparişle Türkiye genelindeki en aktif firmalar arasında yer alıyor.
+
+Bu iki firmanın ortak özelliği: her ikisi de Osmangazi, Nilüfer, Yıldırım, Gürsu ve Kestel ilçelerinde geniş hizmet ağına sahip. Yani Bursa\'nın merkez ilçelerinin tamamını kapsıyorlar.
+
+**Fiyat karşılaştırması — aynı şehirdeki iki rakip:**
+
+| Halı Türü | Firma A (TL/m²) | Firma B (TL/m²) |
+|-----------|----------------|----------------|
+| Kaymaz/Jel Halı | 80 | 80 |
+| Makine Halısı | 90 | 90 |
+| Şaggy | 130 | 150 |
+| Akrilik | 120 | 200 |
+| El Dokuma | 150 | 250 |
+| Bambu/Viskon | 200 | 350 |
+| İpek Halı | 250 | 350 |
+
+Gördüğünüz gibi, temel ürünlerde (makine halısı, kaymaz) fiyatlar neredeyse aynı. Ama özel halılarda (akrilik, el dokuma, ipek) ciddi farklar var. Bu fark, firmanın kullandığı deterjan kalitesi, yıkama tekniği ve garanti politikasından kaynaklanıyor.
+
+[Bursa halı yıkama firmaları](/bursa-hali-yikama-firmalari) sayfasından her iki firmanın ve diğer 48 firmanın fiyat listelerini karşılaştırabilirsiniz.`,
+      },
+      {
+        heading: 'Bursa ve İpek Halı — Osmanlı Mirası',
+        content: `Bursa\'nın ipek üretimi tarihi 600 yılı aşkın. Koza Han\'dan başlayan bu gelenek bugün hâlâ yaşıyor. Bursa\'da ortalama bir evde en az bir ipek veya yarı-ipek halı bulunması şaşırtıcı değil.
+
+**İpek halı neden farklı?**
+İpek lifi son derece ince ve hassas. Yanlış pH\'daki deterjan, yüksek sıcaklık veya sert su basıncı ipek liflerini geri dönüşümsüz şekilde tahrip eder. İpek halı yıkama bir uzmanlık işi — her firma yapamaz.
+
+Bursa\'daki firmalar bu konuda Türkiye ortalamasının üzerinde deneyime sahip. Sebebi basit: müşterilerinin önemli bir kısmı ipek halı sahibi. Bu talep firmaları uzmanlaşmaya zorlamış.
+
+**İpek halı yıkama fiyatı:**
+Bursa\'da ipek halı 250-350 TL/m². 10 m²\'lik bir ipek halı için 2.500-3.500 TL. Pahalı mı? 30.000-50.000 TL değerindeki bir ipek halının ömrünü 5-10 yıl uzattığını düşünürseniz, aslında çok makul.
+
+**Uyarı:** İpek halınızı "makine halısı fiyatına yıkarız" diyen firmaya vermeyin. İpek, standart programla yıkanamaz. Ucuz yıkama halınıza geri dönüşümsüz zarar verebilir.
+
+[Bursa halı yıkama firmaları](/bursa-hali-yikama-firmalari) arasından ipek halı uzmanlığı olan firmaları seçebilirsiniz.`,
+      },
+      {
+        heading: 'Bursa\'da Halı Yıkama — İlçe Bazlı Gerçek Durum',
+        content: `Bursa\'nın 50 firması şehrin farklı bölgelerine dağılmış durumda:
+
+**Osmangazi — En Yoğun Bölge:**
+Bursa\'nın en kalabalık ve en eski ilçesi. Firma sayısı en fazla burada. Heykel, Çekirge, Soğanlı gibi semtlerde hizmet yoğun.
+
+**Nilüfer — Premium Bölge:**
+Bursa\'nın en hızlı büyüyen ilçesi. Yeni siteler, modern konutlar. Halı kalitesi ve fiyat beklentisi yüksek. Firmalar burada daha premium hizmet sunuyor.
+
+**Yıldırım — Rekabetçi Fiyat:**
+Nüfus yoğun ama gelir düzeyi Nilüfer\'den düşük. Fiyatlar daha uygun, firma rekabeti yoğun.
+
+**Gürsu ve Kestel — Gelişen Pazar:**
+Bursa\'nın çeperi. Firmalar merkez ilçelerden buraya da hizmet veriyor ama ulaşım maliyeti ekleniyor.
+
+**İnegöl — Bağımsız Pazar:**
+Bursa merkezinden 45 km uzaklıkta. Kendi yerel firmaları var. Mobilya başkenti olarak bilinen İnegöl\'de koltuk yıkama talebi de yüksek.
+
+**Mudanya — Yazlık Ev Etkisi:**
+Sahil ilçesi. Yaz sezonu başında (Mayıs-Haziran) yazlık evlerin halıları yıkatılır — bu dönemde talep patlar.
+
+[Bursa halı yıkama firmaları](/bursa-hali-yikama-firmalari) sayfasından ilçenize göre firmaları filtreleyebilirsiniz.`,
+      },
+      {
+        heading: 'Bursa\'da Halı Yıkama — Makine Halısından İpek Halıya Fiyat Tablosu',
+        content: `Bursa\'daki firmaların gerçek fiyat listelerinden derlenen tam tablo:
+
+| Ürün/Hizmet | Fiyat |
+|-------------|-------|
+| Kaymaz/Jel Halı | 80 TL/m² |
+| Arlon Halı | 90 TL/m² |
+| Makine Halısı | 90 TL/m² |
+| Mega Halı | 100 TL/m² |
+| Akrilik Halı | 120-200 TL/m² |
+| Şaggy Halı | 130-150 TL/m² |
+| Nepal Halısı | 130 TL/m² |
+| Step / El Dokuma | 150-250 TL/m² |
+| Makine Yün | 175 TL/m² |
+| Bambu / Viskon | 200-350 TL/m² |
+| İpek Halı | 250-350 TL/m² |
+| Koltuk Takımı | 1.500 TL |
+| Elyaf Battaniye | 400-500 TL/adet |
+| Yün Yorgan | 500-600 TL/adet |
+| Stor Perde | 100-120 TL/m² |
+| Yatak Yıkama | 1.000 TL/adet |
+| Overlok | 100 TL/metre |
+
+**Tasarruf ipucu:** Halı + koltuk + yorgan birlikte verin. Firma zaten geliyor — ulaşım maliyeti bölünür. Çoğu Bursa firması paket indirim uyguluyor.
+
+[Bursa halı yıkama firmaları](/bursa-hali-yikama-firmalari) — güncel fiyat listesi ve firma karşılaştırması.`,
+      },
+    ],
+    faq: [
+      { q: 'Bursa\'da halı yıkama kaç TL 2026?', a: 'Makine halısı 80-90 TL/m²\'den başlıyor. Şaggy 130-150, yün 175, ipek 250-350 TL/m². İstanbul\'dan ortalama %30-35 daha uygun.' },
+      { q: 'Bursa\'da en çok sipariş alan halı yıkama firması?', a: 'Platformda 136 ve 119 tamamlanmış siparişle Bursa\'nın iki firması Türkiye genelinde en aktif firmalar arasında.' },
+      { q: 'Bursa\'da ipek halı nerede yıkatılır?', a: 'Bursa\'nın tekstil geçmişi sayesinde ipek halı uzmanlığı olan firmalar mevcut. Platform üzerinden halı türüne göre firma filtreleyebilirsiniz.' },
+    ],
+    relatedSlugs: ['bursa-hali-yikama', 'hali-yikama-fiyatlari', 'hali-yikama-firmasi-nasil-secilir'],
+  },
+
+  {
+    slug: 'izmir-hali-yikama-nemle-mucadele',
+    city: 'İzmir',
+    citySlug: 'izmir',
+    title: 'İzmir\'de Halı Yıkama: 51 Firma, Nem Gerçeği ve Ege\'nin Fiyat Avantajı',
+    metaTitle: 'İzmir Halı Yıkama 2026 | 51 Firma, Gerçek Fiyatlar, Nem ve Hijyen Rehberi',
+    metaDescription: 'İzmir halı yıkama firmaları gerçek fiyat listesi. 51 firmanın karşılaştırması, Ege neminin halıya etkisi ve İzmir\'e özel hijyen rehberi.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 8,
+    heroEmoji: '🌊',
+    intro: 'İzmir\'de halı yıkama sadece temizlik değil, sağlık meselesi. Ege\'nin nemli havası halılarda toz akarı, bakteri ve küf üremesini İstanbul veya Ankara\'ya göre 2-3 kat hızlandırıyor. 51 aktif firmanın bulunduğu İzmir\'de, platformun en çok sipariş alan firması 138 tamamlanmış siparişle Türkiye genelinde birinci sırada. İzmir halkı halı yıkama konusunda bilinçli — ve bu yazıda nedenini anlayacaksınız.',
+    sections: [
+      {
+        heading: 'İzmir\'de Neden Daha Sık Halı Yıkatmalısınız?',
+        content: `İzmir\'in yıllık ortalama nem oranı %65-75 arasında. Yaz aylarında bile %55-60\'ın altına düşmez. Bu nem oranının halınıza ne yaptığını biliyor musunuz?
+
+**Toz Akarı Patlaması:**
+Toz akarları %50 üzeri nemde hızla çoğalır. İzmir\'de bu eşik yılın 12 ayı aşılıyor. Ankara gibi kuru şehirlerde yılda 1 kez yıkama yeterli olabilir ama İzmir\'de yılda en az 2 kez profesyonel yıkama zorunluluk.
+
+**Küf Riski:**
+Zemin kata yakın dairelerde, kuzey cepheli odalarda ve havalandırması yetersiz evlerde halı altında küf oluşması İzmir\'de sık karşılaşılan bir sorun. Küflü halının kokusu evde temizlenemez — profesyonel anti-küf işlem gerektirir.
+
+**Deniz Tuzu:**
+Sahile yakın bölgelerde (Karşıyaka, Konak, Alsancak, Güzelbahçe) havadaki tuz kristalleri halı liflerine nüfuz eder. Bu tuz zamanla lifleri sertleştirir ve yıpratır. Düzenli yıkama bu etkiyi azaltır.
+
+Bu yüzden İzmir\'deki 138 siparişlik firma Türkiye birincisi — İzmirliler halı yıkama konusunda bilinçli ve düzenli yıkatıyor.
+
+[İzmir halı yıkama firmaları](/izmir-hali-yikama-firmalari) sayfasından bölgenizdeki firmaları karşılaştırabilirsiniz.`,
+      },
+      {
+        heading: 'İzmir Halı Yıkama Gerçek Fiyatları',
+        content: `İzmir\'de platformda listelenen firmaların güncel fiyatları:
+
+| Halı Türü / Hizmet | Fiyat |
+|---------------------|-------|
+| Makine Halısı (yerinde yıkama) | 100 TL/m² |
+| Makine Halısı (fabrika yıkama) | 100 TL/m² |
+| Yün Halı | 125 TL/m² |
+| Kilim | 600 TL/adet |
+| Sandalye Yıkama | 150 TL/adet |
+| Berjer | 500 TL/adet |
+| Koltuk Takımı | 2.500 TL |
+| Araç Koltuğu (komple) | 3.000 TL |
+| Yastık | 100 TL/adet |
+| Battaniye | 400 TL/adet |
+| Yorgan | 800 TL/adet |
+| Perde Temizliği | 125 TL/m² |
+| Yatak (tek kişilik) | 600 TL/adet |
+| Yatak (çift kişilik) | 1.000 TL/adet |
+| Yatak Örtüsü | 750 TL/adet |
+| Çekyat | 1.000 TL/adet |
+
+**İzmir\'e özel not — Yerinde Yıkama:**
+İzmir\'deki firmalar "yerinde halı yıkama" hizmeti de sunuyor. Ekip evinize gelip halıyı yerinde yıkıyor. Bu, büyük halıları taşıyamayan veya halısız kalmak istemeyen müşteriler için ideal. Fiyatı fabrika yıkama ile aynı (100 TL/m²) ama sonuç fabrika kadar derin temizlik sağlamaz.
+
+**Araç koltuğu yıkama dikkat çekici:**
+İzmir\'de araç koltuğu yıkama 3.000 TL. Bu hizmet İstanbul\'da çok yaygın değil ama İzmir\'de talep yüksek — muhtemelen şehrin araç kültürüyle bağlantılı.
+
+[İzmir halı yıkama firmaları](/izmir-hali-yikama-firmalari) — firmaların tam fiyat listesini inceleyin.`,
+      },
+      {
+        heading: 'İzmir\'de İlçe Bazlı Halı Yıkama Stratejisi',
+        content: `İzmir\'in 51 firması farklı bölgelere dağılmış. İlçe seçiminiz hem fiyatı hem hizmet kalitesini etkiler:
+
+**Tire — Sürpriz Lider:**
+İzmir\'in en çok sipariş alan firması (138 sipariş) Tire\'de. Şehir merkezinden 80 km uzakta olan bu ilçede yerel hâkimiyet söz konusu. Tire, Ödemiş ve çevre ilçelerde yaşıyorsanız bu firma güçlü bir seçenek.
+
+**Karşıyaka ve Konak — Premium Bölge:**
+İzmir\'in en yüksek gelirli ilçeleri. Fiyatlar Bornova veya Buca\'ya göre %10-15 daha yüksek olabilir ama firmalar genellikle daha özenli çalışıyor.
+
+**Bornova ve Buca — Rekabetçi:**
+İzmir\'in en kalabalık ilçeleri. Firma yoğunluğu yüksek, rekabet sert. Fiyat/kalite oranı en iyi bölge.
+
+**Çeşme, Urla, Alaçatı — Sezonluk Patlama:**
+Yaz sezonu başında (Mayıs-Haziran) bu bölgelerdeki yazlık evlerin halı, koltuk ve perde temizliği talebi patlıyor. Erken sipariş verin — Haziran ortasında randevu bulmak zor.
+
+**Torbalı, Kemalpaşa, Bergama — Uygun Fiyat:**
+Şehir merkezinden uzak, işletme maliyetleri düşük. Fiyatlar İzmir ortalamasının altında.
+
+[İzmir halı yıkama firmaları](/izmir-hali-yikama-firmalari) — ilçe bazlı filtreleme ile bölgenizdeki firmaları bulun.`,
+      },
+      {
+        heading: 'İzmir\'de Halı Seçimi ve Bakım — Ege\'ye Özel',
+        content: `İzmir\'de yaşıyorsanız halı seçiminiz bile farklı olmalı:
+
+**Kaçının:**
+- Shaggy (uzun tüylü) halılar — nem emer, toz akarı cenneti, kurutması zor
+- Doğal yün halılar — nem çeker, güve riski yüksek
+- Koyu renkli kalın halılar — deniz tuzu beyaz iz bırakır
+
+**Tercih edin:**
+- Polyester veya polipropilen halılar — nem emmez, hızlı kurur
+- Kısa tüylü, düz dokuma — temizlenmesi kolay, akar barındırmaz
+- Açık tonlu veya desenli — tuz izi görünmez
+
+**Bakım rutini:**
+- Haftada 2 kez güçlü süpürge (HEPA filtreli)
+- 6 ayda 1 profesyonel yıkama (İzmir için minimum)
+- Halı altına nem bariyeri / kaymaz taban koyun
+- Kuzey cepheli odalarda halıyı dönem dönem kaldırıp altını havalandırın
+
+**Kilim ve cicim:**
+İzmir ve çevresinde geleneksel kilim kullanımı yaygın. Kilimler halılardan daha ince ve hassas — standart yıkama programında zarar görebilir. Firmaya mutlaka kilim olduğunu söyleyin. [İzmir halı yıkama firmaları](/izmir-hali-yikama-firmalari) arasından kilim deneyimi olan firmayı tercih edin.`,
+      },
+    ],
+    faq: [
+      { q: 'İzmir\'de halı yıkama kaç TL 2026?', a: 'Makine halısı 100 TL/m², yün 125 TL/m². Koltuk takımı 2.500 TL, yorgan 800 TL/adet. Detaylı fiyat listesi için platform üzerinden firmaları karşılaştırın.' },
+      { q: 'İzmir\'de en çok sipariş alan halı yıkama firması?', a: '138 tamamlanmış siparişle Tire bölgesindeki firma Türkiye genelinde platformun en aktif firması.' },
+      { q: 'İzmir\'de halı kaç kez yıkatılmalı?', a: 'Ege\'nin nemli iklimi nedeniyle yılda en az 2 kez. Sahile yakın bölgelerde ve alerji hastası olan evlerde 3-4 kez önerilir.' },
+    ],
+    relatedSlugs: ['izmir-hali-yikama', 'hali-yikama-fiyatlari', 'hali-alerjisi-ve-hijyen'],
+  },
+
   ...cityGuides,
 ];
 
