@@ -121,7 +121,7 @@ Fiyatlar en uygun, ama firma seçiminde dikkatli olun.
 
 **Ankara'ya Özel Not:** Kış aylarında (Aralık-Şubat) dış kurutma yapılamaz. Kapalı kurutma tesisi olan firmaları tercih edin — aksi halde halınız haftalarca gelmeyebilir.
 
-[Ankara halı yıkama firmaları](/ankara-hali-yikama-firmalari) — Ankara'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+[Ankara halı yıkama](/ankara-hali-yikama-firmalari) firmaları — Ankara'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
       },
     ],
     faq: [
@@ -189,7 +189,7 @@ Yaz tatili öncesi büyük temizlik. Firma kapasiteleri dolar, teslimat 5-7 gün
 
 **Nem Faktörü:** İzmir'in nemli iklimi toz akarı üremesini hızlandırır. Alerjisi olan kişiler yılda en az 2 kez profesyonel halı yıkatmalıdır.
 
-[İzmir halı yıkama firmaları](/izmir-hali-yikama-firmalari) — İzmir'deki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+[İzmir halı yıkama](/izmir-hali-yikama-firmalari) firmaları — İzmir'deki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
       },
       {
         heading: 'İzmir Halı Yıkama Firması Seçerken Dikkat Edilecekler',
@@ -267,7 +267,7 @@ Merkeze uzak ilçeler. Fiyat avantajı belirgin, ancak teslimat süresi 1-2 gün
 
 **Yoğun Dönem:** Haziran — Ramazan Bayramı öncesi ve yaz tatili başlangıcı çakışır. Halı yıkama firmaları çok yoğundur, 1-2 hafta önceden sipariş verin.
 
-[Bursa halı yıkama firmaları](/bursa-hali-yikama-firmalari) — Bursa'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+[Bursa halı yıkama](/bursa-hali-yikama-firmalari) firmaları — Bursa'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
       },
       {
         heading: 'Bursa Halı Yıkama Firması Seçerken Dikkat Edilecekler',
@@ -343,7 +343,7 @@ Sahilden uzak iç kesim ilçeler. Düşük talep ve düşük işletme maliyeti.
 
 **Kurutma Avantajı:** Antalya'nın sıcak havası en büyük avantajdır — halılar yaz aylarında saatler içinde kurur. Kış aylarında bile kapalı kurutma yerine yarı açık tesislerde kurutma yapılabilir.
 
-[Antalya halı yıkama firmaları](/antalya-hali-yikama-firmalari) — Antalya'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+[Antalya halı yıkama](/antalya-hali-yikama-firmalari) firmaları — Antalya'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
       },
       {
         heading: 'Antalya Halı Yıkama Firması Seçerken Dikkat Edilecekler',
@@ -424,7 +424,7 @@ Merkeze uzak ilçeler. Ereğli kendi başına büyük bir pazar (150.000+ nüfus
 
 **Yoğun Dönem:** Ramazan Bayramı öncesi — Konya'da bayram temizliği geleneği çok güçlüdür. Firmalar 2-3 hafta öncesinden dolar, erken sipariş şarttır.
 
-[Konya halı yıkama firmaları](/konya-hali-yikama-firmalari) — Konya'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+[Konya halı yıkama](/konya-hali-yikama-firmalari) firmaları — Konya'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
       },
       {
         heading: 'Konya Halı Yıkama Firması Seçerken Dikkat Edilecekler',
@@ -508,7 +508,7 @@ Merkeze uzak ilçeler. Ceyhan (160.000+ nüfus) kendi başına bir pazar — yer
 
 **Yoğun Dönem:** Mayıs-Haziran (yaz öncesi büyük temizlik) ve bayram öncesi dönemler.
 
-[Adana halı yıkama firmaları](/adana-hali-yikama-firmalari) — Adana'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+[Adana halı yıkama](/adana-hali-yikama-firmalari) firmaları — Adana'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
       },
       {
         heading: 'Adana Halı Yıkama Firması Seçerken Dikkat Edilecekler',
@@ -590,7 +590,7 @@ Merkeze uzak ilçeler. Nizip (150.000+ nüfus) kendi başına önemli bir pazar 
 
 **Yoğun Dönem:** Ramazan ve Kurban Bayramı öncesi — Güneydoğu'da bayram temizliği geleneği çok güçlüdür. Firmalar 2-3 hafta öncesinden dolar. Erken sipariş şarttır.
 
-[Gaziantep halı yıkama firmaları](/gaziantep-hali-yikama-firmalari) — Gaziantep'teki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+[Gaziantep halı yıkama](/gaziantep-hali-yikama-firmalari) firmaları — Gaziantep'teki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
       },
       {
         heading: 'Gaziantep Halı Yıkama Firması Seçerken Dikkat Edilecekler',
@@ -671,7 +671,7 @@ Sınır ilçeleri ve kırsal bölgeler. Firma sayısı sınırlıdır — bazı 
 
 **Yoğun Dönem:** Ramazan ve Kurban Bayramı öncesi — Şanlıurfa'da bayram temizliği ve misafir ağırlama geleneği çok güçlüdür. Firmalar 3 hafta öncesinden dolar. Erken sipariş şarttır.
 
-[Şanlıurfa halı yıkama firmaları](/sanliurfa-hali-yikama-firmalari) — Şanlıurfa'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+[Şanlıurfa halı yıkama](/sanliurfa-hali-yikama-firmalari) firmaları — Şanlıurfa'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
       },
       {
         heading: 'Şanlıurfa Halı Yıkama Firması Seçerken Dikkat Edilecekler',
@@ -753,7 +753,7 @@ Merkeze uzak ilçeler. Gölcük donanma üssü nedeniyle nüfusu yüksektir ama 
 
 **Yoğun Dönem:** Haziran (yaz öncesi büyük temizlik) ve bayram öncesi dönemler.
 
-[Kocaeli halı yıkama firmaları](/kocaeli-hali-yikama-firmalari) — Kocaeli'deki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+[Kocaeli halı yıkama](/kocaeli-hali-yikama-firmalari) firmaları — Kocaeli'deki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
       },
       {
         heading: 'Kocaeli Halı Yıkama Firması Seçerken Dikkat Edilecekler',
@@ -835,7 +835,7 @@ Sahil kasabaları ve iç kesim ilçeler. Erdemli ve Silifke nüfuslarıyla yerel
 
 **Yoğun Dönem:** Mayıs-Haziran (yaz öncesi) ve bayram öncesi dönemler.
 
-[Mersin halı yıkama firmaları](/mersin-hali-yikama-firmalari) — Mersin'deki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+[Mersin halı yıkama](/mersin-hali-yikama-firmalari) firmaları — Mersin'deki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
       },
       {
         heading: 'Mersin Halı Yıkama Firması Seçerken Dikkat Edilecekler',
@@ -916,7 +916,7 @@ Merkeze uzak ilçeler. Ergani ve Silvan nüfuslarıyla (80.000+) yerel firma bar
 
 **Yoğun Dönem:** Ramazan ve Kurban Bayramı öncesi — Güneydoğu'da bayram temizliği ve misafir ağırlama geleneği çok güçlüdür. Firmalar 3 hafta öncesinden dolar.
 
-[Diyarbakır halı yıkama firmaları](/diyarbakir-hali-yikama-firmalari) — Diyarbakır'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+[Diyarbakır halı yıkama](/diyarbakir-hali-yikama-firmalari) firmaları — Diyarbakır'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
       },
       {
         heading: 'Diyarbakır Halı Yıkama Firması Seçerken Dikkat Edilecekler',
@@ -999,7 +999,7 @@ Sınır ilçeleri ve kırsal bölgeler. Kırıkhan ve Reyhanlı nüfuslarıyla y
 
 **Yoğun Dönem:** Mayıs-Haziran ve bayram öncesi dönemler.
 
-[Hatay halı yıkama firmaları](/hatay-hali-yikama-firmalari) — Hatay'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+[Hatay halı yıkama](/hatay-hali-yikama-firmalari) firmaları — Hatay'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
       },
       {
         heading: 'Hatay Halı Yıkama Firması Seçerken Dikkat Edilecekler',
@@ -1079,7 +1079,7 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
 
 **En Uygun Dönem:** Nisan-Mayıs ve Eylül-Ekim — hava ılık, nem düşük, firmalar yoğun değil.
 
-[Manisa halı yıkama firmaları](/manisa-hali-yikama-firmalari) — Manisa'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+[Manisa halı yıkama](/manisa-hali-yikama-firmalari) firmaları — Manisa'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
       },
       {
         heading: 'Manisa Halı Yıkama Firması Seçerken Dikkat Edilecekler',
@@ -1116,7 +1116,7 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     category: 'Şehir Rehberi',
     readingTime: 9,
     heroEmoji: '🏔️',
-    intro: `**Kayseri**, Türkiye'nin halıcılık başkentidir. Bünyan halıları dünya çapında tanınır ve Kayseri'de halı yıkama, sadece temizlik değil bir kültürel miras koruma işidir. İç Anadolu'nun sert kara iklimi — uzun soğuk kışlar, sıcak yazlar, düşük nem — halı bakım döngüsünü doğrudan şekillendirir. Kayseri'deki halı yıkama firmaları özellikle el dokuması ve antika halı konusunda Türkiye'nin en deneyimli firmalarıdır. [Kayseri halı yıkama firmaları](/kayseri-hali-yikama-firmalari) arasında en uygun fiyatlı ve güvenilir firmayı bulmak için bu rehberi hazırladık.`,
+    intro: `**Kayseri**, Türkiye'nin halıcılık başkentidir. Bünyan halıları dünya çapında tanınır ve Kayseri'de halı yıkama, sadece temizlik değil bir kültürel miras koruma işidir. İç Anadolu'nun sert kara iklimi — uzun soğuk kışlar, sıcak yazlar, düşük nem — halı bakım döngüsünü doğrudan şekillendirir. Kayseri'deki halı yıkama firmaları özellikle el dokuması ve antika halı konusunda Türkiye'nin en deneyimli firmalarıdır. [Kayseri halı yıkama](/kayseri-hali-yikama-firmalari) firmaları arasında en uygun fiyatlı ve güvenilir firmayı bulmak için bu rehberi hazırladık.`,
     sections: [
       {
         heading: 'Kayseri Halı Yıkama Fiyatları 2026',
@@ -1158,7 +1158,7 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
 
 **En İyi Dönem:** Mayıs ve Eylül — hava ılık, firmalar yoğun değil, kurutma hızlı.
 
-[Kayseri halı yıkama firmaları](/kayseri-hali-yikama-firmalari) — Kayseri'deki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+[Kayseri halı yıkama](/kayseri-hali-yikama-firmalari) firmaları — Kayseri'deki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
       },
       {
         heading: 'Kayseri Halı Yıkama Firması Seçerken Dikkat Edilecekler',
@@ -1228,7 +1228,7 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     category: 'Şehir Rehberi',
     readingTime: 8,
     heroEmoji: '🌊',
-    intro: `**Samsun**, Karadeniz'in en büyük şehri ve bölgenin ticaret merkezidir. Yılda 1000 mm'yi aşan yağış ve %75+ ortalama nem, Samsun'u Türkiye'nin halı bakımı açısından en zorlu şehirlerinden biri yapar. Nemli iklim halılarda küf, bakteri ve koku oluşumunu hızlandırır — bu nedenle Samsun'da düzenli halı yıkama sağlık açısından da kritiktir. [Samsun halı yıkama firmaları](/samsun-hali-yikama-firmalari) arasında en uygun fiyatlı ve güvenilir firmayı bulmak için bu rehberi hazırladık.`,
+    intro: `**Samsun**, Karadeniz'in en büyük şehri ve bölgenin ticaret merkezidir. Yılda 1000 mm'yi aşan yağış ve %75+ ortalama nem, Samsun'u Türkiye'nin halı bakımı açısından en zorlu şehirlerinden biri yapar. Nemli iklim halılarda küf, bakteri ve koku oluşumunu hızlandırır — bu nedenle Samsun'da düzenli halı yıkama sağlık açısından da kritiktir. [Samsun halı yıkama](/samsun-hali-yikama-firmalari) firmaları arasında en uygun fiyatlı ve güvenilir firmayı bulmak için bu rehberi hazırladık.`,
     sections: [
       {
         heading: 'Samsun Halı Yıkama Fiyatları 2026',
@@ -1269,7 +1269,7 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
 
 **En İyi Dönem:** Haziran-Temmuz — en az yağışlı, en sıcak ve en kuru dönem.
 
-[Samsun halı yıkama firmaları](/samsun-hali-yikama-firmalari) — Samsun'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+[Samsun halı yıkama](/samsun-hali-yikama-firmalari) firmaları — Samsun'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
       },
       {
         heading: 'Samsun Halı Yıkama Firması Seçerken Dikkat Edilecekler',
@@ -1337,7 +1337,7 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     category: 'Şehir Rehberi',
     readingTime: 8,
     heroEmoji: '🫒',
-    intro: `**Balıkesir**, Marmara ve Ege'nin buluştuğu noktada, hem sahil hem iç kesim özelliklerini barındıran benzersiz bir coğrafyaya sahiptir. Güneyde Edremit Körfezi'nin Akdeniz iklimi, kuzeyde Bandırma'nın Marmara havası, merkezde karasal steplerin kuruluğu — Balıkesir'de halı yıkama ihtiyacı bölgeden bölgeye büyük farklılık gösterir. Zeytincilik, termal kaynaklar ve turizm şehrin ekonomisini şekillendirir. [Balıkesir halı yıkama firmaları](/balikesir-hali-yikama-firmalari) arasında en uygun fiyatlı ve güvenilir firmayı bulmak için bu rehberi hazırladık.`,
+    intro: `**Balıkesir**, Marmara ve Ege'nin buluştuğu noktada, hem sahil hem iç kesim özelliklerini barındıran benzersiz bir coğrafyaya sahiptir. Güneyde Edremit Körfezi'nin Akdeniz iklimi, kuzeyde Bandırma'nın Marmara havası, merkezde karasal steplerin kuruluğu — Balıkesir'de halı yıkama ihtiyacı bölgeden bölgeye büyük farklılık gösterir. Zeytincilik, termal kaynaklar ve turizm şehrin ekonomisini şekillendirir. [Balıkesir halı yıkama](/balikesir-hali-yikama-firmalari) firmaları arasında en uygun fiyatlı ve güvenilir firmayı bulmak için bu rehberi hazırladık.`,
     sections: [
       {
         heading: 'Balıkesir Halı Yıkama Fiyatları 2026',
@@ -1378,7 +1378,7 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
 
 **En İyi Dönem:** Mayıs-Haziran ve Eylül-Ekim — hava ılık, firmalar yoğun değil.
 
-[Balıkesir halı yıkama firmaları](/balikesir-hali-yikama-firmalari) — Balıkesir'deki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+[Balıkesir halı yıkama](/balikesir-hali-yikama-firmalari) firmaları — Balıkesir'deki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
       },
       {
         heading: 'Balıkesir Halı Yıkama Firması Seçerken Dikkat Edilecekler',
@@ -1451,7 +1451,7 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     category: 'Şehir Rehberi',
     readingTime: 8,
     heroEmoji: '🍇',
-    intro: `**Tekirdağ**, Trakya'nın sanayi ve tarım merkezi olarak İstanbul'dan taşan nüfusu karşılayan, hızla büyüyen bir şehirdir. Çorlu ve Çerkezköy'ün devasa sanayi bölgeleri, Marmara kıyısının nemli havası ve Trakya ovalarının toz yüklü rüzgarları — Tekirdağ'da halı yıkama ihtiyacı hem konut hem ticari alanda yüksektir. İstanbul'a yakınlığı fiyatları etkiler: Çorlu-Çerkezköy hattında fiyatlar İstanbul'a yakın, iç kesimlerde çok daha uygundur. [Tekirdağ halı yıkama firmaları](/tekirdag-hali-yikama-firmalari) arasında en uygun fiyatlı ve güvenilir firmayı bulmak için bu rehberi hazırladık.`,
+    intro: `**Tekirdağ**, Trakya'nın sanayi ve tarım merkezi olarak İstanbul'dan taşan nüfusu karşılayan, hızla büyüyen bir şehirdir. Çorlu ve Çerkezköy'ün devasa sanayi bölgeleri, Marmara kıyısının nemli havası ve Trakya ovalarının toz yüklü rüzgarları — Tekirdağ'da halı yıkama ihtiyacı hem konut hem ticari alanda yüksektir. İstanbul'a yakınlığı fiyatları etkiler: Çorlu-Çerkezköy hattında fiyatlar İstanbul'a yakın, iç kesimlerde çok daha uygundur. [Tekirdağ halı yıkama](/tekirdag-hali-yikama-firmalari) firmaları arasında en uygun fiyatlı ve güvenilir firmayı bulmak için bu rehberi hazırladık.`,
     sections: [
       {
         heading: 'Tekirdağ Halı Yıkama Fiyatları 2026',
@@ -1492,7 +1492,7 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
 
 **En İyi Dönem:** Mayıs-Haziran ve Eylül — hava ılık ve kuru, firmalar yoğun değil.
 
-[Tekirdağ halı yıkama firmaları](/tekirdag-hali-yikama-firmalari) — Tekirdağ'deki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+[Tekirdağ halı yıkama](/tekirdag-hali-yikama-firmalari) firmaları — Tekirdağ'deki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
       },
       {
         heading: 'Tekirdağ Halı Yıkama Firması Seçerken Dikkat Edilecekler',
@@ -1556,7 +1556,7 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     category: 'Şehir Rehberi',
     readingTime: 8,
     heroEmoji: '☀️',
-    intro: `**Aydın**, Ege Bölgesi'nin verimli Büyük Menderes Ovası üzerinde, tarihi Kuşadası ve Didim sahillerinden dağ köylerine uzanan geniş bir coğrafyaya sahiptir. Ege'nin sıcak ve kuru yazları halı kurutma için idealken, kış nemi ve tarımsal toz (incir, zeytin, pamuk) halıları hızla kirletir. Turizm şehri olarak Kuşadası ve Didim'deki tatil evleri sezon başı/sonu toplu halı yıkama talebi oluşturur. [Aydın halı yıkama firmaları](/aydin-hali-yikama-firmalari) arasında en uygun fiyatlı ve güvenilir firmayı bulmak için bu rehberi hazırladık.`,
+    intro: `**Aydın**, Ege Bölgesi'nin verimli Büyük Menderes Ovası üzerinde, tarihi Kuşadası ve Didim sahillerinden dağ köylerine uzanan geniş bir coğrafyaya sahiptir. Ege'nin sıcak ve kuru yazları halı kurutma için idealken, kış nemi ve tarımsal toz (incir, zeytin, pamuk) halıları hızla kirletir. Turizm şehri olarak Kuşadası ve Didim'deki tatil evleri sezon başı/sonu toplu halı yıkama talebi oluşturur. [Aydın halı yıkama](/aydin-hali-yikama-firmalari) firmaları arasında en uygun fiyatlı ve güvenilir firmayı bulmak için bu rehberi hazırladık.`,
     sections: [
       {
         heading: 'Aydın Halı Yıkama Fiyatları 2026',
@@ -1597,7 +1597,7 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
 
 **En İyi Dönem:** Mayıs ve Ekim — hava sıcak ama aşırı değil, kurutma hızlı, firmalar müsait.
 
-[Aydın halı yıkama firmaları](/aydin-hali-yikama-firmalari) — Aydın'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+[Aydın halı yıkama](/aydin-hali-yikama-firmalari) firmaları — Aydın'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
       },
       {
         heading: 'Aydın Halı Yıkama Firması Seçerken Dikkat Edilecekler',
@@ -1666,7 +1666,7 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     category: 'Şehir Rehberi',
     readingTime: 8,
     heroEmoji: '🏛️',
-    intro: `**Denizli**, Türkiye'nin tekstil ve havlu üretim başkentidir. Denizli havlusu dünya çapında ihraç edilir ve bu tekstil kültürü halı yıkama sektörüne de yansır — firmalar kumaş ve lif konusunda derin bilgiye sahiptir. Pamukkale'nin travertenleriyle dünyaca ünlü şehir, aynı zamanda jeotermal kaynaklarıyla da bilinir. İç Batı Anadolu'nun yarı karasal iklimi — sıcak yazlar, soğuk kışlar — halı bakım döngüsünü şekillendirir. [Denizli halı yıkama firmaları](/denizli-hali-yikama-firmalari) arasında en uygun fiyatlı ve güvenilir firmayı bulmak için bu rehberi hazırladık.`,
+    intro: `**Denizli**, Türkiye'nin tekstil ve havlu üretim başkentidir. Denizli havlusu dünya çapında ihraç edilir ve bu tekstil kültürü halı yıkama sektörüne de yansır — firmalar kumaş ve lif konusunda derin bilgiye sahiptir. Pamukkale'nin travertenleriyle dünyaca ünlü şehir, aynı zamanda jeotermal kaynaklarıyla da bilinir. İç Batı Anadolu'nun yarı karasal iklimi — sıcak yazlar, soğuk kışlar — halı bakım döngüsünü şekillendirir. [Denizli halı yıkama](/denizli-hali-yikama-firmalari) firmaları arasında en uygun fiyatlı ve güvenilir firmayı bulmak için bu rehberi hazırladık.`,
     sections: [
       {
         heading: 'Denizli Halı Yıkama Fiyatları 2026',
@@ -1707,7 +1707,7 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
 
 **En İyi Dönem:** Mayıs-Haziran ve Eylül-Ekim — hava ılık, kurutma hızlı, firmalar yoğun değil.
 
-[Denizli halı yıkama firmaları](/denizli-hali-yikama-firmalari) — Denizli'deki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+[Denizli halı yıkama](/denizli-hali-yikama-firmalari) firmaları — Denizli'deki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
       },
       {
         heading: 'Denizli Halı Yıkama Firması Seçerken Dikkat Edilecekler',
@@ -1779,7 +1779,7 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     category: 'Şehir Rehberi',
     readingTime: 8,
     heroEmoji: '🎓',
-    intro: `**Eskişehir**, Türkiye'nin en yaşanabilir şehirlerinden biri olarak genç, dinamik nüfusuyla öne çıkar. İki büyük üniversite (Anadolu ve Eskişehir Teknik) şehre 100.000+ öğrenci kazandırır ve bu durum halı yıkama talebini doğrudan etkiler — öğrenci evlerinde halı kullanımı yoğundur. Porsuk Çayı kenarındaki modern yaşam, lüle taşı el sanatları ve sert karasal iklim Eskişehir'i kendine özgü kılar. [Eskişehir halı yıkama firmaları](/eskisehir-hali-yikama-firmalari) arasında en uygun fiyatlı ve güvenilir firmayı bulmak için bu rehberi hazırladık.`,
+    intro: `**Eskişehir**, Türkiye'nin en yaşanabilir şehirlerinden biri olarak genç, dinamik nüfusuyla öne çıkar. İki büyük üniversite (Anadolu ve Eskişehir Teknik) şehre 100.000+ öğrenci kazandırır ve bu durum halı yıkama talebini doğrudan etkiler — öğrenci evlerinde halı kullanımı yoğundur. Porsuk Çayı kenarındaki modern yaşam, lüle taşı el sanatları ve sert karasal iklim Eskişehir'i kendine özgü kılar. [Eskişehir halı yıkama](/eskisehir-hali-yikama-firmalari) firmaları arasında en uygun fiyatlı ve güvenilir firmayı bulmak için bu rehberi hazırladık.`,
     sections: [
       {
         heading: 'Eskişehir Halı Yıkama Fiyatları 2026',
@@ -1820,7 +1820,7 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
 
 **En İyi Dönem:** Mayıs ve Eylül — hava ılık, öğrenci yoğunluğu orta, kurutma hızlı.
 
-[Eskişehir halı yıkama firmaları](/eskisehir-hali-yikama-firmalari) — Eskişehir'deki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+[Eskişehir halı yıkama](/eskisehir-hali-yikama-firmalari) firmaları — Eskişehir'deki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
       },
       {
         heading: 'Eskişehir Halı Yıkama Firması Seçerken Dikkat Edilecekler',
@@ -1885,7 +1885,7 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     category: 'Şehir Rehberi',
     readingTime: 8,
     heroEmoji: '🌿',
-    intro: `**Sakarya**, Marmara Bölgesi'nin doğusunda, yeşilin her tonunu barındıran verimli bir coğrafyada yer alır. Sakarya Nehri'nin geçtiği ova, Sapanca Gölü'nün kıyıları ve Karadeniz'e uzanan dağlar — Sakarya'da nem her mevsim hissedilir. Fındık, tütün ve tarım ekonomisi, yanına eklenen güçlü sanayi ile (Toyota, Otokar, GOSB) Sakarya'yı hem kırsal hem kentsel ihtiyaçların buluştuğu bir şehir yapar. [Sakarya halı yıkama firmaları](/sakarya-hali-yikama-firmalari) arasında en uygun fiyatlı ve güvenilir firmayı bulmak için bu rehberi hazırladık.`,
+    intro: `**Sakarya**, Marmara Bölgesi'nin doğusunda, yeşilin her tonunu barındıran verimli bir coğrafyada yer alır. Sakarya Nehri'nin geçtiği ova, Sapanca Gölü'nün kıyıları ve Karadeniz'e uzanan dağlar — Sakarya'da nem her mevsim hissedilir. Fındık, tütün ve tarım ekonomisi, yanına eklenen güçlü sanayi ile (Toyota, Otokar, GOSB) Sakarya'yı hem kırsal hem kentsel ihtiyaçların buluştuğu bir şehir yapar. [Sakarya halı yıkama](/sakarya-hali-yikama-firmalari) firmaları arasında en uygun fiyatlı ve güvenilir firmayı bulmak için bu rehberi hazırladık.`,
     sections: [
       {
         heading: 'Sakarya Halı Yıkama Fiyatları 2026',
@@ -1926,7 +1926,7 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
 
 **En İyi Dönem:** Haziran ve Eylül — hava ılık, nem nispeten düşük, firmalar müsait.
 
-[Sakarya halı yıkama firmaları](/sakarya-hali-yikama-firmalari) — Sakarya'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+[Sakarya halı yıkama](/sakarya-hali-yikama-firmalari) firmaları — Sakarya'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
       },
       {
         heading: 'Sakarya Halı Yıkama Firması Seçerken Dikkat Edilecekler',
@@ -1994,7 +1994,7 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     category: 'Şehir Rehberi',
     readingTime: 9,
     heroEmoji: '⛵',
-    intro: `**Muğla**, Türkiye'nin turizm başkentidir. Bodrum, Fethiye, Marmaris, Datça, Dalaman — bu isimler dünya turizm haritasında parlayan noktalar. Ege ve Akdeniz'in buluştuğu Muğla'da halı yıkama sektörü turistik konaklama ile doğrudan bağlantılıdır. Yüzlerce otel, pansiyon, tatil köyü ve kiralık villa sezon başında ve sonunda toplu halı yıkama yaptırır. Yerleşik halk için ise Akdeniz ikliminin nemli kışları ve tuzlu deniz havası halı bakımını sürekli gündemde tutar. [Muğla halı yıkama firmaları](/mugla-hali-yikama-firmalari) arasında en uygun fiyatlı ve güvenilir firmayı bulmak için bu rehberi hazırladık.`,
+    intro: `**Muğla**, Türkiye'nin turizm başkentidir. Bodrum, Fethiye, Marmaris, Datça, Dalaman — bu isimler dünya turizm haritasında parlayan noktalar. Ege ve Akdeniz'in buluştuğu Muğla'da halı yıkama sektörü turistik konaklama ile doğrudan bağlantılıdır. Yüzlerce otel, pansiyon, tatil köyü ve kiralık villa sezon başında ve sonunda toplu halı yıkama yaptırır. Yerleşik halk için ise Akdeniz ikliminin nemli kışları ve tuzlu deniz havası halı bakımını sürekli gündemde tutar. [Muğla halı yıkama](/mugla-hali-yikama-firmalari) firmaları arasında en uygun fiyatlı ve güvenilir firmayı bulmak için bu rehberi hazırladık.`,
     sections: [
       {
         heading: 'Muğla Halı Yıkama Fiyatları 2026',
@@ -2035,7 +2035,7 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
 
 **En İyi Dönem:** Ekim-Kasım (sezon sonu, sıcak hava devam eder) ve Nisan-Mayıs (sezon öncesi, firmalar henüz yoğun değil).
 
-[Muğla halı yıkama firmaları](/mugla-hali-yikama-firmalari) — Muğla'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+[Muğla halı yıkama](/mugla-hali-yikama-firmalari) firmaları — Muğla'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
       },
       {
         heading: 'Muğla Halı Yıkama Firması Seçerken Dikkat Edilecekler',
@@ -2101,7 +2101,7 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     category: 'Şehir Rehberi',
     readingTime: 8,
     heroEmoji: '⛰️',
-    intro: `**Trabzon**, Doğu Karadeniz'in kalbi ve bölgenin en büyük şehridir. Yılda 800+ mm yağış, %80+ ortalama nem ve deniz kenarındaki dik yamaçlar — Trabzon'da halı yıkama bir lüks değil, hijyen zorunluluğudur. Nemli Karadeniz iklimi halılarda küf, bakteri ve koku oluşumunu Türkiye ortalamasının çok üzerinde hızlandırır. Çay tarlaları, fındık bahçeleri ve deniz tuzu üçlüsü halıları sürekli kirletir. [Trabzon halı yıkama firmaları](/trabzon-hali-yikama-firmalari) arasında en uygun fiyatlı ve güvenilir firmayı bulmak için bu rehberi hazırladık.`,
+    intro: `**Trabzon**, Doğu Karadeniz'in kalbi ve bölgenin en büyük şehridir. Yılda 800+ mm yağış, %80+ ortalama nem ve deniz kenarındaki dik yamaçlar — Trabzon'da halı yıkama bir lüks değil, hijyen zorunluluğudur. Nemli Karadeniz iklimi halılarda küf, bakteri ve koku oluşumunu Türkiye ortalamasının çok üzerinde hızlandırır. Çay tarlaları, fındık bahçeleri ve deniz tuzu üçlüsü halıları sürekli kirletir. [Trabzon halı yıkama](/trabzon-hali-yikama-firmalari) firmaları arasında en uygun fiyatlı ve güvenilir firmayı bulmak için bu rehberi hazırladık.`,
     sections: [
       {
         heading: 'Trabzon Halı Yıkama Fiyatları 2026',
@@ -2144,7 +2144,7 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
 
 **En İyi Dönem:** Temmuz-Ağustos — yılın en kuru ve en sıcak dönemi.
 
-[Trabzon halı yıkama firmaları](/trabzon-hali-yikama-firmalari) — Trabzon'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+[Trabzon halı yıkama](/trabzon-hali-yikama-firmalari) firmaları — Trabzon'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
       },
       {
         heading: 'Trabzon Halı Yıkama Firması Seçerken Dikkat Edilecekler',
@@ -2214,7 +2214,7 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     category: 'Şehir Rehberi',
     readingTime: 8,
     heroEmoji: '🍦',
-    intro: `**Kahramanmaraş**, dondurmadan çeliğe, tekstilden halıcılığa uzanan güçlü bir üretim şehridir. 2023 depreminden sonra yeniden ayağa kalkan Maraş, aynı zamanda Türkiye'nin önemli halı üretim merkezlerinden biridir. Karasal iklimin sert kışları ve sıcak yazları, Ahir Dağı'ndan esen rüzgarların taşıdığı toz — halı bakımını her mevsim gündemde tutar. [Kahramanmaraş halı yıkama firmaları](/kahramanmaras-hali-yikama-firmalari) arasında en uygun fiyatlı ve güvenilir firmayı bulmak için bu rehberi hazırladık.`,
+    intro: `**Kahramanmaraş**, dondurmadan çeliğe, tekstilden halıcılığa uzanan güçlü bir üretim şehridir. 2023 depreminden sonra yeniden ayağa kalkan Maraş, aynı zamanda Türkiye'nin önemli halı üretim merkezlerinden biridir. Karasal iklimin sert kışları ve sıcak yazları, Ahir Dağı'ndan esen rüzgarların taşıdığı toz — halı bakımını her mevsim gündemde tutar. [Kahramanmaraş halı yıkama](/kahramanmaras-hali-yikama-firmalari) firmaları arasında en uygun fiyatlı ve güvenilir firmayı bulmak için bu rehberi hazırladık.`,
     sections: [
       {
         heading: 'Kahramanmaraş Halı Yıkama Fiyatları 2026',
@@ -2255,7 +2255,7 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
 
 **En İyi Dönem:** Mayıs-Haziran ve Eylül — hava sıcak, kurutma hızlı, firmalar müsait.
 
-[Kahramanmaraş halı yıkama firmaları](/kahramanmaras-hali-yikama-firmalari) — Kahramanmaraş'taki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+[Kahramanmaraş halı yıkama](/kahramanmaras-hali-yikama-firmalari) firmaları — Kahramanmaraş'taki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
       },
       {
         heading: 'Kahramanmaraş Halı Yıkama Firması Seçerken Dikkat Edilecekler',
@@ -2317,7 +2317,7 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     category: 'Şehir Rehberi',
     readingTime: 8,
     heroEmoji: '🐱',
-    intro: `**Van**, Türkiye'nin doğusundaki en büyük şehirdir ve Van Gölü kıyısında eşsiz bir coğrafyaya sahiptir. 1700 metre rakım, uzun ve sert kışlar, kısa ama sıcak yazlar — Van'da halı yıkama sezonu diğer şehirlere göre çok kısadır. Buna karşın Van'ın halı kültürü zengindir: İran sınırına yakınlık nedeniyle İran halıları, yerel Van kilimleri ve Doğu Anadolu'nun geleneksel dokumaları bu şehirde yoğun kullanılır. [Van halı yıkama firmaları](/van-hali-yikama-firmalari) arasında en uygun fiyatlı ve güvenilir firmayı bulmak için bu rehberi hazırladık.`,
+    intro: `**Van**, Türkiye'nin doğusundaki en büyük şehirdir ve Van Gölü kıyısında eşsiz bir coğrafyaya sahiptir. 1700 metre rakım, uzun ve sert kışlar, kısa ama sıcak yazlar — Van'da halı yıkama sezonu diğer şehirlere göre çok kısadır. Buna karşın Van'ın halı kültürü zengindir: İran sınırına yakınlık nedeniyle İran halıları, yerel Van kilimleri ve Doğu Anadolu'nun geleneksel dokumaları bu şehirde yoğun kullanılır. [Van halı yıkama](/van-hali-yikama-firmalari) firmaları arasında en uygun fiyatlı ve güvenilir firmayı bulmak için bu rehberi hazırladık.`,
     sections: [
       {
         heading: 'Van Halı Yıkama Fiyatları 2026',
@@ -2359,7 +2359,7 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
 
 **En İyi Dönem:** Haziran-Temmuz — hava sıcak, firmalar henüz çok yoğun değil.
 
-[Van halı yıkama firmaları](/van-hali-yikama-firmalari) — Van'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+[Van halı yıkama](/van-hali-yikama-firmalari) firmaları — Van'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
       },
       {
         heading: 'Van Halı Yıkama Firması Seçerken Dikkat Edilecekler',
@@ -2423,7 +2423,7 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     category: 'Şehir Rehberi',
     readingTime: 8,
     heroEmoji: '🍑',
-    intro: `**Malatya**, dünya kayısı üretiminin başkentidir ve Doğu Anadolu'nun önemli sanayi şehirlerinden biridir. 2023 depreminden sonra yeniden yapılanan Malatya'da halı yıkama sektörü, karasal iklimin getirdiği uzun kış döneminde biriken toz ve alerjenlere karşı önemli bir hizmet sunar. Kayısı kurutma döneminde havadaki toz ve organik partikül birikimi halıları hızla kirletir. [Malatya halı yıkama firmaları](/malatya-hali-yikama-firmalari) arasında en uygun fiyatlı ve güvenilir firmayı bulmak için bu rehberi hazırladık.`,
+    intro: `**Malatya**, dünya kayısı üretiminin başkentidir ve Doğu Anadolu'nun önemli sanayi şehirlerinden biridir. 2023 depreminden sonra yeniden yapılanan Malatya'da halı yıkama sektörü, karasal iklimin getirdiği uzun kış döneminde biriken toz ve alerjenlere karşı önemli bir hizmet sunar. Kayısı kurutma döneminde havadaki toz ve organik partikül birikimi halıları hızla kirletir. [Malatya halı yıkama](/malatya-hali-yikama-firmalari) firmaları arasında en uygun fiyatlı ve güvenilir firmayı bulmak için bu rehberi hazırladık.`,
     sections: [
       {
         heading: 'Malatya Halı Yıkama Fiyatları 2026',
@@ -2464,7 +2464,7 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
 
 **En İyi Dönem:** Mayıs-Haziran ve Eylül — hava sıcak, kayısı toz yoğunluğu düşük.
 
-[Malatya halı yıkama firmaları](/malatya-hali-yikama-firmalari) — Malatya'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+[Malatya halı yıkama](/malatya-hali-yikama-firmalari) firmaları — Malatya'daki doğrulanmış firmaları ilçe bazlı filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
       },
       {
         heading: 'Malatya Halı Yıkama Firması Seçerken Dikkat Edilecekler',
@@ -2528,7 +2528,7 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     category: 'Şehir Rehberi',
     readingTime: 7,
     heroEmoji: '🏔️',
-    intro: `**Elazığ**, Fırat Nehri kıyısında, Keban Barajı'nın göl kıyısına yayılan Doğu Anadolu'nun üniversite şehridir. 1070 metre rakımda, karasal iklimin sert kışları ve sıcak yazları arasında halı bakımı kritik önemdedir. 2020 depremi sonrası yeniden yapılanan Elazığ'da Harput kültürü, geleneksel dokumacılık ve bağcılık şehre özgü bir karakter kazandırır. [Elazığ halı yıkama firmaları](/elazig-hali-yikama-firmalari) arasında en uygun fiyatlı ve güvenilir firmayı bulmak için bu rehberi hazırladık.`,
+    intro: `**Elazığ**, Fırat Nehri kıyısında, Keban Barajı'nın göl kıyısına yayılan Doğu Anadolu'nun üniversite şehridir. 1070 metre rakımda, karasal iklimin sert kışları ve sıcak yazları arasında halı bakımı kritik önemdedir. 2020 depremi sonrası yeniden yapılanan Elazığ'da Harput kültürü, geleneksel dokumacılık ve bağcılık şehre özgü bir karakter kazandırır. [Elazığ halı yıkama](/elazig-hali-yikama-firmalari) firmaları arasında en uygun fiyatlı ve güvenilir firmayı bulmak için bu rehberi hazırladık.`,
     sections: [
       {
         heading: 'Elazığ Halı Yıkama Fiyatları 2026',
@@ -2569,7 +2569,7 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
 
 **En İyi Dönem:** Mayıs-Haziran — hava ılık ama aşırı sıcak değil, firmalar henüz yoğun değil.
 
-[Elazığ halı yıkama firmaları](/elazig-hali-yikama-firmalari) — Elazığ'daki doğrulanmış firmaları filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
+[Elazığ halı yıkama](/elazig-hali-yikama-firmalari) firmaları — Elazığ'daki doğrulanmış firmaları filtreleyebilir, [fiyatları karşılaştırabilir](/rehber/hali-yikama-fiyatlari) ve güvenle sipariş verebilirsiniz.`,
       },
       {
         heading: 'Elazığ Halı Yıkama Firması Seçerken Dikkat Edilecekler',
@@ -5574,7 +5574,7 @@ Merkeze uzak ilçeler. Soma maden şehri olarak endüstriyel toz yoğunluğu yü
     category: 'hali-yikama',
     readingTime: 8,
     heroEmoji: '🏔️',
-    intro: 'Artvin, Türkiye\'nin en yeşil ve en yağışlı illerinden biridir. **Kaçkar Dağları**\'nın eteklerinde, derin vadiler ve yoğun ormanlarla çevrili bu şehirde nem oranı yıl boyu yüksektir. Halılar yıkanmadan önce nem emmiş olabilir ve kurutma süreci özel dikkat gerektirir. **[Artvin halı yıkama firmaları](/artvin-hali-yikama-firmalari)** bu zorlu iklim koşullarına adapte olmuş teknikler kullanır.',
+    intro: 'Artvin, Türkiye\'nin en yeşil ve en yağışlı illerinden biridir. **Kaçkar Dağları**\'nın eteklerinde, derin vadiler ve yoğun ormanlarla çevrili bu şehirde nem oranı yıl boyu yüksektir. Halılar yıkanmadan önce nem emmiş olabilir ve kurutma süreci özel dikkat gerektirir. **[Artvin halı yıkama](/artvin-hali-yikama-firmalari) firmaları** bu zorlu iklim koşullarına adapte olmuş teknikler kullanır.',
     sections: [
       {
         heading: 'Artvin\'de Halı Yıkama Fiyatları 2026',
@@ -5753,7 +5753,7 @@ Iğdır\'ın şebeke suyu sert (kireçli)dir. Firmalar yumuşatılmış su veya 
     category: 'hali-yikama',
     readingTime: 7,
     heroEmoji: '🌲',
-    intro: 'Bartın, Batı Karadeniz\'in sakin ve yeşil illerinden biridir. **Bartın Çayı** kıyısında kurulan şehir, ormanları ve ahşap mimarisiyle ünlüdür. Karadeniz\'in nemli iklimi halılar için dikkatli bakım gerektirir. **[Bartın halı yıkama firmaları](/bartin-hali-yikama-firmalari)** bu koşullara uygun hizmet sunar.',
+    intro: 'Bartın, Batı Karadeniz\'in sakin ve yeşil illerinden biridir. **Bartın Çayı** kıyısında kurulan şehir, ormanları ve ahşap mimarisiyle ünlüdür. Karadeniz\'in nemli iklimi halılar için dikkatli bakım gerektirir. **[Bartın halı yıkama](/bartin-hali-yikama-firmalari) firmaları** bu koşullara uygun hizmet sunar.',
     sections: [
       {
         heading: 'Bartın\'da Halı Yıkama Fiyatları 2026',
@@ -5841,7 +5841,7 @@ Deniz kenarındaki evlerde tuzlu nem metal aksamları paslandırır ve halı lif
     category: 'hali-yikama',
     readingTime: 7,
     heroEmoji: '⛰️',
-    intro: 'Gümüşhane, **Zigana** ve **Vavuk** dağları arasında, Harşit Çayı vadisinde kurulmuş tarihi bir Doğu Karadeniz ilidir. Denizden yüksek konumu nedeniyle karasal iklim etkisi altındadır. Uzun kışlar ve kısa yazlar halı yıkama sezonunu belirler. **[Gümüşhane halı yıkama firmaları](/gumushane-hali-yikama-firmalari)** bu zorlu koşullara adapte çalışır.',
+    intro: 'Gümüşhane, **Zigana** ve **Vavuk** dağları arasında, Harşit Çayı vadisinde kurulmuş tarihi bir Doğu Karadeniz ilidir. Denizden yüksek konumu nedeniyle karasal iklim etkisi altındadır. Uzun kışlar ve kısa yazlar halı yıkama sezonunu belirler. **[Gümüşhane halı yıkama](/gumushane-hali-yikama-firmalari) firmaları** bu zorlu koşullara adapte çalışır.',
     sections: [
       {
         heading: 'Gümüşhane\'de Halı Yıkama Fiyatları 2026',
@@ -5929,7 +5929,7 @@ Yaz yayla göçünde halılar nemli zemine seriliyor. Yayla dönüşünde halıl
     category: 'hali-yikama',
     readingTime: 7,
     heroEmoji: '🏗️',
-    intro: 'Karabük, Türkiye\'nin ilk ağır sanayi şehirlerinden biridir. **Kardemir** demir-çelik fabrikası şehrin kalbinde yer alır. Sanayi bölgesine yakın mahallelerde hava kalitesi halılara doğrudan etki eder. Öte yandan **Safranbolu** ilçesi UNESCO Dünya Mirası listesindeki tarihi konakları ile ünlüdür. **[Karabük halı yıkama firmaları](/karabuk-hali-yikama-firmalari)** her iki farklı ihtiyaca da çözüm sunar.',
+    intro: 'Karabük, Türkiye\'nin ilk ağır sanayi şehirlerinden biridir. **Kardemir** demir-çelik fabrikası şehrin kalbinde yer alır. Sanayi bölgesine yakın mahallelerde hava kalitesi halılara doğrudan etki eder. Öte yandan **Safranbolu** ilçesi UNESCO Dünya Mirası listesindeki tarihi konakları ile ünlüdür. **[Karabük halı yıkama](/karabuk-hali-yikama-firmalari) firmaları** her iki farklı ihtiyaca da çözüm sunar.',
     sections: [
       {
         heading: 'Karabük\'te Halı Yıkama Fiyatları 2026',
@@ -6023,7 +6023,7 @@ Yaz yayla göçünde halılar nemli zemine seriliyor. Yayla dönüşünde halıl
     category: 'hali-yikama',
     readingTime: 7,
     heroEmoji: '🏛️',
-    intro: 'Bilecik, Marmara ile İç Anadolu arasında geçiş bölgesinde yer alan tarihi bir ildir. **Söğüt** ilçesiyle Osmanlı Devleti\'nin kuruluş yeri olarak bilinir. İklimi Marmara\'dan daha sert, İç Anadolu\'dan daha nemlidir. **[Bilecik halı yıkama firmaları](/bilecik-hali-yikama-firmalari)** bu geçiş iklimine uygun hizmet sunar.',
+    intro: 'Bilecik, Marmara ile İç Anadolu arasında geçiş bölgesinde yer alan tarihi bir ildir. **Söğüt** ilçesiyle Osmanlı Devleti\'nin kuruluş yeri olarak bilinir. İklimi Marmara\'dan daha sert, İç Anadolu\'dan daha nemlidir. **[Bilecik halı yıkama](/bilecik-hali-yikama-firmalari) firmaları** bu geçiş iklimine uygun hizmet sunar.',
     sections: [
       {
         heading: 'Bilecik\'te Halı Yıkama Fiyatları 2026',
@@ -6113,7 +6113,7 @@ Osmaneli ve Bilecik merkezdeki Sakarya Nehri kıyısı evlerde bahar aylarında 
     category: 'hali-yikama',
     readingTime: 7,
     heroEmoji: '🏔️',
-    intro: 'Tunceli, Türkiye\'nin en dağlık illerinden biridir. **Munzur Vadisi Milli Parkı** ile çevrili şehir, sert kışları ve kısa yazlarıyla bilinir. Düşük nüfus yoğunluğu ve dağlık arazi nedeniyle halı yıkama firması sayısı sınırlıdır ancak mevcut firmalar bölgenin zorlu koşullarına hakimdir. **[Tunceli halı yıkama firmaları](/tunceli-hali-yikama-firmalari)** bu coğrafyaya uygun çalışır.',
+    intro: 'Tunceli, Türkiye\'nin en dağlık illerinden biridir. **Munzur Vadisi Milli Parkı** ile çevrili şehir, sert kışları ve kısa yazlarıyla bilinir. Düşük nüfus yoğunluğu ve dağlık arazi nedeniyle halı yıkama firması sayısı sınırlıdır ancak mevcut firmalar bölgenin zorlu koşullarına hakimdir. **[Tunceli halı yıkama](/tunceli-hali-yikama-firmalari) firmaları** bu coğrafyaya uygun çalışır.',
     sections: [
       {
         heading: 'Tunceli\'de Halı Yıkama Fiyatları 2026',
@@ -6203,7 +6203,7 @@ Tunceli bölgesinin geleneksel el dokuma kilimleri kültürel değer taşır. Do
     category: 'hali-yikama',
     readingTime: 8,
     heroEmoji: '🧶',
-    intro: 'Uşak, Türkiye\'nin **halı üretim başkenti**dir. Yüzyıllardır halı dokumacılığıyla ünlü olan şehir, halı bakımı konusunda da derin bir birikime sahiptir. Uşak halıları dünya müzelerinde sergilenir. **[Uşak halı yıkama firmaları](/usak-hali-yikama-firmalari)** bu geleneğin uzmanlarıdır.',
+    intro: 'Uşak, Türkiye\'nin **halı üretim başkenti**dir. Yüzyıllardır halı dokumacılığıyla ünlü olan şehir, halı bakımı konusunda da derin bir birikime sahiptir. Uşak halıları dünya müzelerinde sergilenir. **[Uşak halı yıkama](/usak-hali-yikama-firmalari) firmaları** bu geleneğin uzmanlarıdır.',
     sections: [
       {
         heading: 'Uşak\'ta Halı Yıkama Fiyatları 2026',
@@ -6296,7 +6296,7 @@ Uşak\'taki ustalar şu geleneksel yöntemi önerir: taze lekeye hemen soğuk su
     category: 'hali-yikama',
     readingTime: 7,
     heroEmoji: '🦩',
-    intro: 'Burdur, Göller Bölgesi\'nin merkezinde yer alan sakin bir Akdeniz-İç Anadolu geçiş ilidir. **Burdur Gölü** ve çevresindeki göller nemli bir mikroklima yaratır. Şehir küçük olmasına rağmen halı yıkama sektörü aktiftir. **[Burdur halı yıkama firmaları](/burdur-hali-yikama-firmalari)** bölgenin iklim koşullarına uygun hizmet sunar.',
+    intro: 'Burdur, Göller Bölgesi\'nin merkezinde yer alan sakin bir Akdeniz-İç Anadolu geçiş ilidir. **Burdur Gölü** ve çevresindeki göller nemli bir mikroklima yaratır. Şehir küçük olmasına rağmen halı yıkama sektörü aktiftir. **[Burdur halı yıkama](/burdur-hali-yikama-firmalari) firmaları** bölgenin iklim koşullarına uygun hizmet sunar.',
     sections: [
       {
         heading: 'Burdur\'da Halı Yıkama Fiyatları 2026',
@@ -6385,7 +6385,7 @@ Burdur\'da yaz aylarında günde 10+ saat güneş vardır. Halılar açık havad
     category: 'hali-yikama',
     readingTime: 7,
     heroEmoji: '🏺',
-    intro: 'Kütahya, Türkiye\'nin **çini ve seramik başkenti**dir. İç Batı Anadolu\'da yer alan şehir, karasal iklimi ve termal kaynaklarıyla tanınır. Kışları sert, yazları sıcak geçen Kütahya\'da halı bakımı mevsimsel bir disiplin gerektirir. **[Kütahya halı yıkama firmaları](/kutahya-hali-yikama-firmalari)** bu iklime uygun hizmet sunar.',
+    intro: 'Kütahya, Türkiye\'nin **çini ve seramik başkenti**dir. İç Batı Anadolu\'da yer alan şehir, karasal iklimi ve termal kaynaklarıyla tanınır. Kışları sert, yazları sıcak geçen Kütahya\'da halı bakımı mevsimsel bir disiplin gerektirir. **[Kütahya halı yıkama](/kutahya-hali-yikama-firmalari) firmaları** bu iklime uygun hizmet sunar.',
     sections: [
       {
         heading: 'Kütahya\'da Halı Yıkama Fiyatları 2026',
@@ -6480,7 +6480,7 @@ Kütahya\'nın el dokuma kilimleri geometrik desenler ve canlı renklerle bilini
     category: 'hali-yikama',
     readingTime: 7,
     heroEmoji: '🌾',
-    intro: 'Erzincan, **Fırat Nehri** havzasında geniş bir ovada kurulmuş Doğu Anadolu\'nun batı kapısıdır. Sert karasal iklimi ve deprem bölgesinde olması şehrin yapısını şekillendirmiştir. Modern yapılaşma ve geniş caddeler halı yıkama firmalarının erişimini kolaylaştırır. **[Erzincan halı yıkama firmaları](/erzincan-hali-yikama-firmalari)** bölgenin iklim koşullarına uygun çalışır.',
+    intro: 'Erzincan, **Fırat Nehri** havzasında geniş bir ovada kurulmuş Doğu Anadolu\'nun batı kapısıdır. Sert karasal iklimi ve deprem bölgesinde olması şehrin yapısını şekillendirmiştir. Modern yapılaşma ve geniş caddeler halı yıkama firmalarının erişimini kolaylaştırır. **[Erzincan halı yıkama](/erzincan-hali-yikama-firmalari) firmaları** bölgenin iklim koşullarına uygun çalışır.',
     sections: [
       {
         heading: 'Erzincan\'da Halı Yıkama Fiyatları 2026',
@@ -6673,7 +6673,7 @@ Ayvacık (Kaz Dağları) bölgesinin el dokuma kilimleri dünyaca ünlüdür. Do
     category: 'hali-yikama',
     readingTime: 7,
     heroEmoji: '🏔️',
-    intro: 'Hakkâri, Türkiye\'nin en güneydoğusunda, **Cilo-Sat Dağları** eteklerinde kurulmuş dağlık bir ildir. Rakım ortalama 1700 m civarındadır ve kış ayları oldukça serttir. Nüfus yoğunluğu düşüktür ve halı yıkama firması sayısı sınırlıdır. **[Hakkâri halı yıkama firmaları](/hakkari-hali-yikama-firmalari)** zorlu coğrafi koşullara rağmen hizmet sunmaktadır.',
+    intro: 'Hakkâri, Türkiye\'nin en güneydoğusunda, **Cilo-Sat Dağları** eteklerinde kurulmuş dağlık bir ildir. Rakım ortalama 1700 m civarındadır ve kış ayları oldukça serttir. Nüfus yoğunluğu düşüktür ve halı yıkama firması sayısı sınırlıdır. **[Hakkâri halı yıkama](/hakkari-hali-yikama-firmalari) firmaları** zorlu coğrafi koşullara rağmen hizmet sunmaktadır.',
     sections: [
       {
         heading: 'Hakkâri\'de Halı Yıkama Fiyatları 2026',
@@ -6759,7 +6759,7 @@ Kışın erimekte olan kar ve buzun evlere taşınması halılarda çamur ve nem
     category: 'hali-yikama',
     readingTime: 7,
     heroEmoji: '🏰',
-    intro: 'Bayburt, Türkiye\'nin nüfus olarak en küçük illerinden biridir. **Çoruh Nehri** vadisinde, 1550 m rakımda kurulmuş tarihi bir şehirdir. **Bayburt Kalesi** ve ehram geleneğiyle ünlüdür. Sert karasal iklim ve küçük nüfus halı yıkama sektörünü şekillendirir. **[Bayburt halı yıkama firmaları](/bayburt-hali-yikama-firmalari)** bu koşullara uygun çalışır.',
+    intro: 'Bayburt, Türkiye\'nin nüfus olarak en küçük illerinden biridir. **Çoruh Nehri** vadisinde, 1550 m rakımda kurulmuş tarihi bir şehirdir. **Bayburt Kalesi** ve ehram geleneğiyle ünlüdür. Sert karasal iklim ve küçük nüfus halı yıkama sektörünü şekillendirir. **[Bayburt halı yıkama](/bayburt-hali-yikama-firmalari) firmaları** bu koşullara uygun çalışır.',
     sections: [
       {
         heading: 'Bayburt\'ta Halı Yıkama Fiyatları 2026',
@@ -6852,7 +6852,7 @@ Bayburt\'ta kış 5-6 ay sürer. Kışa girmeden:
     category: 'hali-yikama',
     readingTime: 7,
     heroEmoji: '❄️',
-    intro: 'Ardahan, Türkiye\'nin en kuzeydoğusunda, **Kura Nehri** havzasında, 1829 m rakımda kurulmuş soğuk bir ildir. Yılın büyük bölümü kışla geçer ve halı yıkama sezonu son derece kısadır. Düşük nüfus yoğunluğu firma sayısını sınırlandırır. **[Ardahan halı yıkama firmaları](/ardahan-hali-yikama-firmalari)** bu zorlu koşullarda hizmet vermektedir.',
+    intro: 'Ardahan, Türkiye\'nin en kuzeydoğusunda, **Kura Nehri** havzasında, 1829 m rakımda kurulmuş soğuk bir ildir. Yılın büyük bölümü kışla geçer ve halı yıkama sezonu son derece kısadır. Düşük nüfus yoğunluğu firma sayısını sınırlandırır. **[Ardahan halı yıkama](/ardahan-hali-yikama-firmalari) firmaları** bu zorlu koşullarda hizmet vermektedir.',
     sections: [
       {
         heading: 'Ardahan\'da Halı Yıkama Fiyatları 2026',
@@ -6944,7 +6944,7 @@ Ardahan\'da kışın sıcak tutmak için halı altına kaz tüyü veya keçe ser
     category: 'hali-yikama',
     readingTime: 8,
     heroEmoji: '🧊',
-    intro: 'Kars, Türkiye\'nin kuzeydoğusunda, 1768 m rakımda kurulmuş tarihi bir ildir. **Ani Harabeleri** (UNESCO Dünya Mirası), Rus mimarisi ve sert kışlarıyla bilinir. Orhan Pamuk\'un "Kar" romanına ev sahipliği yapan şehirde kış uzun ve acımasızdır. **[Kars halı yıkama firmaları](/kars-hali-yikama-firmalari)** bu zorlu iklime uygun çalışır.',
+    intro: 'Kars, Türkiye\'nin kuzeydoğusunda, 1768 m rakımda kurulmuş tarihi bir ildir. **Ani Harabeleri** (UNESCO Dünya Mirası), Rus mimarisi ve sert kışlarıyla bilinir. Orhan Pamuk\'un "Kar" romanına ev sahipliği yapan şehirde kış uzun ve acımasızdır. **[Kars halı yıkama](/kars-hali-yikama-firmalari) firmaları** bu zorlu iklime uygun çalışır.',
     sections: [
       {
         heading: 'Kars\'ta Halı Yıkama Fiyatları 2026',
@@ -7038,7 +7038,7 @@ Kars, Türkiye\'nin peynir başkentidir. Kaşar, gravyer ve çeçil üretimi yap
     category: 'hali-yikama',
     readingTime: 7,
     heroEmoji: '♨️',
-    intro: 'Yalova, **Marmara Denizi** kıyısında, İstanbul\'a feribot ile 1 saat mesafede küçük ama canlı bir ildir. **Termal kaplıcaları** ile ünlü olan şehir, ılıman Marmara ikliminden faydalanır. Deniz kenarı konumu ve nemli hava halı bakımında özel dikkat gerektirir. **[Yalova halı yıkama firmaları](/yalova-hali-yikama-firmalari)** bu koşullara uygun hizmet sunar.',
+    intro: 'Yalova, **Marmara Denizi** kıyısında, İstanbul\'a feribot ile 1 saat mesafede küçük ama canlı bir ildir. **Termal kaplıcaları** ile ünlü olan şehir, ılıman Marmara ikliminden faydalanır. Deniz kenarı konumu ve nemli hava halı bakımında özel dikkat gerektirir. **[Yalova halı yıkama](/yalova-hali-yikama-firmalari) firmaları** bu koşullara uygun hizmet sunar.',
     sections: [
       {
         heading: 'Yalova\'da Halı Yıkama Fiyatları 2026',
