@@ -1,7 +1,6 @@
 /* ───── Rehber / Blog İçerik Veritabanı ───── */
 
 import { cityGuides } from './city-guides';
-import { extraCityGuides } from './city-guides-extra';
 
 export interface GuideArticle {
   slug: string;
@@ -1610,7 +1609,6 @@ Büyükşehirlerde toplu halı yıkama hizmeti sunan firmalar yaygın:
   },
 
   ...cityGuides,
-  ...extraCityGuides,
 ];
 
 export function getGuideBySlug(slug: string): GuideArticle | undefined {
