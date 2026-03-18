@@ -963,6 +963,651 @@ Düzenli müşterilere %15-25 indirim uygulanır. Haftalık 4 seans paketi stand
     ],
     relatedSlugs: ['hali-yikama-fiyatlari', 'koltuk-yikama-fiyatlari', 'yaz-temizligi-kontrol-listesi'],
   },
+  /* ───── YENİ SEO MAKALELERİ (2026-03-19) ───── */
+
+  {
+    slug: 'turkiye-hali-yikama-haritasi',
+    title: 'Türkiye Halı Yıkama Haritası — Şehir Bazlı Fiyat ve Kalite Karşılaştırması',
+    metaTitle: 'Türkiye Halı Yıkama Haritası 2026 | Şehir Bazlı Fiyat Karşılaştırması',
+    metaDescription: 'Türkiye genelinde halı yıkama fiyatları şehir bazlı karşılaştırma. İstanbul, Ankara, İzmir, Bursa, Antalya ve 81 ilde güncel fiyatlar, kalite farkları ve firma yoğunlukları.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 10,
+    heroEmoji: '🗺️',
+    intro: 'Türkiye\'de halı yıkama fiyatları bir uçtan diğerine ikiye, hatta üçe katlayabiliyor. Aynı makine halısı için İstanbul Beşiktaş\'ta 200 TL/m² öderken, Sivas\'ta 60 TL/m² ödemeniz mümkün. Peki bu fark nereden geliyor? Hangi şehirde ne kadar ödemelisiniz? Bu rehberde Türkiye\'nin halı yıkama haritasını çıkarıyor, 7 bölgenin fiyat dinamiklerini ve kalite farklarını masaya yatırıyoruz.',
+    sections: [
+      {
+        heading: 'Marmara Bölgesi Halı Yıkama — Türkiye\'nin En Pahalı Pazarı',
+        content: `Marmara, Türkiye halı yıkama pazarının kalbi. Sadece İstanbul\'un payı tüm pazarın %25-30\'u civarında. Fiyatlar yüksek ama firma sayısı ve rekabet de yoğun.
+
+**[İstanbul halı yıkama](/istanbul-hali-yikama-firmalari):** Türkiye ortalamasının %55-65 üzerinde. Makine halısı ortalama 140 TL/m². Avrupa yakasında fiyatlar Anadolu yakasına göre %5-10 daha yüksek. İstanbul\'un en büyük avantajı firma çeşitliliği — ipek halı uzmanından endüstriyel tesis temizliğine kadar her alanda uzman firma bulabilirsiniz.
+
+**[Bursa halı yıkama](/bursa-hali-yikama-firmalari):** Ortalama 85-100 TL/m². Tekstil şehri olmanın avantajıyla halı bakım bilinci yüksek. Nilüfer ve Osmangazi ilçelerinde kaliteli firmalar yoğun.
+
+**[Kocaeli halı yıkama](/kocaeli-hali-yikama-firmalari):** Ortalama 90-135 TL/m². Sanayi bölgesi olması nedeniyle ofis ve fabrika halısı temizliğinde uzmanlaşmış firmalar mevcut.
+
+**[Tekirdağ halı yıkama](/tekirdag-hali-yikama-firmalari):** Ortalama 70-90 TL/m². İstanbul\'a yakınlığı sayesinde bazı İstanbul firmaları da hizmet veriyor.
+
+**[Balıkesir halı yıkama](/balikesir-hali-yikama-firmalari):** Ortalama 65-85 TL/m². Bandırma ve Edremit gibi sahil ilçelerinde yazlık evler nedeniyle yaz aylarında talep patlar.`,
+      },
+      {
+        heading: 'İç Anadolu Halı Yıkama — Fiyat/Kalite Dengesi En İyi Bölge',
+        content: `İç Anadolu, fiyatların makul ve kalitenin tutarlı olduğu bölge. Kara iklimi nedeniyle kış aylarında kapalı kurutma tesisi olan firmaları tercih etmek şart.
+
+**[Ankara halı yıkama](/ankara-hali-yikama-firmalari):** Ortalama 90 TL/m² — İstanbul\'un %35 altında. Çankaya ve Yenimahalle\'de premium firmalar var. Keçiören ve Mamak\'ta rekabetçi fiyatlar. Ankara\'nın avantajı: trafik İstanbul kadar sorunlu değil, teslimat süreleri 1-2 gün daha kısa.
+
+**[Konya halı yıkama](/konya-hali-yikama-firmalari):** Ortalama 65-85 TL/m². Türkiye\'nin en büyük yüzölçümüne sahip şehri. Selçuklu ve Meram ilçelerinde kaliteli firmalar yoğun. Kış aylarında dondurucu soğuk olduğundan mutlaka kapalı kurutma tesisi olan firma seçin.
+
+**[Eskişehir halı yıkama](/eskisehir-hali-yikama-firmalari):** Ortalama 70-85 TL/m². Üniversite şehri — öğrenci nüfusu nedeniyle uygun fiyatlı paket hizmetler yaygın.
+
+**[Kayseri halı yıkama](/kayseri-hali-yikama-firmalari):** Ortalama 65-80 TL/m². Halı üretim merkezi olması nedeniyle sektör bilgisi yüksek, el halısı konusunda uzman firmalar mevcut.
+
+**[Sivas halı yıkama](/sivas-hali-yikama-firmalari):** Ortalama 55-70 TL/m². Türkiye\'nin en uygun fiyatlı pazarlarından biri. Firma sayısı az ama mevcut firmalar kaliteli hizmet veriyor.`,
+      },
+      {
+        heading: 'Ege ve Akdeniz Halı Yıkama — Nem Faktörü Her Şeyi Değiştiriyor',
+        content: `Kıyı şehirlerinde halı yıkama sadece temizlik değil, hijyen meselesi. Yüksek nem oranı halılarda küf, toz akarı ve bakteri üremesini hızlandırıyor. Bu bölgelerde yılda en az 2 kez profesyonel halı yıkama yaptırmak sağlık açısından kritik.
+
+**[İzmir halı yıkama](/izmir-hali-yikama-firmalari):** Ortalama 90-120 TL/m². Ege\'nin en büyük pazarı. Bornova, Karşıyaka ve Buca\'da firma yoğunluğu yüksek. Nemli iklim nedeniyle anti-bakteriyel yıkama hizmeti sunan firmalar burada daha yaygın.
+
+**[Antalya halı yıkama](/antalya-hali-yikama-firmalari):** Ortalama 80-110 TL/m². Turizm sezonunda otel ve pansiyon halı yıkama talebi artıyor. Konyaaltı ve Muratpaşa\'da kaliteli firmalar mevcut. Yaz sıcağında halılar çok hızlı kuruyor — bu da teslimat sürelerini kısaltıyor.
+
+**[Aydın halı yıkama](/aydin-hali-yikama-firmalari):** Ortalama 65-85 TL/m². Kuşadası ve Didim gibi tatil bölgelerinde yazlık ev temizliği ile birlikte halı yıkama paketi yaygın.
+
+**[Muğla halı yıkama](/mugla-hali-yikama-firmalari):** Ortalama 70-95 TL/m². Bodrum ve Fethiye\'de yaz sezonu başında yoğun talep. Lüks villa halıları için özel hizmet sunan butik firmalar var.
+
+**[Mersin halı yıkama](/mersin-hali-yikama-firmalari):** Ortalama 65-85 TL/m². Limon kokulu şehrin nemli havası halılara düşman — düzenli yıkama şart. Mezitli ve Yenişehir\'de firmalar yoğun.
+
+**[Adana halı yıkama](/adana-hali-yikama-firmalari):** Ortalama 65-80 TL/m². Sıcak iklim nedeniyle kurutma maliyeti düşük, bu fiyatlara yansıyor.`,
+      },
+      {
+        heading: 'Karadeniz Halı Yıkama — Nem ve Yağışla Mücadele',
+        content: `Karadeniz, Türkiye\'nin en nemli bölgesi. Yılın 200+ günü yağış alan şehirlerde halı bakımı ayrı bir uzmanlık. Dış kurutma neredeyse imkânsız olduğundan kapalı kurutma tesisi zorunluluk.
+
+**[Trabzon halı yıkama](/trabzon-hali-yikama-firmalari):** Ortalama 65-85 TL/m². Karadeniz\'in en büyük pazarı. Yağışlı iklim nedeniyle halılar daha sık kirleniyor ve daha sık yıkanması gerekiyor. Firma seçerken kapalı kurutma tesisi olup olmadığını mutlaka sorun.
+
+**[Samsun halı yıkama](/samsun-hali-yikama-firmalari):** Ortalama 60-80 TL/m². Atakum ve İlkadım ilçelerinde firma sayısı yeterli. Nemli havada halıların küflenmemesi için firmadan anti-küf işlem uygulamasını talep edin.
+
+**[Rize halı yıkama](/rize-hali-yikama-firmalari):** Ortalama 55-75 TL/m². Türkiye\'nin en çok yağış alan şehri. Halı yıkama burada lüks değil, zorunluluk. Çay bahçelerinden gelen toprak ve nem halılara hızla nüfuz ediyor.
+
+**[Ordu halı yıkama](/ordu-hali-yikama-firmalari):** Ortalama 55-75 TL/m². Altınordu ilçesinde firmalar yoğun. Fındık sezonu sonrası (Ağustos-Eylül) halı yıkama talebi artıyor.`,
+      },
+      {
+        heading: 'Güneydoğu ve Doğu Anadolu Halı Yıkama — El Dokuma Halı Uzmanlığı',
+        content: `Bu bölge Türkiye\'nin en değerli el dokuma halılarının üretildiği coğrafya. Makine halısı fiyatları düşük olsa da el halısı konusunda özel uzmanlık gerektiriyor.
+
+**[Gaziantep halı yıkama](/gaziantep-hali-yikama-firmalari):** Ortalama 60-80 TL/m². Türkiye\'nin halı üretim başkenti. Makine halısı fabrikaları burada yoğun olduğundan sektör bilgisi çok yüksek. El halısı yıkama konusunda tecrübeli firmalar mevcut.
+
+**[Diyarbakır halı yıkama](/diyarbakir-hali-yikama-firmalari):** Ortalama 55-70 TL/m². Yaz aylarında 45°C\'yi aşan sıcaklık halı kurutma için ideal. Kış aylarında ise sert soğuk nedeniyle sadece kapalı tesisli firmalar tercih edilmeli.
+
+**[Şanlıurfa halı yıkama](/sanliurfa-hali-yikama-firmalari):** Ortalama 50-70 TL/m². Türkiye\'nin en uygun fiyatlı pazarlarından biri. Ancak firma sayısı sınırlı — erken sipariş vermek önemli.
+
+**[Erzurum halı yıkama](/erzurum-hali-yikama-firmalari):** Ortalama 55-70 TL/m². Kışları -30°C\'yi gören şehirde Kasım-Mart arası halı yıkama sadece kapalı tesislerde mümkün. Yaz aylarında ise fiyatlar çok uygun.
+
+**[Van halı yıkama](/van-hali-yikama-firmalari):** Ortalama 50-65 TL/m². Van kilimi dünyaca ünlü — bu değerli dokumaları sadece uzman firmalara emanet edin.
+
+**[Malatya halı yıkama](/malatya-hali-yikama-firmalari):** Ortalama 55-70 TL/m². Kayısı başkentinde kuru iklim halı kurutma için avantaj sağlıyor.`,
+      },
+      {
+        heading: 'Şehir Bazlı Halı Yıkama Fiyat Tablosu 2026',
+        content: `Aşağıdaki tablo Türkiye\'nin en büyük 20 şehrinde makine halısı yıkama fiyatlarını özetler:
+
+| Şehir | Ortalama (TL/m²) | Aralık | Sıralama |
+|-------|-----------------|--------|----------|
+| [İstanbul](/istanbul-hali-yikama-firmalari) | 140 | 70-450 | En pahalı |
+| [Kocaeli](/kocaeli-hali-yikama-firmalari) | 135 | 75-200 | Çok yüksek |
+| [İzmir](/izmir-hali-yikama-firmalari) | 120 | 70-300 | Yüksek |
+| [Antalya](/antalya-hali-yikama-firmalari) | 105 | 80-200 | Ortanın üstü |
+| [Ankara](/ankara-hali-yikama-firmalari) | 90 | 70-140 | Orta |
+| [Bursa](/bursa-hali-yikama-firmalari) | 90 | 65-140 | Orta |
+| [Eskişehir](/eskisehir-hali-yikama-firmalari) | 80 | 60-120 | Ortanın altı |
+| [Konya](/konya-hali-yikama-firmalari) | 75 | 55-110 | Uygun |
+| [Mersin](/mersin-hali-yikama-firmalari) | 75 | 55-110 | Uygun |
+| [Kayseri](/kayseri-hali-yikama-firmalari) | 72 | 55-100 | Uygun |
+| [Trabzon](/trabzon-hali-yikama-firmalari) | 72 | 55-100 | Uygun |
+| [Gaziantep](/gaziantep-hali-yikama-firmalari) | 70 | 50-100 | Uygun |
+| [Adana](/adana-hali-yikama-firmalari) | 70 | 50-100 | Uygun |
+| [Samsun](/samsun-hali-yikama-firmalari) | 68 | 50-95 | Uygun |
+| [Diyarbakır](/diyarbakir-hali-yikama-firmalari) | 62 | 45-85 | Çok uygun |
+| [Malatya](/malatya-hali-yikama-firmalari) | 62 | 45-85 | Çok uygun |
+| [Erzurum](/erzurum-hali-yikama-firmalari) | 60 | 45-80 | Çok uygun |
+| [Sivas](/sivas-hali-yikama-firmalari) | 60 | 45-80 | Çok uygun |
+| [Şanlıurfa](/sanliurfa-hali-yikama-firmalari) | 58 | 40-80 | En uygun |
+| [Van](/van-hali-yikama-firmalari) | 55 | 40-75 | En uygun |
+
+**Not:** Fiyatlar makine halısı içindir. El halısı, yün ve ipek halı fiyatları 2-5 kat daha yüksek olabilir. Şehrinize özel güncel fiyatlar için tablodaki şehir bağlantılarına tıklayın.`,
+      },
+    ],
+    faq: [
+      { q: 'Türkiye\'de en ucuz halı yıkama hangi şehirde?', a: 'Van, Şanlıurfa ve Sivas gibi Doğu ve İç Anadolu şehirlerinde makine halısı yıkama 40-60 TL/m² aralığında. Ancak firma sayısı büyükşehirlere göre sınırlıdır.' },
+      { q: 'Neden İstanbul\'da halı yıkama bu kadar pahalı?', a: 'Kira, işçilik, yakıt ve trafikteki zaman kaybı İstanbul maliyetlerini artırıyor. Ayrıca yaşam standartları yüksek ilçelerde firmalar premium hizmet sunuyor.' },
+      { q: 'Nemli şehirlerde halı kaç kez yıkatılmalı?', a: 'İzmir, Trabzon, Rize gibi nemli şehirlerde yılda en az 2 kez profesyonel halı yıkama önerilir. Kuru iklimlerde (Ankara, Konya, Kayseri) yılda 1 kez yeterli olabilir.' },
+      { q: 'Kışın halı yıkatmak riskli mi?', a: 'Kapalı kurutma tesisi olan firmalarda risk yoktur. Açık havada kurutma yapan firmalardan kış aylarında halı yıkatmayın — küf ve koku riski çok yüksektir. Özellikle Erzurum, Kars, Sivas gibi şehirlerde Kasım-Mart arası sadece kapalı tesisli firma tercih edin.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'istanbul-hali-yikama', 'ankara-hali-yikama', 'izmir-hali-yikama', 'hali-yikama-firmasi-nasil-secilir'],
+  },
+
+  {
+    slug: 'hali-yikama-ne-zaman-yaptirilmali',
+    title: 'Halı Yıkama Ne Zaman Yaptırılmalı? Mevsim ve Şehre Göre Rehber',
+    metaTitle: 'Halı Yıkama Ne Zaman Yaptırılmalı? | Mevsim ve Şehir Rehberi 2026',
+    metaDescription: 'Halı yıkama için en doğru zamanı öğrenin. Şehrinize göre ideal sezon, frekans önerileri ve sağlık açısından yıkama sıklığı rehberi.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 8,
+    heroEmoji: '📅',
+    intro: 'Halı yıkama zamanlaması çoğu insanın düşündüğünden daha önemli. Yanlış zamanda yıkatılan halı küflenebilir, doğru zamanda yıkatılan halı ise hem daha temiz olur hem daha az ödeme yaparsınız. Üstelik bulunduğunuz şehrin iklimi bu zamanlamayı doğrudan etkiler. Bu rehberde mevsime, şehre ve halı türüne göre ideal yıkama zamanını anlatıyoruz.',
+    sections: [
+      {
+        heading: 'Halı Yıkama İçin En İdeal Mevsim: İlkbahar mı, Yaz mı?',
+        content: `Geleneksel cevap "yaz" olsa da, bu her zaman doğru değil.
+
+**İlkbahar (Mart-Nisan-Mayıs) — Altın Dönem:**
+İlkbahar, halı yıkama için gerçek altın dönemdir. Kışın biriken toz, akar ve bakteri yükünden kurtulmak için en doğru zamanlama. Firmalar henüz yaz yoğunluğuna girmediğinden fiyatlar makul ve teslimat süreleri kısa. Hava ısınmaya başladığından doğal kurutma mümkün ama henüz aşırı sıcak değil.
+
+**Yaz (Haziran-Temmuz-Ağustos) — Yoğun Dönem:**
+En popüler dönem ama en pahalı dönem de aynı zamanda. Firmalar kapasitelerinin %100\'üne ulaşır. Teslimat süreleri 5-7 güne, hatta 10 güne çıkabilir. Fiyatlar ilkbahara göre %10-20 daha yüksek olabilir. Tek avantajı: halılar çok hızlı kuruyor.
+
+**Sonbahar (Eylül-Ekim) — İkinci Şans:**
+Yaz tatilinden dönüş, halıların tekrar serilmesi — ikinci yoğun dönem. Ama yaza göre fiyatlar %5-10 daha uygun ve firmalar daha rahat.
+
+**Kış (Kasım-Şubat) — Dikkatli Olun:**
+Fiyatlar en düşük seviyede ama risk var. Açık havada kurutma yapan firmalardan kışın halı yıkatmak küf demektir. Sadece kapalı kurutma tesisi olan firmaları tercih edin. Bu firmalar kışın da güvenle yıkar.`,
+      },
+      {
+        heading: 'Şehre Göre Halı Yıkama Takvimi — İklim Her Şeyi Değiştirir',
+        content: `Türkiye\'nin 7 farklı iklim bölgesi var ve her birinde ideal halı yıkama zamanı farklı.
+
+**Sıcak Akdeniz İklimi — [Antalya](/antalya-hali-yikama-firmalari), [Mersin](/mersin-hali-yikama-firmalari), [Adana](/adana-hali-yikama-firmalari):**
+Yılın 9 ayı halı yıkamaya uygun. Mart\'tan Kasım\'a kadar rahatça yıkatabilirsiniz. Yaz aylarında halılar 4-5 saatte kuruyor. Kış bile ılık geçtiğinden sorun yaşanmaz. Bu bölgede fırsat: kış aylarında talebin düşmesini bekleyip uygun fiyattan yıkatmak.
+
+**Nemli Ege İklimi — [İzmir](/izmir-hali-yikama-firmalari), [Aydın](/aydin-hali-yikama-firmalari), [Muğla](/mugla-hali-yikama-firmalari):**
+Nem oranı %70-80\'lere çıkabiliyor. Bu bölgede yılda mutlaka 2 kez halı yıkatmalısınız. İdeal zamanlar: Nisan-Mayıs ve Eylül-Ekim. Yaz ortasında halılar çok hızlı kurur ama firmalar meşguldür. Kış aylarında nemden dolayı kurutma süresi uzar — kapalı tesisli firma şart.
+
+**Karadeniz İklimi — [Trabzon](/trabzon-hali-yikama-firmalari), [Samsun](/samsun-hali-yikama-firmalari), [Rize](/rize-hali-yikama-firmalari), [Ordu](/ordu-hali-yikama-firmalari):**
+Yılın en zorlu bölgesi. Yağış 200+ gün. Dış kurutma neredeyse imkânsız. Bu şehirlerde kapalı kurutma tesisi olan firma seçmek zorunluluk, tercih değil. İdeal zamanlar: Temmuz-Ağustos (yılın en kuru ayları). Yılda en az 2, ideal 3 kez yıkatın.
+
+**Sert Kara İklimi — [Ankara](/ankara-hali-yikama-firmalari), [Konya](/konya-hali-yikama-firmalari), [Kayseri](/kayseri-hali-yikama-firmalari), [Sivas](/sivas-hali-yikama-firmalari), [Erzurum](/erzurum-hali-yikama-firmalari):**
+Kışları dondurucu, yazları sıcak ve kuru. İdeal dönem: Mayıs-Haziran ve Eylül. Kasım-Mart arası kesinlikle kapalı tesisli firma gerekli. Kuru iklim avantajı: halılar hızlı kuruyor, küf riski düşük. Yılda 1-2 kez yeterli.
+
+**Marmara İklimi — [İstanbul](/istanbul-hali-yikama-firmalari), [Bursa](/bursa-hali-yikama-firmalari), [Kocaeli](/kocaeli-hali-yikama-firmalari):**
+Dört mevsim belirgin. İstanbul\'da ilkbahar ve sonbahar ideal — yaz çok yoğun ve pahalı. Bursa\'da Mayıs-Haziran en iyi dönem. Yılda 1-2 kez yeterli ama evcil hayvan varsa 3 kez önerilir.
+
+**Güneydoğu İklimi — [Gaziantep](/gaziantep-hali-yikama-firmalari), [Diyarbakır](/diyarbakir-hali-yikama-firmalari), [Şanlıurfa](/sanliurfa-hali-yikama-firmalari):**
+Yaz aşırı sıcak (45°C+), kış soğuk. Halı yıkama için bahar ve sonbahar ideal. Yaz ortasında halılar dakikalar içinde kuruyor ama sıcakta deterjan kalıntısı riski var — firmalar genellikle bu dönemde extra durulama yapar.`,
+      },
+      {
+        heading: 'Halı Yıkama Sıklığı — Ne Kadar Sık Yıkatmalısınız?',
+        content: `Herkesin evi, yaşam koşulları ve halısı farklı. İşte duruma göre önerilen yıkama sıklıkları:
+
+**Standart Ev (2-4 kişi, evcil hayvan yok):** Yılda 1-2 kez. İlkbaharda bir kez yıkatmak çoğu ev için yeterli.
+
+**Evcil Hayvan Olan Ev:** Yılda 2-3 kez. Kedi ve köpek tüyleri halı liflerinin derinlerine nüfuz ediyor. Alerji riski artıyor. Her 4 ayda bir profesyonel yıkama önerilir.
+
+**Bebek/Küçük Çocuk Olan Ev:** Yılda 2-3 kez. Bebekler yerde vakit geçirir, her şeyi ağzına götürür. Halıdaki bakteri ve alerjen yükü doğrudan sağlık riski oluşturur.
+
+**Alerji/Astım Hastası Olan Ev:** Yılda 3-4 kez. Toz akarı halılarda hızla çoğalır. Profesyonel yıkama toz akarı popülasyonunu %95+ oranında azaltır. Anti-alerjen yıkama hizmeti sunan firmaları tercih edin.
+
+**Yoğun Trafikli Alan (salon, giriş):** Bu halılar yılda 2 kez mutlaka yıkanmalı. Ayakkabıyla girilen evlerde sıklık artırılmalı.
+
+**Az Kullanılan Oda (misafir odası):** Yılda 1 kez veya 2 yılda 1 kez yeterli. Ama nemli bölgelerde ([İzmir](/izmir-hali-yikama-firmalari), [Trabzon](/trabzon-hali-yikama-firmalari), [Rize](/rize-hali-yikama-firmalari)) kullanılmayan odadaki halı da nem çekiyor — yine de yılda 1 kez yıkatın.
+
+**El Halısı, İpek Halı, Antik Halı:** Yılda 1 kez yeterli. Fazla yıkama lifleri aşındırır. Sadece [uzman firmalara](/rehber/hali-yikama-firmasi-nasil-secilir) emanet edin.`,
+      },
+      {
+        heading: 'Halı Yıkama Zamanlaması — Para Tasarrufu İpuçları',
+        content: `Doğru zamanlama ciddi para tasarrufu sağlar:
+
+**1. Yoğun Sezonu Kaçının:** Haziran-Temmuz en pahalı dönem. Nisan veya Ekim\'de yıkatarak aynı kalitede hizmeti %10-15 daha uygun alabilirsiniz.
+
+**2. Toplu Sipariş Verin:** [Halı yıkama fiyatları](/rehber/hali-yikama-fiyatlari) genellikle m² bazlıdır. Evinizin tüm halılarını aynı anda vermek ulaşım maliyetini düşürür ve firmalar toplu siparişlere indirim uygular. Halı yıkamaya ek olarak [koltuk yıkama](/rehber/koltuk-yikama-fiyatlari) veya [yorgan yıkama](/rehber/yorgan-yastik-yikama) eklemek de maliyeti düşürür.
+
+**3. Fırsat Dönemi: Kış Sonu (Şubat-Mart):** Talebin en düşük olduğu dönem. Kapalı tesisli firmalar bu dönemde en uygun fiyatları sunar ve teslimat süreleri en kısa. [Bölgenizdeki fırsatları takip edin →](/firsatlar)
+
+**4. Önceden Planlayın:** Yaz ortasında "yarın halılarımı alın" demek yerine, Mayıs başında sipariş verin. Hem fiyat avantajı hem hızlı teslimat garantisi.
+
+**5. Şehrinize özel fiyatları kontrol edin:** Her şehrin fiyat dinamiği farklı. [İstanbul](/istanbul-hali-yikama-firmalari), [Ankara](/ankara-hali-yikama-firmalari) veya [İzmir](/izmir-hali-yikama-firmalari) — şehrinize özel fiyat listesini kontrol ederek bütçenizi planlayın.`,
+      },
+    ],
+    faq: [
+      { q: 'Halıyı yılda kaç kez yıkatmalıyım?', a: 'Standart ev için yılda 1-2 kez yeterli. Evcil hayvan veya alerji hastası varsa 2-4 kez. Nemli bölgelerde (İzmir, Trabzon, Rize) sıklığı artırın.' },
+      { q: 'Kışın halı yıkatmak güvenli mi?', a: 'Kapalı kurutma tesisi olan firmalarda evet. Açık havada kurutma yapan firmalardan kışın halı yıkatmayın — küf ve koku riski çok yüksektir.' },
+      { q: 'En ucuz halı yıkama dönemi hangisi?', a: 'Şubat-Mart ve Kasım en uygun dönemler. Talebin düşük olduğu aylarda firmalar %10-15 indirim uygulayabiliyor.' },
+      { q: 'Yeni halıyı ne zaman ilk kez yıkatmalıyım?', a: 'İlk 6 ayda yıkatmayın — yeni halılar doğal olarak tüy döker ve bu normaldir. 6-12 ay kullanımdan sonra ilk profesyonel yıkama yapılabilir.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'hali-bakim-ipuclari', 'hali-alerjisi-ve-hijyen', 'turkiye-hali-yikama-haritasi'],
+  },
+
+  {
+    slug: 'profesyonel-mi-evde-mi-hali-yikama',
+    title: 'Profesyonel Halı Yıkama mı, Evde Halı Yıkama mı? Doğru Karar Rehberi',
+    metaTitle: 'Profesyonel Halı Yıkama mı Evde mi Yıkasam? | Karşılaştırma Rehberi 2026',
+    metaDescription: 'Profesyonel halı yıkama ile evde halı yıkamanın karşılaştırması. Maliyet, kalite, hijyen, risk analizi ve hangi durumda hangisini tercih etmeniz gerektiği.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 9,
+    heroEmoji: '⚖️',
+    intro: 'Bu soru her halı sahibinin aklından geçer: "Halıyı evde kendim yıkasam mı, firmaya mı versem?" Ucuza gelsin diye banyoda yıkanan halıların hikâyesi çoğu zaman hüsranla biter — halı çeker, renk solar, günlerce kurumaz. Ama her halıyı da profesyonele vermek şart mı? İşte dürüst bir karşılaştırma.',
+    sections: [
+      {
+        heading: 'Evde Halı Yıkama — Ne Zaman Mantıklı?',
+        content: `Dürüst olalım: bazı durumlarda evde yıkamak gerçekten yeterli.
+
+**Küçük Halılar (3 m² altı):** Banyo halısı, mutfak önü paspası gibi küçük parçaları çamaşır makinesinde veya elde yıkamak mantıklı. Firma çağırmak için bu boyut çok küçük ve maliyet orantısız.
+
+**Makine Yıkanabilir Etiketli Halılar:** Bazı modern halılar çamaşır makinesinde yıkanabilir. Etiketi kontrol edin — 30°C yıkama işareti varsa makine güvenli.
+
+**Acil Leke Müdahalesi:** Kahve, çay, meyve suyu gibi taze lekeler hemen müdahale edilmeli. [Leke çıkarma rehberimizi](/rehber/hali-leke-cikarma) takip edin. Profesyonel yıkamayı beklemek lekenin kalıcılaşmasına neden olur.
+
+**Düşük Değerli, Eski Halılar:** Zaten değiştirmeyi düşündüğünüz, 2-3 yıl içinde atacağınız bir halıya profesyonel yıkama masrafı yapmanın anlamı yok.
+
+**Evde yıkamanın maliyeti:** Su + deterjan + elektrik toplamda 30-50 TL. Ama gizli maliyet: saatler süren emek, ağrıyan bel, ıslak banyoda günlerce asılı kalan halı.`,
+      },
+      {
+        heading: 'Profesyonel Halı Yıkama — Neden Evde Yıkamayla Kıyaslanamaz?',
+        content: `Profesyonel halı yıkama firmalarının sunduğu şeyi evde taklit etmek fiziksel olarak imkânsız. İşte nedenler:
+
+**1. Endüstriyel Su Basıncı:** Profesyonel makineler 40-60 bar basınçla yıkar. Evdeki musluk basıncı 2-4 bar. Bu 15-20 kat fark demek. Düşük basınçla yıkanan halıda deterjan kalıntısı kalır — bu kalıntı toz çeker ve halıyı daha hızlı kirletir.
+
+**2. Tam Durulama ve Sıkma:** Endüstriyel santrifüj halıdaki suyun %90\'ını çıkarır. Evde sıkılmış halıda %50-60\'ı kalır. Sonuç: günlerce kurumaz, küf ve koku riski artar.
+
+**3. Kontrollü Kurutma:** Profesyonel firmalar 40-50°C kurutma tüneli veya açık hava kurutma alanı kullanır. Evinizde halıyı balkona asmak ne homojen kurutma sağlar ne de halı şeklini korur.
+
+**4. Halı Türüne Özel İşlem:** Profesyoneller yün, ipek, shaggy ve el halısı için farklı deterjan, farklı sıcaklık ve farklı program kullanır. Evde tek deterjanla tüm halıları yıkamak risk demektir.
+
+**5. Hijyen Garantisi:** Profesyonel yıkama toz akarı, bakteri ve mantarı %95+ oranında yok eder. Evde yıkama sadece görünür kiri temizler — mikroorganizmalar halı liflerinin derinlerinde kalır.
+
+Maliyet karşılaştırması: [Güncel halı yıkama fiyatları](/rehber/hali-yikama-fiyatlari) makine halısı için ortalama 70-140 TL/m². 10 m²\'lik salon halısı için 700-1.400 TL. Pahalı mı? Halının ömrünü 3-5 yıl uzattığını düşünürseniz, yeni halı almaktan çok daha ekonomik.`,
+      },
+      {
+        heading: 'Evde Halı Yıkamanın Riskleri — Pişman Olanların Hikâyeleri',
+        content: `Her halı yıkama firması bu hikayeleri iyi bilir. Evde yıkanıp "kurtarılması" için firmaya getirilen halılar:
+
+**Çekme ve Deformasyon:** Sıcak suyla yıkanan yün halı çeker. Bir kez çekmiş halıyı eski haline getirmek imkânsızdır. 5.000 TL\'lik yün halıyı 100 TL kurtarmak için evde yıkayıp çöpe atan çok kişi var.
+
+**Renk Solması ve Akma:** Yanlış deterjan, yüksek sıcaklık veya uzun bekletme renklerin solmasına veya birbirine akmasına neden olur. Özellikle el dokuma halılarda geri dönüşü yoktur.
+
+**Küf ve Koku:** Yeterince sıkılmadan kurutulan halıda 48 saat içinde küf oluşur. Küflü halının kokusu çıkmaz — halı atılır. [Karadeniz bölgesinde](/trabzon-hali-yikama-firmalari) bu sorun özellikle yaygın.
+
+**Deterjan Kalıntısı:** Evde yıkamada en yaygın hata. Yetersiz durulama sonucu halıda kalan deterjan, birkaç hafta içinde halıyı daha kirli hale getirir. Yapışkan bir yüzey oluşur ve toz/kıl adeta mıknatıs gibi yapışır.
+
+**Alt Taban Ayrılması:** Sıkma ve kurutma işlemi düzgün yapılmadığında halının alt tabanı üst yüzeyden ayrılabilir. Bu durum halıyı kullanılmaz hale getirir.
+
+**Sonuç:** Evde yıkama "ucuza geldi" sandığınız anda halıyı kaybetme riskiniz var. Profesyonel yıkama maliyeti, yeni halı maliyetinin %5-10\'u. Bir tür sigorta gibi düşünün.`,
+      },
+      {
+        heading: 'Hangi Halıyı Kesinlikle Profesyonele Vermelisiniz?',
+        content: `Bazı halılar evde yıkamayı kesinlikle kaldıramaz:
+
+**El Dokuma Halılar:** Hereke, Kayseri, Uşak, Isparta, Van kilimi — bu halılar sanat eseri. Değerleri binlerce, hatta on binlerce lira. Sadece el halısı uzmanı firmalara verin. [Kayseri](/kayseri-hali-yikama-firmalari) ve [Gaziantep](/gaziantep-hali-yikama-firmalari) gibi üretim merkezlerinde uzman firma bulmak daha kolay.
+
+**İpek Halılar:** Su miktarı, deterjan pH\'ı ve sıcaklık milimetrik ayarlanmalı. Evde yıkamak imkânsız.
+
+**Yün Halılar:** Sıcak su → çekme. Yanlış deterjan → lif dökülmesi. Profesyonelden başka seçenek yok.
+
+**Shaggy (Uzun Tüylü) Halılar:** Evde yıkandığında tüyler keçeleşir ve halı eski görünümüne dönmez. Profesyonel yıkama + tarama gerektirir.
+
+**Büyük Halılar (10 m² üzeri):** Fiziksel olarak evde yıkanması mümkün değil. Taşıma, durulama ve kurutma imkânsız. Firma halıyı teslim alır, yıkar, kurutur ve kapınıza geri getirir.
+
+**Alerji Halısı:** Evinizde alerji veya astım hastası varsa, halıdaki toz akarı profesyonel 60°C+ yıkama ile yok edilir. Evde 30°C yıkama akarları öldürmez, sadece dağıtır.
+
+[Bölgenizdeki uzman firmaları karşılaştırın →](/turkiye/hali-yikama)`,
+      },
+      {
+        heading: 'Halı Yıkama Makinesi Kiralamanın Gerçeği',
+        content: `"Halı yıkama makinesi kiralayıp evde yıkasam?" — bu da sık gelen bir soru.
+
+**Kiralama maliyeti:** Günlük 300-600 TL + deterjan 100-200 TL. Toplamda 400-800 TL.
+
+**Ne iş yapar:** Bu makineler aslında koltuk ve halı üzerine sıcak su + deterjan püskürten ve geri emen "ıslak süpürge"lerdir. Halıyı tamamen yıkamazlar — yüzey temizliği yaparlar.
+
+**Gerçek karşılaştırma:** Profesyonel yıkama halıyı tamamen suya batırır, her lifi yıkar ve santrifüjle sıkar. Kiralık makine sadece yüzeyi temizler. Fark gece ile gündüz kadar.
+
+**Ne zaman mantıklı:** Koltuk, araç koltuğu ve duvardan duvara halı (çıkarılamayan) temizliğinde. Taşınabilir halılar için? Firmaya verin, hem daha temiz olur hem fiyatı benzer çıkar.
+
+Şehrinizde [profesyonel halı yıkama firmalarını](/turkiye/hali-yikama) karşılaştırıp uygun fiyatlı firmayı bulabilirsiniz.`,
+      },
+    ],
+    faq: [
+      { q: 'Evde halı yıkamak mı daha ucuz?', a: 'Kısa vadede evet — su + deterjan 30-50 TL. Ama risk hesaba katıldığında (çekme, renk solması, küf) profesyonel yıkama daha ekonomik. Kaybedilen halının yerine yenisini almak yüzlerce, binlerce TL.' },
+      { q: 'Halı yıkama makinesi kiralasam olur mu?', a: 'Kiralık makineler sadece yüzey temizliği yapar, halıyı tamamen yıkamaz. Koltuk temizliği için uygundur ama taşınabilir halılar için profesyonel yıkama çok daha etkili.' },
+      { q: 'Hangi halıları evde yıkayabilirim?', a: 'Sadece 3 m² altı küçük halılar, çamaşır makinesi etiketi olan halılar ve düşük değerli polyester halılar evde yıkanabilir. Yün, ipek, shaggy ve el dokuma halıları asla evde yıkamayın.' },
+      { q: 'Evde halı yıkadım küf kokusu oldu ne yapmalıyım?', a: 'Hemen profesyonel firmaya verin. Küf halı liflerinin derinlerine yerleşir ve evde temizlenemez. Firma anti-küf işlemiyle kurtarabilir ama geç kalınırsa halı atılır.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'hali-yikama-nasil-yapilir', 'hali-leke-cikarma', 'hali-bakim-ipuclari'],
+  },
+
+  {
+    slug: 'evcil-hayvan-hali-yikama',
+    title: 'Evcil Hayvan Sahipleri İçin Halı Yıkama ve Hijyen Rehberi',
+    metaTitle: 'Evcil Hayvan Sahipleri İçin Halı Yıkama Rehberi 2026 | Tüy, Koku, Hijyen',
+    metaDescription: 'Kedi ve köpek sahipleri için özel halı yıkama rehberi. Tüy temizliği, idrar lekesi, koku giderme, alerjen kontrolü ve profesyonel firma seçimi.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 7,
+    heroEmoji: '🐾',
+    intro: 'Türkiye\'de 15 milyonun üzerinde hanede evcil hayvan var ve bu sayı her yıl artıyor. Kedi veya köpekle yaşamanın halılara etkisi büyük — tüy, tırnak izi, idrar, kusma, koku ve alerjen yükü. Normal halı yıkama rutini evcil hayvan sahipleri için yeterli değil. Bu rehberde kedi ve köpek sahiplerine özel halı bakım stratejisini anlatıyoruz.',
+    sections: [
+      {
+        heading: 'Evcil Hayvan Halılara Neler Yapıyor? — Görünmeyen Tehditler',
+        content: `Gözle gördüğünüz tüyler buzdağının sadece görünen kısmı. İşte halınızda gerçekte neler oluyor:
+
+**Tüy Birikimi:** Bir kedi günde ortalama 60.000 tüy döker. Köpekler türe göre daha fazla. Bu tüyler halı liflerinin arasına girip zamanla keçeleşir. Normal süpürge bunların ancak %30-40\'ını alır — geri kalanı halının derinlerinde kalır.
+
+**Toz Akarı Artışı:** Evcil hayvan tüyleri ve deri pulcukları toz akarlarının en sevdiği besin kaynağı. Evcil hayvanlı evlerde toz akarı popülasyonu 2-3 kat daha fazla. Bu da alerji ve astım riskini doğrudan artırıyor.
+
+**İdrar ve Kusma:** Yavrular eğitilene kadar, yaşlı hayvanlar da sağlık sorunları nedeniyle halıya idrar veya kusma yapabilir. İdrar halı tabanına kadar nüfuz eder ve bakteriyel bozunma sonucu amonyak kokusu üretir. Bu kokuyu evde temizlemek neredeyse imkânsız.
+
+**Tırnak Hasarı:** Özellikle köpekler halı yüzeyini tırnakla aşındırır. Bu mikro hasarlar kir tutmayı artırır.
+
+**Pire ve Parazit:** Dış mekâna çıkan hayvanlarda pire yumurtaları halıda saklanır. Profesyonel yıkama 60°C+ sıcaklıkla bunları tamamen yok eder.`,
+      },
+      {
+        heading: 'Evcil Hayvan Sahipleri İçin Halı Yıkama Sıklığı',
+        content: `Normal evler için yılda 1-2 kez yeterli olan profesyonel halı yıkama, evcil hayvan sahipleri için yetersiz kalır.
+
+**1 Kedi veya Küçük Köpek:** Yılda 2-3 kez profesyonel yıkama. Aralarda haftalık güçlü elektrikli süpürge kullanımı.
+
+**2+ Kedi veya Orta/Büyük Köpek:** Yılda 3-4 kez. Her 3 ayda bir profesyonel yıkama ideal. Tüy dökme mevsimlerinde (ilkbahar ve sonbahar) ekstra yıkama gerekebilir.
+
+**Alerjik Bireyle Birlikte Yaşayan Evcil Hayvan Sahibi:** Yılda 4 kez — her mevsim değişiminde. Anti-alerjen yıkama hizmeti sunan firmaları tercih edin.
+
+**Günlük Bakım Rutini:**
+- Robot süpürge veya güçlü elektrikli süpürge (HEPA filtreli) ile günlük temizlik
+- Haftada 1 kez halı yüzeyine evcil hayvan tüy toplayıcı rulo uygulayın
+- Taze leke (idrar, kusma) anında soğuk su + kâğıt havlu ile emilmeli — asla ovalamayın
+- Halı üzerine kabartma tozu serpip 30 dakika bekletip süpürmek kokuyu azaltır (ama kalıcı çözüm değildir)`,
+      },
+      {
+        heading: 'Evcil Hayvan İdrar Lekesi — Doğru Müdahale',
+        content: `İdrar lekesi evcil hayvan sahiplerinin bir numaralı halı sorunu. Doğru müdahale zamanlamaya bağlı.
+
+**Taze Leke (0-30 dakika):**
+1. Kâğıt havlu ile bastırarak emilin — ovalamayın, yayılır
+2. Soğuk su dökün ve tekrar emin
+3. Beyaz sirke + su karışımı (1:3 oranında) püskürün
+4. 15 dakika bekletin, tekrar emin
+5. Kabartma tozu serpin, kuruyana kadar bekletin, süpürün
+
+**Kurumuş Leke (12+ saat):**
+Evde temizlenmesi çok zor. İdrar halı tabanına nüfuz etmiş ve bakteri üremeye başlamış demektir. Bu noktada profesyonel yıkama şart. Firmadan özellikle "evcil hayvan idrar temizliği" veya "enzim bazlı yıkama" talep edin — standart yıkama kokuyu tam çıkarmaz.
+
+**Tekrarlayan İdrar (Aynı Nokta):**
+Hayvanlar kendi kokularını takip eder. Bir kez idrar yapılan noktaya tekrar yapar. Evde temizlenen yüzeyde insan burnu kokuyu almasa bile hayvan alır. Profesyonel enzim bazlı yıkama kokuyu moleküler düzeyde parçalar ve tekrarı önler.
+
+**Önemli:** İdrar lekesine asla sıcak su veya ağartıcı kullanmayın. Sıcak su proteini pişirir ve lekeyi kalıcı hale getirir. Ağartıcı halının rengini bozar.`,
+      },
+      {
+        heading: 'Evcil Hayvan Sahipleri İçin Doğru Firma Seçimi',
+        content: `Her halı yıkama firması evcil hayvan halılarını etkili temizleyemez. Şunları sorun:
+
+**1. Enzim Bazlı Yıkama Yapıyor mu?** Normal deterjan evcil hayvan kokusunu maskeler ama yok etmez. Enzim bazlı deterjanlar organik kalıntıları (idrar, tüy, deri pulcuğu) moleküler düzeyde parçalar. Firmaya "evcil hayvan programınız var mı?" diye sorun.
+
+**2. Anti-Alerjen İşlem Uyguluyor mu?** Toz akarı ve hayvan alerjenlerini etkisiz hale getiren özel işlem. Alerji hastası olan evler için kritik.
+
+**3. Sıcak Su Yıkama Kapasitesi Var mı?** 60°C+ sıcaklık pire yumurtaları, bakteri ve mantar sporlarını yok eder. Soğuk su yıkama bunlar için yetersiz.
+
+**4. Deodorant/Koku Giderme Hizmeti Var mı?** Yıkama sonrası halıya anti-koku işlem uygulanması uzun süreli ferahlık sağlar.
+
+Bölgenizdeki firmaları karşılaştırın:
+- [İstanbul halı yıkama firmaları](/istanbul-hali-yikama-firmalari) — en geniş seçenek, uzman firmalar mevcut
+- [Ankara halı yıkama firmaları](/ankara-hali-yikama-firmalari) — uygun fiyat, hızlı teslimat
+- [İzmir halı yıkama firmaları](/izmir-hali-yikama-firmalari) — nemli iklimde anti-küf işlem önemli
+- [Bursa halı yıkama firmaları](/bursa-hali-yikama-firmalari) — Nilüfer ve Osmangazi\'de kaliteli firmalar
+
+Veya [tüm Türkiye\'deki firmaları karşılaştırın →](/turkiye/hali-yikama)`,
+      },
+      {
+        heading: 'Evcil Hayvan Dostu Halı Seçimi — Uzun Vadeli Çözüm',
+        content: `Doğru halı seçimi temizlik yükünü ciddi şekilde azaltır:
+
+**En İyi Seçenekler:**
+- **Kısa tüylü, düz dokuma halılar:** Tüy tutmaz, kolay süpürülür, profesyonel yıkamada hızlı temizlenir
+- **Koyu renkli veya desenli halılar:** Tüy ve lekeler daha az göze çarpar
+- **Polyester veya polipropilen:** Leke tutmaz, suyu emer, hızlı kurur, profesyonel yıkama maliyeti düşük
+
+**Kaçınılması Gerekenler:**
+- **Shaggy / uzun tüylü halılar:** Hayvan tüyü lifler arasında hapsolur, temizlemek çok zor
+- **Açık renkli halılar:** Her tüy ve leke görünür
+- **İpek veya el dokuma:** Tırnak hasarı riski yüksek, yıkama maliyeti fazla
+
+**İpucu:** Evcil hayvan olan evlerde halı altına kaymaz taban + su geçirmez alt örtü koymak idrar sızıntısının zemine ulaşmasını engeller. Bu basit önlem halı ömrünü ciddi şekilde uzatır.`,
+      },
+    ],
+    faq: [
+      { q: 'Kedi idrarı halıdan nasıl çıkar?', a: 'Taze lekede soğuk su + beyaz sirke ile emme yöntemi işe yarar. Kurumuş lekede profesyonel enzim bazlı yıkama şart — normal deterjan amonyak kokusunu yok edemez.' },
+      { q: 'Halıdaki hayvan kokusu nasıl giderilir?', a: 'Kabartma tozu geçici çözüm sağlar. Kalıcı çözüm: profesyonel enzim bazlı yıkama + anti-koku işlem. Her yıkamada firmaya evcil hayvan olduğunu belirtin.' },
+      { q: 'Evcil hayvan olan evde halı yerine ne kullanılır?', a: 'Vinyl, seramik veya laminat zemin en pratik çözüm. Ama halısız yaşamak istemiyorsanız kısa tüylü, koyu renkli, polyester halılar ideal — hem kolay temizlenir hem yıkama maliyeti düşüktür.' },
+      { q: 'Profesyonel halı yıkama evcil hayvan tüyünü tamamen çıkarır mı?', a: 'Evet. Endüstriyel yıkama 40-60 bar basınçla tüm tüyleri çıkarır. Evde elektrikli süpürge sadece yüzeydeki tüyleri alır, halı liflerinin derinlerindeki tüyler profesyonel yıkamayla temizlenir.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'hali-alerjisi-ve-hijyen', 'hali-leke-cikarma', 'hali-yikama-ne-zaman-yaptirilmali'],
+  },
+
+  {
+    slug: 'ilk-kez-hali-yikatanlar-icin-rehber',
+    title: 'İlk Kez Halı Yıkatacaklar İçin A\'dan Z\'ye Rehber',
+    metaTitle: 'İlk Kez Halı Yıkatacaklar İçin Rehber 2026 | Sipariş, Fiyat, Süreç',
+    metaDescription: 'İlk kez profesyonel halı yıkama yaptıracaklar için adım adım rehber. Firma seçimi, fiyat araştırması, sipariş süreci, teslimat ve kontrol listesi.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 8,
+    heroEmoji: '🎯',
+    intro: 'İlk kez profesyonel halı yıkama yaptıracaksanız kafanızda birçok soru vardır: Nasıl sipariş verilir? Halıyı kim alır, kim getirir? Kaç gün sürer? Ya halıma zarar gelirse? Bu rehber tüm bu soruları yanıtlıyor ve süreci adım adım anlatıyor. İlk deneyiminizin sorunsuz geçmesi için bilmeniz gereken her şey burada.',
+    sections: [
+      {
+        heading: 'Adım 1: Halılarınızı Hazırlayın',
+        content: `Firma gelmeden önce yapmanız gerekenler:
+
+**Halıları Toplayın:** Yıkatacağınız tüm halıları toplayın. Halı altındaki eşyaları, mobilyaları kaldırın. Ağır mobilya altındaki halıyı firmaya söyleyin — ekip yardım eder.
+
+**Halıları Sayın ve Ölçün:** Her halının yaklaşık boyutunu bilin (2x3 metre, 4x5 metre gibi). Firma fiyatı metrekare üzerinden hesaplar. Kabaca bile olsa ölçü bilmek sürpriz fiyattan korunmanızı sağlar.
+
+**Sorunlu Noktaları İşaretleyin:** Leke, yırtık, sökük, renk solmuş bölge varsa firmaya söyleyin. Hem firma ona göre işlem yapar, hem de sonradan "bu siz mi yaptınız" tartışması olmaz.
+
+**Fotoğraf Çekin:** Her halının yıkama öncesi fotoğrafını çekin. Olası bir anlaşmazlıkta kanıtınız olur. Özellikle değerli halılarda bu adımı atlamayın.
+
+**İpucu:** Yıkatacağınız halı sayısı arttıkça birim fiyat düşer. Tüm halılarınızı aynı anda verin. [Koltuk yıkama](/rehber/koltuk-yikama-fiyatlari) veya [yorgan yıkama](/rehber/yorgan-yastik-yikama) eklemek de toplam maliyeti orantılı artırırken indirim şansınızı yükseltir.`,
+      },
+      {
+        heading: 'Adım 2: Doğru Firmayı Seçin',
+        content: `Firma seçimi en kritik adım. Yanlış firma halınıza zarar verebilir, teslimatta gecikebilir veya gizli ücretler çıkarabilir.
+
+**Birden Fazla Firma Karşılaştırın:** En az 3 firmanın fiyatını ve yorumlarını karşılaştırın. En ucuzu değil, en güveniliri seçin. Müşteri yorumları firmanın gerçek kalitesini yansıtır — yıldız sayısının yanında yorumları da okuyun.
+
+**Firma Güvenilirlik İşaretleri:**
+- Sabit işyeri / fabrika adresi var mı? (Çadır yıkamacılara dikkat)
+- Vergi levhası / ticaret kaydı mevcut mu?
+- Platform üzerinde doğrulanmış profil ve gerçek müşteri yorumları var mı?
+- Telefon / WhatsApp ile ulaşılabiliyor mu?
+
+**Fiyat Şeffaflığı:** İyi firmalar m² fiyatını net söyler. "Halıyı göreyim fiyat söylerim" diyen firmalardan uzak durun — bu yaklaşım genellikle şişirilmiş fiyat demektir.
+
+**Şehrinize göre firma karşılaştırması:**
+Bulunduğunuz şehirde hangi firmalar var, fiyatları ne? Tek tıkla karşılaştırın:
+- [İstanbul halı yıkama firmaları](/istanbul-hali-yikama-firmalari)
+- [Ankara halı yıkama firmaları](/ankara-hali-yikama-firmalari)
+- [İzmir halı yıkama firmaları](/izmir-hali-yikama-firmalari)
+- [Bursa halı yıkama firmaları](/bursa-hali-yikama-firmalari)
+- [Antalya halı yıkama firmaları](/antalya-hali-yikama-firmalari)
+- [Konya halı yıkama firmaları](/konya-hali-yikama-firmalari)
+- [Gaziantep halı yıkama firmaları](/gaziantep-hali-yikama-firmalari)
+- [Adana halı yıkama firmaları](/adana-hali-yikama-firmalari)
+
+Veya [tüm Türkiye genelinde arayın →](/turkiye/hali-yikama)`,
+      },
+      {
+        heading: 'Adım 3: Sipariş Verin — Süreç Nasıl İşler?',
+        content: `Sipariş verdikten sonra süreç şöyle ilerler:
+
+**1. Randevu / Teslim Alma:**
+Firma sizinle teslim alma tarihi ve saati için iletişime geçer. Genellikle 1-2 gün içinde ekip gelir. Ekip halıları rulo yapar, araca yükler ve tesise götürür.
+
+**2. Tesis İşlemi:**
+Halılar fabrikada halı türüne göre program seçilerek yıkanır. Makine halısı standart programa girer. El halısı, yün veya ipek halı özel işlem görür. Yıkama sonrası santrifüjle sıkılır ve kurutma alanına alınır.
+
+**3. Kurutma:**
+Hava koşullarına göre 12-48 saat arası sürer. Kapalı tesislerde kontrollü kurutma yapılır — mevsimden bağımsız çalışır. Açık havada kurutma yaz aylarında 6-8 saat, kışın 24-48 saat sürer.
+
+**4. Paketleme ve Teslimat:**
+Kuruyan halılar rulo yapılarak paketlenir. Firma aynı adrese teslim eder. Teslimat genellikle teslim almadan 2-5 gün sonra yapılır. Yoğun dönemlerde ([yaz sezonu](/rehber/hali-yikama-ne-zaman-yaptirilmali)) 7+ güne uzayabilir.
+
+**5. Kontrol:**
+Teslim alırken halıları kontrol edin — leke çıkmış mı, renk solması var mı, halıda hasaroluşmuş mu? Sorun varsa anında bildirin.`,
+      },
+      {
+        heading: 'Adım 4: Teslim Alırken Kontrol Listesi',
+        content: `Halılarınız geldiğinde acele etmeyin. Şu kontrolleri yapın:
+
+**Sayı Kontrolü:** Verdiğiniz halı sayısıyla gelen halı sayısı eşleşiyor mu?
+
+**Boyut Kontrolü:** Halılar çekmiş mi? Özellikle yün halılarda boyut kontrolü önemli. Yıkama öncesi fotoğraflarınızla karşılaştırın.
+
+**Leke Kontrolü:** İşaretlediğiniz lekeler çıkmış mı? Bazı eski lekeler (boyalı, yanık) çıkmayabilir — firma bunu önceden söylemiş olmalı.
+
+**Renk Kontrolü:** Renk solması veya akma var mı? Islak iken soluk görünebilir — tam kuruduktan sonra tekrar kontrol edin.
+
+**Koku Kontrolü:** Taze, temiz kokuyor mu? Küf veya deterjan kokusu varsa firmaya bildirin.
+
+**Hasar Kontrolü:** Yırtık, sökük, kenar saçakta kopma var mı? Yıkama öncesi fotoğraflarınızla karşılaştırın.
+
+**Sorun Varsa:** Teslim alan ekibe hemen söyleyin. Fotoğraf çekin. Profesyonel firmalar sorunları çözer — ya tekrar yıkar, ya hasar tazminatı öder. Platform üzerinden sipariş verdiyseniz şikâyetinizi iletebilirsiniz.
+
+**Her şey tamamsa:** Firmaya geri bildirim verin. İyi hizmet aldıysanız yorum yazmak hem firmayı hem diğer müşterileri destekler.`,
+      },
+      {
+        heading: 'Sık Yapılan Hatalar — İlk Kez Yıkatanlarda En Çok Görülenler',
+        content: `İlk kez halı yıkatanların en sık düştüğü tuzaklar:
+
+**1. En Ucuz Firmayı Seçmek:** Fiyat önemli ama tek kriter olmamalı. Çok düşük fiyat genellikle ya kalitesiz deterjan, ya yetersiz durulama, ya da sahte firma demek. [Halı yıkama fiyatlarını](/rehber/hali-yikama-fiyatlari) kontrol ederek bölgenizin ortalama fiyatını bilin. Ortalamanın %30+ altındaki fiyatlara şüpheyle yaklaşın.
+
+**2. Halı Türünü Söylememek:** "Halılarımı yıkayın" demek yeterli değil. El halısı, ipek halı veya shaggy halınız varsa mutlaka söyleyin. Firma yanlış programla yıkarsa halınız zarar görebilir.
+
+**3. Mevsimi Dikkate Almamak:** Temmuz ortasında "yarın gelsin" demek hayal kırıklığı. Yoğun dönemde firmalar 1 hafta randevu veremeyebilir. Erken planlayın. Bölgenize göre ideal zamanı öğrenmek için [mevsim ve şehir rehberimize](/rehber/hali-yikama-ne-zaman-yaptirilmali) bakın.
+
+**4. Teslimatta Kontrol Etmemek:** Ekip halıları kapıda bırakıp gitti, siz akşam açtınız — leke çıkmamış veya halıda yırtık var. Artık ispat zor. Teslim alırken mutlaka kontrol edin.
+
+**5. Tek Firma Bağımlılığı:** Her yıl aynı firmaya vermek kolay olsa da fiyat ve kalite karşılaştırması yapmayı ihmal etmeyin. Firmalar el değiştirebilir, kalite düşebilir. Her 2-3 yıkamada bir alternatif firmaları da değerlendirin.
+
+**6. Toplu Sipariş Fırsatını Kaçırmak:** Sadece salon halısını vermek yerine tüm halıları + yorgan-yastık + koltukları birlikte vermek ciddi fiyat avantajı sağlar. Firma zaten geliyor — ulaşım maliyeti aynı.`,
+      },
+    ],
+    faq: [
+      { q: 'Halı yıkama sipariş verdikten kaç gün sonra gelir?', a: 'Standart 2-5 gün. Yaz sezonunda 5-7 güne uzayabilir. İstanbul gibi büyükşehirlerde trafik nedeniyle +1 gün ekleyin.' },
+      { q: 'Halıyı firmaya kendim götürsem daha mı ucuz olur?', a: 'Bazı firmalar kendiniz getirdiğinizde %5-10 indirim yapar (ulaşım maliyeti düşer). Ama büyük halıları taşımak zor ve araç gerektirir — çoğu kişi için teslim alma hizmeti daha pratik.' },
+      { q: 'Halı yıkama firmasına güvenebilir miyim?', a: 'Platform üzerinden sipariş verdiğinizde doğrulanmış firmalarla çalışırsınız. Müşteri yorumları, vergi kaydı ve sabit adres güvenilirlik göstergeleridir. Yıkama öncesi halılarınızın fotoğrafını çekin.' },
+      { q: 'İlk kez halı yıkatırken nelere dikkat etmeliyim?', a: 'Halı sayısını ve boyutlarını bilin, halı türlerini firmaya söyleyin, sorunlu noktaları işaretleyin, fotoğraf çekin, teslimatta kontrol edin. Detaylı adımlar için bu rehberi okuyun.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'hali-yikama-firmasi-nasil-secilir', 'turkiye-hali-yikama-haritasi', 'hali-yikama-nasil-yapilir'],
+  },
+
+  {
+    slug: 'apartman-toplu-hali-yikama',
+    title: 'Apartman ve Site Toplu Halı Yıkama Rehberi — Organizasyon ve Fiyat Avantajı',
+    metaTitle: 'Apartman Toplu Halı Yıkama 2026 | Organizasyon Rehberi ve Fiyat Avantajı',
+    metaDescription: 'Apartman ve site sakinleri için toplu halı yıkama organizasyonu. Komşularla anlaşarak %15-25 indirim. Organizasyon rehberi, firma seçimi ve lojistik.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 7,
+    heroEmoji: '🏢',
+    intro: 'Halı yıkama fiyatının önemli bir kısmı ulaşım maliyetidir — firma aracı adresinize iki kez gelir (alma + teslim). Apartmandaki 5-6 komşuyla anlaşıp aynı gün halı verirseniz firma tek seferde 30-50 halı alır ve ulaşım maliyeti bölünür. Sonuç: herkes için %15-25 daha uygun fiyat. Bu rehberde apartman ve site toplu halı yıkama organizasyonunu anlatıyoruz.',
+    sections: [
+      {
+        heading: 'Toplu Halı Yıkama Neden Bu Kadar Avantajlı?',
+        content: `Halı yıkama maliyetinin yapısını anlamak avantajı anlamanın anahtarı:
+
+**Firmanın maliyet dağılımı:**
+- Ulaşım (mazot + araç + sürücü + zaman): %30-40
+- İşçilik (yükleme, yıkama, kurutma, teslimat): %25-30
+- Malzeme (deterjan, su, elektrik): %15-20
+- Kâr marjı: %10-20
+
+Gördüğünüz gibi ulaşım tek başına maliyetin üçte birini oluşturuyor. Firma bir adrese 2 halı almaya geldiğinde de 20 halı almaya geldiğinde de aynı mazotu yakıyor, aynı sürücüyü gönderiyor, aynı aracı kullanıyor.
+
+**Örnek hesap:**
+- Tek başına sipariş: 10 m² makine halısı × 100 TL/m² = 1.000 TL
+- 10 komşuyla toplu sipariş: 10 m² × 85 TL/m² = 850 TL → %15 tasarruf
+- 20+ daire site siparişi: 10 m² × 75 TL/m² = 750 TL → %25 tasarruf
+
+**Firmalar neden indirim yapar?**
+Çünkü tek seferde 100-200 m²\'lik iş garantisi demek. Firmanın günlük kapasitesi doluyor, araç boş dönmüyor, işçiler meşgul. Win-win.`,
+      },
+      {
+        heading: 'Toplu Halı Yıkama Organizasyonu — Adım Adım',
+        content: `Apartman veya sitede toplu halı yıkama organize etmek düşündüğünüzden kolay:
+
+**1. WhatsApp Grubu Kurun:** Apartman grubunuz varsa orada paylaşın: "Halı yıkama organizasyonu yapıyoruz, katılmak isteyen var mı?" 5-6 kişi bile yeterli başlangıç.
+
+**2. Tarih Belirleyin:** Herkesin uygun olduğu bir hafta sonu belirleyin. İlkbahar (Nisan-Mayıs) veya sonbahar (Eylül-Ekim) en ideal dönemler — hem firmalar müsait, hem hava uygun.
+
+**3. Firma Seçimi:** En az 3 firmadan toplu fiyat teklifi alın. "X kişi, toplam yaklaşık Y metrekare, tek seferde teslim alma" diyerek teklif isteyin. Firmalar toplu iş için özel fiyat verir.
+
+**4. Teslim Alma Günü:** Firma tüm daireleri sırayla dolaşır. Her dairenin halıları etiketlenir. İyi firmalar daire numarası veya isim yazılı etiket yapıştırır — karışma riski sıfır.
+
+**5. Teslimat:** Yine tek seferde tüm dairelere teslimat. Herkes kendi halısını kontrol eder.
+
+**Organizatörün İşi:** Sadece listeyi tutmak ve firmaya iletmek. 30 dakikalık bir iş. Bazı organizatörler kendi halılarını ücretsiz yıkatıyorlar — firmalar bunu kabul ediyor çünkü organizatör iş getiriyor.`,
+      },
+      {
+        heading: 'Site Yönetimi Olarak Toplu Halı Yıkama Anlaşması',
+        content: `50+ daireli sitelerde yönetim kurulu düzeyinde anlaşma çok daha avantajlı:
+
+**Yıllık Anlaşma Modeli:**
+Site yönetimi bir firmaya yıllık iş garantisi verir. Firma karşılığında sabit m² fiyatı taahhüt eder. Sakinler istedikleri zaman bu fiyattan halı yıkatır.
+
+**Avantajlar:**
+- %20-30 indirimli sabit fiyat (yıl boyunca geçerli, sezon farkı yok)
+- Firma tanıdık — güven ilişkisi kurulmuş
+- Site girişinde ilan tahtası veya WhatsApp grubundan duyuru yeterli
+- Yönetim aidattan değil, firmadan aldığı referans komisyonuyla kazanabilir
+
+**Dikkat Edilmesi Gerekenler:**
+- Anlaşma yapılan firmayı deneyin — ilk sipariş küçük olsun, kalite görün
+- Sakinlerin firmayı değiştirme hakkı olmalı
+- Hasar durumunda sorumluluk şartları yazılı olmalı
+
+**Şehrinize göre toplu fiyat teklifi alın:**
+Büyükşehirlerde toplu halı yıkama hizmeti sunan firmalar yaygın:
+- [İstanbul](/istanbul-hali-yikama-firmalari) — binlerce site, yoğun rekabet, iyi fiyat alırsınız
+- [Ankara](/ankara-hali-yikama-firmalari) — büyük siteler Çankaya, Yenimahalle, Etimesgut\'ta yoğun
+- [İzmir](/izmir-hali-yikama-firmalari) — Bornova, Bayraklı, Karşıyaka site yoğunluğu yüksek
+- [Bursa](/bursa-hali-yikama-firmalari) — Nilüfer ve Osmangazi\'de yeni siteler çok
+- [Antalya](/antalya-hali-yikama-firmalari) — Konyaaltı ve Kepez\'de büyük siteler
+- [Kocaeli](/kocaeli-hali-yikama-firmalari) — sanayi bölgesi yakını sitelerde uygun fiyat
+- [Konya](/konya-hali-yikama-firmalari) — Selçuklu ve Meram\'da site sayısı artıyor
+- [Eskişehir](/eskisehir-hali-yikama-firmalari) — üniversite yakını sitelerde öğrenci indirimi
+
+[Tüm şehirlerde firma arayın →](/turkiye/hali-yikama)`,
+      },
+      {
+        heading: 'Merdiven Temizliği + Halı Yıkama Paketi',
+        content: `Birçok apartmanda merdiven ve ortak alan halıları da var. Bunları da toplu siparişe eklemek akıllıca:
+
+**Ortak Alan Halıları:**
+- Merdiven halıları (basamak başı 10-30 TL)
+- Giriş paspasları
+- Asansör halısı
+- Çocuk oyun alanı halısı (siteler)
+
+**Maliyet Paylaşımı:** Ortak alan halılarının maliyeti daire sayısına bölünür. 20 daireli apartmanda merdiven halıları yıkama maliyeti daire başına 15-30 TL gibi sembolik bir rakamdır. Aidattan karşılanabilir.
+
+**İpucu:** Toplu halı yıkama organizasyonuyla birlikte [koltuk yıkama](/rehber/koltuk-yikama-fiyatlari) ve [perde yıkama](/rehber/perde-yikama-rehberi) hizmeti de ekleyebilirsiniz. Firma aynı seferde tüm işi yapınca fiyat avantajı katlanır.`,
+      },
+    ],
+    faq: [
+      { q: 'Toplu halı yıkamada halılar karışır mı?', a: 'Profesyonel firmalar her halıyı daire numarası veya isim yazılı etiketle işaretler. Karışma riski yoktur. Yine de kendi halılarınızın fotoğrafını çekin.' },
+      { q: 'Kaç kişi olunca toplu indirim alınır?', a: 'Genellikle 5+ daire/kişi yeterli. 10+ kişide %15-20, 20+ kişide %20-25 indirim yaygın. Firmaya toplam metrekare vererek teklif isteyin.' },
+      { q: 'Toplu siparişte herkes aynı gün mü teslim alınır?', a: 'Evet, firma tek seferde tüm daireleri dolaşır. Bu 2-3 saat sürer. Teslim alma günü herkesin evde olması veya kapıda halıları hazır bırakması gerekir.' },
+      { q: 'Apartman yönetimi olarak firma anlaşması nasıl yapılır?', a: 'En az 3 firmadan yazılı teklif alın. Yıllık sabit m² fiyatı, hasar sorumluluğu ve iptal şartlarını sözleşmeye yazın. İlk ay pilot uygulama yaparak kaliteyi test edin.' },
+    ],
+    relatedSlugs: ['hali-yikama-fiyatlari', 'turkiye-hali-yikama-haritasi', 'ilk-kez-hali-yikatanlar-icin-rehber', 'hali-yikama-ne-zaman-yaptirilmali'],
+  },
+
   ...cityGuides,
 ];
 
