@@ -2674,6 +2674,574 @@ Manisa ne tam kıyı ne tam kara iklimi. Yazlar sıcak ve kuru (kurutma hızlı)
     relatedSlugs: ['manisa-hali-yikama', 'hali-yikama-fiyatlari', 'izmir-hali-yikama-nemle-mucadele'],
   },
 
+  {
+    slug: 'sanliurfa-hali-yikama-24-firma',
+    city: 'Şanlıurfa',
+    citySlug: 'sanliurfa',
+    title: 'Şanlıurfa\'da 24 Halı Yıkama Firması: Güneydoğu\'nun Gizli Devi',
+    metaTitle: 'Şanlıurfa Halı Yıkama 2026 | 24 Firma, Gerçek Fiyatlar, Eyyübiye-Haliliye',
+    metaDescription: 'Şanlıurfa halı yıkama rehberi. 24 firma ile Güneydoğu\'nun en büyük pazarı. Gerçek fiyatlar, kuru sıcak iklim avantajı ve ilçe karşılaştırması.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 7,
+    heroEmoji: '🏺',
+    intro: 'Şanlıurfa\'da 24 aktif halı yıkama firması var. Bu sayı Antalya\'nın (14) neredeyse iki katı, Kayseri\'nin (5) beş katı. 2.1 milyonluk nüfusuyla Türkiye\'nin en kalabalık şehirlerinden biri olan Urfa, halı yıkama pazarında da Güneydoğu\'nun lideri. Geleneksel kilim kültürü, kuru sıcak iklimin kurutma avantajı ve yoğun rekabet — Şanlıurfa halı yıkama pazarı hem ucuz hem kaliteli hizmet sunuyor.',
+    sections: [
+      {
+        heading: 'Şanlıurfa\'nın 24 Firması — Neden Bu Kadar Çok?',
+        content: `Güneydoğu Anadolu\'nun en büyük halı yıkama pazarı Şanlıurfa\'da. Gaziantep\'te 1, Diyarbakır\'da 4 firma varken Urfa\'da 24 firma olması dikkat çekici. Bunun birkaç sebebi var:
+
+**1. Büyük haneler, çok halı:**
+Urfa\'da aile yapısı büyük — ortalama hane halkı Türkiye ortalamasının üzerinde. Büyük evler, çok oda, çok halı. Bu da yüksek talep demek.
+
+**2. Kilim ve yer sergisi kültürü:**
+Urfa\'da geleneksel olarak yere kilim ve halı serme kültürü güçlü. Parke veya seramik üzerine doğrudan oturma yaygın — bu, halıların daha yoğun kullanıldığı ve daha sık yıkanması gerektiği anlamına geliyor.
+
+**3. Kuru sıcak iklim = düşük maliyet:**
+Yaz aylarında 45°C+ sıcaklık ve %15-20 nem. Kurutma maliyeti neredeyse sıfır. İşletme maliyetleri düşük olduğundan pazara giriş kolay.
+
+**Sonuç:** 24 firma arasındaki rekabet fiyatları Türkiye\'nin en düşük seviyelerine çekiyor.
+
+[Şanlıurfa halı yıkama](/sanliurfa-hali-yikama-firmalari) firmalarını karşılaştırın — 24 seçenek arasından en iyisini bulun.`,
+      },
+      {
+        heading: 'Şanlıurfa Halı Yıkama Fiyatları — Türkiye\'nin En Uygunları',
+        content: `Şanlıurfa fiyatları İstanbul\'un neredeyse yarısı:
+
+| Halı Türü | Şanlıurfa (TL/m²) | İstanbul (TL/m²) |
+|-----------|-------------------|-----------------|
+| Makine Halısı | 55-75 | 80-140 |
+| Şaggy | 75-100 | 160 |
+| Yün | 80-120 | 200 |
+| El Dokuma / Kilim | 100-160 | 250 |
+| İpek | 160-300 | 300 |
+
+**Diğer hizmetler:**
+- Koltuk takımı: 1.000-1.500 TL
+- Yorgan: 300-450 TL/adet
+- Perde: 70-100 TL/m²
+- Yatak: 400-800 TL/adet
+
+**Neden bu kadar ucuz?**
+Kira, işçilik ve enerji maliyetleri Türkiye\'nin en düşük seviyesinde. Kurutma maliyeti yaz aylarında sıfıra yakın. 24 firma arasındaki rekabet de fiyatları baskılıyor.
+
+**5 kategori hizmet:**
+Urfa\'daki firmaların büyük çoğunluğu halı + koltuk + yorgan + perde + yatak olmak üzere 5 farklı kategoride hizmet veriyor. Tek firmaya tüm temizlik ihtiyaçlarınızı verebilirsiniz.
+
+[Şanlıurfa halı yıkama](/sanliurfa-hali-yikama-firmalari) — 24 firmanın fiyat listesini karşılaştırın.`,
+      },
+      {
+        heading: 'Şanlıurfa\'da İlçe Bazlı Rehber ve İklim Stratejisi',
+        content: `**Eyyübiye ve Haliliye — Merkez:**
+Urfa\'nın iki büyük merkez ilçesi. Firma yoğunluğu burada. Balıklıgöl çevresi ve yeni konut alanları.
+
+**Karaköprü — Büyüyen:**
+Yeni siteler ve modern konutlar. Firmalar bu bölgeye yatırım yapıyor.
+
+**Viranşehir — İkinci Büyük Pazar:**
+Urfa\'nın en büyük ilçelerinden. Kendi yerel firmaları mevcut.
+
+**Siverek, Suruç, Birecik — Uzak İlçeler:**
+Merkezdeki firmalar hizmet veriyor ama ulaşım mesafesi uzun.
+
+**İklim stratejisi:**
+- **Nisan-Mayıs:** İdeal — sıcak ama aşırı değil, firmalar boş
+- **Haziran-Eylül:** Kurutma en hızlı ama 45°C+ sıcakta deterjan kalıntısı riski — extra durulama isteyin
+- **Ekim-Kasım:** Son fırsat — hava hâlâ uygun
+- **Aralık-Mart:** Kış — Urfa kışı Diyarbakır kadar sert değil ama yine de kapalı tesisli firma tercih edin
+
+**Toz fırtınası etkisi:**
+Urfa ovasında bahar aylarında toz fırtınaları yaşanıyor. Bu ince toz halılara nüfuz ediyor ve normal süpürgeyle çıkmıyor.
+
+[Şanlıurfa halı yıkama](/sanliurfa-hali-yikama-firmalari) — Eyyübiye, Haliliye ve Karaköprü\'deki 24 firmayı inceleyin.`,
+      },
+    ],
+    faq: [
+      { q: 'Şanlıurfa\'da halı yıkama kaç TL 2026?', a: 'Makine halısı 55-75 TL/m² — Türkiye\'nin en uygun fiyatlarından. İstanbul\'un neredeyse yarısı.' },
+      { q: 'Şanlıurfa\'da kaç halı yıkama firması var?', a: '24 aktif firma — Güneydoğu Anadolu\'nun en büyük pazarı. Gaziantep\'in 24 katı.' },
+      { q: 'Urfa\'da yaz sıcağında halı yıkatmak güvenli mi?', a: 'Evet, kurutma çok hızlı. Ama 45°C+ sıcakta deterjan kalıntısı riski var — firmaya extra durulama yapmasını söyleyin.' },
+    ],
+    relatedSlugs: ['sanliurfa-hali-yikama', 'hali-yikama-fiyatlari', 'diyarbakir-hali-yikama-sicak-iklim'],
+  },
+
+  {
+    slug: 'mersin-hali-yikama-akdeniz-limani',
+    city: 'Mersin',
+    citySlug: 'mersin',
+    title: 'Mersin Halı Yıkama: Akdeniz Limanında 8 Firma ve Nem Gerçeği',
+    metaTitle: 'Mersin Halı Yıkama 2026 | 8 Firma, Liman Tozu, Mezitli-Yenişehir Fiyatları',
+    metaDescription: 'Mersin halı yıkama rehberi. 8 firma, liman bölgesinin halıya etkisi, Akdeniz neminin riskleri ve Mezitli-Yenişehir-Tarsus karşılaştırması.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 6,
+    heroEmoji: '🍋',
+    intro: 'Mersin, Türkiye\'nin en büyük limanına ev sahipliği yapıyor. Bu devasa liman trafiği, serbest bölge ve sanayi alanları havaya partikül madde salıyor. Akdeniz\'in nemli iklimi de eklenince halılar hem hızlı kirleniyor hem de bakteri üretimi artıyor. 8 aktif firma ile Mersin, hem konut hem ticari talebe yanıt veriyor.',
+    sections: [
+      {
+        heading: 'Mersin\'de Halı Yıkama — Liman ve Nem İkili Tehdidi',
+        content: `Mersin\'in iki kendine has sorunu var:
+
+**1. Liman ve sanayi tozu:**
+Mersin Limanı yıllık 2 milyon+ konteyner elleçliyor. Liman çevresindeki Akdeniz ve Toroslar ilçelerinde hava kalitesi etkileniyor. Bu bölgelerde halılar normalden hızlı kirleniyor — yılda 2-3 kez profesyonel yıkama önerilir.
+
+**2. Akdeniz nemi:**
+Yıllık nem %65-75. İzmir kadar olmasa da Ankara\'nın iki katı. Bu nem toz akarı ve bakteri üremesini hızlandırıyor. Sahile yakın bölgelerde (Mezitli, Yenişehir sahil) deniz tuzu etkisi de ekleniyor.
+
+**8 firma yeterli mi?**
+1.9 milyonluk nüfusa 8 firma az. Ama firmalar geniş hizmet alanına sahip — Mersin\'in kompakt yapısı sayesinde tüm merkez ilçelere ulaşıyorlar. 5 kategoride (halı, koltuk, yorgan, perde, yatak) hizmet sunuyorlar.
+
+[Mersin halı yıkama](/mersin-hali-yikama-firmalari) firmalarını karşılaştırın.`,
+      },
+      {
+        heading: 'Mersin Halı Yıkama Fiyatları',
+        content: `| Halı Türü | Fiyat (TL/m²) |
+|-----------|---------------|
+| Makine Halısı | 65-85 |
+| Şaggy | 85-110 |
+| Yün | 90-130 |
+| El Dokuma | 120-170 |
+| İpek | 180-350 |
+
+**Diğer hizmetler:**
+- Koltuk takımı: 1.500-2.000 TL
+- Yorgan: 400-500 TL/adet
+- Perde: 80-120 TL/m²
+- Yatak: 500-1.000 TL/adet
+
+**Adana ile kıyaslama:** Mersin ve Adana\'nın fiyatları birbirine çok yakın. İki şehir arası 70 km — bazı firmalar her iki şehirde de hizmet veriyor.
+
+**Akdeniz kurutma avantajı:** Yılın 9 ayı güneşli. Kurutma maliyeti düşük — bu fiyatlara olumlu yansıyor.
+
+[Mersin halı yıkama](/mersin-hali-yikama-firmalari) — 8 firmanın fiyat listesini inceleyin.`,
+      },
+      {
+        heading: 'Mersin\'de İlçe Bazlı Rehber',
+        content: `**Mezitli — Premium Sahil:**
+Mersin\'in en modern ilçesi. Yeni siteler, deniz manzaralı konutlar. Sahil nemi yüksek — yılda 2 kez yıkama önerilir.
+
+**Yenişehir — Şehir Merkezi:**
+Ticaret ve konut iç içe. Firma yoğunluğu burada.
+
+**Toroslar — En Kalabalık:**
+Mersin\'in nüfus olarak en büyük ilçesi. Fiyatlar biraz daha uygun.
+
+**Akdeniz — Liman Bölgesi:**
+Liman ve serbest bölge yakını. Endüstriyel toz etkisi en yoğun burada. Yılda 3 kez yıkama gerekebilir.
+
+**Tarsus — Bağımsız Pazar:**
+Mersin merkezinden 27 km. Kendi yerel dinamikleri var. Tarım bölgesi — toprak ve polen etkisi.
+
+**Erdemli, Silifke, Anamur — Batı İlçeler:**
+Merkeze uzak. Firma hizmeti sınırlı olabilir — ulaşım maliyeti sorun.
+
+[Mersin halı yıkama](/mersin-hali-yikama-firmalari) — Mezitli, Yenişehir ve Toroslar\'daki firmaları filtreleyin.`,
+      },
+    ],
+    faq: [
+      { q: 'Mersin\'de halı yıkama kaç TL 2026?', a: 'Makine halısı 65-85 TL/m². Adana fiyatlarına yakın, İstanbul\'dan %40 daha uygun.' },
+      { q: 'Liman bölgesinde halı neden daha çabuk kirleniyor?', a: 'Konteyner trafiği ve sanayi alanlarının yarattığı partikül madde havada yoğun. Bu bölgede yılda 2-3 kez profesyonel yıkama gerekiyor.' },
+      { q: 'Mersin\'de kaç halı yıkama firması var?', a: '8 aktif firma. Hepsi 5 kategoride (halı, koltuk, yorgan, perde, yatak) hizmet sunuyor.' },
+    ],
+    relatedSlugs: ['mersin-hali-yikama', 'hali-yikama-fiyatlari', 'antalya-hali-yikama-turizm-sehri'],
+  },
+
+  {
+    slug: 'sivas-hali-yikama-dunyaca-unlu',
+    city: 'Sivas',
+    citySlug: 'sivas',
+    title: 'Sivas Halı Yıkama: Dünyaca Ünlü Sivas Halısının Doğduğu Şehirde 3 Firma',
+    metaTitle: 'Sivas Halı Yıkama 2026 | 3 Firma, Sivas Halısı Bakımı, Gerçek Fiyatlar',
+    metaDescription: 'Sivas halı yıkama rehberi. 3 firma, dünyaca ünlü Sivas halısı özel bakımı, 5.0 puan firmanın hikâyesi ve kış stratejisi.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 7,
+    heroEmoji: '🧶',
+    intro: 'Sivas halısı, UNESCO Somut Olmayan Kültürel Miras listesinde yer alan, dünyaca tanınan bir değer. Bu halıların dokunduğu şehirde onları yıkamak da ayrı bir sorumluluk. Sivas\'ta 3 aktif halı yıkama firması var — sayı az ama bunlardan biri platformun en yüksek puanlı firmalarından: 5.0 yıldız, 39 tamamlanmış sipariş ve online sipariş kabul eden aktif bir işletme. Sivas\'ın sert kara iklimi, el halısı mirası ve küçük ama kaliteli pazarını inceliyoruz.',
+    sections: [
+      {
+        heading: 'Sivas Halısı — Yıkamak Bir Sanattır',
+        content: `Sivas halısı ve Sivas kilimi Türkiye\'nin en değerli dokumalarından. Divriği, Şarkışla ve Zara\'nın kendine özgü motifleri yüzyıllardır yaşıyor. Bu halıların bazıları koleksiyoner değerinde — 20.000-100.000 TL arası fiyat biçilebilir.
+
+**Neden her firma yıkayamaz?**
+- Doğal kök boyalar: Sentetik deterjan boyaları soldurur
+- El eğirmesi yün: Yanlış sıcaklık ve basınç lifleri bozar
+- Düğüm yapısı: Aşırı basınçlı yıkama düğümleri gevşetir
+- Yaş ve durum: Antik halılarda yıkama öncesi kondisyon değerlendirmesi gerekir
+
+**Sivas firmalarının avantajı:**
+3 firma az gibi görünse de bunlar yıllardır Sivas halısı yıkıyor. Müşteri tabanlarının önemli kısmı el halısı sahibi. Doğal boya hassasiyetini, yün özelliklerini ve antik halı risklerini biliyorlar. İstanbul\'daki genel bir firmaya bu halıları emanet etmektense Sivas\'taki uzman firmaya vermek çok daha güvenli.
+
+[Sivas halı yıkama](/sivas-hali-yikama-firmalari) firmalarından el halısı uzmanlığı olanı tercih edin.`,
+      },
+      {
+        heading: 'Sivas Halı Yıkama Fiyatları ve Platformun Yıldız Firması',
+        content: `Sivas\'taki firmaların fiyatları Türkiye\'nin en uygun seviyesinde:
+
+| Halı Türü | Fiyat (TL/m²) |
+|-----------|---------------|
+| Makine Halısı | 60-80 |
+| Şaggy | 80-110 |
+| Yün | 90-130 |
+| El Dokuma / Sivas Halısı | 140-200 |
+| Kilim | 100-150 |
+
+**Diğer hizmetler:**
+- Battaniye: 200 TL/adet
+- Yorgan: 250 TL/adet
+
+**Platformun yıldızı:**
+3 firmadan biri 5.0 yıldız puan ve 39 tamamlanmış siparişle öne çıkıyor. Müşteri yorumunda: "Halım yeni gibi olmuş, çok teşekkür ederim. Yorganım ise mışıl mışıl kokuyor." Kalite puanı 5/5, fiyat puanı 4/5. Bu firma online sipariş de kabul ediyor — Sivas\'ta bu bir ayrıcalık.
+
+**Sivas\'ın fiyat avantajı:**
+Makine halısı 60 TL/m² ile Türkiye\'nin en ucuz pazarlarından. 20 m²\'lik salon halısı 1.200 TL. İstanbul\'da aynı iş 2.800 TL.
+
+[Sivas halı yıkama](/sivas-hali-yikama-firmalari) — 3 firmanın fiyat ve yorum karşılaştırmasını yapın.`,
+      },
+      {
+        heading: 'Sivas\'ın Sert Kışı ve Halı Yıkama Stratejisi',
+        content: `Sivas, Türkiye\'nin en soğuk şehirlerinden biri. Kış aylarında sıcaklık -20°C\'nin altına düşer. Bu iklim halı yıkama stratejisini doğrudan belirliyor:
+
+**Mayıs-Eylül: Altın Dönem**
+Sivas\'ta halı yıkama penceresi kısa ama verimli. Yaz aylarında hava kuru ve sıcak — kurutma 4-6 saatte tamamlanıyor. Bu dönemde sipariş vermek hem ucuz hem hızlı.
+
+**Ekim: Son Şans**
+Ekim sonuna kadar açık hava kurutma mümkün. Kasım\'dan itibaren riskli.
+
+**Kasım-Nisan: Kapalı Tesis Zorunlu**
+6 aylık kış döneminde açık havada kurutma imkânsız. Kapalı kurutma tesisi olan firma tercih edin. Sivas\'ın 3 firmasından hangisinin kapalı tesisi olduğunu sipariş öncesi sorun.
+
+**Kuru iklim avantajı:**
+Sivas\'ın düşük nem oranı (%40-50) halılar için iyi haber. Toz akarı üremesi yavaş, küf riski düşük. İç Anadolu\'nun kuru havası halı ömrünü uzatıyor. Yılda 1 kez profesyonel yıkama yeterli (alerji yoksa).
+
+**Kangal, Divriği, Şarkışla — Uzak İlçeler:**
+Bu ilçelerde yerel firma yok. Sivas merkezindeki firmalar hizmet veriyor ama mesafe uzun. Toplu sipariş vererek ulaşım maliyetini paylaşabilirsiniz.
+
+[Sivas halı yıkama](/sivas-hali-yikama-firmalari) — merkezdeki 3 firmayı inceleyin.`,
+      },
+    ],
+    faq: [
+      { q: 'Sivas\'ta halı yıkama kaç TL 2026?', a: 'Makine halısı 60-80 TL/m² — Türkiye\'nin en uygunlarından. El dokuma Sivas halısı 140-200 TL/m².' },
+      { q: 'Sivas halısı nerede yıkatılır?', a: 'Sivas\'taki firmalar bu halılar konusunda Türkiye\'nin en deneyimlileri. Doğal kök boya ve el eğirmesi yün hassasiyetini biliyorlar.' },
+      { q: 'Sivas\'ta en iyi puanlı halı yıkama firması?', a: 'Platformda 5.0 yıldız puanlı, 39 siparişli firma online sipariş kabul ediyor. Müşteri yorumları çok olumlu.' },
+    ],
+    relatedSlugs: ['sivas-hali-yikama', 'hali-yikama-fiyatlari', 'kayseri-hali-yikama-bunyan-uzmanligi'],
+  },
+
+  {
+    slug: 'aydin-hali-yikama-kusadasi',
+    city: 'Aydın',
+    citySlug: 'aydin',
+    title: 'Aydın Halı Yıkama: Kuşadası\'ndan Didim\'e Tatil Evlerinin Temizlik Rehberi',
+    metaTitle: 'Aydın Halı Yıkama 2026 | 3 Firma, Kuşadası-Didim Yazlık Temizliği, Fiyatlar',
+    metaDescription: 'Aydın halı yıkama rehberi. 3 firma, Kuşadası ve Didim yazlık ev temizliği, sezon stratejisi ve Efeler-Nazilli fiyat karşılaştırması.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 6,
+    heroEmoji: '🏖️',
+    intro: 'Aydın, Ege\'nin tatil cennetlerinden birçoğuna ev sahipliği yapıyor — Kuşadası, Didim, Altınkum. Bu tatil bölgelerindeki binlerce yazlık ev ve villa her sezon başında büyük temizlik gerektiriyor. 3 aktif firma ile Aydın küçük bir pazar ama talep yoğun. İzmir\'e 130 km yakınlık da İzmir firmalarının bu bölgeye uzanmasını sağlıyor.',
+    sections: [
+      {
+        heading: 'Aydın\'da Halı Yıkama — Yazlık Ev Pazarı',
+        content: `Aydın\'ın halı yıkama talebi iki kaynaktan geliyor:
+
+**1. Tatil evleri (Kuşadası, Didim, Altınkum):**
+Kış boyunca kapalı kalan evler Nisan-Mayıs\'ta açılıyor. Halılar, perdeler, koltuklar — hepsi yıkatılıyor. Bu sezonluk patlama firmaları çok yoğunlaştırıyor. Mart\'ta sipariş verin — Mayıs\'ta iş işten geçebilir.
+
+**2. Sürekli konutlar (Efeler, Nazilli, Söke):**
+Yıl boyu sabit talep. Fiyatlar tatil bölgesine göre daha uygun.
+
+**İzmir bağlantısı:**
+İzmir firmalarının bir kısmı Aydın\'a da hizmet veriyor. Bu rekabet sizin lehinize — hem [İzmir halı yıkama](/izmir-hali-yikama-firmalari) hem [Aydın halı yıkama](/aydin-hali-yikama-firmalari) firmalarından teklif alabilirsiniz.
+
+**Nem etkisi:**
+Kuşadası ve Didim sahil şeridinde nem %70+. Bu bölgede yılda 2 kez profesyonel yıkama önerilir. Efeler merkezde daha kuru — yılda 1 kez yeterli.`,
+      },
+      {
+        heading: 'Aydın Halı Yıkama Fiyatları',
+        content: `| Halı Türü | Fiyat (TL/m²) |
+|-----------|---------------|
+| Makine Halısı | 70-90 |
+| Şaggy | 90-120 |
+| Yün | 100-140 |
+| El Dokuma | 130-180 |
+| İpek | 200-400 |
+
+**Diğer hizmetler:**
+- Koltuk takımı: 1.500-2.000 TL
+- Yorgan: 400-500 TL/adet
+- Perde: 80-120 TL/m²
+- Yatak: 600-1.000 TL/adet
+
+**Kuşadası farkı:** Tatil bölgesindeki firmalar sezon döneminde (Mayıs-Haziran) %5-10 fiyat artışı uygulayabiliyor. Erken sipariş vererek bu artıştan kaçınabilirsiniz.
+
+[Aydın halı yıkama](/aydin-hali-yikama-firmalari) — 3 firmanın fiyat listesini inceleyin.`,
+      },
+    ],
+    faq: [
+      { q: 'Aydın\'da halı yıkama kaç TL 2026?', a: 'Makine halısı 70-90 TL/m². İzmir\'den %10-15 daha uygun.' },
+      { q: 'Kuşadası\'ndaki yazlığımın halılarını ne zaman yıkatmalıyım?', a: 'Mart-Nisan ideal. Mayıs\'ta firmalar dolmaya başlıyor, Haziran\'da randevu bulmak zor.' },
+      { q: 'Aydın\'da İzmir firması mı tercih edeyim?', a: 'Her ikisinden teklif alın. Aydın firması daha uygun olabilir, İzmir firması daha geniş seçenek sunabilir.' },
+    ],
+    relatedSlugs: ['aydin-hali-yikama', 'hali-yikama-fiyatlari', 'izmir-hali-yikama-nemle-mucadele'],
+  },
+
+  {
+    slug: 'rize-hali-yikama-en-yagisli',
+    city: 'Rize',
+    citySlug: 'rize',
+    title: 'Rize Halı Yıkama: Türkiye\'nin En Yağışlı Şehrinde Halı Bakmanın Bedeli',
+    metaTitle: 'Rize Halı Yıkama 2026 | 3 Firma, Türkiye\'nin En Nemli Şehri, Gerçek Fiyatlar',
+    metaDescription: 'Rize halı yıkama rehberi. 3 firma, yılda 2.300mm yağışın halıya etkisi, çay hasadı dönemi ve kapalı kurutma zorunluluğu.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 6,
+    heroEmoji: '🍵',
+    intro: 'Rize, yılda 2.300 mm yağışla Türkiye\'nin en çok yağmur alan şehri. Nem oranı %85-90 ile rekor seviyede. Bu iklimde halı yıkama sadece temizlik değil — halınızın hayatta kalma mücadelesi. 3 aktif firma bu zorlu iklimde profesyonel hizmet veriyor. Kapalı kurutma tesisi burada lüks değil, zorunluluk.',
+    sections: [
+      {
+        heading: 'Rize\'de Halı Yıkama — Türkiye\'nin En Zorlu İklimi',
+        content: `Rize\'nin iklim verileri halı bakımı açısından korkutucu:
+
+- **Yıllık yağış:** 2.300 mm (İstanbul\'un 3 katı, Ankara\'nın 5 katı)
+- **Nem oranı:** %85-90 (yıl boyu)
+- **Güneşli gün sayısı:** Yılda 60-70 (Antalya\'da 300+)
+
+**Bu ne demek?**
+Halınız sürekli nem çekiyor. Toz akarları cennet gibi bir ortamda çoğalıyor. Küf oluşumu sadece zemin katta değil, her katta mümkün. Açık havada kurutma yılın 300 gününde imkânsız.
+
+**Rize\'de halı yıkama sıklığı:**
+Yılda en az 3, ideal olarak 4 kez. Her mevsim değişiminde profesyonel yıkama önerilir. Bu, Türkiye ortalamasının 3-4 katı.
+
+**Çay bahçesi etkisi:**
+Rize\'nin her yerinde çay tarlası var. Eve taşınan toprak, yaprak ve organik kalıntılar halılara ek yük bindiriyor. Özellikle hasat döneminde (Mayıs-Ekim) halılar çok hızlı kirleniyor.
+
+[Rize halı yıkama](/rize-hali-yikama-firmalari) firmalarından kapalı kurutma tesisli olanları kesinlikle tercih edin.`,
+      },
+      {
+        heading: 'Rize Halı Yıkama Fiyatları ve Yıllık Maliyet',
+        content: `| Halı Türü | Fiyat (TL/m²) |
+|-----------|---------------|
+| Makine Halısı | 65-85 |
+| Şaggy | 85-110 |
+| Yün | 90-130 |
+| El Dokuma | 120-170 |
+
+**Yıllık maliyet hesabı (Rize gerçeği):**
+15 m² salon halısı × 75 TL/m² × 4 kez/yıl = **4.500 TL/yıl**
+
+Karşılaştırma:
+- Ankara: 15 × 80 × 1 = 1.200 TL/yıl
+- İstanbul: 15 × 100 × 2 = 3.000 TL/yıl
+- Rize: 15 × 75 × 4 = 4.500 TL/yıl
+
+Birim fiyat ucuz ama sıklık yüksek. Rize\'de halı bakım maliyeti Türkiye\'nin en yükseklerinden. **Alternatif düşünceler:** Polyester veya polipropilen halı tercih edin — nem emmez, kolay kurur, bakım maliyeti düşer. Veya bazı odalarda halı yerine laminat/seramik düşünün.
+
+[Rize halı yıkama](/rize-hali-yikama-firmalari) — 3 firmanın fiyat listesini inceleyin.`,
+      },
+    ],
+    faq: [
+      { q: 'Rize\'de halı yıkama kaç TL 2026?', a: 'Makine halısı 65-85 TL/m². Birim fiyat uygun ama yılda 3-4 kez yıkama gerektiğinden yıllık maliyet yüksek.' },
+      { q: 'Rize\'de halı kaç kez yıkatılmalı?', a: 'Yılda en az 3, ideal 4 kez. %85-90 nem oranında toz akarı ve küf çok hızlı ürer.' },
+      { q: 'Rize\'de açık havada halı kurutulabilir mi?', a: 'Yılın büyük bölümünde hayır. Kapalı kurutma tesisi zorunlu. Firmaya mutlaka kurutma yöntemi sorun.' },
+    ],
+    relatedSlugs: ['rize-hali-yikama', 'hali-yikama-fiyatlari', 'trabzon-hali-yikama-yagmur-sehri'],
+  },
+
+  {
+    slug: 'van-hali-yikama-kilim-mirasi',
+    city: 'Van',
+    citySlug: 'van',
+    title: 'Van Halı Yıkama: Van Kiliminin Vatanında Halı Bakım Rehberi',
+    metaTitle: 'Van Halı Yıkama 2026 | Van Kilimi Bakımı, Göl Nemi, Gerçek Fiyatlar',
+    metaDescription: 'Van halı yıkama rehberi. Van kilimi özel bakımı, Van Gölü neminin etkisi, kış stratejisi ve İpekyolu-Tuşba fiyatları.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 6,
+    heroEmoji: '🐱',
+    intro: 'Van kilimi dünyaca ünlü — müzelerde sergilenen, uluslararası koleksiyoncuların peşinde koştuğu bir değer. Bu kilimlerin dokunduğu şehirde halı yıkama ayrı bir sorumluluk taşıyor. Van\'da 1 aktif firma var — sayı az ama bu firma halı, koltuk, yorgan, perde ve yatak olmak üzere 5 kategoride hizmet sunuyor. Van Gölü\'nün yarattığı yerel nem, sert kış koşulları ve geleneksel dokuma mirası — Van\'ın halı bakım rehberini sunuyoruz.',
+    sections: [
+      {
+        heading: 'Van Kilimi ve Profesyonel Bakım',
+        content: `Van kilimi, düz dokuma tekniğiyle üretilen, geometrik desenleri ve canlı renkleriyle tanınan bir sanat eseri. Her Van evinde en az bir kilim bulunur — bazıları kuşaktan kuşağa aktarılan aile mirası.
+
+**Van kilimi neden özel bakım gerektirir?**
+- Düz dokuma yapısı: Düğümlü halılara göre daha ince ve hassas
+- Doğal boyalar: Kök boya hassasiyeti — yanlış deterjan renk soldurur
+- Yün lifleri: Sıcak su çekme riski
+- Tarihsel değer: Bazı kilimler 50-100 yıllık — geri dönüşümsüz hasar kabul edilemez
+
+**Pratik tavsiye:** Van kiliminizi yıkatırken firmaya mutlaka söyleyin:
+- Kilimin yaşı
+- Boyasının doğal mı sentetik mi olduğu (bilmiyorsanız firma test eder)
+- Daha önceki yıkamalarda sorun yaşanıp yaşanmadığı
+
+Van\'daki firma bu kilimlere alışkın — müşteri tabanının büyük kısmı kilim sahibi.
+
+[Van halı yıkama](/van-hali-yikama-firmalari) firmasını inceleyin.`,
+      },
+      {
+        heading: 'Van Halı Yıkama Fiyatları ve İklim Stratejisi',
+        content: `Van fiyatları Türkiye\'nin en uygunlarından:
+
+| Halı Türü | Fiyat (TL/m²) |
+|-----------|---------------|
+| Makine Halısı | 50-70 |
+| Şaggy | 70-95 |
+| Yün | 80-120 |
+| El Dokuma / Van Kilimi | 120-170 |
+| İpek | 170-300 |
+
+**Van Gölü nem etkisi:**
+Van Gölü kıyısındaki İpekyolu ve Edremit ilçelerinde göl nemi halıları etkiliyor. Bu bölgelerde yılda 2 kez yıkama önerilir. Gölden uzak ilçelerde (Özalp, Çaldıran) kuru iklim hâkim — yılda 1 kez yeterli.
+
+**Kış stratejisi (Kasım-Nisan):**
+Van kışları sert — sıcaklık -25°C\'ye düşer. 6 aylık kış döneminde açık hava kurutma kesinlikle imkânsız. Kapalı kurutma tesisli firma tercih edin.
+
+**Yaz avantajı (Haziran-Eylül):**
+Kuru ve sıcak yaz aylarında kurutma çok hızlı. Bu dönem halı yıkama için ideal. Fiyatlar da en uygun seviyede.
+
+[Van halı yıkama](/van-hali-yikama-firmalari) — fiyat listesini ve hizmet bölgelerini inceleyin.`,
+      },
+    ],
+    faq: [
+      { q: 'Van\'da halı yıkama kaç TL 2026?', a: 'Makine halısı 50-70 TL/m² — Türkiye\'nin en uygun fiyatlarından. Van kilimi 120-170 TL/m².' },
+      { q: 'Van kilimi nerede yıkatılır?', a: 'Van\'daki firma Van kilimi konusunda deneyimli. Doğal boya hassasiyetini ve düz dokuma özelliklerini biliyor.' },
+      { q: 'Van\'da kışın halı yıkatılır mı?', a: '-25°C\'de açık hava kurutma imkânsız. Kasım-Nisan arası sadece kapalı tesisli firmada yıkatın.' },
+    ],
+    relatedSlugs: ['van-hali-yikama', 'hali-yikama-fiyatlari', 'hali-yikama-firmasi-nasil-secilir'],
+  },
+
+  {
+    slug: 'mardin-hali-yikama-tas-sehir',
+    city: 'Mardin',
+    citySlug: 'mardin',
+    title: 'Mardin Halı Yıkama: Taş Evlerde Halı Bakımı ve Turizm Şehrinin Dinamikleri',
+    metaTitle: 'Mardin Halı Yıkama 2026 | 2 Firma, Taş Ev Nem Sorunu, Midyat-Artuklu Fiyatları',
+    metaDescription: 'Mardin halı yıkama rehberi. 2 firma, taş evlerin nem etkisi, turizm sezonu temizliği ve Artuklu-Kızıltepe-Midyat fiyat karşılaştırması.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 6,
+    heroEmoji: '🏰',
+    intro: 'Mardin\'in ikonik taş evleri UNESCO Dünya Mirası geçici listesinde. Bu güzel ama eski yapıların bir gerçeği var: taş duvarlar nem çeker ve bu nem halılara geçer. Yılda 1 milyonun üzerinde turist çeken Mardin\'de butik oteller ve konuk evleri de düzenli halı temizliği gerektiriyor. 2 aktif firma ile Mardin küçük bir pazar — ama şehrin kendine has ihtiyaçlarına yanıt veriyor.',
+    sections: [
+      {
+        heading: 'Mardin\'de Taş Ev ve Halı — Nemin Gizli Düşmanı',
+        content: `Mardin\'in tarihi taş evleri yazın serin, kışın ılık tutar — ama yılın her döneminde nem üretir. Taş duvarlar topraktan nem çeker ve bu nem iç mekâna yayılır. Halılar bu nemi emer ve zamanla:
+
+- Toz akarı üremesi hızlanır
+- Halı altında küf oluşabilir
+- Halı lifleri sertleşir ve esnekliğini kaybeder
+
+**Taş evde halı bakım kuralları:**
+- Halı altına mutlaka nem bariyeri / kaymaz taban koyun
+- Halıyı ayda bir kaldırıp altını havalandırın
+- Yılda 2 kez profesyonel yıkama yaptırın (taş ev dışında yılda 1 kez yeterli)
+- Zemin kat ve bodrum kat odalarında mümkünse halı kullanmayın
+
+**Turizm etkisi:**
+Mardin\'deki butik oteller ve konuk evleri halılarını düzenli yıkatıyor. Bu ticari talep firmaların profesyonellik seviyesini yükseltiyor.
+
+[Mardin halı yıkama](/mardin-hali-yikama-firmalari) firmalarını inceleyin.`,
+      },
+      {
+        heading: 'Mardin Halı Yıkama Fiyatları',
+        content: `| Halı Türü | Fiyat (TL/m²) |
+|-----------|---------------|
+| Makine Halısı | 55-75 |
+| Şaggy | 75-100 |
+| Yün | 85-125 |
+| El Dokuma / Kilim | 110-160 |
+| İpek | 160-300 |
+
+**Diğer hizmetler:**
+- Koltuk takımı: 1.000-1.500 TL
+- Yorgan: 350-450 TL/adet
+- Perde: 70-100 TL/m²
+- Yatak: 400-800 TL/adet
+
+**İlçe dağılımı:**
+- **Artuklu** (merkez): Her iki firma da burada. Tarihi şehir merkezi ve yeni konut alanları
+- **Kızıltepe**: Mardin\'in en kalabalık ilçesi. Firmalar merkeze göre biraz uzak
+- **Midyat**: Süryani kültürünün merkezi, butik otel yoğun. Turizm talebi yüksek
+- **Nusaybin, Derik**: Uzak ilçeler — merkezdeki firmalar hizmet veriyor
+
+**Yarı kurak iklim avantajı:** Mardin\'in yazları sıcak ve kuru (40°C+). Kurutma çok hızlı. Kışlar ılık — Diyarbakır veya Van kadar soğumaz. Yılın büyük bölümünde açık hava kurutma mümkün.
+
+[Mardin halı yıkama](/mardin-hali-yikama-firmalari) — 2 firmanın hizmet ve fiyat karşılaştırması.`,
+      },
+    ],
+    faq: [
+      { q: 'Mardin\'de halı yıkama kaç TL 2026?', a: 'Makine halısı 55-75 TL/m². Türkiye\'nin en uygun fiyatlarından.' },
+      { q: 'Taş evde halı neden daha çabuk bozuluyor?', a: 'Taş duvarlar topraktan nem çeker ve bu nem halıya geçer. Nem bariyeri kullanın ve yılda 2 kez profesyonel yıkama yaptırın.' },
+      { q: 'Mardin\'de kaç halı yıkama firması var?', a: '2 aktif firma. 5 kategoride (halı, koltuk, yorgan, perde, yatak) hizmet sunuyorlar.' },
+    ],
+    relatedSlugs: ['mardin-hali-yikama', 'hali-yikama-fiyatlari', 'diyarbakir-hali-yikama-sicak-iklim'],
+  },
+
+  {
+    slug: 'afyonkarahisar-hali-yikama-termal',
+    city: 'Afyonkarahisar',
+    citySlug: 'afyonkarahisar',
+    title: 'Afyon Halı Yıkama: Termal Otellerin Şehrinde 5 Firma ve Mermer Tozu Gerçeği',
+    metaTitle: 'Afyonkarahisar Halı Yıkama 2026 | 5 Firma, Termal Otel Temizliği, Fiyatlar',
+    metaDescription: 'Afyonkarahisar halı yıkama rehberi. 5 firma, termal otel halı temizliği, mermer sanayisi toz etkisi ve gerçek fiyat karşılaştırması.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 6,
+    heroEmoji: '♨️',
+    intro: 'Afyonkarahisar, Türkiye\'nin termal turizm başkentlerinden biri — onlarca termal otel ve spa merkezi. Aynı zamanda Türkiye\'nin en büyük mermer üretim merkezlerinden biri. Bu iki sektör şehrin halı yıkama pazarını doğrudan etkiliyor: oteller düzenli ticari temizlik, mermer bölgesindeki evler ise endüstriyel toz nedeniyle sık yıkama gerektiriyor. 5 aktif firma bu çift yönlü talebe yanıt veriyor.',
+    sections: [
+      {
+        heading: 'Afyon\'un İki Dinamiği — Termal ve Mermer',
+        content: `**Termal otel temizliği:**
+Afyon\'un termal otelleri yılın 12 ayı dolu. Otel halıları yoğun kullanıma maruz kalıyor — günde yüzlerce misafirin ayağının altında. Bu halılar aylık profesyonel temizlik gerektiriyor. Firmalar bu ticari deneyimle bireysel müşterilere de yüksek standartta hizmet sunuyor.
+
+**Mermer tozu etkisi:**
+İscehisar ve çevresindeki mermer ocakları ince toz yayıyor. Bu toz normal süpürgeyle tam temizlenmiyor — halı liflerinin derinlerine yerleşiyor. Mermer bölgesine yakın evlerde yılda 2-3 kez profesyonel yıkama önerilir.
+
+**5 firma = tam hizmet:**
+Afyon\'daki 5 firmanın hepsi halı, koltuk, yorgan, perde ve yatak olmak üzere 5 kategoride hizmet sunuyor. Tek firmaya tüm temizlik ihtiyaçlarınızı verebilirsiniz.
+
+[Afyonkarahisar halı yıkama](/afyonkarahisar-hali-yikama-firmalari) firmalarını karşılaştırın.`,
+      },
+      {
+        heading: 'Afyon Halı Yıkama Fiyatları',
+        content: `| Halı Türü | Fiyat (TL/m²) |
+|-----------|---------------|
+| Makine Halısı | 65-85 |
+| Şaggy | 85-110 |
+| Yün | 90-130 |
+| El Dokuma | 130-180 |
+| İpek | 200-400 |
+
+**Diğer hizmetler:**
+- Koltuk takımı: 1.500-2.000 TL
+- Yorgan: 400-500 TL/adet
+- Perde: 80-120 TL/m²
+- Yatak: 600-1.000 TL/adet
+
+**Kara iklim ve zamanlama:**
+Afyon\'un kara iklimi kış aylarında halı yıkamayı zorlaştırıyor. Mayıs-Eylül arası ideal dönem. Kışın kapalı kurutma tesisli firma zorunlu.
+
+[Afyonkarahisar halı yıkama](/afyonkarahisar-hali-yikama-firmalari) — 5 firmanın fiyat listesini inceleyin.`,
+      },
+    ],
+    faq: [
+      { q: 'Afyon\'da halı yıkama kaç TL 2026?', a: 'Makine halısı 65-85 TL/m². Termal otel deneyimli firmalar kaliteli hizmet sunuyor.' },
+      { q: 'Mermer bölgesinde halı neden daha çabuk kirleniyor?', a: 'Mermer ocaklarından yayılan ince toz halı liflerine nüfuz ediyor. Bu bölgede yılda 2-3 kez profesyonel yıkama önerilir.' },
+      { q: 'Afyon\'da kaç halı yıkama firması var?', a: '5 aktif firma. Hepsi 5 kategoride hizmet sunuyor.' },
+    ],
+    relatedSlugs: ['afyonkarahisar-hali-yikama', 'hali-yikama-fiyatlari', 'konya-hali-yikama-anadolunun-kalbi'],
+  },
+
   ...cityGuides,
 ];
 
