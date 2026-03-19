@@ -8204,6 +8204,425 @@ Bu firmaların hepsi "ihtiyaçtan doğmuş" hizmetler sunuyor. İstanbul\'da mon
     relatedSlugs: ['amasya-hali-yikama', 'adiyaman-hali-yikama-nemrut', 'bartin-hali-yikama-amasra'],
   },
 
+  /* ───── KOLTUK YIKAMA MAKALELERİ — Şehir Bazlı ───── */
+
+  {
+    slug: 'istanbul-koltuk-yikama-rehberi',
+    city: 'İstanbul',
+    citySlug: 'istanbul',
+    title: 'İstanbul\'da Koltuk Yıkama: Kumaş Türünüzü Bilmeden Sipariş Vermeyin',
+    metaTitle: 'İstanbul Koltuk Yıkama 2026 | Kumaş Rehberi, Yerinde Yıkama, Doğru Firma Seçimi',
+    metaDescription: 'İstanbul koltuk yıkama rehberi. Kadife, süet, deri, microfiber — her kumaşın yıkama kuralı farklı. Yerinde yıkama süreci ve koltuğunuzu koruma rehberi.',
+    datePublished: '2026-03-20',
+    dateModified: '2026-03-20',
+    category: 'koltuk-yikama',
+    readingTime: 9,
+    heroEmoji: '🛋️',
+    intro: 'Koltuğunuzu yıkatmaya karar verdiniz ve firmayı aradınız. Firma soruyor: "Kumaş türü ne?" Siz bilmiyorsunuz. "Normal kumaş" diyorsunuz. Firma geliyor, koltuğu görüyor ve diyor ki "bu süet, farklı deterjan lazım, ek ücret var." Tanıdık mı? İstanbul\'da koltuk yıkatanların en sık yaşadığı senaryo bu. Bu yazıda koltuğunuzun kumaş türünü nasıl anlayacağınızı, her kumaşın yıkama kurallarını ve İstanbul\'da doğru koltuk yıkama deneyimi için bilmeniz gereken her şeyi anlatıyoruz.',
+    sections: [
+      {
+        heading: 'Koltuğunuzun Kumaşını Tanıyın — 5 Dakikada Test',
+        content: `Firma aramadan önce koltuğunuzun kumaş türünü tespit edin. Hem doğru fiyat alırsınız hem sürprizden korunursunuz:
+
+**Kadife:**
+Parmağınızı sürüklediğinizde renk değişiyor mu? Açık-koyu iz kalıyor mu? Bu kadife. Yumuşak, parlak, lüks görünümlü. Yıkamada dikkat: yanlış fırça kaldırılamaz iz bırakır. Sadece buhar ve emme yöntemiyle temizlenir.
+
+**Süet / Nubuk:**
+Kadife gibi ama daha mat ve pürüzlü. Parmağınızla bastırdığınızda iz kalıyor ama parlaklık yok. Su lekeleri kalıcı iz bırakabilir — su bazlı deterjan riskli. Kuru temizleme veya özel süet solüsyonu gerekir.
+
+**Deri (Gerçek):**
+Soğuk hissi verir. Parmağınızla bastırdığınızda kırışıklık oluşur ve geri döner. Deri koltuk su ile yıkanmaz — deri temizleme solüsyonu + nemlendirici (leather conditioner) gerekir. Yanlış işlem deriyi kurutur ve çatlatır.
+
+**Microfiber:**
+Çok ince, yumuşak, kadife hissi ama daha dayanıklı. Tırnağınızla kazıdığınızda beyaz iz kalır ve geri silinir. Microfiber su bazlı deterjanla güvenle yıkanabilir — en kolay kumaş.
+
+**Keten / Pamuklu:**
+Sert, doğal doku. Katlandığında kırışır ve düzelmez. Keten su ile şişer ve çeker — profesyonel kontrollü yıkama gerekir.
+
+**Etiket kontrolü:**
+Koltuğun altında veya arkasında bakım etiketi var. W = su ile yıkanabilir. S = solvent (kuru temizleme). WS = ikisi de olur. X = sadece süpürme/fırçalama.
+
+Bu bilgiyle donanmış olarak [İstanbul koltuk yıkama](/istanbul-koltuk-yikama-firmalari) firmasını arayın — kumaş türünü söyleyin, doğru fiyat ve doğru program alın.`,
+      },
+      {
+        heading: 'Yerinde Koltuk Yıkama — Evinizde Ne Oluyor?',
+        content: `Koltuk yıkama halı yıkamadan farklı — koltuk firmaya götürülmez, firma size gelir. İşte evinizde yaşanacak süreç:
+
+**1. Ön kontrol (5 dakika):**
+Ekip koltuğunuzu inceler. Kumaş türü, leke noktaları, yıpranma durumu tespit edilir. Firmaya telefonda söylediğiniz bilgilerle uyuşuyor mu kontrol edilir.
+
+**2. Koruma (5 dakika):**
+Koltuğun altına ve çevresine su geçirmez örtü serilir. Halınız ve parkeniz korunur. Yastıklar çıkarılır.
+
+**3. Ön leke işlemi (10-15 dakika):**
+İnatçı lekeler (kahve, çay, mürekkep, yemek) önceden özel solüsyonla işlenir. Bu adım atlanırsa leke standart yıkamada çıkmaz.
+
+**4. Yıkama (20-40 dakika — koltuk sayısına göre):**
+Ekstraksiyon makinesi ile: sıcak su + deterjan koltuğa basınçla püskürülür ve anında geri emilir. Bu işlem kiri çözer ve çıkarır. Koltuk sırılsıklam olmaz — sadece hafif nemli kalır.
+
+**5. Kurutma (4-8 saat):**
+Ekip gider, koltuk doğal kurur. Pencere açarsanız veya fan kullanırsanız 3-4 saat. Kapalı odada 6-8 saat. Tam kurumadan oturmayın — iz kalır.
+
+**İstanbul\'a özel not:**
+İstanbul\'un nemli havasında kurutma süresi daha uzun. Kış aylarında koltuk 8-12 saat kurumayabilir. Yaz aylarında yıkatmak kurutma açısından avantajlı.
+
+[İstanbul koltuk yıkama](/istanbul-koltuk-yikama-firmalari) firmalarından kumaş türünüze uygun hizmet alın.`,
+      },
+      {
+        heading: 'Koltuk Yıkama Zamanlaması — Ne Zaman, Ne Sıklıkla?',
+        content: `**Standart ev (2-4 kişi):** Yılda 1-2 kez yeterli.
+
+**Evcil hayvan olan ev:** Her 3-4 ayda bir. Tüy, tırnak izi ve koku birikimi hızlı. Enzim bazlı deterjanla yıkama isteyin — standart deterjan hayvan kokusunu maskeler ama yok etmez.
+
+**Bebek / küçük çocuk olan ev:** 4-6 ayda bir. Süt, mama, meyve suyu, çikolata — çocuklar koltuğa her şeyi döker. Hızlı müdahale + düzenli profesyonel yıkama kombinasyonu şart.
+
+**Alerji / astım hastası olan ev:** Her mevsim değişiminde (yılda 4 kez). Koltuk kumaşları toz akarı için halıdan sonra en ideal üreme ortamı.
+
+**Misafir odası koltuğu:** Yılda 1 kez yeterli — ama bayram öncesi yıkatmak iyi bir alışkanlık.
+
+**Taze leke müdahalesi — altın kurallar:**
+Bir şey döküldüğünde 30 saniye içinde beyaz kâğıt havlu ile bastırarak emin. OVALAMA YASAK — lekeyi yayar. Sıcak su YASAK — proteini (kan, süt) pişirir. Soğuk su + bastırma + profesyonel firmayı bekleme. Bu basit kural lekelerin %80\'ini kurtarır.
+
+Düzenli bakım için [İstanbul koltuk yıkama](/istanbul-koltuk-yikama-firmalari) firmalarıyla yıllık plan yapın.`,
+      },
+    ],
+    faq: [
+      { q: 'Koltuğumun kumaş türünü nasıl anlarım?', a: 'Parmakla sürükleme (kadife iz = kadife), soğukluk testi (soğuk = deri), kırışma testi (kırışık = keten). Altındaki bakım etiketini de kontrol edin.' },
+      { q: 'Koltuk yıkama kaç saat sürüyor?', a: 'Yıkama 20-40 dakika. Kurutma 4-8 saat. Tam kurumadan oturmayın — iz kalır.' },
+      { q: 'Deri koltuk yıkanabilir mi?', a: 'Su ile yıkanmaz. Deri temizleme solüsyonu + nemlendirici (leather conditioner) gerekir. Firmaya deri olduğunu mutlaka söyleyin.' },
+    ],
+    relatedSlugs: ['koltuk-yikama-fiyatlari', 'koltuk-bakim-onerileri', 'istanbul-hali-yikama-rehberi-2026'],
+  },
+
+  {
+    slug: 'ankara-koltuk-yikama-kuru-iklim',
+    city: 'Ankara',
+    citySlug: 'ankara',
+    title: 'Ankara\'da Koltuk Yıkama: Kuru İklimin Koltuklara Yaptığı Şey ve Kurutma Avantajı',
+    metaTitle: 'Ankara Koltuk Yıkama 2026 | Kuru İklim Avantajı, Hızlı Kurutma, Bakım Rehberi',
+    metaDescription: 'Ankara koltuk yıkama rehberi. Kuru iklimde koltuk kumaşı neden çatlar, hızlı kurutma avantajı ve Ankara\'ya özel koltuk bakım stratejisi.',
+    datePublished: '2026-03-20',
+    dateModified: '2026-03-20',
+    category: 'koltuk-yikama',
+    readingTime: 8,
+    heroEmoji: '🏛️',
+    intro: 'Ankara\'nın kuru havası halılar için iyi haber — ama koltuk kumaşları için farklı bir hikâye anlatıyor. Düşük nem (%45-50) kumaş liflerini kurutur, esnekliğini azaltır ve zamanla çatlamaya yol açar. Özellikle deri ve suni deri koltuklar Ankara\'nın kuru kışlarında ciddi risk altında. Ama aynı kuru hava koltuk yıkama sonrası kurutma süresini kısaltıyor — İstanbul\'da 8 saat süren kurutma Ankara\'da 3-4 saatte tamamlanıyor. Bu yazıda Ankara\'nın ikliminin koltuklara etkisini ve doğru bakım stratejisini anlatıyoruz.',
+    sections: [
+      {
+        heading: 'Kuru Hava Koltuklara Ne Yapıyor?',
+        content: `Ankara\'nın nem oranı kışın %40-50, yazın %30-40 arasında — İstanbul\'un %65-75\'ine kıyasla çok düşük. Bu düşük nemin koltuk kumaşlarına etkileri:
+
+**Deri koltuk — En büyük risk:**
+Deri doğal bir malzeme ve nem dengesine ihtiyaç duyar. Ankara\'nın kuru havasında deri koltuğun yüzeyindeki doğal yağlar buharlaşır. 2-3 kış sonra deri sertleşir, esnekliğini kaybeder ve çatlaklar oluşur. Bir kez çatlayan deri tamir edilemez — sadece kapatılabilir.
+
+**Koruma:** 6 ayda bir deri nemlendirici (leather conditioner) sürün. Koltuğu kaloriferin karşısına koymayın — kuru sıcak hava deriyi kurutur.
+
+**Kumaş koltuk — Statik elektrik:**
+Kuru havada kumaş koltuklarda statik elektrik birikir. Kalkınca çarpma, tozun kumaşa yapışması — bunlar düşük nemin belirtileri. Statik enerji aynı zamanda toz çekiyor — koltuk İstanbul\'dakinden daha hızlı kirleniyor.
+
+**Çözüm:** Oda nemlendirici kullanın. Ev içi nemi %50-55\'te tutmak hem sağlığınız hem mobilyalarınız için ideal. Koltuk yüzeyine anti-statik sprey sıkmak da işe yarıyor.
+
+**Kurutma avantajı:**
+Kuru havanın tek iyi tarafı: koltuk yıkama sonrası kurutma çok hızlı. [Ankara koltuk yıkama](/ankara-koltuk-yikama-firmalari) firması geldi, yıkadı, gitti — 3-4 saat sonra koltuğunuz kuruymuş. İstanbul\'da aynı iş 8 saat alıyor.`,
+      },
+      {
+        heading: 'Ankara\'da Koltuk Yıkama — Mevsimsel Strateji',
+        content: `**İlkbahar (Nisan-Mayıs) — İdeal dönem:**
+Kışın biriken toz, statik elektrikle yapışmış partiküller ve kalorifer susuzluğu birikmiş. Hava ılınmış, nem biraz artmış — kurutma hâlâ hızlı ama hava o kadar kuru değil ki kumaş çatlasın. İlkbahar büyük temizliği sırasında koltukları halılarla birlikte yıkatın.
+
+**Yaz (Haziran-Ağustos) — Çok hızlı kurutma:**
+Nem %30\'un altına düşer. Koltuk 2-3 saatte kurur. Ama dikkat: bu kadar hızlı kurutma kumaşta deterjan kalıntısı bırakabilir — firmaya "yaz programı, extra durulama" deyin.
+
+**Sonbahar (Eylül-Ekim) — İkinci şans:**
+Kışa hazırlık. Koltuklar kış boyunca yoğun kullanılacak — temiz başlamak mantıklı. Bu dönemde firmalar da nispeten boş.
+
+**Kış (Kasım-Mart) — Dikkatli olun:**
+Kalorifer yanıyor, hava çok kuru. Koltuk yıkandıktan sonra kumaş çok hızlı kuruyor — ama bu sefer "aşırı" hızlı. Kumaşın ani nem kaybı lifleri strese sokar. Kışın yıkatacaksanız, kurutma sürecinde odanın nemini artırın (ıslak havlu asma veya nemlendirici çalıştırma).
+
+**Halı + koltuk birlikte:**
+[Ankara halı yıkama](/ankara-hali-yikama-firmalari) firmaları genellikle koltuk yıkama da yapıyor. İkisini birlikte yaptırarak hem ulaşım maliyetinden tasarruf edin hem evi tek seferde tertemiz yapın.
+
+[Ankara koltuk yıkama](/ankara-koltuk-yikama-firmalari) — kuru iklimde hızlı kurutma avantajıyla.`,
+      },
+      {
+        heading: 'Deri Koltuğun Ankara\'da Hayatta Kalma Rehberi',
+        content: `Ankara\'da deri koltuk sahibiyseniz bu rehber koltuğunuzun ömrünü 2 katına çıkarır:
+
+**3 ayda bir — Nemlendirme ritüeli:**
+Deri nemlendirici (leather conditioner) alın. Temiz, yumuşak bezle tüm yüzeye ince tabaka sürün. 15 dakika bekleyin, fazlasını silin. Bu işlem derinin doğal yağ dengesini korur ve çatlamayı önler.
+
+**Asla yapmayın:**
+- Deriyi çamaşır deterjanıyla silmeyin — pH dengesi bozulur
+- Kalorifer veya soba yakınına koymayın — kuru sıcak hava deriyi kavurur
+- Doğrudan güneş alan pencere önüne yerleştirmeyin — UV deriyi soldurur ve sertleştirir
+- Islak bez ile silmeyin (su izi kalır) — hafif nemli, ardından kuru bez kullanın
+
+**Profesyonel deri temizliği:**
+Yılda 1 kez profesyonel deri temizliği yaptırın. Bu işlem normal koltuk yıkamadan farklı — su bazlı değil, deri solüsyonu bazlı. Firmaya "deri koltuk" dediğinizden emin olun — yanlış deterjan geri dönüşümsüz hasar verir.
+
+**Ankara\'nın kuru kışı + deri = tehlikeli:**
+Kasım-Mart arası kalorifer + düşük nem + deri koltuk = çatlama riski en yüksek dönem. Bu dönemde nemlendirme ritüelini ayda 1\'e çıkarın. Oda nemlendirici kullanın — %50 nem hedefleyin.
+
+[Ankara koltuk yıkama](/ankara-koltuk-yikama-firmalari) firmalarından deri temizliği hizmeti verenleri seçin.`,
+      },
+    ],
+    faq: [
+      { q: 'Ankara\'da koltuk yıkama sonrası kaç saatte kurur?', a: '3-4 saat — kuru iklim sayesinde İstanbul\'un yarısı. Yazın 2-3 saat. Kışın kalorifer yakınında dikkatli olun — aşırı hızlı kurutma kumaşa stres verir.' },
+      { q: 'Ankara\'da deri koltuk neden çatlıyor?', a: 'Düşük nem (%40-50) derinin doğal yağlarını buharlaştırır. 3 ayda bir deri nemlendirici sürün ve oda nemini %50\'de tutun.' },
+      { q: 'Koltuk yıkamayı halı yıkamayla birlikte yaptırabilir miyim?', a: 'Evet. Çoğu firma ikisini de yapıyor. Birlikte yaptırarak ulaşım maliyetinden tasarruf edersiniz.' },
+    ],
+    relatedSlugs: ['koltuk-yikama-fiyatlari', 'koltuk-bakim-onerileri', 'ankara-hali-yikama-gercek-fiyatlar'],
+  },
+
+  {
+    slug: 'izmir-koltuk-yikama-nem-rehberi',
+    city: 'İzmir',
+    citySlug: 'izmir',
+    title: 'İzmir\'de Koltuk Yıkama: Ege Neminde Koltuk Kumaşı Neden Daha Çabuk Kokuyor?',
+    metaTitle: 'İzmir Koltuk Yıkama 2026 | Nem ve Koku Bilimi, Kurutma Stratejisi, Ege Rehberi',
+    metaDescription: 'İzmir koltuk yıkama rehberi. Ege neminin koltuk kumaşlarına etkisi, koku oluşumunun bilimi, kurutma stratejisi ve anti-bakteriyel işlem.',
+    datePublished: '2026-03-20',
+    dateModified: '2026-03-20',
+    category: 'koltuk-yikama',
+    readingTime: 8,
+    heroEmoji: '🌊',
+    intro: 'İzmir\'de oturan herkesin bildiği ama kimsenin konuşmadığı gerçek: koltuklar kokuyor. Misafir gelecek diye parfüm sıkarsınız koltuğa — 2 saat sonra parfüm gitmiş, alttaki koku geri gelmiş. Bu koku nereden geliyor? Cevap: Ege\'nin neminden. %65-75 nem oranında koltuk kumaşları sürekli nem çeker, bu nem bakterilerin üreme ortamı olur ve bakteriler metabolizma ürünü olarak koku üretir. Bu yazıda koku oluşumunun bilimini, İzmir\'e özel kurutma sorununu ve profesyonel koltuk temizliğinin neden yılda 2 kez yapılması gerektiğini anlatıyoruz.',
+    sections: [
+      {
+        heading: 'Koku Nereden Geliyor? — Bakteri Metabolizması',
+        content: `Koltuğunuz kokuyor — ama aslında kokan koltuk değil, koltukta yaşayan bakteriler.
+
+**Döngü şöyle işliyor:**
+1. İnsan oturur → ter, deri yağı ve deri pulcukları kumaşa geçer
+2. Ege nemi → kumaş sürekli %60+ nem içerir
+3. Nem + organik madde → bakteri cenneti
+4. Bakteriler organik maddeyi tüketir → metabolizma ürünü: uçucu organik bileşikler (VOC)
+5. VOC\'lar = koku
+
+**Neden İstanbul\'dan farklı?**
+İstanbul\'da nem %65-75. İzmir\'de de benzer — ama İzmir\'in yazları daha sıcak. Sıcaklık + nem = bakteri üreme hızı katlanıyor. İstanbul\'da 6 ayda oluşan koku İzmir\'de 3-4 ayda oluşuyor.
+
+**Neden parfüm işe yaramıyor?**
+Parfüm koku moleküllerini maskeler — ama bakterileri öldürmez. Bakteriler yaşadıkça koku üretmeye devam eder. Parfüm buharlaşınca koku geri gelir. Kalıcı çözüm: bakterileri öldürmek — yani profesyonel anti-bakteriyel koltuk yıkama.
+
+**Çözüm:**
+[İzmir koltuk yıkama](/izmir-koltuk-yikama-firmalari) firmalarından anti-bakteriyel işlem isteyin. Standart yıkama kirleri çıkarır ama bakterileri tam öldürmeyebilir. Anti-bakteriyel deterjan + buhar kombinasyonu bakterileri %99 oranında yok eder.`,
+      },
+      {
+        heading: 'İzmir\'de Koltuk Yıkama Sonrası Kurutma Sorunu',
+        content: `Koltuk yıkama en kolay kısmı. Zor olan: İzmir\'de koltuğu kurutmak.
+
+**Problem:**
+Koltuk halı gibi söküp açık havaya asamazsınız. Yerinde kuruması gerekir. İzmir\'in %65-75 neminde doğal buharlaşma yavaş. Sonuç: koltuk 8-12 saat nemli kalıyor. Ve nemli kumaşta ne olur? Bakteri tekrar ürer. Az önce yıkatıp temizlediğiniz koltuk 24 saat içinde yeni bakteri kolonisi kurmaya başlar.
+
+**Kurutmayı hızlandırmanın 4 yolu:**
+1. **Fan:** Koltuğa doğrultulmuş güçlü fan kurutma süresini yarıya indirir.
+2. **Pencere:** Karşılıklı pencere açarak çapraz havalandırma oluşturun.
+3. **Klima:** Klimayı "kuru" (dry) moduna alın — nemi çeker.
+4. **Zamanlama:** Yaz aylarında (Haziran-Eylül) yıkatın — sıcaklık kurutmayı hızlandırır. Kış aylarında kurutma süresini 2 katına kadar uzayabilir.
+
+**Firmaya sorun:**
+Bazı firmalar yıkama sonrası kurutma ekipmanı (endüstriyel fan veya hava üfleyici) bırakıyor. Bu hizmeti sunan firmayı tercih edin — ekstra ücreti olsa bile kurutma sorununuzu çözer.
+
+**Çeşme ve sahil ilçeleri:**
+Denize yakın evlerde nem daha da yüksek (%75+). Bu bölgelerde koltuk yıkama sadece yaz aylarında ve fan desteğiyle yapılmalı.
+
+[İzmir koltuk yıkama](/izmir-koltuk-yikama-firmalari) — Ege neminde profesyonel temizlik.`,
+      },
+      {
+        heading: 'İzmir\'de Koltuk Ne Sıklıkla Yıkatılmalı?',
+        content: `İzmir\'in nemli ikliminde koltuk yıkama sıklığı Ankara\'dan farklı:
+
+**Standart ev:** Yılda 2 kez (Ankara\'da 1 yeterli). Nem nedeniyle bakteri birikimi hızlı.
+
+**Evcil hayvan olan ev:** Her 3 ayda bir. Hayvan tüyü + nem = koku ve alerjen patlaması.
+
+**Sahile yakın ev (Karşıyaka, Konak, Güzelbahçe):** Yılda 2-3 kez. Deniz tuzu kumaşa da yapışır — sertleştirme ve koku etkisi var.
+
+**Alaçatı/Çeşme yazlık ev:** Sezon açılışında (Nisan-Mayıs) mutlaka profesyonel yıkama. Kış boyunca kapalı kalan evin koltukları küf kokusu almış olabilir.
+
+**Koltuk + halı + perde paketi:**
+İzmir\'de firma çağırdığınızda sadece koltuk değil, halı ve perdeleri de birlikte verin. Firma zaten geliyor — ekstra hizmetler ulaşım maliyetini bölüyor. [İzmir halı yıkama](/izmir-hali-yikama-firmalari) firmaları genellikle koltuk hizmeti de sunuyor.
+
+**Anti-küf işlem:**
+İzmir\'de zemin kat dairelerinde koltuklar küf tutabilir — özellikle sırtı duvara dayanan koltukların arka kumaşı nemli duvara temas eder. Koltuğu duvardan 5-10 cm çekin. Profesyonel yıkamada anti-küf işlem talep edin.
+
+[İzmir koltuk yıkama](/izmir-koltuk-yikama-firmalari) — nem, koku ve bakteri ile profesyonel mücadele.`,
+      },
+    ],
+    faq: [
+      { q: 'İzmir\'de koltuk neden bu kadar çabuk kokuyor?', a: 'Ege nemi (%65-75) + insan teri = bakteri üremesi hızlanıyor. Bakteriler koku üretiyor. Parfüm maskeler ama çözmez — anti-bakteriyel profesyonel yıkama gerekir.' },
+      { q: 'İzmir\'de koltuk yıkama kaç saatte kurur?', a: 'Doğal kurutma 8-12 saat. Fan kullanarak 4-6 saat. Yaz aylarında daha hızlı. Kışın çok yavaş — klima kuru modunu kullanın.' },
+      { q: 'İzmir\'de koltuk yılda kaç kez yıkatılmalı?', a: 'En az 2 kez. Sahile yakın evlerde 2-3 kez. Evcil hayvan varsa her 3 ayda bir.' },
+    ],
+    relatedSlugs: ['koltuk-yikama-fiyatlari', 'koltuk-bakim-onerileri', 'izmir-hali-yikama-nemle-mucadele'],
+  },
+
+  {
+    slug: 'bursa-antalya-koltuk-yikama',
+    city: 'Bursa',
+    citySlug: 'bursa',
+    title: 'Koltuk Yıkama Firmasını Çağırmadan Önce Bilmeniz Gereken 8 Şey',
+    metaTitle: 'Koltuk Yıkama Rehberi 2026 | Sipariş Öncesi 8 Kural, Kumaş Testi, Kurutma',
+    metaDescription: 'Koltuk yıkama sipariş rehberi. Firmayı çağırmadan önce yapmanız gereken 8 hazırlık, kumaş testi, leke bildirimi ve kurutma planı.',
+    datePublished: '2026-03-20',
+    dateModified: '2026-03-20',
+    category: 'koltuk-yikama',
+    readingTime: 8,
+    heroEmoji: '🛋️',
+    intro: 'Koltuk yıkama firmasını aradınız, randevu aldınız. Firma yarın gelecek. Peki siz hazır mısınız? Çoğu insan firmayı çağırır ve "gelsinler yapsınlar" der. Ama firma geldiğinde: "Kumaş ne?" "Bilmiyorum." "Bu leke ne?" "Bilmiyorum." "Koltuğun altındaki eşyaları topladınız mı?" "Hayır." Bu diyalog hem sizin hem firmanın zamanını çalar, işi yavaşlatır ve bazen ek ücrete yol açar. Bu yazıda koltuk yıkama firmasını çağırmadan önce bilmeniz ve yapmanız gereken 8 şeyi anlatıyoruz.',
+    sections: [
+      {
+        heading: '8 Hazırlık Adımı — Firma Gelmeden Önce',
+        content: `**1. Kumaş türünüzü bilin:**
+Kadife, süet, deri, microfiber, keten — her biri farklı deterjan ve yöntem gerektirir. Koltuğun altındaki etikete bakın. W, S, WS veya X harflerinden hangisi yazıyor? Bu bilgiyi firmaya söyleyin.
+
+**2. Lekeleri işaretleyin ve türünü söyleyin:**
+Hangi leke nerede ve ne türde? Kahve mi, kan mı, mürekkep mi, yemek yağı mı? Firma önceden bilirse doğru kimyasalı yanında getirir. "Bir leke var ama ne olduğunu bilmiyorum" bile söylemek faydalı — en azından firma görmezden gelmez.
+
+**3. Koltuğun altını ve çevresini temizleyin:**
+Koltuk altındaki oyuncakları, kumandaları, kitapları, kabloları toplayın. Koltuğun çevresindeki sehpa ve dekoratif eşyaları uzaklaştırın. Firma geldiğinde direkt çalışmaya başlasın — zaman kazanırsınız.
+
+**4. Yastıkları çıkarın:**
+Çıkarılabilir koltuk yastıklarını çıkarıp hazır bırakın. Her iki yüzü de yıkanacak.
+
+**5. Evcil hayvan varsa söyleyin:**
+Tüy, koku ve olası idrar — firma enzim bazlı deterjan getirir. Söylemezseniz standart deterjanla yıkar, koku çıkmaz.
+
+**6. Kurutma planı yapın:**
+Yıkama sonrası 4-8 saat koltuk nemli olacak. O akşam misafir beklemeyin. Fan veya klima hazırlayın. Mümkünse sabah randevusu alın — akşama kurur.
+
+**7. Fotoğraf çekin:**
+Yıkama öncesi koltuğun genel durumunu fotoğraflayın. Mevcut yırtık, leke ve renk solması varsa kayıt altına alın. Olası anlaşmazlıkta kanıtınız.
+
+**8. Bütçenizi netleştirin:**
+Firmaya telefonda "3+2+1 takım, microfiber kumaş, 2 kahve lekesi var" gibi net bilgi verin. Fiyat teklifi alın. "Koltuğu göreyim sonra söylerim" diyen firmaya dikkat — bu genellikle fiyat şişirme işareti.
+
+[Bursa koltuk yıkama](/bursa-koltuk-yikama-firmalari), [Antalya koltuk yıkama](/antalya-koltuk-yikama-firmalari), [Konya koltuk yıkama](/konya-koltuk-yikama-firmalari) — şehrinizde profesyonel firma bulun.`,
+      },
+      {
+        heading: 'Firma Geldikten Sonra — 3 Kontrol Noktası',
+        content: `**1. Deterjan testi isteyin:**
+İyi firma yıkamaya başlamadan önce koltuğun görünmez bir noktasında (arka, alt) deterjan testi yapar. 2 dakika bekler, kumaşta renk değişimi veya hasar olup olmadığına bakar. Bu testi yapmayan firmaya "lütfen önce test yapın" deyin.
+
+**2. İşlem süresini sorun:**
+"Bu koltuk takımını kaç dakikada bitireceksiniz?" sorusunun cevabı önemli. 3+2+1 takım için 30-45 dakika normal. 15 dakikada bitiren firma ya çok hızlı (yüzeysel) çalışıyordur ya da atladığı adımlar vardır. 1.5 saat süren firma ise muhtemelen ekstra detaylı çalışıyordur — bu iyi.
+
+**3. Kurutma tavsiyesi alın:**
+Firma bitirip giderken sorun: "Ne zaman oturabiliriz? Pencere açalım mı? Fan kullanalım mı?" İyi firma kurutma süreci hakkında bilgi verir — hatta bazen küçük fan bırakır.
+
+**Yıkama sonrası 24 saat:**
+- İlk 4-6 saat: Oturmayın. Nem iz bırakır.
+- 6-8 saat: Parmakla dokunarak kontrol edin. Kuru hissediyorsa hafif oturabilirsiniz.
+- 24 saat sonra: Tam kontrol. Lekeler çıkmış mı? Kumaşta renk değişimi var mı? Koku var mı?
+- Sorun varsa firmayı arayın — 48 saat içinde bildirirseniz firma genellikle tekrar gelir.
+
+Şehrinizde koltuk yıkama firması bulmak için:
+[İstanbul koltuk yıkama](/istanbul-koltuk-yikama-firmalari), [Ankara koltuk yıkama](/ankara-koltuk-yikama-firmalari), [İzmir koltuk yıkama](/izmir-koltuk-yikama-firmalari), [Kocaeli koltuk yıkama](/kocaeli-koltuk-yikama-firmalari), [Bursa koltuk yıkama](/bursa-koltuk-yikama-firmalari), [Antalya koltuk yıkama](/antalya-koltuk-yikama-firmalari)`,
+      },
+    ],
+    faq: [
+      { q: 'Koltuk yıkama firması gelmeden önce ne yapmalıyım?', a: 'Kumaş türünü öğrenin, lekeleri belirleyin, altı temizleyin, yastıkları çıkarın, evcil hayvan varsa söyleyin, kurutma planı yapın.' },
+      { q: 'Koltuk yıkama sonrası ne kadar beklemeliyim?', a: 'İlk 4-6 saat oturmayın. 8 saat sonra kontrol edin. 24 saat sonra tam kullanıma geçin.' },
+      { q: 'Firma deterjan testi yapmazsa ne yapmalıyım?', a: '"Lütfen önce görünmez bir noktada test yapın" deyin. Bu 2 dakikalık test kumaşınızı geri dönüşümsüz hasardan korur.' },
+    ],
+    relatedSlugs: ['koltuk-yikama-fiyatlari', 'koltuk-bakim-onerileri', 'hali-yikama-firmasi-nasil-secilir'],
+  },
+
+  {
+    slug: 'koltuk-yikama-evcil-hayvan-rehberi',
+    title: 'Kedi ve Köpek Sahipleri İçin Koltuk Yıkama: Tüy, Koku ve Tırnak İzinin Çözümü',
+    metaTitle: 'Evcil Hayvan Koltuk Yıkama 2026 | Tüy Temizliği, İdrar Kokusu, Enzim Deterjan',
+    metaDescription: 'Evcil hayvan sahipleri için koltuk yıkama rehberi. Kedi-köpek tüyü, idrar kokusu, tırnak izi ve enzim bazlı temizliğin bilimi.',
+    datePublished: '2026-03-20',
+    dateModified: '2026-03-20',
+    category: 'koltuk-yikama',
+    readingTime: 9,
+    heroEmoji: '🐾',
+    intro: 'Kedinin favori yeri koltuğunuzun köşesi. Köpeğiniz maç izlerken yanınıza uzanıyor. Güzel anlar — ama koltuğunuza bakın: tüy katmanı, tırnak izleri, hafif ama kalıcı bir koku ve belki de o "kaza" noktası. Türkiye\'de 15 milyonun üzerinde hanede evcil hayvan var ve bu hayvanların çoğu koltukta vakit geçiriyor. Normal koltuk yıkama bu duruma yetmez — enzim bazlı özel deterjan, tüy toplama ön işlemi ve anti-koku işlemi gerekir. Bu rehberde evcil hayvan sahiplerinin koltuk yıkama konusunda bilmesi gereken her şeyi paylaşıyoruz.',
+    sections: [
+      {
+        heading: 'Evcil Hayvan Koltuğa Ne Yapıyor? — Görünmeyenler',
+        content: `Koltuğunuzda gördüğünüz tüyler buzdağının görünen kısmı. Asıl sorunlar görünmez:
+
+**Tüy altı gerçeği:**
+Bir kedi günde 60.000+ tüy döker. Bu tüylerin çoğu koltuk kumaşının dokusuna girer ve vakumla bile tam çıkmaz. Zamanla tüyler kumaş liflerine sarılır — çıkarmak için profesyonel fırçalama gerekir.
+
+**Deri pulcukları:**
+Hayvanlar da insan gibi deri döker. Bu pulcuklar toz akarlarının ana besini. Koltukta yaşayan akar popülasyonu evcil hayvanlı evlerde 3-5 kat daha fazla.
+
+**Tükürük ve yalanma:**
+Kediler kendilerini yalayarak temizler — sonra koltuğunuza yatar. Tükürükteki proteinler kumaşa geçer ve alerjen kaynağı olur. Kedi alerjisi olan misafirleriniz koltuğunuzda 5 dakika oturduktan sonra hapşırmaya başlar.
+
+**Tırnak izleri:**
+Köpekler koltuğa atlarken, kediler bileme yaparken kumaşta mikro yırtıklar oluşur. Bu yırtıklar kir tutar ve zamanla büyür.
+
+**"Kaza" noktaları:**
+Yavrular eğitilene kadar, yaşlı hayvanlar sağlık sorunları nedeniyle koltuğa idrar yapabilir. İdrar kumaşın derinlerine nüfuz eder ve amonyak kokusu üretir. Bu koku profesyonel enzim bazlı deterjan olmadan çıkmaz.
+
+Şehrinizde evcil hayvan deneyimli koltuk yıkama firması için:
+[İstanbul koltuk yıkama](/istanbul-koltuk-yikama-firmalari), [Ankara koltuk yıkama](/ankara-koltuk-yikama-firmalari), [İzmir koltuk yıkama](/izmir-koltuk-yikama-firmalari), [Bursa koltuk yıkama](/bursa-koltuk-yikama-firmalari)`,
+      },
+      {
+        heading: 'Enzim Bazlı Deterjan — Neden Normal Deterjan Yetmiyor?',
+        content: `Normal deterjan yağı ve kiri çözer — ama organik maddeleri (idrar, tükürük, kan, ter) tam parçalamaz. İşte enzim bazlı deterjan burada devreye girer:
+
+**Enzimler nasıl çalışır?**
+Enzimler biyolojik katalizör — organik molekülleri parçalayan doğal proteinler. Her enzim türü farklı organik maddeyi hedefler:
+
+- **Proteaz:** Protein bazlı lekeleri parçalar (kan, süt, yumurta, tükürük)
+- **Lipaz:** Yağ bazlı lekeleri parçalar (sebum, hayvan yağı)
+- **Amilaz:** Nişasta bazlı lekeleri parçalar (yemek kalıntısı)
+- **Üreaz:** Üre/idrar bileşiklerini parçalar — hayvan idrarı için kritik
+
+**Normal deterjan vs enzim deterjan:**
+Normal deterjan idrarın suyunu ve tuzunu temizler ama ürik asit kristallerini çözmez. Bu kristaller kumaşta kalır ve nem aldığında tekrar koku yaymaya başlar. Enzim bazlı deterjanın üreaz enzimi ürik asiti parçalar — koku kaynağını yok eder.
+
+**Firmaya ne söylemelisiniz?**
+"Evcil hayvanım var, enzim bazlı deterjan kullanmanızı istiyorum." Bu talep çoğu firmada ek ücret gerektirir (%10-20 fark) ama sonuç çok daha iyi.
+
+**Ev yapımı çözüm (acil müdahale):**
+İdrar kazası olduysa HEMEN: kâğıt havlu ile bastırarak emin → beyaz sirke + su (1:1) püskürün → 15 dk bekletin → tekrar emin → kabartma tozu serpin → kuruyunca süpürün. Bu acil müdahale kokuyu azaltır ama profesyonel enzim yıkama yine de gerekir.
+
+Evcil hayvan deneyimli firma bulmak için [Konya koltuk yıkama](/konya-koltuk-yikama-firmalari), [Kayseri koltuk yıkama](/kayseri-koltuk-yikama-firmalari), [Samsun koltuk yıkama](/samsun-koltuk-yikama-firmalari), [Trabzon koltuk yıkama](/trabzon-koltuk-yikama-firmalari) sayfalarını inceleyin.`,
+      },
+      {
+        heading: 'Evcil Hayvan Evinde Koltuk Koruma Stratejisi',
+        content: `Profesyonel yıkama 3-4 ayda bir. Aradaki günlerde koltuğunuzu korumak sizin elinizde:
+
+**Günlük rutin (2 dakika):**
+- Tüy toplama rulosu (lint roller) ile koltuk yüzeyini geçin
+- Hayvanın favori köşesine ince örtü/battaniye koyun — örtüyü haftalık yıkayın
+
+**Haftalık rutin (10 dakika):**
+- Elektrikli süpürgenin döşeme başlığıyla tüm yüzeyleri süpürün
+- Yastıkları çıkarıp altlarını süpürün — tüy ve kırıntılar orada birikir
+- Koltuğun arkasını kontrol edin — duvar ile koltuk arasında tüy yığılır
+
+**Aylık rutin (30 dakika):**
+- Kumaşa göre: microfiber → ıslak bez silme. Kadife → fırçalama. Deri → nemlendirici.
+- Tırnak izlerini kontrol edin — büyümeden onarım yaptırın
+- Koku testi: burnunuzu kumaşa yaklaştırın. Fark edilir koku varsa profesyonel yıkama zamanı gelmiş demektir.
+
+**Kumaş seçimi — hayvan dostu koltuk:**
+Yeni koltuk alacaksanız:
+- ✅ Microfiber: Tüy tutmaz, kolay temizlenir, tırnak direnci iyi
+- ✅ Deri: Tüy yapışmaz, silinir ama tırnak izi kalır
+- ❌ Kadife: Tüy mıknatısı, temizlemesi kabus
+- ❌ Keten: Tırnak anında yırtar, leke tutar
+
+Şehrinizde koltuk yıkama firması:
+[Gaziantep koltuk yıkama](/gaziantep-koltuk-yikama-firmalari), [Diyarbakır koltuk yıkama](/diyarbakir-koltuk-yikama-firmalari), [Mersin koltuk yıkama](/mersin-koltuk-yikama-firmalari), [Denizli koltuk yıkama](/denizli-koltuk-yikama-firmalari)`,
+      },
+    ],
+    faq: [
+      { q: 'Evcil hayvan kokusu koltuktan çıkar mı?', a: 'Enzim bazlı deterjanla evet. Normal deterjan kokuyu maskeler ama ürik asit kristallerini çözmez — koku geri gelir. Enzim üreazı bu kristalleri parçalar.' },
+      { q: 'Evcil hayvan olan evde koltuk kaç kez yıkatılmalı?', a: 'Her 3-4 ayda bir. Arada günlük tüy toplama + haftalık süpürme + aylık yüzey temizliği.' },
+      { q: 'Kedi tırnağı koltuk kumaşını yırtar mı?', a: 'Evet. Kadife ve keten en riskli. Microfiber ve deri daha dirençli. Tırnak bileme tahtası koltuktan uzağa koyun.' },
+    ],
+    relatedSlugs: ['koltuk-yikama-fiyatlari', 'koltuk-bakim-onerileri', 'evcil-hayvan-hali-yikama'],
+  },
+
   ...cityGuides,
 ];
 
