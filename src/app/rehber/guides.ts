@@ -7847,6 +7847,363 @@ Kırşehir\'de 3 firma birbirini dengeliyor. Biri fiyatı artırsa müşteri di�
     relatedSlugs: ['kirsehir-hali-yikama', 'kirsehir-hali-yikama-en-ucuz', 'hali-yikama-firmasi-nasil-secilir'],
   },
 
+  {
+    slug: 'sinop-hali-yikama-mutluluk-sirri',
+    city: 'Sinop',
+    citySlug: 'sinop',
+    title: 'Türkiye\'nin En Mutlu Şehrinde Evler Neden Bu Kadar Temiz? Sinop\'un Temizlik Takıntısı',
+    metaTitle: 'Sinop Halı Yıkama 2026 | En Mutlu Şehrin Temizlik Sırrı, Komple Ev Paketi',
+    metaDescription: 'Sinop halı yıkama — Türkiye\'nin en mutlu şehrinin temizlik alışkanlıkları. 4.500 TL ev temizliği paketi, ipek halı 120 TL ve mutluluk-temizlik bağlantısı.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 7,
+    heroEmoji: '⛵',
+    intro: 'Sinop her anket yapıldığında "Türkiye\'nin en mutlu şehri" çıkıyor. Araştırmacılar bunu deniz, doğa ve sakin yaşamla açıklıyor. Ama Sinop\'a gidenler bir şey daha fark ediyor: evler çok temiz. Pencereler pırıl pırıl, bahçeler bakımlı, halılar tertemiz. Tesadüf mü? Belki değil. Psikoloji araştırmaları temiz ve düzenli yaşam alanının mutluluk ve zihinsel sağlıkla doğrudan bağlantılı olduğunu gösteriyor. Sinop\'taki halı yıkama firması bu temizlik kültürüne hizmet ediyor — ve sunduğu 4.500 TL\'lik komple ev temizliği paketi bunu kanıtlıyor.',
+    sections: [
+      {
+        heading: 'Temiz Ev = Mutlu İnsan — Bilimsel Gerçek',
+        content: `Bu sadece bir klişe değil — bilimsel araştırmalarla destekleniyor:
+
+**Indiana University araştırması (2011):**
+Evleri temiz olan insanlar daha aktif, daha sağlıklı ve daha mutlu. Dağınık ve kirli ortam kortizol (stres hormonu) seviyesini artırıyor.
+
+**Personality and Social Psychology Bulletin (2010):**
+Kadınlar evlerini "dağınık" veya "bitmemiş" olarak tanımladığında gün boyunca depresif duygu durumu ve yorgunluk rapor ediyorlar. Evlerini "huzurlu" ve "restore edici" olarak tanımlayan kadınlar daha az stres yaşıyor.
+
+**Sinop bağlantısı:**
+195.000 nüfuslu küçük, sakin, deniz kenarında bir şehir. İnsanlar evlerinde vakit geçiriyor — bahçeyle uğraşıyor, misafir ağırlıyor, çay içiyor. Ev yaşam alanının merkezi. Ve bu merkez temiz tutulduğunda insanlar daha mutlu.
+
+**Halı yıkama bu denklemin parçası:**
+Kirli halı evde küf kokusu, alerjen ve görsel kirlilik yaratır. Tertemiz halı evin atmosferini değiştirir — ayak altı yumuşak, koku hoş, görüntü ferah. Bu psikolojik etkinin fiyatı? Sinop\'ta makine halısı 95 TL/m².
+
+[Sinop halı yıkama](/sinop-hali-yikama-firmalari) — mutlu şehrin temizlik partneri.`,
+      },
+      {
+        heading: '4.500 TL\'ye Komple Ev Temizliği — Sinop Modeli',
+        content: `Sinop\'taki firma sıra dışı bir hizmet sunuyor: 4.500 TL\'ye komple ev temizliği. Bu sadece halı yıkama değil — evin baştan sona temizlenmesi.
+
+**Paket ne içeriyor?**
+- Tüm halıların toplanması, yıkanması, kurutulması ve tekrar serilmesi
+- Ev temizliği (zemin, banyo, mutfak, pencereler)
+- Temiz halılar geri geldiğinde evin hazır olması
+
+**Kim için ideal?**
+- **Yaşlı çiftler:** Halıları kaldırıp firmaya verme gücü olmayan yaşlı insanlar için. Firma gelir, her şeyi halleder, tertemiz ev bırakır.
+- **Yoğun çalışan aileler:** Hafta sonu temizlik yerine firmaya devretmek. 4.500 TL bir günlük profesyonel temizlik — haftalarca uğraşmaktan pratik.
+- **Kiralık ev geçişi:** Evi boşaltıp yeni kiracıya teslim ederken komple temizlik.
+- **Bayram öncesi:** Kurban ve Ramazan bayramı öncesi misafir hazırlığı.
+
+**4.500 TL pahalı mı?**
+Parçalayalım: Halı yıkama ~2.500 TL + profesyonel ev temizliği ~2.000 TL = ayrı ayrı 4.500 TL. Paket fiyat indirim sunmuyor ama TEK SEFERDE her şeyi halletmenin pratikliğini sunuyor. Zaman tasarrufu parayla ölçülemez.
+
+**İpek halı 120 TL/m²:**
+Sinop\'un bir diğer sürprizi — ipek halı yıkama 120 TL. İstanbul\'da 300+, Karabük\'te 600 TL. Bu muhtemelen Türkiye\'nin en ucuz ipek halı yıkama fiyatı.
+
+[Sinop halı yıkama](/sinop-hali-yikama-firmalari) — 4.500 TL\'ye tertemiz ev, 120 TL\'ye ipek halı.`,
+      },
+    ],
+    faq: [
+      { q: 'Sinop\'ta komple ev temizliği kaç TL?', a: '4.500 TL — halı yıkama + ev temizliği tek pakette. Yaşlılar ve yoğun çalışan aileler için ideal.' },
+      { q: 'Temiz ev gerçekten mutluluk getiriyor mu?', a: 'Evet. Bilimsel araştırmalar temiz ve düzenli yaşam alanının stres hormonu düşürdüğünü ve mutluluk artırdığını gösteriyor.' },
+      { q: 'Sinop\'ta ipek halı yıkama kaç TL?', a: '120 TL/m² — muhtemelen Türkiye\'nin en ucuzu. İstanbul\'da aynı hizmet 300+ TL.' },
+    ],
+    relatedSlugs: ['sinop-hali-yikama', 'sinop-hali-yikama-mutlu-sehir', 'hali-yikama-fiyatlari'],
+  },
+
+  {
+    slug: 'agri-hali-yikama-yere-oturma',
+    city: 'Ağrı',
+    citySlug: 'agri',
+    title: 'Ağrı\'da Yere Oturma Kültürü: Halının Yatak, Masa ve Koltuk Olduğu Şehir',
+    metaTitle: 'Ağrı Halı Yıkama 2026 | Yere Oturma Kültürü, Sünger Döşek, 4 Aylık Pencere',
+    metaDescription: 'Ağrı halı yıkama — yere oturma kültüründe halı bakımı. Halının çok amaçlı kullanımı, sünger döşek hijyeni ve 4 aylık yıkama penceresinde zamanlama.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 8,
+    heroEmoji: '🏔️',
+    intro: 'Ağrı\'da halı sadece zemin döşemesi değil — her şeydir. Sabah halının üstünde kahvaltı edilir, öğlen çocuklar halıda oynar, akşam sünger döşekler serilip halının üstünde uyunur. Halı yatak, masa, oturma alanı ve oyun sahası — tüm bunlar aynı anda. Bu çok amaçlı kullanım halıyı İstanbul\'daki bir salon halısından 5-6 kat daha yoğun kullanıma maruz bırakıyor. Ve 7 aylık kışta pencereler kapalı, havalandırma yok. Bu yazıda Doğu Anadolu\'nun yere oturma kültüründe halı bakımının önemini anlatıyoruz.',
+    sections: [
+      {
+        heading: 'Halı Ne İş Yapıyor? — Ağrı\'da Halının 6 Rolü',
+        content: `Bir İstanbul evinde halı tek iş yapar: zemin döşemesi. Üstünde yürünür, belki oturulur, mobilyalar üzerinde durur.
+
+Ağrı\'da halı 6 farklı rol üstleniyor:
+
+**1. Oturma alanı:** Koltuk yerine halı + yer yastığı. Misafirler yerde ağırlanır, çay yerde içilir.
+
+**2. Yemek masası:** Yer sofrası halının üzerine serilir. Çorba, yoğurt, çay — hepsi halının santimetrelerce yakınında.
+
+**3. Yatak:** Gece sünger döşekler halının üzerine serilir. Sabah kaldırılır. Halı 7-8 saat vücut ağırlığı, ter ve nefes nemine maruz kalır.
+
+**4. Oyun alanı:** Çocuklar halıda oynar — emekler, yuvarlanır, oyuncak sürer. Küçük çocukların yüzü halıya birkaç santimetre mesafede.
+
+**5. Isı yalıtımı:** Soğuk taş veya beton zemin ile aile arasında ısı bariyeri. Halı olmadan oda buz gibi.
+
+**6. Ses yalıtımı:** Apartmanda alt kata ses geçişini azaltır.
+
+**Bu 6 rolün halıya etkisi:**
+Günde 14-16 saat aktif kullanım. Yemek kırıntısı, ter, tükürük, idrar (bebek), toz, toprak — hepsi halıda. İstanbul\'daki salon halısının 1 yıllık kirliliği Ağrı\'daki halıda 2-3 ayda birikir.
+
+[Ağrı halı yıkama](/agri-hali-yikama-firmalari) firmalarının sunduğu sünger döşek yıkama (800 TL) bu kültürün ürünü.`,
+      },
+      {
+        heading: 'Sünger Döşek Hijyeni — Kimsenin Konuşmadığı Konu',
+        content: `Ağrı\'da sünger döşekler her gece halının üzerine serilip sabah kaldırılıyor. Bu döşeklerin hijyeni genellikle göz ardı ediliyor:
+
+**Sünger döşekte ne birikiyor?**
+- **Ter:** Bir yetişkin gecede 200-500 ml ter üretir. Bu ter sünger döşeğe emilir, altındaki halıya da geçer.
+- **Deri pulcukları:** İnsan her gün 1.5 gram deri döker — toz akarlarının ana besini.
+- **Toz akarı:** Sünger döşek sıcak, nemli ve besin dolu — akar cenneti. Bir döşekte milyonlarca akar yaşayabilir.
+- **Bakteri:** Ter + deri + sıcaklık = bakteri üremesi. Yıkanmayan döşek 1 yıl içinde ağırlığının %10\'u kadar akar atığı ve bakteri barındırır.
+
+**Profesyonel döşek yıkama neden gerekli?**
+Sünger döşek çamaşır makinesine sığmaz. Elde yıkamak suyun tamamını çıkarmaz — yarı ıslak döşek küf tutar. Profesyonel firma yüksek basınçla yıkar, santrifüjle sıkar ve hızla kurutur.
+
+**Ağrı\'daki firma 800 TL\'ye sünger döşek yıkıyor** — bu hizmet İstanbul\'da bile nadir. Nedeni: İstanbul\'da herkes yatakta uyuyor. Ağrı\'da sünger döşek yaygın — talep firmayı bu hizmeti sunmaya itmiş.
+
+**Tavsiye:** Sünger döşekleri yılda 2 kez yıkatın. Halıyla birlikte verin — firma zaten geliyor, ek ulaşım maliyeti yok.
+
+[Ağrı halı yıkama](/agri-hali-yikama-firmalari) — 3 firma, sünger döşek dahil kapsamlı hizmet.`,
+      },
+    ],
+    faq: [
+      { q: 'Yere oturma kültüründe halı kaç kez yıkatılmalı?', a: 'Günde 14-16 saat aktif kullanımla yılda en az 2 kez — ama 4 aylık yıkama penceresi (Haziran-Eylül) içinde yapılmak zorunda.' },
+      { q: 'Sünger döşek profesyonel yıkanır mı?', a: 'Evet, Ağrı\'da 800 TL. Çamaşır makinesine sığmaz, elde yıkamak küf riski taşır. Profesyonel firma basınçla yıkar, santrifüjle sıkar.' },
+      { q: 'Ağrı\'da halı neden bu kadar önemli?', a: 'Halı sadece zemin değil — oturma, yemek, uyuma, oynama alanı. 6 farklı rol üstleniyor. Koltuk ve yatak yerine halı + döşek kullanılıyor.' },
+    ],
+    relatedSlugs: ['agri-hali-yikama', 'agri-hali-yikama-daglar', 'hali-alerjisi-ve-hijyen'],
+  },
+
+  {
+    slug: 'artvin-hali-yikama-dik-sokaklar',
+    city: 'Artvin',
+    citySlug: 'artvin',
+    title: 'Artvin\'in Dimdik Sokaklarında Halı Nasıl Taşınır? Lojistiğin Fiziksel Sınırı',
+    metaTitle: 'Artvin Halı Yıkama 2026 | Dik Yamaç Lojistiği, Fiziksel Zorluklar, Çözüm Önerileri',
+    metaDescription: 'Artvin halı yıkama — Türkiye\'nin en dik şehrinde halı taşıma lojistiği. %40 eğimli sokaklarda firma nasıl çalışıyor, maliyete etkisi nedir.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 7,
+    heroEmoji: '🌲',
+    intro: 'Artvin\'e ilk geldiğinizde boyun ağrısı çekersiniz — çünkü sürekli yukarı bakarsınız. Evler birbirinin çatısı üstünde, sokaklar merdiven, araç yolu kıvrım kıvrım. Bu şehirde bir halı yıkama firması çalışıyor — ve işin en zor kısmı halıyı yıkamak değil, müşterinin evinden çıkarmak. 20 kg\'lık kuru halıyı %40 eğimli sokaktan 200 metre taşımak kas gücü, denge ve sabır gerektiriyor. Bu yazıda Artvin\'in benzersiz lojistik zorluğunu ve bunun halı yıkama fiyatlarına etkisini anlatıyoruz.',
+    sections: [
+      {
+        heading: 'Artvin\'in Coğrafyası — Düz Yüzey Yok',
+        content: `Artvin şehir merkezinin eğim haritası çıkarılsa dünyanın en dik şehirleri arasına girer. Karşılaştırma:
+
+- San Francisco (ABD): Ünlü dik sokakları %27 eğimli
+- Artvin: Bazı sokaklar %40+ eğimli
+- İstanbul Beyoğlu: %15-20 eğimli (kıyaslama için)
+
+**Bu eğimin halı yıkamaya etkisi:**
+
+1. **Araç erişimi:** Çoğu sokağa kamyonet veya minibüs giremiyor. Firma personeli halıları sırtında veya el arabasıyla aracın ulaşabildiği noktaya taşımak zorunda. 200-300 metre taşıma mesafesi normal.
+
+2. **Ağırlık problemi:** 15 m²\'lik salon halısı kuru halde 20-25 kg. Bunu %40 eğimli merdivenden indirmek iki kişilik iş. Islak halıda bu ağırlık 70+ kg\'a çıkar — ama yıkama fabrikada yapıldığından ıslak taşıma yok, neyse ki.
+
+3. **Zaman kaybı:** İstanbul\'da bir daireden halı almak 15 dakika. Artvin\'de aynı iş 30-45 dakika. Bu süre maliyete yansıyor.
+
+4. **Güvenlik riski:** Kaygan merdivenlerde ağır rulo taşımak hem personel hem halı için risk. Yağmurlu günlerde (Artvin\'de sık) risk katlanıyor.
+
+**Sonuç:** Artvin fiyatları (100-150 TL/m²) Karadeniz ortalamasının üzerinde — bu fark kalite değil, lojistik maliyeti.
+
+[Artvin halı yıkama](/artvin-hali-yikama-firmalari) — 12 mahallede dik sokaklara rağmen hizmet.`,
+      },
+      {
+        heading: 'Artvin\'de Halı Yıkama — Pratik Çözümler',
+        content: `Artvin\'in coğrafyasına uygun stratejiler:
+
+**Firmaya yardım edin:**
+Halıyı önceden rulo yapıp kapınıza hazır bırakın. Firmaya sokağa en yakın taşıma noktasını söyleyin. Bu küçük yardımlar işi hızlandırır ve firmaya zaman kazandırır.
+
+**Küçük halı tercih edin:**
+Devasa 20 m²\'lik tek parça halı yerine 4-6 m²\'lik parçalar kullanın. Hem taşıması kolay hem yıkama maliyeti parça başına düşük.
+
+**Washable kilim alternatifi:**
+Artvin\'in dik sokaklarında her 3-4 ayda profesyonel yıkama yaptırmak hem pahalı hem zahmetli. Washable (yıkanabilir) kilimler çamaşır makinesinde yıkanabilir — profesyonel firmaya sadece büyük halıları verin.
+
+**Yaz stratejisi:**
+Artvin\'de kurutma yılın büyük bölümünde sorunlu (yağış, nem). Temmuz-Ağustos en kuru aylar — halı yıkamayı bu 2 aya sıkıştırın. Firma Mart\'ta aranmalı — yaz dönemi çok yoğun.
+
+**Yusufeli ve Şavşat:**
+Bu uzak ilçelere Artvin merkezinden hizmet almak pratik değil (100+ km, dağ yolu). Trabzon firmalarını değerlendirin veya ilçe içi çözüm arayın.
+
+[Artvin halı yıkama](/artvin-hali-yikama-firmalari) — Türkiye\'nin en dik şehrinde profesyonel hizmet.`,
+      },
+    ],
+    faq: [
+      { q: 'Artvin\'de halı yıkama neden pahalı?', a: 'Lojistik maliyeti. Dik sokaklarda araç giremiyor, personel halıyı sırtında taşıyor. Bu ekstra emek fiyata yansıyor (100-150 TL/m²).' },
+      { q: 'Artvin\'de halı taşıma sorunu nasıl çözülür?', a: 'Küçük parça halılar tercih edin, halıyı önceden rulo yapıp hazır bırakın, washable kilim alternatifini değerlendirin.' },
+      { q: 'Şavşat\'a halı yıkama firması geliyor mu?', a: '130 km + dağ yolu nedeniyle pratik değil. Trabzon firmalarını veya yerel çözümleri araştırın.' },
+    ],
+    relatedSlugs: ['artvin-hali-yikama', 'artvin-hali-yikama-yesil-vadi', 'trabzon-hali-yikama-ev-koruma'],
+  },
+
+  {
+    slug: 'batman-mus-hakkari-hali-yikama-sinir',
+    city: 'Batman',
+    citySlug: 'batman',
+    title: 'Türkiye\'nin Sınır Şehirlerinde Halı Yıkama: Batman, Muş ve Hakkari\'nin Ortak Hikâyesi',
+    metaTitle: 'Batman-Muş-Hakkari Halı Yıkama 2026 | Sınır Şehirleri, Sert İklim, Ortak Sorunlar',
+    metaDescription: 'Batman, Muş ve Hakkari halı yıkama — Güneydoğu ve Doğu\'nun sınır şehirlerinin ortak hikâyesi. Sert kış, yere oturma, sınırlı firma ve çözüm stratejileri.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 9,
+    heroEmoji: '🏔️',
+    intro: 'Batman, Muş ve Hakkari — üç farklı şehir ama ortak bir hikâye: sert kış, yere oturma kültürü, sınırlı firma sayısı ve halıların hayatın merkezinde olması. Batman\'da petrol rafinerisi partikülleri, Muş\'ta 7 aylık kar örtüsü, Hakkari\'de 1.700 metre rakımın yarattığı dondurucu soğuk. Her birinin kendine has zorluğu var ama çözüm aynı: kısa yaz pencerelerinde profesyonel yıkama ve kış boyunca disiplinli koruma.',
+    sections: [
+      {
+        heading: 'Üç Şehrin Ortak Gerçekleri',
+        content: `Bu üç şehri birleştiren ortak özellikler:
+
+**Yere oturma yaşam biçimi:**
+Her üç şehirde de geleneksel yere oturma düzeni yaygın. Halı sadece zemin değil — yatak, masa, oturma alanı. Günde 14+ saat aktif kullanım.
+
+**Sert ve uzun kış:**
+| Şehir | Kış süresi | Min. sıcaklık | Yıkama penceresi |
+|-------|-----------|---------------|-----------------|
+| Batman | 5 ay | -10°C | 7 ay (Nisan-Ekim) |
+| Muş | 7 ay | -30°C | 4 ay (Haziran-Eylül) |
+| Hakkari | 6 ay | -20°C | 6 ay (Mayıs-Ekim) |
+
+**Sınırlı firma:**
+| Şehir | Firma | Mahalle kapsamı |
+|-------|-------|----------------|
+| Batman | 2 | 20 mahalle |
+| Muş | 1 | Varto |
+| Hakkari | 1 | 22 mahalle |
+
+**Düşük fiyat:**
+Makine halısı 60-80 TL/m² — Türkiye\'nin en uygun bandında. Koltuk takımı 600 TL (Muş) — İstanbul\'un dörtte biri.
+
+**Ortak risk:**
+Az firma demek alternatif yok demek. Firma kapanırsa veya kalitesi düşerse seçenek yok. Platform üzerinden firmaları izlemek ve geri bildirim vermek hem sizi hem sonraki müşterileri korur.
+
+[Batman halı yıkama](/batman-hali-yikama-firmalari), [Muş halı yıkama](/mus-hali-yikama-firmalari) ve [Hakkari halı yıkama](/hakkari-hali-yikama-firmalari) — her şehrin firmalarını inceleyin.`,
+      },
+      {
+        heading: 'Her Şehrin Kendine Has Zorluğu',
+        content: `**Batman — Rafineri partikülleri:**
+TPAO rafinerisi şehrin yanında. Hidrokarbon partikülleri halılara yapışkan bir film bırakıyor. Bu kir standart deterjanla tam çıkmaz — alkalin bazlı yıkama gerekir. Rafineri yakınında yılda 3-4 kez yıkama gerekiyor ama 7 aylık yıkama penceresi buna imkân veriyor.
+
+**Muş — Türkiye\'nin en dar yıkama penceresi:**
+Sadece 4 ay (Haziran-Eylül). Bu 4 ayda yılın tüm yıkamaları yapılmak zorunda. Haziran\'da sipariş verirseniz firma Ağustos\'ta gelebilir — çünkü tüm şehir aynı anda yıkatmak istiyor. Mayıs sonunda sipariş verin.
+
+**Hakkari — Rakım ve izolasyon:**
+1.700 metrede kış çok sert ama yaz bile serin (25-30°C). Kurutma İç Anadolu\'daki kadar hızlı değil. Ayrıca Yüksekova ve Şemdinli\'ye firma ulaşımı çok zor — dağ yolları, mesafe, lojistik.
+
+**Ortak çözüm — Bahar erken harekete geç:**
+Her üç şehirde de kış biter bitmez (Batman: Nisan, Muş: Haziran, Hakkari: Mayıs) firmayı arayın. İlk sipariş veren ilk hizmeti alır. Geç kalanlar yaz sonuna kalır — ve kış kapıya dayanır.`,
+      },
+      {
+        heading: 'Kışı Halıyla Geçirmek — Hayatta Kalma Rehberi',
+        content: `5-7 aylık kışta halınızı korumak için pratik kurallar:
+
+**Ayakkabı disiplini:**
+Kapıda çıkarın — kar ve çamur halının bir numaralı düşmanı. İkinci paspas (kalın, emici) kapı içine koyun. Çocuklara bu alışkanlığı kazandırın.
+
+**Soba yönetimi:**
+Soba ile halı arası en az 50 cm. Kül temizliği sırasında halıyı örtün veya odadan çıkarın. Kömür sobası kullanıyorsanız baca çekişini kontrol edin — kötü çekiş = is halıya yayılır.
+
+**Havalandırma:**
+Günde en az 15 dakika pencere açın — dışarısı -20°C bile olsa. Kapalı evde insan neminin birikmesi halı için daha tehlikeli.
+
+**Halı altı kontrol:**
+Ayda 1 kez halının bir köşesini kaldırıp altını kontrol edin. Nemlenme veya renk değişimi varsa hemen havalandırın.
+
+**Değerli halı stratejisi:**
+Kışın değerli halıyı kaldırıp ucuz polyester halı serin. Değerli halıyı temiz, kuru, karanlık yerde saklayın. Bahar geldiğinde yıkatıp tekrar serin.
+
+**Sünger döşek hijyeni:**
+Yere serilen döşekleri her hafta havalandırın. 2 haftada bir ters çevirin. Yılda 2 kez profesyonel yıkama yaptırın.
+
+[Batman halı yıkama](/batman-hali-yikama-firmalari), [Muş halı yıkama](/mus-hali-yikama-firmalari), [Hakkari halı yıkama](/hakkari-hali-yikama-firmalari) — kış biter bitmez arayın.`,
+      },
+    ],
+    faq: [
+      { q: 'Bu üç şehirde halı yıkama penceresi ne kadar?', a: 'Batman 7 ay, Hakkari 6 ay, Muş sadece 4 ay. Muş Türkiye\'nin en dar halı yıkama penceresi.' },
+      { q: 'Sınır şehirlerinde neden az firma var?', a: 'Düşük nüfus + mevsimsel talep + sert iklim. Yılın yarısında iş yok. Ama mevcut firmalar bölge ihtiyaçlarına hâkim.' },
+      { q: 'Kışın halı yıkatmak mümkün mü?', a: 'Bu şehirlerde hayır. -20/-30°C\'de halı taşımak ve kurutmak imkânsız. Kışı koruma modunda geçirin, baharı bekleyin.' },
+    ],
+    relatedSlugs: ['batman-hali-yikama', 'mus-hali-yikama-malazgirt', 'hakkari-hali-yikama-sinir'],
+  },
+
+  {
+    slug: 'amasya-adiyaman-bartin-hali-yikama',
+    city: 'Amasya',
+    citySlug: 'amasya',
+    title: 'Küçük Ama Güçlü: Amasya, Adıyaman ve Bartın\'da Halı Yıkama Firmalarının Hikâyesi',
+    metaTitle: 'Amasya-Adıyaman-Bartın Halı Yıkama 2026 | Küçük Şehir Firmaları, Yaratıcı Çözümler',
+    metaDescription: 'Amasya, Adıyaman ve Bartın halı yıkama — küçük şehir firmalarının büyükşehir firmalarından ne farkı var? Cami hasırından yatak pedine uzanan yaratıcı hizmetler.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 8,
+    heroEmoji: '👑',
+    intro: 'Amasya\'da 3 firma, Adıyaman\'da 2, Bartın\'da 1. Toplam 6 firma — İstanbul\'daki tek bir ilçedeki firma sayısından az. Ama bu firmalar büyükşehirdeki rakiplerinin sunmadığı hizmetleri sunuyor: cami hasırı yıkama, mont yıkama, yatak pedi yıkama, şark köşesi temizliği. Küçük şehir firmalarının hayatta kalma stratejisi "herkesin her ihtiyacını karşıla" — ve bu strateji müşteriye büyük avantaj sağlıyor.',
+    sections: [
+      {
+        heading: 'Küçük Şehir Firması vs Büyükşehir Firması',
+        content: `İstanbul\'daki bir halı yıkama firması ile Amasya, Adıyaman veya Bartın\'daki firma arasındaki fark sadece boyut değil — iş modeli tamamen farklı:
+
+**İstanbul firması:**
+- Uzmanlaşmış: Sadece halı + koltuk + yorgan
+- Anonim: Müşteriyi tanımaz
+- Yoğun: Günde 15-20 sipariş
+- Standart: Aynı program her müşteriye
+- Pahalı: 80-140 TL/m²
+
+**Küçük şehir firması:**
+- Çok yönlü: Halı + koltuk + cami hasırı + mont + yatak pedi + şark köşesi + çamaşır...
+- Kişisel: Müşteriyi tanır, geçmişini bilir
+- Esnek: Günde 5-8 sipariş, daha fazla ilgi
+- Özel: Müşterinin ihtiyacına göre program
+- Uygun: 65-100 TL/m²
+
+**Her üç şehirden sıra dışı hizmetler:**
+
+| Hizmet | Şehir | Fiyat | İstanbul\'da var mı? |
+|--------|-------|-------|---------------------|
+| Cami hasırı | Adıyaman | 200 TL/m² | Nadir |
+| Mont yıkama | Adıyaman | 250 TL | Yok |
+| Şark köşesi | Adıyaman | 2.500 TL | Nadir |
+| Yer minderi | Adıyaman | 300 TL | Yok |
+| Yatak pedi | Bartın | 500 TL | Nadir |
+| Kilim (adet) | Bartın | 300 TL | Var ama m²\'ye göre |
+
+Bu hizmetler büyükşehirde ayrı firmalar tarafından sunulur (varsa). Küçük şehirde tek firma her şeyi yapıyor.
+
+[Amasya halı yıkama](/amasya-hali-yikama-firmalari), [Adıyaman halı yıkama](/adiyaman-hali-yikama-firmalari), [Bartın halı yıkama](/bartin-hali-yikama-firmalari) — küçük ama güçlü firmalar.`,
+      },
+      {
+        heading: 'Her Şehrin Kendine Özgü Hikâyesi',
+        content: `**Amasya — Vadi şehrinin nem tuzağı:**
+Yeşilırmak vadisinde sıkışmış Amasya\'da nehir nemi halıları etkiliyor. 3 firma merkez ve Suluova\'da aktif. Elma bahçesi poleni ilkbaharda ek sorun yaratıyor. Firmalar koltuk takımını 1.500 TL\'ye, yorgan ve battaniyeyi 350 TL\'ye yıkıyor. Suluova ovasında nem daha düşük — ovadaki firmayı da değerlendirin.
+
+**Adıyaman — Cami ve şark köşesi kültürü:**
+Güneydoğu\'nun misafirperverlik geleneği Adıyaman\'da çok güçlü. Şark köşesi (2.500 TL), yer minderi (300 TL), cami hasırı (200 TL/m²) — bu hizmetler şehrin yaşam tarzını yansıtıyor. 2023 depremi sonrası yeni konutlara taşınan aileler yeni mobilya ve halı aldı — ilk profesyonel yıkama zamanı yaklaşıyor.
+
+**Bartın — Amasra turizmi ve yatak pedi:**
+195.000 nüfuslu küçük Bartın\'da tek firma Amasra dahil 10 bölgede hizmet veriyor. Yatak pedi yıkama (500 TL) benzersiz bir hizmet — modern yatak pedlerini yıkamak çamaşır makinesine sığmadığından firma bu boşluğu doldurmuş. Amasra\'daki tatil evleri sezon başında toplu temizlik yaptırıyor.
+
+**Ortak tema:**
+Bu firmaların hepsi "ihtiyaçtan doğmuş" hizmetler sunuyor. İstanbul\'da mont yıkama firması ayrı, cami temizlik firması ayrı, yatak pedi yıkama neredeyse yok. Küçük şehirde tek firma bu boşlukların hepsini doldurmuş.
+
+[Amasya halı yıkama](/amasya-hali-yikama-firmalari), [Adıyaman halı yıkama](/adiyaman-hali-yikama-firmalari), [Bartın halı yıkama](/bartin-hali-yikama-firmalari).`,
+      },
+    ],
+    faq: [
+      { q: 'Küçük şehir firması büyükşehir firması kadar kaliteli mi?', a: 'Farklı ama kaliteli. Kişisel ilişki, esnek zamanlama ve çok yönlü hizmet büyükşehirde bulunamayacak avantajlar.' },
+      { q: 'Küçük şehirde tek firmaya bağımlılık riski yok mu?', a: 'Var — ama sosyal kontrol mekanizması (herkes tanıyor) kalite garantisi sağlıyor. Platform üzerinden geri bildirim vererek hem firmayı hem gelecek müşterileri destekleyin.' },
+      { q: 'Cami hasırı yıkama hizmeti nerede var?', a: 'Adıyaman\'da 200 TL/m². Bu hizmet Güneydoğu\'daki cami kültürünün talebiyle ortaya çıkmış.' },
+    ],
+    relatedSlugs: ['amasya-hali-yikama', 'adiyaman-hali-yikama-nemrut', 'bartin-hali-yikama-amasra'],
+  },
+
   ...cityGuides,
 ];
 
