@@ -7421,6 +7421,432 @@ Ahşap zemin ile halı arasına mutlaka nem bariyeri koyun. 5mm PE köpük veya 
     relatedSlugs: ['kastamonu-hali-yikama', 'kastamonu-hali-yikama-orman-sehri', 'hali-bakim-ipuclari'],
   },
 
+  {
+    slug: 'sanliurfa-hali-yikama-buyuk-aile',
+    city: 'Şanlıurfa',
+    citySlug: 'sanliurfa',
+    title: 'Şanlıurfa\'da 12 Kişilik Aile, 8 Odalı Ev ve Halı Yıkama Ekonomisi',
+    metaTitle: 'Şanlıurfa Halı Yıkama 2026 | Büyük Aile Ekonomisi, Toplu Strateji, 24 Firma',
+    metaDescription: 'Şanlıurfa halı yıkama — büyük ailelerin halı yıkama ekonomisi. 8 odalı ev, yere oturma kültürü, toplu sipariş stratejisi ve 24 firma avantajı.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 8,
+    heroEmoji: '🏺',
+    intro: 'Şanlıurfa\'da ortalama hane halkı büyüklüğü Türkiye ortalamasının çok üzerinde. 8-12 kişilik aileler, 6-8 odalı evler, her odada halı, misafir odasında şark köşesi, yerde oturma düzeni. Bu yaşam tarzı halı yıkama talebini astronomik boyutlara taşıyor. Ama 24 firma arasındaki yoğun rekabet fiyatları Türkiye\'nin en düşük seviyesine çekmiş. Büyük aile + düşük fiyat + akıllı strateji = ciddi tasarruf. Bu yazıda Şanlıurfa\'nın büyük ailelerine özel halı yıkama ekonomisini çözüyoruz.',
+    sections: [
+      {
+        heading: 'Büyük Ailenin Halı Matematiği',
+        content: `Tipik bir Şanlıurfa evi için yıllık halı yıkama hesabı:
+
+| Oda | Halı m² | Kullanım Yoğunluğu | Yıllık Yıkama |
+|-----|---------|-------------------|--------------|
+| Misafir odası (şark köşesi) | 20 | Çok yoğun | 2 kez |
+| Salon | 18 | Yoğun | 2 kez |
+| Yatak odası 1 (ebeveyn) | 12 | Orta | 1 kez |
+| Yatak odası 2 | 10 | Orta | 1 kez |
+| Yatak odası 3 | 10 | Orta | 1 kez |
+| Çocuk odası | 10 | Çok yoğun | 2 kez |
+| Koridor | 8 | Çok yoğun | 2 kez |
+| Mutfak önü | 3 | Aşırı yoğun | 3 kez |
+| **Toplam** | **91 m²** | | **Ort. 1.7 kez** |
+
+**Yıllık maliyet (Şanlıurfa fiyatıyla):**
+91 m² × 65 TL/m² × 1.7 kez = **10.064 TL**
+
+**Aynı ev İstanbul\'da olsa:**
+91 m² × 100 TL/m² × 1.5 kez = **13.650 TL**
+
+Şanlıurfa fiyat avantajı: yılda 3.586 TL tasarruf. Ama 10.000 TL hâlâ ciddi rakam — aşağıda bu maliyeti nasıl düşüreceğinizi anlatıyoruz.
+
+[Şanlıurfa halı yıkama](/sanliurfa-hali-yikama-firmalari) — 24 firma arasından en uygun teklifi bulun.`,
+      },
+      {
+        heading: 'Büyük Aile İçin 5 Tasarruf Stratejisi',
+        content: `**1. Tüm evi tek seferde verin — %15-20 indirim:**
+91 m² halıyı parça parça değil, tek seferde firmaya verin. Firma tek seferde gelir, tek seferde alır. Ulaşım maliyeti 1 kez ödenir. Bu hacimde firmalar %15-20 indirim uygular. 10.064 TL → ~8.500 TL.
+
+**2. 24 firmadan en az 3\'ünden teklif alın:**
+Şanlıurfa\'da 24 firma var — Türkiye\'nin en rekabetçi pazarlarından biri. 3 firmadan yazılı teklif isteyin. "91 m² halı, tek seferde, 2 kez yıl" deyip paket fiyat sorun. Firmalar birbirleriyle yarışacak.
+
+**3. Yıllık anlaşma yapın:**
+"Yılda 2 kez, toplam 310 m² (91 × 2 + misafir odası ekstra)" gibi yıllık anlaşma firmaya garanti iş verir. Karşılığında %20-25 indirim mümkün. 10.064 TL → ~7.500-8.000 TL.
+
+**4. Komşu/akraba organizasyonu:**
+Şanlıurfa\'da akrabalık bağları güçlü. 3-4 akraba evi aynı hafta sipariş verirse firma toplu gelir. Ulaşım maliyeti 3-4\'e bölünür. Ek %10 indirim.
+
+**5. Mevsim stratejisi:**
+Nisan-Mayıs\'ta yıkatın (firmalar henüz yoğun değil). Haziran-Temmuz\'u kaçırın (en yoğun dönem, indirim yok). İkinci yıkamayı Ekim\'de yapın.
+
+**Sonuç:** 10.064 TL\'lik yıllık maliyet doğru stratejiyle 6.000-7.000 TL\'ye düşer.
+
+[Şanlıurfa halı yıkama](/sanliurfa-hali-yikama-firmalari) — 24 firma arasında rekabet sizin lehinize.`,
+      },
+      {
+        heading: 'Yere Oturma Kültürü ve Halının Önemi',
+        content: `Şanlıurfa\'da yere oturma sadece gelenek değil — yaşam biçimi. Misafir odası yere serili halılar ve yer yastıklarıyla döşeli. Yemekler yerde yenir, çay yerde içilir, sohbet yerde edilir. Bu, halının günde 10-14 saat aktif kullanıldığı anlamına geliyor.
+
+**Halının yoğun kullanımının sonuçları:**
+- Yemek kırıntıları ve sıvı döküntüleri: Çay, kahve, yoğurt, çorba — günlük
+- Vücut yağı ve ter: Saatlerce halıda oturmak liflere ter ve yağ geçirir
+- Ayak trafiği: 12 kişilik ailede halı saatte 20-30 kez basılıyor
+- Çocuk kazaları: Küçük çocuklar halıda her şeyi döker
+
+**Sonuç:** Şanlıurfa halıları İstanbul halılarına göre 3-4 kat daha yoğun kullanılıyor. Bu yüzden yılda 2 kez yıkama minimum.
+
+**Misafir odası özel:**
+Şanlıurfa\'da misafirperverlik kutsaldır. Misafir odası hep hazır olmalı — tertemiz halı, lekesiz yastıklar. Bayram ve düğün öncesi mutlaka profesyonel yıkama yaptırın. Misafir odası halısı yılda 2-3 kez yıkanmalı.
+
+**Şark köşesi yıkama:**
+Şark köşesi koltuk takımından farklı — daha büyük, daha ağır, kumaş yapısı farklı. [Şanlıurfa halı yıkama](/sanliurfa-hali-yikama-firmalari) firmalarından şark köşesi deneyimi olanı tercih edin.`,
+      },
+    ],
+    faq: [
+      { q: 'Şanlıurfa\'da büyük evin halı yıkama yıllık maliyeti ne?', a: '91 m² halılı ev için yılda ~10.000 TL. Doğru stratejiyle (toplu sipariş, yıllık anlaşma) 6.000-7.000 TL\'ye düşürülebilir.' },
+      { q: 'Yere oturma kültüründe halı kaç kez yıkatılmalı?', a: 'Yoğun kullanılan odalar (misafir, salon, çocuk) yılda 2-3 kez. Yatak odaları yılda 1 kez.' },
+      { q: 'Şanlıurfa\'da 24 firma arasından nasıl seçmeliyim?', a: 'En az 3\'ünden yazılı teklif alın. Toplam m² vererek paket fiyat isteyin. Yıllık anlaşma önerin — %20-25 indirim mümkün.' },
+    ],
+    relatedSlugs: ['sanliurfa-hali-yikama', 'sanliurfa-hali-yikama-24-firma', 'hali-yikama-fiyatlari'],
+  },
+
+  {
+    slug: 'mersin-hali-yikama-narenciye',
+    city: 'Mersin',
+    citySlug: 'mersin',
+    title: 'Mersin\'de Narenciye Sezonu Halılarınıza Ne Yapıyor? Liman Şehrinin Gizli Kirlilikleri',
+    metaTitle: 'Mersin Halı Yıkama 2026 | Narenciye Tozu, Liman Partikülü, Akdeniz Stratejisi',
+    metaDescription: 'Mersin halı yıkama — narenciye hasadı, liman tozu ve Akdeniz neminin halılara etkisi. Mevsimsel kirliliğin bilimi ve koruma stratejileri.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 7,
+    heroEmoji: '🍋',
+    intro: 'Mersin\'i tanımlayan üç şey: narenciye bahçeleri, Türkiye\'nin en büyük limanı ve 12 ay güneş. Bu üçü halılarınızı farklı şekillerde etkiliyor. Narenciye hasadı döneminde havadaki polen ve organik partiküller artar, liman trafiği konteyner tozunu şehre taşır, Akdeniz\'in nemi de cabası. Ama 12 ay güneş demek 12 ay kurutma imkânı — bu da Mersin firmalarına maliyet avantajı sağlıyor.',
+    sections: [
+      {
+        heading: 'Mersin\'in Üç Kirliliğ Kaynağı',
+        content: `**1. Narenciye hasadı (Kasım-Mart):**
+Mersin Türkiye\'nin en büyük narenciye üreticisi — limon, portakal, mandalina. Hasat döneminde traktörler ve kamyonlar sürekli hareket halinde. Havaya yayılan toprak, yaprak ve meyve tozu evlere giriyor. Bu organik partiküller halılarda bakteri üremesini hızlandırır.
+
+Dikkat: Narenciye polen alerjisi olan kişiler hasat döneminde (özellikle çiçeklenme: Mart-Nisan) halılarını ekstra yıkatmalı. Turunçgil poleni güçlü alerjendir.
+
+**2. Liman trafiği (yıl boyu):**
+Mersin Limanı yıllık 2+ milyon TEU konteyner elleçliyor. Konteyner yükleme-boşaltma, gemi trafiği ve TIR hareketi mikro partikül üretiyor. Akdeniz ve Toroslar ilçelerinde bu etki belirgin.
+
+**3. Akdeniz nemi (yıl boyu):**
+Mersin\'in nem oranı %60-75. İstanbul\'a benzer ama güneş daha güçlü. Sabah çiylenmesi halılara nem verir, öğleden sonra güneş kurutur — bu ıslak-kuru döngüsü lifleri yıpratır.
+
+**Kötü kombinasyon:**
+Liman tozu + narenciye organik partiküller + nem = halılarda hızlı kirlenme ve bakteri üremesi. Mersin\'de yılda 2 kez yıkama minimum.
+
+[Mersin halı yıkama](/mersin-hali-yikama-firmalari) firmaları bu üçlü tehditle her gün boğuşuyor.`,
+      },
+      {
+        heading: 'Tarsus\'tan Silifke\'ye — Mersin\'in Geniş Coğrafyasında Halı Bakımı',
+        content: `Mersin doğu-batı yönünde 300 km uzanan ince bir kıyı şeridi. Bu coğrafya her bölgede farklı halı bakım ihtiyacı yaratıyor:
+
+**Mezitli ve Yenişehir (modern şehir merkezi):**
+En yoğun nüfuslu bölge. Denize yakın — nem ve tuz etkisi var. Liman trafiğinin etkisi orta düzeyde. Yılda 2 kez profesyonel yıkama.
+
+**Akdeniz ilçesi (liman bölgesi):**
+Limanın merkezinde. Endüstriyel partikül yoğunluğu en yüksek bölge. Yılda 3 kez yıkama önerilir. Halı altına nem bariyeri zorunlu.
+
+**Tarsus (tarım + tarih):**
+Mersin merkezinden 27 km. Tarım bölgesi — narenciye etkisi en yoğun burada. Hasat döneminde (Kasım-Mart) halılar çok hızlı kirleniyor. Hasat sonrası (Nisan) profesyonel yıkama şart.
+
+**Erdemli, Silifke, Anamur (batı sahil):**
+Merkeze uzak (50-150 km). Firma hizmeti sınırlı — ulaşım maliyeti ekleniyor. Bu bölgelerde yıllık anlaşma yaparak sabit fiyat almak mantıklı.
+
+**8 firma 1.9 milyona yeterli mi?**
+Hayır — Mersin daha fazla firmaya ihtiyaç duyuyor. Ama mevcut 8 firma 5 kategoride (halı, koltuk, yorgan, perde, yatak) kapsamlı hizmet sunuyor.
+
+[Mersin halı yıkama](/mersin-hali-yikama-firmalari) — Mezitli\'den Tarsus\'a 8 firmanın hizmet haritası.`,
+      },
+    ],
+    faq: [
+      { q: 'Narenciye hasadı halılara zarar verir mi?', a: 'Direkt zarar vermez ama havadaki organik partiküller halıda bakteri üremesini hızlandırır. Hasat sonrası profesyonel yıkama önerilir.' },
+      { q: 'Mersin limanı yakınında halı kaç kez yıkatılmalı?', a: 'Yılda 3 kez. Konteyner trafiğinin yarattığı mikro partiküller halıya nüfuz eder.' },
+      { q: 'Mersin\'de halı yıkama yılın her döneminde yapılabilir mi?', a: 'Evet. 12 ay güneş var, kurutma her zaman mümkün. Akdeniz ikliminin en büyük avantajı bu.' },
+    ],
+    relatedSlugs: ['mersin-hali-yikama', 'mersin-hali-yikama-akdeniz-limani', 'antalya-hali-yikama-otel-sektoru'],
+  },
+
+  {
+    slug: 'zonguldak-hali-yikama-maden-ailesi',
+    city: 'Zonguldak',
+    citySlug: 'zonguldak',
+    title: 'Maden İşçisinin Evinde Halı: Kömür Tozuyla 40 Yıldır Yaşayan Ailelerin Hikâyesi',
+    metaTitle: 'Zonguldak Halı Yıkama 2026 | Maden Ailesi Hikâyesi, Karbon Temizliği, Yaşam Rehberi',
+    metaDescription: 'Zonguldak halı yıkama — madenci ailelerinin kömür tozuyla mücadele hikâyesi. 40 yıllık deneyimden doğan pratik çözümler ve halı koruma stratejileri.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 8,
+    heroEmoji: '⛏️',
+    intro: 'Zonguldak\'ta maden işçisinin eşine sorun: "Halıyla en büyük derdiniz ne?" Cevap hep aynı: "Kara toz." 40 yıldır taşkömürü çıkarılan bu şehirde aileler kömür tozuyla yaşamayı öğrenmiş. Beyaz halı almayı çoktan bırakmışlar. Kapıda ikinci bir paspas koymuşlar. Çocuklara "ayakkabıyla girme" kuralını bebeklikten öğretmişler. Ama yine de halılar kararıyor. Bu yazıda Zonguldak\'ın maden ailelerinin 40 yıllık deneyiminden süzülen pratik çözümleri paylaşıyoruz.',
+    sections: [
+      {
+        heading: 'Madenci Ailesinin 40 Yıllık Bilgeliği',
+        content: `Zonguldak\'ta üç nesil madenci aileleri kömür tozuyla başa çıkmanın yollarını bulmuş. Bu bilgelik hiçbir kitapta yazmıyor — kulaktan kulağa aktarılıyor:
+
+**"Kapıda soyunma odası yap":**
+Eski madenci evlerinde giriş holü "soyunma odası" işlevi görür. Madenci kapıdan girip iş kıyafetini burada çıkarır, poşete koyar, terlikle eve geçer. Modern dairelerde bu lüks yok ama prensip aynı: iş kıyafeti eve girmemeli.
+
+**"Beyaz almayacaksın":**
+Zonguldak\'ta beyaz veya açık renk halı alan aile çok nadirdir. Koyu renkli, desenli, kısa tüylü halılar tercih edilir. Nedeni basit: kömür tozu açık renkte anında görünür, koyu renkte gizlenir.
+
+**"Islak bez çek, süpürme":**
+Kuru süpürge kömür tozunu havaya kaldırır — önce havada uçar, sonra tekrar halıya çöker. Islak bez ise tozu yakalayıp tutar. Zonguldak aileleri süpürmeden önce halıyı ıslak bezle silerler.
+
+**"Kışın pencere açma, yazın aç":**
+Kış aylarında sobalar yanıyor, baca isi var. Pencere açarsanız dışarıdaki maden tozu + baca isi birlikte girer. Yaz aylarında ise havalandırma şart — nem birikir. Dengeyi bulmak sanat.
+
+**"Üç ayda bir yıkat":**
+Maden bölgesindeki aileler halıyı yılda 4 kez yıkatır. Bu sıklık Türkiye ortalamasının 4 katı. Ama kömür tozu bekletilirse halıya kalıcı zarar verir — erken müdahale şart.
+
+[Zonguldak halı yıkama](/zonguldak-hali-yikama-firmalari) firması bu ailelerin güvendiği adres.`,
+      },
+      {
+        heading: 'Kömür Tozundan Korunmanın Modern Yolları',
+        content: `40 yıllık geleneksel bilgeliğe modern çözümleri ekleyelim:
+
+**HEPA filtreli hava temizleme cihazı:**
+Ev için en etkili yatırım. PM2.5 partikülleri (kömür tozu dahil) %99.97 oranında filtreler. Oda başına 3.000-8.000 TL yatırım ama halı yıkama sıklığını yarıya indirebilir — 2 yılda kendini amorte eder.
+
+**Pencere filtresi:**
+Tüm pencerelere toz filtreli sineklik takmak kömür tozunun %60-70\'ini dışarıda tutar. Hava sirkülasyonu devam eder ama büyük partiküller girmez.
+
+**Robot süpürge (HEPA filtreli):**
+Günde 1-2 kez otomatik çalışır. Yüzeydeki tozu sürekli toplar. Derin temizlik değil ama biriktirmez. Önemli: HEPA filtreli olmalı — standart filtre ince kömür tozunu geri üfler.
+
+**Halı altı aktif karbon pedi:**
+Aktif karbon kömür tozunu adsorbe eder. Halı altına aktif karbon pedi koymak nem bariyeri + toz tutucu işlevi görür. 6 ayda bir değiştirilmeli.
+
+**Polipropilen halı tercihi:**
+Kömür tozu yün halının doğal yağına yapışır ama polipropilen liften kayar. Zonguldak\'ta polipropilen halı tercih etmek hem temizlemeyi kolaylaştırır hem yıkama sıklığını azaltır.
+
+**Yıllık maliyet karşılaştırma:**
+- HEPA hava temizleme: 5.000 TL (tek seferlik) + 500 TL/yıl filtre
+- Pencere filtresi: 2.000 TL (tek seferlik)
+- Yılda 4 kez yerine 2 kez yıkama: 4.500 TL tasarruf/yıl
+- İlk yıl yatırımı 7.500 TL, sonraki yıllar 4.000 TL/yıl net tasarruf
+
+[Zonguldak halı yıkama](/zonguldak-hali-yikama-firmalari) — ağır leke çıkarma dahil profesyonel çözüm.`,
+      },
+    ],
+    faq: [
+      { q: 'Maden bölgesinde halı yıkama yıllık ne tutar?', a: 'Yılda 4 kez yıkama ile 6.000-9.000 TL. HEPA hava temizleme yatırımıyla sıklığı yarıya indirip 3.000-4.500 TL\'ye düşürebilirsiniz.' },
+      { q: 'Kömür tozu için en iyi halı türü ne?', a: 'Polipropilen, koyu renk, kısa tüylü. Yün halıdan kaçının — kömür tozu yünün doğal yağına yapışır ve çıkarması çok zor.' },
+      { q: 'Kömür tozunu süpürmek neden yanlış?', a: 'Kuru süpürge kömür tozunu havaya kaldırır, sonra tekrar çöker. Önce ıslak bez çekin, sonra HEPA süpürge kullanın.' },
+    ],
+    relatedSlugs: ['zonguldak-hali-yikama', 'zonguldak-hali-yikama-maden', 'hali-bakim-ipuclari'],
+  },
+
+  {
+    slug: 'giresun-ordu-hali-yikama-findik-kusaklari',
+    city: 'Giresun',
+    citySlug: 'giresun',
+    title: 'Fındık Kuşağında Halı Yıkama: Giresun ve Ordu\'nun Ortak Hikâyesi',
+    metaTitle: 'Giresun-Ordu Halı Yıkama 2026 | Fındık Kuşağı Rehberi, Hasat Dönemi, Karadeniz Nemi',
+    metaDescription: 'Giresun ve Ordu halı yıkama — fındık kuşağının ortak sorunu. Hasat döneminde halılara ne oluyor, toprak ve kabuğun etkisi, iki şehir karşılaştırması.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 8,
+    heroEmoji: '🌰',
+    intro: 'Giresun ve Ordu Türkiye\'nin fındık kuşağının kalbi — iki şehir birlikte Türkiye fındık üretiminin %60\'ını karşılıyor. Ağustos geldiğinde tüm şehir fındık bahçelerine koşuyor. İşçiler sabah erkenden bahçeye giriyor, akşam eve dönüyor — ayakkabılarında fındık bahçesi toprağı, kıyafetlerinde yaprak kalıntısı, saçlarında fındık kabuğu tozu. Ve tüm bunlar halıya yerleşiyor. Bu yazıda Karadeniz\'in fındık kuşağına özgü halı bakım hikâyesini, iki şehrin ortak sorunlarını ve çözümlerini anlatıyoruz.',
+    sections: [
+      {
+        heading: 'Fındık Hasadı Halılara Ne Yapıyor?',
+        content: `Ağustos-Eylül fındık hasat dönemi. Bu 6-8 haftalık süre halılar için yılın en zorlu dönemi:
+
+**Bahçe toprağı:**
+Fındık bahçeleri eğimli yamaçlarda, nemli toprakta. Bu toprak yapışkan — ayakkabıya, elbiseye, her şeye yapışır. Eve taşınan bu toprak halı liflerine yerleşir ve kuruduktan sonra ince toz haline gelir.
+
+**Fındık kabuğu tozu:**
+Fındık kırma ve harman döneminde ince kabuk tozu havaya yayılır. Bu toz organik — bakteri üremesi için besin kaynağı. Halılarda biriken fındık kabuğu tozu nemli Karadeniz havasında hızla bakteri üretir.
+
+**Yaprak ve dal kalıntısı:**
+Fındık toplama sırasında kıyafetlere takılan yaprak ve ince dal parçaları eve taşınır. Halıda biriken organik kalıntılar çürüyerek koku yaratır.
+
+**Hasat dönemi sonu ritüeli:**
+Giresun ve Ordu\'da hasat bittikten sonra (Ekim başı) "büyük temizlik" yapılır. Tüm halılar toplanıp firmaya verilir — yaz boyunca biriken fındık bahçesi kirliliği profesyonelce temizlenir. Bu gelenek nesillerdir devam ediyor.
+
+[Giresun halı yıkama](/giresun-hali-yikama-firmalari) ve [Ordu halı yıkama](/ordu-hali-yikama-firmalari) firmaları hasat sonu yoğunluğuna alışkın — Eylül sonunda sipariş verin, Ekim\'de sıra sizde olsun.`,
+      },
+      {
+        heading: 'İki Şehrin Firma Karşılaştırması',
+        content: `Giresun ve Ordu coğrafi olarak komşu ve iklim aynı. Ama firma profilleri farklı:
+
+**Giresun — 1 firma, 24 ürün:**
+Tek firma Doğankent, Görele ve Tirebolu\'da aktif. 24 ürün sunuyor. Öne çıkan özel hizmet: **Akrilik leke çıkarma (500 TL)** — boya ve yapıştırıcı lekeleri için.
+
+**Ordu — 1 firma, 32 ürün:**
+Tek firma Fatsa, Ünye ve Altınordu\'da aktif. 32 ürün sunuyor — Türkiye\'nin en geniş ürün çeşitliliklerinden biri. Öne çıkan: **Afgan halısı yıkama (200 TL/m²)** — bu uzmanlık nadir.
+
+| Karşılaştırma | Giresun | Ordu |
+|--------------|---------|------|
+| Firma sayısı | 1 | 1 |
+| Ürün çeşidi | 24 | 32 |
+| Makine halısı başlangıç | 70 TL/m² (ince) — 80 TL/m² | 60 TL/m² (kilim) — 90 TL/m² |
+| Koltuk takımı | 2.000 TL | 2.750 TL |
+| Özel hizmet | Akrilik leke çıkarma | Afgan halısı yıkama |
+| Köy yol ücreti | 1.000 TL | 1.000 TL |
+
+**Ortak sorun — Köy yol ücreti:**
+Her iki firma da kırsal bölgelere 1.000 TL ek ulaşım ücreti uyguluyor. Fındık üreticileri genellikle köylerde yaşıyor — tam da en çok halı yıkamaya ihtiyaç duyan kesim. Köyde yaşıyorsanız komşularla organize olup maliyeti paylaşın.
+
+[Giresun halı yıkama](/giresun-hali-yikama-firmalari) ve [Ordu halı yıkama](/ordu-hali-yikama-firmalari) — fındık kuşağının güvendiği firmalar.`,
+      },
+      {
+        heading: 'Karadeniz Neminde Fındık Bahçesi Kiri — Çifte Tehdit',
+        content: `Fındık bahçesi kirliliği + Karadeniz nemi en kötü kombinasyon:
+
+**Organik kir + nem = bakteri patlaması:**
+Fındık kabuğu tozu, toprak ve yaprak kalıntısı organik maddeler. Nemli ortamda bu organik maddeler bakteri üremesi için mükemmel besin kaynağı. Halınızda sadece kir değil, aktif bakteri kolonisi büyüyor.
+
+**Koku sorunu:**
+Organik kalıntılar çürüdüğünde koku üretir. "Halım kokuyor ama neden bilmiyorum" diyen Karadenizli muhtemelen halısındaki organik kalıntıların çürüme kokusunu alıyor.
+
+**Toz akarı festivali:**
+Nemli halı + organik besin = toz akarı için cennet. Hasat dönemi sonunda halıdaki akar popülasyonu zirve yapar. Alerji ve astım riski en yüksek bu dönemde.
+
+**Çözüm takvimi:**
+1. **Hasat boyunca (Ağustos-Eylül):** Günlük ıslak bez + haftada 2 HEPA süpürge
+2. **Hasat bittikten hemen sonra (Ekim başı):** Tüm halıları firmaya verin
+3. **Firma yıkaması:** Standart yıkama + anti-bakteriyel işlem + deodorant
+4. **Kış hazırlığı:** Temiz halıları serin, nem bariyeri koyun, nem alıcı yerleştirin
+
+Bu döngüyü her yıl tekrarlayın — halınız hem temiz hem sağlıklı kalır.
+
+[Giresun halı yıkama](/giresun-hali-yikama-firmalari) ve [Ordu halı yıkama](/ordu-hali-yikama-firmalari) — fındık sezonu sonrası yoğun dönem, erken sipariş verin.`,
+      },
+    ],
+    faq: [
+      { q: 'Fındık hasadı halıları nasıl etkiliyor?', a: 'Bahçe toprağı, fındık kabuğu tozu ve yaprak kalıntısı eve taşınır. Nemli ortamda bakteri ve koku üretir. Hasat sonrası profesyonel yıkama zorunlu.' },
+      { q: 'Giresun ve Ordu\'daki firmalar arasındaki fark ne?', a: 'Giresun: 24 ürün, akrilik leke uzmanı. Ordu: 32 ürün, Afgan halısı uzmanı. İkisi de köy yol ücreti uyguluyor (1.000 TL).' },
+      { q: 'Köyde yaşıyorum, ulaşım ücreti nasıl düşer?', a: 'Komşularla organize olun — 3-4 ev aynı gün sipariş verirse 1.000 TL\'lik yol ücreti bölünür.' },
+    ],
+    relatedSlugs: ['giresun-hali-yikama', 'ordu-hali-yikama-findik-sahili', 'trabzon-hali-yikama-yagmur-sehri'],
+  },
+
+  {
+    slug: 'corum-hali-yikama-leblebi-kokusu',
+    city: 'Çorum',
+    citySlug: 'corum',
+    title: 'Çorum\'da Her Eve Sinen Leblebi Kokusu: Halılardan Koku Nasıl Çıkar?',
+    metaTitle: 'Çorum Halı Yıkama 2026 | Leblebi Kokusu Çözümü, Halıdan Koku Giderme Bilimi',
+    metaDescription: 'Çorum halı yıkama — leblebi kavurma kokusunun halılara etkisi ve profesyonel koku giderme bilimi. Ozon işlemi, enzim temizliği ve günlük koruma.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 7,
+    heroEmoji: '🫘',
+    intro: 'Çorum\'u ziyaret eden herkes fark eder: şehir leblebi kokuyor. Bu koku güzel — kavurma sıcaklığında nohutun tatlımsı, hafif karamelize aroması. Ama bu güzel koku evinizin halılarına da siniyor. Ve birkaç ay sonra "güzel" olmaktan çıkıp "bayat" hale geliyor. Çorum\'un 530.000 sakini bu gerçekle yaşıyor. Bu yazıda halılardan koku gidermenin bilimini — sadece leblebi değil, her türlü koku — ve Çorum firmalarının bu konudaki yaklaşımını anlatıyoruz.',
+    sections: [
+      {
+        heading: 'Koku Halıya Nasıl Yapışıyor? — Moleküler Düzeyde',
+        content: `Koku sadece "havada bir şey" değil — kimyasal moleküllerdir. Ve bu moleküller halı liflerine fiziksel olarak yapışır:
+
+**Adsorpsiyon:**
+Halı lifleri (özellikle yün ve pamuk) gözenekli yapıdadır. Koku molekülleri bu gözeneklere girer ve yüzeye tutunur. Tıpkı aktif karbonun kokuyu emmesi gibi — halı lifleri de doğal adsorban.
+
+**Leblebi kokusunun kimyası:**
+Nohut kavrulurken Maillard reaksiyonu gerçekleşir — aminoasitler ve şekerler birleşerek yüzlerce farklı aroma bileşiği üretir. Bu bileşikler uçucu — havaya yayılır ve halı liflerine yapışır. Taze halde güzel kokar, okside olduktan sonra bayatlar.
+
+**Neden havalandırma yetmiyor?**
+Pencere açsanız da koku çıkmaz — çünkü koku molekülleri lifin gözeneklerine sıkışmış. Hava akımı yüzeydeki serbest molekülleri alır ama gözeneklerin içindekine ulaşamaz. Bu yüzden "haftalardır havalandırıyorum ama kokuyor" diyorsunuz.
+
+**Çözüm profesyonel yıkamada:**
+Sıcak su ve deterjan gözeneklerdeki koku moleküllerini çözer. Durulama suyuyla atılır. Ama standart yıkama bazen yetmez — ozon işlemi veya enzim bazlı koku giderme gerekebilir.
+
+[Çorum halı yıkama](/corum-hali-yikama-firmalari) firmalarından koku giderme hizmeti olup olmadığını sorun.`,
+      },
+      {
+        heading: 'Halıdan Koku Gidermenin 3 Seviyesi',
+        content: `**Seviye 1 — Evde (hafif kokular için):**
+- Kabartma tozu: Halıya serpin, 4-6 saat bekletin, süpürün. Kabartma tozu hafif kokuları nötralize eder.
+- Beyaz sirke: Sprey şişesine %50 su + %50 sirke koyun, halıya hafifçe püskürün. Sirke buharlaşırken koku moleküllerini de alır.
+- Aktif karbon: Halının yanına aktif karbon poşetleri koyun. 24-48 saatte koku azalır.
+
+Bu yöntemler leblebi kokusu gibi hafif kokular için işe yarar. Sigara, idrar veya küf kokusu için yetmez.
+
+**Seviye 2 — Profesyonel yıkama (orta kokular için):**
+Standart yıkama + deodorant işlemi. Firma yıkama sonrası halıya koku nötralize edici kimyasal uygular. Çoğu koku bu seviyede çıkar. Fiyat: standart yıkama + %10-15 ek ücret.
+
+**Seviye 3 — Ozon işlemi (inatçı kokular için):**
+Ozon (O₃) güçlü bir oksitleyicidir. Koku moleküllerini kimyasal olarak parçalar — kokuyu maskeler değil, yok eder. Sigara, küf, hayvan idrarı gibi inatçı kokular için. Halı yıkandıktan sonra ozon odasına alınır — 2-4 saat ozon maruziyeti. Fiyat: standart + %30-50 ek ücret.
+
+**Çorum\'a özel not:**
+Leblebi kokusu genellikle Seviye 1-2\'de çıkar. Ama yıllardır biriken, katmanlaşmış koku için Seviye 3 (ozon) gerekebilir. Firmaya "yıllardır leblebi kokusu var" deyin — programa göre ayarlasınlar.
+
+[Çorum halı yıkama](/corum-hali-yikama-firmalari) — 70 TL/m²\'den halı yıkama, koku giderme hizmeti dahil.`,
+      },
+    ],
+    faq: [
+      { q: 'Leblebi kokusu halıdan çıkar mı?', a: 'Evet. Hafif kokular kabartma tozu ile evde azaltılabilir. İnatçı kokular profesyonel yıkama + deodorant veya ozon işlemi gerektirir.' },
+      { q: 'Halıdan koku giderme nasıl çalışır?', a: 'Koku molekülleri lif gözeneklerine yapışır. Sıcak su + deterjan çözer, durulama atar. İnatçı kokular için ozon (O₃) molekülleri kimyasal olarak parçalar.' },
+      { q: 'Ozon işlemi halıya zarar verir mi?', a: 'Kontrollü süre ve konsantrasyonda hayır. 2-4 saat ozon maruziyeti kokuyu yok eder ama liflere zarar vermez. Ama gereğinden fazla ozon renk solmasına neden olabilir — profesyonel firma bunu kontrol eder.' },
+    ],
+    relatedSlugs: ['corum-hali-yikama', 'corum-hali-yikama-leblebi', 'hali-leke-cikarma'],
+  },
+
+  {
+    slug: 'kirsehir-hali-yikama-ahi-evran',
+    city: 'Kırşehir',
+    citySlug: 'kirsehir',
+    title: 'Ahi Evran\'ın Şehrinde Esnaf Ahlâkı Halı Yıkamaya Nasıl Yansıyor?',
+    metaTitle: 'Kırşehir Halı Yıkama 2026 | Ahi Evran Esnaf Ahlâkı, Güven İlişkisi, 60 TL Kalite',
+    metaDescription: 'Kırşehir halı yıkama — Ahi Evran esnaf geleneğinin modern temizlik sektörüne etkisi. Müşteri güveni, dürüst fiyat ve zanaat bilinci.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 7,
+    heroEmoji: '🎵',
+    intro: 'Kırşehir, Ahi Evran\'ın şehri. 13. yüzyılda kurulan Ahilik teşkilatı Anadolu esnafına "müşteri hakkı kutsaldır, kalandan az kazanmak helal kazançtır" öğretisini vermiş. Bu gelenek 800 yıl sonra hâlâ yaşıyor mu? Kırşehir\'deki halı yıkama firmalarına baktığınızda cevap evet: 60 TL/m² ile Türkiye\'nin en ucuz fiyatlarından biri, 3 firma arasında sağlıklı rekabet ve müşteri memnuniyetine dayalı iş modeli. Bu yazıda Ahilik ahlâkının modern esnaf ilişkisine nasıl yansıdığını ve küçük Anadolu şehirlerindeki güven ekonomisini anlatıyoruz.',
+    sections: [
+      {
+        heading: 'Ahilik Ahlâkı ve Modern Esnaf — 800 Yıllık Köprü',
+        content: `Ahi Evran\'ın 13. yüzyılda koyduğu kurallar bugün MBA programlarında "iş etiği" olarak öğretiliyor:
+
+**"Müşteriye hile yapma"** → Modern karşılığı: Şeffaf fiyatlandırma. Kırşehir\'deki firmalar m² fiyatını önceden söylüyor — "halıyı göreyim sonra fiyat veririm" yaklaşımı burada pek tutmuyor. Çünkü 240.000 kişilik şehirde bir müşteriye hile yaparsanız yarın tüm şehir bilir.
+
+**"İhtiyacından fazla kazanma"** → Modern karşılığı: Düşük marj, yüksek hacim. 60 TL/m² fiyat zaten çok düşük marjla çalışmak demek. Firma az kazanıyor ama tüm şehre hizmet veriyor — hacim ile telafi ediyor.
+
+**"Malını iyi yap"** → Modern karşılığı: Kaliteden ödün verme. Ucuz fiyat kötü deterjan veya eksik durulama ile sağlansa Ahilik ilkelerine aykırı olur. Kırşehir firmalarının 60 TL\'ye kaliteli hizmet vermesi — maliyet avantajının (düşük kira, kuru iklim, kısa mesafe) dürüstçe müşteriye yansıtılması.
+
+**Sosyal kontrol:**
+240.000 kişilik şehirde herkes herkesi tanır. Kötü iş yapan firmanın haberi bir günde yayılır. Bu sosyal baskı kalite garantisi gibi çalışır — İstanbul\'da 16 milyon kişi arasında kaybolabilirsiniz ama Kırşehir\'de kaybolunamaz.
+
+[Kırşehir halı yıkama](/kirsehir-hali-yikama-firmalari) — Ahi Evran\'ın ruhunu taşıyan 3 firma.`,
+      },
+      {
+        heading: 'Küçük Şehirde Güven Ekonomisi — Kırşehir Modeli',
+        content: `Kırşehir\'in halı yıkama pazarı "güven ekonomisi" için mükemmel bir örnek:
+
+**Güven ekonomisi nedir?**
+Büyükşehirlerde firma-müşteri ilişkisi anonim ve tek seferlik. Firma kötü iş yapsa bile müşteri gelmeye devam eder — çünkü 112 alternatif var (İstanbul). Küçük şehirde ilişki kişisel ve tekrarlayan. Firma sahibi müşterisini tanır, müşteri firma sahibini tanır.
+
+**Bu güvenin pratik sonuçları:**
+1. **Kredi imkânı:** "Bu ay dar, gelecek ay ödeyeyim" Kırşehir\'de mümkün. İstanbul\'da peşin veya kartla.
+2. **Özel muamele:** "Annemin halısı, dikkatli olun" dediğinizde firma sahibi gerçekten dikkat eder — çünkü annenizi de tanıyordur.
+3. **Geri bildirim döngüsü:** "Geçen sefere koku çıkmamıştı" dediğinizde firma not alır ve düzeltir. Anonim büyükşehirde bu geri bildirim kaybolur.
+4. **Uzun vadeli ilişki:** Yıllık anlaşma yapmaya gerek yok — zaten her yıl aynı firmaya gidiyorsunuz.
+
+**3 firmanın dengeleri:**
+Kırşehir\'de 3 firma birbirini dengeliyor. Biri fiyatı artırsa müşteri diğerine geçer. Ama rekabet "düşmanlık" değil — firmalar birbirini tanır, bazen müşteri yönlendirir ("ben bu hafta doluyum, şu firmayı ara"). Ahilik teşkilatında da esnaflar birbirine düşman değil, loncadaştır.
+
+[Kırşehir halı yıkama](/kirsehir-hali-yikama-firmalari) — 800 yıllık güven geleneği, 60 TL\'ye modern hizmet.`,
+      },
+    ],
+    faq: [
+      { q: 'Kırşehir\'de 60 TL\'ye kaliteli halı yıkama mümkün mü?', a: 'Evet. Düşük maliyet (kira, iklim, mesafe) + Ahilik esnaf ahlâkı (dürüst fiyat, kaliteli iş) = 60 TL\'ye gerçek kalite.' },
+      { q: 'Küçük şehirde tek firmaya bağımlı olmak risk mi?', a: '3 firma var. Birbirleriyle sağlıklı rekabet halinde. Sosyal kontrol mekanizması (herkes herkesi tanıyor) kalite garantisi sağlıyor.' },
+      { q: 'Ahilik halı yıkama sektörünü gerçekten etkiliyor mu?', a: 'Direkt olarak değil ama kültürel miras olarak evet. Kırşehir esnafı "müşteriye hile yapılmaz" prensibiyle yetişiyor. Bu bilinç fiyatlandırma ve hizmet kalitesine yansıyor.' },
+    ],
+    relatedSlugs: ['kirsehir-hali-yikama', 'kirsehir-hali-yikama-en-ucuz', 'hali-yikama-firmasi-nasil-secilir'],
+  },
+
   ...cityGuides,
 ];
 
