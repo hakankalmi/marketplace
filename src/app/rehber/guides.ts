@@ -5939,6 +5939,499 @@ Bu halılar paha biçilmez — acele etmeyin, doğru firmayı seçmek için zama
     relatedSlugs: ['trabzon-hali-yikama', 'trabzon-hali-yikama-yagmur-sehri', 'hali-alerjisi-ve-hijyen'],
   },
 
+  {
+    slug: 'kayseri-hali-yikama-usta-cirak',
+    city: 'Kayseri',
+    citySlug: 'kayseri',
+    title: 'Kayseri\'de Halı Yıkama Ustası Nasıl Yetişir? Bünyan\'dan Fabrikaya Uzanan Zanaat',
+    metaTitle: 'Kayseri Halı Yıkama 2026 | Usta-Çırak Geleneği, Bünyan Zanaatı, Halı Bilimi',
+    metaDescription: 'Kayseri halı yıkama — halı ustasının gözünden. Bünyan halısının dokuma tekniği, doğal boya hassasiyeti ve yıkama ustasının halıyı nasıl okuduğu.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 9,
+    heroEmoji: '🎿',
+    intro: 'Kayseri\'de halı yıkama firmasına girdiğinizde yaşlı bir usta görürsünüz. Elini halının yüzeyinde gezdirirken ne yaptığını sorarsanız size "halıyı okuyorum" der. Liflerin yönünü, düğümün sıklığını, boyanın türünü ve halının yaşını dokunarak anlar. Bu el bilgisi Kayseri\'nin Bünyan ilçesinde nesilden nesile aktarılan bir zanaat — halı dokuma geleneğinin yıkama tarafındaki yansıması. Bu yazıda bir halı yıkama ustasının gözünden halının nasıl okunduğunu ve bu okumanın yıkama kalitesini nasıl değiştirdiğini anlatıyoruz.',
+    sections: [
+      {
+        heading: 'Usta Halıyı Nasıl "Okuyor"?',
+        content: `Deneyimli bir halı yıkama ustası halıya bakmadan, sadece dokunarak şunları anlar:
+
+**Lif yönü:**
+Her halının lifleri bir yöne yatar. Yıkama bu yöne paralel yapılmalı — ters yönde yıkama lifleri döker. Usta elini halı yüzeyinde gezdirip pürüzsüz ve pürüzlü yönü bulur. Pürüzsüz yön = lif yönü.
+
+**Düğüm yoğunluğu:**
+Halıyı ters çevirip parmaklarıyla bastırarak düğüm sıklığını ölçer. Sık düğüm = kir derine girmiş, daha uzun yıkama gerekir. Seyrek düğüm = yüzeysel kir, standart program yeterli.
+
+**Boya testi:**
+Halının kenarından görünmez bir noktaya nemli beyaz bez bastırır. Boya geliyorsa — doğal kök boya, hassas program. Gelmiyorsa — sentetik boya, standart program güvenli.
+
+**Yaş tahmini:**
+Liflerin esnekliği, renklerin tonları ve düğüm yapısının sıkılığı halının yaşını ele verir. 50+ yaşında antik halı mı, 5 yaşında modern halı mı — yıkama programı buna göre değişir.
+
+**Bu okuma süreci 2-3 dakika sürer.** Ama bu 2-3 dakika halınızın kaderini belirler. Okumadan yıkamaya geçen firma risk alıyor — sizin halınızla.
+
+[Kayseri halı yıkama](/kayseri-hali-yikama-firmalari) firmaları Bünyan geleneğiyle yetişmiş — halıyı okumak burada doğal bir beceri.`,
+      },
+      {
+        heading: 'Bünyan Halısının Yıkama Sırrı — Kök Boya ve Yün',
+        content: `Bünyan halısı Kayseri\'nin dünyaya armağanı. UNESCO korumasında, müzelerde sergileniyor. Ve bu halının yıkanması bir bilim:
+
+**Kök boyalar:**
+Bünyan halılarında kullanılan renkler bitkilerden elde edilir:
+- **Kırmızı:** Kök boya bitkisi (Rubia tinctorum). pH\'a aşırı hassas — alkalin deterjan anında soldurur
+- **Mavi:** İndigo. Suya dayanıklı ama UV hassas — güneşte kurutmak yasak
+- **Sarı:** Soğan kabuğu veya rezene. En dayanıksız renk — 30°C üzeri suda solar
+- **Yeşil:** İndigo + sarı üst üste boyama. İki katman hassasiyet
+
+**El eğirmesi yün:**
+Fabrika yünü homojen, el eğirmesi değişken kalınlıkta. Bu değişkenlik halıya karakter verir ama yıkamada zorluk yaratır. İnce yerler kopabilir, kalın yerler daha fazla deterjan tutar. Homojen basınçla yıkamak imkânsız — usta bölge bölge farklı basınç uygular.
+
+**Düğüm tekniği:**
+Bünyan halıları Gördes (Türk) düğümü kullanır. Bu düğüm simetrik ve sıkı. Yıkamada avantajı: lif dökülme riski düşük. Dezavantajı: kir düğümün içine girer ve çıkarması zor.
+
+**Yıkama reçetesi (usta versiyonu):**
+1. Toz alma: 5 dakika ters yüz titreşim
+2. Renk akma testi
+3. Nötr pH deterjan (6.5-7.0) ile 22-25°C su
+4. 10-12 bar basınç, lif yönünde
+5. 3 kez durulama (Bünyan için standart 2 yetmez)
+6. Hafif santrifüj (tam güçte değil — lif kopma riski)
+7. Gölgede, düz zeminde kurutma (asılmaz — ağırlığı ile uzar)
+
+[Kayseri halı yıkama](/kayseri-hali-yikama-firmalari) — Bünyan halısı yıkama deneyimi olan firmalar burada.`,
+      },
+      {
+        heading: 'Halı Ustası Olmak — Nesilden Nesile Aktarılan Bilgi',
+        content: `Kayseri\'de halı yıkama ustası bir günde yetişmez. Bu zanaat baba-oğul veya usta-çırak ilişkisiyle aktarılır:
+
+**Çıraklık (1-2 yıl):**
+Genç çırak halı taşımakla başlar. Ağır rulolar, ıslak halılar, sıcak fabrika. Bu sürede halı türlerini gözlemler — usta "bu yün, bu akrilik, bu ipek" derken çırak farkları öğrenir.
+
+**Kalfalık (2-5 yıl):**
+Standart makine halılarının yıkamasını öğrenir. Deterjan dozajı, su sıcaklığı, basınç ayarı. Hata yapabilir çünkü makine halısı affeder — yün ve ipek affetmez.
+
+**Ustalık (5+ yıl):**
+İlk el halısını yıkar. Usta yanında durur, izler, gerekirse müdahale eder. Bu an çırağın "halıyı okumayı" öğrendiği andır. Artık dokunarak halının ne istediğini anlayabilir.
+
+**Neden bu bilgi önemli?**
+Makine halısını herhangi bir firma yıkayabilir — program standarttır. Ama Bünyan halısı, Hereke halısı, İran halısı gibi değerli dokumaları yıkamak ustaya ihtiyaç duyar. Kayseri\'deki firmalar bu usta geleneğinin üzerine kurulu.
+
+**35 ürün çeşidinin sırrı:**
+Kayseri\'deki bir firma 35 farklı ürün sunuyor — Türkiye\'nin en genişi. Bu çeşitlilik usta bilgisinin ürün listesine yansımasıdır. Her halı türü ayrı fiyat, ayrı program, ayrı yaklaşım.
+
+Halınızın değeri ne olursa olsun, [Kayseri halı yıkama](/kayseri-hali-yikama-firmalari) firmalarının zanaat bilgisine güvenebilirsiniz.`,
+      },
+    ],
+    faq: [
+      { q: 'Halı yıkama ustası halıyı nasıl okuyor?', a: 'Dokunarak lif yönü, düğüm yoğunluğu, boya türü ve yaş tahmini yapıyor. Bu 2-3 dakikalık okuma yıkama programını belirliyor.' },
+      { q: 'Bünyan halısı yıkama neden farklı?', a: 'Doğal kök boyalar pH\'a hassas, el eğirmesi yün değişken kalınlıkta, düğüm yapısı özel program gerektiriyor. Her aşama standart halıdan farklı.' },
+      { q: 'Kayseri\'de halı yıkama ustası nasıl yetişiyor?', a: 'Usta-çırak geleneğiyle. 1-2 yıl çıraklık, 2-5 yıl kalfalık, 5+ yıl ustalık. İlk el halısını yıkamak ustalığın başlangıcı.' },
+    ],
+    relatedSlugs: ['kayseri-hali-yikama', 'kayseri-hali-yikama-bunyan-uzmanligi', 'hali-yikama-nasil-yapilir'],
+  },
+
+  {
+    slug: 'sakarya-hali-yikama-goc-etkisi',
+    city: 'Sakarya',
+    citySlug: 'sakarya',
+    title: 'İstanbul\'dan Sakarya\'ya Taşınanların Halı Yıkama Alışkanlıkları Neden Değişmeli?',
+    metaTitle: 'Sakarya Halı Yıkama 2026 | İstanbul Göçü, İklim Farkı, Yeni Yaşam Rehberi',
+    metaDescription: 'İstanbul\'dan Sakarya\'ya taşınanlar için halı yıkama rehberi. İki şehrin iklim farkları, nem değişimi ve halı bakım alışkanlıklarını güncelleme stratejisi.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 8,
+    heroEmoji: '🌲',
+    intro: 'Son 10 yılda İstanbul\'dan Sakarya\'ya taşınan yüz binlerce aile var. Ev aldılar, hayat kurdular — ama çoğu İstanbul\'daki halı bakım alışkanlıklarıyla devam ediyor. Sorun şu: Sakarya\'nın iklimi İstanbul\'dan farklı. Nem daha yüksek, Sapanca Gölü etkisi var, ormanlık alan daha fazla. İstanbul\'da yılda 1 kez halı yıkatıyordunuz, Sakarya\'da bu yetmeyebilir. Ve İstanbul\'da 140 TL/m² ödüyordunuz — Sakarya\'da 70-90 TL. Bu yazıda İstanbul\'dan Sakarya\'ya geçişte halı bakım rutininizi nasıl güncellemeniz gerektiğini anlatıyoruz.',
+    sections: [
+      {
+        heading: 'İstanbul ve Sakarya — İki Şehrin Halı Bakım Farkları',
+        content: `| Faktör | İstanbul | Sakarya |
+|--------|---------|---------|
+| Nem ortalaması | %65-75 | %70-80 |
+| Göl/orman etkisi | Yok (deniz etkisi) | Sapanca Gölü + orman |
+| Trafik/ulaşım süresi | 2-4 saat | 30-60 dakika |
+| Makine halısı fiyat | 80-140 TL/m² | 70-90 TL/m² |
+| Firma sayısı | 112 | 21 |
+| Önerilen yıkama sıklığı | Yılda 1-2 | Yılda 2 |
+
+**Nem farkı kritik:**
+İstanbul\'da deniz etkisi var — rüzgâr nemi dağıtır. Sakarya\'da göl + orman etkisi var — nem birikir ve dağılmaz. Sapanca Gölü kıyısındaki evlerde nem %80\'i aşar. Bu, toz akarı üremesini hızlandırır.
+
+**Fiyat avantajı çarpıcı:**
+Aynı halıyı İstanbul\'da 140 TL/m², Sakarya\'da 75 TL/m² ile yıkatabilirsiniz. Yılda 2 kez yıkatmanız gerekse bile yıllık maliyetiniz İstanbul\'dan düşük:
+- İstanbul: 15 m² × 100 TL × 1 = 1.500 TL/yıl
+- Sakarya: 15 m² × 75 TL × 2 = 2.250 TL/yıl
+
+Fark sadece 750 TL — ama Sakarya\'da halınız çok daha temiz ve sağlıklı.
+
+[Sakarya halı yıkama](/sakarya-hali-yikama-firmalari) firmalarını keşfedin — 21 firma arasında İstanbul kalitesinde hizmet var.`,
+      },
+      {
+        heading: 'Sapanca Gölü Etkisi — Neden Göl Kıyısı Evler Ekstra Dikkat İster',
+        content: `Sapanca Gölü Sakarya\'nın mücevheri — ama halılarınızın düşmanı. Göl kıyısındaki evlerde yaşıyorsanız bilmeniz gerekenler:
+
+**Göl buharlaşması:**
+Sapanca Gölü\'nün yüzey alanı 47 km². Yazın bile buharlaşma yoğun. Bu buhar çevredeki mahallelere nem olarak yayılıyor. Göle 2 km\'den yakın evlerde nem sürekli %75+.
+
+**Sabah sisleri:**
+Sonbahar ve kış sabahları gölden yükselen sis evlerin içine kadar giriyor. Pencere açık uyuyanlar sabah halılarını nemli bulur. Bu nem toz akarı için ideal ortam.
+
+**Orman etkisi:**
+Sapanca çevresi ormanlık. Ağaçların transpirasyonu ek nem üretiyor. Göl + orman çift kaynaklı nem demek.
+
+**Çözüm:**
+- Göl kıyısı evlerde nem bariyeri zorunlu — halı altına 5 mm PE köpük
+- Dijital nem ölçer kullanın — %65 üzeri alarm versin
+- Yılda 2 kez profesyonel yıkama (Nisan + Ekim)
+- Kışın nem alıcı kullanın — her oda en az bir tane
+- Halı yerine washable kilim düşünün — göl kıyısında daha pratik
+
+Göl kıyısında yaşıyorsanız [Sakarya halı yıkama](/sakarya-hali-yikama-firmalari) firmalarından nem bölgesi deneyimi olanı seçin.`,
+      },
+      {
+        heading: '21 Firma Arasından Doğru Seçim — İstanbullunun Beklentisi',
+        content: `İstanbul\'dan taşınmış biri olarak hizmet kalitesi beklentiniz yüksek. 21 firma arasından seçim yaparken:
+
+**İstanbul kalitesini Sakarya\'da aramanız gereken kriterler:**
+- Online fiyat listesi var mı? Şeffaf fiyatlandırma profesyonellik göstergesi
+- Kaç mahallede hizmet veriyor? Geniş kapsam = organize firma
+- Sipariş sayısı ve müşteri yorumları — gerçek geri bildirim
+- Halı türü çeşitliliği — sadece "makine halısı" mı yoksa yün, ipek, bambu da var mı?
+
+**Adapazarı vs çevre ilçeler:**
+Adapazarı merkezdeki firmalar genellikle daha kurumsal. Akyazı, Hendek gibi çevre ilçelerde ise daha küçük ama samimi firmalar var — kişisel ilişki güçlü.
+
+**Toplu sipariş avantajı:**
+İstanbul\'dan taşınan ailelerin çoğu yeni sitelerde yaşıyor. Site yönetimiyle anlaşarak toplu halı yıkama organizasyonu yapın — %15-20 indirim alırsınız.
+
+**Serdivan özel:**
+Sakarya Üniversitesi kampüsünün bulunduğu Serdivan, yeni konut projelerinin yoğun olduğu ilçe. İstanbul\'dan gelenler burada yoğun. Firmalar bu ilçeye özel ilgi gösteriyor.
+
+[Sakarya halı yıkama](/sakarya-hali-yikama-firmalari) — 21 firma arasından İstanbul kalitesinde hizmet verenini bulun.`,
+      },
+    ],
+    faq: [
+      { q: 'İstanbul\'dan Sakarya\'ya taşındım, halı bakımım değişmeli mi?', a: 'Evet. Sakarya daha nemli — yılda 1 değil 2 kez yıkatın. Fiyatlar İstanbul\'un yarısı, yani yıllık maliyetiniz benzer kalır.' },
+      { q: 'Sapanca Gölü kıyısında halı kaç kez yıkatılmalı?', a: 'Yılda 2 kez minimum. Göl nemi %75+ — toz akarı riski yüksek. Nem bariyeri ve nem ölçer zorunlu.' },
+      { q: 'Sakarya\'da 21 firma var, İstanbul kalitesinde mi?', a: 'İstanbul göçü sayesinde talep yükseldi, firmalar kalitelerini artırdı. Sipariş sayıları ve yorumları kontrol edin.' },
+    ],
+    relatedSlugs: ['sakarya-hali-yikama', 'sakarya-hali-yikama-surpriz-pazar', 'istanbul-hali-yikama-rehberi-2026'],
+  },
+
+  {
+    slug: 'denizli-hali-yikama-buldan-rehberi',
+    city: 'Denizli',
+    citySlug: 'denizli',
+    title: 'Denizli\'den Dünyaya: Buldan Bezinden Halı Yıkama Bilimine Uzanan Tekstil Zinciri',
+    metaTitle: 'Denizli Halı Yıkama 2026 | Buldan Bezi Geleneği, Tekstil Bilimi, Kumaş Uzmanlığı',
+    metaDescription: 'Denizli halı yıkama — tekstil şehrinin kumaş bilgisi nasıl halı yıkamaya yansıyor. Buldan bezi, pamuk kimyası ve Denizli firmalarının lif uzmanlığı.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 8,
+    heroEmoji: '♨️',
+    intro: 'Denizli Türkiye\'nin havlu başkenti. Dünya markalarının havlularını üreten fabrikalar burada. Bu şehirde pamuk lifi, kumaş yapısı ve tekstil kimyası herkesin bildiği konular — taksiciden bakkalına herkes "lif" konuşur. Ve bu derin tekstil bilgisi halı yıkama sektörüne de yansıyor. Denizli\'deki firmalar bir halıya baktığında lif yapısını, boya tipini ve yıkama toleransını İstanbul\'daki birçok firmadan daha hızlı ve doğru tespit ediyor. Çünkü bu şehirde kumaş bilmek hayatın parçası.',
+    sections: [
+      {
+        heading: 'Tekstil Bilgisi Halı Yıkamaya Nasıl Yansıyor?',
+        content: `Denizli\'de bir halı yıkama firması çalışanı muhtemelen bir dönem havlu fabrikasında veya iplik fabrikasında çalışmıştır. Bu arka plan önemli:
+
+**Lif tanıma becerisi:**
+Polyester mi, polipropilen mi, akrilik mi, yün mü? Denizli\'deki usta bunu dokunarak anlar — çünkü hayatı boyunca liflerle çalışmış. İstanbul\'daki firmanın "bunu yıkamadan etiketine bakayım" dediği yerde Denizli\'deki firma "bu akrilik, 35°C, nötr deterjan" der.
+
+**Deterjan kimyası bilgisi:**
+Havlu üretiminde yüzlerce kimyasal kullanılır — yumuşatıcı, ağartıcı, boyama yardımcıları. Denizli\'deki firmalar bu kimyasal bilgisini halı yıkamaya taşıyor. Hangi deterjan hangi life zarar verir, hangi pH değeri hangi boyayı çözer — bu bilgi fabrika deneyiminden geliyor.
+
+**Kalite kontrol disiplini:**
+Tekstil fabrikalarında kalite kontrol çok sıkı — ihracat firması müşteriye hatalı ürün gönderemez. Bu disiplin halı yıkama firmalarına da geçiyor. Yıkama sonrası kontrol, renk solma testi, lif dökülme kontrolü — Denizli firmalarında bu adımlar atlanmaz.
+
+[Denizli halı yıkama](/denizli-hali-yikama-firmalari) firmalarının tekstil DNA\'sı, halınız için güvence.`,
+      },
+      {
+        heading: 'Buldan Bezi ve Halı Arasındaki Bağ',
+        content: `Buldan, Denizli\'nin 35 km kuzeyindeki küçük bir ilçe. Ama tekstil dünyasında dev bir isim. Yüzyıllardır el tezgâhlarında dokunan Buldan bezi doğal pamuktan üretilir — boyasız, kimyasalsız, saf.
+
+**Buldan bezi neden önemli?**
+Çünkü Buldan\'daki dokuma geleneği çevredeki halı ve kilim üretimine de yansıyor. Buldan çevresinde doğal boyalı, el dokuması kilim ve halı üretimi var. Bu ürünler Buldan bezi ile aynı hassasiyeti taşıyor: doğal lif, doğal boya, el işçiliği.
+
+**Bu halıları yıkamak:**
+Doğal pamuk lifli, boyasız Buldan bezinden yapılan yer sergileri standart halıdan farklı yıkanır. Ağartıcı yasak (doğal krem rengi bozulur), sıcak su yasak (pamuk çeker), güçlü basınç yasak (ince doku yırtılır). Denizli firmaları bu kuralları ezbere bilir.
+
+**Pamukkale termal etkisi:**
+Denizli\'nin kuzeyinde Buldan bezi, güneyinde Pamukkale travertenleri. İkisi de su ile ilgili — biri su ile yıkanır, diğeri su ile oluşmuş. Ve Pamukkale\'nin termal otelleri de düzenli halı temizliği yaptırıyor. Bu ticari talep Denizli firmalarını 12 ay meşgul tutuyor.
+
+[Denizli halı yıkama](/denizli-hali-yikama-firmalari) — tekstil başkentinin halı bakım uzmanlığından yararlanın.`,
+      },
+      {
+        heading: 'Denizli\'de Halı Yıkama — Pratik Rehber',
+        content: `Denizli\'nin avantajlarını kullanarak halı bakımınızı optimize etmenin yolları:
+
+**Tekstil fuarı dönemini kullanın:**
+Denizli\'de yılda birkaç kez tekstil fuarı düzenleniyor. Fuar dönemlerinde oteller dolu, firmalar otel talebini karşılıyor. Fuar döneminde değil, hemen sonrasında sipariş verin — firmalar boşalmıştır ve size daha fazla vakit ayırır.
+
+**Havlu + halı paketi:**
+Denizli\'deki bazı firmalar havlu ve çarşaf yıkama hizmeti de sunuyor (endüstriyel çamaşırhane kapasiteleri var). Halıyla birlikte perdeleri, yorganları ve hatta çarşafları tek firmaya vererek tasarruf edin.
+
+**Çivril, Acıpayam, Sarayköy sakinleri:**
+Bu ilçelerde yerel firma yok. Merkezefendi ve Pamukkale ilçesindeki firmalar hizmet veriyor — mesafe 30-60 km arası. Toplu sipariş vererek ulaşım maliyetini paylaşın.
+
+**İdeal dönem:**
+- **Mayıs-Haziran:** Hava ılık ve kuru, firmalar henüz yaz yoğunluğuna girmemiş
+- **Eylül-Ekim:** Yaz yorgunluğu bitmiş, hava hâlâ uygun
+- **Kaçının:** Temmuz-Ağustos (firmalar otel talebiyle meşgul)
+
+[Denizli halı yıkama](/denizli-hali-yikama-firmalari) — 10 firma arasından tekstil uzmanlığı en yüksek olanı seçin.`,
+      },
+    ],
+    faq: [
+      { q: 'Denizli\'nin tekstil geçmişi halı yıkamaya nasıl yansıyor?', a: 'Firmalar havlu/tekstil fabrikası deneyiminden gelen lif tanıma, deterjan kimyası ve kalite kontrol becerisiyle çalışıyor.' },
+      { q: 'Buldan bezi sergi halıyı nerede yıkatabilirim?', a: 'Denizli firmalarına verin — doğal pamuk lifi ve boyasız kumaş hassasiyetini biliyorlar.' },
+      { q: 'Denizli\'de halı yıkama ne zaman yaptırılmalı?', a: 'Mayıs-Haziran veya Eylül-Ekim. Temmuz-Ağustos\'ta firmalar otel talebiyle yoğun.' },
+    ],
+    relatedSlugs: ['denizli-hali-yikama', 'denizli-hali-yikama-tekstil-ustadi', 'hali-yikama-nasil-yapilir'],
+  },
+
+  {
+    slug: 'balikesir-hali-yikama-ege-marmara',
+    city: 'Balıkesir',
+    citySlug: 'balikesir',
+    title: 'İki Deniz Arasında Halı Yıkamak: Balıkesir\'in Benzersiz Coğrafyasının Halılara Etkisi',
+    metaTitle: 'Balıkesir Halı Yıkama 2026 | Ege vs Marmara Yakası, İklim Farkları, Bakım Rehberi',
+    metaDescription: 'Balıkesir halı yıkama — iki deniz arasında halı bakımı. Kuzey (Marmara) vs güney (Ege) farkları, zeytinyağı bölgesi özel bakımı ve 14 firma rehberi.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 8,
+    heroEmoji: '🫒',
+    intro: 'Balıkesir dünya üzerinde nadir şehirlerden biri — iki farklı denize kıyısı var. Kuzeyde Marmara Denizi (Bandırma, Erdek), güneyde Ege Denizi (Ayvalık, Edremit, Burhaniye). Bu iki kıyının iklimi, nemi ve yaşam tarzı tamamen farklı. Ve bu fark halı bakımını doğrudan etkiliyor. Bu yazıda Balıkesir\'in kuzeyi ile güneyini halı yıkama perspektifinden karşılaştırıyoruz.',
+    sections: [
+      {
+        heading: 'Kuzey Balıkesir (Marmara Yakası) vs Güney Balıkesir (Ege Yakası)',
+        content: `İki kıyı, iki farklı dünya:
+
+| Faktör | Kuzey (Bandırma, Erdek) | Güney (Ayvalık, Edremit) |
+|--------|------------------------|------------------------|
+| İklim | Marmara — ılıman, nemli | Ege — sıcak, kuru yazlar |
+| Nem ortalaması | %65-75 | %55-65 |
+| Tuz etkisi | Marmara deniz tuzu | Ege deniz tuzu (daha yoğun) |
+| Rüzgâr | Kuzey rüzgârları (poyraz) | Kıyı meltemi (imbat) |
+| Yazlık ev oranı | Orta | Çok yüksek |
+| Zeytinyağı etkisi | Düşük | Çok yüksek |
+| Önerilen yıkama sıklığı | Yılda 1-2 | Yılda 2 |
+
+**Güneyin ek sorunu — zeytinyağı:**
+Edremit Körfezi Türkiye\'nin en büyük zeytin üretim bölgesi. Sıkma döneminde (Kasım-Ocak) havada zeytin kokusu ve ince yağ partikülleri var. Bu partiküller halılara yapışır. Ve zeytinyağı lekesi halı yıkamada en inatçı lekelerden biri — standart deterjan etkisiz.
+
+**Kuzeyin avantajı:**
+Bandırma ve Erdek tarafında rüzgâr daha güçlü. Bu rüzgâr nem dağıtır ve halı kurutmayı hızlandırır. Ama aynı rüzgâr deniz tuzu da taşır — sahile yakın evlerde tuz birikimi sorunu İzmir\'dekine benzer.
+
+[Balıkesir halı yıkama](/balikesir-hali-yikama-firmalari) firmaları her iki kıyının dinamiklerine hâkim — 14 firma geniş bir coğrafyaya hizmet veriyor.`,
+      },
+      {
+        heading: 'Zeytinyağı Lekesi — Balıkesir\'in Halı Kâbusu ve Çözümü',
+        content: `Zeytinyağı halı yıkama sektöründe "gizli düşman" olarak bilinir. Neden?
+
+**Yağ molekülü halı lifine bağlanır:**
+Su bazlı lekeler (çay, kahve, meyve suyu) halının yüzeyinde kalır ve nispeten kolay çıkar. Yağ bazlı lekeler lif yapısına nüfuz eder ve liflerin etrafını sarar. Sıcak su yağı yayar — lekeyi büyütür. Soğuk su yağı çözmez.
+
+**Doğru müdahale sırası:**
+1. **İLK 5 DAKİKA KRİTİK:** Kâğıt havlu ile bastırarak yağı emin. OVALAMA YASAK — lekeyi yayar
+2. Mısır nişastası veya talk pudrası serpin — yağı emer. 30 dakika bekletin, süpürün
+3. Bulaşık deterjanı (birkaç damla) + soğuk su ile hafif tepeleme yapın
+4. Soğuk su ile durulayın, tekrar emin
+5. Leke hâlâ varsa — dokunmayı bırakın ve profesyonel firmayı arayın
+
+**Profesyonel çözüm:**
+Firmalar alkalin bazlı emülsiyon kullanır. Bu kimyasal yağ molekülünü parçalayarak liften ayırır. İşlem süresi standart yıkamadan %30-50 daha uzun — ek ücret normal.
+
+**Balıkesir firmalarının avantajı:**
+Edremit Körfezi çevresindeki firmalar yılda yüzlerce zeytinyağı lekesi görüyor. Bu deneyim onları yağ lekesi konusunda Türkiye\'nin en uzmanı yapıyor.
+
+[Balıkesir halı yıkama](/balikesir-hali-yikama-firmalari) — zeytinyağı lekesi konusunda deneyimli 14 firmayı inceleyin.`,
+      },
+      {
+        heading: 'Ayvalık Yazlık Ev Takvimi — Ege Tarzı Sezon Yönetimi',
+        content: `Ayvalık, Cunda ve Altınoluk\'taki yazlık ev sahipleri için yıllık takvim:
+
+**Mart — Keşif turu:**
+Kıştan sonra yazlığa gidin. Nem hasarı kontrolü yapın. Halıları kaldırıp altlarını inceleyin. Küf varsa not edin. Firmayı arayın — Nisan\'a randevu alın.
+
+**Nisan — Büyük temizlik:**
+Halılar + perdeler + koltuk kılıfları firmaya gitsin. Zeytinyağı sıkma sezonundan (Kasım-Ocak) kalan yağ partikülleri halılarda birikmiştir — profesyonel yıkama şart.
+
+**Mayıs — Ev hazır:**
+Temizlenmiş halılar serilsin. Nem bariyeri altlara konulsun. Pencereler açılsın, ev havalandırılsın. Sezon başlasın.
+
+**Haziran-Eylül — Aktif kullanım:**
+Haftada 1 süpürme. Deniz dönüşü ayakkabıları kapıda çıkarma. Kum halıya gitmesin. Taze lekelere anında müdahale.
+
+**Ekim — Kapanış:**
+Tüm halıları yıkatıp temiz kaldırın. Yorganları, yastıkları vakumlu poşette saklayın. Nem alıcı bırakın. Ev kışa hazır.
+
+**Kasım-Şubat — Kapalı sezon:**
+Ayda 1 ziyaret mümkünse evin havasını değiştirin. Mümkün değilse nem alıcılarına güvenin.
+
+[Balıkesir halı yıkama](/balikesir-hali-yikama-firmalari) — Ayvalık, Edremit ve Burhaniye\'de sezon açılış-kapanış hizmeti.`,
+      },
+    ],
+    faq: [
+      { q: 'Balıkesir\'in kuzey ve güney yakası arasında halı bakım farkı var mı?', a: 'Evet. Güney (Ege) daha kuru ama zeytinyağı leke riski yüksek. Kuzey (Marmara) daha nemli ama tuz etkisi düşük. İkisinde de yılda 2 kez yıkama önerilir.' },
+      { q: 'Zeytinyağı lekesi halıdan nasıl çıkar?', a: 'İlk 5 dakikada bastırarak emin, nişasta serpin. Profesyonel firma alkalin emülsiyon kullanarak yağ molekülünü parçalar. Evde tam temizlenmesi zor.' },
+      { q: 'Ayvalık\'ta yazlık evin halılarını ne zaman yıkatmalıyım?', a: 'Nisan\'da sezon açılışında, Ekim\'de kapanışta. Yılda 2 kez — zeytin sıkma sezonu kalıntısı ve yaz kullanımı temizlenir.' },
+    ],
+    relatedSlugs: ['balikesir-hali-yikama', 'balikesir-hali-yikama-yazlik-ev', 'hali-leke-cikarma'],
+  },
+
+  {
+    slug: 'diyarbakir-hali-yikama-gunes-enerjisi',
+    city: 'Diyarbakır',
+    citySlug: 'diyarbakir',
+    title: 'Diyarbakır\'da Halı Yıkama: Güneşin Bedava Kuruttuğu Şehirde Fiyatlar Neden Bu Kadar Düşük?',
+    metaTitle: 'Diyarbakır Halı Yıkama 2026 | Güneş Kurutma Ekonomisi, En Düşük Fiyatlar',
+    metaDescription: 'Diyarbakır halı yıkama — güneşin halı yıkama maliyetine etkisi. 45°C sıcaklıkta sıfır kurutma maliyeti, maliyet analizi ve fiyat avantajının bilimi.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 7,
+    heroEmoji: '🏰',
+    intro: 'Diyarbakır\'da makine halısı yıkama 60 TL/m². İstanbul\'da aynı iş 80-140 TL. Bu fark sadece "Diyarbakır ucuz şehir" diye açıklanamaz — arkasında somut bir ekonomik gerçek var: güneş enerjisi. Diyarbakır\'da yıl boyunca ortalama 2.900+ saat güneşlenme süresi var — Almanya\'nın tam 2 katı. Yaz aylarında halılar açık havada 2 saatte kupkuru oluyor. Kurutma maliyeti kelimenin tam anlamıyla sıfır. Bu yazıda güneşin halı yıkama ekonomisini nasıl değiştirdiğini anlatıyoruz.',
+    sections: [
+      {
+        heading: 'Halı Yıkama Maliyetinin Anatomisi — Güneş Neyi Değiştiriyor?',
+        content: `Bir halı yıkama firmasının maliyet yapısını parçalayalım:
+
+| Maliyet Kalemi | İstanbul | Diyarbakır | Fark |
+|----------------|---------|-----------|------|
+| Kira | Yüksek | Düşük | -60% |
+| İşçilik | Yüksek | Düşük | -40% |
+| Deterjan | Aynı | Aynı | 0% |
+| Su | Aynı | Aynı | 0% |
+| **Kurutma enerjisi** | **Yüksek** | **Sıfıra yakın** | **-90%** |
+| Ulaşım (mazot) | Çok yüksek | Düşük | -50% |
+| **Toplam** | **80-140 TL/m²** | **60-80 TL/m²** | **-%30-50** |
+
+**Kurutma enerjisi en büyük fark:**
+İstanbul\'da kapalı kurutma tesisi elektrik ve doğalgaz harcıyor — fan motoru + ısıtıcı 12-24 saat çalışıyor. Yaz aylarında bile nem nedeniyle tamamen açık hava kurutma riskli.
+
+Diyarbakır\'da? Halıyı çelik askılara asıyorsun, 2 saat bekliyorsun, kupkuru. Enerji maliyeti: 0 TL. Güneş bedava çalışıyor.
+
+**Bu 0 TL kurutma maliyeti doğrudan fiyata yansıyor.** Diyarbakır firması İstanbul firmasıyla aynı kalitede yıkama yapabilir ama %30-50 daha ucuza satabilir — çünkü güneş onun müttefiki.
+
+[Diyarbakır halı yıkama](/diyarbakir-hali-yikama-firmalari) — güneşin bedava kuruttuğu şehirde uygun fiyatlar.`,
+      },
+      {
+        heading: 'Güneşle Kurutmanın Bilimi — UV Dezenfeksiyon Bonusu',
+        content: `Diyarbakır güneşi sadece kurutmakla kalmıyor — dezenfekte de ediyor:
+
+**UV-C ışınları ve bakteri:**
+Güneş ışığındaki UV-C ışınları bakteri ve virüsleri öldürür. Açık havada güneşe serilmiş halı doğal dezenfeksiyon görüyor. Kapalı tesiste kurutulan halıda bu bonus yok — firma ayrı dezenfeksiyon işlemi uygulamak zorunda (ek maliyet).
+
+**Koku giderme:**
+UV ışınları organik koku moleküllerini parçalar. Açık havada kurutulan halı "güneş kokusu" alır — bu koku aslında koku moleküllerinin yok edilmesinin sonucu. Kapalı tesiste kurutulan halıda deterjan kokusu kalabilir.
+
+**Risk — Fazla güneş:**
+Her şeyin fazlası zarar. 6+ saat doğrudan güneş halının renklerini soldurur. Profesyonel firmalar 2-3 saat güneşe maruz bırakır, sonra gölgeye çeker. Diyarbakır\'ın güçlü güneşi bu dengeyi zorunlu kılıyor.
+
+**Deterjan kalıntısı riski:**
+Aşırı sıcakta (45°C+) halı çok hızlı kuruduğunda deterjan kalıntısı kristalize olabilir. Bu kristaller halı yüzeyinde beyaz lekeler bırakır. Çözüm: ekstra durulama. Diyarbakır firmaları yaz aylarında standart 2 durulama yerine 3 durulama yapıyor.
+
+[Diyarbakır halı yıkama](/diyarbakir-hali-yikama-firmalari) — güneşin bilimini fiyat avantajına dönüştüren firmalar.`,
+      },
+    ],
+    faq: [
+      { q: 'Diyarbakır\'da halı yıkama neden bu kadar ucuz?', a: 'Güneşle kurutma maliyeti sıfır, kira ve işçilik düşük. Bunlar toplamda %30-50 fiyat avantajı sağlıyor.' },
+      { q: 'Güneşte kurutulan halıda renk solar mı?', a: 'Profesyonel firmalar 2-3 saat güneşe bırakır, sonra gölgeye çeker. 6+ saat direkt güneş solma riski taşır.' },
+      { q: 'Güneş halıyı dezenfekte eder mi?', a: 'Evet. UV-C ışınları bakteri ve virüsleri öldürür. Açık hava kurutma doğal dezenfeksiyon sağlar — kapalı tesiste bu ek işlem gerekir.' },
+    ],
+    relatedSlugs: ['diyarbakir-hali-yikama', 'diyarbakir-hali-yikama-sicak-iklim', 'hali-yikama-fiyatlari'],
+  },
+
+  {
+    slug: 'eskisehir-hali-yikama-ogrenci-rehberi',
+    city: 'Eskişehir',
+    citySlug: 'eskisehir',
+    title: 'Eskişehir\'de Üniversite Öğrencisi İçin Halı Yıkama Rehberi: Bütçe Dostu Stratejiler',
+    metaTitle: 'Eskişehir Halı Yıkama 2026 | Öğrenci Rehberi, Bütçe İpuçları, Komşu Organizasyonu',
+    metaDescription: 'Eskişehir öğrenci halı yıkama rehberi. Bütçeye uygun stratejiler, ev arkadaşlarıyla toplu sipariş, sömestr sonu temizlik takvimi ve doğru zamanlama.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 7,
+    heroEmoji: '🎓',
+    intro: 'Eskişehir\'de 100.000\'den fazla üniversite öğrencisi yaşıyor. Çoğu kiralık evde, sınırlı bütçeyle. Ev halısı kirlendi — seçenekler: banyo da yıkamak (risk), görmezden gelmek (sağlık sorunu) veya profesyonel yıkatmak (pahalı gibi görünüyor). Ama doğru stratejiyle profesyonel halı yıkama öğrenci bütçesine sığar. Bu rehberde Eskişehir\'deki öğrencilere özel tasarruf taktiklerini, doğru zamanlamayı ve komşu organizasyonu ile maliyeti nasıl yarıya indireceğinizi anlatıyoruz.',
+    sections: [
+      {
+        heading: 'Öğrenci Evinde Halı Neden Profesyonel Yıkanmalı?',
+        content: `"Banyoda yıkarım" diyen öğrencinin başına gelenler:
+
+**Senaryo 1 — Halı çekti:**
+Sıcak suyla yıkanan halı çeker. 3x4 metrelik halı 2.5x3.5 metre olur. Ev sahibi depozitosundan keser.
+
+**Senaryo 2 — Banyoda 3 gün kurudu:**
+Yetersiz sıkma sonucu halı 3 gün banyoda asılı kaldı. Küf kokusu aldı. Artık ne yıkamak ne havalandırmak çözüm — profesyonel anti-küf işlem gerekiyor. Daha pahalıya geldi.
+
+**Senaryo 3 — Deterjan kalıntısı:**
+Çamaşır deterjanıyla yıkanan halı yetersiz durulandı. Yapışkan bir yüzey oluştu. 2 hafta içinde halı öncekinden daha kirli görünüyor.
+
+**Profesyonel yıkama maliyeti:**
+Tipik öğrenci evi 1+1, halı alanı 8-12 m². Eskişehir\'de 70-90 TL/m² ile:
+- 8 m² halı: 560-720 TL
+- 10 m² halı: 700-900 TL
+
+Bu 2 kişilik evde kişi başı 280-450 TL. Aylık 25-40 TL düşüyor. Bir haftalık kahve parası.
+
+[Eskişehir halı yıkama](/eskisehir-hali-yikama-firmalari) firmalarından öğrenci indirimi olup olmadığını sorun.`,
+      },
+      {
+        heading: 'Bütçe Dostu Stratejiler — Maliyeti Yarıya İndirmenin 4 Yolu',
+        content: `**1. Ev arkadaşlarıyla paylaşım (en basit):**
+2 kişilik evde maliyet zaten yarı yarıya. 3-4 kişilik evlerde kişi başı 150-250 TL.
+
+**2. Komşu apartman organizasyonu:**
+Öğrenci apartmanında 4-5 ev anlaşıp aynı gün firma çağırın. Firma tek seferde 4-5 evin halısını alır — ulaşım maliyeti bölünür. Firmalar toplu siparişlere %10-15 indirim uyguluyor. Sonuç: kişi başı maliyet %25-30 düşer.
+
+**3. Doğru zamanlama:**
+Sömestr ortası (Kasım veya Mart) yerine sömestr sonu (Haziran başı veya Ocak sonu) yıkatın. Firmalar sömestr sonunda öğrenci talebini biliyor ve bazıları kampanya yapıyor. Ama çok geç bırakmayın — herkes aynı anda isterse randevu dolar.
+
+**4. Halı + yorgan + yastık paketi:**
+Sadece halı değil, yorgan ve yastıkları da birlikte verin. Firma zaten geliyor — ek ulaşım maliyeti yok. Yorgan 400-500 TL, yastık 100-200 TL ama halıyla birlikte verildiğinde toplam paketten %10 indirim alırsınız.
+
+**Yapmamanız gereken:**
+Ucuza gelsin diye firmasız, tanımadığınız birine halı vermeyin. Sosyal medyadan "ucuz halı yıkama" reklamlarına dikkat — kayıtsız firmalar halınıza zarar verebilir, hukuki hakkınız olmaz.
+
+[Eskişehir halı yıkama](/eskisehir-hali-yikama-firmalari) — platformda kayıtlı, güvenilir 5 firma.`,
+      },
+      {
+        heading: 'Sömestr Sonu Temizlik Takvimi',
+        content: `**Haziran sonu — yaz tatili öncesi:**
+Ev boşalıyor, tatile gidiyorsunuz. Halıyı kirli bırakıp gitmek 3 aylık küf daveti. Strateji:
+
+1. **1 hafta önce:** Firmayı arayın, randevu alın
+2. **3 gün önce:** Halıyı kaldırın, altını süpürün, eşyaları toplayın
+3. **Randevu günü:** Firma gelsin, halıyı + yorganı + yastıkları alsın
+4. **2-3 gün sonra:** Temiz halı gelsin, serin, evi kapatın
+
+Tatiliniz boyunca ev temiz halıyla bekler. Dönüşte mis gibi ev.
+
+**Ocak sonu — güz sömestri bitişi:**
+Kış ortasında halı yıkatmak Eskişehir\'de riskli — kapalı kurutma tesisli firma tercih edin. Ama bu dönemde firmalar boş, randevu kolay ve pazarlık mümkün.
+
+**Kira sözleşmesi bitişi:**
+Evi boşaltıyorsanız halıyı yıkatıp teslim edin. Ev sahibi temiz halı görünce depozitosunu tam iade eder. Yıkatma maliyeti (700 TL) vs depozito kaybı (2.000-5.000 TL) — matematik açık.
+
+[Eskişehir halı yıkama](/eskisehir-hali-yikama-firmalari) — öğrenci evlerinin güvendiği firmalar.`,
+      },
+    ],
+    faq: [
+      { q: 'Öğrenci olarak halı yıkatmak bütçeme sığar mı?', a: 'Evet. 2 kişilik evde kişi başı 280-450 TL (yılda 1 kez). Aylık 25-40 TL — bir haftalık kahve parası.' },
+      { q: 'Banyoda halı yıkamak neden riskli?', a: 'Çekme, renk solması, küf ve deterjan kalıntısı riskleri var. Ev sahibinin halısına zarar verirseniz depozitosundan kesilir — profesyonel yıkama daha güvenli ve ucuz.' },
+      { q: 'Komşularla toplu sipariş verince ne kadar indirim alınır?', a: '4-5 ev birlikte verdiğinde %10-15 indirim + ulaşım maliyeti bölünür. Kişi başı maliyet %25-30 düşer.' },
+    ],
+    relatedSlugs: ['eskisehir-hali-yikama', 'eskisehir-hali-yikama-universite-sehri', 'hali-yikama-fiyatlari'],
+  },
+
   ...cityGuides,
 ];
 
