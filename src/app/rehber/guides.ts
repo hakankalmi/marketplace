@@ -5316,102 +5316,96 @@ Sezon kapanışında da aynı firmayı kullanarak [İzmir halı yıkama](/izmir-
   },
 
   {
-    slug: 'bursa-hali-yikama-koltuk-karsilastirma',
+    slug: 'bursa-hali-yikama-ipek-yolu',
     city: 'Bursa',
     citySlug: 'bursa',
-    title: 'Bursa\'daki İki Dev Halı Yıkama Firmasının Fiyat Savaşı: Kim Daha İyi?',
-    metaTitle: 'Bursa Halı Yıkama Karşılaştırma 2026 | İki Lider Firma, Fiyat ve Kalite Analizi',
-    metaDescription: 'Bursa halı yıkama firmalarının gerçek karşılaştırması. 136 vs 119 sipariş, fiyat farkları, hizmet kapsamı ve hangi firma size uygun.',
+    title: 'Bursa\'dan Dünyaya: İpek Yolu\'nun Son Durağında Halı Nasıl Yıkanır?',
+    metaTitle: 'Bursa Halı Yıkama 2026 | İpek Halı Bakım Rehberi, Osmanlı Mirası, Kumaş Bilimi',
+    metaDescription: 'Bursa halı yıkama — ipek halı bakımının bilimi. Koza Han\'dan modern fabrikaya uzanan ipek geleneği, yün ve ipek halının yıkama farkları ve Bursa firmalarının uzmanlığı.',
     datePublished: '2026-03-19',
     dateModified: '2026-03-19',
     category: 'hali-yikama',
-    readingTime: 8,
+    readingTime: 9,
     heroEmoji: '🌿',
-    intro: 'Bursa\'nın halı yıkama pazarında iki firma açık ara lider: biri 136, diğeri 119 tamamlanmış sipariş. İkisi de Osmangazi, Nilüfer ve Yıldırım\'da aktif. İkisi de makine halısından ipek halıya kadar geniş ürün yelpazesine sahip. Ama fiyatları farklı. Ürün çeşitlikleri farklı. Hizmet alanları farklı. Peki hangisini seçmelisiniz? Bu yazıda iki firmayı kategori kategori karşılaştırıyoruz — gerçek verilerle.',
+    intro: 'Bursa\'yı anlamak için Koza Han\'a gitmeniz lazım. 1491\'de Sultan II. Bayezid\'in yaptırdığı bu yapıda yüzyıllardır ipek ticareti yapılıyor. İpek böceğinin kozasından çıkan o ince lif — insan saçının üçte biri kalınlığında — Bursa\'nın kaderini belirlemiş. Ve bugün Bursa\'daki evlerin önemli bir kısmında ipek veya yarı-ipek halı var. Bu halıları yıkamak standart bir iş değil — bir zanaat. Bu yazıda ipek halı yıkamanın bilimini ve Bursa firmalarının bu konudaki benzersiz uzmanlığını anlatıyoruz.',
     sections: [
       {
-        heading: 'İki Firmanın Karşılaştırma Tablosu — Halı Fiyatları',
-        content: `İki firmanın gerçek fiyat listesini yan yana koyuyoruz:
+        heading: 'İpek Lifi Neden Bu Kadar Hassas?',
+        content: `İpek, doğanın ürettiği en ince ve en güçlü liflerden biri. Ama güçlü olmak dayanıklı olmak demek değil — özellikle kimyasallara karşı.
 
-| Halı Türü | Firma A (136 sipariş) | Firma B (119 sipariş) | Fark |
-|-----------|----------------------|----------------------|------|
-| Kaymaz/Jel | 80 TL/m² | 80 TL/m² | Eşit |
-| Arlon Halı | — | 90 TL/m² | Sadece B |
-| Makine Halısı | 90 TL/m² | 90-100 TL/m² | A daha uygun |
-| Mega Halı | — | 100 TL/m² | Sadece B |
-| Akrilik | 200 TL/m² | 120 TL/m² | **B %40 ucuz** |
-| Şaggy | 150 TL/m² | 130 TL/m² | B biraz ucuz |
-| Nepal | — | 130 TL/m² | Sadece B |
-| Step | 150 TL/m² | 150 TL/m² | Eşit |
-| Makine Yün | 175 TL/m² | — | Sadece A |
-| El Dokuma | 250 TL/m² | 150 TL/m² | **B %40 ucuz** |
-| Bambu | 350 TL/m² | 200 TL/m² | **B %43 ucuz** |
-| İpek | 350 TL/m² | 250 TL/m² | **B %29 ucuz** |
+**İpeğin kimyası:**
+İpek proteinden oluşur — fibroin. Bu protein yapısı deterjanın pH değerine, suyun sıcaklığına ve mekanik basınca karşı hassas. Yanlış koşullarda fibroin molekülleri parçalanır ve lif kalıcı olarak zarar görür. Geri dönüşü yok.
 
-**İlk bakışta Firma B daha ucuz:**
-Özel halılarda (akrilik, el dokuma, bambu, ipek) Firma B ciddi şekilde ucuz. Ama ucuz demek her zaman iyi demek değil. Fiyat farkının muhtemel sebepleri:
+**Neler zarar verir?**
+- **Alkalin deterjan (pH 9+):** Lifleri çözer. Makine halısı deterjanı çoğunlukla alkalin — ipek halıya kesinlikle uygulanmaz
+- **50°C üzeri su:** Protein pişer (yumurta gibi düşünün). Lif sertleşir, parlaklığını kaybeder
+- **40+ bar basınç:** Düğüm yapısını gevşetir, halı deforme olur
+- **Klorlu çamaşır suyu:** İpeği dakikalar içinde eritir
+- **Direkt güneş kurutma:** UV ışınları renkleri soldurur
 
-**1. Deterjan kalitesi:** Premium deterjan maliyeti yüksek. Ucuz deterjan kullanan firma daha düşük fiyat sunabilir ama sonuç farklı olabilir.
-**2. İşlem süresi:** Daha az durulama, daha kısa kurutma = daha düşük maliyet ama halıda deterjan kalıntısı riski.
-**3. Uzmanlık farkı:** Firma A ipek halıya daha uzun işlem süresi uygulayıp daha yüksek fiyat alıyor olabilir — bu daha iyi sonuç verebilir.
+**Doğru koşullar:**
+- Nötr pH deterjan (6.5-7.5)
+- 20-25°C soğuk su
+- 10-15 bar hafif basınç veya elle yıkama
+- Gölge kurutma veya kontrollü kapalı kurutma
 
-[Bursa halı yıkama](/bursa-hali-yikama-firmalari) sayfasından her iki firmanın detaylarını inceleyin ve sipariş sayılarına bakın.`,
+Bursa\'daki firmalar bu bilgiyle büyümüş — müşterilerinin önemli kısmı ipek halı sahibi. Bu deneyim [Bursa halı yıkama](/bursa-hali-yikama-firmalari) firmalarını Türkiye\'nin ipek halı uzmanlığında en güvenilir adresi yapıyor.`,
       },
       {
-        heading: 'Halı Dışı Hizmetlerde Karşılaştırma',
-        content: `| Hizmet | Firma A | Firma B |
-|--------|--------|--------|
-| Sandalye | 150 TL | — |
-| Koltuk Takımı | 1.500 TL | 1.500 TL |
-| Elyaf Battaniye | 400 TL | 500 TL |
-| Yün Yorgan | 500 TL | 600 TL |
-| Stor Perde | 120 TL | 100 TL |
-| Baza Başlığı | 600 TL | — |
-| Yatak Yıkama | 1.000 TL | — |
-| Overlok | 100 TL/m | 100 TL/m |
-| Spor Saçak | — | 200 TL/m² |
+        heading: 'İpek Halı vs Yün Halı vs Makine Halısı — Yıkama Farkları',
+        content: `Aynı odada yan yana duran üç halı — ama yıkama yaklaşımı tamamen farklı:
 
-**Firma A daha geniş hizmet yelpazesi:**
-Firma A sandalye yıkama, baza başlığı ve yatak yıkama gibi ek hizmetler sunuyor. Firma B bu hizmetleri sunmuyor ama stor perdede daha ucuz.
+**Makine Halısı (Sentetik):**
+Polipropilen veya polyester lifler. Kimyasal direnci yüksek. Alkalin deterjan, 40-50°C su, 40-60 bar basınç — her şeyi kaldırır. Hızlı ve ucuz yıkanır. Bursa\'da 80-90 TL/m².
 
-**Hangisini seçmeli?**
-- Makine halısı + koltuk yıkama: İkisi de benzer, tercih meselesi
-- İpek/bambu/el dokuma halı: Firma B fiyat avantajı sunuyor ama kaliteyi yorumlardan kontrol edin
-- Yatak + baza başlığı: Sadece Firma A bu hizmeti sunuyor
-- Toplu paket (halı + koltuk + yorgan + perde): Her ikisinden teklif alın, toplu indirim isteyin
+**Yün Halı:**
+Hayvansal protein lifi. İpekten daha kalın ama yine de hassas. Sıcak su çeker — %5-10 boyut kaybı mümkün. Alkalin deterjan lifleri keçeleştirir. Nötr pH, 30°C su, orta basınç. Bursa\'da 100-175 TL/m².
 
-**Gerçek karar kriteri — Sipariş sayısı ve yorumlar:**
-136 vs 119 sipariş farkı önemli değil — ikisi de çok aktif. Asıl bakmanız gereken müşteri yorumları ve puan. Platformda her iki firmanın yorumlarını karşılaştırın.
+**İpek Halı:**
+En hassas. En pahalı. En riskli. Yanlış yıkama 30.000-50.000 TL\'lik halıyı çöpe dönüştürebilir. Nötr pH, 20-25°C su, düşük basınç veya elle yıkama, gölge kurutma. Bursa\'da 250-350 TL/m².
 
-[Bursa halı yıkama](/bursa-hali-yikama-firmalari) — 50 firma arasından bu iki lideri ve diğerlerini inceleyin.`,
+**Neden fiyat farkı bu kadar büyük?**
+İpek halı yıkama 1 m² için 30-45 dakika sürer. Makine halısı 1 m² için 5 dakika. Ayrıca ipek halıya zarar verme riski yüksek — firma bu riski fiyata yansıtmak zorunda. 50.000 TL\'lik halıya zarar vermek firmayı iflasa götürebilir. Bu sorumluluk primi fiyata ekleniyor.
+
+**Bursa\'nın avantajı:**
+Bu şehirde ipek halı yıkama rutindir, istisna değil. [Bursa halı yıkama](/bursa-hali-yikama-firmalari) firmaları yüzlerce ipek halı yıkamış — deneyim çok önemli.`,
       },
       {
-        heading: 'Hizmet Alanı Karşılaştırması — Kim Nereye Geliyor?',
-        content: `**Firma A (136 sipariş):**
-Gürsu, Kestel, Nilüfer, Osmangazi, Yıldırım — 5 ilçe.
+        heading: 'Evinizdeki İpek Halıyı Nasıl Korumalısınız?',
+        content: `Profesyonel yıkama yılda 1 kez yeterli — ama arada geçen 364 gün sizin sorumluluğunuzda. İpek halınızın ömrünü uzatmak için:
 
-**Firma B (119 sipariş):**
-Osmangazi, Nilüfer, Yıldırım, Gürsu, Kestel + Mudanya — 54 farklı mahalle/bölge listelenmiş.
+**Günlük bakım:**
+- Hafif süpürge çekin — güçlü elektrikli süpürge ipek lifleri çekebilir. Robot süpürge de riskli — fırça kafası lifleri aşındırır
+- Halının üstüne ağır mobilya koymayın — ezilme izi kalıcıdır
+- Doğrudan güneş alan odaya ipek halı sermeyin — UV renkleri soldurur
+- Ayakkabıyla basmayın — kum tanecikleri lifleri keser
 
-**Firma B coğrafi olarak daha geniş:**
-54 mahalle/bölge detayında hizmet alanı listelemiş. Bu daha şeffaf bir yaklaşım — hangi mahallede hizmet verdiğini biliyorsunuz. Firma A ilçe bazında listeliyor ama detay yok.
+**Acil leke müdahalesi:**
+İpek halıya dökülen sıvıya HEMEN müdahale edin:
+1. Temiz beyaz bez ile bastırarak emin — ovalamayın, yayılır
+2. Soğuk su (kesinlikle soğuk!) ile hafifçe nemlendirin
+3. Tekrar bastırarak emin
+4. Kurumasını bekleyin
+5. Leke çıkmadıysa firmayı arayın — evde kimyasal denemeyin
 
-**Mudanya farkı:**
-Firma B Mudanya\'ya da hizmet veriyor. Mudanya\'daki yazlık ev sahipleri için bu önemli bir avantaj.
+**Asla yapmayın:**
+- Sıcak su dökmeyin (protein pişer)
+- Çamaşır suyu veya ağartıcı kullanmayın (ipek erir)
+- Ovalamayın (lif kopması)
+- Saç kurutma makinesiyle kurutmayın (ısı hasarı)
 
-**İnegöl, Orhangazi ve diğer uzak ilçeler:**
-İki firma da şu an bu ilçelerde aktif görünmüyor. Bu ilçelerde yaşıyorsanız [Bursa halı yıkama](/bursa-hali-yikama-firmalari) sayfasından diğer 48 firmayı kontrol edin.
+**Depolama:**
+İpek halıyı kaldırırken asit-free kâğıda sarın, rulo yapın (katlamayın — kırılma izi kalır). Serin, kuru, karanlık yerde saklayın. Naylon poşete koymayın — nem hapsolur.
 
-**Sonuç:**
-Her iki firma da güçlü seçenek. Fiyat farkları var ama bu fark kaliteye mi yoksa maliyet yapısına mı bağlı — bunu müşteri yorumları söyler. İkisinden de teklif alın, karşılaştırın, yorumları okuyun.`,
+Profesyonel yıkama zamanı geldiğinde [Bursa halı yıkama](/bursa-hali-yikama-firmalari) firmalarından ipek deneyimi olanı seçin — halınızın değeri buna değer.`,
       },
     ],
     faq: [
-      { q: 'Bursa\'daki iki lider halı yıkama firması arasındaki fark ne?', a: 'Temel halılarda fiyatlar benzer (80-90 TL/m²). Özel halılarda (ipek, bambu) %29-43 fark var. Hizmet alanı ve ek hizmetler de farklı.' },
-      { q: 'Hangi firmayı tercih etmeliyim?', a: 'Makine halısı ve koltuk için ikisi de benzer. İpek/bambu halınız varsa fiyat karşılaştırması yapın. Yatak yıkama lazımsa sadece Firma A sunuyor. Yorumları mutlaka okuyun.' },
-      { q: 'Bursa\'da 50 firma varken neden sadece bu ikisi?', a: 'Bu iki firma 136 ve 119 siparişle açık ara lider. Diğer 48 firma daha yeni veya daha küçük ölçekli olabilir — ama aralarında gizli mücevher de olabilir.' },
+      { q: 'İpek halı evde yıkanabilir mi?', a: 'Hayır. İpeğin kimyasal hassasiyeti evde kontrol edilemez. Yanlış deterjan, sıcak su veya basınç halıyı geri dönüşümsüz bozar. Sadece profesyonel firmaya verin.' },
+      { q: 'İpek halı yıkama neden bu kadar pahalı?', a: 'İşlem süresi 6-9 kat uzun (m² başına 30-45 dk vs 5 dk), özel nötr pH deterjan gerekli ve firma halıya zarar verme riskini taşıyor — 50.000 TL\'lik halının sorumluluğu fiyata yansıyor.' },
+      { q: 'Bursa\'da ipek halı yıkama kaç TL?', a: '250-350 TL/m². 10 m²\'lik ipek halı 2.500-3.500 TL. Halının değeri düşünüldüğünde bu, ömrünü 5-10 yıl uzatan bir yatırım.' },
     ],
-    relatedSlugs: ['bursa-hali-yikama', 'bursa-hali-yikama-tekstil-sehri', 'hali-yikama-firmasi-nasil-secilir'],
+    relatedSlugs: ['bursa-hali-yikama', 'bursa-hali-yikama-tekstil-sehri', 'hali-yikama-nasil-yapilir'],
   },
 
   ...cityGuides,
