@@ -6432,6 +6432,593 @@ Evi boşaltıyorsanız halıyı yıkatıp teslim edin. Ev sahibi temiz halı gö
     relatedSlugs: ['eskisehir-hali-yikama', 'eskisehir-hali-yikama-universite-sehri', 'hali-yikama-fiyatlari'],
   },
 
+  {
+    slug: 'tekirdag-hali-yikama-istanbul-gocmeni',
+    city: 'Tekirdağ',
+    citySlug: 'tekirdag',
+    title: 'Çorlu\'da Fabrikadan Eve: Sanayi İşçisinin Evinde Halılar Neden 3 Ayda Kirleniyor?',
+    metaTitle: 'Tekirdağ Halı Yıkama 2026 | Sanayi İşçisi Evi, Fabrika Tozu, Çorlu-Çerkezköy',
+    metaDescription: 'Tekirdağ halı yıkama — sanayi işçisinin evindeki görünmeyen tehlike. Fabrikadan eve taşınan endüstriyel partikülller, iş kıyafeti etkisi ve koruma stratejileri.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 8,
+    heroEmoji: '🌻',
+    intro: 'Çorlu\'da bir fabrika işçisi akşam eve geldiğinde iş kıyafetini kapıda çıkarıyor — ama ayakkabılarındaki metal tozu, saçlarındaki kimyasal partiküller ve ceketinin üzerindeki endüstriyel kir çoktan eve girmiş oluyor. Bu görünmeyen partiküller halıya yerleşiyor, çocuklar o halıda oynuyor, bebek o halıda emekliyor. Çorlu ve Çerkezköy\'deki 200\'den fazla fabrikada çalışan binlerce ailenin ortak ama konuşulmayan sorunu: fabrikadan eve taşınan endüstriyel kir.',
+    sections: [
+      {
+        heading: 'Fabrikadan Eve — Görünmeyen Yolculuk',
+        content: `Bir tekstil fabrikasında, bir kimya tesisinde veya bir metal işleme atölyesinde çalışıyorsanız, 8 saatlik mesai boyunca vücudunuz endüstriyel partiküllerle temas ediyor. İş kıyafetiniz, ayakkabınız, saçınız — hepsi taşıyıcı.
+
+**Eve giren partiküller:**
+- **Tekstil fabrikası:** Lif tozu, boya kimyasalları, apre maddeleri
+- **Kimya tesisi:** Volatile organik bileşikler (VOC), solvent kalıntıları
+- **Metal işleme:** Demir, alüminyum, krom tozları
+- **Plastik fabrikası:** Polimer partikülleri, kalıp ayırıcı kimyasallar
+- **Gıda fabrikası:** Un tozu, şeker kristalleri, baharat partikülleri
+
+**Halıya nasıl ulaşıyor?**
+Kapıdan girdiğiniz an ayakkabınızdaki partiküller halıya transfer oluyor. Kıyafetinizi çıkardığınız yerde havaya saçılıyor ve çöküyor. Duş aldığınızda saçınızdan dökülen partiküller banyo halısına yerleşiyor. Çocuğunuzu kucakladığınızda ceketinizdeki toz onun kıyafetine, oradan halıya geçiyor.
+
+**Bu sadece Çorlu sorunu değil:**
+Çerkezköy, Kapaklı, Ergene — Tekirdağ\'ın tüm sanayi koridorunda aynı sorun var. 10 firma bu bölgenin ihtiyaçlarına hizmet veriyor.
+
+[Tekirdağ halı yıkama](/tekirdag-hali-yikama-firmalari) firmalarından endüstriyel kir temizliği deneyimi olanı tercih edin.`,
+      },
+      {
+        heading: 'Çözüm: Fabrika Evinin Halı Koruma Protokolü',
+        content: `Sanayi bölgesinde çalışıp evde çocuk büyüten aileler için halı koruma protokolü:
+
+**Kapı girişi — İlk savunma hattı:**
+- İş ayakkabılarını ASLA eve sokmayın — kapı dışında ayrı dolap
+- Kapı önüne kalın endüstriyel paspas (en az 90x60 cm) — ince paspas işe yaramaz
+- Mümkünse giriş holünde kıyafet değiştirme alanı oluşturun
+
+**İş kıyafeti yönetimi:**
+- İş kıyafetlerini ev çamaşırlarıyla birlikte yıkamayın — endüstriyel partiküller diğer kıyafetlere geçer
+- İş kıyafetini evde askıya asmayın — kapalı poşette tutun
+
+**Halı stratejisi:**
+- Çocuk odası ve salon halılarını her 3 ayda profesyonel yıkamaya verin
+- Yatak odası halısını 6 ayda bir yeterli (sanayi etkisi daha az)
+- HEPA filtreli robot süpürge günlük çalıştırın — yüzeydeki partikülleri toplar
+- Halı yerine kolayca yıkanabilen kilim veya washable halı düşünün
+
+**Çocuk sağlığı:**
+0-3 yaş bebekler halıda emekliyor, oyuncak yalıyor, ellerini ağzına götürüyor. Endüstriyel partiküller bu yaş grubunda solunum yolu hastalıkları ve alerji tetikleyebilir. Bebek odasının halısını ayda 1 HEPA süpürge + 3 ayda 1 profesyonel yıkama ile temiz tutun.
+
+[Tekirdağ halı yıkama](/tekirdag-hali-yikama-firmalari) — Çorlu ve Çerkezköy\'de sanayi deneyimli 10 firma.`,
+      },
+    ],
+    faq: [
+      { q: 'Fabrikada çalışıyorum, evdeki halıyı kaç kez yıkatmalıyım?', a: 'Çocuk olan odalarda her 3 ayda 1. Yatak odası 6 ayda 1. HEPA süpürge günlük çalışmalı.' },
+      { q: 'İş ayakkabısındaki toz halıya zarar verir mi?', a: 'Evet. Metal, kimyasal ve polimer partikülleri halı liflerine yapışır, normal süpürgeyle çıkmaz, çocuk sağlığını tehdit eder.' },
+      { q: 'Çorlu\'da sanayi tozu temizliği yapan firma var mı?', a: 'Tekirdağ\'daki 10 firma sanayi koridoruna hizmet veriyor. Endüstriyel kir temizliği deneyimleri var.' },
+    ],
+    relatedSlugs: ['tekirdag-hali-yikama', 'tekirdag-hali-yikama-trakya', 'hali-alerjisi-ve-hijyen'],
+  },
+
+  {
+    slug: 'hatay-hali-yikama-yeniden-baslangic',
+    city: 'Hatay',
+    citySlug: 'hatay',
+    title: 'Hatay\'da Yeni Eve Taşınmak: Deprem Sonrası Yeni Başlangıçta Doğru Halı Bakımı',
+    metaTitle: 'Hatay Halı Yıkama 2026 | Yeni Ev Rehberi, İlk Yıkama Zamanı, İnşaat Tozu',
+    metaDescription: 'Hatay deprem sonrası yeni eve taşınanlar için halı bakım rehberi. İnşaat tozu temizliği, yeni halının ilk yıkama zamanı ve nem kontrolü.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 8,
+    heroEmoji: '🕌',
+    intro: '2023 depremi Hatay\'ı yıktı. Ama Hatay ayağa kalktı. Binlerce yeni konut inşa edildi, aileler yeni evlerine taşındı, yeni halılar serildi. Yeni başlangıç güzel ama yeni evin ve yeni halının kendine özgü bakım ihtiyaçları var. İnşaat tozu, beton kuruma nemi, yeni halının tüy dökme dönemi — bu yazıda Hatay\'da yeni eve taşınanların bilmesi gereken halı bakım bilgilerini paylaşıyoruz. Çünkü doğru bakım yeni başlangıcınızı uzun ömürlü kılar.',
+    sections: [
+      {
+        heading: 'Yeni Evin İlk 6 Ayı — Beton Nemi ve Halılar',
+        content: `Yeni inşa edilmiş bir bina 12-18 ay boyunca nem üretir. Beton ve sıva içindeki su yavaş yavaş buharlaşır. Bu nem evin içine yayılır — ve halılara ulaşır.
+
+**Zemin kat en riskli:**
+Yeni binanın zemin katına taşındıysanız, topraktan yükselen nem + beton nemi çift kaynaklı risk oluşturur. Halı altında yoğuşma olabilir — küf başlangıcı.
+
+**İlk 6 ay kuralları:**
+- Halı altına MUTLAKA kalın nem bariyeri koyun (5mm PE köpük veya XPS)
+- Halıyı 2 haftada bir kaldırıp altını kontrol edin — nemlenme var mı?
+- Ev içi nem ölçer kullanın — %60 üzeri alarm
+- Mümkünse ilk 6 ay halı yerine kilim veya washable halı kullanın
+- Havalandırmayı maksimumda tutun — pencereler açık, aspiratör çalışır
+
+**İnşaat tozu sorunu:**
+Yeni binalarda boya, alçı ve toz kalıntıları var. İlk taşınmada genel temizlik yapılsa bile ince toz halılara nüfuz eder. Taşınmadan 1 ay sonra profesyonel halı yıkama yaptırmak mantıklı — bu yıkama halının "normal kullanım" yıkamasından farklı, daha çok "inşaat temizliği" niteliğinde.
+
+[Hatay halı yıkama](/hatay-hali-yikama-firmalari) firmaları deprem sonrası yeni konut temizliği konusunda deneyim kazandı.`,
+      },
+      {
+        heading: 'Yeni Halının İlk Yıkama Zamanı — Çoğu İnsan Yanlış Biliyor',
+        content: `Yeni halı aldınız ve ilk gün güzel görünüyor. Ama birkaç hafta sonra halının üzerinde küçük tüyler, renkli lipler birikmeye başlıyor. Panik yapmayın — bu normal.
+
+**Tüy dökme dönemi (0-6 ay):**
+Yeni halılar ilk 3-6 ay boyunca doğal olarak tüy döker. Bu, üretim sırasında kesilmiş kısa liflerin serbest kalmasıdır. Her süpürme sonrası süpürge haznesinde tüy görmeniz normal.
+
+**Bu dönemde profesyonel yıkama YAPMAYIN:**
+İlk 6 ay profesyonel yıkama tüy dökme sürecini hızlandırır ve halıyı zayıflatabilir. Endüstriyel basınç henüz yerleşmemiş lifleri söker.
+
+**İlk profesyonel yıkama ne zaman?**
+- **Makine halısı:** 6-9 ay sonra
+- **Yün halı:** 9-12 ay sonra (doğal liflerin yerleşmesi daha uzun sürer)
+- **El dokuma:** 12+ ay sonra (usta firmaya danışın)
+
+**İstisna — İnşaat tozu:**
+Eğer yeni halıyı yeni inşaat evine serdiyseniz ve inşaat tozu bulaştıysa — bu farklı durum. İnşaat tozu halıya zarar verir, beklemeyin. Firmaya "yeni halı ama inşaat tozu var" diye belirtin — düşük basınçlı nazik program uygulasınlar.
+
+[Hatay halı yıkama](/hatay-hali-yikama-firmalari) firmalarına yeni halı ve inşaat tozu durumunuzu söyleyin.`,
+      },
+      {
+        heading: 'Hatay\'da Yeni Hayat — İklim Farkındalığı ile Halı Bakımı',
+        content: `Hatay Akdeniz ikliminde — sıcak, nemli ve yaz aylarında kurutma çok hızlı. Ama kışın yağışlı. Bu iklim bilgisiyle halı bakımınızı planlayın:
+
+**Akdeniz avantajı — Kışın bile ılık:**
+Hatay\'da kış İstanbul kadar soğuk değil. Gündüz sıcaklıkları Aralık\'ta bile 12-15°C. Yılın 10 ayı halı yıkamaya uygun — Ankara\'da bu süre 6 ay, Ağrı\'da 4 ay. Bu esneklik yeni ev sahipleri için büyük avantaj.
+
+**İskenderun vs Antakya:**
+İskenderun\'un demir-çelik fabrikaları havadaki partikülleri artırıyor. İskenderun\'da yaşıyorsanız yılda 2-3 kez yıkama gerekir. Antakya merkezde yılda 1-2 kez yeterli.
+
+**Deprem sonrası topluluk ruhu:**
+Hatay\'da deprem sonrası komşuluk bağları güçlendi. Bu bağı halı yıkamada da kullanın — apartmandaki 5-6 komşuyla aynı gün sipariş verin. Firma toplu gelir, ulaşım maliyeti bölünür, herkes %15-20 indirim alır.
+
+**8 firma yeni Hatay\'a hizmet veriyor:**
+Platform üzerinden [Hatay halı yıkama](/hatay-hali-yikama-firmalari) firmalarını karşılaştırın — Antakya, Defne, İskenderun ve çevre ilçelerde aktif firmalar mevcut.`,
+      },
+    ],
+    faq: [
+      { q: 'Yeni evde halı ne zaman yıkatılmalı?', a: 'İnşaat tozu varsa taşınmadan 1 ay sonra (düşük basınçlı). İnşaat tozu yoksa yeni halıyı ilk 6 ay yıkatmayın — tüy dökme dönemi.' },
+      { q: 'Yeni binanın nemi halıya zarar verir mi?', a: 'Evet. Beton 12-18 ay nem üretir. Zemin katta halı altına kalın nem bariyeri zorunlu, 2 haftada bir alt kontrol yapın.' },
+      { q: 'Hatay\'da halı yıkama yılın kaç ayı yapılabilir?', a: '10 ay — Akdeniz iklimi sayesinde sadece en yağışlı 2 ayda (Aralık-Ocak) dikkatli olun. Ankara\'da 6, Ağrı\'da 4 ay.' },
+    ],
+    relatedSlugs: ['hatay-hali-yikama', 'hatay-hali-yikama-liman-sehri', 'hali-yikama-firmasi-nasil-secilir'],
+  },
+
+  {
+    slug: 'manisa-hali-yikama-renk-bilimi',
+    city: 'Manisa',
+    citySlug: 'manisa',
+    title: 'Kula Halısındaki Kırmızının Sırrı: Doğal Boya ve Yıkama Biliminin Buluştuğu Yer',
+    metaTitle: 'Manisa Halı Yıkama 2026 | Kula Halısı Boya Bilimi, Renk Koruma, Doğal Boya Rehberi',
+    metaDescription: 'Manisa halı yıkama — Kula halısının doğal boya bilimi. Kök boya kırmızısı, indigo mavisi ve yıkamada renk korumanın kimyası.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 9,
+    heroEmoji: '🍇',
+    intro: 'Kula halısındaki o derin kırmızıyı gördüğünüzde bir bitkiye bakıyorsunuz: Rubia tinctorum — kök boya bitkisi. Bu bitkinin köklerinden çıkan alizarin pigmenti yün liflerine bağlanır ve yüzyıllarca solmaz. Ama bir şartla: yıkama sırasında pH dengesi korunmalı. Alkalin deterjan bu 200 yıllık kırmızıyı bir yıkamada yok edebilir. Bu yazıda doğal boyalı halıların yıkama bilimini, Kula ve Gördes geleneğinin korunmasını ve Manisa firmalarının bu konudaki uzmanlığını anlatıyoruz.',
+    sections: [
+      {
+        heading: 'Doğal Boya Kimyası — Renklerin Arkasındaki Bilim',
+        content: `Her Kula halısındaki renk bir bitkiden veya mineralden geliyor. Ve her rengin yıkama toleransı farklı:
+
+**Kırmızı — Kök Boya (Rubia tinctorum):**
+Alizarin molekülü yün lifindeki keratin proteinine bağlanır. Bu bağ güçlüdür — su ile çözülmez. Ama alkalin ortamda (pH 9+) bağ zayıflar ve pigment serbestleşir. Sonuç: renk solar veya akar. Korunma: nötr pH deterjan (6.5-7.5), 25°C altı su.
+
+**Mavi — İndigo:**
+İndigo pigmenti suya dirençlidir — yüzlerce yıl solmaz. Ama UV ışığına hassas. Güneşte kurutulan indigo boyalı halı zamanla solar. Korunma: gölge kurutma, doğrudan güneşten kaçınma.
+
+**Sarı — Soğan kabuğu veya Rezene:**
+En kırılgan doğal boya. 30°C üzeri suda erimeye başlar. Alkalin deterjan anında çözer. Korunma: 20-22°C soğuk su, ultra nazik deterjan, minimum temas süresi.
+
+**Yeşil — İndigo + Sarı üst üste:**
+İki katman boya demek iki katman hassasiyet. Önce sarı katman alkaline karşı korunmalı, sonra indigo katman UV\'ye karşı korunmalı. En zor yıkanan renk kombinasyonu.
+
+**Kahverengi — Ceviz kabuğu:**
+Nispeten dayanıklı. Su ve deterjana direnci yüksek. Ama klorlu su anında sarartır.
+
+Bu bilgileri bilen firmalar halıyı yıkamadan önce boya testi yapar ve programa göre ayarlar. [Manisa halı yıkama](/manisa-hali-yikama-firmalari) firmaları Kula ve Gördes halılarıyla yılların deneyimine sahip.`,
+      },
+      {
+        heading: 'Yıkamada Renk Korumanın 7 Altın Kuralı',
+        content: `Doğal boyalı değerli halınız varsa — ister Kula, ister Hereke, ister İran olsun — bu 7 kuralı bilin:
+
+**1. Boya testi zorunlu:**
+Yıkamadan önce halının kenarından görünmez bir noktaya nemli beyaz bez bastırılır. Boya geliyorsa — hassas program. Bu test 30 saniye sürer ama halınızın kaderini belirler.
+
+**2. pH 6.5-7.5 aralığında deterjan:**
+Alkalin deterjan (pH 9+) doğal boyaları çözer. Asidik deterjan (pH 4 altı) yün liflerini bozar. İdeal aralık: 6.5-7.5 — nötr. Ev tipi çamaşır deterjanları genellikle pH 9-10 — halıya uygun değil.
+
+**3. Su sıcaklığı 25°C altında:**
+Sarı ve kırmızı boyalar sıcağa hassas. 25°C altı su güvenli. 30°C üzeri riskli. 40°C felaket.
+
+**4. Minimum mekanik temas:**
+Fırçalamak, ovalamak, güçlü basınç — hepsi boya kaybına yol açar. Hafif basınçla, lif yönünde, kısa süreli temas.
+
+**5. Kısa ıslatma süresi:**
+Halıyı uzun süre suda bırakmamak gerekir. Doğal boyalar uzun süreli su temasında gevşer. Profesyonel firma hızlı yıkar, hızlı durular, hızlı sıkar.
+
+**6. 3 kez durulama:**
+Deterjan kalıntısı doğal boyaları yavaş yavaş çözer — yıkamadan sonra bile. 3 kez durulama kalıntıyı sıfıra indirir.
+
+**7. Gölge kurutma, düz zeminde:**
+Asılarak kurutma halıyı uzatır (ağırlığı ile). Güneşte kurutma renkleri soldurur. İdeal: düz zeminde, gölgede, hava akımı olan yerde.
+
+[Manisa halı yıkama](/manisa-hali-yikama-firmalari) firmaları bu 7 kuralı ezbere bilir — Kula ve Gördes halısı yıkamak günlük rutinleri.`,
+      },
+      {
+        heading: 'Evde Doğal Boyalı Halınızı Koruma Rehberi',
+        content: `Profesyonel yıkama yılda 1 kez yeterli — ama 365 gün boyunca halınızı korumanız sizin elinizde:
+
+**Güneşten kaçının:**
+Doğrudan güneş alan odaya doğal boyalı halı sermeyin. Kaçınılmazsa perde veya güneşlik kullanın. UV hasarı yavaş ama geri dönüşümsüz — 2-3 yılda belirgin solma yaşanır.
+
+**Nem dengesi:**
+Çok kuru ortam (%30 altı) yün liflerini kırılganlaştırır. Çok nemli ortam (%70 üzeri) küf riski yaratır. İdeal: %45-55. Manisa\'nın iklimi bu aralığa yakın — avantajınız var.
+
+**Doğru süpürge:**
+- Fırça kafası olan güçlü süpürge KULLANMAYIN — liflerden boya koparır
+- Emişli (fırçasız) başlık kullanın
+- Haftada 1 kez yeterli — daha sık süpürme lifleri aşındırır
+
+**Leke müdahalesi:**
+Doğal boyalı halıya dökülen sıvıya HEMEN müdahale:
+1. Beyaz bez ile bastırarak emin (RENKLI bez kullanmayın — boya transferi riski)
+2. Sadece soğuk su ile nemlendirin
+3. Asla ovalamayın, asla deterjan sürmeyin
+4. Kurumasını bekleyin
+5. Leke kaldıysa firmayı arayın
+
+**Depolama:**
+Halıyı kaldırırken naftalin KULLANMAYIN — kimyasal reaksiyon boyaları bozabilir. Asit-free kâğıda sarın, karanlık ve serin yerde saklayın. Lavanta poşeti güve kovucu olarak güvenli.
+
+Kula veya Gördes halınız sizden daha uzun yaşayabilir — doğru bakılırsa 100+ yıl dayanır. [Manisa halı yıkama](/manisa-hali-yikama-firmalari) firmaları bu mirası korumak için burada.`,
+      },
+    ],
+    faq: [
+      { q: 'Kula halısındaki kırmızı renk neden soluyor?', a: 'Doğal kök boyası alkalin deterjana (pH 9+) ve 30°C üzeri suya hassas. Yanlış yıkama veya doğrudan güneş renk solmasının iki ana sebebi.' },
+      { q: 'Doğal boyalı halı nasıl yıkanmalı?', a: 'Nötr pH deterjan (6.5-7.5), 25°C altı su, düşük basınç, kısa ıslatma, 3 kez durulama, gölge kurutma. Bu 7 kural rengi korur.' },
+      { q: 'Manisa\'da Kula halısı yıkatan firma var mı?', a: 'Evet. Manisa firmaları Kula ve Gördes halısı yıkama konusunda Türkiye\'nin en deneyimlileri — bu halılar günlük rutinleri.' },
+    ],
+    relatedSlugs: ['manisa-hali-yikama', 'manisa-hali-yikama-kula-halisi', 'hali-yikama-nasil-yapilir'],
+  },
+
+  {
+    slug: 'sivas-hali-yikama-kangal-kisi',
+    city: 'Sivas',
+    citySlug: 'sivas',
+    title: 'Sivas\'ta Kış 7 Ay Sürüyor: Halınız Bu Maratonu Nasıl Tamamlıyor?',
+    metaTitle: 'Sivas Halı Yıkama 2026 | 7 Aylık Kış Maratonu, Halı Hayatta Kalma Rehberi',
+    metaDescription: 'Sivas halı yıkama — 7 aylık kışta halı bakımı. Soba isi, kar suyu, kapalı ev nemi ve bahar temizliği stratejisi. Sivas halısı koruma rehberi.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 8,
+    heroEmoji: '🧶',
+    intro: 'Sivas\'ta kış Ekim\'de başlar, Nisan\'da biter. 7 ay. Bu süre boyunca evler kapalı, sobalar yanıyor, pencereler sıkı sıkıya örtülü. Halılar bu 7 ayda neler yaşıyor biliyor musunuz? Soba isi, kül partikülleri, yoğuşma nemi, kar suyuyla ıslanan ayakkabılar, kapalı ortamda biriken vücut nemi ve toz. Nisan geldiğinde halınız tanınmaz halde. Bu yazıda Sivas kışının halılara yaptıklarını ve bahar geldiğinde profesyonel yıkamanın neden zorunluluk olduğunu anlatıyoruz.',
+    sections: [
+      {
+        heading: 'Kışın 7 Ayında Halınıza Ne Oluyor?',
+        content: `Her ay ayrı bir hikâye:
+
+**Ekim:** Hava soğuyor, pencereler kapanmaya başlıyor. Halılar henüz temiz ama hava sirkülasyonu azalıyor. Toz birikimi hızlanıyor.
+
+**Kasım:** Sobalar yanıyor. Kömür veya odun sobası kullanan evlerde is ve kül partikülleri havaya yayılıyor. Bu partiküller halıya çöküyor — gri-siyah bir film tabakası oluşmaya başlıyor.
+
+**Aralık-Ocak:** Kışın en sert ayları. Sıcaklık -20°C altı. Ev tam kapalı, hava sirkülasyonu sıfır. İnsan vücudunun ürettiği nem (bir aile günde 6-8 litre su buharı üretir) evde hapsolur. Bu nem pencere kenarlarında yoğuşur, duvar diplerinde birikir — ve halılara geçer.
+
+**Şubat:** Soba isi birikimi 4. ayda. Halının rengi gözle görülür şekilde matlaşmış. Kar ayakkabılarıyla giriş çıkışlar halıyı ıslatıyor — ama ıslaklık fark edilmiyor çünkü soba sıcağında hemen kuruyor. Kuruyan kar suyu arkasında mineral iz bırakıyor.
+
+**Mart:** Hâlâ soğuk ama umut var. Halılar 5 aydır temizlenmemiş durumda. Altlarında nem birikmiş olabilir. İlk güneşli günde kaldırıp kontrol etmek şart.
+
+**Nisan:** Kurtuluş! Kar eriyor, güneş çıkıyor. Firmaları arayın — Sivas\'ın 3 firması bu ayda çok yoğun. Erken sipariş kritik.
+
+[Sivas halı yıkama](/sivas-hali-yikama-firmalari) firmalarına Mart\'ta sipariş verin — Nisan\'da sıra sizde olsun.`,
+      },
+      {
+        heading: 'Soba İsi ve Kül — Sivas\'a Özgü Halı Düşmanları',
+        content: `Sivas\'ta doğalgaz yaygınlaşsa da hâlâ birçok ev kömür veya odun sobasıyla ısınıyor. Bu sobaların halılara etkisi benzersiz:
+
+**Kömür isi:**
+Kömür yanarken karbon partikülleri havaya yayılır. Bu partiküller göze görünmez ama halıya çöker. 7 ay boyunca biriken karbon tabakası halının rengini bir ton koyulaştırır. Beyaz halınız gri, krem halınız kahverengi olur.
+
+**Odun kokusu:**
+Odun sobası evin içine tatlımsı ama kalıcı bir koku yayar. Halı lifleri bu kokuyu emer. Profesyonel yıkama + deodorant işlemi ile çıkar ama evde temizlenmesi imkânsız.
+
+**Kül düşmesi:**
+Soba temizlerken veya kül boşaltırken ince kül havaya saçılır. Bu kül alkali nitelikte — yün halının doğal yağını çözer ve lifleri kırılganlaştırır. Kül bulaşan bölgeyi hemen nemli bezle silin (ovalamayın).
+
+**Doğalgaz avantajı:**
+Doğalgazla ısınan evlerde bu sorunlar yok. Ama Sivas\'ın %30-40\'ı hâlâ soba kullanıyor — ve bu evlerin halıları ekstra bakıma muhtaç.
+
+**5.0 puanlı firma:**
+Sivas\'taki 3 firmadan biri 5.0 yıldız puan ve 39 siparişle dikkat çekiyor. Müşteriler halılarının "yeni gibi" döndüğünü söylüyor. Bu, soba isi ve 7 aylık kış kirliliğiyle başa çıkma konusundaki uzmanlığın kanıtı.
+
+[Sivas halı yıkama](/sivas-hali-yikama-firmalari) — kışın 7 ayını telafi edecek bahar yıkaması için.`,
+      },
+      {
+        heading: 'Dünyaca Ünlü Sivas Halısını Kıştan Koruma Rehberi',
+        content: `Sivas halısı UNESCO korumasında bir değer. Evinizde böyle bir halı varsa kış aylarında ekstra dikkatli olmalısınız:
+
+**Sobadan uzak tutun:**
+Sivas halısını sobaya 1 metreden yakın sermeyin. Doğrudan ısı yün liflerini kurutur, kırılganlaştırır ve doğal boya renklerini soldurur. Soba ile halı arasına yangına dayanıklı sac veya taş engel koyun.
+
+**Kül bulaşmasına karşı koruma:**
+Soba temizliği sırasında Sivas halısını katlayıp örtün veya odadan çıkarın. İnce kül alkali nitelikte — kök boyaları bozabilir.
+
+**Nem kontrolü:**
+Sivas\'ın kışında ev içi nem %50-65 arasında olabilir (kapalı ortam + insan nemi). Bu ideal gibi görünse de halı altında yoğuşma oluşabilir. Halıyı ayda 1 kaldırıp altını kontrol edin.
+
+**Sivas halısını kışın yıkatmayın:**
+Kapalı kurutma tesisi olsa bile kışın yıkatmak riskli. Nisan-Eylül arasında yıkatın. Kışın sadece haftalık süpürme + acil leke müdahalesi yapın.
+
+**Bahar geldiğinde:**
+İlk iş Sivas halınızı firmaya verin. 7 aylık is, kül ve nem birikimini profesyonel yıkamayla çıkarın. Firmaya "Sivas halısı, doğal boya" deyin — program buna göre ayarlansın.
+
+Bu halı sizin değil, Sivas\'ın mirası. Onu korumak sorumluluğunuz. [Sivas halı yıkama](/sivas-hali-yikama-firmalari) firmaları bu sorumluluğu sizinle paylaşıyor.`,
+      },
+    ],
+    faq: [
+      { q: 'Sivas\'ta 7 aylık kışta halı bakımı nasıl yapılır?', a: 'Haftalık süpürme, ayda 1 halı altı kontrol, soba yakınından uzak tutma, kül bulaşmasına karşı koruma. Nisan\'da profesyonel yıkama zorunlu.' },
+      { q: 'Soba isi halıdan çıkar mı?', a: 'Profesyonel yıkama ile evet. Karbon partikülleri alkalin deterjanla çözülür. Evde çıkarmak çok zor.' },
+      { q: 'Sivas halısını kışın yıkatabilir miyim?', a: 'Tavsiye edilmez. -20°C\'de taşıma ve kurutma riski çok yüksek. Nisan-Eylül arası yıkatın.' },
+    ],
+    relatedSlugs: ['sivas-hali-yikama', 'sivas-hali-yikama-dunyaca-unlu', 'hali-bakim-ipuclari'],
+  },
+
+  {
+    slug: 'van-hali-yikama-gol-kilimi',
+    city: 'Van',
+    citySlug: 'van',
+    title: 'Van Kilimini Yıkamak: Göçebe Geleneğinden Profesyonel Fabrikaya Uzanan Yolculuk',
+    metaTitle: 'Van Halı Yıkama 2026 | Van Kilimi Tarihi, Göçebe Yıkama Yöntemi, Modern Bakım',
+    metaDescription: 'Van halı yıkama — Van kiliminin tarihi ve modern bakımı. Göçebelerin yıkama yöntemi, düz dokuma hassasiyeti ve Van Gölü tuzlu suyunun etkisi.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 8,
+    heroEmoji: '🐱',
+    intro: 'Yüzyıllar önce Van\'ın göçebe Kürt ve Türkmen aşiretleri kilimlerini yaylada, dere kenarında yıkardı. Soğuk dere suyu, doğal sabun otu ve güneşte kurutma — doğanın sunduğu basit ama etkili bir yöntemdi. Bugün profesyonel fabrikalar aynı işi endüstriyel makinelerle yapıyor. Ama Van kiliminin hassasiyeti değişmedi: düz dokuma, doğal boya, ince yün lif. Bu yazıda gelenekten moderne uzanan Van kilimi bakım hikâyesini anlatıyoruz.',
+    sections: [
+      {
+        heading: 'Van Kiliminin Anatomisi — Neden Halıdan Farklı?',
+        content: `Van kilimi ve düğümlü halı tamamen farklı yaratıklar. Bu farkı anlamak doğru bakımın anahtarı:
+
+**Düz dokuma vs düğümlü dokuma:**
+Halılarda lif düğümlerle tezgâha bağlanır — bu düğümler dayanıklılık sağlar. Kilimde düğüm yok — atkı ve çözgü iplikleri birbirine geçerek düz yüzey oluşturur. Sonuç: kilim halıdan daha ince, daha hafif ama mekanik strese daha hassas.
+
+**Yıkama farkı:**
+- Halı 40-60 bar basınca dayanır. Kilim 10-15 bar\'dan fazlasıyla yırtılabilir.
+- Halıyı santrifüjle sıkabilirsiniz. Kilimi santrifüj büker ve deforme eder — elle sıkma veya düşük devirli santrifüj gerekir.
+- Halı asılarak kurutulabilir. Kilim asılırsa kendi ağırlığıyla uzar — düz zeminde kurutulmalı.
+
+**Van kiliminin kendine has özellikleri:**
+- Geometrik motifler: Koç boynuzu, eli belinde, göz — her motifin anlamı var
+- Slit (yarık) tekniği: Farklı renklerin buluştuğu yerlerde kasıtlı boşluklar var — bu boşluklar yıkamada dikkat gerektirir
+- Doğal boyalar: Kırmızı (kök boya), mavi (indigo), sarı (soğan kabuğu) — pH hassasiyeti yüksek
+
+[Van halı yıkama](/van-hali-yikama-firmalari) firması düz dokuma hassasiyetini bilerek çalışıyor.`,
+      },
+      {
+        heading: 'Göçebelerin Dere Suyu Yöntemi vs Modern Fabrika',
+        content: `Van\'ın göçebe aşiretleri yüzyıllarca kilimlerini yayla derelerinde yıkadı. Bu yöntem ilkel görünse de kimyasal açıdan doğruydu:
+
+**Dere suyu avantajları:**
+- Soğuk su (8-12°C): Doğal boyaları korur
+- Yumuşak su (düşük mineral): Lif yapısına zarar vermez
+- Sabun otu (Saponaria): Doğal, nötr pH surfaktan — modern nötr deterjanın atası
+- Akan su: Sürekli durulama — deterjan kalıntısı kalmaz
+- Güneşte düz zeminde kurutma: UV dezenfeksiyon + doğal kurutma
+
+**Modern fabrika ne ekliyor?**
+- Kontrollü su sıcaklığı (tam 22°C ayarlanabiliyor)
+- Standart basınç (düz dokumaya uygun 10-15 bar)
+- Profesyonel nötr deterjan (sabun otunun modern eşdeğeri)
+- Kapalı kurutma imkânı (Van\'ın 7 aylık kışında dere kenarı yıkama imkânsız)
+- Anti-küf ve anti-akar işlem (doğada yok)
+
+**Kaybedilen şey:**
+Akan dere suyunun sonsuz durulama kapasitesi. Fabrikada 2-3 kez durulama yapılır — yeterli ama dere kadar mükemmel değil. İyi firmalar bu farkı 3. durulama ekleyerek kapatır.
+
+**Van Gölü suyu sorunu:**
+Van Gölü dünyanın en büyük soda gölü — suyu alkali (pH 9.8). Bu suyla halı yıkamak felakettir — boyaları çözer. Firmalar şehir şebeke suyu kullanır, göl suyu kesinlikle kullanılmaz.
+
+[Van halı yıkama](/van-hali-yikama-firmalari) — geleneğin modern devamı.`,
+      },
+      {
+        heading: 'Van Kiliminizi Evde Koruma Rehberi',
+        content: `Van kilimi ince ve hassas. Günlük kullanımda dikkat etmeniz gerekenler:
+
+**Yere serme kuralları:**
+- Kilim altına keçe veya kaymaz taban koyun — ince yapısı kayma riski taşır
+- Ağır mobilya koymayın — kilim halı gibi dayanıklı değil, ezilme izi kalıcı
+- Yoğun trafik alanına (koridor, giriş) sermeyin — ince yapı hızla yıpranır
+- İdeal kullanım: duvar süsü, sedir üstü, misafir odası
+
+**Süpürme dikkatli:**
+- Elektrikli süpürge fırça kafası kilimdeki slit (yarık) boşluklarına takılıp yırtabilir
+- Emişli (fırçasız) başlık kullanın veya halı silkeleyici ile silkeleyin
+- Geleneksel yöntem hâlâ en iyisi: kilimi ters çevirip arkadan hafifçe vurun — toz düşer
+
+**Leke — Acil durum:**
+Kilime dökülen sıvıya İLK 30 SANİYEDE müdahale edin. Düz dokuma sıvıyı hızla emer — halıda yüzeyde kalan sıvı kilimde anında tüm kalınlığa yayılır. Beyaz bez + soğuk su + bastırma (ovalama YASAK).
+
+**Güve koruması:**
+Van kilimi %100 yün — güvenin en sevdiği malzeme. Kaldırılmış kilimlerin yanına lavanta poşeti koyun. Naftalin kullanmayın — kimyasal koku yüne sinir.
+
+**Profesyonel yıkama sıklığı:**
+Yılda 1 kez yeterli. Daha sık yıkama ince yapıyı yıpratır. Yıkama zamanı: Haziran-Ağustos (Van\'ın kuru ayları).
+
+[Van halı yıkama](/van-hali-yikama-firmalari) — Van kiliminin güvenli ellerde olduğunu bilin.`,
+      },
+    ],
+    faq: [
+      { q: 'Van kilimi nasıl yıkanır?', a: 'Düşük basınç (10-15 bar), nötr pH deterjan, 22°C soğuk su, düz zeminde gölge kurutma. Asılarak kurutma kılımı uzatır.' },
+      { q: 'Van Gölü suyu ile halı yıkanır mı?', a: 'ASLA. Van Gölü suyu alkali (pH 9.8) — doğal boyaları çözer. Firmalar şehir şebeke suyu kullanır.' },
+      { q: 'Van kilimi yılda kaç kez yıkatılmalı?', a: 'Yılda 1 kez yeterli. Daha sık yıkama ince düz dokumayı yıpratır. Haziran-Ağustos ideal dönem.' },
+    ],
+    relatedSlugs: ['van-hali-yikama', 'van-hali-yikama-kilim-mirasi', 'hali-yikama-nasil-yapilir'],
+  },
+
+  {
+    slug: 'rize-hali-yikama-hayatta-kalma',
+    city: 'Rize',
+    citySlug: 'rize',
+    title: 'Rize\'de Halı Sahibi Olmanın Bedeli: Türkiye\'nin En Pahalı Yıllık Bakım Maliyeti',
+    metaTitle: 'Rize Halı Yıkama 2026 | Yıllık Maliyet Analizi, Alternatif Zemin, Tasarruf Rehberi',
+    metaDescription: 'Rize halı yıkama — yıllık 6.000 TL bakım maliyetinin analizi. Halı mı zemin mi tartışması, nem dirençli alternatifler ve maliyet azaltma stratejileri.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 8,
+    heroEmoji: '🍵',
+    intro: 'Rize\'de standart bir ev halısının yıllık bakım maliyetini hesaplayalım: 15 m² salon halısı × 75 TL/m² × 4 kez yıkama = 4.500 TL. Buna 2 yatak odası halısı, koridor halısı ve mutfak önü kilim ekleyin — yıllık halı yıkama faturası 6.000-7.000 TL. Bu rakam Ankara\'da yaşayan birinin 5-6 katı. Rize\'de halı sahibi olmak pahalı bir hobi. Bu yazıda bu maliyetin neden bu kadar yüksek olduğunu, azaltma stratejilerini ve belki de sormamız gereken soruyu tartışıyoruz: Rize\'de halı kullanmak mantıklı mı?',
+    sections: [
+      {
+        heading: 'Rize\'nin Halı Maliyeti Haritası — Rakamlar Konuşuyor',
+        content: `Rize\'de yaşayan 4 kişilik bir aile için yıllık halı bakım maliyeti:
+
+| Halı/Konum | m² | Fiyat/m² | Yıllık Yıkama | Toplam |
+|------------|-----|---------|--------------|--------|
+| Salon halısı | 15 | 75 TL | 4 kez | 4.500 TL |
+| Yatak odası 1 | 10 | 75 TL | 3 kez | 2.250 TL |
+| Yatak odası 2 | 8 | 75 TL | 2 kez | 1.200 TL |
+| Koridor | 4 | 75 TL | 4 kez | 1.200 TL |
+| Mutfak önü kilim | 2 | 75 TL | 4 kez | 600 TL |
+| **Toplam** | **39 m²** | | | **9.750 TL** |
+
+**Karşılaştırma:**
+| Şehir | Aynı 39 m² Halı | Yıllık Yıkama | Toplam |
+|-------|-----------------|--------------|--------|
+| Ankara | 39 × 80 TL × 1 kez | 3.120 TL | 3.120 TL |
+| İstanbul | 39 × 100 TL × 2 kez | 7.800 TL | 7.800 TL |
+| Konya | 39 × 60 TL × 1 kez | 2.340 TL | 2.340 TL |
+| **Rize** | **39 × 75 TL × 3.5 kez ort.** | **10.238 TL** | **10.238 TL** |
+
+Birim fiyat ucuz (75 TL) ama sıklık yüksek (3-4 kez). Sonuç: Rize\'de yıllık halı bakım maliyeti Konya\'nın 4 katı, İstanbul\'un bile üzerinde.
+
+Yine de [Rize halı yıkama](/rize-hali-yikama-firmalari) firmaları bu maliyeti düşürmenize yardımcı olabilir — toplu sipariş ve yıllık anlaşma seçeneklerini sorun.`,
+      },
+      {
+        heading: 'Sorulması Gereken Soru: Rize\'de Halı Kullanmak Mantıklı mı?',
+        content: `Bu provokatif bir soru — ama sorulması gerekiyor. %85+ nemde, yılda 2.300 mm yağışla halı kullanmak her zaman mantıklı mı?
+
+**Halı yerine alternatifler:**
+
+| Zemin Türü | İlk Maliyet | Yıllık Bakım | 5 Yıl Toplam | Rize Uygunluğu |
+|-----------|------------|-------------|-------------|---------------|
+| Halı (polyester) | 2.000 TL | 9.750 TL | 50.750 TL | Orta (nem çeker) |
+| Laminat parke | 5.000 TL | 500 TL | 7.500 TL | İyi (nem direnci var) |
+| Seramik | 8.000 TL | 200 TL | 9.000 TL | Mükemmel (nem etkilemez) |
+| Vinil/LVT | 6.000 TL | 300 TL | 7.500 TL | Çok iyi (su geçirmez) |
+
+**5 yılda halı 50.750 TL, seramik 9.000 TL.**
+
+**Ama halıyı seviyorsak?**
+Halı sıcaklık, konfor ve estetik sağlar. Sert zemin soğuk ve sert. Özellikle kış aylarında yere oturan, çocukları yerde oynayan aileler için halı konfor demek.
+
+**Uzlaşma çözümü — Hibrit yaklaşım:**
+1. Koridor, mutfak, banyo → seramik veya vinil (halı kullanmayın)
+2. Salon ve yatak odası → washable halı veya polipropilen halı (nem emmez, sık yıkanabilir)
+3. Misafir odası → değerli halı (az kullanılır, yılda 1 yıkama yeter)
+
+Bu stratejiyle yıllık maliyet %50-60 düşer.
+
+[Rize halı yıkama](/rize-hali-yikama-firmalari) — halılarınızı korumak istiyorsanız firmalar burada.`,
+      },
+      {
+        heading: 'Rize\'de Halı Yıkama Maliyetini Düşürmenin 5 Stratejisi',
+        content: `Halıyı tamamen bırakmak istemiyorsanız maliyeti azaltmanın yolları:
+
+**1. Polipropilen halı kullanın:**
+Nem emmez, toz akarı barındırmaz, hızlı kurur. Yılda 2 kez yıkama yeterli (yün halıda 3-4 kez). 5 yıllık tasarruf: %30-40.
+
+**2. Yıllık anlaşma yapın:**
+Firmaya "yılda 4 kez geleceğim, yıllık anlaşma yapalım" deyin. %15-20 indirim alırsınız. 3 firmadan teklif alıp en uygununu seçin.
+
+**3. Komşularla organize olun:**
+Apartmanda 5-6 komşuyla aynı gün sipariş verirseniz firma toplu gelir — ulaşım maliyeti bölünür, fiyat %10-15 düşer.
+
+**4. Mevsim stratejisi:**
+4 yıkamayı eşit aralıklarla değil, stratejik yapın:
+- Nisan: Kış kirliliği temizliği (zorunlu)
+- Temmuz: Yaz ortası yıkama (kuru hava, hızlı kurutma — en ucuz dönem)
+- Ekim: Kışa hazırlık (zorunlu)
+- Ocak\'ı atlayın: Kışın yıkatmak hem riskli hem pahalı (kapalı kurutma enerji maliyeti)
+Yılda 3 keze düşürmek %25 tasarruf sağlar.
+
+**5. Küçük halıları evde yıkayın:**
+Mutfak önü kilimi, banyo paspası gibi 1-2 m²\'lik parçaları çamaşır makinesinde yıkayın (30°C, nazik program). Profesyonel firmaya sadece büyük halıları verin.
+
+[Rize halı yıkama](/rize-hali-yikama-firmalari) — 3 firmadan yıllık anlaşma teklifi alın.`,
+      },
+    ],
+    faq: [
+      { q: 'Rize\'de halı yıkama yıllık ne tutar?', a: 'Standart ev (39 m² halı) için yılda 3-4 kez yıkamayla 6.000-10.000 TL. Konya\'nın 4 katı, İstanbul\'un üzerinde.' },
+      { q: 'Rize\'de halı yerine ne kullanılır?', a: 'Koridor ve mutfakta seramik/vinil, salon ve yatak odasında polipropilen (nem emmez) halı. Hibrit yaklaşım maliyeti %50 düşürür.' },
+      { q: 'Rize\'de halı yıkama maliyetini nasıl düşürürüm?', a: 'Polipropilen halı, yıllık anlaşma, komşu organizasyonu ve mevsim stratejisi ile %30-50 tasarruf mümkün.' },
+    ],
+    relatedSlugs: ['rize-hali-yikama', 'rize-hali-yikama-en-yagisli', 'hali-yikama-fiyatlari'],
+  },
+
+  {
+    slug: 'afyonkarahisar-hali-yikama-termal-hijyen',
+    city: 'Afyonkarahisar',
+    citySlug: 'afyonkarahisar',
+    title: 'Afyon\'da Termal Oteller Halılarını Nasıl Yıkatıyor? Hijyen Standardının Ev Müşterisine Etkisi',
+    metaTitle: 'Afyonkarahisar Halı Yıkama 2026 | Termal Otel Hijyeni, Mermer Tozu, Premium Kalite',
+    metaDescription: 'Afyonkarahisar halı yıkama — termal otel hijyen standardı. Sağlık turizmi halı temizliği, mermer ocağı tozu ve ev müşterisine yansıyan kalite.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 7,
+    heroEmoji: '♨️',
+    intro: 'Afyonkarahisar\'ın termal otelleri sağlık turizmi için geliyor — romatizma, cilt hastalıkları, solunum sorunları. Bu otellerin müşterileri zaten sağlık sorunu olan insanlar. Ve onların bastığı halıların hijyen standardı bir ev halısından çok daha yüksek olmak zorunda. Bu zorunluluk Afyon\'daki halı yıkama firmalarını olağanüstü bir hijyen bilincine taşımış. Ve bu bilinç ev müşterisine de yansıyor — siz sıradan bir salon halısı yıkatırken otel hijyeni standardında hizmet alıyorsunuz.',
+    sections: [
+      {
+        heading: 'Termal Otel Halısı — Neden Standart Otel Halısından Farklı?',
+        content: `Antalya\'daki bir tatil otelinin halısı ile Afyon\'daki bir termal otelin halısı arasında kritik fark var:
+
+**Müşteri profili:**
+- Antalya oteli: Sağlıklı turistler, plaj-havuz-eğlence
+- Afyon termal: Hasta veya sağlık sorunu olan insanlar — alerji, astım, romatizma, cilt hastalığı
+
+**Hijyen beklentisi:**
+Sağlık turizmi müşterisi halıdaki toz akarına, bakteriye ve alerjene karşı ekstra hassas. Bir astım hastası, akar yüklü halının olduğu odada kriz geçirebilir. Bu nedenle termal oteller halılarını çok daha sık ve çok daha titiz yıkatıyor.
+
+**Sıklık farkı:**
+- Standart otel: Aylık yıkama
+- Termal otel: 2 haftada bir yıkama + günlük anti-bakteriyel sprey
+
+**Firmaya etkisi:**
+Afyon\'daki firmalar bu yüksek standarda alışmış. Anti-alerjen yıkama, anti-bakteriyel işlem ve hijyen sertifikası konusunda deneyimliler. Ev müşterisi olarak siz de bu standartta hizmet alabilirsiniz — özellikle evinizde alerji hastası varsa.
+
+[Afyonkarahisar halı yıkama](/afyonkarahisar-hali-yikama-firmalari) firmalarının termal otel deneyimi, eviniz için premium kalite garantisi.`,
+      },
+      {
+        heading: 'Mermer Ocağından Eve — Afyon\'un İkinci Toz Kaynağı',
+        content: `Afyon Türkiye\'nin en büyük mermer üretim merkezlerinden biri. İscehisar ilçesindeki mermer ocakları yılda binlerce ton mermer çıkarıyor. Ve bu üretimin yan etkisi: mermer tozu.
+
+**Mermer tozu kalsiyum karbonat:**
+Normal ev tozu organik (deri pulcukları, lif, yemek) ve hafif. Mermer tozu ise mineral — kalsiyum karbonat kristalleri. Bu kristaller:
+- Halı liflerini mikro düzeyde çizer (zımpara etkisi)
+- Alkalin nitelikte — yün halının doğal yağını çözer
+- Beyaz-gri film tabakası oluşturur — halının rengini matlaştırır
+- Islak halde çamurlaşır ve yapışır — kuruduktan sonra çıkarması zor
+
+**Etki alanı:**
+İscehisar merkez: Çok yüksek etki
+Afyon merkez: Orta etki (rüzgâr yönüne bağlı)
+Sandıklı, Bolvadin: Düşük etki
+
+**Mermer tozu temizliği:**
+Normal deterjan yetmez — hafif asidik durulama (sirke bazlı) kalsiyum karbonatı çözer. Profesyonel firmalar bunu bilir ve son durulamada pH ayarı yapar.
+
+Mermer bölgesine yakın yaşıyorsanız yılda 2-3 kez profesyonel yıkama gerekir.
+
+[Afyonkarahisar halı yıkama](/afyonkarahisar-hali-yikama-firmalari) — termal hijyen + mermer tozu uzmanlığı.`,
+      },
+    ],
+    faq: [
+      { q: 'Afyon\'da termal otel kalitesinde halı yıkama alabilir miyim?', a: 'Evet. Firmalar termal otel hijyen standardıyla çalışıyor. Anti-alerjen ve anti-bakteriyel işlem talep edebilirsiniz.' },
+      { q: 'Mermer tozu halıya zarar verir mi?', a: 'Evet. Kalsiyum karbonat kristalleri lifleri çizer, matlaştırır ve alkalin yapısıyla yün halının doğal yağını çözer. Profesyonel yıkama gerekir.' },
+      { q: 'Afyon\'da alerji hastası için halı yıkama hizmeti var mı?', a: 'Evet. Termal otel deneyimli firmalar anti-alerjen yıkama ve anti-akar işlem sunuyor.' },
+    ],
+    relatedSlugs: ['afyonkarahisar-hali-yikama', 'afyonkarahisar-hali-yikama-termal', 'hali-alerjisi-ve-hijyen'],
+  },
+
   ...cityGuides,
 ];
 
