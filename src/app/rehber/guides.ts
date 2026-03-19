@@ -4558,6 +4558,475 @@ Firma Diyadin, Eleşkirt, Hamur ve Taşlıçay\'da da aktif. Doğubayazıt (100 
     relatedSlugs: ['agri-hali-yikama', 'hali-yikama-fiyatlari', 'van-hali-yikama-kilim-mirasi'],
   },
 
+  {
+    slug: 'artvin-hali-yikama-yesil-vadi',
+    city: 'Artvin',
+    citySlug: 'artvin',
+    title: 'Artvin\'de Halı Yıkama: Türkiye\'nin En Dik Şehrinde Halıları Kim Taşıyacak?',
+    metaTitle: 'Artvin Halı Yıkama 2026 | Gerçek Fiyatlar, Dik Yamaç Lojistiği, Karadeniz Nemi',
+    metaDescription: 'Artvin halı yıkama rehberi. Türkiye\'nin en engebeli şehrinde halı toplama lojistiği, 100-150 TL/m² fiyatlar ve yağışlı iklim stratejisi.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 7,
+    heroEmoji: '🌲',
+    intro: 'Artvin\'i bilmeyenler için bir resim çizelim: şehir merkezi %30-40 eğimli bir yamaca kurulu. Sokaklar merdiven, evler birbirinin çatısı üstünde. Bir halı yıkama firması bu şehirde halı toplamak için sadece araç değil, bacak kası da kullanmak zorunda. 12 farklı mahallede aktif olan tek firma, bu zorlu coğrafyada 100 TL/m²\'den başlayan fiyatlarla profesyonel hizmet veriyor. Ama Artvin\'in asıl hikâyesi coğrafya değil — Karadeniz\'in en yeşil köşesindeki nemle mücadele.',
+    sections: [
+      {
+        heading: 'Artvin\'in Coğrafyası Halı Yıkamayı Nasıl Etkiliyor?',
+        content: `Artvin\'de düz arazi neredeyse yok. Evler yamaçlara yapışmış, sokaklar dik ve dar. Bu coğrafya halı yıkama firması için benzersiz zorluklar yaratıyor:
+
+**Halı toplama lojistiği:**
+İstanbul\'da firma kapınıza minibüsle gelir, halıları yükler, gider. Artvin\'de çoğu sokağa araç giremez. Firma personeli halıları sırtında veya el arabasıyla aracın ulaşabildiği noktaya taşımak zorunda. Bu ekstra emek maliyete yansıyor — Artvin fiyatları Karadeniz ortalamasının biraz üzerinde.
+
+**12 mahallede hizmet:**
+Firma Alt Haypet\'ten Üst Haypet\'e, Çarşı İçi\'nden İskebe\'ye kadar 12 mahallede aktif. Bu kapsam Artvin merkezinin tamamını kaplıyor. Ama Yusufeli, Şavşat gibi uzak ilçeler kapsam dışı — bu ilçeler zaten Artvin merkezine 100+ km uzakta.
+
+**Şavşat ve Yusufeli sakinleri için:**
+Bu ilçelerde yerel firma yok. Artvin merkezindeki firmadan hizmet almak pratik değil — mesafe, yol durumu ve coğrafi engeller çok fazla. Trabzon firmalarını da değerlendirmekte fayda var.
+
+[Artvin halı yıkama](/artvin-hali-yikama-firmalari) — 12 mahallede hizmet veren firmanın detaylarını inceleyin.`,
+      },
+      {
+        heading: 'Artvin Halı Yıkama Fiyatları ve Karadeniz Nem Stratejisi',
+        content: `Artvin firmasının detaylı fiyat listesi:
+
+| Halı Türü | Fiyat (TL/m²) |
+|-----------|---------------|
+| İndirimli | 100 |
+| Makine Halısı | 120 |
+| Eski Yün | 125 |
+| Şaggy Halı | 135 |
+| Akrilik Halı | 140 |
+| Yeni Yün / Bambu | 150 |
+
+**Diğer hizmetler:**
+- Sandalye: 200 TL / Koltuk takımı: 1.000 TL
+- Battaniye: 300 TL / Pamuk yorgan: 350 TL / Yün yorgan: 400 TL
+- Stor perde: 100 TL / Çiftli stor: 120 TL/adet
+- Overlok: 100 TL/metre
+
+**"İndirimli" 100 TL ve "Makine" 120 TL farkı:**
+Firma iki makine halısı fiyatı sunuyor. 100 TL\'lik muhtemelen küçük boyutlu veya toplu sipariş fiyatı. Sipariş öncesi hangi kategoriye düştüğünüzü sorun.
+
+**"Eski Yün" kategorisi:**
+Bu kategori ilginç — firma eski ve yeni yün halıyı ayrı fiyatlandırıyor (125 vs 150 TL). Eski yün halılar daha hassas olduğundan farklı program gerektiriyor ve firma bunu biliyor.
+
+**Nem gerçeği:**
+Artvin\'in nem oranı %75-85. Yusufeli barajı yapıldıktan sonra vadi iklimi değişti — bazı bölgelerde nem daha da arttı. Yılda en az 2 kez profesyonel yıkama gerekiyor. Kapalı kurutma tesisi burada zorunluluk — yılın 250+ günü yağışlı veya bulutlu.
+
+[Artvin halı yıkama](/artvin-hali-yikama-firmalari) — Karadeniz\'in en yeşil köşesinde profesyonel hizmet.`,
+      },
+    ],
+    faq: [
+      { q: 'Artvin\'de halı yıkama kaç TL 2026?', a: 'Makine halısı 100-120 TL/m², yün 125-150 TL/m². Karadeniz ortalamasının biraz üzerinde — dik yamaç lojistiği maliyete yansıyor.' },
+      { q: 'Şavşat\'a halı yıkama firması geliyor mu?', a: 'Artvin merkezindeki firma 12 mahallede aktif ama Şavşat 130 km uzakta. Trabzon firmalarını da değerlendirin.' },
+      { q: 'Artvin\'de halı kaç kez yıkatılmalı?', a: '%75-85 nemde yılda en az 2 kez. Kapalı kurutma tesisi zorunlu — açık hava kurutma yılın büyük bölümünde imkânsız.' },
+    ],
+    relatedSlugs: ['artvin-hali-yikama', 'hali-yikama-fiyatlari', 'trabzon-hali-yikama-yagmur-sehri'],
+  },
+
+  {
+    slug: 'bartin-hali-yikama-amasra',
+    city: 'Bartın',
+    citySlug: 'bartin',
+    title: 'Bartın Halı Yıkama: Amasra\'nın Tatil Evlerinden Merkezdeki Ahşap Konaklara',
+    metaTitle: 'Bartın Halı Yıkama 2026 | Gerçek Fiyatlar, Amasra Turizm, Orman Nemi Rehberi',
+    metaDescription: 'Bartın halı yıkama rehberi. 100 TL/m² fiyatlar, Amasra yazlık ev temizliği, yatak pedi yıkama hizmeti ve Batı Karadeniz nem stratejisi.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 6,
+    heroEmoji: '🪵',
+    intro: 'Bartın denilince akla Amasra gelir — Karadeniz\'in en güzel koylarından biri. Her yaz binlerce turist akın eder, tatil evleri sezon için hazırlanır. Ama Bartın sadece Amasra değil. 195.000 nüfuslu bu şehrin merkezinde ahşap konaklar, orman nemi ve Batı Karadeniz\'in yağışlı iklimi var. Tek aktif firma TOKİ\'den Ulus\'a kadar 10 bölgede hizmet veriyor ve yatak pedi yıkama gibi sıra dışı hizmetler de sunuyor.',
+    sections: [
+      {
+        heading: 'Bartın Halı Yıkama Fiyatları — Yatak Pedi Dahil',
+        content: `Bartın\'daki firmanın fiyat listesi kompakt ama ihtiyaca uygun:
+
+| Hizmet | Fiyat |
+|--------|-------|
+| Makine Halısı | 100 TL/m² |
+| Şaggy Halı | 110 TL/m² |
+| Kilim | 300 TL/adet |
+| Küçük battaniye | 200 TL |
+| Küçük yorgan | 250 TL |
+| Battaniye | 300 TL |
+| Elyaf / Yün yorgan | 400 TL |
+| Stor perde | 110 TL/adet |
+| Tek kişilik yatak | 100 TL/m² |
+| Çift kişilik yatak | 200 TL/m² |
+| **Yatak pedi** | **500 TL/adet** |
+
+**Yatak pedi yıkama:**
+Bu hizmet nadir. Modern yatakların üzerine konulan yatak pedleri zamanla ter, toz akarı ve bakteri biriktiriyor. Çamaşır makinesine sığmayan bu pedleri profesyonel firma yıkayabiliyor.
+
+**Amasra yazlık ev stratejisi:**
+Amasra firmanın hizmet bölgesinde. Sezon başında (Mayıs-Haziran) yazlık evinizin halılarını + yorganlarını + yatak pedlerini birlikte yıkatarak toplu indirim alabilirsiniz.
+
+[Bartın halı yıkama](/bartin-hali-yikama-firmalari) — Amasra dahil 10 bölgedeki hizmet alanını inceleyin.`,
+      },
+      {
+        heading: 'Bartın\'da Orman Nemi ve Batı Karadeniz İklimi',
+        content: `Bartın, Küre Dağları Milli Parkı\'nın kenarında. Şehrin etrafı sık ormanlarla çevrili — bu yeşillik güzel ama halılar için zorlayıcı.
+
+**Orman nemi:**
+Ağaçların transpirasyonu (su buharı salması) çevredeki havayı nemlendirir. Bartın\'ın nem oranı %70-80 — Doğu Karadeniz kadar yüksek olmasa da halılar için risk oluşturuyor. Yılda 2 kez profesyonel yıkama önerilir.
+
+**Ahşap konak sorunu:**
+Bartın merkezdeki tarihi ahşap evlerde zemin nemi yüksek. Halı altı küf riski ciddi. Nem bariyeri kullanımı ve düzenli havalandırma zorunlu.
+
+**Amasra\'nın deniz tuzu etkisi:**
+Sahile yakın evlerde deniz tuzu halı liflerini sertleştiriyor. Yılda 2-3 kez yıkama ile tuz birikimi kontrol altında tutulabilir.
+
+**En iyi dönem:** Temmuz-Ağustos. Yılın en kuru ayları — ama Amasra turizm sezonu da bu dönem, firmalar yoğun.
+
+**Alternatif zamanlama:** Mayıs başı veya Eylül sonu. Firma daha müsait, fiyatlar sabit.
+
+[Bartın halı yıkama](/bartin-hali-yikama-firmalari) — Abdipasa, Ağaköy, TOKİ ve Ulus bölgelerinde hizmet mevcut.`,
+      },
+    ],
+    faq: [
+      { q: 'Bartın\'da halı yıkama kaç TL 2026?', a: 'Makine halısı 100 TL/m², şaggy 110, kilim 300 TL/adet. Yatak pedi yıkama 500 TL gibi özel hizmetler de var.' },
+      { q: 'Amasra\'da yazlık evimin halılarını yıkatabilir miyim?', a: 'Evet, firma Amasra bölgesinde aktif. Sezon başında toplu sipariş (halı + yorgan + yatak pedi) ile indirim alabilirsiniz.' },
+      { q: 'Bartın\'da halı kaç kez yıkatılmalı?', a: 'Orman neminin etkisiyle yılda 2 kez. Amasra sahilinde deniz tuzu etkisi de ekleniyor — orada 2-3 kez önerilir.' },
+    ],
+    relatedSlugs: ['bartin-hali-yikama', 'hali-yikama-fiyatlari', 'zonguldak-hali-yikama-maden'],
+  },
+
+  {
+    slug: 'amasya-hali-yikama-sehzadeler',
+    city: 'Amasya',
+    citySlug: 'amasya',
+    title: 'Amasya Halı Yıkama: Yeşilırmak Vadisindeki Şehzade Şehrinde 3 Firma',
+    metaTitle: 'Amasya Halı Yıkama 2026 | 3 Firma, Nehir Nemi, Gerçek Fiyatlar',
+    metaDescription: 'Amasya halı yıkama rehberi. 3 firma, Yeşilırmak vadisinin nem etkisi, Suluova-Merzifon hizmet ağı ve elma bahçesi tozu.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 6,
+    heroEmoji: '👑',
+    intro: 'Amasya\'yı görenler unutamaz — Yeşilırmak\'ın iki yakasına dizilmiş Osmanlı konakları, kayalara oyulmuş kral mezarları ve tepeden bakan kale. Bu güzel manzaranın altında bir gerçek yatıyor: vadi şehirlerinde hava dolaşımı kısıtlıdır ve nem birikir. Yeşilırmak\'ın buharlaşması çevredeki evlerin nem oranını artırıyor. 3 aktif firma bu vadinin halılarına bakıyor.',
+    sections: [
+      {
+        heading: 'Yeşilırmak Vadisinin Nem Tuzağı',
+        content: `Amasya bir vadi şehri — Yeşilırmak\'ın iki yakasına sıkışmış dar bir koridor. Bu coğrafyanın halılara etkisi önemli:
+
+**Nehir nemi:**
+Yeşilırmak\'ın yüzeyi sürekli buharlaşıyor. Nehre yakın evlerde nem %65-75\'e ulaşır. Bu nem halılarda toz akarı ve küf riskini artırıyor. Nehir kıyısındaki Osmanlı konakları özellikle etkileniyor.
+
+**Ters sıcaklık inversiyonu:**
+Kış aylarında vadiye soğuk hava çöker ve üstte sıcak hava tabakası oluşur. Bu inversiyon havadaki nemi ve kirliliği vadide hapseder. Kış sonlarında halılardaki kir birikimi vadi dışındaki şehirlere göre daha yoğun olur.
+
+**Elma bahçesi poleni:**
+Amasya, "Amasya elması" ile ünlü. İlkbahar aylarında (Nisan-Mayıs) elma bahçelerinin poleni havada yoğunlaşır. Alerji hastası olan evlerde bu dönem sonrası halı yıkama zorunlu.
+
+**Yıkama sıklığı:**
+Nehre yakın evler: yılda 2 kez. Yamaçtaki evler: yılda 1-2 kez. Suluova ovası: yılda 1 kez (düz ova, rüzgâr var, nem düşük).
+
+[Amasya halı yıkama](/amasya-hali-yikama-firmalari) firmalarını inceleyin — 3 firma merkezde aktif.`,
+      },
+      {
+        heading: 'Amasya Halı Yıkama Fiyatları ve Hizmet Ağı',
+        content: `Amasya\'daki firmaların fiyat bilgileri:
+
+**Mevcut fiyat verisi:**
+- Koltuk takımı: 1.500 TL
+- Elyaf yorgan: 350 TL
+- Yün yorgan: 350 TL
+- Battaniye: 350 TL
+
+**Halı m² fiyatları:**
+Firmalar halı fiyatlarını platformda henüz detaylı listelememişler. Ama bölge ortalamasına bakarsak makine halısı 70-90 TL/m² beklentisi makul. Sipariş öncesi firmadan güncel m² fiyatını isteyin.
+
+**3 firma dağılımı:**
+- **Doğa Halı Yıkama** — Merkez
+- **Suluova Halı Yıkama** — Suluova ilçesi (Amasya\'nın en büyük ilçesi)
+- **Öngel Halı Yıkama** — Merkez/çevre
+
+**Suluova avantajı:**
+Suluova, Amasya\'nın ova ilçesi. Düz arazi, rüzgâr var, nem Amasya merkezinden düşük. Suluova\'da halı bakımı vadideki merkeze göre daha kolay ve muhtemelen daha ucuz.
+
+**Merzifon bağlantısı:**
+Merzifon\'da (havalimanının bulunduğu ilçe) firma listelenmiyor. En yakın seçenek Amasya merkezi. Merzifon-Amasya arası 35 km — firmalardan Merzifon\'a hizmet verip vermediklerini sorun.
+
+[Amasya halı yıkama](/amasya-hali-yikama-firmalari) — Yeşilırmak vadisinde 3 firmayı karşılaştırın.`,
+      },
+    ],
+    faq: [
+      { q: 'Amasya\'da halı yıkama kaç TL 2026?', a: 'Koltuk takımı 1.500 TL, yorgan 350 TL. Halı m² fiyatı için firmadan güncel liste isteyin — bölge ortalaması 70-90 TL/m².' },
+      { q: 'Yeşilırmak\'a yakın evde halı kaç kez yıkatılmalı?', a: 'Nehir neminin etkisiyle yılda 2 kez. Yamaçtaki evlerde yılda 1 kez yeterli.' },
+      { q: 'Merzifon\'a halı yıkama firması geliyor mu?', a: '3 firmadan sorulmalı. Merzifon-Amasya arası 35 km — hizmet verenler olabilir.' },
+    ],
+    relatedSlugs: ['amasya-hali-yikama', 'hali-yikama-fiyatlari', 'samsun-hali-yikama-karadeniz'],
+  },
+
+  {
+    slug: 'adiyaman-hali-yikama-nemrut',
+    city: 'Adıyaman',
+    citySlug: 'adiyaman',
+    title: 'Adıyaman Halı Yıkama: Nemrut\'un Gölgesinde 2 Firma ve Cami Hasırından Şark Köşesine',
+    metaTitle: 'Adıyaman Halı Yıkama 2026 | 2 Firma, Gerçek Fiyatlar, Kahta-Besni Rehberi',
+    metaDescription: 'Adıyaman halı yıkama rehberi. 2 firma, cami hasırı ve şark köşesi yıkama, yer minderi temizliği ve Kahta-Besni hizmet durumu.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 6,
+    heroEmoji: '⛰️',
+    intro: 'Adıyaman\'ın fiyat listesine baktığınızda bu şehri anlamaya başlarsınız. Cami hasırı yıkama, şark köşesi temizliği, yer minderi — bunlar İstanbul\'daki bir firmanın listesinde göremeyeceğiniz hizmetler. Çünkü Adıyaman\'da yaşam tarzı farklı. Yere oturma, geniş aile toplantıları, cami kültürü — tüm bunlar halı yıkama ihtiyacını ve hizmet çeşitliliğini belirliyor.',
+    sections: [
+      {
+        heading: 'Adıyaman\'a Özgü Hizmetler — Cami Hasırından Şark Köşesine',
+        content: `Adıyaman\'daki firmanın fiyat listesi şehrin yaşam tarzını yansıtıyor:
+
+| Hizmet | Fiyat |
+|--------|-------|
+| Özel Halı | 100 TL/m² |
+| Cami Hasırı | 200 TL/m² |
+| Savan (yer örtüsü) | 300 TL/m² |
+| Yer Minderi (büyük) | 300 TL/adet |
+| Muhtelif (özel işlem) | 1.000 TL/m² |
+| İkili Koltuk | 650 TL |
+| Üçlü Koltuk | 750 TL |
+| Koltuk Takımı | 2.000 TL |
+| **Şark Köşesi** | **2.500 TL** |
+| Yastık | 100 TL |
+| Battaniye | 200-300 TL |
+| Yün Yorgan | 350 TL |
+| Mont Yıkama | 250 TL |
+| Stor Perde | 200-300 TL/adet |
+| Çekyat | 60 TL/m² |
+| Yatak (tek) | 900 TL |
+| Yatak (çift) | 1.500 TL |
+
+**Cami hasırı 200 TL/m²:**
+Adıyaman\'daki camiler düzenli halı/hasır temizliği yaptırıyor. Bu ticari talep firma için önemli bir gelir kaynağı. Cami hasırları yoğun kullanıma maruz kalır — günde 5 vakit namaz, Cuma namazları, kandil geceleri. Profesyonel hijyen zorunlu.
+
+**Şark köşesi 2.500 TL:**
+Güneydoğu\'da evlerin misafir odasında dev şark köşeleri bulunur. Bu köşelerin temizliği standart koltuk yıkamadan farklı — daha büyük, daha ağır ve kumaş yapısı farklı. Firma bu hizmeti ayrı kategoride sunuyor.
+
+**Mont yıkama 250 TL:**
+Sıra dışı bir hizmet — ama mantıklı. Adıyaman\'da kışlık montlar kalın ve çamaşır makinesine sığmaz. Firma bu ihtiyaca da çözüm üretiyor.
+
+[Adıyaman halı yıkama](/adiyaman-hali-yikama-firmalari) — 2 firmayı karşılaştırın.`,
+      },
+      {
+        heading: 'Adıyaman\'da İklim ve Halı Yıkama Stratejisi',
+        content: `Adıyaman yarı-kurak Güneydoğu ikliminde. Halı bakımı açısından hem avantaj hem zorluk barındırıyor:
+
+**Yaz avantajı (Haziran-Eylül):**
+Sıcaklık 40°C+, nem %20-25. Halılar 2-3 saatte kuruyor. Firmalar düşük enerji maliyetiyle çalışıyor — fiyatlar uygun.
+
+**Kış makul:**
+Adıyaman kışları Ağrı veya Erzurum gibi sert değil. -5°C civarında seyreder. Kapalı kurutma tercih edilmeli ama zorunlu değil.
+
+**Toz faktörü:**
+Güneydoğu\'nun kuru toprak yapısı rüzgârlı günlerde ince toz üretiyor. Bu toz halılarda birikerek matlaşmaya neden oluyor.
+
+**Deprem sonrası not:**
+2023 depremi Adıyaman\'ı da etkiledi. Yeni konutlara taşınan aileler yeni halılar aldı. İlk profesyonel yıkama 6-12 ay kullanım sonrası yapılmalı.
+
+**Kahta ve Besni:**
+Adıyaman\'ın iki büyük ilçesi. Kahta (Nemrut Dağı\'nın bulunduğu ilçe) 70 km, Besni 50 km mesafede. Firmalardan bu ilçelere hizmet durumunu sorun.
+
+[Adıyaman halı yıkama](/adiyaman-hali-yikama-firmalari) — cami hasırından şark köşesine, bölgeye özel hizmetler.`,
+      },
+    ],
+    faq: [
+      { q: 'Adıyaman\'da halı yıkama kaç TL 2026?', a: 'Özel halı 100 TL/m², cami hasırı 200 TL/m². Şark köşesi 2.500 TL. Bölgeye özgü hizmetler mevcut.' },
+      { q: 'Adıyaman\'da cami halısı yıkatan firma var mı?', a: 'Evet, firma cami hasırı yıkama hizmeti sunuyor (200 TL/m²). Camilerin düzenli hijyen ihtiyacına yanıt veriyor.' },
+      { q: 'Kahta\'ya halı yıkama firması geliyor mu?', a: 'Firmadan sorulmalı. Kahta 70 km mesafede — ulaşım ücreti uygulanabilir.' },
+    ],
+    relatedSlugs: ['adiyaman-hali-yikama', 'hali-yikama-fiyatlari', 'sanliurfa-hali-yikama-24-firma'],
+  },
+
+  {
+    slug: 'batman-hali-yikama-petrol',
+    city: 'Batman',
+    citySlug: 'batman',
+    title: 'Batman Halı Yıkama: Petrol Rafinerisinin Şehrinde 2 Firma ve 20 Mahallede Hizmet',
+    metaTitle: 'Batman Halı Yıkama 2026 | 2 Firma, Rafineri Tozu, 20 Mahalle Kapsamı',
+    metaDescription: 'Batman halı yıkama rehberi. 2 firma, petrol rafinerisi toz etkisi, 20 mahallede hizmet ve Batman\'a özel halı bakım ipuçları.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 6,
+    heroEmoji: '🛢️',
+    intro: 'Batman\'ı dünyada benzersiz kılan şey adı değil — Türkiye\'nin ilk petrol rafinerisinin bu şehirde olması. TPAO rafinerisi şehrin hemen yanında ve üretim sürecinde havaya salınan hidrokarbon partikülleri evlere kadar ulaşıyor. Halılar bu partikülleri emer ve zamanla yağımsı bir film tabakası oluşur. 2 aktif firma 20 mahallede hizmet veriyor ve bu endüstriyel kirle başa çıkmak için donanımlı.',
+    sections: [
+      {
+        heading: 'Batman\'da Petrol Rafinerisi ve Halılar',
+        content: `Batman\'da halı yıkama ihtiyacını artıran ana faktör TPAO rafinerisi ve çevresindeki petrokimya tesisleri:
+
+**Hidrokarbon partikülleri:**
+Rafineri çevresindeki mahallelerde (Gültepe, GAP, Güneykent) havadaki hidrokarbon partikülleri diğer şehirlere göre yoğun. Bu partiküller halılara yapışır ve standart deterjanla tam çıkmaz. Alkalin bazlı yıkama gerektirir.
+
+**Yağımsı kir:**
+Petrole yakın bölgelerde halılara yapışan kir "yapışkan" nitelikte. Normal toz gibi düşüp kalkmaz — lif yapısına tutunur. Bu yüzden süpürge çekmek yetmez, profesyonel basınçlı yıkama zorunlu.
+
+**20 mahallede hizmet:**
+Firma Aydınlık Evler\'den Güneykent\'e, Bağlar\'dan GAP\'a kadar 20 mahallede aktif. Batman merkezinin tamamını kapsıyor.
+
+**Yıkama sıklığı:**
+- Rafineri yakını (2-3 km): Yılda 3-4 kez
+- Merkez (5+ km): Yılda 2 kez
+- Kozluk, Sason gibi uzak ilçeler: Yılda 1-2 kez
+
+[Batman halı yıkama](/batman-hali-yikama-firmalari) — 20 mahallede aktif 2 firmayı karşılaştırın.`,
+      },
+      {
+        heading: 'Batman Halı Yıkama — İklim ve Fiyat',
+        content: `Batman yarı-kurak iklimde. Yaz sıcak ve kuru (40°C+), kış soğuk ama Doğu kadar sert değil.
+
+**Kurutma avantajı:**
+Yaz aylarında halılar çok hızlı kuruyor. Bu firmalar için düşük maliyet demek.
+
+**Mevcut fiyat verisi:**
+- Yatak (tek kişilik): 90 TL
+- Yatak (çift kişilik): 150 TL
+
+Halı m² fiyatları henüz platformda detaylı listelenmemiş. Bölge ortalamasına göre makine halısı 65-80 TL/m² beklentisi makul. Firmadan güncel fiyat listesini isteyin.
+
+**Hasankeyf bağlantısı:**
+Tarihi Hasankeyf ilçesi Batman\'a bağlı. Baraj nedeniyle yeni yerleşim alanına taşınan Hasankeyf halkı yeni evlerine yeni halılar aldı. İlk yıkama ihtiyacı oluşmaya başlıyor.
+
+**Kozluk ve Sason:**
+Uzak ilçelerde yerel firma yok. Batman merkezinden hizmet alınabiliyor ama mesafe sorulmalı.
+
+[Batman halı yıkama](/batman-hali-yikama-firmalari) — rafineri şehrinde profesyonel temizlik.`,
+      },
+    ],
+    faq: [
+      { q: 'Batman\'da halı yıkama kaç TL 2026?', a: 'Yatak yıkama 90-150 TL. Halı m² fiyatı için firmadan güncel liste isteyin — bölge ortalaması 65-80 TL/m².' },
+      { q: 'Rafineri yakınında halı kaç kez yıkatılmalı?', a: 'Yılda 3-4 kez. Hidrokarbon partikülleri halılara yapışır ve standart süpürge yetmez.' },
+      { q: 'Batman\'da kaç mahallede halı yıkama hizmeti var?', a: '2 firma 20 mahallede aktif. Batman merkezinin tamamı kapsanıyor.' },
+    ],
+    relatedSlugs: ['batman-hali-yikama', 'hali-yikama-fiyatlari', 'diyarbakir-hali-yikama-sicak-iklim'],
+  },
+
+  {
+    slug: 'mus-hali-yikama-malazgirt',
+    city: 'Muş',
+    citySlug: 'mus',
+    title: 'Muş Halı Yıkama: Malazgirt Ovasından Yükselen Sert Kışın Halılarla İmtihanı',
+    metaTitle: 'Muş Halı Yıkama 2026 | Gerçek Fiyatlar, Sert Kış Stratejisi, Malazgirt Rehberi',
+    metaDescription: 'Muş halı yıkama rehberi. 75 TL/m² fiyat, Türkiye\'nin en sert kışlarından birinde halı bakımı, Malazgirt-Bulanık hizmet durumu.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 6,
+    heroEmoji: '🌄',
+    intro: 'Muş Ovası, 1071 Malazgirt Savaşı\'nın topraklarıdır — ama bugün bu ovada başka bir savaş veriliyor: halıların kışa karşı savaşı. Muş\'ta kış 7 ay sürer, kar 2 metreden fazla yağar ve sıcaklık -30°C\'ye kadar düşer. İnsanlar evlerinde aylarca kapalı kalır ve halılar bu ayların tüm ağırlığını taşır. Tek aktif firma 75 TL/m² ile Türkiye\'nin en uygun fiyatlarından birini sunuyor — ama yıkama penceresi sadece 4-5 ay.',
+    sections: [
+      {
+        heading: 'Muş\'ta 7 Aylık Kış ve Halıların Kaderi',
+        content: `Muş, Türkiye\'nin en çok kar yağan ovalarından biri. Kasım\'dan Mayıs\'a kadar kar yerde kalır. Bu 7 aylık kışın halılara etkisi dramatik:
+
+**Kapalı mekân yoğunluğu:**
+7 ay boyunca aile tek odada, soba etrafında yaşar. Çocuklar halıda oynar, yemekler yerde yenir, misafirler yere oturur. Halı günde 12+ saat aktif kullanılır. Kış sonu halı tanınmaz halde olur.
+
+**Soba ve kül etkisi:**
+Muş\'ta kömür ve odun sobası yaygın. Soba külleri, is ve duman halılara sinir. Gri-siyah bir tabaka oluşur. Bu is normal deterjanla tam çıkmaz — profesyonel alkali yıkama gerekir.
+
+**Islak ayakkabı ve kar suyu:**
+Kışın eve girişte kar ve çamur kaçınılmaz. Halılar sürekli ıslanır ve kurur — bu döngü halı liflerini yıpratır ve koku yaratır.
+
+**Sonuç:** Muş\'ta halı yıkama lüks değil, bahar geldiğinde yapılması gereken ilk iş.
+
+[Muş halı yıkama](/mus-hali-yikama-firmalari) — kış biter bitmez sipariş verin.`,
+      },
+      {
+        heading: 'Muş Halı Yıkama Fiyatları ve Yıkama Penceresi',
+        content: `Muş\'taki firmanın fiyat listesi minimal ama ihtiyaca uygun:
+
+| Hizmet | Fiyat |
+|--------|-------|
+| Makine Halısı | 75 TL/m² |
+| Şaggy Halı | 75 TL/m² |
+| Koltuk Takımı | 600 TL |
+
+Makine halısı ve şaggy aynı fiyatta (75 TL) — bu Türkiye genelinde nadir. Normalde şaggy %20-30 daha pahalı. Firma muhtemelen basit fiyat politikası uyguluyor.
+
+**Koltuk takımı 600 TL:**
+Türkiye\'nin en ucuz koltuk yıkama fiyatlarından biri. İstanbul\'da 2.500 TL, Ankara\'da 1.800 TL.
+
+**Yıkama penceresi (sadece 4-5 ay):**
+- **Mayıs sonu:** Kar eriyor, güneş çıkıyor. İlk siparişler başlıyor.
+- **Haziran-Ağustos:** İdeal dönem. Sıcak ve nispeten kuru. Kurutma hızlı.
+- **Eylül:** Son fırsat. Ekim\'den itibaren risk artıyor.
+- **Ekim-Mayıs (7 ay):** Halı yıkama imkânsız.
+
+**Varto dikkat:**
+Firma şu an Varto ilçesinde aktif görünüyor. Muş merkez, Malazgirt ve Bulanık için hizmet durumunu sipariş öncesi teyit edin.
+
+[Muş halı yıkama](/mus-hali-yikama-firmalari) — 4 aylık pencereyi kaçırmayın.`,
+      },
+    ],
+    faq: [
+      { q: 'Muş\'ta halı yıkama kaç TL 2026?', a: 'Makine halısı ve şaggy 75 TL/m², koltuk takımı 600 TL. Türkiye\'nin en uygun fiyatlarından.' },
+      { q: 'Muş\'ta halı ne zaman yıkatılır?', a: 'Sadece Mayıs sonu — Eylül arası (4-5 ay). Kış 7 ay sürüyor ve bu dönemde yıkama imkânsız.' },
+      { q: 'Malazgirt\'e halı yıkama firması geliyor mu?', a: 'Firma Varto\'da aktif. Malazgirt ve Bulanık için hizmet durumunu firmadan sorun.' },
+    ],
+    relatedSlugs: ['mus-hali-yikama', 'hali-yikama-fiyatlari', 'agri-hali-yikama-daglar'],
+  },
+
+  {
+    slug: 'hakkari-hali-yikama-sinir',
+    city: 'Hakkari',
+    citySlug: 'hakkari',
+    title: 'Hakkari\'de Halı Yıkama: Türkiye\'nin En Uç Noktasında Profesyonel Temizlik',
+    metaTitle: 'Hakkari Halı Yıkama 2026 | Sınır Şehri, Sert İklim, 22 Mahallede Hizmet',
+    metaDescription: 'Hakkari halı yıkama rehberi. 22 mahallede hizmet, Yüksekova ve Şemdinli durumu, sınır şehrinde halı bakım stratejisi.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 6,
+    heroEmoji: '🏔️',
+    intro: 'Hakkari, Türkiye\'nin güneydoğu ucundaki sınır şehri. 1.700 metre rakımda, dağlarla çevrili, kışları uzun ve sert. Uzaklığına rağmen burada da profesyonel halı yıkama hizmeti var — tek firma 22 mahallede aktif. Bu, Hakkari merkezdeki neredeyse her evin erişim alanında bir halı yıkama firması olduğu anlamına geliyor. Zorlu coğrafyada bile temizlik hizmeti var — önemli olan zamanlamayı doğru yapmak.',
+    sections: [
+      {
+        heading: 'Hakkari\'de Halı Yıkama — 22 Mahallede Erişim',
+        content: `Hakkari\'deki firma 22 mahallede hizmet veriyor: Ağaç Dibi\'nden Çarşı İçi\'ne, Bağlar\'dan Sümbül\'e kadar. Bu kapsam Hakkari merkezinin tamamını kaplıyor.
+
+**Firma halı, koltuk, yorgan ve perde olmak üzere 4 kategoride hizmet sunuyor.**
+
+Fiyat listesi platformda henüz detaylı yayınlanmamış — sipariş öncesi firmadan güncel m² fiyatını isteyin. Bölge ortalamasına göre makine halısı 60-80 TL/m² beklentisi makul.
+
+**Yüksekova ve Şemdinli:**
+Bu iki ilçe Hakkari merkezinden 70-80 km uzakta. Yerel firma yok. Hakkari merkezinden hizmet alınabilir ama kış aylarında yollar kapanabiliyor — yaz döneminde organize olmak gerekiyor.
+
+**22 mahallenin önemi:**
+280.000 nüfuslu küçük bir şehirde 22 mahallede aktif olmak ciddi bir kapsam. Firma müşteriye ulaşmak için çaba gösteriyor — bu da hizmet kalitesi hakkında olumlu bir işaret.
+
+[Hakkari halı yıkama](/hakkari-hali-yikama-firmalari) — 22 mahallede aktif firmanın hizmet bölgesini inceleyin.`,
+      },
+      {
+        heading: 'Hakkari\'de İklim ve Zamanlama',
+        content: `Hakkari 1.700 metre rakımda — Türkiye\'nin en yüksek şehir merkezlerinden biri. Bu rakım iklimi doğrudan belirliyor:
+
+**Kış (Kasım-Nisan):**
+6 aylık kış boyunca halı yıkama pratik değil. Sıcaklık -20°C\'ye düşer, kar kalınlığı metrelerce olabilir. Kapalı kurutma tesisi bile yetmez — halıyı taşımak sorun.
+
+**Yaz (Mayıs-Ekim):**
+Yıkama penceresi 6 ay. Muş ve Ağrı\'ya göre biraz daha geniş — Hakkari\'nin güneyde olması kışı biraz kısaltıyor. Yaz aylarında hava sıcak ve kuru — kurutma hızlı.
+
+**Dağ iklimi farklılığı:**
+Hakkari merkezde güneş var ama gölge bölgelerde (kuzey yamaçlar) sıcaklık 10-15°C daha düşük. Firma kurutma alanının güneş alan düz bölgede olması önemli.
+
+**Yere oturma kültürü:**
+Hakkari\'de yere oturma geleneği güçlü. Halılar yoğun kullanılıyor. Kış sonunda halılar ciddi bakıma muhtaç oluyor — bahar geldiğinde öncelikli iş halı yıkama.
+
+[Hakkari halı yıkama](/hakkari-hali-yikama-firmalari) — Türkiye\'nin en uç noktasında profesyonel hizmet.`,
+      },
+    ],
+    faq: [
+      { q: 'Hakkari\'de halı yıkama firması var mı?', a: 'Evet, tek firma 22 mahallede aktif. Halı, koltuk, yorgan ve perde kategorilerinde hizmet sunuyor.' },
+      { q: 'Hakkari\'de halı ne zaman yıkatılır?', a: 'Mayıs-Ekim arası (6 ay). Kış 6 ay sürüyor ve bu dönemde yıkama pratik değil.' },
+      { q: 'Yüksekova\'ya halı yıkama firması geliyor mu?', a: 'Hakkari merkezinden 70 km. Firmadan hizmet durumunu sorun — kış aylarında yollar kapanabiliyor.' },
+    ],
+    relatedSlugs: ['hakkari-hali-yikama', 'hali-yikama-fiyatlari', 'van-hali-yikama-kilim-mirasi'],
+  },
+
   ...cityGuides,
 ];
 
