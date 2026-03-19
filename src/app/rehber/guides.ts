@@ -5408,6 +5408,537 @@ Profesyonel yıkama zamanı geldiğinde [Bursa halı yıkama](/bursa-hali-yikama
     relatedSlugs: ['bursa-hali-yikama', 'bursa-hali-yikama-tekstil-sehri', 'hali-yikama-nasil-yapilir'],
   },
 
+  {
+    slug: 'antalya-hali-yikama-otel-sektoru',
+    city: 'Antalya',
+    citySlug: 'antalya',
+    title: 'Antalya\'da Otel Halıları Nasıl Yıkanır? Turizm Sektörünün Bilmediğiniz Temizlik Dünyası',
+    metaTitle: 'Antalya Halı Yıkama 2026 | Otel Halısı Temizliği, Ticari Hijyen, Sezon Rehberi',
+    metaDescription: 'Antalya otel halı temizliği rehberi. All-inclusive tesislerin halı yıkama rutini, ticari hijyen standartları ve ev müşterisine yansıyan kalite avantajı.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 9,
+    heroEmoji: '☀️',
+    intro: 'Antalya\'da 900\'den fazla otel var. Beş yıldızlı bir resort otelin lobisindeki halı günde 3.000 ayağın altında kalıyor. O halının haftalık profesyonel bakım görmesi şart. Peki bu devasa turizm altyapısının halı yıkama firmaları üzerindeki etkisi ne? Basit: Antalya firmaları, yılda milyonlarca metrekare otel halısı yıkayarak Türkiye\'nin en deneyimli firmalarına dönüşmüş. Ve bu deneyimden ev müşterisi de faydalanıyor.',
+    sections: [
+      {
+        heading: 'Bir Otel Lobisinin Halısına Günde Ne Oluyor?',
+        content: `Beş yıldızlı bir Antalya otelinin lobisini düşünün. Sabah 6\'dan gece 12\'ye kadar 18 saat kesintisiz insan trafiği. Havuz terliği, plaj kumu, güneş kremi kalıntısı, restoran yemek kırıntısı, bar spilleri — hepsi halıya yerleşiyor.
+
+**Otelin günlük halı bakım rutini:**
+- 06:00 — Gece ekibi halıları endüstriyel süpürgeyle temizler
+- 10:00 — Noktasal leke müdahalesi (kahve, meyve suyu döküntüleri)
+- 22:00 — Gece süpürmesi + anti-bakteriyel sprey
+
+**Haftalık derin temizlik:**
+Lobi, koridor ve restoran halıları haftada 1 kez yerinde şampuanlama görür. Oda halıları her misafir çıkışında (ortalama 5-7 günde bir) temizlenir.
+
+**Aylık profesyonel yıkama:**
+Yoğun kullanılan bölgelerin halıları ayda 1 kez profesyonel firmaya verilir veya yerinde derin yıkama yapılır.
+
+**Bu sizin evinizi nasıl etkiler?**
+Antalya\'daki [halı yıkama](/antalya-hali-yikama-firmalari) firmaları bu otel disipliniyle yetişmiş. Hijyen standardı, leke müdahale hızı ve kumaş bilgisi otelde öğrenilmiş. Evinizin halısını yıkatan firma aynı zamanda 5 yıldızlı otelin halısını da yıkıyorsa — bu bir kalite garantisi.`,
+      },
+      {
+        heading: 'Otel Halısı ile Ev Halısının Yıkama Farkları',
+        content: `**Malzeme farkı:**
+Otellerde genellikle ticari grade polyamid (naylon 6.6) veya polipropilen halı kullanılır. Bu halılar aşınma direnci yüksek, leke tutmaz, hızlı kurur. Ev halıları ise yün, akrilik, polyester veya karışım — daha yumuşak ama daha hassas.
+
+**Kirliliğin niteliği:**
+- Otel: Güneş kremi (yağlı, yapışkan), alkol (bar döküntüleri), kum (plaj), yemek
+- Ev: Yemek kırıntıları, evcil hayvan, çocuk kazaları, ayakkabı kirliliği
+
+Güneş kremi lekesi standart deterjanla çıkmaz — özel yağ çözücü gerekir. Antalya firmaları bu tip lekelere alışkın çünkü otellerde her gün bununla uğraşıyorlar.
+
+**Kurutma avantajı:**
+Antalya\'da yılın 300+ günü güneşli. Açık hava kurutma hızlı ve doğal. Otel halıları bile açık havada kurutuluyor — enerji maliyeti düşük. Bu, ev müşterisinin fiyatına olumlu yansıyor.
+
+**Hijyen standardı:**
+Otellerde Sağlık Bakanlığı denetimi var. Halılardaki bakteri ve alerjen seviyesi kontrol ediliyor. Bu zorunluluk Antalya firmalarını hijyen konusunda diğer şehirlerin önüne geçiriyor.
+
+[Antalya halı yıkama](/antalya-hali-yikama-firmalari) firmaları — otel deneyimli, ev müşterisine premium kalite.`,
+      },
+      {
+        heading: 'Sezon Arası — Otel Halılarının Büyük Temizliği ve Sizin Fırsatınız',
+        content: `Antalya otellerinin çoğu Kasım-Mart arası düşük sezondadır. Bu dönemde oteller büyük bakıma girer: boyama, tamirat ve — halı temizliği.
+
+**Kasım-Mart: Firmalar boş, fiyatlar uygun.**
+Yaz sezonunda firmalar otel ve tatil evi talebinden nefes alamaz. Ama kış aylarında bu talep düşer. İşte bu dönemde ev müşterisi olarak avantajlısınız:
+
+- Firmalar müsait — hemen randevu alırsınız
+- Teslimat süreleri kısa — 2-3 gün yeterli
+- Fiyatlarda esneklik mümkün — pazarlık şansınız var
+- Kalite aynı — hatta daha iyi, çünkü firma acele etmiyor
+
+**Antalya\'nın kış avantajı:**
+İstanbul veya Ankara\'da kış halı yıkama riskli — soğuk, nem, küf. Ama Antalya\'da kış bile ılık (10-15°C gündüz). Açık hava kurutma Aralık\'ta bile mümkün. Yani Antalya\'da "kışın halı yıkatmayın" kuralı geçerli değil — yıl boyu güvenle yıkatabilirsiniz.
+
+**Pratik tavsiye:**
+Antalya\'da yaşıyorsanız halı yıkama zamanlamanızı Ekim-Kasım\'a çekin. Firmalar yaz yorgunluğundan çıkmış, otel sezonu bitmiş, sizin halınıza tam odaklanırlar.
+
+[Antalya halı yıkama](/antalya-hali-yikama-firmalari) — yılın her döneminde hizmet veren 14 firmayı inceleyin.`,
+      },
+    ],
+    faq: [
+      { q: 'Antalya\'da otel halısı yıkayan firma ev halımı da yıkar mı?', a: 'Evet. Otel halısı yıkayan firmalar ev halısı da yıkar — üstelik otel deneyimi sayesinde hijyen ve leke çıkarma uzmanlıkları çok yüksek.' },
+      { q: 'Antalya\'da kışın halı yıkatmak riskli mi?', a: 'Hayır. Antalya\'da kış ılık (10-15°C). Açık hava kurutma Aralık\'ta bile mümkün. Üstelik kışın firmalar daha müsait ve fiyatlar daha uygun.' },
+      { q: 'Güneş kremi lekesi halıdan çıkar mı?', a: 'Profesyonel yağ çözücü ile evet. Antalya firmaları bu leke türüne alışkın — otellerde her gün bununla uğraşıyorlar.' },
+    ],
+    relatedSlugs: ['antalya-hali-yikama', 'antalya-hali-yikama-turizm-sehri', 'hali-leke-cikarma'],
+  },
+
+  {
+    slug: 'konya-hali-yikama-kuru-iklim-bilimi',
+    city: 'Konya',
+    citySlug: 'konya',
+    title: 'Konya\'nın Kuru İklimi Halılarınızı Nasıl Koruyor? Bir Bozkır Hikâyesi',
+    metaTitle: 'Konya Halı Yıkama 2026 | Kuru İklim Bilimi, Toz Akarı Gerçeği, Halı Ömrü',
+    metaDescription: 'Konya halı yıkama — kuru bozkır ikliminin halı sağlığına etkisi. Toz akarı neden az, küf neden nadir, halılar neden daha uzun ömürlü ve ne zaman yıkatmalısınız.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 8,
+    heroEmoji: '🌾',
+    intro: 'İzmir\'de halı yılda 3 kez, Trabzon\'da 4 kez yıkatılmalı diyoruz. Konya\'da? Yılda 1 kez yeterli. Neden? Çünkü Konya Türkiye\'nin en kuru ovalarından birinde oturuyor. Nem %45-50, yağış yılda 300 mm (İstanbul\'un yarısı, Rize\'nin yedide biri). Bu kuru hava halılar için doğal koruma kalkanı. Toz akarları üremekte zorlanıyor, küf oluşumu neredeyse imkânsız, halılar daha uzun ömürlü. Peki o zaman Konya\'da neden 23 halı yıkama firması var? Çünkü kuru iklimin kendi sorunları var.',
+    sections: [
+      {
+        heading: 'Kuru İklim Halıyı Nasıl Koruyor?',
+        content: `Toz akarları nemli ortamda ürer. %50\'nin altında nemde akarlar ölür, üreme durur. Konya\'nın ortalama nem oranı %45-50 — tam sınırda. Bu demektir ki:
+
+**Toz akarı popülasyonu düşük:**
+İzmir\'deki bir halıda santimetrekare başına 100-500 akar varken, Konya\'daki aynı halıda 10-50 akar var. 10 kat fark. Alerji ve astım riski doğal olarak düşük.
+
+**Küf oluşumu nadir:**
+Küf %60 üzeri nemde oluşur. Konya\'da bu eşik sadece kış yağmurlarında kısa süreli aşılır. Ev içi küf — İzmir veya Trabzon\'un kabusu — Konya\'da neredeyse duyulmamış bir sorun.
+
+**Halı ömrü daha uzun:**
+Kuru havada halı lifleri daha az yıpranır. Nem lifleri şişirir ve büzer — bu döngü lifleri kırılganlaştırır. Konya\'da bu döngü yavaş olduğundan halılar %20-30 daha uzun ömürlü.
+
+**Peki o zaman neden yıkatmalıyız?**
+Çünkü kuru iklimin kendi düşmanı var: toz. Konya ovası dümdüz, rüzgârlı ve toprak yapısı tozlu. Bu ince toz halılara nüfuz ediyor. Toz akarı olmasa bile toz var — ve bu toz profesyonel yıkamayla çıkar.
+
+[Konya halı yıkama](/konya-hali-yikama-firmalari) firmaları bu iklimin farkında — yıkama programlarını buna göre ayarlıyorlar.`,
+      },
+      {
+        heading: 'Bozkır Tozu — Kuru İklimin Gizli Düşmanı',
+        content: `Konya\'nın tozu İstanbul\'un tozundan farklı. İstanbul\'da toz büyük şehir kirliliğinden gelir — egzoz, inşaat, endüstri. Konya\'da toz doğal: toprak, kum ve bitki kalıntıları.
+
+**Rüzgâr etkisi:**
+Konya ovası düz olduğundan rüzgâr engelsiz eser. Bahar ve sonbahar aylarında tozlu rüzgârlar saatler boyunca sürer. Pencere açıksa (klima olmayan evlerde yaz aylarında mecbur) bu toz doğrudan halıya yerleşir.
+
+**Tarım tozu:**
+Konya Türkiye\'nin en büyük tarım alanlarından birine sahip. Buğday, arpa, şeker pancarı — hasat döneminde (Haziran-Eylül) havadaki tarım tozu yoğunlaşır. Çiftlik yakınındaki evlerde halılar çok daha hızlı kirlenir.
+
+**Çözüm stratejisi:**
+1. Rüzgârlı günlerde pencereleri kapatın (toz filtreli havalandırma idealdir)
+2. HEPA filtreli süpürge ile haftada 2 kez temizleyin
+3. Yılda 1 kez (hasat sonrası, Ekim ayı ideal) profesyonel yıkama yaptırın
+4. Halı altında toz birikmesi engellenemez — yılda 1 kez halıyı kaldırıp altını silin
+
+**23 firmanın sırrı:**
+Konya\'da yılda 1 kez yıkama yeterli ama 2.3 milyon nüfus var. Basit matematik: 2.3 milyon × ortalama hane büyüklüğü × halı sayısı = devasa talep. 23 firma bu pazarı karşılıyor.
+
+[Konya halı yıkama](/konya-hali-yikama-firmalari) — Selçuklu, Meram ve Karatay\'da 23 firma arasından seçin.`,
+      },
+      {
+        heading: 'Konya\'da Halı Ne Zaman Yıkatılmalı? — Dört Mevsim Rehberi',
+        content: `Kuru iklimde zamanlama daha esnek — ama en iyi dönem var:
+
+**Ekim (İdeal):**
+Yaz sıcağı bitmiş ama hava hâlâ kuru ve ılık (15-20°C). Tarım hasadı sona ermiş — yaz boyunca biriken toz artık temizlenebilir. Firmalar yaz yoğunluğundan çıkmış, randevu kolay. Kurutma hâlâ açık havada mümkün.
+
+**Nisan-Mayıs (İkinci en iyi):**
+Kıştan çıkış. Halılar kış boyunca kapalı evde kullanılmış, toz ve koku birikmiş. Hava ısınmaya başlamış, kurutma hızlı. Ama dikkat — Nisan\'da tozlu rüzgârlar başlayabilir.
+
+**Haziran-Ağustos (Mümkün ama sıcak):**
+35°C+ sıcaklıkta halılar saatlerce kuruyor — firmalar için harika. Ama bu dönem zaten firmalar yoğun. Erken sipariş gerekli.
+
+**Kasım-Mart (Dikkatli olun):**
+Konya\'da kış -15°C\'ye kadar düşer. Açık hava kurutma imkânsız. Kapalı kurutma tesisi olan firma tercih edin. Firmalar bu dönemde daha boş — fiyat avantajı mümkün.
+
+**Konya\'ya özel bilgi — Ladik halısı yıkama zamanı:**
+Ladik halıları genellikle yazın serilir, kışın kaldırılır. Kaldırmadan önce (Ekim) yıkatıp temiz saklayın. Kirli halde kaldırmak küf olmasa bile koku sorununa yol açar.
+
+[Konya halı yıkama](/konya-hali-yikama-firmalari) — kuru iklimde bile profesyonel yıkama fark yaratır.`,
+      },
+    ],
+    faq: [
+      { q: 'Konya\'da halı neden daha az yıkatılır?', a: 'Kuru iklim (%45-50 nem) toz akarı üremesini ve küf oluşumunu engelliyor. Yılda 1 kez profesyonel yıkama yeterli. Nemli şehirlerde 2-4 kez gerekir.' },
+      { q: 'Konya\'da halı yıkama için en iyi ay hangisi?', a: 'Ekim — tarım hasadı bitmiş, hava ılık ve kuru, firmalar müsait. İkinci seçenek Nisan-Mayıs.' },
+      { q: 'Kuru iklimde halılar daha mı uzun ömürlü?', a: 'Evet. Düşük nem liflerin yıpranmasını yavaşlatır. Konya\'daki halılar nemli şehirlere göre %20-30 daha uzun ömürlü.' },
+    ],
+    relatedSlugs: ['konya-hali-yikama', 'konya-hali-yikama-anadolunun-kalbi', 'hali-bakim-ipuclari'],
+  },
+
+  {
+    slug: 'kocaeli-hali-yikama-istanbul-siniri',
+    city: 'Kocaeli',
+    citySlug: 'kocaeli',
+    title: 'Gebze\'den İzmit\'e: İstanbul Sınırında Halı Yıkama Yaptırmanın Ekonomisi',
+    metaTitle: 'Kocaeli Halı Yıkama 2026 | İstanbul Sınır Ekonomisi, Gebze Avantajı, Tasarruf Rehberi',
+    metaDescription: 'Kocaeli halı yıkama — İstanbul sınırında yaşamanın fiyat avantajı. Gebze sakinleri için İstanbul vs Kocaeli firma karşılaştırması ve tasarruf stratejileri.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 8,
+    heroEmoji: '🏭',
+    intro: 'Gebze\'de yaşıyorsanız ilginç bir konumdasınız — bir ayağınız İstanbul\'da, diğeri Kocaeli\'de. İstanbul firmaları "Gebze\'ye de geliriz" diyor, Kocaeli firmaları zaten orada. İki şehrin firmaları arasında seçim yapabilmek Türkiye\'de nadir bir avantaj. Bu rekabet Gebze\'deki halı yıkama fiyatlarını aşağı çekiyor. Ama avantaj sadece Gebze\'ye değil — İzmit, Darıca, Çayırova ve Kartepe\'de yaşayanlar da bu dinamikten faydalanıyor.',
+    sections: [
+      {
+        heading: 'Sınır Bölgesinin Ekonomisi — Gebze Örneği',
+        content: `Gebze, Kocaeli\'nin İstanbul sınırındaki en büyük ilçesi. 400.000+ nüfusu var ve İstanbul\'un Pendik, Tuzla ilçelerine komşu. Bu coğrafi konum halı yıkama pazarında benzersiz bir durum yaratıyor:
+
+**İki yönlü rekabet:**
+İstanbul firmaları Gebze\'yi kendi pazarları olarak görüyor — İstanbul\'un doğu ucundaki müşteriye zaten geliyorlar, Gebze sadece 10-15 km daha ötesi. Kocaeli firmaları için Gebze zaten kendi ilçeleri. Sonuç: Gebze\'de hem İstanbul hem Kocaeli fiyatları geçerli.
+
+**Fiyat dengesi:**
+İstanbul firması Gebze\'ye İstanbul fiyatıyla gelmek ister (80-140 TL/m²). Ama Kocaeli firması 80-100 TL/m² sunuyorsa müşteri neden fazla ödesin? Bu rekabet İstanbul firmalarını Gebze\'de fiyat indirmeye zorluyor.
+
+**Pratik tavsiye:**
+Her ikisinden teklif alın. İstanbul firmasının Gebze\'ye ulaşım maliyetini fiyata ekleyip eklemediğini sorun. Kocaeli firmasının İstanbul sınırına kadar hizmet verip vermediğini kontrol edin. [Kocaeli halı yıkama](/kocaeli-hali-yikama-firmalari) firmalarını inceleyin — 17 seçenek arasından Gebze\'ye en yakın olanı bulun.`,
+      },
+      {
+        heading: 'Kocaeli\'nin İç Bölgeleri — İzmit, Kartepe, Gölcük',
+        content: `Gebze sınır avantajından faydalanıyor ama Kocaeli\'nin iç ilçeleri farklı bir hikâyeye sahip:
+
+**İzmit — Merkez:**
+Kocaeli\'nin kalbi. Firma yoğunluğu burada. Hem konut hem ticari (fabrika ofisleri, organize sanayi idari binaları) talep yüksek. İzmit Körfezi\'nin nemi kıyı bölgelerinde halı bakımını zorlaştırıyor — yılda 2 kez yıkama önerilir.
+
+**Kartepe — Doğa ve Nem:**
+Sapanca Gölü kıyısında, yeşillikler içinde. Tatil evleri ve hafta sonu evleri yoğun. Göl nemi + orman nemi halıları etkiliyor. Kartepe\'de yaşıyorsanız nem bariyeri kullanın ve yılda 2 kez yıkatın. Sanayi etkisi burada minimal — hava temiz.
+
+**Gölcük — Deniz ve Nem:**
+İzmit Körfezi\'nin güneyinde. Deniz nemi + kapalı vadi yapısı. Nem birikir, havalanmaz. Halılar nemli şehir disipliniyle bakılmalı.
+
+**Darıca ve Çayırova — Sanayi Koridoru:**
+İstanbul-Kocaeli sanayi aksında. Fabrika yoğunluğu çok yüksek. Havadaki partikül madde halıları hızla kirletiyor. Bu bölgede yılda 2-3 kez profesyonel yıkama zorunlu.
+
+[Kocaeli halı yıkama](/kocaeli-hali-yikama-firmalari) — 17 firma arasından ilçenize en uygun olanı seçin.`,
+      },
+      {
+        heading: 'Sanayi Şehrinde Halı Yıkama — Endüstriyel Kir Bilimi',
+        content: `Kocaeli Türkiye\'nin sanayi başkenti. Ford, Hyundai, TÜPRAŞ, PETKİM — bu tesislerin çevresinde yaşayan yüz binlerce aile endüstriyel kirle yaşıyor. Bu kirin halılara etkisi normal ev kirliliğinden farklı:
+
+**Endüstriyel partiküllerin özellikleri:**
+- **Metal tozları:** Demir, alüminyum, çelik üretiminden. Mıknatıslı partiküller halı liflerine yapışır
+- **Petrokimya kalıntıları:** TÜPRAŞ ve kimya tesislerinden. Yağımsı, yapışkan partiküller
+- **Karbon:** Yanma ürünleri. İnce siyah film tabakası oluşturur
+- **Silika:** İnşaat malzemesi üretiminden. Solunum yolu riski yüksek
+
+**Normal süpürge neden yetmiyor?**
+Bu partiküller 2.5-10 mikron boyutunda — gözle görünmez. HEPA filtreli süpürge bile sadece yüzeydeki büyük parçacıkları alır. Halı liflerinin arasına yerleşen ince partiküller profesyonel 40-60 bar basınçlı yıkamayla çıkar.
+
+**Sağlık boyutu:**
+Endüstriyel partiküller sadece estetik değil, sağlık sorunu. PM2.5 partikülleri akciğerlere kadar ulaşır. Çocuklar halıda vakit geçirirken bu partikülleri solur. Sanayi yakınında yaşıyorsanız çocuk odasının halısını her 3 ayda profesyonel yıkamaya verin.
+
+[Kocaeli halı yıkama](/kocaeli-hali-yikama-firmalari) firmalarından sanayi bölgesi deneyimi olanları tercih edin.`,
+      },
+    ],
+    faq: [
+      { q: 'Gebze\'de İstanbul firması mı Kocaeli firması mı tercih edeyim?', a: 'İkisinden teklif alın. Genellikle Kocaeli firması daha uygun — İstanbul firmasının ulaşım maliyeti fiyata yansıyor. Ama kalite karşılaştırması da yapın.' },
+      { q: 'Sanayi bölgesi yakınında halı kaç kez yıkatılmalı?', a: 'Yılda 2-3 kez. Endüstriyel partiküller çocuk sağlığını etkileyebilir — çocuk odasının halısını her 3 ayda yıkatın.' },
+      { q: 'İzmit Körfezi nemi halıya zarar verir mi?', a: 'Evet. Kıyı bölgelerde nem %65-75 arasında. Yılda 2 kez profesyonel yıkama önerilir. Nem bariyeri kullanın.' },
+    ],
+    relatedSlugs: ['kocaeli-hali-yikama', 'kocaeli-hali-yikama-sanayi-sehri', 'hali-alerjisi-ve-hijyen'],
+  },
+
+  {
+    slug: 'mugla-hali-yikama-villa-bakimi',
+    city: 'Muğla',
+    citySlug: 'mugla',
+    title: 'Bodrum Villasında Halı Bakımı: Deniz Tuzu, Rüzgâr ve Lüks Halıların Gerçeği',
+    metaTitle: 'Muğla Halı Yıkama 2026 | Villa Halı Bakımı, Deniz Tuzu Etkisi, Bodrum Rehberi',
+    metaDescription: 'Bodrum ve Muğla villa halı bakım rehberi. Deniz tuzunun halı liflerine etkisi, lüks halı koruma stratejisi ve sezon yönetimi.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 8,
+    heroEmoji: '⛵',
+    intro: 'Bodrum\'daki villanızın salonuna 50.000 TL\'lik bir el dokuma halı serdiniz. Manzara muhteşem — ama o manzaranın getirdiği deniz tuzu, kum ve nem halınızın düşmanı. Sahile yakın evlerde halılar iç bölgelere göre %50 daha hızlı yıpranıyor. Bu yazıda Bodrum ve Muğla bölgesindeki villa sahiplerine özel halı bakım stratejisini anlatıyoruz. Deniz tuzunun liflere ne yaptığını, rüzgârın taşıdığı kumun halıyı nasıl aşındırdığını ve bu sorunları nasıl önleyeceğinizi.',
+    sections: [
+      {
+        heading: 'Deniz Tuzu Halılara Ne Yapıyor?',
+        content: `Sahile 500 metreden yakın her ev deniz tuzu etkisinde. Rüzgâr deniz yüzeyinden tuz kristallerini alıp karadaki evlere taşır. Bu kristaller pencereden, kapıdan ve havalandırmadan girer — ve halı liflerine yerleşir.
+
+**Tuz kristallerinin halıya etkisi:**
+1. **Nem çekme:** Tuz higroskopik — havadan nem çeker. Tuzlu halı sürekli nemli kalır. Bu nem toz akarı ve bakteri üremesini hızlandırır.
+2. **Lif sertleştirme:** Tuz kristalleri lif yapısına nüfuz eder ve lifleri sertleştirir. Halı esnekliğini kaybeder, yürüdüğünüzde "çıtırdama" hissedersiniz.
+3. **Renk matlaşma:** Tuz zamanla halının parlaklığını alır. Özellikle koyu renk halılarda belirgin.
+4. **Aşındırma:** Ayakla bastığınızda tuz kristalleri lifleri mikro düzeyde keser — zımpara etkisi.
+
+**Çözüm basit ama disiplin gerektirir:**
+- Haftada 1 kez ıslak bezle halı yüzeyini silin — tuz kristallerini çözer
+- 6 ayda 1 profesyonel yıkama — derinlerdeki tuzu çıkarır
+- Nem ölçer alın — ev içi nem %60\'ı aşıyorsa nem alıcı kullanın
+
+[Muğla halı yıkama](/mugla-hali-yikama-firmalari) firmaları bu sorunla yıllardır boğuşuyor — deniz tuzu temizliği konusunda Türkiye\'nin en deneyimlileri.`,
+      },
+      {
+        heading: 'Villa Halısı Seçimi — Bodrum İçin Doğru ve Yanlış Halılar',
+        content: `Bodrum villasına halı seçerken İstanbul\'daki eviniz gibi düşünmeyin. Deniz iklimi kuralları farklı:
+
+**Kaçınmanız gereken halılar:**
+- **Yün halı:** Nem emer, ağırlaşır, güve çeker. Kapalı sezon boyunca küf riski çok yüksek
+- **Shaggy/uzun tüylü:** Tuz ve kum liflerin arasında birikir, temizlemek çok zor
+- **Açık renkli doğal lif:** Tuz izleri beyaz lekeler bırakır
+- **Antik/değerli el dokuma:** Tuz ve nem hasarı geri dönüşümsüz — riske değmez
+
+**İdeal halılar:**
+- **Polipropilen:** Nem emmez, hızlı kurur, tuz tutmaz. En pratik seçenek
+- **Düz dokuma kilim:** İnce yapısı sayesinde tuz birikmez, kolay yıkanır
+- **Koyu desenli polyester:** Tuz izi görünmez, dayanıklı
+- **İç/dış mekân halısı:** Özellikle teras ve veranda için. Suya ve tuza dayanıklı
+
+**Değerli halınız varsa:**
+50.000 TL\'lik ipek halıyı Bodrum villasına sermek cesur bir karar. Yapacaksanız: sahile bakan odaya değil iç odaya serin, halı altına kalın nem bariyeri koyun, ve 6 ayda 1 mutlaka [Muğla halı yıkama](/mugla-hali-yikama-firmalari) firmasına verin.`,
+      },
+      {
+        heading: 'Sezon Yönetimi — Villanızın Halıları 12 Ay Boyunca',
+        content: `**Nisan: Sezon açılış hazırlığı**
+Eve girin, pencereleri açın, 24 saat havalandırın. Halıları kaldırıp altlarını kontrol edin — küf var mı? Firmayı arayın, halıları + perdeleri + koltuk kılıflarını verin.
+
+**Mayıs: Tertemiz başlangıç**
+Firma temizlenmiş halıları getirsin. Halı altına nem bariyeri koyun. Perdeleri asın. Ev hazır.
+
+**Haziran-Eylül: Aktif kullanım**
+Haftada 1 kez süpürge + ıslak bez silerek tuz kristallerini alın. Plajdan gelen kumu hemen süpürün — kum lifleri keser. Ayakkabıları kapıda çıkarın.
+
+**Ekim: Sezon kapanış**
+Halıları firmaya verin — yaz boyunca biriken tuz, kum ve kiri profesyonel yıkamayla çıkarın. Temizlenmiş halıları rulo yapıp asit-free kâğıda sarın. Serin, kuru, karanlık yerde saklayın.
+
+**Kasım-Mart: Kapalı sezon**
+Her odaya nem alıcı bırakın. Mümkünse ayda 1 kez eve uğrayıp havalandırın. Kapalı evde nem birikmesi halılara zarar verir — kaldırılmış bile olsalar nemli depoda küf tutabilirler.
+
+**Yıllık maliyet tahmini (3 odalı villa):**
+- Sezon açılış yıkama: 3.000-4.000 TL
+- Sezon kapanış yıkama: 3.000-4.000 TL
+- Toplam: 6.000-8.000 TL/yıl
+
+Bu, halılarınızın 2-3 kat daha uzun yaşamasını sağlıyor.
+
+[Muğla halı yıkama](/mugla-hali-yikama-firmalari) — Bodrum, Fethiye ve Marmaris\'te hizmet veren firmalarla yıllık anlaşma yapın.`,
+      },
+    ],
+    faq: [
+      { q: 'Deniz kenarındaki villada halı ne sıklıkla yıkatılmalı?', a: 'Yılda 2 kez — sezon açılışı (Nisan) ve kapanışı (Ekim). Arada haftada 1 kez ıslak bez ile tuz kristallerini silin.' },
+      { q: 'Bodrum villasına hangi halı serilmeli?', a: 'Polipropilen veya polyester — nem emmez, tuz tutmaz, hızlı kurur. Yün ve shaggy sahil evine uygun değil.' },
+      { q: 'Deniz tuzu halıya kalıcı zarar verir mi?', a: 'Zamanla evet — lifleri sertleştirir, matlaştırır ve aşındırır. Düzenli profesyonel yıkama bu hasarı önler.' },
+    ],
+    relatedSlugs: ['mugla-hali-yikama', 'mugla-bodrum-hali-yikama', 'hali-bakim-ipuclari'],
+  },
+
+  {
+    slug: 'samsun-hali-yikama-nadir-halilar',
+    city: 'Samsun',
+    citySlug: 'samsun',
+    title: 'Samsun\'da Hereke Halısı Yıkatan Adam: Nadir Halıların Yıkanma Hikâyesi',
+    metaTitle: 'Samsun Halı Yıkama 2026 | Hereke, İran, Afgan Halısı Bakımı, Nadir Halı Rehberi',
+    metaDescription: 'Samsun halı yıkama — nadir ve değerli halıların bakım rehberi. Hereke, İran, Afgan ve Türkmen halılarının yıkama bilimi ve Samsun firmalarının uzmanlığı.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 9,
+    heroEmoji: '🌧️',
+    intro: 'Samsun\'daki halı yıkama firmasının fiyat listesinde bir satır dikkatinizi çekecek: "Hereke Halısı — 250-300 TL/m²". Hemen altında "İran Halısı — 300 TL/m²", "Afgan/Türkmen Halısı — 300 TL/m²". Bu halı türlerini yıkama listesinde gösteren firma sayısı Türkiye genelinde bir elin parmaklarını geçmez. Samsun\'daki bu firma nadir halı uzmanlığını nasıl kazanmış? Ve siz değerli bir halının sahibiyseniz onu nasıl korumalısınız?',
+    sections: [
+      {
+        heading: 'Nadir Halılar Neden "Nadir"?',
+        content: `Hereke, İran, Afgan ve Türkmen halıları neden sıradan halılardan farklı ve neden özel bakım gerektiriyor?
+
+**Hereke Halısı:**
+İstanbul Hereke\'de 1843\'ten beri dokunan, Osmanlı saraylarının halısı. Santimetrekare başına 3.600-14.400 düğüm — makine halısında bu sayı 500-1.000. Bu yoğunluk halıyı sanat eserine dönüştürüyor. İpek ve yün karışımı, doğal boyalar. Değeri: 10.000-500.000 TL arası.
+
+**İran (Fars) Halısı:**
+Dünyanın en eski halı geleneği. Tebriz, İsfahan, Kashan, Nain — her bölgenin kendine özgü deseni, boyası ve düğüm tekniği var. Doğal bitkisel ve hayvansal boyalar. Değeri: 5.000-200.000 TL.
+
+**Afgan Halısı:**
+Savaşa rağmen yaşayan zanaat. Koyu kırmızı-lacivert tonları, fil ayağı motifi. Doğal kök boyalar, el eğirmesi yün. Değeri: 3.000-50.000 TL.
+
+**Türkmen Halısı:**
+Orta Asya göçebe geleneği. Geometrik desenler, koyu kırmızı zemin. Keçi yünü veya deve tüyü karışımı. Değeri: 2.000-30.000 TL.
+
+**Ortak özellikleri:**
+Hepsi doğal boyalı, el eğirmesi lifli ve elle düğümlenmiş. Ve hepsi yanlış yıkamada geri dönüşümsüz zarar görür.
+
+[Samsun halı yıkama](/samsun-hali-yikama-firmalari) firmasının 26 halı türü arasında bu nadir kategorilerin yer alması ciddi bir uzmanlık göstergesi.`,
+      },
+      {
+        heading: 'Nadir Halı Yıkamanın Bilimi — Neden Bu Kadar Zor?',
+        content: `**Boya sorunu — doğal kök boyalar:**
+Sentetik boyalı makine halısını 50°C suyla yıkayabilirsiniz — renk akmaz. Ama Hereke\'deki kök boyası (kırmızı = kök boya bitkisi, mavi = indigo, sarı = safran veya soğan kabuğu) farklı kurallara tabi:
+
+- pH 8\'in üzerinde alkalin deterjan boyayı çözer
+- 35°C üzeri su boyayı harekete geçirir — renk akar
+- Uzun süreli ıslatma boyayı zayıflatır
+
+Usta ilk iş "renk akma testi" yapar: halının kenarına nemli beyaz bez bastırır. Boya geliyorsa program daha nazik ayarlanır.
+
+**Düğüm sorunu — 14.400 düğüm/cm²:**
+Hereke halısının düğüm yoğunluğu inanılmaz. Bu yoğunluk halıyı dayanıklı yapar ama kir de düğümlerin arasına sıkışır. Düşük basınçla yıkamak kiri çıkarmaz, yüksek basınç düğümleri gevşetir. Usta doğru basıncı "hisseder" — bu yılların deneyimiyle gelen bir beceri.
+
+**Lif sorunu — el eğirmesi yün:**
+Fabrika yünü homojen kalınlıktadır. El eğirmesi yün her noktada farklı kalınlıkta. İnce noktalar güçlü basınçta kopabilir. Kalın noktalar ise daha fazla su ve deterjan tutar. Homojen yıkama mümkün değil — usta halıyı bölüm bölüm yıkar.
+
+**Sonuç:**
+Nadir halı yıkama saatlerce sürer. Makine halısı 5 dk/m², Hereke halısı 45-60 dk/m². Bu süre farkı fiyata yansıyor — 80 TL vs 300 TL. Ama 100.000 TL\'lik halıya 300 TL harcamak mantıklı yatırım.
+
+[Samsun halı yıkama](/samsun-hali-yikama-firmalari) — Hereke\'den Afgan\'a, nadir halı uzmanlığı.`,
+      },
+      {
+        heading: 'Değerli Halınızı Firmaya Vermeden Önce Yapmanız Gerekenler',
+        content: `Nadir halınızı herhangi bir firmaya teslim etmeden önce bu kontrol listesini takip edin:
+
+**1. Halının değerini bilin:**
+Ekspertiz yaptırın veya en azından benzer halıların pazar değerini araştırın. Firma halının değerini bilmeli ki sorumluluk sigortası buna göre ayarlansın.
+
+**2. Detaylı fotoğraf çekin:**
+Her köşe, her kenar, her leke, her yıpranma — hepsini fotoğraflayın. Tarih damgalı olsun. Olası anlaşmazlıkta kanıtınız bu fotoğraflar.
+
+**3. Firmaya şunları sorun:**
+- "Hereke/İran/Afgan halısı daha önce yıkadınız mı?"
+- "Hangi deterjanı kullanıyorsunuz? pH değeri nedir?"
+- "Su sıcaklığı kaç derece olacak?"
+- "Renk akma testi yapıyor musunuz?"
+- "Hasar durumunda sigorta/tazminat politikanız nedir?"
+
+**4. Yazılı teslim belgesi alın:**
+Halının boyutları, durumu, leke/hasar notları ve tahmini değeri yazılı olarak belgelenmeli. İki taraf da imzalamalı.
+
+**5. Teslimatta kontrol:**
+Halı geldiğinde boyut kontrolü (çekme var mı?), renk kontrolü (solma/akma var mı?), lif kontrolü (pürüz, kopma var mı?) ve koku kontrolü (küf var mı?) yapın.
+
+Bu halılar paha biçilmez — acele etmeyin, doğru firmayı seçmek için zaman ayırın.
+
+[Samsun halı yıkama](/samsun-hali-yikama-firmalari) — 26 halı türünde uzman firma.`,
+      },
+    ],
+    faq: [
+      { q: 'Hereke halısı nerede yıkatılır?', a: 'Samsun\'daki firma Hereke halısını ayrı kategori olarak sunuyor (250-300 TL/m²). Bu uzmanlık Türkiye genelinde çok nadir.' },
+      { q: 'İran halısı yıkama fiyatı ne kadar?', a: 'Samsun\'da 300 TL/m². Halının değeri düşünüldüğünde (5.000-200.000 TL) bu fiyat ömür uzatma yatırımı.' },
+      { q: 'Nadir halıya yıkamada zarar gelirse ne olur?', a: 'Teslim öncesi yazılı belge + fotoğraf çekin. Profesyonel firmalar hasar durumunda tazminat politikası sunar — sipariş öncesi sorun.' },
+    ],
+    relatedSlugs: ['samsun-hali-yikama', 'samsun-hali-yikama-karadeniz', 'hali-yikama-firmasi-nasil-secilir'],
+  },
+
+  {
+    slug: 'trabzon-hali-yikama-ev-koruma',
+    city: 'Trabzon',
+    citySlug: 'trabzon',
+    title: 'Trabzon\'da Yaşıyorsanız Evinizi Nemden Korumanın 12 Aylık Takvimi',
+    metaTitle: 'Trabzon Halı Yıkama 2026 | 12 Aylık Nem Koruma Takvimi, Halı Bakım Stratejisi',
+    metaDescription: 'Trabzon nem koruma takvimi. Ay ay halı bakımı, kurutma stratejileri, nem ölçümü ve Karadeniz ikliminde halı ömrünü uzatma rehberi.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 9,
+    heroEmoji: '⛰️',
+    intro: 'Trabzon\'da yaşıyorsanız nemin hayatınızın parçası olduğunu bilirsiniz. Ama çoğu insan nemin halılara yaptığını tam olarak bilmez — çünkü hasar yavaş ilerler. Bir gün halınızı kaldırırsınız ve altında siyah noktalar görürsünüz. Kokuyu alırsınız. Ama o noktaya gelmeden önce 12 ay boyunca neler olduğunu ve her ay ne yapmanız gerektiğini bilseydiniz, o halıyı kurtarabilirdiniz. İşte Trabzon\'a özel 12 aylık halı koruma takviminiz.',
+    sections: [
+      {
+        heading: 'Ocak-Mart: Kışın Göbeğinde Hayatta Kalma',
+        content: `Bu 3 ay Trabzon\'un en zorlu dönemi. Yağış neredeyse her gün, nem %85+, güneş nadir.
+
+**Ocak:**
+- Halıların altını kontrol edin — kış başından beri nem birikmiş olabilir
+- Nem alıcıları yenileyin (3 ayda bir değişmeli)
+- Soba/kalorifer yakınındaki halıyı 30 cm geri çekin — aşırı kuru sıcaklık lifleri gevretir ama nem dengesi de bozulur
+- Süpürge: haftada 2 kez minimum
+
+**Şubat:**
+- En soğuk ve en nemli ay. Pencere açmak imkânsıza yakın
+- Kalorifer petekleri etrafında yoğuşma oluşur — bu yoğuşma damlayıp halıya ulaşabilir. Petek altına havlu koyun
+- Halı altı nem bariyerini kontrol edin — kayma veya buruşma varsa düzeltin
+
+**Mart:**
+- Yağış devam ediyor ama gündüzler uzuyor
+- İlk güneşli günde halıları kaldırıp altlarını havalandırın
+- Küf belirtisi varsa (siyah noktalar, koku) firmayı arayın — bahar yıkaması için sıra alın
+- [Trabzon halı yıkama](/trabzon-hali-yikama-firmalari) firmalarına Mart\'ta sipariş verin — Temmuz-Ağustos\'u beklemeyin, sıra uzun
+
+**Kritik uyarı:** Bu 3 ayda halı yıkatmayın. Kapalı kurutma tesisi olsa bile firma ile halı taşımak riskli — yağmurda ıslanabilir. Mart sonunu bekleyin.`,
+      },
+      {
+        heading: 'Nisan-Haziran: Uyanış ve Bahar Temizliği',
+        content: `Güneş görünmeye başlıyor ama yağış hâlâ devam ediyor. Bu dönem hazırlık dönemi.
+
+**Nisan:**
+- İlk güneşli hafta sonu: TÜM halıları kaldırın, balkonda veya çamaşırlıkta 4-6 saat havalandırın
+- Halı altındaki zemine anti-küf sprey uygulayın
+- Nem bariyerlerini yenileyin
+- Firmaya sipariş verdiyseniz (Mart\'ta vermiş olmalısınız) bu ay içinde halıları toplatsınız
+
+**Mayıs:**
+- Hava ısınıyor ama Trabzon\'da "yaz" hâlâ garanti değil
+- Profesyonel yıkamadan gelen halıları tekrar serin
+- Nem ölçer alın (50-100 TL\'lik dijital nem ölçer hayat kurtarır) — ev içi nem %60 üzerindeyse nem alıcı veya fan çalıştırın
+- Pencereler açık bırakılabilir — hava sirkülasyonu başlasın
+
+**Haziran:**
+- Çay hasadı başlıyor — eve taşınan toprak ve yaprak kalıntıları artacak
+- Kapı önüne kalın paspas koyun — çay bahçesinden gelen toprak doğrudan halıya gelmesin
+- Haftalık süpürme yetmez — 3-4 güne bir süpürün
+- Güneşli günlerde halıyı balkona asıp UV ışınıyla doğal dezenfeksiyon yapın (2-3 saat yeterli, daha fazla solmaya neden olur)`,
+      },
+      {
+        heading: 'Temmuz-Eylül: Altın Dönem — Yapmanız Gereken Her Şeyi Şimdi Yapın',
+        content: `Trabzon\'un en kuru 3 ayı. Yılın geri kalanında yapamadığınız her şeyi şimdi yapın:
+
+**Temmuz:**
+- Mart\'ta sipariş vermediyseniz şimdi verin — firmalar Temmuz\'da en aktif
+- İkinci halı seti varsa (misafir odası, yatak odası) bunları da yıkatın
+- Koltuk yıkama, yorgan yıkama, perde yıkama — hepsini bu dönemde yaptırın
+- Halı altı zeminleri dezenfektanlı su ile silin ve 24 saat kurumaya bırakın
+
+**Ağustos:**
+- Çay hasadı devam ediyor — toprak trafiği yoğun
+- Fındık hasadı da başlıyor (bölgeye göre) — ek organik kir
+- Hasat dönüşü halıları süpürün, islak bez çekin
+- Nem ölçer kontrolü: ev içi nem %55-60 arasındaysa ideal, %65+ uyarı
+
+**Eylül:**
+- Son fırsat! Eylül sonuna kadar yılın ikinci profesyonel yıkamasını yaptırın
+- Kışa hazırlık: nem alıcıları stoklayın (Ekim-Mart arası 6 ay dayanmalı)
+- Halı altı nem bariyerlerini kontrol edin, yıpranmışları değiştirin
+- Zemin kata yakın odalarda halı yerine kilim veya washable halı düşünün
+
+[Trabzon halı yıkama](/trabzon-hali-yikama-firmalari) firmaları Temmuz-Ağustos\'ta en yoğun — erken sipariş verin.`,
+      },
+      {
+        heading: 'Ekim-Aralık: Kışa Hazırlık ve Savunma Hattı',
+        content: `Yağışlar başlıyor, güneş azalıyor, nem tırmanıyor. Artık saldırı değil savunma zamanı.
+
+**Ekim:**
+- Eylül\'de yıkatamadıysanız Ekim başı son şans — ortasından sonra risk artıyor
+- Tüm halıların altına nem bariyeri konulmuş mu kontrol edin
+- Nem alıcıları yerleştirin — her oda en az bir tane
+- Havalandırma rutini başlasın: günde en az 30 dk pencere açın (yağmur yoksa)
+
+**Kasım:**
+- Yağış yoğunlaşıyor. Pencere açmak zorlaşıyor
+- Aspıratör/fan ile yapay havalandırma başlasın
+- Soba/kalorifer yandıysa oda içi-dışı sıcaklık farkı yoğuşma yaratır — pencere kenarındaki halıyı 20 cm geri çekin
+- Haftalık süpürme devam etmeli
+
+**Aralık:**
+- Tam kış. Nem %85+, güneş yok
+- Halı altlarını ayda 1 kontrol edin — küf belirtisi varsa hemen firmayı arayın (kışta bile anti-küf işlem yapılabilir)
+- Islak ayakkabıları kapıda çıkarın — kapı önü paspası kalın ve emici olmalı
+- "Kış odası" kullanıyorsanız o odanın halısını ekstra koruyun — yoğun kullanım + soba sıcağı + dış nem = en riskli kombinasyon
+
+**Yıllık özet:** Trabzon\'da halı bakımı tam zamanlı iş. Ama bu disiplini uygularsanız halınız 2 kat daha uzun yaşar ve eviniz sağlıklı kalır.
+
+[Trabzon halı yıkama](/trabzon-hali-yikama-firmalari) — yılda 2-3 kez profesyonel yıkama ile nemin üstesinden gelin.`,
+      },
+    ],
+    faq: [
+      { q: 'Trabzon\'da halı bakımı için en önemli şey ne?', a: 'Nem kontrolü. Dijital nem ölçer alın, ev içi nemi %60 altında tutun, halı altına nem bariyeri koyun ve yılda 2-3 kez profesyonel yıkama yaptırın.' },
+      { q: 'Trabzon\'da halı yıkama için en iyi dönem ne?', a: 'Temmuz-Ağustos. Yılın en kuru ayları. Ama Mart\'ta sipariş verin — firmalar yazın çok yoğun.' },
+      { q: 'Trabzon\'da halı altında küf oldu ne yapmalıyım?', a: 'Halıyı hemen kaldırın, altını havalandırın. Firmayı arayın — anti-küf işlemli profesyonel yıkama gerekir. Geciktirmeyin, küf yayılır.' },
+    ],
+    relatedSlugs: ['trabzon-hali-yikama', 'trabzon-hali-yikama-yagmur-sehri', 'hali-alerjisi-ve-hijyen'],
+  },
+
   ...cityGuides,
 ];
 
