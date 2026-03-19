@@ -3923,6 +3923,641 @@ Yılın büyük bölümünde yağışlı. Temmuz-Ağustos en kuru aylar — hal�
     relatedSlugs: ['giresun-hali-yikama', 'hali-yikama-fiyatlari', 'ordu-hali-yikama-findik-sahili'],
   },
 
+  {
+    slug: 'kastamonu-hali-yikama-orman-sehri',
+    city: 'Kastamonu',
+    citySlug: 'kastamonu',
+    title: 'Kastamonu\'da Halı Yıkama: Ahşap Evlerden Yükselen Nemin Halılarla Savaşı',
+    metaTitle: 'Kastamonu Halı Yıkama 2026 | 2 Firma, Ahşap Ev Nemi, Gerçek Fiyatlar',
+    metaDescription: 'Kastamonu halı yıkama rehberi. Ahşap konak neminin halıya etkisi, 80 TL\'den fiyatlar, Çin halısına kadar uzmanlık ve Tosya-Taşköprü hizmet ağı.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 8,
+    heroEmoji: '🌲',
+    intro: 'Kastamonu\'nun sokakları yürüdüğünüzde iki şey dikkatinizi çeker: ahşap konakların cephesindeki oymalı çıtalar ve her evin penceresinden sarkan halılar. Bu şehirde halı sadece zemin döşemesi değil — kışı geçirmek için bir araç. Kastamonu kışları uzun, sert ve karanlık. İnsanlar evlerinde aylarını geçirir ve o aylarda halılar ailenin tüm ağırlığını taşır. 2 aktif firma bu zorlu coğrafyada halı yıkama hizmeti veriyor — ve bu firmaların fiyat listesinde Çin halısı bile var.',
+    sections: [
+      {
+        heading: 'Kastamonu\'da Halının Yeri — Bir Yaşam Biçimi',
+        content: `Kastamonu\'yu anlamadan Kastamonu\'da halı yıkamayı anlayamazsınız. Şehrin rakımı 800 metre. Kasım\'dan Nisan\'a kadar kar yerde kalır. Evlerin çoğu hâlâ kömür sobası veya doğalgazla ısınıyor. Ve bu uzun kış boyunca insanlar evdedir — çocuklar halıda oynar, yaşlılar halıda oturur, misafir halıda ağırlanır.
+
+Bu yoğun kullanım halıyı 6 ayda İstanbul\'daki 1 yıllık kullanıma eşdeğer kirletiyor. Kış boyunca halının altında biriken nem, üzerinde biriken toz ve vida arası sıkışan yemek kırıntıları — bahar geldiğinde bu halı profesyonel yıkama görmek zorundadır.
+
+**Ahşap evlerin gizli sorunu:**
+Kastamonu\'nun tarihi ahşap evleri güzel ama halı düşmanı. Ahşap zemin nem çeker ve bu nem halıya geçer. Halı altında nem bariyeri olmadan döşenen halılarda küf oluşumu kaçınılmaz. Yeni beton daireler bu sorunu yaşamıyor ama şehrin önemli bir kısmı hâlâ ahşap yapıda yaşıyor.
+
+[Kastamonu halı yıkama](/kastamonu-hali-yikama-firmalari) firmalarından hem yıkama hem anti-küf işlem hakkında bilgi alabilirsiniz.`,
+      },
+      {
+        heading: 'Fiyatlar ve Bir Sürpriz: Kastamonu\'da Çin Halısı Yıkayan Firma',
+        content: `Kastamonu gibi 380.000 nüfuslu bir Anadolu şehrinde Çin halısı yıkama hizmeti bulmak beklenmedik. Ama firmanın fiyat listesi oldukça kapsamlı:
+
+| Halı Türü | Fiyat (TL/m²) |
+|-----------|---------------|
+| Makine Halısı | 80 |
+| Akrilik Halı | 100 |
+| Isparta Halısı | 120 |
+| El Dokuma Halı | 150 |
+| Bambu / Nepal Halısı | 200 |
+| Çin Halısı | 300 |
+| Kilim | 400 TL/adet |
+
+Bu 300 TL\'lik Çin halısı fiyatı anlamlı. Kastamonu\'da antika dükkânları ve eski konaklardaki değerli halılar var — bunların bir kısmı Çin veya İran orijinli. Firma bu halıları yıkama kapasitesine sahip demek ki talep var.
+
+**Diğer hizmetler — Yorganlar pahalı:**
+- Elyaf yorgan / Battaniye: 400 TL
+- Yün yorgan / Polar battaniye: 500 TL
+- Zebra perde: 70 TL / Stor perde: 80 TL/adet
+- Overlok: 60 TL/metre
+
+Yün yorgan 500 TL — bu Türkiye ortalamasının üzerinde. Nedeni muhtemelen Kastamonu\'da yün yorgan kullanımının çok yaygın olması ve iş gücünün buna göre fiyatlanması.
+
+[Kastamonu halı yıkama](/kastamonu-hali-yikama-firmalari) — Ağlı, Devrekâni, Küre ve merkezdeki hizmet alanlarını inceleyin.`,
+      },
+      {
+        heading: 'Kastamonu\'da Halı Yıkama Takvimi — Kışa Hazırlık ve Bahar Temizliği',
+        content: `Kastamonu\'da halı yıkama iki kritik dönemde yapılır:
+
+**1. Bahar temizliği (Nisan sonu — Mayıs):**
+Kışın tüm pisliğini atma zamanı. Kar erimiş, güneş çıkmış, pencereler açılmış. Evdeki tüm halılar toplanır ve firmaya verilir. Bu Kastamonu\'nun "büyük temizlik" geleneğidir — sadece halı değil, yorgan, yastık, perde hepsi birlikte yıkatılır. Firmalar bu dönemde en yoğundur.
+
+**2. Sonbahar hazırlığı (Eylül sonu — Ekim):**
+Kışa hazırlık. Yaz boyunca kaldırılan halılar tekrar serilecek. Ama önce yıkanmalı — çünkü depoda da toz ve nem toplamış olabilir.
+
+**Asla yapmamanız gereken:**
+Kasım-Mart arası halı yıkatmak. Kastamonu\'da bu dönemde dış sıcaklık -10°C altında olabilir. Halıyı açık havada kurutmak imkânsız. Kapalı kurutma tesisi olan firma bulmanız bile yetmez — firma halıyı size ıslak getirecek yolda donma riski var. İstisna: firmanın kendi tesisinde yıkayıp kurutup teslim ettiği durum.
+
+**Tosya ve Taşköprü sakinleri:**
+Bu iki büyük ilçede yerel firma yok. Kastamonu merkezinden hizmet alıyorsunuz. 50-70 km mesafe olduğundan komşularla organize olup toplu sipariş vermek maliyeti ciddi düşürür.
+
+[Kastamonu halı yıkama](/kastamonu-hali-yikama-firmalari) — firmaların hizmet verdiği 5 bölgeyi inceleyin.`,
+      },
+    ],
+    faq: [
+      { q: 'Kastamonu\'da halı yıkama kaç TL 2026?', a: 'Makine halısı 80 TL/m². Çin halısı 300 TL/m² ile Anadolu\'da nadir bir uzmanlık mevcut.' },
+      { q: 'Kastamonu\'da ahşap evde halı nasıl korunur?', a: 'Halı altına mutlaka nem bariyeri koyun. Ahşap zemin nem çeker ve halıya geçirir. Yılda 2 kez profesyonel yıkama + anti-küf işlem önerilir.' },
+      { q: 'Tosya\'ya halı yıkama firması geliyor mu?', a: 'Kastamonu merkezindeki firmalar Tosya\'ya hizmet veriyor ama ulaşım maliyeti ekleniyor. Komşularla toplu sipariş vererek maliyeti düşürebilirsiniz.' },
+    ],
+    relatedSlugs: ['kastamonu-hali-yikama', 'hali-yikama-fiyatlari', 'bolu-hali-yikama-abant'],
+  },
+
+  {
+    slug: 'bilecik-hali-yikama-osmanli',
+    city: 'Bilecik',
+    citySlug: 'bilecik',
+    title: 'Bilecik Halı Yıkama: Osmanlı\'nın Kuruluş Şehrinde 30 Ürünlük Hizmet Haritası',
+    metaTitle: 'Bilecik Halı Yıkama 2026 | 30 Ürün, Leke Çıkarma Hizmeti, Söğüt-Bozüyük',
+    metaDescription: 'Bilecik halı yıkama rehberi. 30 ürünlük kapsamlı fiyat listesi, özel leke çıkarma ve saçak tamiri hizmeti, Söğüt-Bozüyük hizmet ağı.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 7,
+    heroEmoji: '🏰',
+    intro: 'Bilecik — 225.000 nüfuslu, sessiz bir Marmara şehri. Ama bu küçük şehirdeki halı yıkama firması sessiz değil: 30 farklı ürün ve hizmet, saçak tamirinden leke çıkarmaya kadar uzanan bir uzmanlık. Koltuk takımı sadece 600 TL — İstanbul\'un dörtte biri. Bilecik\'in fiyatları ile İstanbul kalitesini bir arada sunan bu firma, küçük şehir halı yıkama standartlarını yeniden tanımlıyor.',
+    sections: [
+      {
+        heading: 'Bilecik\'in Sürpriz Firması — 30 Ürün, 3 Bölge',
+        content: `Bilecik\'te tek firma var ama bu firma ciddi bir oyuncu. Merkez, Söğüt ve Yeniceler\'de hizmet veriyor ve sunduğu 30 ürün/hizmet listesi birçok büyükşehir firmasını geride bırakıyor.
+
+**Halı türleri:**
+
+| Halı Türü | Fiyat (TL/m²) |
+|-----------|---------------|
+| Kaymaz / Deri / Jüt / Post | 100 |
+| Klasik Makine | 110 |
+| Mega Klasik / Şaggy / Akrilik | 120 |
+| Yün Isparta / Yün Akrilik | 120 |
+| El Dokuma / İpek / Bambu | 150 |
+| Tensel / Viskon / Nepal / Çin | 150 |
+| Doğal İplik | 150 |
+
+**Gerçekten öne çıkan hizmetler:**
+- **Leke işlem:** 100 TL — İnatçı lekeler (mürekkep, boya, şarap) için özel kimyasal işlem
+- **Saçak tamiri:** 100 TL — Yıpranmış veya kopmuş saçak onarımı
+- **Overlok:** 100 TL/metre — Kenar overlok yenileme
+
+Bu üç hizmet çoğu şehirde bulunamaz. Firma sadece yıkama değil, halı bakım ve onarım merkezi gibi çalışıyor.
+
+**Koltuk takımı 600 TL:**
+İstanbul\'da 2.500 TL, Ankara\'da 1.800 TL. Bilecik\'te 600 TL. Bu fark çarpıcı — ve kalite farkı değil, maliyet farkı. Bilecik\'in düşük kira ve işçilik maliyetleri doğrudan fiyata yansıyor.
+
+[Bilecik halı yıkama](/bilecik-hali-yikama-firmalari) — 30 ürünlük tam listeyi inceleyin.`,
+      },
+      {
+        heading: 'Bilecik\'te Halı Yıkama — Küçük Şehrin Büyük Avantajları',
+        content: `Bilecik\'te halı yıkatmanın büyükşehirde bulamayacağınız avantajları var:
+
+**1. Kişisel ilişki:**
+Tek firma demek sizi tanıyan, halılarınızı bilen, önceki yıkamalardaki sorunları hatırlayan bir firma demek. Büyükşehirlerde bu ilişki yok — siz yüzlerce müşteriden birisiniz.
+
+**2. Esnek zamanlama:**
+Firma yoğun olmadığı dönemlerde (Kasım-Mart) esneklik gösterebilir. Aynı gün alma, ertesi gün teslim gibi hızlı hizmet mümkün.
+
+**3. Paket hizmet:**
+Halı + koltuk + yorgan + perde + yatak hepsini aynı firmaya verebilirsiniz. 5 kategoride hizmet var. Firma zaten geliyor — toplu verdiğinizde ulaşım maliyeti bir kez ödeniyor.
+
+**Söğüt bağlantısı:**
+Osmanlı\'nın kuruluş şehri Söğüt, Bilecik\'e 40 km. Firma buraya da hizmet veriyor. Söğüt\'teki tarihi evlerde el dokuma halı ve kilim yaygın — firma el dokuma kategorisinde 150 TL/m² fiyat sunuyor.
+
+**Bozüyük dikkat:**
+Bilecik\'in en büyük ilçesi Bozüyük firmaya ayrıca listelenmemiş. Bozüyük sakinleri sipariş öncesi hizmet alanını teyit etsin. Eskişehir firmalarını da değerlendirebilirler — [Eskişehir halı yıkama](/eskisehir-hali-yikama-firmalari) firmaları Bozüyük\'e daha yakın olabilir.
+
+[Bilecik halı yıkama](/bilecik-hali-yikama-firmalari) — Merkez, Söğüt ve Yeniceler\'deki hizmet detaylarını inceleyin.`,
+      },
+    ],
+    faq: [
+      { q: 'Bilecik\'te halı yıkama kaç TL 2026?', a: 'Klasik makine 110, şaggy/akrilik 120, el dokuma/ipek 150 TL/m². Koltuk takımı sadece 600 TL — İstanbul\'un dörtte biri.' },
+      { q: 'Bilecik\'te halı saçak tamiri yapan firma var mı?', a: 'Evet, 100 TL\'ye saçak tamiri + 100 TL\'ye özel leke çıkarma hizmeti sunuluyor. Bu hizmetler küçük şehirlerde nadir.' },
+      { q: 'Bozüyük\'e halı yıkama firması geliyor mu?', a: 'Bilecik merkezindeki firmayı veya Eskişehir firmalarını değerlendirin — Bozüyük iki şehrin arasında.' },
+    ],
+    relatedSlugs: ['bilecik-hali-yikama', 'hali-yikama-fiyatlari', 'eskisehir-hali-yikama-universite-sehri'],
+  },
+
+  {
+    slug: 'zonguldak-hali-yikama-maden',
+    city: 'Zonguldak',
+    citySlug: 'zonguldak',
+    title: 'Zonguldak Halı Yıkama: Kömür Tozuyla Yaşayan Şehirde Halılar Ne Çekiyor?',
+    metaTitle: 'Zonguldak Halı Yıkama 2026 | Kömür Tozu Etkisi, Gerçek Fiyatlar, Ereğli Rehberi',
+    metaDescription: 'Zonguldak halı yıkama rehberi. Kömür madeni tozunun halılara etkisi, siyah leke çıkarma, Ereğli-Çaycuma fiyatları ve Karadeniz nem stratejisi.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 7,
+    heroEmoji: '⛏️',
+    intro: 'Zonguldak\'ta başka hiçbir şehirde olmayan bir sorun var: kömür tozu. Türkiye\'nin tek taşkömürü havzası olan bu şehirde havadaki karbon partikülleri evlerin içine kadar giriyor ve halılara siyah bir film tabakası bırakıyor. Normal süpürge bu ince kömür tozunu alamaz — halı liflerinin derinlerine nüfuz eden bu parçacıklar ancak profesyonel basınçlı yıkamayla çıkarılır. Üstelik Karadeniz nemi de işin cabası. Kömür tozu + nem = halılar için en zorlu kombinasyon.',
+    sections: [
+      {
+        heading: 'Kömür Tozu — Zonguldak\'ın Halılara Yaptığı Şey',
+        content: `Zonguldak\'ta yılda 2 milyon tonun üzerinde taşkömürü üretiliyor. Bu üretimin yan etkisi havadaki karbon partiküllerinin yoğunluğu. Özellikle Kilimli, Kozlu ve merkez ilçelerdeki evlerde bu etki belirgin:
+
+**Kömür tozu neden farklı?**
+Normal ev tozu büyük partikülerden oluşur ve süpürgeyle alınır. Kömür tozu ise mikron boyutunda karbon partiküllerinden oluşur. Bu parçacıklar:
+- Halı liflerinin arasına girer ve yapışır
+- Zamanla halının rengini karartır (özellikle açık renk halılarda fark edilir)
+- Normal deterjanla tam çıkmaz — profesyonel karbon çözücü kimyasal gerektirir
+- Solunum yolu sorunlarına yol açabilir
+
+**Zonguldak\'a özel bakım takvimi:**
+- Maden bölgesine yakın evler (Kilimli, Kozlu): Her 3 ayda bir profesyonel yıkama
+- Merkez ilçe: Yılda 3 kez
+- Ereğli (maden bölgesinden uzak): Yılda 2 kez yeterli
+
+**Halı seçimi tavsiyesi:**
+Zonguldak\'ta yaşıyorsanız koyu renkli, kısa tüylü halılar tercih edin. Açık renk ve uzun tüylü (şaggy) halılar kömür tozuyla çok hızlı kirlenir ve temizlemesi zordur.
+
+[Zonguldak halı yıkama](/zonguldak-hali-yikama-firmalari) firmalarından kömür tozu temizliği konusunda deneyimli olanı tercih edin.`,
+      },
+      {
+        heading: 'Zonguldak Halı Yıkama Fiyatları',
+        content: `Zonguldak\'taki firmanın fiyat listesi:
+
+| Halı Türü | Fiyat (TL/m²) |
+|-----------|---------------|
+| Makine Halısı | 75 |
+| Isparta Halısı | 85 |
+
+**Ek hizmetler:**
+- Koltuk takımı: 2.500 TL
+- Battaniye: 250 TL
+- Yorgan: 300 TL/adet
+- Stor perde: 150 TL/adet
+- Yatak (tek): 500 TL / Yatak (çift): 1.000 TL
+- **Ağır leke çıkarma: 100 TL/m²** — kömür tozu lekeleri için kritik hizmet
+
+**Ağır leke çıkarma hizmeti:**
+Bu hizmet Zonguldak için hayati. Kömür tozu halıda biriken siyah lekeleri standart yıkama ile tam çıkarmak zor. 100 TL/m²\'lik ek işlem karbon partikülleri çözen özel kimyasallarla yapılıyor.
+
+**Yıllık maliyet hesabı (maden yakını ev):**
+15 m² salon halısı × 75 TL × 4 kez + leke çıkarma (yılda 1 kez) = 4.500 + 1.500 = **6.000 TL/yıl**. Bu, Türkiye\'nin en yüksek yıllık halı bakım maliyeti. Ankara\'da aynı halı için yıllık maliyet 1.200 TL.
+
+[Zonguldak halı yıkama](/zonguldak-hali-yikama-firmalari) — Çaycuma, Karapınar, Saltukova bölgelerinde hizmet var.`,
+      },
+      {
+        heading: 'Karadeniz Nemi + Kömür Tozu = Çifte Tehdit',
+        content: `Zonguldak hem Karadeniz ikliminde (nem %75-85) hem maden şehrinde. Bu ikili kombinasyon Türkiye\'de başka hiçbir yerde yok:
+
+**Nem kömür tozunu yapışkanlaştırır:**
+Kuru havada kömür tozu süpürge ile kısmen alınabilir. Ama Zonguldak\'ın nemli havasında bu partiküller halı liflerine yapışır ve çıkmaz hale gelir. Islak bir kağıt mendile bulaşan kömür tozu gibi düşünün — ovaladıkça yayılır.
+
+**Küf + karbon birlikteliği:**
+Nemli ortamda halı altında küf oluşur. Kömür tozu bu küfün besin kaynağı olabilir. Sonuç: halının altı hem küflü hem kara bir tabaka halini alır.
+
+**Ne yapmalısınız?**
+1. Halı altına kalın nem bariyeri koyun — standart kaymaz taban yetmez
+2. Ayda bir halıyı kaldırıp altını havalandırın
+3. HEPA filtreli güçlü elektrikli süpürge kullanın — standart süpürge kömür tozunu geri üfler
+4. Her 3 ayda profesyonel yıkama + yılda 1 kez ağır leke çıkarma
+
+**Ereğli farklı:**
+Ereğli (Karadeniz Ereğli) maden bölgesinden uzak. Demir-çelik fabrikası var ama kömür tozu etkisi merkez kadar değil. Yılda 2 kez yıkama yeterli.
+
+[Zonguldak halı yıkama](/zonguldak-hali-yikama-firmalari) — Karadeniz\'in en zorlu ikliminde profesyonel çözüm.`,
+      },
+    ],
+    faq: [
+      { q: 'Zonguldak\'ta halı yıkama kaç TL 2026?', a: 'Makine halısı 75 TL/m². Ağır leke çıkarma ek 100 TL/m². Maden yakınında yılda 4 kez yıkama gerektiğinden yıllık maliyet yüksek.' },
+      { q: 'Kömür tozu halıdan çıkar mı?', a: 'Profesyonel karbon çözücü kimyasal ile evet. Evde çıkarmak çok zor — ovaladıkça yayılır. 100 TL/m²\'lik ağır leke çıkarma hizmeti bu iş için tasarlanmış.' },
+      { q: 'Zonguldak\'ta halı kaç kez yıkatılmalı?', a: 'Maden bölgesine yakınsa yılda 4 kez, Ereğli gibi uzak ilçelerde 2 kez. Kömür tozu + Karadeniz nemi çifte tehdit oluşturuyor.' },
+    ],
+    relatedSlugs: ['zonguldak-hali-yikama', 'hali-yikama-fiyatlari', 'samsun-hali-yikama-karadeniz'],
+  },
+
+  {
+    slug: 'corum-hali-yikama-leblebi',
+    city: 'Çorum',
+    citySlug: 'corum',
+    title: 'Çorum Halı Yıkama: Leblebi Kokusunun Bile Halıya İşlediği Şehirde 70 TL\'ye Çözüm',
+    metaTitle: 'Çorum Halı Yıkama 2026 | 2 Firma, 70 TL Fiyat, İskilip-Sungurlu Rehberi',
+    metaDescription: 'Çorum halı yıkama rehberi. 2 firma, 70 TL/m² fiyat, Nepal-İpek halı uzmanlığı, Hitit coğrafyasında iklim stratejisi.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 7,
+    heroEmoji: '🫘',
+    intro: 'Çorum\'a girdiğinizde burnunuza gelen o kavrulmuş leblebi kokusu halılara da siner. Şehrin her köşesinde leblebi imalathaneleri var ve o kendine has kavurma kokusu kumaşlara, perdelere ve evet — halılara yapışır. 2 aktif halı yıkama firması bu kokuyu da dahil olmak üzere Çorum halılarının tüm dertlerine çare oluyor. Ve bunu 70 TL/m²\'den başlayan fiyatlarla yapıyor — üstelik biri Nepal ve ipek halı kategorisinde bile hizmet sunuyor.',
+    sections: [
+      {
+        heading: 'Çorum\'da Halı Yıkama — Leblebi Kokusu ve Ötesi',
+        content: `Çorum\'da halıların çektiği sıkıntılar sıra dışı:
+
+**Leblebi kavurma kokusu:**
+Çorum Türkiye\'nin leblebi başkenti. Şehir merkezindeki imalathaneler nohut kavuruyor ve o yoğun, tatlımsı koku sokaktan evlere giriyor. Halı lifleri bu kokuyu emer. Normal havalandırma işe yaramaz — profesyonel yıkama + ozon işlemi gerekir. Firmaya "leblebi kokusu var" demeniz yeterli, programa ek deodorant işlemi ekleniyor.
+
+**Toz sorunu:**
+Çorum ovası düz ve rüzgârlı. Tarım döneminde (Haziran-Eylül) havadaki toz yoğunluğu artar. İç Anadolu\'nun ince tozu halılara nüfuz eder ve zamanla halıyı matlaştırır.
+
+**Kış odası kültürü:**
+Çorum\'da kış uzun ve soğuk. Aileler "kış odası" denilen, soba ile ısıtılan tek odada vakit geçirir. Bu odanın halısı yoğun kullanılır — kış sonu mutlaka profesyonel yıkama gerekir.
+
+[Çorum halı yıkama](/corum-hali-yikama-firmalari) firmalarından koku giderme hizmeti hakkında bilgi alın.`,
+      },
+      {
+        heading: 'Çorum Halı Yıkama Fiyatları — Beklenmeyecek Uzmanlık',
+        content: `Çorum\'daki firmaların fiyat listesi küçük şehir için etkileyici:
+
+| Halı Türü | Fiyat (TL/m²) |
+|-----------|---------------|
+| Makine Halısı | 70 |
+| Isparta / El Dokuma | 70 |
+| Nepal / İpek / Viskon | 150 |
+
+**Dikkat çekici detay:** Makine halısı ile Isparta el dokuma halı aynı fiyatta (70 TL/m²). Bu ya firmanın el dokuma için özel program uygulamadığı (risk) ya da Çorum pazarında el dokuma talebinin düşük olduğu anlamına gelebilir. El dokuma halınız varsa firmaya yıkama programını mutlaka sorun.
+
+**Nepal ve ipek halı 150 TL/m²:**
+530.000 nüfuslu Çorum\'da Nepal ve ipek halı yıkama hizmeti var. Bu uzmanlık İstanbul dışında seyrek bulunuyor.
+
+**Diğer hizmetler:**
+- Yastık: 75 TL
+- Battaniye: 250 TL
+- Yorgan: 400 TL
+- Stor / Zebra perde: 60 TL/adet — Türkiye\'nin en ucuk perde yıkama fiyatı
+
+**Stor perde 60 TL:**
+Türkiye genelinde stor perde 80-200 TL arasında. Çorum\'daki 60 TL fiyat muhtemelen Türkiye\'nin en ucuzu. Perde yıkama için bile Çorum cazip.
+
+[Çorum halı yıkama](/corum-hali-yikama-firmalari) — İskilip ve Sungurlu\'daki hizmet alanlarını kontrol edin.`,
+      },
+      {
+        heading: 'Çorum\'da Halı Yıkama — Hitit Coğrafyasının İklimi',
+        content: `Çorum, Hitit uygarlığının merkezi. Hattuşa antik kenti buradan 80 km. Ama halı yıkama açısından önemli olan Çorum\'un iklimi:
+
+**İç Anadolu geçişi:**
+Çorum ne tam kara iklimi (Sivas gibi) ne tam Karadeniz (Samsun gibi). İkisinin arasında. Nem Ankara\'dan yüksek, Samsun\'dan düşük (%55-65). Bu "orta nem" toz akarı için ideal değil ama ihmal edilecek düzeyde de değil. Yılda 1-2 kez profesyonel yıkama yeterli.
+
+**Kışlar sert ama kıyasla ılıman:**
+Erzurum veya Kars gibi -25°C görmezsiniz ama -10°C olağan. Kasım-Mart arası kapalı kurutma tercih edin.
+
+**İskilip — Kendi dinamiği var:**
+Çorum\'un İskilip ilçesi ahşap el sanatlarıyla ünlü. Firmalardan biri İskilip\'te aktif — İskilip\'in ahşap evlerinde de Kastamonu gibi zemin nemi sorunu yaşanabiliyor.
+
+**Tarım sezonu (Haziran-Eylül):**
+Çorum tarım şehri. Buğday ve nohut hasadı döneminde havadaki toz artar. Hasat sonrası (Ekim) profesyonel yıkama iyi bir zamanlama.
+
+[Çorum halı yıkama](/corum-hali-yikama-firmalari) — İskilip, Sungurlu ve Osmancık\'ta hizmet veren 2 firmayı karşılaştırın.`,
+      },
+    ],
+    faq: [
+      { q: 'Çorum\'da halı yıkama kaç TL 2026?', a: 'Makine halısı 70 TL/m² — Türkiye\'nin en uygunlarından. Nepal/İpek halı 150 TL/m². Stor perde 60 TL ile muhtemelen Türkiye\'nin en ucuzu.' },
+      { q: 'Leblebi kokusu halıdan çıkar mı?', a: 'Profesyonel yıkama + deodorant işlemi ile evet. Firmaya koku sorununuzu söyleyin — programa ek işlem ekleniyor.' },
+      { q: 'Çorum\'da İskilip\'e halı yıkama firması geliyor mu?', a: 'Evet, firmalardan biri İskilip bölgesinde aktif.' },
+    ],
+    relatedSlugs: ['corum-hali-yikama', 'hali-yikama-fiyatlari', 'hali-leke-cikarma'],
+  },
+
+  {
+    slug: 'kirsehir-hali-yikama-en-ucuz',
+    city: 'Kırşehir',
+    citySlug: 'kirsehir',
+    title: 'Kırşehir Halı Yıkama: 60 TL/m² ile Türkiye\'nin En Ucuz Pazarlarından Biri',
+    metaTitle: 'Kırşehir Halı Yıkama 2026 | 60 TL/m², 3 Firma Rekabeti, Ahi Evran Geleneği',
+    metaDescription: 'Kırşehir halı yıkama rehberi. 3 firma, 60 TL/m²\'den fiyatlar, Ahi Evran esnaf geleneğinin hizmet kalitesine etkisi ve termal turizm dinamikleri.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 7,
+    heroEmoji: '🎵',
+    intro: 'Kırşehir, Neşet Ertaş\'ın şehri, Ahi Evran\'ın diyarı. Ve halı yıkama pazarında da kendine özgü bir hikâyesi var: 3 firma arasındaki rekabet fiyatları 60 TL/m²\'ye kadar düşürmüş — bu Niğde ile birlikte Türkiye\'nin en ucuz rakamı. Ama ucuz demek kalitesiz demek değil. Kırşehir\'in Ahi Evran esnaf geleneği — "müşteriye hizmet kutsaldır" anlayışı — buradaki firmaların DNA\'sında var.',
+    sections: [
+      {
+        heading: 'Kırşehir\'de 3 Firma, 60 TL, ve Ahi Evran Ruhu',
+        content: `240.000 nüfuslu Kırşehir\'de 3 halı yıkama firması bir hayli rekabet ediyor. Bu rekabet fiyatları Türkiye\'nin dibine çekmiş:
+
+| Hizmet | Fiyat |
+|--------|-------|
+| Makine Halısı / Isparta Halısı | 60 TL/m² |
+| Yol ücreti (uzak bölge) | 300 TL |
+| Sandalye yıkama | 120 TL/m² |
+| Koltuk takımı | 1.500 TL |
+| Yastık | 100 TL |
+| Battaniye | 250 TL |
+| Yorgan | 350 TL |
+| Overlok | 60 TL/metre |
+
+**Neden bu kadar ucuz?**
+Kırşehir\'de kira İstanbul\'un onda biri, işçilik yarısı, mazot aynı ama mesafeler çok kısa. Firma 5-10 km yarıçapında herkese ulaşıyor. Ve 3 firma arasındaki rekabet marjları sıfıra yakın tutmuş.
+
+**Isparta halısı fiyatı eşitliği:**
+Dikkat çekici bir detay — Isparta halısı makine halısıyla aynı fiyatta (60 TL). Normalde el dokuma halılar %50-100 daha pahalı. Bu ya firmaların el dokuma konusunda fark gözetmediği (riskli) ya da Kırşehir\'de el dokuma halı talebinin düşük olduğu anlamına gelir. El halınız varsa firmaya özel program uygulanıp uygulanmadığını sorun.
+
+**Ahi Evran farkı:**
+Kırşehir, Ahi Evran\'ın — yani Türk esnaf ahlâkının kurucusunun — şehri. Buradaki esnaflar "müşteri memnuniyeti kâr\'dan önce gelir" felsefesiyle yetişiyor. Bu kültürel miras halı yıkama firmalarında da kendini gösteriyor: düşük fiyat, dürüst iş.
+
+[Kırşehir halı yıkama](/kirsehir-hali-yikama-firmalari) — 3 firmanın fiyat ve hizmet karşılaştırmasını yapın.`,
+      },
+      {
+        heading: 'Kırşehir\'de Halı Yıkama — Termal ve Step İklimi',
+        content: `**Termal kaynaklar:**
+Kırşehir\'in termal kaynakları (özellikle Kaman ve Mucur çevresi) topraktan yükselen sıcak su nedeniyle yerel nem oluşturuyor. Bu bölgelerdeki evlerde halı altı nemi kontrol etmek önemli — nem bariyeri zorunlu.
+
+**Step iklimi — Kuru ama tozlu:**
+Kırşehir İç Anadolu stepinde. Nem düşük (%45-55) ama rüzgâr güçlü ve toprak tozlu. Bu toz halılarda birikerek zamanla matlaşmaya neden oluyor. Yılda 1-2 kez profesyonel yıkama bu problemi çözüyor.
+
+**Kış stratejisi:**
+Kışlar soğuk (-10°C altı) ama Sivas veya Erzurum kadar sert değil. Kasım-Mart arası kapalı kurutma tercih edin. Yaz aylarında (Haziran-Ağustos) kurutma çok hızlı — kuru ve sıcak hava halıları saatlerce kurutuyor.
+
+**7 mahallede hizmet:**
+Firma Ahi Evran, Aşıkpaşa, Kervansaray, Merkez, Medrese, Nasuhdede ve Yenice mahallelerinde aktif. Kırşehir\'in tüm merkez bölgesini kapsıyor.
+
+**Kaman ve Mucur sakinleri:**
+Bu ilçelerde yerel firma yok. Kırşehir merkezinden hizmet alıyorsunuz — 300 TL yol ücreti ekleniyor. Toplu sipariş vererek bu maliyeti komşularla paylaşabilirsiniz.
+
+[Kırşehir halı yıkama](/kirsehir-hali-yikama-firmalari) — Türkiye\'nin en uygun fiyatlarını kaçırmayın.`,
+      },
+    ],
+    faq: [
+      { q: 'Kırşehir\'de halı yıkama kaç TL 2026?', a: '60 TL/m² — Niğde ile birlikte Türkiye\'nin en ucuzu. Koltuk takımı 1.500 TL, yorgan 350 TL.' },
+      { q: 'Kırşehir\'de kaç halı yıkama firması var?', a: '3 aktif firma. 240.000 nüfusa 3 firma ciddi rekabet demek — bu rekabet fiyatları Türkiye\'nin en düşük seviyesine çekiyor.' },
+      { q: 'Kaman\'a halı yıkama firması geliyor mu?', a: 'Kırşehir merkezinden hizmet veriliyor, 300 TL yol ücreti ekleniyor. Komşularla toplu sipariş vererek paylaşabilirsiniz.' },
+    ],
+    relatedSlugs: ['kirsehir-hali-yikama', 'hali-yikama-fiyatlari', 'nigde-hali-yikama-kapadokya'],
+  },
+
+  {
+    slug: 'sinop-hali-yikama-mutlu-sehir',
+    city: 'Sinop',
+    citySlug: 'sinop',
+    title: 'Sinop Halı Yıkama: Türkiye\'nin En Mutlu Şehrinde Halılar da İyi Bakılıyor',
+    metaTitle: 'Sinop Halı Yıkama 2026 | Gerçek Fiyatlar, Karadeniz İklimi, Ev Temizliği Dahil',
+    metaDescription: 'Sinop halı yıkama rehberi. Makine halısı 95 TL/m², ev temizliği 4.500 TL dahil komple hizmet, Karadeniz nemi ve doğru zamanlama.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 6,
+    heroEmoji: '⛵',
+    intro: 'Sinop, anketlerde sürekli "Türkiye\'nin en mutlu şehri" seçiliyor. Belki de bu mutluluğun bir sebebi de evlerin tertemiz olması — çünkü Sinop\'taki halı yıkama firması sadece halı değil, komple ev temizliği hizmeti bile sunuyor. 95 TL/m²\'den başlayan halı yıkama fiyatlarıyla Karadeniz ortalamasının biraz üzerinde ama sunduğu 15 farklı hizmetle tam bir temizlik merkezi.',
+    sections: [
+      {
+        heading: 'Sinop\'ta Halı Yıkamadan Ev Temizliğine — Komple Hizmet',
+        content: `Sinop\'taki firma sıradışı bir yaklaşım sunuyor — sadece halı yıkama değil, komple ev bakımı:
+
+| Hizmet | Fiyat |
+|--------|-------|
+| Makine Halısı | 95 TL/m² |
+| Şaggy Halı | 100 TL/m² |
+| Makine Kalın | 110 TL/m² |
+| Yün Halı | 110 TL/m² |
+| İpek Halı | 120 TL/m² |
+| Bambu Halı | 150 TL/m² |
+| Koltuk takımı | 2.350 TL |
+| Battaniye | 350 TL |
+| Yorgan | 400 TL |
+| Stor perde | 85 TL/adet |
+| Yatak (tek) | 950 TL |
+| Yatak (çift) | 1.150 TL |
+| Makine saçaklı halı | 100 TL |
+| Deri saçaklı halı | 110 TL |
+| **Ev temizliği** | **4.500 TL** |
+
+**Ev temizliği 4.500 TL:**
+Bu hizmet Sinop\'ta benzersiz. Firma evinize gelip halıları topluyor, yıkıyor, kurutuyor — VE evinizi de temizliyor. Bahar temizliği yapacak vaktiniz yoksa tek telefonla her şeyi halledebiliyorsunuz. Bu paket hizmet özellikle yaşlı çiftler ve yoğun çalışan aileler için ideal.
+
+**İpek halı 120 TL/m²:**
+Sinop\'ta ipek halı yıkama 120 TL — İstanbul\'da 300+, Karabük\'te 600 TL. Bu fiyat Türkiye\'nin en düşük ipek halı yıkama fiyatlarından biri. İpek halınız varsa Sinop firması ciddi fiyat avantajı sunuyor.
+
+[Sinop halı yıkama](/sinop-hali-yikama-firmalari) — firmanın tam hizmet listesini inceleyin.`,
+      },
+      {
+        heading: 'Sinop\'ta Karadeniz İklimi ve Turizm Dinamiği',
+        content: `Sinop, Karadeniz\'in en kuzey noktasında — İnceburun Türkiye\'nin en kuzey ucu. Bu konum iklimi belirliyor:
+
+**Nem yüksek ama Trabzon kadar değil:**
+Sinop\'un nem oranı %65-75 — Trabzon (%80+) veya Rize (%85+) kadar yüksek değil. Yılda 2 kez profesyonel yıkama yeterli (Trabzon\'da 3-4 kez).
+
+**Turizm sezonu (Haziran-Ağustos):**
+Sinop son yıllarda popüler turizm destinasyonu oldu. Pansiyon ve küçük otel sayısı arttı. Bu tesislerin halı temizliği talebi firmayı yıl boyu meşgul tutuyor.
+
+**Kış yağmurlu, bahar ideal:**
+Kasım-Mart arası sık yağış. Nisan-Mayıs en iyi yıkama dönemi — hava ısınmış ama turizm sezonu henüz başlamamış. Firmalar bu dönemde daha müsait ve fiyatlar sabit.
+
+**Boyabat ve Gerze sakinleri:**
+Firma şu an Merkez\'de aktif. Boyabat (88 km) ve Gerze (40 km) için ulaşım maliyeti ekleniyor. Toplu sipariş stratejisi burada da geçerli.
+
+[Sinop halı yıkama](/sinop-hali-yikama-firmalari) — Türkiye\'nin en mutlu şehrinde profesyonel temizlik.`,
+      },
+    ],
+    faq: [
+      { q: 'Sinop\'ta halı yıkama kaç TL 2026?', a: 'Makine halısı 95 TL/m², ipek 120 TL/m². Ev temizliği dahil paket 4.500 TL. İpek halı fiyatı Türkiye\'nin en düşüklerinden.' },
+      { q: 'Sinop\'ta ev temizliği + halı yıkama paketi var mı?', a: 'Evet, 4.500 TL\'ye komple ev temizliği hizmeti sunuluyor — halı yıkama + ev temizliği tek pakette.' },
+      { q: 'Sinop\'ta halı kaç kez yıkatılmalı?', a: 'Karadeniz neminde yılda 2 kez yeterli. Trabzon veya Rize kadar nemli değil.' },
+    ],
+    relatedSlugs: ['sinop-hali-yikama', 'hali-yikama-fiyatlari', 'samsun-hali-yikama-karadeniz'],
+  },
+
+  {
+    slug: 'yozgat-hali-yikama-bozkir',
+    city: 'Yozgat',
+    citySlug: 'yozgat',
+    title: 'Yozgat Halı Yıkama: Bozkırın Ortasında Araç Kuaförlüğüne Kadar Uzanan Hizmet',
+    metaTitle: 'Yozgat Halı Yıkama 2026 | 70 TL Fiyat, 33 Mahalle, Araç Kuaför Dahil',
+    metaDescription: 'Yozgat halı yıkama rehberi. 70 TL/m²\'den fiyatlar, 33 mahallede hizmet, araç koltuk yıkama ve kuaförlük hizmeti, bozkır iklim avantajı.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 6,
+    heroEmoji: '🌲',
+    intro: 'Yozgat\'taki halı yıkama firması sıra dışı bir işletme: 33 mahallede hizmet, halı yıkamadan araç kuaförlüğüne kadar uzanan bir hizmet yelpazesi ve 70 TL/m²\'den başlayan fiyatlar. Beşik yatağı yıkamadan çekyat temizliğine, zebra perde montajından berjer yıkamaya kadar akla gelebilecek her şeyi yapıyor. İç Anadolu\'nun kuru bozkır ikliminde halı bakımı nispeten kolay — ama Yozgat firması "kolay"ı bile profesyonel yapmayı tercih ediyor.',
+    sections: [
+      {
+        heading: 'Yozgat\'ın Çok Yönlü Firması — 27 Ürün, 33 Mahalle',
+        content: `Yozgat\'ta tek firma var ama bu firma bir temizlik süpermarketi gibi çalışıyor:
+
+**Halı hizmetleri:**
+| Halı Türü | Fiyat |
+|-----------|-------|
+| Makine Halısı | 70 TL/m² |
+| Bambu / Örgü Yün / Şaggy / İşyeri | 75 TL/m² |
+| Tek halı tarifesi (küçük) | 350 TL/adet |
+| Evde yerinde yıkama | 6.000 TL |
+
+**Koltuk hizmetleri:**
+| Hizmet | Fiyat |
+|--------|-------|
+| Kumaş sandalye | 100 TL |
+| Berjer | 500 TL |
+| Kanepe | 750 TL |
+| Köşe takım | 1.500 TL |
+| Koltuk takımı | 1.500 TL |
+
+**Yatak hizmetleri:**
+| Hizmet | Fiyat |
+|--------|-------|
+| Baza başlığı | 350 TL |
+| Tek kişilik baza yatağı | 1.000 TL |
+| Çift kişilik baza yatağı | 1.000 TL |
+
+**Araç hizmetleri (sürpriz!):**
+| Hizmet | Fiyat |
+|--------|-------|
+| Araç koltuğu yıkama | 1.000 TL |
+| Araç kuaför (komple) | 1.500 TL |
+
+**Sıra dışı ürünler:**
+- Beşik yatağı yıkama: 250 TL — yeni doğan aileler için önemli
+- Zebra perde takma hizmeti: 250 TL — sadece yıkama değil, montaj da
+- Çamaşır yıkama: 200 TL — toplu çamaşır hizmeti
+
+**33 mahallede aktif:**
+Ağah Efendi\'den Zafer\'e kadar Yozgat merkezinin tüm mahallelerinde hizmet veriyor. Bu kapsam şehrin her köşesine ulaşıyor.
+
+[Yozgat halı yıkama](/yozgat-hali-yikama-firmalari) — 27 ürünlük tam listeyi inceleyin.`,
+      },
+      {
+        heading: 'Yozgat\'ın Bozkır İklimi — Halı İçin Kolay Hayat',
+        content: `Yozgat 1.300 metre rakımda, İç Anadolu bozkırında. Bu iklim halı bakımı açısından Türkiye\'nin en kolay şehirlerinden birini yaratıyor:
+
+**Düşük nem (%45-50):** Toz akarı üremesi yavaş. Küf riski minimal. Yılda 1 kez profesyonel yıkama yeterli.
+
+**Yaz kurutma avantajı:** Sıcak ve kuru yaz (30-35°C, nem %25). Halılar 3-4 saatte kuruyor.
+
+**Kış dikkat:** Yozgat kışları soğuk (-15°C altı olabilir). Çamlık Milli Parkı\'nın ormanları rüzgârı keser ama soğuk sert. Kasım-Mart arası kapalı kurutma zorunlu.
+
+**Bozkır tozu:**
+Tek olumsuz: rüzgârlı günlerde havadaki ince toprak tozu. Bu toz halılara birikir ama kuru olduğundan profesyonel yıkamayla kolayca çıkar.
+
+**Sorgun, Yerköy, Boğazlıyan:**
+Bu büyük ilçelerde yerel firma yok. Yozgat merkezinden hizmet alıyorsunuz. 50-80 km mesafe var — komşularla toplu sipariş verin.
+
+[Yozgat halı yıkama](/yozgat-hali-yikama-firmalari) — bozkırın ortasında profesyonel hizmet.`,
+      },
+    ],
+    faq: [
+      { q: 'Yozgat\'ta halı yıkama kaç TL 2026?', a: 'Makine halısı 70 TL/m². Araç kuaför 1.500 TL, beşik yatağı 250 TL gibi sıra dışı hizmetler de mevcut.' },
+      { q: 'Yozgat\'ta araç koltuk yıkama var mı?', a: 'Evet, araç koltuğu 1.000 TL, komple araç kuaför 1.500 TL. Halı yıkama firması bu hizmeti de sunuyor.' },
+      { q: 'Sorgun\'a halı yıkama firması geliyor mu?', a: 'Yozgat merkezindeki firma hizmet veriyor ama mesafe uzun. Toplu sipariş vererek ulaşım maliyetini paylaşın.' },
+    ],
+    relatedSlugs: ['yozgat-hali-yikama', 'hali-yikama-fiyatlari', 'kirsehir-hali-yikama-en-ucuz'],
+  },
+
+  {
+    slug: 'agri-hali-yikama-daglar',
+    city: 'Ağrı',
+    citySlug: 'agri',
+    title: 'Ağrı\'da Halı Yıkama: Dağın Eteğinde 3 Firma, Zorlu İklimde Profesyonel Hizmet',
+    metaTitle: 'Ağrı Halı Yıkama 2026 | 3 Firma, 80 TL Fiyat, Doğubayazıt-Patnos Rehberi',
+    metaDescription: 'Ağrı halı yıkama rehberi. 3 firma, 80 TL/m²\'den fiyatlar, Türkiye\'nin en sert kışında halı bakımı ve Doğubayazıt-Patnos hizmet ağı.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 7,
+    heroEmoji: '🏔️',
+    intro: 'Ağrı Dağı\'nın (5.137 m) eteğindeki bu şehirde kış 7 ay sürüyor ve sıcaklık -30°C\'ye düşüyor. İnsanlar evlerinde halıların üstünde yaşıyor — kelimenin tam anlamıyla. Yere oturma, yerde yemek, yerde uyuma kültürü halıları aşırı yıpratıyor. 3 aktif firma bu zorlu coğrafyada hizmet veriyor ve ürün çeşitliliği şaşırtıcı: 21 farklı ürün, işyeri halısından sünger döşeğe kadar.',
+    sections: [
+      {
+        heading: 'Ağrı\'da Halının Yeri — Hayatın Merkezinde',
+        content: `Doğu Anadolu\'da yaşam tarzını anlamadan halı yıkama ihtiyacını anlayamazsınız. Ağrı\'da özellikle kırsal kesimdeki evlerde:
+
+**Yere oturma kültürü:**
+Misafir odası yerde oturma düzenindedir. Halının üstüne ince minder veya yer yastığı konur. Tüm aile ve misafirler halıda oturur, çay içer, yemek yer. Bu, halının günde 8-10 saat aktif kullanıldığı anlamına gelir.
+
+**Kış odası:**
+7 aylık kışta aile soba etrafındaki tek odada yaşar. Bu odanın halısı yılda 2.000+ saat yoğun kullanıma maruz kalır. İstanbul\'da bir salon halısının 3-4 yıllık kullanımına eşdeğer.
+
+**Sonuç:**
+Ağrı\'da halı bakımı sık olmalı — ama kış 7 ay sürdüğünden yıkama penceresi dar. Haziran-Eylül arasındaki 4 aylık sıcak dönemde tüm yıllık yıkama yapılmak zorunda.
+
+[Ağrı halı yıkama](/agri-hali-yikama-firmalari) firmalarına bahar başlar başlamaz sipariş verin — 4 aylık pencereyi kaçırmayın.`,
+      },
+      {
+        heading: 'Ağrı Halı Yıkama Fiyatları — 21 Ürün',
+        content: `Ağrı\'daki firmanın fiyat listesi bölge ihtiyacını yansıtıyor:
+
+| Halı Türü | Fiyat (TL/m²) |
+|-----------|---------------|
+| Makine Halısı | 80 |
+| Şaggy Halı | 100 |
+| Akrilik / El Yapımı / Yün Çin / Bambu | 120 |
+| İşyeri Halısı | 150 |
+
+**Koltuk ve döşeme:**
+- Sandalye: 150 TL / Tekli koltuk: 500 TL / Koltuk takımı: 2.000 TL
+
+**Yorgan ve yatak:**
+- Yastık: 100 TL / Battaniye: 400 TL
+- Elyaf yorgan: 500 TL / Yorgan: 500 TL
+- Sünger döşek: 800 TL — yere serilen döşek yıkama, bölge ihtiyacı
+
+**Perde:**
+- Tül perde: 120 TL/m²
+- Küçük stor: 300 TL / Orta stor: 400 TL / Büyük çift kat stor: 500 TL
+
+**Sünger döşek 800 TL:**
+Bu hizmet Ağrı\'ya özgü. Yere serilen sünger döşekler Doğu Anadolu\'da yaygın — kış odalarında yataklar gündüz katlanıp kaldırılır, gece serilir. Bu döşeklerin profesyonel yıkanması İstanbul veya Ankara firmalarının sunduğu bir hizmet değil.
+
+**Doğubayazıt ve Patnos:**
+Firma Diyadin, Eleşkirt, Hamur ve Taşlıçay\'da da aktif. Doğubayazıt (100 km) ve Patnos (85 km) için ulaşım maliyeti sorulmalı.
+
+[Ağrı halı yıkama](/agri-hali-yikama-firmalari) — 5 bölgede aktif 3 firmayı karşılaştırın.`,
+      },
+      {
+        heading: 'Ağrı\'da Halı Yıkama — 4 Aylık Pencere',
+        content: `Ağrı\'nın iklimi halı yıkama takvimini katı şekilde belirliyor:
+
+**Haziran:** Kar erimiş, güneş çıkmış. Kışın tüm pisliğini atan bahar temizliği zamanı. Firmalara talep yoğun — erken sipariş şart.
+
+**Temmuz-Ağustos:** İdeal dönem. Sıcak (30-35°C) ve kuru. Kurutma çok hızlı. Firmalar tam kapasiteyle çalışıyor.
+
+**Eylül:** Son fırsat. Eylül sonuna kadar tüm halılar yıkanmış ve kış için hazır olmalı.
+
+**Ekim-Mayıs (7 ay):** Halı yıkama imkânsız. Sıcaklık -30°C\'ye kadar düşüyor. Kar 2 metre yığılıyor. Açık hava kurutma düşünülemez. Kapalı tesislerde bile firma ile halı taşımak tehlikeli — yollar buzlu, halılar donuyor.
+
+**Halı koruma ipuçları (kış boyunca):**
+- Ayakkabıları kapıda çıkarın — kar ve buz halıyı ıslatır
+- Soba yanına çok yakın halı koymayın — kuru sıcaklık lifleri gevretir
+- Haftada 1 kez süpürge çekin — kış boyu biriken toz baharı bekleyemez
+- Halı altına kalın keçe veya battaniye koyun — soğuk zemine doğrudan temas halıyı bozar
+
+[Ağrı halı yıkama](/agri-hali-yikama-firmalari) — Haziran gelir gelmez sipariş verin, 4 aylık pencereyi kaçırmayın.`,
+      },
+    ],
+    faq: [
+      { q: 'Ağrı\'da halı yıkama kaç TL 2026?', a: 'Makine halısı 80 TL/m², şaggy 100, akrilik/yün 120 TL/m². Sünger döşek 800 TL gibi bölgeye özel hizmetler de var.' },
+      { q: 'Ağrı\'da halı yıkama ne zaman yapılır?', a: 'Sadece Haziran-Eylül arası (4 ay). Kış 7 ay sürüyor ve halı yıkama bu dönemde imkânsız.' },
+      { q: 'Doğubayazıt\'a halı yıkama firması geliyor mu?', a: 'Firma 5 bölgede aktif ama Doğubayazıt 100 km mesafede. Ulaşım ücreti uygulanıyor — sipariş öncesi sorun.' },
+    ],
+    relatedSlugs: ['agri-hali-yikama', 'hali-yikama-fiyatlari', 'van-hali-yikama-kilim-mirasi'],
+  },
+
   ...cityGuides,
 ];
 
