@@ -5027,6 +5027,393 @@ Hakkari\'de yere oturma geleneği güçlü. Halılar yoğun kullanılıyor. Kı�
     relatedSlugs: ['hakkari-hali-yikama', 'hali-yikama-fiyatlari', 'van-hali-yikama-kilim-mirasi'],
   },
 
+  /* ───── İKİNCİ DALGA — Hikâye Anlatımı Tarzı Makaleler ───── */
+
+  {
+    slug: 'istanbul-hali-yikama-mahalle-mahalle',
+    city: 'İstanbul',
+    citySlug: 'istanbul',
+    title: 'İstanbul\'da Halı Yıkatmak: Bir Halının Fabrikaya Gidip Gelmesinin Görünmeyen Hikâyesi',
+    metaTitle: 'İstanbul Halı Yıkama Süreci 2026 | Halınıza Ne Oluyor? Fabrika İçi Rehber',
+    metaDescription: 'İstanbul halı yıkama sürecinin perde arkası. Halınız firmaya verildiğinde ne oluyor? Yıkama, durulama, santrifüj, kurutma — adım adım fabrika içi rehber.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 10,
+    heroEmoji: '🔍',
+    intro: 'Halınızı firmaya verdiniz. Araç geldi, halıları aldı, gitti. 3-5 gün sonra tertemiz geri geldi. Peki arada ne oldu? Halınız o 3-5 gün boyunca nereden geçti, hangi işlemleri gördü, kaç kez suyla buluştu? Çoğu insan bunu bilmez — ve bilmemek güvensizlik yaratır. Bu yazıda bir İstanbul halı yıkama fabrikasının içine giriyoruz ve halınızın başından geçen her adımı anlatıyoruz. Böylece bir dahaki sefere halınızı verirken neye para ödediğinizi tam olarak bileceksiniz.',
+    sections: [
+      {
+        heading: 'Adım 1: Teslim Alma — Ekip Kapınıza Geldiğinde',
+        content: `Sabah 9\'da kapı çalıyor. İki kişilik ekip gelmiş. Yanlarında büyük naylon poşetler, etiketler ve bir not defteri var.
+
+**Etiketleme kritik adım:**
+Her halıya numaralı etiket yapıştırılıyor. Bu etiket halının sizin olduğunu garanti altına alıyor — fabrikada aynı anda 200-300 halı olabilir. Etiket numarası defterinize de yazılıyor. Profesyonel firmalar barkod sistemi kullanır, küçük firmalar elle yazılı etiket.
+
+**İlk kontrol kapınızda yapılır:**
+Ekip halıyı açıp kontrol eder — yırtık var mı, leke var mı, saçak kopuk mu? Bu tespitler deftere not edilir. Neden? Çünkü yıkama sonrası "bu yırtığı siz mi yaptınız?" tartışmasını önler. İyi firmalar bu kontrolü müşterinin gözü önünde yapar.
+
+**Halının ağırlığı meselesi:**
+Kuru bir halı ağırdır. Islak halı 3-4 katına çıkar. 15 m²\'lik bir salon halısı kuru halde 20-25 kg, ıslak halde 70-80 kg olabilir. Bu yüzden ekip en az 2 kişi gelir. Tek başına taşımak hem halıya hem insana zarar verir.
+
+**İstanbul\'un ulaşım gerçeği:**
+Beylikdüzü\'nden Sultanbeyli\'ye halı taşıyan bir firma sadece gidiş-dönüşe 3-4 saat harcıyor. Bu süre mazot, şoför maaşı ve araç amortisman maliyeti demek. Halı yıkama fiyatının %30-40\'ı daha halınız fabrikaya varmadan harcanıyor. Bu yüzden ilçenize yakın firma seçmek sadece hız değil, fiyat avantajı da sağlıyor.
+
+[İstanbul halı yıkama](/istanbul-hali-yikama-firmalari) firmalarını karşılaştırırken ilçe yakınlığına dikkat edin.`,
+      },
+      {
+        heading: 'Adım 2: Fabrikada Ön İşlem — Toz Alma ve Leke Tespiti',
+        content: `Halınız fabrikaya ulaştığında ilk iş suya sokmak değil. Önce kuru işlem yapılır:
+
+**Toz alma makinesi:**
+Halı ters çevrilerek toz alma makinesine verilir. Bu makine halının arka yüzünden güçlü titreşimle toz, kum ve kuru kiri çıkarır. İyi bir toz alma işlemi halıdaki kuru kirin %60-70\'ini daha su görmeden çıkarır. Bu adım atlanırsa çamur oluşur ve yıkama zorlaşır.
+
+**Leke analizi:**
+Usta, halıyı gözle tarar. Kahve, çay, meyve suyu, yağ, mürekkep, kan — her leke türü farklı kimyasal gerektirir. Lekeler işaretlenir ve ön işlem uygulanır: alkalin solüsyon (yağ lekeleri), asidik solüsyon (kireç/mineral lekeleri), enzim bazlı temizleyici (organik lekeler).
+
+**Halı türü belirleme:**
+Etiketleme sırasında halı türü not edilmiştir ama usta fabrikada tekrar kontrol eder. Makine halısı standart programa girer. Yün halı düşük sıcaklık + nötr pH deterjan. İpek halı ayrı bir dünyada — elle yıkama bile gerekebilir. Yanlış program halıyı geri dönüşümsüz bozar.
+
+**Bu aşama neden önemli?**
+Ön işlemsiz doğrudan suya sokulan halıda lekeler "pişer" ve kalıcılaşır. Tıpkı üzerine sıcak su dökülen kan lekesi gibi — protein pişer ve çıkmaz hale gelir. Profesyonel firmalar bu aşamayı asla atlamaz.`,
+      },
+      {
+        heading: 'Adım 3: Yıkama — 40-60 Bar Basınç, 30-50°C Su',
+        content: `Asıl yıkama başlıyor. Ve bu, evinizde muslukla yapabileceğiniz bir şey değil:
+
+**Endüstriyel basınç:**
+Profesyonel halı yıkama makineleri 40-60 bar basınçla çalışır. Evinizin musluğu 2-4 bar. Bu 15-20 kat fark, halı liflerinin derinlerindeki kiri çıkaran güçtür. Yüzeyi temizlemek kolay — asıl iş lifin içindeki, gözle görünmeyen kiri çıkarmak.
+
+**Su sıcaklığı halı türüne göre:**
+- Makine halısı: 40-50°C — standart program
+- Yün halı: 25-30°C — sıcak su çektirir
+- İpek halı: 20-25°C — soğuk, nazik program
+- Şaggy: 35-40°C — uzun tüylerin keçeleşmemesi için kontrollü sıcaklık
+
+**Deterjan seçimi:**
+Profesyonel firmalar ev deterjanı kullanmaz. Halı türüne göre endüstriyel deterjan seçilir:
+- Makine halısı: Alkalin bazlı güçlü deterjan
+- Yün/İpek: Nötr pH (6.5-7.5) özel deterjan
+- Antik/El dokuma: Ultra nazik, parfümsüz formül
+- Evcil hayvan halısı: Enzim bazlı bio-deterjan
+
+**Durulama — Görünmeyen Kahraman:**
+Yıkamadan daha kritik olan aşama durulama. Halıda kalan deterjan kalıntısı yapışkan bir yüzey oluşturur ve toz çeker — halınız 2 hafta içinde tekrar kirlenmiş gibi görünür. Profesyonel firmalar en az 2 kez, tercihen 3 kez durular. Evde yıkamada en sık yapılan hata yetersiz durulamadır.`,
+      },
+      {
+        heading: 'Adım 4: Sıkma, Kurutma ve Paketleme',
+        content: `Yıkama bitti — ama halınız şu an kendi ağırlığının 3-4 katı su taşıyor. Bu suyu çıkarmak gerek:
+
+**Santrifüj sıkma:**
+Endüstriyel santrifüj halıyı döndürerek suyun %85-90\'ını çıkarır. Evde elde sıkılan halıda suyun ancak %40-50\'si çıkar — gerisi halıda kalır ve günlerce kurumaz. Santrifüj bu işi 5-10 dakikada yapar.
+
+**Kurutma — En uzun aşama:**
+- Açık hava kurutma: Yaz aylarında 4-8 saat. Halılar çelik askılara asılır veya düz zemine serilir.
+- Kapalı tesis kurutma: 40-50°C kontrollü sıcaklık, 12-24 saat. Mevsimden bağımsız çalışır.
+
+**İstanbul\'da kurutma sorunu:**
+İstanbul\'un nemi (%65-75) kurutmayı yavaşlatıyor. Yaz aylarında bile kapalı tesiste fan + ısıtıcı kombinasyonu kullanılır. Kışın tamamen kapalı tesis gerekir. Bu ekstra enerji maliyeti İstanbul fiyatlarının Anadolu\'dan yüksek olmasının sebeplerinden biri.
+
+**Son kontrol ve paketleme:**
+Kuruyan halı ustanın son kontrolünden geçer: lekeler çıkmış mı, renk solması var mı, halı çekmiş mi? Her şey tamamsa halı rulo yapılıp naylon ile paketlenir ve teslimat aracına yüklenir.
+
+**Teslimat:**
+Aynı ekip halınızı kapınıza getirir. Teslim alırken kontrol edin — sayı, boyut, leke durumu, koku. Sorun varsa anında bildirin.
+
+Bu sürecin tamamını yaşamak istiyorsanız [İstanbul halı yıkama](/istanbul-hali-yikama-firmalari) firmalarından güvenilir birini seçin ve halınızı gönül rahatlığıyla teslim edin.`,
+      },
+    ],
+    faq: [
+      { q: 'Halı yıkama fabrikasında halıma ne yapılıyor?', a: 'Toz alma → leke ön işlem → 40-60 bar basınçlı yıkama → 2-3 kez durulama → santrifüj sıkma → kurutma → son kontrol → paketleme. Toplam 3-5 gün.' },
+      { q: 'Halı yıkamada deterjan kalıntısı kalır mı?', a: 'Profesyonel firmalar 2-3 kez durular, kalıntı kalmaz. Evde yıkamada en büyük sorun yetersiz durulama — halı yapışkan hale gelir ve çabuk kirlenir.' },
+      { q: 'Halım fabrikada başka halılarla karışır mı?', a: 'Teslim alma sırasında her halıya numaralı etiket yapıştırılır. Barkod sistemi kullanan firmalar daha güvenli.' },
+    ],
+    relatedSlugs: ['istanbul-hali-yikama', 'hali-yikama-nasil-yapilir', 'hali-yikama-fiyatlari'],
+  },
+
+  {
+    slug: 'ankara-hali-yikama-devlet-dairesi',
+    city: 'Ankara',
+    citySlug: 'ankara',
+    title: 'Ankara\'da Kimse Konuşmuyor Ama Devlet Dairelerinin Halıları da Yıkanıyor',
+    metaTitle: 'Ankara Halı Yıkama 2026 | Ticari Halı Temizliği, Ofis ve Kurum Rehberi',
+    metaDescription: 'Ankara halı yıkama — konut dışı talep rehberi. Devlet kurumları, ofisler, okullar ve hastanelerin halı temizliği. İhale süreci ve fiyat karşılaştırması.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 8,
+    heroEmoji: '🏛️',
+    intro: 'Ankara\'da herkes ev halısından bahsediyor ama kimse devlet dairelerindeki halıları konuşmuyor. Düşünsenize — bakanlıklar, genel müdürlükler, üniversiteler, hastaneler, okullar. Bu kurumların toplantı odalarında, koridorlarında, makam odalarında binlerce metrekare halı var. Ve bu halılar da yıkanıyor. Ankara\'daki 65 firmanın önemli bir kısmı bu ticari segmenten besleniyor. Ev müşterisi mevsimsel, ama kurum müşterisi yıl boyu düzenli. Bu yazıda Ankara\'nın görünmeyen halı yıkama pazarını — ticari ve kurumsal segmenti — inceliyoruz.',
+    sections: [
+      {
+        heading: 'Ankara\'nın Gizli Pazarı — Kurumsal Halı Temizliği',
+        content: `Ankara Türkiye\'nin başkenti — ve bu sıfat sadece siyasi anlam taşımıyor. Şehirde:
+- 20+ bakanlık ve bağlı kuruluş
+- 100+ genel müdürlük ve kamu kurumu
+- 10+ üniversite (öğretim üyeleri odaları, kütüphaneler, konferans salonları)
+- Onlarca hastane ve sağlık merkezi
+- Yüzlerce özel sektör ofisi
+
+Bu kurumların ortak noktası: halılı zemin. Makam odaları, toplantı salonları, bekleme odaları — hepsi halıyla kaplı. Ve bu halılar düzenli temizlik gerektiriyor.
+
+**Kurumsal müşteri neden farklı?**
+Ev müşterisi yılda 1-2 kez halı yıkatır. Kurum müşterisi her 2-3 ayda bir yıkatır — çünkü günlük yüzlerce kişi halının üzerinden geçiyor. Bu düzenli talep firmalar için istikrarlı gelir, müşteriler için ise kaliteli hizmet garantisi demek.
+
+**Fiyat farklılığı:**
+Kurumsal işlerde m² fiyatı konut işlerinden %10-20 düşük olabilir — çünkü hacim yüksek. 500 m² ofis halısı tek seferde yıkanıyor, firma verimliliği artıyor.
+
+Ev halınız için de aynı kalitede hizmet almak istiyorsanız, kurumsal deneyimi olan [Ankara halı yıkama](/ankara-hali-yikama-firmalari) firmalarını tercih edin.`,
+      },
+      {
+        heading: 'Ofis Halısı vs Ev Halısı — Yıkama Farkları',
+        content: `Ofis halıları ev halılarından farklı bir dünyada:
+
+**Malzeme farkı:**
+Ofislerde genellikle karo halı (halı karo/fayans) veya duvardan duvara halı kullanılır. Bu halılar sentetik liflerden üretilir — polyester, polipropilen veya naylon. Ev halılarına göre daha dayanıklı ama daha fazla statik elektrik tutar ve toz çeker.
+
+**Kirliliğin niteliği:**
+Ev halısında yemek kırıntısı, evcil hayvan tüyü ve çocuk lekeleri baskın. Ofis halısında ayakkabı kirliliği, kahve/çay döküntüsü ve fotokopi toneri tozu baskın. Toner tozu özellikle sorunlu — ince siyah parçacıklar halı liflerine yapışır ve standart yıkamayla zor çıkar.
+
+**Yıkama yöntemi:**
+Ofislerde genellikle "yerinde yıkama" tercih edilir — halıyı sökmeden, yerinde şampuanlama ve kurutma. Bu yöntem tam yıkama kadar derin temizlik sağlamaz ama operasyonu durdurmaz. Hafta sonu yapılır, Pazartesi sabahı ofis hazır.
+
+**Ankara\'daki firmalar her iki yöntemi de sunuyor:**
+- Yerinde şampuanlama: Ofis, otel, hastane için
+- Fabrika yıkama: Ev halıları, makam odası özel halıları için
+
+[Ankara halı yıkama](/ankara-hali-yikama-firmalari) firmalarından kurumsal referanslarını sorun — devlet kurumuna hizmet veren firma kalite standardını kanıtlamıştır.`,
+      },
+      {
+        heading: 'Okul ve Hastane Halıları — Hijyen Zorunluluğu',
+        content: `Ankara\'daki okullar ve hastaneler halı hijyenini ciddiye almak zorunda:
+
+**Okullar:**
+Anaokulu ve ilkokullarda çocuklar yerde vakit geçiriyor. Halıdaki bakteri, toz akarı ve alerjen yükü çocuk sağlığını doğrudan etkiliyor. Ankara\'da okullar genellikle yaz tatilinde (Haziran sonu — Ağustos) halıları yıkatıyor. Bu dönemde firmalar yoğun — erken sipariş önemli.
+
+**Hastaneler:**
+Bekleme odaları, hasta odaları ve poliklinik koridorlarında halı varsa hijyen standardı çok yüksek olmalı. Profesyonel yıkama + dezenfeksiyon gerekli. Bazı hastaneler halıyı tamamen kaldırıp seramik zemine geçiyor — ama makam odaları ve idari bölümler hâlâ halılı.
+
+**Kreş ve bakımevleri:**
+En hassas segment. Bebekler her şeyi ağzına götürüyor. Halıdaki kimyasal kalıntı bile risk. Bu kurumlar için organik deterjanla yıkama yapan firma tercih edilmeli.
+
+**Camiler:**
+Ankara\'da yüzlerce cami var. Cami halıları en yoğun kullanılan halılardır — günde 5 vakit, her vakit yüzlerce ayak. Ramazan ve Cuma günleri kapasite ikiye katlanıyor. Camiler genellikle yılda 2-3 kez komple halı yıkatıyor. Bu, firmalar için büyük hacimli iş demek.
+
+[Ankara halı yıkama](/ankara-hali-yikama-firmalari) — kurumsal deneyimi olan 65 firma arasından seçin.`,
+      },
+    ],
+    faq: [
+      { q: 'Ankara\'da ofis halısı yıkama hizmeti var mı?', a: 'Evet. 65 firmanın önemli kısmı kurumsal müşterilere hizmet veriyor. Yerinde şampuanlama ve fabrika yıkama seçenekleri mevcut.' },
+      { q: 'Ofis halısı yerinde mi yıkanır?', a: 'Genellikle evet — halıyı sökmeden yerinde şampuanlama ve kurutma yapılır. Hafta sonu uygulanır, Pazartesi hazır.' },
+      { q: 'Cami halısı yıkama fiyatı ne kadar?', a: 'Büyük hacimli iş olduğundan m² fiyatı konut işlerinden %10-20 düşük. Firmadan toplu fiyat teklifi isteyin.' },
+    ],
+    relatedSlugs: ['ankara-hali-yikama', 'ankara-hali-yikama-gercek-fiyatlar', 'ofis-hali-temizligi'],
+  },
+
+  {
+    slug: 'izmir-hali-yikama-yazlik-ev-rehberi',
+    city: 'İzmir',
+    citySlug: 'izmir',
+    title: 'İzmir\'de Yazlık Evinizi Sezona Hazırlamanın Eksiksiz Rehberi',
+    metaTitle: 'İzmir Yazlık Ev Temizliği 2026 | Halı, Perde, Koltuk — Sezon Açılış Rehberi',
+    metaDescription: 'İzmir yazlık ev sezon açılışı temizlik rehberi. Çeşme, Urla, Alaçatı evlerinin halı, perde ve koltuk temizliği. Zamanlama, fiyat ve firma seçimi.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 9,
+    heroEmoji: '🌊',
+    intro: 'Nisan ortası. İzmir\'de bahar başlamış, güneş kızıştırmış. Çeşme\'deki yazlığınızın anahtarını çeviriyorsunuz — 6 aydır kapalı olan ev küf kokuyor, halılar nemli, koltuk kumaşları tozlu, perdeler grileşmiş. Tanıdık mı geldi? Her yıl aynı hikâye. Bu yazıda İzmir\'deki yazlık evinizi sezona profesyonelce hazırlamanın adım adım rehberini sunuyoruz — halıdan perdeye, koltuktan yatağa her şeyin temizlik stratejisini.',
+    sections: [
+      {
+        heading: '6 Ay Kapalı Kalan Evde Halılara Ne Oluyor?',
+        content: `Eviniz Ekim\'den Nisan\'a kadar kapalı kaldı. Pencereleri kapattınız, suyu kestiniz, elektriği belki kapattınız. Ama nemi kesemediniz.
+
+**Nem nüfuz ediyor:**
+Kapalı bir evde hava sirkülasyonu durur. Ama duvarlar, zemin ve pencere kenarları hâlâ dışarıdan nem çeker. İzmir\'de kış boyunca nem %70-80 arasında seyrediyor. Bu nem evin içine girip halılara, koltuk kumaşlarına ve perdelere yerleşiyor.
+
+**Toz akarı koloni kuruyor:**
+6 ay boyunca kimsenin süpürmediği, havalandırmadığı bir ortamda toz akarları cennette. Halının her santimetrekaresinde binlerce akar biriktmiş olabilir. Siz gelip pencereyi açtığınızda bu akarlar havalanır — ve o "küf kokusu" dediğiniz şeyin büyük kısmı aslında akar atıklarıdır.
+
+**Halı altı küf:**
+Zemin kata yakın evlerde veya bahçeye bakan odalarda halı altında küf oluşması çok yaygın. Halıyı kaldırdığınızda siyah-yeşil noktalar görürseniz — bu küftür. Halı profesyonel anti-küf işlem görmeden tekrar serilmemeli.
+
+**İlk iş: Halıları kaldırın.**
+Eve girdiğinizde ilk iş tüm halıları kaldırıp altını kontrol etmek. Pencereleri açıp 24 saat havalandırın. Sonra [İzmir halı yıkama](/izmir-hali-yikama-firmalari) firmasını arayın — halıları, koltuk kılıflarını ve perdeleri birlikte verin.`,
+      },
+      {
+        heading: 'Sezon Açılışı Temizlik Takvimi — Hafta Hafta',
+        content: `Yazlık evinizi profesyonelce hazırlamanın takvimi:
+
+**4 Hafta Önce (Mart sonu):**
+Firmayı arayın ve randevu alın. Nisan ortasında gelip halıları alsınlar. Neden bu kadar erken? Çünkü Çeşme, Urla ve Alaçatı bölgesinde yüzlerce yazlık ev aynı anda sezona hazırlanıyor. Firmalar Nisan sonunda dolmaya başlıyor, Mayıs\'ta randevu bulmak zor.
+
+**3 Hafta Önce (Nisan başı):**
+Eve gidin, pencereleri açın, 24 saat havalandırın. Halıları kaldırıp altlarını kontrol edin. Küf varsa işaretleyin. Perde raylarını kontrol edin — paslanmış mı? Koltuk kılıflarını çıkarın.
+
+**2 Hafta Önce (Nisan ortası):**
+Firma gelsin, halıları + perdeleri + koltuk kılıflarını + yorganları toplasın. Hepsini tek seferde verin — ulaşım maliyeti bir kez ödenir.
+
+**1 Hafta Önce (Nisan sonu):**
+Firma temizlenmiş halıları, ütülü perdeleri ve yıkanmış koltuk kılıflarını getirsin. Halıları serin, perdeleri asın, koltukları giydirin.
+
+**Sezon açılışı (Mayıs):**
+Ev hazır. Tertemiz, ferah, misafir kabul edecek durumda.
+
+**Maliyet tahmini (örnek: 3 odalı yazlık):**
+- 3 salon halısı (toplam 30 m²): 30 × 100 = 3.000 TL
+- 1 koltuk takımı: 2.500 TL
+- Perdeler (5-6 pencere): 750-1.000 TL
+- Yorgan + yastıklar: 1.000-1.200 TL
+- **Toplam: 7.250-7.700 TL** (toplu indirimle %10 düşer: ~6.500-7.000 TL)
+
+[İzmir halı yıkama](/izmir-hali-yikama-firmalari) firmalarından toplu sezon açılış paketi teklifi alın.`,
+      },
+      {
+        heading: 'Çeşme, Urla, Alaçatı — Bölge Bazlı Notlar',
+        content: `**Çeşme — Rüzgâr ve Tuz:**
+Çeşme yarımadasında rüzgâr güçlü ve tuzlu. Deniz tuzu pencereden girip halılara, perdelere ve koltuk kumaşlarına yapışır. Kış boyunca biriken tuz kristalleri kumaşları sertleştirir. Profesyonel yıkama bu tuzu çıkarır ve kumaşları yumuşatır.
+
+**Urla — Bağ Evi Kültürü:**
+Urla\'nın bağ evleri son yıllarda çok popüler. Taş evlerin zemin nemi yüksek — halı altı küf riski Çeşme\'den fazla. Nem bariyeri kullanımı zorunlu.
+
+**Alaçatı — Butik Ev Kiralama:**
+Alaçatı\'da ev kiralama sektörü çok aktif. Evinizi kiraya veriyorsanız her kiracı döngüsünde profesyonel temizlik şart — halılar, yataklar, koltuklar. Bu düzenli iş için [İzmir halı yıkama](/izmir-hali-yikama-firmalari) firmasıyla yıllık anlaşma yaparak %15-20 indirim alabilirsiniz.
+
+**Seferihisar ve Güzelbahçe — Orta Bölge:**
+Çeşme kadar turistik değil ama yazlık ev yoğunluğu artıyor. Firmalar bu bölgeye de ulaşıyor.
+
+**Tire — Sürpriz:**
+İzmir\'in en çok sipariş alan firması (138 sipariş) Tire\'de. Ödemiş, Tire, Bayındır bölgesinde yaşıyorsanız bu firma güçlü bir seçenek.`,
+      },
+      {
+        heading: 'Sezon Kapanışı — Ekim\'de Ne Yapmalısınız?',
+        content: `Çoğu insan sezon açılışına hazırlanır ama kapanışı ihmal eder. Bu büyük hata:
+
+**Halıları kirli kaldırmayın:**
+Yaz boyunca kullanılan halıları kirli halde rulo yapıp dolaba kaldırmak = kışın küf ve koku garantisi. Kaldırmadan önce yıkatın.
+
+**Yorganları ve yastıkları kuru depola:**
+Yıkanmış, kurutulmuş yorganları vakumlu poşette saklayın. Nem alamaz, güve giremez.
+
+**Perdeleri indirin:**
+Kışın asılı bırakılan perdeler güneşten solar (güney cephe), nemden küflenir (kuzey cephe). Yıkatıp katlayarak saklayın.
+
+**Halı altını dezenfekte edin:**
+Halıyı kaldırdığınız zemine küf önleyici sprey sıkın. 6 ay boyunca küf oluşumunu yavaşlatır.
+
+**Nem alıcı bırakın:**
+Her odaya nem alıcı (silika jel veya kalsiyum klorür bazlı) koyun. Kapalı evin nemini %10-15 düşürür.
+
+Sezon kapanışında da aynı firmayı kullanarak [İzmir halı yıkama](/izmir-hali-yikama-firmalari) firmalarıyla yıllık ilişki kurun.`,
+      },
+    ],
+    faq: [
+      { q: 'Yazlık evi sezona ne zaman hazırlamalıyım?', a: 'Mart sonunda firmayı arayın. Nisan ortasında halıları toplatın. Nisan sonu teslimat. Mayıs\'ta ev hazır.' },
+      { q: 'Yazlık evin halılarını yıkatmak toplam ne tutar?', a: '3 odalı yazlık için halı+koltuk+perde+yorgan paketi toplu indirimle 6.500-7.000 TL civarında.' },
+      { q: 'Çeşme\'de halı yıkama firması var mı?', a: 'İzmir merkezindeki firmalar Çeşme ve Urla\'ya da hizmet veriyor. Platformda ilçe filtreleme yapabilirsiniz.' },
+    ],
+    relatedSlugs: ['izmir-hali-yikama', 'izmir-hali-yikama-nemle-mucadele', 'hali-yikama-fiyatlari'],
+  },
+
+  {
+    slug: 'bursa-hali-yikama-koltuk-karsilastirma',
+    city: 'Bursa',
+    citySlug: 'bursa',
+    title: 'Bursa\'daki İki Dev Halı Yıkama Firmasının Fiyat Savaşı: Kim Daha İyi?',
+    metaTitle: 'Bursa Halı Yıkama Karşılaştırma 2026 | İki Lider Firma, Fiyat ve Kalite Analizi',
+    metaDescription: 'Bursa halı yıkama firmalarının gerçek karşılaştırması. 136 vs 119 sipariş, fiyat farkları, hizmet kapsamı ve hangi firma size uygun.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    category: 'hali-yikama',
+    readingTime: 8,
+    heroEmoji: '🌿',
+    intro: 'Bursa\'nın halı yıkama pazarında iki firma açık ara lider: biri 136, diğeri 119 tamamlanmış sipariş. İkisi de Osmangazi, Nilüfer ve Yıldırım\'da aktif. İkisi de makine halısından ipek halıya kadar geniş ürün yelpazesine sahip. Ama fiyatları farklı. Ürün çeşitlikleri farklı. Hizmet alanları farklı. Peki hangisini seçmelisiniz? Bu yazıda iki firmayı kategori kategori karşılaştırıyoruz — gerçek verilerle.',
+    sections: [
+      {
+        heading: 'İki Firmanın Karşılaştırma Tablosu — Halı Fiyatları',
+        content: `İki firmanın gerçek fiyat listesini yan yana koyuyoruz:
+
+| Halı Türü | Firma A (136 sipariş) | Firma B (119 sipariş) | Fark |
+|-----------|----------------------|----------------------|------|
+| Kaymaz/Jel | 80 TL/m² | 80 TL/m² | Eşit |
+| Arlon Halı | — | 90 TL/m² | Sadece B |
+| Makine Halısı | 90 TL/m² | 90-100 TL/m² | A daha uygun |
+| Mega Halı | — | 100 TL/m² | Sadece B |
+| Akrilik | 200 TL/m² | 120 TL/m² | **B %40 ucuz** |
+| Şaggy | 150 TL/m² | 130 TL/m² | B biraz ucuz |
+| Nepal | — | 130 TL/m² | Sadece B |
+| Step | 150 TL/m² | 150 TL/m² | Eşit |
+| Makine Yün | 175 TL/m² | — | Sadece A |
+| El Dokuma | 250 TL/m² | 150 TL/m² | **B %40 ucuz** |
+| Bambu | 350 TL/m² | 200 TL/m² | **B %43 ucuz** |
+| İpek | 350 TL/m² | 250 TL/m² | **B %29 ucuz** |
+
+**İlk bakışta Firma B daha ucuz:**
+Özel halılarda (akrilik, el dokuma, bambu, ipek) Firma B ciddi şekilde ucuz. Ama ucuz demek her zaman iyi demek değil. Fiyat farkının muhtemel sebepleri:
+
+**1. Deterjan kalitesi:** Premium deterjan maliyeti yüksek. Ucuz deterjan kullanan firma daha düşük fiyat sunabilir ama sonuç farklı olabilir.
+**2. İşlem süresi:** Daha az durulama, daha kısa kurutma = daha düşük maliyet ama halıda deterjan kalıntısı riski.
+**3. Uzmanlık farkı:** Firma A ipek halıya daha uzun işlem süresi uygulayıp daha yüksek fiyat alıyor olabilir — bu daha iyi sonuç verebilir.
+
+[Bursa halı yıkama](/bursa-hali-yikama-firmalari) sayfasından her iki firmanın detaylarını inceleyin ve sipariş sayılarına bakın.`,
+      },
+      {
+        heading: 'Halı Dışı Hizmetlerde Karşılaştırma',
+        content: `| Hizmet | Firma A | Firma B |
+|--------|--------|--------|
+| Sandalye | 150 TL | — |
+| Koltuk Takımı | 1.500 TL | 1.500 TL |
+| Elyaf Battaniye | 400 TL | 500 TL |
+| Yün Yorgan | 500 TL | 600 TL |
+| Stor Perde | 120 TL | 100 TL |
+| Baza Başlığı | 600 TL | — |
+| Yatak Yıkama | 1.000 TL | — |
+| Overlok | 100 TL/m | 100 TL/m |
+| Spor Saçak | — | 200 TL/m² |
+
+**Firma A daha geniş hizmet yelpazesi:**
+Firma A sandalye yıkama, baza başlığı ve yatak yıkama gibi ek hizmetler sunuyor. Firma B bu hizmetleri sunmuyor ama stor perdede daha ucuz.
+
+**Hangisini seçmeli?**
+- Makine halısı + koltuk yıkama: İkisi de benzer, tercih meselesi
+- İpek/bambu/el dokuma halı: Firma B fiyat avantajı sunuyor ama kaliteyi yorumlardan kontrol edin
+- Yatak + baza başlığı: Sadece Firma A bu hizmeti sunuyor
+- Toplu paket (halı + koltuk + yorgan + perde): Her ikisinden teklif alın, toplu indirim isteyin
+
+**Gerçek karar kriteri — Sipariş sayısı ve yorumlar:**
+136 vs 119 sipariş farkı önemli değil — ikisi de çok aktif. Asıl bakmanız gereken müşteri yorumları ve puan. Platformda her iki firmanın yorumlarını karşılaştırın.
+
+[Bursa halı yıkama](/bursa-hali-yikama-firmalari) — 50 firma arasından bu iki lideri ve diğerlerini inceleyin.`,
+      },
+      {
+        heading: 'Hizmet Alanı Karşılaştırması — Kim Nereye Geliyor?',
+        content: `**Firma A (136 sipariş):**
+Gürsu, Kestel, Nilüfer, Osmangazi, Yıldırım — 5 ilçe.
+
+**Firma B (119 sipariş):**
+Osmangazi, Nilüfer, Yıldırım, Gürsu, Kestel + Mudanya — 54 farklı mahalle/bölge listelenmiş.
+
+**Firma B coğrafi olarak daha geniş:**
+54 mahalle/bölge detayında hizmet alanı listelemiş. Bu daha şeffaf bir yaklaşım — hangi mahallede hizmet verdiğini biliyorsunuz. Firma A ilçe bazında listeliyor ama detay yok.
+
+**Mudanya farkı:**
+Firma B Mudanya\'ya da hizmet veriyor. Mudanya\'daki yazlık ev sahipleri için bu önemli bir avantaj.
+
+**İnegöl, Orhangazi ve diğer uzak ilçeler:**
+İki firma da şu an bu ilçelerde aktif görünmüyor. Bu ilçelerde yaşıyorsanız [Bursa halı yıkama](/bursa-hali-yikama-firmalari) sayfasından diğer 48 firmayı kontrol edin.
+
+**Sonuç:**
+Her iki firma da güçlü seçenek. Fiyat farkları var ama bu fark kaliteye mi yoksa maliyet yapısına mı bağlı — bunu müşteri yorumları söyler. İkisinden de teklif alın, karşılaştırın, yorumları okuyun.`,
+      },
+    ],
+    faq: [
+      { q: 'Bursa\'daki iki lider halı yıkama firması arasındaki fark ne?', a: 'Temel halılarda fiyatlar benzer (80-90 TL/m²). Özel halılarda (ipek, bambu) %29-43 fark var. Hizmet alanı ve ek hizmetler de farklı.' },
+      { q: 'Hangi firmayı tercih etmeliyim?', a: 'Makine halısı ve koltuk için ikisi de benzer. İpek/bambu halınız varsa fiyat karşılaştırması yapın. Yatak yıkama lazımsa sadece Firma A sunuyor. Yorumları mutlaka okuyun.' },
+      { q: 'Bursa\'da 50 firma varken neden sadece bu ikisi?', a: 'Bu iki firma 136 ve 119 siparişle açık ara lider. Diğer 48 firma daha yeni veya daha küçük ölçekli olabilir — ama aralarında gizli mücevher de olabilir.' },
+    ],
+    relatedSlugs: ['bursa-hali-yikama', 'bursa-hali-yikama-tekstil-sehri', 'hali-yikama-firmasi-nasil-secilir'],
+  },
+
   ...cityGuides,
 ];
 
