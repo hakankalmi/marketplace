@@ -1,4 +1,4 @@
-import { notFound } from 'next/navigation';
+import { notFound, redirect } from 'next/navigation';
 import type { Metadata } from 'next';
 import { API_URL, BRAND_CODE, CITIES } from '@/lib/constants';
 import { getBrandConfig } from '@/brands';
@@ -227,7 +227,15 @@ export default async function CityCategoryPage({
 }: {
   params: Promise<{ city: string; category: string }>;
 }) {
-  const { city: citySlug, category } = await params;
+  const { city: rawCitySlug, category: rawCategory } = await params;
+
+  // 301 redirect: underscore → hyphen (SEO canonical fix)
+  if (rawCitySlug.includes('_') || rawCategory.includes('_')) {
+    redirect(`/${rawCitySlug.replace(/_/g, '-')}/${rawCategory.replace(/_/g, '-')}`);
+  }
+
+  const citySlug = rawCitySlug;
+  const category = rawCategory;
   const isAllTurkey = citySlug === IS_ALL_TURKEY;
   const categoryDisplay = getCategoryDisplayName(category);
 

@@ -1,4 +1,4 @@
-import { notFound } from 'next/navigation';
+import { notFound, redirect } from 'next/navigation';
 import type { Metadata } from 'next';
 import { API_URL, BRAND_CODE } from '@/lib/constants';
 import { getBrandConfig } from '@/brands';
@@ -29,7 +29,10 @@ export async function generateMetadata({
 }: {
   params: Promise<{ city: string; category: string; slug: string }>;
 }): Promise<Metadata> {
-  const { slug, city, category } = await params;
+  const { slug, city: rawCity, category: rawCategory } = await params;
+  // Normalize underscores to hyphens for canonical URLs
+  const city = rawCity.replace(/_/g, '-');
+  const category = rawCategory.replace(/_/g, '-');
   const company = await getCompany(slug);
   if (!company) return { title: 'Firma Bulunamadı' };
 
@@ -74,7 +77,15 @@ export default async function FirmaDetayPage({
 }: {
   params: Promise<{ city: string; category: string; slug: string }>;
 }) {
-  const { slug, city, category } = await params;
+  const { slug, city: rawCity, category: rawCategory } = await params;
+
+  // 301 redirect: underscore → hyphen (SEO canonical fix)
+  if (rawCity.includes('_') || rawCategory.includes('_')) {
+    redirect(`/${rawCity.replace(/_/g, '-')}/${rawCategory.replace(/_/g, '-')}/${slug}`);
+  }
+
+  const city = rawCity;
+  const category = rawCategory;
   const company = await getCompany(slug);
 
   if (!company) notFound();

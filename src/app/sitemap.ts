@@ -98,7 +98,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       for (const company of (data.items || []) as CompanyItem[]) {
         const companySlug = company.slug || company.companyId;
         const citySlug = company.city ? slugify(company.city) : null;
-        const category = company.categoryKeys?.[0] || 'hali-yikama';
+        // Normalize underscores to hyphens (API returns hali_yikama, we need hali-yikama)
+        const category = (company.categoryKeys?.[0] || 'hali-yikama').replace(/_/g, '-');
 
         if (citySlug) {
           entries.push({

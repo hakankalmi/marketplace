@@ -1,4 +1,4 @@
-import { notFound } from 'next/navigation';
+import { notFound, redirect } from 'next/navigation';
 import type { Metadata } from 'next';
 import { API_URL, BRAND_CODE, CITIES } from '@/lib/constants';
 import { getBrandConfig } from '@/brands';
@@ -195,7 +195,9 @@ export async function generateMetadata({
 }: {
   params: Promise<{ city: string }>;
 }): Promise<Metadata> {
-  const { city: slug } = await params;
+  const { city: rawSlug } = await params;
+  // Always use hyphenated slug for canonical URLs
+  const slug = rawSlug.replace(/_/g, '-');
 
   // "izmir-hali-yikama-firmalari" formatını kontrol et
   const firmalari = parseFirmalariSlug(slug);
@@ -236,6 +238,7 @@ export async function generateMetadata({
   return {
     title,
     description,
+    alternates: { canonical: `/${slug}` },
     openGraph: { title, description, url: `https://${brand.domain}/${slug}` },
   };
 }
@@ -246,6 +249,11 @@ export default async function CityPage({
   params: Promise<{ city: string }>;
 }) {
   const { city: slug } = await params;
+
+  // ── 301 redirect: underscore → hyphen (SEO canonical fix) ──
+  if (slug.includes('_')) {
+    redirect(`/${slug.replace(/_/g, '-')}`);
+  }
 
   // ── "izmir-hali-yikama-firmalari" veya "sivas-gurun-hali-yikama-firmalari" formatı ──
   const firmalari = parseFirmalariSlug(slug);
