@@ -6,6 +6,8 @@ const brand = getBrandConfig();
 
 export const metadata = {
   title: `Hakkımızda — ${brand.name}`,
+  description: `${brand.name} hakkında. Türkiye'nin 81 ilinde halı yıkama, koltuk yıkama firmalarını bir araya getiren güvenilir platform.`,
+  alternates: { canonical: '/hakkimizda' },
 };
 
 export default function HakkimizdaPage() {

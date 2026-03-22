@@ -10,6 +10,7 @@ const brand = getBrandConfig();
 export const metadata: Metadata = {
   title: `Firma Başvurusu | ${brand.name}`,
   description: `${brand.name} platformunda yerinizi alın. Müşterilerinize online sipariş, takip ve güvenilir hizmet deneyimi sunun. Hemen ücretsiz başvurun.`,
+  alternates: { canonical: '/basvuru' },
 };
 
 export default function BasvuruPage() {

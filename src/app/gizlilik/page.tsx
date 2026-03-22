@@ -6,6 +6,8 @@ const brand = getBrandConfig();
 
 export const metadata = {
   title: `Gizlilik Politikası — ${brand.name}`,
+  description: `${brand.name} gizlilik politikası. Kişisel verilerinizin nasıl korunduğunu ve kullanıldığını öğrenin.`,
+  alternates: { canonical: '/gizlilik' },
 };
 
 export default function GizlilikPage() {

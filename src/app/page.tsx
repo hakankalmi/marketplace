@@ -14,7 +14,14 @@ import type { CategoryResponseDto, CompanyListDto, PaginatedResponse } from '@/l
 const brand = getBrandConfig();
 
 export const metadata: Metadata = {
+  title: 'Halı Yıkama Firmaları | 81 İlde Fiyat Karşılaştır, Hemen Sipariş Ver',
+  description:
+    'Türkiye\'nin 81 ilinde halı yıkama, koltuk yıkama, yorgan yıkama firmalarını karşılaştırın. Güncel fiyatları görün, müşteri yorumlarını okuyun, tek tıkla sipariş verin.',
+  alternates: { canonical: '/' },
   openGraph: {
+    title: 'Halı Yıkama Firmaları | 81 İlde Fiyat Karşılaştır',
+    description:
+      'Şehrinizin en iyi halı yıkama firmalarını karşılaştırın. Fiyatları görün, yorumları okuyun, hemen sipariş verin.',
     images: [
       {
         url: `/api/og?title=${encodeURIComponent(brand.seo.heroTitle)}&subtitle=${encodeURIComponent(brand.seo.heroSubtitle)}&type=home`,
@@ -23,6 +30,11 @@ export const metadata: Metadata = {
         alt: brand.seo.metaTitle,
       },
     ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Halı Yıkama Firmaları | 81 İlde Fiyat Karşılaştır',
+    description: 'Şehrinizin en iyi halı yıkama firmalarını karşılaştırın.',
   },
 };
 

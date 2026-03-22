@@ -6,6 +6,8 @@ const brand = getBrandConfig();
 
 export const metadata = {
   title: `Kullanım Koşulları — ${brand.name}`,
+  description: `${brand.name} kullanım koşulları ve hizmet şartları. Platform kuralları, sorumluluklar ve yasal bilgiler.`,
+  alternates: { canonical: '/kullanim-kosullari' },
 };
 
 export default function KullanimKosullariPage() {
