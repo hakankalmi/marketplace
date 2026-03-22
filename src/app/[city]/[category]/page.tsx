@@ -124,7 +124,11 @@ const defaultContent = {
     'Kolay online sipariş',
     'Ücretsiz fiyat karşılaştırma',
   ],
-  faq: [],
+  faq: [
+    { q: 'Profesyonel temizlik hizmeti ne kadar sürer?', a: 'Hizmet türüne ve alana göre değişir. Standart bir daire temizliği 2-4 saat, halı yıkama 1-2 gün (kurutma dahil), koltuk yıkama ise yerinde 30-60 dakika sürer.' },
+    { q: 'Online sipariş nasıl çalışır?', a: 'Şehrinizdeki firmaları karşılaştırın, fiyatları inceleyin, uygun firmayı seçin ve sipariş formu ile randevu oluşturun. Firma sizinle iletişime geçerek detayları netleştirir.' },
+    { q: 'Firmaların güvenilirliğini nasıl anlayabilirim?', a: 'Platformumuzdaki firmalar doğrulanmış işletmelerdir. Gerçek müşteri yorumlarını okuyabilir, puanları karşılaştırabilir ve tamamlanmış sipariş sayılarını görebilirsiniz.' },
+  ],
 };
 
 async function getCities(): Promise<CityDto[]> {
@@ -361,21 +365,23 @@ export default async function CityCategoryPage({
             </div>
           </section>
 
-          {/* JSON-LD */}
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html: JSON.stringify({
-                '@context': 'https://schema.org',
-                '@type': 'FAQPage',
-                mainEntity: content.faq.map((f) => ({
-                  '@type': 'Question',
-                  name: f.q,
-                  acceptedAnswer: { '@type': 'Answer', text: f.a },
-                })),
-              }),
-            }}
-          />
+          {/* JSON-LD — FAQ only if questions exist */}
+          {content.faq.length > 0 && (
+            <script
+              type="application/ld+json"
+              dangerouslySetInnerHTML={{
+                __html: JSON.stringify({
+                  '@context': 'https://schema.org',
+                  '@type': 'FAQPage',
+                  mainEntity: content.faq.map((f) => ({
+                    '@type': 'Question',
+                    name: f.q,
+                    acceptedAnswer: { '@type': 'Answer', text: f.a },
+                  })),
+                }),
+              }}
+            />
+          )}
         </main>
         <Footer />
       </>
