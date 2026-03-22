@@ -9147,6 +9147,1008 @@ Kurban ve Ramazan bayramında 3-4 gün boyunca sürekli misafir. Bayramdan 2 haf
     relatedSlugs: ['koltuk-yikama-fiyatlari', 'sanliurfa-hali-yikama-buyuk-aile', 'koltuk-bakim-onerileri'],
   },
 
+  // ══════════════ ADANA-MERSİN — SICAK İKLİM KOLTUK BAKIMI ══════════════
+  {
+    slug: 'adana-mersin-koltuk-yikama-sicak-iklim',
+    city: 'Adana',
+    citySlug: 'adana',
+    title: 'Sıcak İklimde Koltuk Bakımı: Adana ve Mersin\'de Koltuğunuz Neden Daha Hızlı Kirlenir?',
+    metaTitle: 'Adana Koltuk Yıkama 2026 | Sıcak İklim, Ter Lekesi, Nem Hasarı Rehberi',
+    metaDescription: 'Adana ve Mersin\'de koltuk yıkama rehberi. Sıcak iklimde ter lekesi, klima nemi, güneş hasarı — koltuğunuzu koruma ve temizleme stratejileri.',
+    datePublished: '2026-03-22',
+    dateModified: '2026-03-22',
+    category: 'koltuk-yikama',
+    readingTime: 9,
+    heroEmoji: '☀️',
+    intro: 'Haziran ayında Adana\'da oturma odanız 38 derece. Klimayı açıyorsunuz, sıcaklık düşüyor ama nem artıyor. Terli bedeninizle koltuğa oturuyorsunuz — kumaş teri emiyor. Bu döngü Adana ve Mersin\'de Mayıs\'tan Ekim\'e kadar günde 8-10 saat tekrar ediyor. İşte bu yüzden Çukurova\'da koltuklar İstanbul\'daki bir koltuğun iki katı hızında kirlenir. Bu yazıda sıcak iklimin koltuğunuza ne yaptığını, nasıl korunacağınızı ve profesyonel temizliği ne zaman yaptırmanız gerektiğini anlatıyoruz.',
+    sections: [
+      {
+        heading: 'Sıcak İklimin Koltuğa Üç Büyük Etkisi',
+        content: `Adana ve Mersin\'in sıcak-nemli iklimi koltuğunuza üç farklı yoldan zarar verir:
+
+**1. Ter emilimi:**
+İnsan vücudu 35°C üzerinde saatte yaklaşık 0.5-1 litre ter üretir. Ev kıyafetleriyle koltuğa oturduğunuzda bu terin önemli kısmı kumaşa geçer. Ter sadece su değildir — tuz, yağ asitleri ve bakteriler içerir. Kumaşa sindiğinde sarı leke bırakır ve zamanla kokuya dönüşür. Bu koku parfümle örtülemez — çünkü kaynağı kumaşın içindeki bakteridir.
+
+**2. Klima neminin etkisi:**
+Klimanız havayı soğutur ama aynı zamanda iç mekan nemini değiştirir. Klima açıkken nem düşer, koltuk kumaşı kurur ve sertleşir. Klima kapandığında nem yükselir, kumaş nemi emer ve yumuşar. Bu sürekli kuru-nemli döngüsü kumaşın liflerini yorar — özellikle kadife ve şönil kumaşlarda erken yıpranma görülür.
+
+**3. UV hasarı:**
+Güneş alan koltuklarda kumaş rengi soluyor. Adana\'da yaz güneşi sabah 06:00\'dan akşam 20:00\'ye kadar 14 saat vuruyor. Pencerenin yanındaki koltuk 2-3 yılda belirgin renk farkı gösterir — güneş alan taraf soluk, diğer taraf orijinal renk. Perde çekmek koltuğunuzun ömrünü uzatır.
+
+[Adana koltuk yıkama](/adana-koltuk-yikama-firmalari) ve [Mersin koltuk yıkama](/mersin-koltuk-yikama-firmalari) firmalarından iklime uygun bakım programı isteyin.`,
+      },
+      {
+        heading: 'Ter Lekesi ile Mücadele — Ev Önlemi ve Profesyonel Çözüm',
+        content: `Ter lekesi sıcak iklim bölgelerinin en yaygın koltuk sorunudur. Ve en sinsi olanıdır — çünkü taze haliyle görünmez, ancak 1-2 hafta sonra sararmaya başlar.
+
+**Önlem — evde yapabileceğiniz 3 şey:**
+
+Birincisi: Koltuğa oturmadan önce üzerinizde pamuklu, gevşek bir giysi olsun. Polyester giysi teri hapseder ve temas noktasında kumaşa basınçla aktarır. Pamuklu giysi teri emer ve kumaşa daha az geçirir.
+
+İkincisi: Koltuk kolçaklarına ve sırt dayama noktalarına yıkanabilir örtü koyun. Çukurova\'da neredeyse herkes bunu yapıyor — ama genellikle estetik kaygıyla kaldırılıyor. Estetik kaygı anlayışılır ama o örtü koltuğunuzun ömrünü 3-5 yıl uzatır.
+
+Üçüncüsü: Haftalık rutin olarak koltuk yüzeyini nemli (ıslak değil, sıkılmış) mikrofiber bezle silin. Bu yüzeydeki tuz kristallerini alır — kumaşın sertleşmesini yavaşlatır.
+
+**Profesyonel çözüm:**
+Sıcak iklimde koltuk yılda 2-3 kez profesyonel yıkanmalıdır. Standart Türkiye ortalaması yılda 1-2 kez ama Adana ve Mersin\'de ter birikimi bunu yetersiz kılar. Mayıs (yaz öncesi), Eylül (yaz sonu) ve Ocak (kış ortası) iyi zaman dilimleridir.
+
+Enzim bazlı deterjan isteyin — standart deterjan ter kokusunu bastırır ama enzimler koku kaynağı olan bakterileri parçalar. Bu farkı mutlaka firmaya sorun.
+
+[Adana koltuk yıkama](/adana-koltuk-yikama-firmalari) firmalarından enzim bazlı derin temizlik isteyin.`,
+      },
+      {
+        heading: 'Mevsimsel Koltuk Bakım Takvimi — Çukurova İçin',
+        content: `Adana ve Mersin\'de koltuğunuz için mevsime göre yapmanız gereken şeyler:
+
+**Mart-Nisan (Bahar):**
+Kış boyunca kapalı kalan evlerin koltukları nem ve toz biriktirmiştir. Bahar temizliğinde koltuğunuzu profesyonel yıkatın — yaza temiz girin. Bu yılın ilk yıkaması.
+
+**Mayıs-Eylül (Yaz):**
+En kritik dönem. Haftalık nemli bez silme zorunlu. Klimanın hava akışını doğrudan koltuğa yönlendirmeyin — kumaşı aşırı kurutur. Güneş alan koltukları perde ile koruyun. Temmuz-Ağustos\'ta bir profesyonel yıkama daha yaptırın — yaz ortası birikimini temizler.
+
+**Ekim-Kasım (Sonbahar):**
+Yaz boyunca biriken ter ve kiri temizlemek için yılın ikinci profesyonel yıkaması. Bu yıkama sonrası koltuk kışa hazır. Polen sezonu biten bu dönemde alerjen temizliği de yapılmış olur.
+
+**Aralık-Şubat (Kış):**
+Adana kışları ılık ama nemlidir. Koltuk nemden etkilenmeye devam eder. Soba veya elektrikli ısıtıcı kullananlar koltuğu doğrudan ısı kaynağına yakın koymasın — kumaş kurur ve çatlar. Ayda bir kez evi iyice havalandırın.
+
+[Mersin koltuk yıkama](/mersin-koltuk-yikama-firmalari) ve [Adana koltuk yıkama](/adana-koltuk-yikama-firmalari) — Çukurova\'nın iklimine uygun bakım planı.`,
+      },
+    ],
+    faq: [
+      { q: 'Sıcak iklimde koltuk yılda kaç kez yıkatılmalı?', a: 'En az 2-3 kez. Yaz öncesi (Mayıs), yaz ortası (Temmuz-Ağustos) ve yaz sonu (Eylül-Ekim) ideal zamanlardır.' },
+      { q: 'Ter lekesi koltuktan çıkar mı?', a: 'Taze iken kolay çıkar. Sararmış ter lekesi enzim bazlı deterjanla profesyonel yıkamada genellikle çıkar. 6 aydan eski lekeler kalıcı olabilir.' },
+      { q: 'Klima koltuğa zarar verir mi?', a: 'Doğrudan üfleme kumaşı kurutur ve liflerini sertleştirir. Hava akışını koltuğa doğrudan yönlendirmeyin.' },
+    ],
+    relatedSlugs: ['koltuk-yikama-fiyatlari', 'adana-hali-yikama', 'mersin-hali-yikama'],
+  },
+
+  // ══════════════ ESKİŞEHİR — ÜNİVERSİTE ŞEHRİ KOLTUK REHBERİ ══════════════
+  {
+    slug: 'eskisehir-koltuk-yikama-ogrenci-evi',
+    city: 'Eskişehir',
+    citySlug: 'eskisehir',
+    title: 'Eskişehir\'de Koltuk Yıkama: Öğrenci Evinden Aile Salonuna, Herkes İçin Rehber',
+    metaTitle: 'Eskişehir Koltuk Yıkama 2026 | Öğrenci Evi, Kiralık Daire, Koltuk Bakım Rehberi',
+    metaDescription: 'Eskişehir koltuk yıkama rehberi. Öğrenci evi taşınma temizliği, kiralık daire koltuk bakımı, soğuk iklimde kurutma ipuçları.',
+    datePublished: '2026-03-22',
+    dateModified: '2026-03-22',
+    category: 'koltuk-yikama',
+    readingTime: 8,
+    heroEmoji: '🎓',
+    intro: 'Eskişehir Türkiye\'nin en büyük üniversite şehirlerinden biri — Anadolu ve Osmangazi üniversiteleriyle birlikte 200.000\'e yakın öğrenci nüfusu barındırıyor. Bu devasa öğrenci nüfusu bir gerçeği de beraberinde getiriyor: Eskişehir\'de kiralık evlerin devir hızı çok yüksek. Her Eylül ve Haziran\'da binlerce ev el değiştiriyor. Ve o evlerin koltukları yeni kiracıya genellikle "olduğu gibi" geçiyor. İşte bu yüzden Eskişehir\'de koltuk yıkama talebi iki dönemde zirve yapıyor — öğrenci taşınma sezonları.',
+    sections: [
+      {
+        heading: 'Taşınma Sezonu — Eve Yerleşmeden Önce Koltuk Yıkatın',
+        content: `Eylül\'de yeni bir kiralık eve taşındınız. Koltuk evin sahibinindir — "mobilyalı kiralık" ilanlarının klasik gerçeği. Koltuk dışarıdan temiz görünüyor ama bir önceki kiracının 1-2 yıllık kullanım izlerini taşıyor.
+
+**Görmediğiniz şeyler:**
+Kumaşın içine sinmiş ter ve vücut yağı, toz akarı kolonyası, döküntü lekeleri, evcil hayvan tüyü (önceki kiracının kedisi/köpeği), sigara dumanı ve yemek kokusu. Bunlar gözle görülmez ama kumaşın içindedir — koltuğa oturduğunuzda vücudunuzla temas eder.
+
+**Eve taşındığınızda yapmanız gereken ilk şey:**
+Eşyaları yerleştirmeden önce koltuğu profesyonel yıkatın. Hem hijyen sağlarsınız hem o "eski ev kokusu"ndan kurtulursunuz. Eskişehir\'in soğuk Eylül akşamları kurutma süresini uzatır — sabah yıkatın, ertesi gün kullanın.
+
+Ev sahibine "koltuk yıkama masrafını kim karşılayacak" sorusunu kira sözleşmesi imzalamadan önce konuşun. Bazı ev sahipleri taşınma öncesi yıkatıyor, bazıları masrafı bölüşüyor. Ama kimse konuşmazsa genellikle kiracı yıkatıyor.
+
+[Eskişehir koltuk yıkama](/eskisehir-koltuk-yikama-firmalari) firmalarıyla taşınma öncesi temizlik randevusu alın.`,
+      },
+      {
+        heading: 'Soğuk İklimde Koltuk Kurutma Sorunu',
+        content: `Eskişehir\'in kışları sert — Aralık\'tan Mart\'a kadar sıfırın altında sıcaklıklar, kar ve yüksek nem. Bu soğuk iklim koltuk yıkama sonrası ciddi bir kurutma sorunu yaratır.
+
+**Yaz aylarında (Haziran-Ağustos):**
+Pencere açın, fan çalıştırın — 4-6 saatte koltuk kurur. Sorun yok.
+
+**Kış aylarında (Kasım-Mart):**
+Pencere açamazsınız — dışarısı sıfırın altında. Kapalı ortamda koltuk 12-18 saat kurumayabilir. Ve nemli koltuk küflenme riski taşır. İşte bu yüzden Eskişehir\'de kış aylarında koltuk yıkatacaksanız bazı önlemleri bilmelisiniz:
+
+Birincisi: Firmadan "düşük nemli yıkama" veya "kuru temizleme" yöntemi isteyin. Ekstraksiyon yöntemi koltuktan suyu geri emer ama yine de nemli bırakır. Kuru köpük yöntemi çok daha az nem kullanır — kış için ideal.
+
+İkincisi: Yıkama sonrası odaya nem alıcı (moisture absorber) koyun. Eskişehir\'in apartmanlarında doğal havalandırma zayıf — nem alıcı kurutma süresini %30-40 azaltır.
+
+Üçüncüsü: Kalorifer peteklerini kullanın ama koltuğu doğrudan peteğin yanına çekmeyin — uzak mesafeden ılık hava sirkülasyonu en güvenlisi. Direkt ısı kumaşı çatlatır.
+
+[Eskişehir koltuk yıkama](/eskisehir-koltuk-yikama-firmalari) — soğuk iklimde doğru kurutma bilen firmalar.`,
+      },
+      {
+        heading: 'Öğrenci Bütçesiyle Koltuk Bakımı',
+        content: `Eskişehir öğrenci dostu bir şehir — koltuk yıkama dahil. Ama bütçe sınırlıyken akıllı davranmak lazım:
+
+**Ne zaman profesyonel yıkatmalısınız:**
+Taşınma anında (mutlaka), yılda 1 kez genel temizlik, ve büyük leke durumunda. Bunun dışında ev bakımıyla idare edebilirsiniz.
+
+**Ev bakımıyla arada neler yapabilirsiniz:**
+Haftalık elektrikli süpürgeyle koltuk yüzeyini süpürün — toz akarı ve kırıntıları alır. Taze lekelere anında müdahale — soğuk su + beyaz kağıt havlu (bastırarak emin, ovalamadan). Ayda bir kez karbonat + su macunuyla kumaş yüzeyini ovalayın ve nemli bezle silin — kokuları alır.
+
+**Oda arkadaşıyla bölüşme stratejisi:**
+3-4 kişilik öğrenci evinde koltuk herkesin kullandığı ortak alan. Yıkama masrafını eşit bölüşmek en adil çözüm. Dönem başı koltuk yıkama için eve kişi başı 200-300 TL koyun — ortaklık hesabından ödeyin.
+
+**Ev tahliyesinde:**
+Çıkarken koltuğu yıkatmak hem depozito iadenizi kolaylaştırır hem sonraki kiracıya saygı. Ev sahibinin "koltuk kirli, depozito keseceğim" demesi için bahane bırakmayın.
+
+[Eskişehir koltuk yıkama](/eskisehir-koltuk-yikama-firmalari) firmalarını karşılaştırın.`,
+      },
+    ],
+    faq: [
+      { q: 'Kiralık evde koltuk yıkama masrafını kim karşılar?', a: 'Kanunen belirlenmemiş. Kira sözleşmenize bağlı. Taşınma öncesi yıkama genellikle kiracının sorumluluğu.' },
+      { q: 'Kışın koltuk yıkatılır mı Eskişehir\'de?', a: 'Evet ama kuru temizleme yöntemi tercih edilmeli. Ekstraksiyon ile yıkarsanız kurutma 12-18 saat sürebilir.' },
+      { q: 'Öğrenci evi koltuğu ne sıklıkla yıkatılmalı?', a: 'Dönem başı ve dönem sonu — yılda 2 kez. Arası ev bakımıyla idare edilebilir.' },
+    ],
+    relatedSlugs: ['koltuk-yikama-fiyatlari', 'eskisehir-hali-yikama', 'koltuk-bakim-onerileri'],
+  },
+
+  // ══════════════ DENİZLİ — TEKSTİL ŞEHRİ KOLTUK REHBERİ ══════════════
+  {
+    slug: 'denizli-koltuk-yikama-tekstil-bilgisi',
+    city: 'Denizli',
+    citySlug: 'denizli',
+    title: 'Denizli\'de Koltuk Yıkama: Tekstil Şehrinde Kumaş Bilgisi Avantajı',
+    metaTitle: 'Denizli Koltuk Yıkama 2026 | Tekstil Başkentinde Kumaş Bilgisiyle Doğru Bakım',
+    metaDescription: 'Denizli koltuk yıkama rehberi. Türkiye\'nin tekstil başkentinde kumaş türlerini tanıma, doğru yıkama yöntemi seçme ve koltuk ömrünü uzatma rehberi.',
+    datePublished: '2026-03-22',
+    dateModified: '2026-03-22',
+    category: 'koltuk-yikama',
+    readingTime: 8,
+    heroEmoji: '🧵',
+    intro: 'Denizli, Türkiye\'nin tekstil başkentidir. Havlu, bornoz, çarşaf — Denizli\'nin ürettiği ev tekstili dünyaya ihraç ediliyor. Bu şehirde yaşıyorsanız kumaşla aranız iyi olmalı — çünkü etrafınızdaki herkes kumaştan anlıyor. Ama sıra koltuğun kumaşına gelince çoğu kişi "normal kumaş" diyor. Oysa Denizli\'de doğru koltuk yıkama, doğru kumaş teşhisiyle başlar. Tekstil şehrinde bu bilgiye sahip olmak hem paranızı korur hem koltuğunuzun ömrünü uzatır.',
+    sections: [
+      {
+        heading: 'Denizlili Gibi Düşünün: Kumaş Kalitesi Her Şeyi Belirler',
+        content: `Denizli\'de bir havlu alırken iplik kalınlığına, gramajına, dokuma sıklığına bakarsınız. Aynı yaklaşımı koltuğunuzun kumaşına da uygulamalısınız.
+
+**Koltuk kumaşının gramajı önemlidir:**
+Hafif kumaşlar (200-300 gr/m²) daha hızlı kirlenir, daha çabuk yıpranır ama yıkaması ve kurutması kolaydır. Ağır kumaşlar (400-600 gr/m²) daha dayanıklı, daha yavaş kirlenir ama yıkama sonrası kurutma 2 kat uzun sürer. Koltuğunuzu alırken kumaşın gramajını sorun — bakım programınızı buna göre planlayın.
+
+**Dokuma tipi yıkama yöntemini belirler:**
+Düz dokuma (flat weave): Su bazlı yıkamaya dayanıklı, standart ekstraksiyon güvenli.
+Kadife dokuma (velvet): Fırça ve basınç izi bırakır — sadece buhar + emme yöntemi güvenli.
+Bukle dokuma (bouclé): İplikleri çekilebilir — sert fırçalama yasak, nazik vakumlama gerekli.
+
+Denizli\'nin tekstil kültürü bu ayrımları bilmenize yardımcı olur. Firmanızla konuşurken "kumaşım 400 gramaj şönil" derseniz, firma size daha doğru fiyat ve daha doğru yöntem sunar.
+
+[Denizli koltuk yıkama](/denizli-koltuk-yikama-firmalari) firmalarına kumaş detayıyla ulaşın — kaliteli hizmet kaliteli iletişimle başlar.`,
+      },
+      {
+        heading: 'Jeotermal Sıcaklık ve Koltuk İlişkisi',
+        content: `Denizli\'nin jeotermal kaynakları sadece kaplıca turizmi için değil — şehrin bir kısmı jeotermal ısıtma kullanıyor. Bu ısıtma sistemi koltuk bakımını doğrudan etkiler.
+
+**Jeotermal ısıtmanın avantajı:**
+Radyatör veya yerden ısıtma düzgün ve sabit sıcaklık sağlar. Soba veya elektrikli ısıtıcının yarattığı ani sıcak noktalar olmaz. Bu koltuğun kumaşı için iyidir — ani ısı değişimi kumaş liflerini yorar, sabit sıcaklık korur.
+
+**Jeotermal ısıtmanın dezavantajı:**
+Sürekli ılık ortam, kapalı evlerde nem dengesini bozar. Kış aylarında ev içi nem %20-30\'a düşebilir — bu çok kuru. Kuru ortam deri koltukları çatlatır, kumaş koltukları sertleştirir. Çözüm: Odaya nemlendiricisi koyun veya ıslak havlu askıya asın.
+
+**Kurutma avantajı:**
+Jeotermal ısıtmalı evlerde koltuk yıkama sonrası kurutma şaşırtıcı derecede hızlıdır. Sabit 22-24°C ortam sıcaklığı ve düşük nem — koltuk 3-4 saatte kurur. Bu Denizli\'ye kış aylarında bile koltuk yıkatma avantajı verir.
+
+[Denizli koltuk yıkama](/denizli-koltuk-yikama-firmalari) — tekstil şehrinin kumaş bilgisiyle hizmet veren firmalar.`,
+      },
+      {
+        heading: 'Fabrika Tozu ve Koltuk Hijyeni',
+        content: `Denizli organize sanayi bölgeleri şehrin içine yakın. Tekstil fabrikalarından çıkan pamuk tozu, iplik lifleri ve endüstriyel partikül şehir havasına karışıyor. Bu durum ev içi tozu da etkiliyor.
+
+**Fabrika bölgesine yakın yaşıyorsanız:**
+Koltuk yüzeyi standart bir şehre göre %30-50 daha hızlı toz toplar. Bu toz normal ev tozundan farklıdır — pamuk lifleri ve endüstriyel partikül içerir. Alerjik reaksiyonlara normal tozdan daha fazla neden olabilir.
+
+**Koruma yöntemleri:**
+Pencereleri fabrika yönünde kapalı tutun — özellikle vardiya değişim saatlerinde. Koltuğu haftada 2 kez süpürün (normal şehirlerde haftada 1 yeterli). HEPA filtreli hava temizleyici kullanıyorsanız koltuk tozlanması belirgin şekilde azalır.
+
+**Profesyonel yıkama sıklığı:**
+Sanayi bölgesine yakın konumlarda yılda 2-3 kez profesyonel yıkama önerilir. Şehir merkezinde yılda 1-2 kez yeterli olabilir.
+
+Denizli\'nin tekstil şehri kimliği hem koltuk kumaşını tanımanızı kolaylaştırır hem de bakım bilinci açısından avantaj sağlar. Kumaştan anlayan bir şehirde yaşıyorsunuz — bunu koltuğunuzun bakımına da yansıtın.
+
+[Denizli koltuk yıkama](/denizli-koltuk-yikama-firmalari) firmalarıyla periyodik bakım planlayın.`,
+      },
+    ],
+    faq: [
+      { q: 'Denizli\'nin havası koltuğu etkiler mi?', a: 'Evet. Sanayi bölgesine yakın evlerde pamuk tozu ve endüstriyel partikül birikimi normalden yüksek. Haftada 2 kez süpürme önerilir.' },
+      { q: 'Jeotermal ısıtmalı evde koltuk nasıl etkilenir?', a: 'Sabit sıcaklık kumaş için iyi ama düşük nem deri koltukları çatlatabilir. Nemlendirici kullanın.' },
+      { q: 'Kumaş gramajı neden önemli?', a: 'Ağır kumaş (400+ gr/m²) daha dayanıklı ama kurutması uzun. Hafif kumaş kolay yıkanır ama çabuk yıpranır. Bakım sıklığını buna göre ayarlayın.' },
+    ],
+    relatedSlugs: ['koltuk-yikama-fiyatlari', 'denizli-hali-yikama', 'koltuk-bakim-onerileri'],
+  },
+
+  // ══════════════ HATAY — ÇOKLU KÜLTÜR KOLTUK REHBERİ ══════════════
+  {
+    slug: 'hatay-koltuk-yikama-mutfak-lekesi',
+    city: 'Hatay',
+    citySlug: 'hatay',
+    title: 'Hatay\'da Koltuk Yıkama: Mutfak Kültürü, Baharat Lekesi ve Yağlı Yemek Gerçeği',
+    metaTitle: 'Hatay Koltuk Yıkama 2026 | Baharat Lekesi, Yağlı Yemek, Mutfak Kokusu Çözümleri',
+    metaDescription: 'Hatay koltuk yıkama rehberi. Antakya mutfağının baharat ve yağ lekeleri, misafir kültürü, koltuk koruma ve koku giderme rehberi.',
+    datePublished: '2026-03-22',
+    dateModified: '2026-03-22',
+    category: 'koltuk-yikama',
+    readingTime: 8,
+    heroEmoji: '🌶️',
+    intro: 'Hatay mutfağı UNESCO tarafından gastronomi şehri olarak tescillenmiş Türkiye\'nin yemek başkentidir. Künefe, kağıt kebabı, humus, biberli ekmek — bu lezzetler Hatay\'ın gururu. Ama yemek kültürünün bu kadar güçlü olduğu bir şehirde koltuklar da bundan nasibini alıyor. Oturma odasında yenen yemekler, dizinin üzerinde tutulan tabaklar, çay yanında ikram edilen baharatlı atıştırmalıklar — Hatay\'da koltukla yemek arasındaki mesafe her zaman kısa. Bu yazıda Hatay\'ın mutfak kültürünün koltuklara etkisini ve çözüm yollarını anlatıyoruz.',
+    sections: [
+      {
+        heading: 'Baharat Lekesi — Koltuğun En Zorlu Düşmanı',
+        content: `Biber salçası, pul biber, sumak, nar ekşisi — Hatay mutfağının vazgeçilmez malzemeleri aynı zamanda koltuğun en zorlu düşmanlarıdır. Çünkü baharat lekeleri diğer lekelerden tamamen farklı davranır.
+
+**Neden bu kadar zor?**
+Baharat lekeleri iki bileşen içerir: pigment (renk) ve yağ. Renk kumaşa yapışır, yağ kumaşın içine siner. Birini çıkardığınızda diğeri kalır. Normal deterjan yağı çözer ama rengi bırakır. Renk çıkarıcı rengi alır ama yağ izini bırakır. Bu yüzden baharat lekesi iki aşamalı işlem gerektirir.
+
+**Evde acil müdahale:**
+Biber veya salça koltuğa düştüğünde: KAŞIKLA SIYIRIN (ovmayın — kumaşa yayılır). Sonra soğuk su ile bastırarak emin. Sıcak su kullanmayın — baharatın pigmentini kumaşa pişirir. İlk 5 dakikadaki müdahale lekenin %70\'ini kurtarır.
+
+**Nar ekşisi özel tehlike:**
+Nar ekşisi asidiktir — kumaşı boyar. 10 dakikadan fazla kumaşta kalırsa kalıcı iz bırakır. Hemen soğuk su ile seyreltip bastırarak emin. Sonra profesyonel firmayı arayın.
+
+Baharat lekesi deneyimi olan [Hatay koltuk yıkama](/hatay-koltuk-yikama-firmalari) firmalarına danışın.`,
+      },
+      {
+        heading: 'Yemek Kokusu ve Koltuk — Sinsi Birikim',
+        content: `Hatay\'da mutfak genellikle oturma odasıyla iç içedir. Açık mutfak konsepti yaygın. Bu demektir ki her yemek pişirdiğinizde yağ buharı ve koku oturma odasına yayılıyor — ve koltuğunuzun kumaşına siniyor.
+
+**Koku nasıl birikir?**
+Yağda kızartma, kavurma ve ızgara sırasında havaya mikroskobik yağ damlacıkları salınır. Bu damlacıklar koltuk kumaşına yapışır ve zamanla katman katman birikir. Tek başına her katman farkedilmez ama 3-6 ayda koltuk "eski ev kokusu" almaya başlar. Misafirleriniz farkeder — siz farkettmezsiniz çünkü kokuya adapte olmuşsunuzdur.
+
+**Çözüm yolları:**
+
+Birincisi — yemek pişirirken aspiratörü mutlaka çalıştırın ve oturma odası penceresini aralayın. Bu basit hareket yağ buharının koltuğa ulaşmasını %60-70 azaltır.
+
+İkincisi — koltuğa yıkanabilir kılıf veya örtü kullanın. Hatay\'da zaten "salon takımı" kültürü var — misafir geldiğinde kaldırılan örtüler. Bu örtüler estetik kaygıdan ziyade koltuk koruma amacıyla düşünülmeli.
+
+Üçüncüsü — ayda bir kez koltuk yüzeyine karbonat serpin, 30 dakika bekletin, süpürün. Karbonat kokuyu emer. Profesyonel yıkama kadar etkili değil ama aralar için iyi bir bakım.
+
+[Hatay koltuk yıkama](/hatay-koltuk-yikama-firmalari) firmalarından koku giderme dahil derin temizlik isteyin.`,
+      },
+      {
+        heading: 'Misafir Geldiğinde Koltuk Hijyeni',
+        content: `Hatay misafirperver bir şehir — kapı çalınmadan gelen misafir normaldir. Ve misafir geldiğinde mutlaka bir şeyler ikram edilir. Çay, kahve, tatlı, baklava, künefe — hepsi oturma odasında, koltukta oturarak yenir.
+
+**Misafirlik sonrası koltuk bakımı:**
+Her misafirlikten sonra koltuk yüzeyini kontrol edin. Kırıntıları süpürün, taze lekelere anında müdahale edin. Bu 5 dakikalık rutin büyük lekelerin oluşmasını önler.
+
+**Bayram dönemleri:**
+Bayramda 3-5 gün boyunca sürekli misafir trafiği olur. Bayramdan 1-2 hafta önce koltuğu profesyonel yıkatın — misafirlerinizi temiz koltuklarda ağırlayın. Bayram sonrası leke ve koku kontrolü yapın — gerekirse ikinci bir yıkama planlayın.
+
+**Düğün-nişan hazırlığı:**
+Ev düğünü veya nişan öncesi salon takımı muhakkak yıkatılır. Bu gelenek doğrudur ve devam etmeli. Ama düğünden en az 2-3 gün önce yıkatın — düğün günü koltuğun tamamen kuru ve kokusuz olması için süre bırakın.
+
+Hatay\'ın misafirperverliğini temiz koltuklarla taçlandırın — [Hatay koltuk yıkama](/hatay-koltuk-yikama-firmalari) firmalarıyla bayram öncesi randevu alın.`,
+      },
+    ],
+    faq: [
+      { q: 'Biber salçası lekesi koltuktan çıkar mı?', a: 'İlk 5 dakikada müdahale edilirse %70 şansla çıkar. Kaşıkla sıyırın, soğuk suyla bastırarak emin, sıcak su kullanmayın. Eski salça lekesi profesyonel işlem gerektirir.' },
+      { q: 'Yemek kokusu koltuktan nasıl çıkar?', a: 'Karbonat serpin-bekletin-süpürün (ayda 1). Kalıcı koku için enzim bazlı profesyonel yıkama gerekir.' },
+      { q: 'Mutfak kokusu koltuğa sinmesin diye ne yapılmalı?', a: 'Yemek pişirirken aspiratör + pencere açık. Oturma odasıyla mutfak arası perde/paravan. Koltuğa yıkanabilir kılıf.' },
+    ],
+    relatedSlugs: ['koltuk-yikama-fiyatlari', 'hatay-hali-yikama', 'koltuk-bakim-onerileri'],
+  },
+
+  // ══════════════ SAKARYA — NEMLİ İKLİM VE FABRİKA KOLTUK REHBERİ ══════════════
+  {
+    slug: 'sakarya-koltuk-yikama-nem-ve-kuf',
+    city: 'Sakarya',
+    citySlug: 'sakarya',
+    title: 'Sakarya\'da Koltuk Yıkama: Nem, Küf Riski ve Yeşilin Bedeli',
+    metaTitle: 'Sakarya Koltuk Yıkama 2026 | Nem, Küf Önleme, Doğru Kurutma Rehberi',
+    metaDescription: 'Sakarya koltuk yıkama rehberi. Marmara\'nın nemli ikliminde küf riski, koltuk kurutma stratejileri ve nem kontrol yöntemleri.',
+    datePublished: '2026-03-22',
+    dateModified: '2026-03-22',
+    category: 'koltuk-yikama',
+    readingTime: 8,
+    heroEmoji: '🌿',
+    intro: 'Sakarya yeşilin her tonunu barındıran bir şehir — ormanlar, dereler, Sapanca Gölü. Bu doğal güzelliğin bedeli yüksek nem oranıdır. Sakarya\'da yıllık ortalama nem %70-80 arasında seyreder. Bu nem sadece dışarıda değil, evinizin içinde de hissedilir — ve koltuğunuzun kumaşında birikir. Nemli iklimde koltuk bakımı farklıdır çünkü düşman gözle görülmez: küf sporları.',
+    sections: [
+      {
+        heading: 'Nem ve Koltuk: Görünmez Tehlike',
+        content: `Koltuğunuzun kumaşı sürekli havadaki nemi emer ve bırakır — tıpkı bir sünger gibi. Normal nem seviyelerinde (%40-60) bu döngü zararsızdır. Ama Sakarya\'nın %70-80 nem ortamında kumaş sürekli nemli kalır — ve küf sporları için ideal üreme ortamı oluşur.
+
+**Küfün oluşum süreci:**
+Küf sporları her yerde havada uçuşur — kaçınılmazsınızdır. Ama çoğalması için nem + sıcaklık + organik madde (kumaş, toz, ter) gerekir. Nemli iklimde koltuk bu üç koşulu birden sağlar. Küf önce kumaşın alt yüzeyinde (görünmeyen tarafta) oluşur. Sonra koku verir. En son gözle görünür leke haline gelir. Kokuyu aldığınızda küf zaten kumaşın içindedir.
+
+**Belirtileri nasıl anlaşılır?**
+Koltuğa oturduğunuzda hafif küf kokusu (ıslak gazete kokusu), koltuğun alt kısmında veya duvar tarafında koyu lekeler, alerji semptomları (hapşırma, burun tıkanıklığı) artışı — bunlardan herhangi biri küf belirtisi olabilir.
+
+**Küf oluştuysa:**
+Kendi başınıza temizlemeye çalışmayın — küf sporlarını havaya yayarsınız. [Sakarya koltuk yıkama](/sakarya-koltuk-yikama-firmalari) firmalarından antifungal (küf önleyici) yıkama isteyin. Standart deterjan küfü öldürmez — sadece rengini alır. Antifungal işlem küfün kökünü yok eder.`,
+      },
+      {
+        heading: 'Nem Kontrolü — Koltuğunuzu Koruma Stratejileri',
+        content: `Sakarya\'da koltuk bakımının temel kuralı nem kontrolüdür. Nemi kontrol ederseniz küfü önlersiniz, kokuyu önlersiniz, kumaşın ömrünü uzatırsınız.
+
+**Koltuk yerleşimi:**
+Koltuğu dış duvara yaslamayın. Dış duvar (özellikle kuzey cephe) kışın soğur ve yoğuşma yapar. Koltuk duvarla temas ederse aralarında nem birikir — küf garantisi. Duvarla koltuk arasında en az 5-10 cm boşluk bırakın.
+
+**Havalandırma rutini:**
+Yağmur yağmayan günlerde pencereleri açın — çapraz havalandırma yapın. Günde 20-30 dakika bile fark yaratır. Özellikle koltuk yıkama sonrası havalandırma kritiktir.
+
+**Nem alıcı cihaz:**
+Sakarya\'da nem alıcı (dehumidifier) lüks değil ihtiyaçtır. Oturma odasında nem alıcı çalıştırmak koltuk ömrünü 2-3 yıl uzatır. Cihaz almak istemiyorsanız kimyasal nem alıcı paketlerini koltuk altına koyun — 2-3 ayda bir değiştirin.
+
+**Mevsimsel dikkat:**
+Ekim-Mart arası nem en yüksek dönem. Bu dönemde koltuk bakımını sıkılaştırın — haftada 1 süpürme ve ayda 1 nemli bez silme. Nisan\'da yaz öncesi profesyonel yıkama yaptırın.
+
+[Sakarya koltuk yıkama](/sakarya-koltuk-yikama-firmalari) — nemli iklimde küf önleyici bakım sunan firmalar.`,
+      },
+      {
+        heading: 'Koltuk Yıkama Sonrası Kurutma — Sakarya\'da Kritik Adım',
+        content: `Koltuk yıkamanın en önemli aşaması Sakarya\'da kurutmadır. Nemli iklimde koltuk zaten zor kuruyor — yıkama sonrası ek nem eklemek riski artırır.
+
+**Yıkama zamanlaması:**
+Sakarya\'da koltuk yıkatmak için en iyi dönem Haziran-Ağustos — sıcak ve nispeten daha kuru. Kış aylarında (özellikle Kasım-Şubat) koltuk yıkatmaktan mümkünse kaçının. Zorunluysa kuru temizleme yöntemi tercih edin.
+
+**Kurutma süreleri (Sakarya ortalaması):**
+Yaz ayları: 5-8 saat
+İlkbahar/sonbahar: 8-14 saat
+Kış ayları: 14-24 saat (riskli!)
+
+**Kurutma hızlandırma yöntemleri:**
+Fan doğrudan koltuğa doğru çalıştırın — hava sirkülasyonu kurutmanın anahtarıdır. Pencere açın ama yağmur kontrolü yapın — Sakarya\'da ani yağmur sık. Nem alıcı cihazı yıkama sonrası odaya koyun — kurutma süresini %40 kısaltır. Koltuğun altına kuru havlu serin — alt yüzeyden gelen nemi emer.
+
+**Tam kurumadan koltuğa oturmayın:**
+Nemli koltuğa oturmak kumaş içinde nem hapseder. Bu 2-3 gün içinde koku ve potansiyel küf demektir. Sabırlı olun — ertesi gün kullanmaya başlayın.
+
+[Sakarya koltuk yıkama](/sakarya-koltuk-yikama-firmalari) firmalarından kurutma garantili hizmet isteyin.`,
+      },
+    ],
+    faq: [
+      { q: 'Sakarya\'da koltukta küf oluşur mu?', a: 'Evet. %70-80 nem oranıyla küf riski yüksek. Özellikle dış duvara yaslanan koltuklar ve havalandırması kötü odalar risk altında.' },
+      { q: 'Küflü koltuk kurtarılabilir mi?', a: 'Erken aşamada evet. Antifungal profesyonel yıkamayla küf kökü yok edilir. Çok ilerlemiş vakalarda kumaş değişimi gerekebilir.' },
+      { q: 'Kışın koltuk yıkatılmalı mı Sakarya\'da?', a: 'Mümkünse hayır — kurutma çok uzun sürer ve küf riski oluşur. Zorunluysa kuru temizleme yöntemi tercih edin.' },
+    ],
+    relatedSlugs: ['koltuk-yikama-fiyatlari', 'sakarya-hali-yikama', 'koltuk-bakim-onerileri'],
+  },
+
+  // ══════════════ TEKİRDAĞ-BALIKESİR — RÜZGAR VE DENİZ TUZU ══════════════
+  {
+    slug: 'tekirdag-balikesir-koltuk-yikama-deniz-tuzu',
+    city: 'Tekirdağ',
+    citySlug: 'tekirdag',
+    title: 'Tekirdağ ve Balıkesir\'de Koltuk Yıkama: Deniz Tuzu, Rüzgâr ve Kumaş Aşınması',
+    metaTitle: 'Tekirdağ Koltuk Yıkama 2026 | Deniz Tuzu, Rüzgâr Erozyonu, Kumaş Koruma',
+    metaDescription: 'Tekirdağ ve Balıkesir koltuk yıkama rehberi. Marmara ve Ege kıyısında deniz tuzu etkisi, rüzgârlı iklimde koltuk bakımı.',
+    datePublished: '2026-03-22',
+    dateModified: '2026-03-22',
+    category: 'koltuk-yikama',
+    readingTime: 8,
+    heroEmoji: '🌊',
+    intro: 'Tekirdağ\'ın Marmara kıyısı ve Balıkesir\'in hem Marmara hem Ege\'ye açılan sahilleri bu iki şehri benzer bir koltuk bakım sorunuyla karşı karşıya bırakır: deniz tuzu ve rüzgâr. Kıyı şeridinde yaşıyorsanız evinizin camını açtığınızda içeri tuzlu deniz havası girer. Bu hava koltuğunuzun kumaşına yapışır ve zamanla kristalleşir. Sonuç: kumaş sertleşir, rengi soluyor, ömrü kısalıyor. İç kesimlerde ise yoğun tarım tozu ve rüzgârın taşıdığı toprak partikülleri farklı bir sorun yaratır.',
+    sections: [
+      {
+        heading: 'Deniz Tuzu Koltuğunuza Ne Yapar?',
+        content: `Denize 5 km mesafede yaşıyorsanız evinizin içindeki hava tuz partikülü içerir. Pencere açtığınızda bu partiküller koltuk kumaşına yapışır. Gözle göremezsiniz ama elinizi kumaşta gezdirdiğinizde hafif pürüzlü his alırsınız — bu tuz kristalleridir.
+
+**Tuzun kumaşa etkisi:**
+Tuz higroskopiktir — havadaki nemi çeker. Tuz kristalleri kumaşta nem tutarak kumaşın sürekli hafif ıslak kalmasına neden olur. Bu durum bakteriyel çoğalmayı hızlandırır ve "ağır" bir koku yaratır. Ayrıca tuz kristalleri kumaş liflerinin arasına girer ve mekanik aşınmaya yol açar — kumaş daha çabuk inceler ve yıpranır.
+
+**Korunma:**
+Kıyıya yakın evlerde koltuk yüzeyini haftada 1-2 kez nemli bezle silin — tuzu alır. Rüzgârlı günlerde koltuk tarafındaki pencereyi kapalı tutun. Balkon kapısı açıksa koltuğa örtü atın.
+
+**Profesyonel yıkama farkı:**
+Kıyı bölgesi koltukları yıkanırken firmanın durulama aşamasına dikkat etmesi gerekir. Standart yıkamada deterjan + kir çıkar ama tuz kalabilir. "Ekstra durulama" isteyin — tuzun tamamen çıkması için.
+
+[Tekirdağ koltuk yıkama](/tekirdag-koltuk-yikama-firmalari) ve [Balıkesir koltuk yıkama](/balikesir-koltuk-yikama-firmalari) firmalarına deniz tuzu etkisini belirtin.`,
+      },
+      {
+        heading: 'Rüzgârlı İklimde Toz ve Koltuk',
+        content: `Tekirdağ poyraz hattında, Balıkesir\'in kuzey ilçeleri Marmara meltemine açık. Bu sürekli rüzgâr ev içine toz taşır — özellikle tarım arazilerine yakın bölgelerde toprak partikülleri, polen ve organik maddeler koltuk kumaşında birikir.
+
+**İç kesimler (Tekirdağ Hayrabolu, Balıkesir Bigadiç gibi):**
+Tarım tozu ağırdır — kumaşın dokusuna yerleşir ve süpürgeyle kolay çıkmaz. Tarlalardan gelen toprak partikülleri kumaşa bej-kahverengi ton verir — kirli görünüm yaratır. Hasat dönemlerinde (Haziran-Eylül) toz birikimi zirve yapar.
+
+**Kıyı ilçeleri (Tekirdağ merkez, Erdek, Ayvalık):**
+Deniz rüzgârı tuz + nem taşır. Koltuk hem tuzlanır hem nemlenir. Çift sorun — hem tuz temizliği hem kurutma gerekir.
+
+**Rüzgârlı iklimde koltuk bakım rutini:**
+Haftada 2 kez süpürme (rüzgârsız bölgelerde haftada 1 yeterli). Mevsim geçişlerinde profesyonel yıkama — özellikle hasat sonu (Ekim) ve ilkbahar (Nisan). Pencere filtresi (tül değil, toz filtresi) kullanmak ev içi tozu %50 azaltır.
+
+[Tekirdağ koltuk yıkama](/tekirdag-koltuk-yikama-firmalari), [Balıkesir koltuk yıkama](/balikesir-koltuk-yikama-firmalari) — bölgenin rüzgâr ve toz gerçekliğini bilen firmalar.`,
+      },
+      {
+        heading: 'Yazlık ve Tatil Evi Koltukları — Sezonluk Bakım',
+        content: `Balıkesir\'in Erdek, Ayvalık, Edremit kıyıları ve Tekirdağ\'ın Şarköy sahili yaz aylarında tatilcilerle dolar. Bu bölgelerdeki yazlık evlerin koltukları özel bir bakım gerektirir.
+
+**9 ay kapalı ev sorunu:**
+Yazlık ev Ekim\'den Haziran\'a kadar kapalı kalır. Kapalı evde hava sirkülasyonu olmaz — nem birikir, küf riski artar, koltuk kumaşı "bayat" koku alır. Güve ve böcek yerleşme riski var — kumaş doğal gıda kaynağı.
+
+**Yaz başı açılış rutini:**
+Haziran\'da evi açtığınızda: Önce tüm pencereleri açıp 2-3 saat havalandırın. Koltukları güneşe çıkarmayın (UV hasarı) ama havalandırın. Sonra profesyonel koltuk yıkama — 9 aylık birikimi temizler. Hem hijyen hem koku giderme sağlar.
+
+**Yaz sonu kapanış rutini:**
+Eylül\'de evi kapatmadan önce: Koltukları profesyonel yıkatın veya en azından süpürüp silin — kış boyunca üzerinde yemek kırıntısı kalmasın (böcek çeker). Koltuklara nefes alan örtü atın (naylon değil — nem hapseder). Her odaya güve kovucu koyun. Nem alıcı paketleri koltuk altına yerleştirin.
+
+Sezonluk bakım planı için [Balıkesir koltuk yıkama](/balikesir-koltuk-yikama-firmalari) ve [Tekirdağ koltuk yıkama](/tekirdag-koltuk-yikama-firmalari) firmalarıyla iletişime geçin.`,
+      },
+    ],
+    faq: [
+      { q: 'Deniz tuzu koltuğa zarar verir mi?', a: 'Evet. Tuz kristalleri kumaş liflerini aşındırır, nem tutar ve kokuya neden olur. Kıyıda yaşıyorsanız haftada 1-2 nemli bez silme zorunlu.' },
+      { q: 'Yazlık ev koltuğu kışın nasıl korunur?', a: 'Nefes alan örtü (naylon değil), güve kovucu, nem alıcı paketler. Kapanış öncesi temizlik şart.' },
+      { q: 'Rüzgârlı bölgede koltuk neden çabuk kirlenir?', a: 'Rüzgâr toz, toprak ve polen taşır. Pencere filtresi kullanın ve haftada 2 kez süpürün.' },
+    ],
+    relatedSlugs: ['koltuk-yikama-fiyatlari', 'tekirdag-hali-yikama', 'balikesir-hali-yikama'],
+  },
+
+  // ══════════════ AYDIN-MANİSA — TARIM VE SICAK İKLİM ══════════════
+  {
+    slug: 'aydin-manisa-koltuk-yikama-tarim-tozu',
+    city: 'Aydın',
+    citySlug: 'aydin',
+    title: 'Aydın ve Manisa\'da Koltuk Yıkama: Tarım Tozu, İncir Sezonu ve Ege Sıcağı',
+    metaTitle: 'Aydın Koltuk Yıkama 2026 | Tarım Tozu, Ege Sıcağı, Mevsimsel Bakım Rehberi',
+    metaDescription: 'Aydın ve Manisa koltuk yıkama rehberi. Tarım bölgesinde toz birikimi, Ege sıcağında koltuk bakımı, mevsimsel temizlik takvimi.',
+    datePublished: '2026-03-22',
+    dateModified: '2026-03-22',
+    category: 'koltuk-yikama',
+    readingTime: 8,
+    heroEmoji: '🌾',
+    intro: 'Aydın\'ın incir bahçeleri ve Manisa\'nın üzüm bağları Ege\'nin tarım gücüdür. Bu verimli toprakların üzerinde yaşamak güzel ama bir bedeli var: tarım tozu. Hasat döneminde tarlalardan kalkan ince toprak partikülleri rüzgârla şehre taşınır, evinizin içine girer ve koltuğunuzun kumaşına yerleşir. Ege\'nin sıcak yazları da eklenince koltuk bakımı bu bölgede kendine özgü kurallar gerektirir.',
+    sections: [
+      {
+        heading: 'Tarım Tozu — Şehir Tozundan Farklı Bir Düşman',
+        content: `Aydın ve Manisa\'da ev tozu büyükşehirdeki ev tozundan farklıdır. İstanbul\'da ev tozu genellikle insan derisi hücreleri, kumaş lifleri ve hava kirliliği partiküllerinden oluşur. Ege\'nin tarım bölgelerinde bunlara toprak mineralleri, bitki poleni, tarım ilacı kalıntısı ve organik bitki partikülleri eklenir.
+
+**Bu fark neden önemli?**
+Tarım tozu daha ağır ve yapışkandır. Normal ev tozunu süpürge kolayca alır ama tarım tozu kumaşın dokusuna yerleşir — sıradan süpürme yetmez. Vakumlu süpürge (döner fırçalı başlık) gerekir.
+
+Tarım ilacı kalıntısı sağlık açısından önemlidir. Özellikle çocuklu evlerde koltuk üzerinde oynayan, kumaşa yüzünü dayayan çocuklar bu kalıntılara maruz kalır. Profesyonel yıkama sadece estetik değil sağlık meselesidir.
+
+**Hasat takvimi ve koltuk bakımı:**
+Aydın incir hasadı: Ağustos-Eylül — bu dönemde toz birikimi zirve. Manisa üzüm bağbozumu: Eylül-Ekim — bağlardan kalkan toz şehri etkiler. Zeytin hasadı: Kasım-Aralık — son hasat dalgası. Her hasat dönemi sonunda koltuk yüzeyini temizlemek iyi bir alışkanlık.
+
+[Aydın koltuk yıkama](/aydin-koltuk-yikama-firmalari) ve [Manisa koltuk yıkama](/manisa-koltuk-yikama-firmalari) firmalarından mevsimsel bakım planı isteyin.`,
+      },
+      {
+        heading: 'Ege Sıcağında Koltuk Bakımı',
+        content: `Aydın Türkiye\'nin en sıcak şehirlerinden biridir — yaz aylarında 40°C\'yi aşan günler sık. Manisa\'nın iç kesimleri de benzer sıcaklıklara ulaşır. Bu sıcaklıklar koltuğunuz için ne anlama geliyor?
+
+**Güneş hasarı:**
+Ege evlerinde geniş pencereler yaygındır — aydınlık ev sevgisi. Ama güneş alan koltuklar UV ışınlarına maruz kalır. Kumaş rengi soluyor, sentetik kumaşlar (polyester) ısıyla sertleşiyor, deri koltuklar kuruyup çatlıyor. Çözüm basit ama disiplin istiyor: güneş saatlerinde (11:00-17:00) perde çekin.
+
+**Ter faktörü:**
+40°C dış sıcaklıkta ev içi klimalı bile olsa 26-28°C. Terleme devam ediyor. Adana-Mersin ile benzer sorun ama Ege neminin eklenmesiyle kumaş daha zor kuruyor. İnce pamuklu kılıflar koltuğu ter emiliminden korur.
+
+**Yaz aylarında koltuk yıkatma avantajı:**
+Ege\'nin kuru sıcağı kurutma için idealdir. Sabah yıkanan koltuk akşama kurur. Ama koltuk yıkama sonrası koltuğu güneşe çıkarmayın — UV ve aşırı ısı kumaşa zarar verir. Gölgede, havalandırılmış ortamda kurutsun.
+
+[Aydın koltuk yıkama](/aydin-koltuk-yikama-firmalari), [Manisa koltuk yıkama](/manisa-koltuk-yikama-firmalari) — Ege\'nin iklimine uygun bakım.`,
+      },
+      {
+        heading: 'Köy-Şehir Arası Yaşam ve Koltuk Hijyeni',
+        content: `Aydın ve Manisa\'da birçok aile şehir-köy arası yaşar. Hafta içi şehirde çalışıp hafta sonu bahçeye-tarlaya giden binlerce aile var. Bu yaşam tarzı koltuklara doğrudan yansır.
+
+**Bahçeden eve taşınan kirler:**
+Toprak, çimen, meyve özsuyu (özellikle incir sütü — yapışkan ve leke bırakır), böcek ilacı kalıntısı. Bunlar kıyafetlerinizle koltuğa transfer olur. "Duştan sonra oturuyorum" desseniz bile kıyafet değişmeden koltuk kirlenir.
+
+**Pratik çözüm:**
+Tarladan/bahçeden geldiğinizde: Dış kıyafetlerinizi girişte çıkarın. Koltuğa oturmadan önce ev kıyafetine geçin. Bu kadar basit — ama farkı büyük. Koltuğun kirlenme hızını yarıya indirir.
+
+**İncir sütü lekesi — özel uyarı:**
+Aydın\'ın simgesi incir, ama incir sütü koltuğun kabusu. Yapışkan, protein bazlı ve kuruduktan sonra çok zor çıkar. İncir sütü koltuğa bulaştığında: hemen soğuk suyla silin, kurumadan müdahale edin. Kurumuşsa profesyonel enzim işlemi gerekir.
+
+Tarım bölgesi yaşamının getirdiği zorlukları bilen [Aydın koltuk yıkama](/aydin-koltuk-yikama-firmalari) ve [Manisa koltuk yıkama](/manisa-koltuk-yikama-firmalari) firmaları bu sorunlara aşinadır.`,
+      },
+    ],
+    faq: [
+      { q: 'Tarım tozu normal tozdan farklı mı?', a: 'Evet. Daha ağır, yapışkan ve tarım ilacı kalıntısı içerebilir. Normal süpürme yetmez — vakumlu döner fırçalı başlık gerekir.' },
+      { q: 'İncir sütü lekesi koltuktan çıkar mı?', a: 'Taze iken soğuk suyla silinirse çıkar. Kuruduktan sonra profesyonel enzim bazlı işlem gerekir.' },
+      { q: 'Ege sıcağında koltuk yıkatmak güvenli mi?', a: 'Evet, hatta kurutma açısından avantajlı. Ama koltuğu güneşe çıkarmayın — gölgede kurutsun.' },
+    ],
+    relatedSlugs: ['koltuk-yikama-fiyatlari', 'aydin-hali-yikama', 'manisa-hali-yikama'],
+  },
+
+  // ══════════════ MALATYA-ELAZIĞ — KARA KIŞ VE SOBA KOLTUK REHBERİ ══════════════
+  {
+    slug: 'malatya-elazig-koltuk-yikama-soba-isi',
+    city: 'Malatya',
+    citySlug: 'malatya',
+    title: 'Malatya ve Elazığ\'da Koltuk Yıkama: Soba Isısı, Kara Kış ve Kumaş Yorgunluğu',
+    metaTitle: 'Malatya Koltuk Yıkama 2026 | Soba Hasarı, Kış Bakımı, Kumaş Koruma Rehberi',
+    metaDescription: 'Malatya ve Elazığ koltuk yıkama rehberi. Soba ısısının kumaşa etkisi, kara kışta koltuk bakımı, doğru yıkama zamanlaması.',
+    datePublished: '2026-03-22',
+    dateModified: '2026-03-22',
+    category: 'koltuk-yikama',
+    readingTime: 8,
+    heroEmoji: '🔥',
+    intro: 'Malatya ve Elazığ\'ın kışları uzun ve serttir. Kasım\'dan Mart\'a kadar süren soğuk dönemde ev içi ısıtma hayati önem taşır. Bu şehirlerde doğalgaz yaygınlaşsa da apartman dışı konutlarda hâlâ soba ve kömür sobası kullanılıyor. Soba ısısı evi sıcak tutar ama koltuğunuza yaptığı şey pek sıcak değildir — kumaşı kurutur, liflerini sertleştirir ve is ile koku sindirir. Bu yazıda Doğu Anadolu\'nun sert kış koşullarında koltuğunuzu nasıl koruyacağınızı anlatıyoruz.',
+    sections: [
+      {
+        heading: 'Soba Isısının Koltuğa Üç Etkisi',
+        content: `Soba veya kömürlü ısıtma sistemi koltuğunuza üç farklı yoldan zarar verir:
+
+**1. Kurutma etkisi:**
+Soba odayı ısıtırken havadaki nemi düşürür. Ev içi nem %15-25\'e inebilir — bu çöl iklimi kadar kuru. Koltuk kumaşı bu ortamda sertleşir, esnekliğini kaybeder ve çatlamaya başlar. Deri koltuklar özellikle risk altında — 2-3 kış soba karşısında deri koltuk çatlar ve soyulur.
+
+**2. İs ve kurum:**
+Soba yanarken ince is partikülleri havaya yayılır — baca iyi çekmiyorsa daha fazla. Bu partiküller koltuk kumaşına yapışır ve zamanla kumaşa gri-kahverengi bir ton verir. Açık renkli kumaşlarda belirgin, koyu renklerde gizli ama var.
+
+**3. Koku sinmesi:**
+Kömür ve odun yanma kokusu kumaşa siner. Bu koku yıkamadan çıkmaz — havalandırma, febreze, parfüm sadece üstünü örter. Profesyonel yıkama koku kaynağı olan partikülleri kumaştan çıkarır.
+
+**Soba mesafesi kuralı:**
+Koltuğu sobaya en az 2 metre mesafede tutun. 1 metre içinde kumaş deformasyonu başlar. Sobanın tam karşısında oturmak konforlu ama koltuğunuzun düşmanıdır.
+
+[Malatya koltuk yıkama](/malatya-koltuk-yikama-firmalari) ve [Elazığ koltuk yıkama](/elazig-koltuk-yikama-firmalari) firmalarından kış sonu derin temizlik isteyin.`,
+      },
+      {
+        heading: 'Kara Kışta Koltuk Bakım Takvimi',
+        content: `Malatya ve Elazığ\'da kışı 5-6 ay sürer. Bu uzun dönemde koltuk bakımını planlamak lazım:
+
+**Ekim (Kış hazırlığı):**
+Soba yanmaya başlamadan önce koltuğu profesyonel yıkatın. Temiz kumaşla kışa girin — kış boyunca biriken is ve koku temiz kumaşa daha az zarar verir.
+
+**Kasım-Şubat (Kış ortası):**
+Haftalık süpürme zorunlu — soba isi birikir. Ayda bir kez koltuğu nemli bezle silin — is partiküllerini yüzeyden alır. Odayı günde 1 kez kısa süreli havalandırın (10 dk yeterli, uzun süre soğuk zarar verir). Sobaya yakın koltuk tarafına ince örtü atın — ısı ve is kalkanı görevi görür.
+
+**Mart-Nisan (Kış sonu):**
+Kışın bitmesiyle koltuğu profesyonel yıkatın — 5 aylık is, koku ve kuru hava birikimini temizleyin. Bu yılın en önemli yıkaması. Pencereler açılabilir — kurutma sorunu olmaz.
+
+**Yaz (Haziran-Ağustos):**
+Soba yok, koltuk rahat nefes alır. İsteğe bağlı ek yıkama — ama kış sonrası yıkama yapıldıysa genellikle gerekmez.
+
+[Malatya koltuk yıkama](/malatya-koltuk-yikama-firmalari), [Elazığ koltuk yıkama](/elazig-koltuk-yikama-firmalari) — kış koşullarını bilen firmalar.`,
+      },
+      {
+        heading: 'Deprem Sonrası Koltuk Hijyeni — Önemli Not',
+        content: `2023 depremi Malatya ve Elazığ\'ı derinden etkiledi. Yeniden yapılanma süreci devam ediyor. Deprem sonrası taşınan evlerde, konteyner kentteki koltuk kullanımlarında ve bağış koltuklarda hijyen meselesi önemlidir.
+
+**Yeni eve taşınma:**
+İnşaat tozu, boya kokusu ve çimento partikülleri yeni evlerin gerçeğidir. Koltuğu yeni eve koymadan önce evin tozunu tamamen aldığınızdan emin olun. İlk 1-2 ay pencere açık tutun — boya gazı kumaşa siner.
+
+**Bağış veya ikinci el koltuk:**
+Nereden geldiği bilinmeyen koltukları kullanmadan önce mutlaka profesyonel yıkatın. Hijyen ve alerjen temizliği hem sağlık hem psikolojik rahatlık sağlar. Birçok firma deprem bölgesi sakinlerine özel fiyat uyguluyor — sormaktan çekinmeyin.
+
+**Konteyner ve prefabrik evlerde:**
+Küçük alanda koltuk daha yoğun kullanılır. Havalandırma sınırlı. Bu koşullarda 4-6 ayda bir profesyonel yıkama önerilir. Nem alıcı ve hava temizleyici kullanmak koltuğun ve evin genel hijyenini artırır.
+
+[Malatya koltuk yıkama](/malatya-koltuk-yikama-firmalari), [Elazığ koltuk yıkama](/elazig-koltuk-yikama-firmalari) firmalarıyla iletişime geçin.`,
+      },
+    ],
+    faq: [
+      { q: 'Soba koltuğa zarar verir mi?', a: 'Evet. Kurutma (nem %15-25), is birikimi ve koku sinmesi — üç farklı hasar. Koltuğu sobaya en az 2 metre uzak tutun.' },
+      { q: 'Kışın koltuk yıkatılır mı?', a: 'Soğuk havada kurutma çok uzun sürer. Kış başı (Ekim) ve kış sonu (Mart-Nisan) en uygun zamanlar.' },
+      { q: 'Soba isi koltuktan çıkar mı?', a: 'Profesyonel yıkamayla evet. Ev yöntemleriyle (karbonat, havalandırma) hafifletilebilir ama tamamen çıkmaz.' },
+    ],
+    relatedSlugs: ['koltuk-yikama-fiyatlari', 'malatya-hali-yikama', 'elazig-hali-yikama'],
+  },
+
+  // ══════════════ ERZURUM-SİVAS-KARS — AŞİRİ SOĞUK İKLİM ══════════════
+  {
+    slug: 'erzurum-sivas-kars-koltuk-yikama-asiri-soguk',
+    city: 'Erzurum',
+    citySlug: 'erzurum',
+    title: 'Erzurum, Sivas ve Kars\'ta Koltuk Yıkama: -30°C\'de Koltuk Bakımının İncelikleri',
+    metaTitle: 'Erzurum Koltuk Yıkama 2026 | Aşırı Soğuk, Soba, Uzun Kış Koltuk Bakımı',
+    metaDescription: 'Erzurum, Sivas ve Kars\'ta koltuk yıkama rehberi. -30°C soğukta kurutma stratejileri, 6 aylık kış bakımı, soba isinden koruma.',
+    datePublished: '2026-03-22',
+    dateModified: '2026-03-22',
+    category: 'koltuk-yikama',
+    readingTime: 9,
+    heroEmoji: '❄️',
+    intro: 'Erzurum\'da kış Ekim\'de başlar ve Mayıs\'a kadar sürer — 7 ay. Sivas\'ın yüksek rakımı ve Kars\'ın -30°C\'yi gören geceleri bu üç şehri Türkiye\'nin en zorlu koltuk bakımı coğrafyası yapar. Sorun sadece soğuk değil — 7 ay boyunca kapalı kalan pencereler, sürekli yanan soba veya kalorifer, ve hareketsiz hava. Koltuğunuz bu koşullarda tam anlamıyla nefes alamaz. Bu yazıda Türkiye\'nin en soğuk şehirlerinde koltuk bakımının kurallarını anlatıyoruz.',
+    sections: [
+      {
+        heading: '7 Aylık Kapalı Ortam — Koltuğun Nefessiz Kalması',
+        content: `İstanbul\'da veya İzmir\'de pencere yılın 10-11 ayı açılabilir. Erzurum\'da pencere açma dönemi Haziran-Eylül — yılın sadece 4 ayı. Kalan 7-8 ay boyunca ev tamamen kapalı. Bu uzun kapalı dönem koltuk için ciddi sonuçlar doğurur.
+
+**Nem dengesi bozulur:**
+Kapalı evde insanlar nefes alır, yemek pişirilir, çamaşır kurutulur — bu faaliyetler neme katkı sağlar. Ama soba bu nemi yakarak ortamı kurutur. Sonuç: nem seviyesi gün içinde %20-70 arasında salınır. Bu aşırı dalgalanma kumaş liflerini sürekli genleştirir-büzüştürür — erken yıpranmanın ana nedeni.
+
+**Koku katmanlaşır:**
+7 ay boyunca soba kokusu, yemek kokusu, insan kokusu katman katman koltuğa siner. Her katman bir öncekinin üzerine yapışır. Kış sonunda koltuğu koklasanız tek bir koku değil karışık bir "eski ev" kokusu alırsınız. Bu koku sadece profesyonel yıkamayla çıkar.
+
+**Toz akarı cenneti:**
+Toz akarları sıcak ve nemli ortamı sever. Kapalı evde, sıcak koltuk kumaşı onlar için idealdir. Kış boyunca koltukta alerjen birikimi artarken havalandırma imkânı yok. Alerji ve astım hastaları kış aylarında daha çok zorlanır — koltuktaki akarlar önemli bir etken.
+
+[Erzurum koltuk yıkama](/erzurum-koltuk-yikama-firmalari), [Sivas koltuk yıkama](/sivas-koltuk-yikama-firmalari), [Kars koltuk yıkama](/kars-koltuk-yikama-firmalari) — yılın ilk güzel gününde arayın.`,
+      },
+      {
+        heading: 'Koltuk Yıkama Zamanlaması — Altın Pencere',
+        content: `Bu şehirlerde koltuk yıkama için yılda sadece 4-5 aylık uygun pencere var. Bu dönemi doğru kullanmak zorunlu.
+
+**Mayıs (İlk fırsat):**
+Kışın bitmesiyle birlikte en acil yıkama zamanı. 7 aylık birikimi temizleyin. Hava yeterince sıcak (15-20°C), pencere açılabilir, kurutma mümkün. YILIN EN ÖNEMLİ YIKAMASI budur.
+
+**Temmuz-Ağustos (İdeal dönem):**
+Erzurum\'da bile 25-30°C olan bu dönem kurutma için mükemmel. İkinci yıkama yapmak isteyenler için ideal zaman. Misafir trafiği yoğunsa (düğün sezonu) bu dönemde yıkatın.
+
+**Eylül (Son fırsat):**
+Ekim\'de soğuklar başlıyor. Eylül\'ün ilk yarısı son koltuk yıkama fırsatı. Kışa temiz girmek istiyorsanız bu dönemde yıkatın. Eylül sonundan sonra yıkama riskli — kurutma süreleri uzar.
+
+**Ekim-Nisan (Yıkama yapma dönemi):**
+Bu dönemde su bazlı koltuk yıkama tavsiye edilmez. Kurutma 24-48 saat sürebilir — bu sürede küf oluşur. Zorunluysa kuru temizleme yöntemi. Ama en iyisi Mayıs\'ı beklemek.
+
+**Acil durum (kış ortası leke):**
+Kışın büyük bir leke oluştuysa panik yapmayın. Leke noktasına lokal müdahale — tüm koltuğu ıslatmadan sadece lekeyi temizleyin. Firmanızdan "nokta temizlik" isteyin. Kuru köpük yöntemiyle leke çıkarma yapılabilir.
+
+[Erzurum koltuk yıkama](/erzurum-koltuk-yikama-firmalari), [Sivas koltuk yıkama](/sivas-koltuk-yikama-firmalari) — mevsime uygun plan yapan firmalar.`,
+      },
+      {
+        heading: 'Koltuk Ömrünü Uzatma — Soğuk İklim Stratejileri',
+        content: `Doğu Anadolu\'da koltuk İstanbul\'daki bir koltuktan ortalama 2-3 yıl daha kısa ömür sürüyor. Sebep: aşırı ısı-soğuk döngüsü, kuru hava ve uzun kapalı dönem. Ama doğru bakımla bu farkı kapatabilirsiniz.
+
+**Nemlendirici kullanın:**
+Odaya nemlendirici koymak koltuk kumaşının esnekliğini korur. Hedef: %40-50 nem. Soba yanıyorken nem %20\'ye düşer — nemlendirici bunu dengeler. Cihaz almak istemiyorsanız sobanın üzerine su dolu kap koyun — buharlaşan su odayı nemlendirir.
+
+**Koltuk örtüsü kültürü:**
+Doğu Anadolu\'da koltuk örtüsü zaten yaygın ve doğru bir gelenektir. Örtü: soba isinden korur, ter emilimini azaltır, mekanik aşınmayı yavaşlatır. Örtüyü düzenli yıkayın — kirli örtü koltuğa kir transfer eder.
+
+**Koltuk rotasyonu:**
+Sobaya yakın koltuk daha çok hasar görür. Mümkünse yılda bir kez koltuğun konumunu değiştirin — sobaya yakın olan uzağa, uzaktaki yakına. Hasar eşit dağılır.
+
+**Deri koltuk özel notu:**
+Deri koltuk Doğu Anadolu ikliminde en çok zorlanan koltuk türüdür. Kuru hava deriyi çatlatır, soba ısısı kurutur, soğuk sertleştirir. Deri koltuğunuz varsa: ayda bir deri nemlendirici (leather conditioner) sürün — kumaş koltuk bakımından ayrı bir kategori.
+
+[Erzurum koltuk yıkama](/erzurum-koltuk-yikama-firmalari), [Sivas koltuk yıkama](/sivas-koltuk-yikama-firmalari), [Kars koltuk yıkama](/kars-koltuk-yikama-firmalari) — bölgenin iklimini anlayan firmalar.`,
+      },
+    ],
+    faq: [
+      { q: 'Erzurum\'da kışın koltuk yıkatılır mı?', a: 'Su bazlı yıkama tavsiye edilmez — kurutma 24-48 saat sürer, küf riski var. Kuru temizleme veya Mayıs\'ı bekleyin.' },
+      { q: 'Soba koltuğu ne kadar etkiler?', a: 'Kurutma (%15-25 nem), is birikimi ve koku — 7 aylık kış boyunca sürekli. Koltuğu sobaya en az 2 metre uzak tutun.' },
+      { q: 'Soğuk iklimde koltuk kaç yıl dayanır?', a: 'Bakımsız: 5-7 yıl. Düzenli bakımla: 8-12 yıl. Fark nemlendirici, örtü kullanımı ve yılda 1-2 profesyonel yıkama.' },
+    ],
+    relatedSlugs: ['koltuk-yikama-fiyatlari', 'erzurum-hali-yikama', 'sivas-hali-yikama'],
+  },
+
+  // ══════════════ VAN-KAHRAMANMARAŞ — BÖLGESEL KOLTUK REHBERİ ══════════════
+  {
+    slug: 'van-kahramanmaras-koltuk-yikama-buyuk-aile',
+    city: 'Van',
+    citySlug: 'van',
+    title: 'Van ve Kahramanmaraş\'ta Koltuk Yıkama: Büyük Aile, Yoğun Kullanım ve Pratik Çözümler',
+    metaTitle: 'Van Koltuk Yıkama 2026 | Büyük Aile, Yoğun Kullanım, Ekonomik Bakım',
+    metaDescription: 'Van ve Kahramanmaraş koltuk yıkama rehberi. Kalabalık ailelerde koltuk bakımı, çocuk lekesi, ekonomik yıkama stratejileri.',
+    datePublished: '2026-03-22',
+    dateModified: '2026-03-22',
+    category: 'koltuk-yikama',
+    readingTime: 8,
+    heroEmoji: '👨‍👩‍👧‍👦',
+    intro: 'Van ve Kahramanmaraş Türkiye\'nin en kalabalık aile yapısına sahip şehirlerinden. 5-7 kişilik aileler norm, 8-10 kişilik aileler yaygın. Çocuk sayısı fazla, misafir trafiği yoğun, koltuk kullanımı günde 12-16 saat. Bu yoğunluk koltuk kumaşını büyükşehirdeki bir koltuğun 3 katı hızında yıpratır. Bu yazıda kalabalık ailelerin koltuk bakım stratejilerini, çocuk lekelerine çözümleri ve bütçe dostu yıkama planlamasını anlatıyoruz.',
+    sections: [
+      {
+        heading: 'Kalabalık Ailenin Koltuğa Etkisi — Rakamlarla',
+        content: `Bir koltuk takımının kumaşı belirli bir kullanım kapasitesi için tasarlanmıştır. Üretici genellikle 2-4 kişilik ailenin günde 4-6 saat kullanımını baz alır. Ama Van veya Kahramanmaraş\'ta bir koltuk şu gerçeklikle karşılaşır:
+
+**Kullanım yoğunluğu:**
+6-8 kişi, günde 12-16 saat aktif kullanım. TV izleme, yemek yeme, ders çalışma, misafir ağırlama — hepsi koltuğun üzerinde. Bu üreticinin öngördüğünün 3-4 katı kullanım demek.
+
+**Çocuk faktörü:**
+3-4 çocuklu ailede koltuk aynı zamanda oyun alanıdır. Zıplama (yay ve iç dolgu hasarı), yemek-içecek döküntüsü (leke), boya-kalem (kalıcı leke), ıslak el ve ayak (nem hasarı). Bir çocuğun koltuğa 1 yılda verdiği yıpranma yetişkinin 3 yılına eşdeğer.
+
+**Ne yapmalı?**
+Koltuk alırken dayanıklı kumaş tercih edin — microfiber ve polyester karışımı en dayanıklı seçenek. Kadife, süet ve keten kalabalık aile için doğru tercih değil. Koyu renkler açık renklere göre lekeyi daha iyi gizler — ama bu temiz olduğu anlamına gelmez.
+
+Yıkama sıklığını artırın — kalabalık ailede yılda 2-3 profesyonel yıkama standart olmalı. [Van koltuk yıkama](/van-koltuk-yikama-firmalari) ve [Kahramanmaraş koltuk yıkama](/kahramanmaras-koltuk-yikama-firmalari) firmalarıyla yıllık plan yapın.`,
+      },
+      {
+        heading: 'Çocuk Lekesi Ansiklopedisi — Hızlı Müdahale',
+        content: `Çocuklu evde hangi lekenin ne zaman geleceğini bilemezsiniz. Ama en yaygın lekeleri ve acil müdahale yöntemlerini bilmek koltuğunuzu kurtarır.
+
+**Süt / Mama:**
+Protein bazlı leke. SICAK SU KULLANMAYIN — proteini pişirir, kalıcı hale getirir. Soğuk su + beyaz kağıt havluyla bastırarak emin. 10 dakika içinde müdahale edilirse %90 çıkar.
+
+**Meyve suyu / Çay:**
+Renk bırakan sıvı lekeler. Hemen soğuk su ile seyreltip bastırarak emin. Kurumaya bırakmayın — kuruyan meyve suyu lekesi profesyonel işlem gerektirir.
+
+**Çikolata / Dondurma:**
+Yağ + şeker + renk üçlüsü. Önce kaşıkla fazlasını sıyırın. Soğuk su + bulaşık deterjanı (1-2 damla) ile bastırarak emin. Çikolata sıcakla erir ve yayılır — soğukta dondurun ve kazıyın.
+
+**Boya / Keçeli kalem:**
+En zorlu çocuk lekesi. Alkol bazlı çözücü (el dezenfektanı işe yarar) pamukla lekeye hafifçe vurun — ovalamayın. Ama çoğu keçeli kalem lekesi profesyonel işlem gerektirir. Çocukların koltukta boya yapmasını engellemek en iyi strateji.
+
+**Kusmuk:**
+Hemen kaşıkla kaldırın, soğuk suyla durulayın. Karbonat serpin — kokuyu emer. Profesyonel yıkama gerektiğinde firmaya "kusmuk lekesi" deyin — enzim bazlı özel işlem uygulanır.
+
+Acil durumlarda [Van koltuk yıkama](/van-koltuk-yikama-firmalari) firmalarından hızlı müdahale isteyin.`,
+      },
+      {
+        heading: 'Bütçe Dostu Koltuk Bakım Planı',
+        content: `Kalabalık ailede her masraf hesaplanır. Koltuk yıkama masrafını minimumda tutarken maksimum hijyeni sağlamak mümkün:
+
+**Yıllık plan yapın:**
+Yılda 2-3 yıkamayı önceden planlayın. Firmalarla yıllık anlaşma yapan müşterilere çoğu firma indirim uygular. Bayram öncesi dönemler yoğun — 2-3 hafta önceden randevu alın. Son dakika randevularında fiyat daha yüksek olabilir.
+
+**Ara dönem ev bakımı:**
+Her profesyonel yıkama arasında ev bakımıyla idare edin. Haftalık süpürme (10 dk), aylık karbonat uygulaması (15 dk), anlık leke müdahalesi (5 dk). Bu basit rutin profesyonel yıkamalar arasındaki süreyi rahatça uzatır.
+
+**Koltuk kılıfı yatırımı:**
+Yıkanabilir koltuk kılıfı ilk masraf olarak 500-1.500 TL tutabilir ama koltuk ömrünü 3-5 yıl uzatır ve yıkama sıklığını azaltır. Kılıfları çamaşır makinesinde yıkayabilirsiniz — koltuk yıkama masrafından tasarruf.
+
+**Çocuk köşesi stratejisi:**
+Oturma odasında çocuklar için ayrı bir alan belirleyin — yer minderi veya puf. Yemek-içecek bu alanda tüketilsin. Koltuk takımı misafir ve akşam TV zamanı için korunsun. Bu kural hem koltuğu korur hem çocuklara düzen öğretir.
+
+[Van koltuk yıkama](/van-koltuk-yikama-firmalari), [Kahramanmaraş koltuk yıkama](/kahramanmaras-koltuk-yikama-firmalari) — kalabalık ailenin bütçesine uygun çözümler.`,
+      },
+    ],
+    faq: [
+      { q: 'Kalabalık ailede koltuk kaç yılda değiştirilmeli?', a: 'Bakımsız: 3-5 yıl. Düzenli bakımla: 7-10 yıl. Kılıf kullanımı ömrü 2-3 yıl uzatır.' },
+      { q: 'Çocuk lekesi hemen müdahale edilmezse ne olur?', a: 'Kuruyan leke kalıcı hale gelir. İlk 5-10 dakika altın süre — soğuk su + bastırma ile çoğu leke kurtarılır.' },
+      { q: 'Koltuk kılıfı hijyenik mi?', a: 'Evet, düzenli yıkandığı sürece. Kılıf koltuğa ter, kir ve lekenin ulaşmasını önler. Haftada 1 makine yıkama yeterli.' },
+    ],
+    relatedSlugs: ['koltuk-yikama-fiyatlari', 'van-hali-yikama', 'kahramanmaras-hali-yikama'],
+  },
+
+  // ══════════════ ÇANAKKALE-EDİRNE — TRAKYA RÜZGARI ══════════════
+  {
+    slug: 'canakkale-edirne-koltuk-yikama-trakya-ruzgari',
+    city: 'Çanakkale',
+    citySlug: 'canakkale',
+    title: 'Çanakkale ve Edirne\'de Koltuk Yıkama: Poyraz, Lodos ve Trakya\'nın Dört Mevsim Rüzgârı',
+    metaTitle: 'Çanakkale Koltuk Yıkama 2026 | Rüzgârlı İklim, Toz, Mevsimsel Bakım',
+    metaDescription: 'Çanakkale ve Edirne koltuk yıkama rehberi. Trakya rüzgârının ev içi toza etkisi, mevsimsel bakım takvimi, kurutma stratejileri.',
+    datePublished: '2026-03-22',
+    dateModified: '2026-03-22',
+    category: 'koltuk-yikama',
+    readingTime: 7,
+    heroEmoji: '💨',
+    intro: 'Çanakkale ve Edirne, Türkiye\'nin en rüzgârlı şehirleri arasındadır. Çanakkale Boğazı\'ndan geçen rüzgâr ve Trakya\'nın açık ovalarında hız kazanan poyraz yılın 300 gününde eser. Bu sürekli rüzgâr dışarıda enerji kaynağı, içeride ise toz kaynağıdır. Pencere açtığınızda evinize giren rüzgâr beraberinde tarım tozu, polen ve deniz tuzu taşır — ve bunların büyük kısmı koltuğunuzun kumaşında birikir.',
+    sections: [
+      {
+        heading: 'Rüzgârlı Şehirde Ev İçi Toz Gerçeği',
+        content: `Çanakkale ve Edirne\'de pencere açmak rüzgâr demektir. Rüzgârsız gün nadirdir. Ve her rüzgâr beraberinde partikül taşır.
+
+**Poyraz (Kuzeydoğu):**
+Kuru, soğuk, tarım tozu taşır. Trakya\'nın ayçiçeği ve buğday tarlalarından kalkan ince toprak partikülleri evlere girer. Kış aylarında daha sık eser.
+
+**Lodos (Güneybatı):**
+Sıcak, nemli, deniz tuzu taşır. Çanakkale\'de lodos günlerinde pencere açarsanız koltuk yüzeyinde tuz kristalleri birikir. Lodos ayrıca baş ağrısı yapar ama koltuğunuza da iyi gelmez.
+
+**Koruma stratejisi:**
+Pencere teli yetersiz — toz partiküllerini filtrelemez. Pencere filtresi (polen filtresi) kullanın veya rüzgârlı günlerde koltuk tarafındaki pencereyi kapalı tutun. Çapraz havalandırmayı rüzgâr düştüğünde yapın.
+
+Koltuk süpürme sıklığını artırın — rüzgârlı bölgelerde haftada 2-3 kez süpürme normal. İstanbul\'da haftada 1 yeterli — burada değil.
+
+[Çanakkale koltuk yıkama](/canakkale-koltuk-yikama-firmalari) ve [Edirne koltuk yıkama](/edirne-koltuk-yikama-firmalari) firmalarına bölgenin rüzgâr gerçeğini belirtin.`,
+      },
+      {
+        heading: 'Trakya\'da Koltuk Bakım Takvimi',
+        content: `Trakya\'nın dört mevsimi belirgin — her mevsimin koltuk bakımı farklı:
+
+**İlkbahar (Mart-Mayıs):**
+Polen sezonu. Çiçek açan ayçiçeği, çimen ve ağaç polenleri rüzgârla eve girer. Alerji hastaları için en zorlu dönem. Koltuk yüzeyinde polen birikimi yoğun. Nisan sonunda profesyonel yıkama — polen birikimini temizler.
+
+**Yaz (Haziran-Ağustos):**
+En iyi koltuk yıkama dönemi. Hava sıcak, kurutma hızlı. Rüzgâr devam eder ama nemli lodos daha sık — tuz birikimi artar. Temmuz\'da bir yıkama daha planlanabilir.
+
+**Sonbahar (Eylül-Kasım):**
+Hasat dönemi — tarlalardan kalkan toz zirve. Ekim\'de profesyonel yıkama yaptırın — yaz + hasat birikimini temizleyin. Kasım\'da soğuklar başlar, kış hazırlığı.
+
+**Kış (Aralık-Şubat):**
+Poyraz hakim. Soğuk ve kuru. Koltuk yıkama zor — kurutma uzun sürer. Mümkünse bahara bırakın. Zorunluysa kuru temizleme tercih edin.
+
+[Çanakkale koltuk yıkama](/canakkale-koltuk-yikama-firmalari), [Edirne koltuk yıkama](/edirne-koltuk-yikama-firmalari) — mevsim bilincli firmalar.`,
+      },
+      {
+        heading: 'Tarihi Evlerde Koltuk Bakımı',
+        content: `Edirne ve Çanakkale\'de tarihi evler ve eski yapılar yaygındır. Bu evlerin yüksek tavanları, ahşap döşemeleri ve doğal havalandırma sistemleri modern apartmanlardan farklı bir iç ortam yaratır.
+
+**Yüksek tavan avantajı:**
+Hava sirkülasyonu daha iyi — koltuk kumaşı daha kolay nefes alır. Yıkama sonrası kurutma da daha hızlı. Ama dezavantajı: tavan yüksekliği ısıtma maliyetini artırır ve soba/kalorifer daha güçlü çalışır — bu da koltuk kurumasına yol açar.
+
+**Ahşap döşeme ve nem:**
+Ahşap zeminler nemi emer ve bırakır — beton kadar sert bir nem dengesi yaratmaz. Bu koltuk kumaşı için daha sağlıklı bir ortam demek. Ama ahşap zemin koltuk yıkama sırasında suya hassas — firmanın zemin koruması yapması şart.
+
+**Eski ev kokusu:**
+Tarihi evlerde duvarlar, döşemeler ve hatta tavanlar yıllardır koku biriktirmiştir. Bu koku koltuğa da siner. Profesyonel koltuk yıkama bu kokuyu kumaştan alır ama ortam kokusu devam ediyorsa tekrar siner. Çözüm: önce evi havalandırın ve gerekirse duvar boyası yenileyin, sonra koltuğu yıkatın.
+
+[Edirne koltuk yıkama](/edirne-koltuk-yikama-firmalari) ve [Çanakkale koltuk yıkama](/canakkale-koltuk-yikama-firmalari) firmalarıyla iletişime geçin.`,
+      },
+    ],
+    faq: [
+      { q: 'Rüzgârlı bölgede koltuk neden çabuk kirlenir?', a: 'Rüzgâr tarım tozu, polen ve deniz tuzu taşır. Pencere açıkken bu partiküller koltuk kumaşına yapışır. Haftada 2-3 kez süpürme gerekir.' },
+      { q: 'Trakya\'da koltuk ne zaman yıkatılmalı?', a: 'İlkbahar (Nisan-Mayıs) ve sonbahar (Ekim) en uygun dönemler. Yaz da iyi ama kış zor.' },
+      { q: 'Deniz tuzu etkisi iç kesimlerde de olur mu?', a: 'Hayır. Tuz etkisi kıyıya 5-10 km mesafede hissedilir. İç kesimlerde (Edirne merkez, Çanakkale Biga) tarım tozu baskın.' },
+    ],
+    relatedSlugs: ['koltuk-yikama-fiyatlari', 'canakkale-hali-yikama', 'edirne-hali-yikama'],
+  },
+
+  // ══════════════ ORDU-GİRESUN-RİZE — KARADENİZ NEMİ ══════════════
+  {
+    slug: 'ordu-giresun-rize-koltuk-yikama-karadeniz-nemi',
+    city: 'Ordu',
+    citySlug: 'ordu',
+    title: 'Ordu, Giresun ve Rize\'de Koltuk Yıkama: Karadeniz Neminin Kumaşa Etkisi ve Çay Lekesi Gerçeği',
+    metaTitle: 'Ordu Koltuk Yıkama 2026 | Karadeniz Nemi, Çay Lekesi, Küf Önleme',
+    metaDescription: 'Ordu, Giresun ve Rize koltuk yıkama rehberi. Karadeniz\'in yüksek neminde koltuk bakımı, çay lekesi çözümleri, küf önleme stratejileri.',
+    datePublished: '2026-03-22',
+    dateModified: '2026-03-22',
+    category: 'koltuk-yikama',
+    readingTime: 8,
+    heroEmoji: '🍵',
+    intro: 'Karadeniz\'in doğu kıyısında yaşamak yeşilin bin bir tonuyla iç içe olmak demek. Ama bu yeşilliğin bedeli Türkiye\'nin en yüksek nem oranı ve en bol yağışıdır. Rize yılda 2.300 mm yağış alır — İstanbul\'un 3 katı. Ordu ve Giresun da benzer. Bu nem evlerin her köşesine siner — koltuğunuz dahil. Ve bir de Karadeniz\'in vazgeçilmez çayı var — günde 10-15 bardak çay içilen bir bölgede koltuk üzerinde çay lekesi kaçınılmaz gerçekliktir.',
+    sections: [
+      {
+        heading: 'Türkiye\'nin En Nemli Bölgesinde Koltuk Bakımı',
+        content: `Karadeniz\'in doğu sahilinde yıllık ortalama nem %75-85 arasında seyreder. Bu nem oranı koltuk kumaşı için ciddi tehdit oluşturur.
+
+**Nem ve küf ilişkisi:**
+%70 üzeri nem + 15°C üzeri sıcaklık + organik yüzey (kumaş) = küf. Karadeniz\'de bu üç koşul yılın 8-9 ayında sağlanıyor. Koltuk kumaşının alt yüzeyi, duvarla temas eden arka kısmı ve yastıkların altı küf için ideal noktalar.
+
+**Küfün ilk belirtisi kokudan gelir:**
+Koltuğa oturduğunuzda hafif küflü bir koku alıyorsanız (ıslak kağıt, ıslak toprak gibi) — kumaşın alt yüzeyini kontrol edin. Koyu lekeler küf başlangıcıdır. Hemen müdahale edin — yayılmadan antifungal temizlik yaptırın.
+
+**Korunma zorunlulukları:**
+Koltukla duvar arasında en az 10 cm boşluk. Özellikle kuzey cephe duvarına asla koltuk yaslamayın — yoğuşma en çok orada olur. Nem alıcı cihaz Karadeniz\'de lüks değil zorunluluk. Oda nemini %50-60\'ta tutmak koltuk ömrünü 3-4 yıl uzatır.
+
+[Ordu koltuk yıkama](/ordu-koltuk-yikama-firmalari), [Giresun koltuk yıkama](/giresun-koltuk-yikama-firmalari), [Rize koltuk yıkama](/rize-koltuk-yikama-firmalari) — antifungal yıkama yapan firmalar.`,
+      },
+      {
+        heading: 'Çay Lekesi — Karadeniz\'in Günlük Gerçeği',
+        content: `Karadeniz\'de çay sadece içecek değil — yaşam biçimidir. Sabah çayı, kuşluk çayı, öğle çayı, ikindi çayı, akşam çayı — günde 10-15 bardak. Ve bu çayların önemli bir kısmı oturma odasında, koltukta oturarak içilir. Koltuk üzerinde çay dökmek kaçınılmazdır — önemli olan doğru müdahale etmek.
+
+**Çay lekesinin kimyası:**
+Çay tanin içerir — doğal bir boyar madde. Tanin kumaşa yapışır ve kuruyunca sarı-kahverengi iz bırakır. Sıcak çay kumaşa döküldüğünde tanin kumaş liflerinin arasına girer — soğuyunca orada kalır.
+
+**Anında müdahale (30 saniye kuralı):**
+Çay döküldüğü anda beyaz kağıt havlu ile BASTIARAK emin — ovalamayın. Sonra soğuk suyla (sıcak değil!) aynı işlemi tekrarlayın. 30 saniye içinde müdahale edilirse çay lekesinin %85\'i çıkar. 5 dakika beklerseniz bu oran %50\'ye düşer. Kuruduktan sonra %20\'ye düşer.
+
+**Eski çay lekeleri için:**
+Sirke + su karışımı (1:3 oranı) lekenin üzerine damlatın, 5 dakika bekletin, bastırarak emin. Çıkmazsa profesyonel firma gerekir.
+
+**Pratik önlem:**
+Çay bardağının altına tabak koyun — basit ama etkili. Çay sehpasına kaymaz altlık koyun. Çocuklara plastik bardak verin — cam bardak devrildiğinde hem leke hem cam kırığı riski var.
+
+[Ordu koltuk yıkama](/ordu-koltuk-yikama-firmalari), [Rize koltuk yıkama](/rize-koltuk-yikama-firmalari) — çay lekesi deneyimli firmalar.`,
+      },
+      {
+        heading: 'Yağmurlu İklimde Koltuk Yıkama Zamanlaması',
+        content: `Karadeniz\'de yağmursuz hafta bulmak zordur. Bu koltuk yıkama sonrası kurutma için ciddi bir engel. Yıkama planlamasını hava durumuna göre yapmak zorunlu.
+
+**En uygun dönem:**
+Temmuz-Ağustos — Karadeniz\'in en kurak dönemi (ama yine de yağmur yağar). 3-4 gün yağmursuz tahmin varsa o pencereyi yakalayın. Kurutma yaz aylarında 6-10 saat.
+
+**Kış aylarında yıkama:**
+Kasım-Mart arası su bazlı yıkama çok riskli — kurutma 24-48 saat sürebilir ve küf oluşur. Bu dönemde sadece kuru temizleme yöntemi güvenli.
+
+**Kurutma taktikleri:**
+Yıkama günü tüm pencereleri açın (yağmur yoksa). 2-3 fan koltuğa doğru çalıştırın. Nem alıcı cihazı yıkama sonrası odaya koyun — kurutma süresini %40 azaltır. Koltuğun altına kuru havlu serin — yerden gelen nemi emer.
+
+**Fındık hasat dönemi notu:**
+Ağustos-Eylül fındık hasadı — Karadeniz\'in en yoğun dönemi. Firmalar da müşteriler de meşgul. Yıkama randevusunu Temmuz\'da alın — Ağustos\'ta firma bulmak zor.
+
+[Ordu koltuk yıkama](/ordu-koltuk-yikama-firmalari), [Giresun koltuk yıkama](/giresun-koltuk-yikama-firmalari), [Rize koltuk yıkama](/rize-koltuk-yikama-firmalari) — Karadeniz iklimine göre plan yapan firmalar.`,
+      },
+    ],
+    faq: [
+      { q: 'Karadeniz\'de koltukta küf oluşur mu?', a: 'Evet, yüksek riskli bölge. %75-85 nem oranıyla küf sporları için ideal ortam. Duvarla koltuk arası boşluk + nem alıcı zorunlu.' },
+      { q: 'Çay lekesi nasıl çıkar?', a: 'İlk 30 saniye kritik. Soğuk su + bastırarak emin. Eski lekeler için sirke-su karışımı veya profesyonel işlem.' },
+      { q: 'Yağmurlu mevsimde koltuk yıkatılır mı?', a: 'Su bazlı yıkama riskli — kurutma çok uzun sürer. Kuru temizleme güvenli alternatif. Yaz aylarını tercih edin.' },
+    ],
+    relatedSlugs: ['koltuk-yikama-fiyatlari', 'ordu-hali-yikama', 'rize-hali-yikama'],
+  },
+
+  // ══════════════ ZONGULDAK-KARABÜK-BARTIN — MADEN İKLİMİ ══════════════
+  {
+    slug: 'zonguldak-karabuk-koltuk-yikama-maden-tozu',
+    city: 'Zonguldak',
+    citySlug: 'zonguldak',
+    title: 'Zonguldak, Karabük ve Bartın\'da Koltuk Yıkama: Maden ve Sanayi Tozuyla Mücadele',
+    metaTitle: 'Zonguldak Koltuk Yıkama 2026 | Maden Tozu, Sanayi Partikülü, Derin Temizlik',
+    metaDescription: 'Zonguldak, Karabük ve Bartın koltuk yıkama rehberi. Maden tozu ve sanayi partiküllerinin koltuğa etkisi, derin temizlik stratejileri.',
+    datePublished: '2026-03-22',
+    dateModified: '2026-03-22',
+    category: 'koltuk-yikama',
+    readingTime: 7,
+    heroEmoji: '⛏️',
+    intro: 'Zonguldak Türkiye\'nin kömür başkenti, Karabük demir-çelik şehri, Bartın ikisinin arasında. Bu üç şehrin ortak noktası havada taşınan endüstriyel partiküllerdir. Maden ocaklarından çıkan kömür tozu, demir-çelik fabrikalarından yayılan metal partikülleri ve bunların bir karışımı ev içine girer, koltuğunuzun kumaşına yapışır. Bu toz normal ev tozundan farklıdır — daha ağır, daha yapışkan ve sağlık açısından daha riskli.',
+    sections: [
+      {
+        heading: 'Endüstriyel Toz — Normal Tozdan Farklı Bir Kategori',
+        content: `Zonguldak ve Karabük\'te ev içi toz analizi yapılsa İstanbul\'daki bir evden çok farklı sonuçlar çıkar:
+
+**Kömür tozu (Zonguldak):**
+Siyah, ince, yapışkan. Kumaşa nüfuz eder ve derinlere iner — yüzey süpürme yetmez. Açık renkli koltukları gri tona boyar. Solunum yoluyla sağlık riski taşır — çocukların koltukta oynarken yüzlerini kumaşa dayaması endişe verici.
+
+**Metal partikülü (Karabük):**
+Demir-çelik fabrikalarından yayılan mikroskobik metal parçacıkları. Normal gözle görünmez ama mıknatıs tutarsanız bazı toz parçacıklarının yapıştığını görebilirsiniz. Metal partikül kumaş liflerini keser — mikro düzeyde aşınmaya yol açar.
+
+**Bartın — karma etki:**
+Hem Zonguldak\'ın kömür hem Karabük\'ün demir etkisini alır. Ayrıca orman bölgesi olması nedeniyle organik partiküller (polen, mantar sporu) de yoğun.
+
+**Profesyonel yıkama farkı:**
+Bu bölgelerde standart koltuk yıkama yetmez. Firmadan "derin temizlik" veya "endüstriyel toz temizliği" isteyin. İki kat durulama gerekir — ilk durulama yüzey tozunu, ikinci durulama kumaş derinindeki partikülleri alır.
+
+[Zonguldak koltuk yıkama](/zonguldak-koltuk-yikama-firmalari), [Karabük koltuk yıkama](/karabuk-koltuk-yikama-firmalari) — endüstriyel toz deneyimli firmalar.`,
+      },
+      {
+        heading: 'Madenci Ailesinde Koltuk Hijyeni',
+        content: `Zonguldak\'ta binlerce aile maden işçisi. Madenden eve dönüş rutini koltuğu doğrudan etkiler.
+
+**Eve giriş protokolü:**
+İş kıyafetlerini girişte çıkarın. Duş alın. Ev kıyafetine geçin. SONRA koltuğa oturun. Bu sıralama koltuk ömrünü ciddi şekilde uzatır. Maden tozu kıyafetlerle koltuğa transfer olur — bir oturuşta günlük ev tozunun bir haftalık birikimi kadar kir aktarılır.
+
+**Çamaşır makinesi ayrımı:**
+İş kıyafetlerini ev kıyafetlerinden ayrı yıkayın. Maden tozu çamaşır makinesinde kalıntı bırakır — aynı makinede yıkanan ev kıyafetleri bu kalıntıyı alır ve koltukla tanıştırır.
+
+**Çocuklar ve risk:**
+Maden tozu solunum hastalıkları riskini artırır. Çocukların koltukta oynaması, kumaşa yüzlerini dayaması — bu hareketler toz partiküllerini solumaya yol açar. Profesyonel koltuk yıkama hijyen meselesidir.
+
+**Yıkama sıklığı:**
+Madenci ailesinde yılda 3-4 kez profesyonel yıkama önerilir — Türkiye ortalamasının (1-2) iki katı. Masraf yüksek görünebilir ama koltuk değişim maliyetinin yarısı bile etmez.
+
+[Zonguldak koltuk yıkama](/zonguldak-koltuk-yikama-firmalari) — madenci ailesinin hijyen ihtiyaçlarını anlayan firmalar.`,
+      },
+    ],
+    faq: [
+      { q: 'Maden tozu koltuktan çıkar mı?', a: 'Profesyonel derin temizlikle evet. Yüzey süpürme yetmez — kömür tozu kumaş liflerinin derinlerine iner. İki kat durulama gerekir.' },
+      { q: 'Karabük\'te metal tozu koltuğa zarar verir mi?', a: 'Evet. Metal partiküller kumaş liflerini mikro düzeyde keser — erken aşınmaya yol açar. Düzenli temizlik bu hasarı yavaşlatır.' },
+      { q: 'Madenci ailesinde koltuk ne sıklıkla yıkatılmalı?', a: 'Yılda 3-4 kez. Eve giriş protokolü (iş kıyafetini girişte çıkarma) bu sıklığı azaltabilir.' },
+    ],
+    relatedSlugs: ['koltuk-yikama-fiyatlari', 'zonguldak-hali-yikama', 'karabuk-hali-yikama'],
+  },
+
+  // ══════════════ ISPARTA-BURDUR — GÖL İKLİMİ VE GÜL ══════════════
+  {
+    slug: 'isparta-burdur-koltuk-yikama-gol-iklimi',
+    city: 'Isparta',
+    citySlug: 'isparta',
+    title: 'Isparta ve Burdur\'da Koltuk Yıkama: Göl Havzası İklimi ve Yüksek Rakımın Etkisi',
+    metaTitle: 'Isparta Koltuk Yıkama 2026 | Göl Havzası Nemi, Yüksek Rakım, Koltuk Bakımı',
+    metaDescription: 'Isparta ve Burdur koltuk yıkama rehberi. Göller bölgesinin iklimi, yüksek rakımda kurutma, gül sezonu ve koltuk bakımı.',
+    datePublished: '2026-03-22',
+    dateModified: '2026-03-22',
+    category: 'koltuk-yikama',
+    readingTime: 7,
+    heroEmoji: '🌹',
+    intro: 'Isparta gülleri ve lavantalarıyla, Burdur gölüyle tanınır. Ama bu iki şehrin koltuk bakımı açısından paylaştığı ortak özellik göl havzası iklimi ve yüksek rakımdır. Isparta 1.050 metre, Burdur 960 metre yükseklikte — bu rakımlar hava basıncını, nem dengesini ve kurutma sürelerini doğrudan etkiler. Göl havzalarının yarattığı mikro iklim ise sabah sisi ve gece çiyi anlamına gelir — pencereniz açıksa bu nem koltuğunuza ulaşır.',
+    sections: [
+      {
+        heading: 'Göl Havzasında Sabah Nemi ve Koltuk',
+        content: `Eğirdir Gölü ve Burdur Gölü çevrelerinde sabah erken saatlerde sis ve yoğun nem oluşur. Bu doğal güzellik evinizin içini de etkiler.
+
+**Sabah rutini:**
+Gece açık kalan pencereden giren nem koltuk kumaşına çöker. Sabah koltuğa oturduğunuzda kumaş hafif nemli hissedebilir. Bu sürekli nem-kuruma döngüsü kumaş liflerini yorar.
+
+**Çözüm basit:**
+Gece pencereleri kapatın veya koltuk tarafındaki pencereyi kapalı tutun. Sabah güneş vurduktan sonra (09:00-10:00) havalandırma yapın — bu saatlerde sis kalkmış, hava kuru. Bu kadar küçük bir alışkanlık değişikliği kumaş ömrünü belirgin şekilde uzatır.
+
+**Göl kıyısı evleri özel not:**
+Eğirdir veya Burdur gölü kıyısında oturuyorsanız nem etkisi şehir merkezinden 2-3 kat yoğun. Nem alıcı cihaz bu konumlarda zorunlu. Koltuğu göle bakan pencereden uzak tutun.
+
+Göl ikliminin etkilerini bilen [Isparta koltuk yıkama](/isparta-koltuk-yikama-firmalari) ve [Burdur koltuk yıkama](/burdur-koltuk-yikama-firmalari) firmalarıyla iletişime geçin.`,
+      },
+      {
+        heading: 'Yüksek Rakımda Kurutma Avantajı',
+        content: `Isparta ve Burdur\'un yüksek rakımı koltuk yıkama sonrası kurutma konusunda şaşırtıcı bir avantaj sağlar.
+
+**Neden hızlı kurur?**
+Yüksek rakımda hava basıncı düşer — suyun buharlaşma noktası düşer. Yani su daha düşük sıcaklıkta buharlaşır. Pratikte bu şu demek: Isparta\'da yıkanan koltuk aynı sıcaklıktaki İstanbul\'daki koltuğa göre %15-20 daha hızlı kurur.
+
+**Güneş etkisi:**
+Yüksek rakımda UV ışınları daha yoğun. Bu kurutma için avantaj ama kumaş rengi için risk. Koltuğu doğrudan güneşe çıkarmayın — gölgede hava sirkülasyonuyla kurutun.
+
+**Kuru hava dikkat noktası:**
+Isparta ve Burdur kışları soğuk ve kuru. Soba kullanan evlerde nem %20\'nin altına düşebilir. Bu deri koltukları çatlatır, kumaş koltukları sertleştirir. Nemlendirici kullanın.
+
+**Gül ve lavanta sezonu (Mayıs-Haziran):**
+Isparta\'nın gül hasadı döneminde hava hafif tatlı kokar — bu hoş. Ama gül poleni de havada yoğun. Alerji hastaları için koltuk süpürme sıklığını bu dönemde artırın.
+
+[Isparta koltuk yıkama](/isparta-koltuk-yikama-firmalari), [Burdur koltuk yıkama](/burdur-koltuk-yikama-firmalari) — bölgenin iklimine hakim firmalar.`,
+      },
+    ],
+    faq: [
+      { q: 'Göl kıyısında koltuk bakımı farklı mı?', a: 'Evet. Sabah sisi ve yoğun nem kumaşı nemlendirir. Gece pencere kapatın, nem alıcı kullanın, koltukla duvar arası boşluk bırakın.' },
+      { q: 'Yüksek rakımda koltuk çabuk kurur mu?', a: 'Evet. Düşük hava basıncı suyun buharlaşmasını hızlandırır — deniz seviyesindeki şehirlere göre %15-20 daha hızlı.' },
+      { q: 'Gül poleni koltuğu etkiler mi?', a: 'Evet. Mayıs-Haziran polen sezonu — alerji hastaları için koltuk süpürme sıklığını artırın.' },
+    ],
+    relatedSlugs: ['koltuk-yikama-fiyatlari', 'isparta-hali-yikama', 'burdur-hali-yikama'],
+  },
+
   ...cityGuides,
 ];
 
