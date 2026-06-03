@@ -1,5 +1,5 @@
 import type { MetadataRoute } from 'next';
-import { API_URL, BRAND_CODE, CITIES } from '@/lib/constants';
+import { API_URL, BRAND_CODE } from '@/lib/constants';
 import { getBrandConfig } from '@/brands';
 import { slugify } from '@/lib/utils';
 import { guides } from './rehber/guides';
@@ -37,7 +37,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${baseUrl}/kullanim-kosullari`, changeFrequency: 'yearly', priority: 0.2 },
   ];
 
-  // ── Kategori ana sayfaları: /turkiye/hali-yikama ──
+  // ── Kategori ana sayfaları: /turkiye/hali-yikama (zengin SEO içerik — her zaman) ──
   for (const cat of CATEGORIES) {
     entries.push({
       url: `${baseUrl}/turkiye/${cat}`,
@@ -45,27 +45,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       changeFrequency: 'weekly',
       priority: 0.9,
     });
-  }
-
-  // ── 81 il landing sayfaları: /sivas, /istanbul ──
-  for (const city of CITIES) {
-    const citySlug = slugify(city);
-    entries.push({
-      url: `${baseUrl}/${citySlug}`,
-      lastModified: now,
-      changeFrequency: 'weekly',
-      priority: 0.7,
-    });
-
-    // ── Şehir+Kategori sayfaları: /sivas-hali-yikama-firmalari ──
-    for (const cat of CATEGORIES) {
-      entries.push({
-        url: `${baseUrl}/${citySlug}-${cat}-firmalari`,
-        lastModified: now,
-        changeFrequency: 'weekly',
-        priority: 0.6,
-      });
-    }
   }
 
   // ── Rehber (Blog) sayfaları: /rehber/{slug} ──
@@ -84,35 +63,67 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     });
   }
 
-  // ── Firma detay sayfaları: /{city}/{category}/{slug} ──
+  // ── Firmalardan türeyen sayfalar ──
+  // SEO: SADECE firması olan il / il+kategori / firma detay sayfaları sitemap'e girer.
+  // Boş il/ilçe/kategori sayfaları (thin/doorway content) sitemap'e ALINMAZ.
   try {
-    const res = await fetch(
-      `${API_URL}/api/mp/companies?pageSize=1000`,
-      {
-        headers: { 'X-Marketplace-Brand': BRAND_CODE },
-        next: { revalidate: 60 },
-      }
-    );
+    const res = await fetch(`${API_URL}/api/mp/companies?pageSize=1000`, {
+      headers: { 'X-Marketplace-Brand': BRAND_CODE },
+      next: { revalidate: 300 },
+    });
     if (res.ok) {
       const data = await res.json();
-      for (const company of (data.items || []) as CompanyItem[]) {
-        const companySlug = company.slug || company.companyId;
-        const citySlug = company.city ? slugify(company.city) : null;
-        // Normalize underscores to hyphens (API returns hali_yikama, we need hali-yikama)
-        const category = (company.categoryKeys?.[0] || 'hali-yikama').replace(/_/g, '-');
+      const companies = (data.items || []) as CompanyItem[];
 
-        if (citySlug) {
-          entries.push({
-            url: `${baseUrl}/${citySlug}/${category}/${companySlug}`,
-            lastModified: now,
-            changeFrequency: 'weekly',
-            priority: 0.8,
-          });
+      const citiesWithFirms = new Set<string>();
+      const cityCategoryWithFirms = new Set<string>(); // "citySlug|category"
+
+      for (const company of companies) {
+        const citySlug = company.city ? slugify(company.city) : null;
+        if (!citySlug) continue;
+
+        citiesWithFirms.add(citySlug);
+        for (const rawKey of company.categoryKeys || []) {
+          const cat = rawKey.replace(/_/g, '-');
+          if (CATEGORIES.includes(cat)) {
+            cityCategoryWithFirms.add(`${citySlug}|${cat}`);
+          }
         }
+
+        // Firma detay sayfası: /{city}/{category}/{slug}
+        const companySlug = company.slug || company.companyId;
+        const category = (company.categoryKeys?.[0] || 'hali-yikama').replace(/_/g, '-');
+        entries.push({
+          url: `${baseUrl}/${citySlug}/${category}/${companySlug}`,
+          lastModified: now,
+          changeFrequency: 'weekly',
+          priority: 0.8,
+        });
+      }
+
+      // İl landing sayfaları: /izmir — sadece firması olanlar
+      for (const citySlug of citiesWithFirms) {
+        entries.push({
+          url: `${baseUrl}/${citySlug}`,
+          lastModified: now,
+          changeFrequency: 'weekly',
+          priority: 0.7,
+        });
+      }
+
+      // İl + kategori sayfaları: /izmir-hali-yikama-firmalari — sadece firması olanlar
+      for (const key of cityCategoryWithFirms) {
+        const [citySlug, cat] = key.split('|');
+        entries.push({
+          url: `${baseUrl}/${citySlug}-${cat}-firmalari`,
+          lastModified: now,
+          changeFrequency: 'weekly',
+          priority: 0.6,
+        });
       }
     }
   } catch {
-    // Continue without company URLs
+    // Continue without company-derived URLs
   }
 
   return entries;

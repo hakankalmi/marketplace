@@ -204,24 +204,30 @@ export async function generateMetadata({
   if (firmalari) {
     const cityName = firmalari.cityName || deslugify(firmalari.citySlug);
     const categoryDisplay = getCategoryDisplayName(firmalari.categorySlug);
+    const districtName = firmalari.districtSlug ? deslugify(firmalari.districtSlug) : undefined;
+    const catId = getCategoryId(firmalari.categorySlug);
+    // SEO: firması olmayan sayfaları dizine ekleme — thin/doorway content cezasını önle
+    const companies = await getCompaniesByCity(cityName, districtName, catId);
+    const robots = companies.length === 0 ? { index: false, follow: true } : undefined;
 
     if (firmalari.districtSlug) {
-      const districtName = deslugify(firmalari.districtSlug);
-      const title = `${districtName}, ${cityName} ${categoryDisplay} Firmaları | ${brand.name}`;
+      const title = `${districtName}, ${cityName} ${categoryDisplay} Firmaları`;
       const description = `${cityName} ${districtName} bölgesinde en iyi ${categoryDisplay.toLowerCase()} firmaları. Fiyat karşılaştırma, gerçek müşteri yorumları. Kolayca sipariş verin.`;
       return {
         title,
         description,
+        robots,
         alternates: { canonical: `/${slug}` },
         openGraph: { title, description, url: `https://${brand.domain}/${slug}` },
       };
     }
 
-    const title = `${cityName} ${categoryDisplay} Firmaları | ${brand.name}`;
+    const title = `${cityName} ${categoryDisplay} Firmaları`;
     const description = `${cityName} şehrinde en iyi ${categoryDisplay.toLowerCase()} firmaları. Fiyat karşılaştırma, gerçek müşteri yorumları. Kolayca sipariş verin.`;
     return {
       title,
       description,
+      robots,
       alternates: { canonical: `/${slug}` },
       openGraph: { title, description, url: `https://${brand.domain}/${slug}` },
     };
@@ -230,14 +236,17 @@ export async function generateMetadata({
   // Normal şehir landing
   const cities = await getCities();
   const cityData = findCityBySlug(cities, slug);
-  if (!cityData) return { title: 'Sayfa Bulunamadı' };
+  if (!cityData) return { title: 'Sayfa Bulunamadı', robots: { index: false, follow: false } };
 
-  const title = `${cityData.city} — ${brand.name}`;
+  // SEO: firması olmayan şehir sayfasını dizine ekleme
+  const companies = await getCompaniesByCity(cityData.city);
+  const title = `${cityData.city} Hizmet Firmaları`;
   const description = `${cityData.city} şehrinde en iyi hizmet firmaları. Fiyatları karşılaştırın, yorumları okuyun, hemen sipariş verin.`;
 
   return {
     title,
     description,
+    robots: companies.length === 0 ? { index: false, follow: true } : undefined,
     alternates: { canonical: `/${slug}` },
     openGraph: { title, description, url: `https://${brand.domain}/${slug}` },
   };

@@ -193,7 +193,7 @@ export async function generateMetadata({
   };
 
   if (isAllTurkey) {
-    const title = `${categoryDisplay} Firmaları — Türkiye Geneli | ${brand.name}`;
+    const title = `${categoryDisplay} Firmaları — Türkiye Geneli`;
     const description = `Türkiye genelinde en iyi ${categoryDisplay.toLowerCase()} firmaları. 81 ilde fiyat karşılaştırma, gerçek müşteri yorumları. Kolayca sipariş verin.`;
     const url = `https://${brand.domain}/${citySlug}/${category}`;
     return {
@@ -207,16 +207,22 @@ export async function generateMetadata({
 
   const cities = await getCities();
   const cityData = findCityBySlug(cities, citySlug);
-  if (!cityData) return { title: 'Sayfa Bulunamadı' };
+  if (!cityData) return { title: 'Sayfa Bulunamadı', robots: { index: false, follow: false } };
 
-  const title = `${cityData.city} ${categoryDisplay} Firmaları | ${brand.name}`;
-  const description = `${cityData.city} şehrinde en iyi ${categoryDisplay.toLowerCase()} firmaları. ${cityData.companyCount} firma, fiyat karşılaştırma, gerçek müşteri yorumları. Kolayca sipariş verin.`;
-  const url = `https://${brand.domain}/${citySlug}/${category}`;
+  // SEO: firması olmayan şehir+kategori sayfasını dizine ekleme — thin/doorway content önle
+  const data = await getCompaniesByCity(cityData.city, getCategoryId(category));
+  const title = `${cityData.city} ${categoryDisplay} Firmaları`;
+  const description = `${cityData.city} şehrinde en iyi ${categoryDisplay.toLowerCase()} firmaları. ${data.totalCount} firma, fiyat karşılaştırma, gerçek müşteri yorumları. Kolayca sipariş verin.`;
+  // Tekilleştirme: slash form (/izmir/hali-yikama) → tire form (/izmir-hali-yikama-firmalari)
+  // Aynı içerik iki URL'de duplicate olmasın diye canonical tek forma sabitlenir.
+  const canonicalPath = `/${citySlug}-${category}-firmalari`;
+  const url = `https://${brand.domain}${canonicalPath}`;
 
   return {
     title,
     description,
-    alternates: { canonical: `/${citySlug}/${category}` },
+    robots: data.totalCount === 0 ? { index: false, follow: true } : undefined,
+    alternates: { canonical: canonicalPath },
     openGraph: { title, description, url, ...ogMeta },
     twitter: { card: 'summary' as const, title, description },
   };
